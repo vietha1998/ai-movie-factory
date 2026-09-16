@@ -1,0 +1,73 @@
+{
+  "project": "LAC_HONG_1288",
+  "series_name": "LẠC HỒNG 1288",
+  "theme": "A_MILITARY_TIME_TRAVEL",
+  "input_mode": "B_NEW_IDEA",
+  "seed_concept": "Đại đội hiện đại xuyên không về Bạch Đằng 1288",
+  "language": "vi",
+  "format": "hybrid_narrator_plus_dialogue",
+  "episodes": 5,
+  "target_runtime": {
+    "per_episode": "38-42min",
+    "spec": "channel_reference/actionchannelai_style.md §19b S40"
+  },
+  "created": "2026-09-16",
+  "stages": {
+    "channel_reference": "DONE",
+    "titles_working": "DONE",
+    "story_dna": "PENDING",
+    "story_bible": "PENDING",
+    "character_bible": "PENDING",
+    "location_bible": "PENDING",
+    "vehicle_bible": "PENDING",
+    "prop_bible": "PENDING",
+    "outline": "PENDING",
+    "full_script": {
+      "ep1": "PENDING",
+      "ep2": "PENDING",
+      "ep3": "PENDING",
+      "ep4": "PENDING",
+      "ep5": "PENDING"
+    },
+    "description": {
+      "ep1": "PENDING",
+      "ep2": "PENDING",
+      "ep3": "PENDING",
+      "ep4": "PENDING",
+      "ep5": "PENDING"
+    },
+    "veo_scenes": {
+      "ep1": "PENDING",
+      "ep2": "PENDING",
+      "ep3": "PENDING",
+      "ep4": "PENDING",
+      "ep5": "PENDING"
+    },
+    "reference_images": "PENDING",
+    "scene_images": "PENDING",
+    "scene_videos": "PENDING",
+    "edit": "PENDING",
+    "titles_final": "PENDING",
+    "thumbnail": "PENDING",
+    "final_qc": "PENDING"
+  },
+  "blockers": [
+    "G-Labs app chưa chạy tại 127.0.0.1:8765",
+    "Master prompt mục N+ chưa nhận",
+    "Template 02 & 04 bị cắt",
+    "CHỜ USER QUYẾT: thị trường Hàn → giữ trận Việt hay đổi sang trận Hàn/quân Hàn?"
+  ],
+  "script_spec": {
+    "parts": 12,
+    "words": "6500-7500",
+    "narration_ratio": 0.7,
+    "shots": 250,
+    "video_clips_8s": "190-210",
+    "still_kenburns": "40-60"
+  },
+  "production_plan": "Làm trọn Tập 1 end-to-end trước để validate format, rồi mới chạy Tập 2–5",
+  "output_language": "ko",
+  "working_doc_language": "vi",
+  "status": "PAUSED",
+  "note": "Tạm dừng 2026-09-16: user chuyển thị trường Hàn (khán giả 50+). Giữ cho kênh Việt sau. Foundation + titles đã có; bible/outline chưa xong (agent bị dừng)."
+}

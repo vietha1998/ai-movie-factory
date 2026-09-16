@@ -1,0 +1,30 @@
+{
+  "project": "SALSU_612",
+  "series_name_ko": "살수 612",
+  "series_name_vi": "SALSU 612 — Đại đội cơ giới Hàn Quốc rơi vào Goguryeo 612",
+  "theme": "A_MILITARY_TIME_TRAVEL",
+  "input_mode": "B_NEW_IDEA",
+  "market": "KR",
+  "audience": "Korean 50+ (남성 중심), 역사 가정 드라마",
+  "output_language": "ko",
+  "working_doc_language": "vi (kèm thuật ngữ/tên tiếng Hàn)",
+  "format": "S40 hybrid narrator + dialogue",
+  "episodes": 5,
+  "target_runtime": {"per_episode": "38-42min", "spec": "channel_reference/actionchannelai_style.md §19b"},
+  "script_spec": {"parts": 12, "words_ko": "narration ~5,000어절 + 대사 120-160줄 (≈ 40분 @ 130어절/분)", "shots": 250, "video_clips_8s": "190-210", "still_kenburns": "40-60"},
+  "production_plan": "Tập 1 end-to-end trước để validate format & chi phí, rồi Tập 2–5.",
+  "created": "2026-09-16",
+  "stages": {
+    "channel_reference": "DONE",
+    "series_foundation": "DONE",
+    "titles_working": "DONE",
+    "story_bible": "PENDING", "character_bible": "PENDING", "location_bible": "PENDING",
+    "vehicle_bible": "PENDING", "prop_bible": "PENDING", "outline": "PENDING",
+    "full_script": {"ep1":"PENDING","ep2":"PENDING","ep3":"PENDING","ep4":"PENDING","ep5":"PENDING"},
+    "description": {"ep1":"PENDING","ep2":"PENDING","ep3":"PENDING","ep4":"PENDING","ep5":"PENDING"},
+    "veo_scenes": {"ep1":"PENDING","ep2":"PENDING","ep3":"PENDING","ep4":"PENDING","ep5":"PENDING"},
+    "reference_images": "PENDING", "scene_images": "PENDING", "scene_videos": "PENDING",
+    "audio": "PENDING", "edit": "PENDING", "titles_final": "PENDING", "thumbnail": "PENDING", "final_qc": "PENDING"
+  },
+  "blockers": ["G-Labs app chưa chạy tại 127.0.0.1:8765", "Master prompt mục N+ chưa nhận", "Template 02 & 04 bị cắt", "Chưa chọn TTS tiếng Hàn (narrator + thoại)"]
+}

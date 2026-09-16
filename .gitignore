@@ -1,0 +1,32 @@
+# ==== BÍ MẬT — không bao giờ commit ====
+config/glabs.env
+*.env
+.env.*
+
+# ==== Binary lớn (tải lại bằng: python3 tools/setup_ffmpeg.py) ====
+tools/bin/
+
+# ==== Media sinh ra bởi pipeline (nặng) ====
+projects/*/05_references/**/*.png
+projects/*/05_references/**/*.jpg
+projects/*/06_scene_images/**/*.png
+projects/*/06_scene_images/**/*.jpg
+projects/*/07_scene_videos/**/*.mp4
+projects/*/08_audio/**/*.mp3
+projects/*/08_audio/**/*.wav
+projects/*/09_edit/**/*.mp4
+projects/*/12_final/**/*.mp4
+output/**/canh/*
+output/**/final_video/*
+!output/**/canh/.gitkeep
+!output/**/final_video/.gitkeep
+
+# ==== Hệ thống / tạm ====
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+venv/
+.claude/settings.local.json
+channel_reference/raw/*.jsonl
