@@ -64,3 +64,12 @@
 ## 2026-09-16 · sau script-writer 3화 v1 (P-38…P-51 của ep3)
 - P-38 PZF 2 (phá 천둥 2, P1) + 1 (P10) → DUYỆT (khớp ledger 12→9). P-40 천둥 3 KHÔNG vượt 압록 (bò 70리/ngày, gửi về tây) → DUYỆT — ledger/outline ep4 không phụ thuộc. P-47 양제 1 SC ở 육합성 3화 → DUYỆT. Combat 30,8 % → chấp nhận; QC có thể đề xuất +1 khối 60 s nếu tìm được chỗ không tăng SC. Narration 4.421 → giữ; TTS đo lại P7.
 - Timeline 3화 D1–D17 (tới 살수 D17) là chuẩn cho ep4/ep5 bảng ngày/đêm (QC chéo kiểm).
+
+## 2026-09-16 · sau QC 4화 (logs/qc_ep4_script.md) → v2
+- ★ Mũ 태오: phương án **B** — giữ beat 3화 (한승우 cầm mũ trống ngàm); sửa 4화 SC_248 [ACTION] + SC_255 N và 1 câu 5화 (dòng ~282) cho khớp: mũ Hàn còn ở đại đội, kính đã mất; 태오 vẫn đội mũ trụ Goguryeo vì mũ Hàn đưa cho xạ thủ mất mũ (hoặc theo câu KO QC đã viết).
+- ★ Cẳng tay 탁발흠 bị chém = **PHẢI** (theo bible derived, ref đã sinh) — sửa 5 chỗ.
+- "이천 년" ×11 → "천사백 년" (612→2026 = 1.414).
+- Timeline: "보름째/보름 남짓" → "열흘째"; SC_103 "삼십 리 밖" dời đúng D5; SC_081 "이틀 전" → "어제"; thêm 1 câu N vòng đuốc đông; SC người trúng tên bụng có SC bị bắn; PZF 3 quả → 2 xạ thủ; 해모루 rời đảo đêm D4 thêm 1 SC/N.
+- DUYỆT đề xuất #1 2-BEAT ×6–8 P7/P10 · #2 bộ đếm 잔탄 08→07→06 overlay khi K2 bắn (ghi [OVERLAY] cho edit) · #3 해모루 bấm radio "한 대장, 여기는 해모루. 나각 부오." trước tù và.
+- Benchmark #5 từ nay ghi 2 số: combat KHỐI / combat THUẦN.
+- Toàn bộ FIX (16) + NOTE ≤1 dòng: áp dụng.
