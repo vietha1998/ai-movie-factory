@@ -1,4 +1,4 @@
-# 살수 612 — 4화 「평양」 대본 v2 (QC-fixed)
+# 살수 612 — 4화 「평양」 대본 v2.1 (QC-fixed; P-53 SC_283–284 이틀→며칠)
 
 > **Runtime mục tiêu:** 40:00 (38–42) · **Tổng shot:** 287 (239 video8s + 48 still_kenburns 8–12 s) — xem bảng thống kê cuối file · **Mid-roll:** 7:00 · 14:00 · 21:00 · 27:30 · **Ngày:** 2026-09-16 · script-writer
 > **v2 (QC-fixed, 2026-09-16):** áp dụng logs/qc_ep4_script.md (1 BLOCK phương án B + 16 FIX + NOTE ≤1 dòng + đề xuất #1/#2/#3) theo decisions.md mục "sau QC 4화 → v2". Không đổi số SC / thời gian / SC ID / open loop / quotes / mid-roll. Nhật ký thay đổi ở phụ lục C-v2. Quy ước mới: `2-BEAT` được đánh dấu trong [ACTION-VI] ở 8 SC trận (P7/P10); `[OVERLAY]` = chữ hiện ở khâu edit (bộ đếm 잔탄 08→07→06).
@@ -1669,12 +1669,12 @@ N: 태오는 무전을 맡았습니다. 걸을 수 없는 사람이 할 수 있�
 ### SC_283 · LOC_008_GOGURYEO_VILLAGE (aerial, đồi bắc — đầu 방진) · lính Tùy · WPN_201 · video8s · 39:16–39:24
 [ACTION-VI] Aerial cao: đầu hình vuông chạm dãy đồi thấp phía bắc; phía trước, qua đồi, một vệt bạc — sông; mưa mù. Máy trượt từ vuông tới vệt bạc.
 [SOUND] gió, mưa, trống rất xa.
-N: 이틀. 우문술은 그렇게 말했습니다. 비가 이틀 더 오면 여울은 여울이 아닐 것이었습니다.
+N: 며칠. 우문술은 그렇게 말했습니다. 비가 며칠 더 오면 여울은 여울이 아닐 것이었습니다.
 
 ### SC_284 · LOC_008_GOGURYEO_VILLAGE (đường về bắc, đầu đoàn) · CHAR_205 · VEH_206, EQP_001 · still_kenburns · 39:24–39:34
 [ACTION-VI] Ảnh: 탁발흠 dẫn kỵ Tiên Ti đi đầu về bắc trong mưa, kính đêm trên ngực, mắt nhìn thẳng; sau hắn, hàng kỵ mũ lông ướt. Ken-burns đẩy vào mắt.
 [SOUND] vó ngựa, mưa.
-N: 앞에는 탁발흠이 있었습니다. 그는 여울 북쪽을 알았습니다. 여울 북쪽은 아직 그를 몰랐습니다. 이틀 뒤면 알게 될 것이었습니다.
+N: 앞에는 탁발흠이 있었습니다. 그는 여울 북쪽을 알았습니다. 여울 북쪽은 아직 그를 몰랐습니다. 며칠 뒤면 알게 될 것이었습니다.
 
 ### SC_285 · LOC_007_SALSU (mặt sông, mưa) · — · — · video8s · 39:34–39:42
 [ACTION-VI] Cận mặt sông: mưa dày đập xuống nước nâu, một cọc gỗ ngập gần hết, lau nghiêng theo dòng; không người. Máy tĩnh.
