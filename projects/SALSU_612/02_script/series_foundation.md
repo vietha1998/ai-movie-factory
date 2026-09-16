@@ -115,6 +115,7 @@ Lịch sử rẽ (outline chọn 1): VD 우중문 bị bắt sống thay vì ch�
 - **Goguryeo**: 사극체 ("~하오/~하시오/~이오/~하게"); vua: "과인", "~하라"; 을지문덕: ngắn, sắc, thỉnh thoảng mỉa.
 - **Tùy**: 사극체 + xưng hô Trung Hoa ("폐하", "짐", "장군"), kiêu → hoang mang → thích nghi.
 - Thoại ≤ 12 어절/câu; ≤ 1 câu/clip 8 s. Tên nhân vật hiện đại gọi bằng cấp bậc ("중대장님", "박 상사").
+- **Thông ngôn (P-11)**: phim quy ước mọi phe nói tiếng Hàn; trong truyện, Tùy ↔ đại đội đối thoại trực tiếp phải qua 해모루 (Hán văn) hoặc cử chỉ — không để lính Hàn và tướng Tùy hiểu nhau tự nhiên.
 - Không hô khẩu hiệu chính trị hiện đại. Không nhắc Bắc Triều Tiên trực tiếp — chỉ "이 땅" (đất này).
 
 ## 8b. XƯNG HÔ LIÊN PHE & BỔ SUNG ĐÃ DUYỆT (2026-09-16, từ character-designer CD-01…13)

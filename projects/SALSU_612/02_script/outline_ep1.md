@@ -86,7 +86,7 @@
 - **Narration/Thoại:** 50/50.
 - **Conflict:** Giữ hay dùng; 오태민 vs 한승우 (lần đầu công khai).
 - **Turning point:** Rule của 한승우 nói ra — trục series.
-- **Tài nguyên giảm (nói thành lời):** Cối 120→118 · kính đêm "나흘치" · kháng sinh 90% · lương → phụ thuộc Goguryeo.
+- **Tài nguyên giảm (nói thành lời):** Cối 120→118 (đăng ký 2) · kính đêm "나흘치" · kháng sinh 90% · lương → phụ thuộc Goguryeo.
 - **Foreshadow:** "나흘치" (2화); rule (4화 P6 lặp).
 - **Open loop:** "그날 밤 열두 개의 야시경이 켜졌습니다. 다음 날 밤엔 여섯 개만 켤 수 있었습니다." / "Đêm ấy 12 kính đêm được bật. Đêm sau chỉ còn bật được 6."
 - **Shot:** 16 (12 video + 4 KB).
@@ -102,7 +102,7 @@
 - **Shot:** 20 (15 video + 5 KB). **→ MID-ROLL 4 tại 27:30** (sau: kính đêm bật — màn hình xanh lục, hàng kỵ binh xa, không thoại).
 
 ## [Phần 10] · Trận đánh quyết định · 「동문 야전」 · **27:30–34:30** · Chức năng: BATTLE (6 phase, 7 phút) — **narrator im 31:30–33:00**
-- **Phase 1 (27:30–28:45) Phục kích bến suối:** Kính đêm xanh: 400 kỵ Tiên Ti lội bến; **cối 6 viên** rơi đúng đăng ký; K3 từ gò; ngựa ngã; đội đầu vỡ. Radio: "천둥 2, 접촉. 안 쫓는다." 
+- **Phase 1 (27:30–28:45) Phục kích bến suối:** Kính đêm xanh: 400 kỵ Tiên Ti lội bến; **cối 8 viên** rơi đúng đăng ký; K3 từ gò; ngựa ngã; đội đầu vỡ. Radio: "천둥 2, 접촉. 안 쫓는다." 
 - **Phase 2 (28:45–30:00) Địch đổi hướng:** Drone #2 thấy **탁발흠 không dồn vào bến** — chia 3: 1 cánh giữ chân K21 bằng tên đốt từ xa, **2 cánh vòng qua gò bắc đánh thẳng đoàn xe bò** đang lên dốc. Narrator 1 câu: "그는 쇠수레를 노리지 않았습니다." 
 - **Phase 3 (30:00–31:30) Sai sót:** 오태민 thấy xe bò bị chém → **phá lệnh**, đưa 천둥 3 lao qua bến → **kẹt bùn bờ đối diện**, xích quay không; kỵ Tiên Ti ném **đuốc** lên xe (탁발흠 nhìn: lửa dính vào lưới ngụy trang — hắn ghi nhớ). Tổ lái kẹt trong xe. 
 - **Phase 4 (31:30–33:00) Tài nguyên & Goguryeo gánh — NARRATOR IM:** Pin kính đêm 백성민 tắt giữa chừng (đổi pin trong bóng tối). 40mm 천둥 2 còn 1 băng. **해모루** dẫn 300 kỵ lao xuống bến, ném dây — **bò của dân + kỵ binh Goguryeo kéo K21 ra khỏi bùn** (hình ảnh chủ đề: tổ tiên kéo máy hiện đại). Cung thủ trên 치 bắn trùm che đoàn xe. 
@@ -111,7 +111,7 @@
 - **Narration/Thoại:** 30/70.
 - **Conflict:** Kế bị địch đọc; 오태민 phá lệnh; hiện đại bị cứu bởi cổ.
 - **Turning point:** Chiến thắng do **cổng mở của 고정수** + bò kéo xe, không do súng.
-- **Tài nguyên giảm:** Cối −6 (112) · 40mm −120 (540) · K3 −600 · pin kính đêm cạn · 4 thương binh mới (tổng 6) · 천둥 3 hỏng bánh chịu nặng.
+- **Tài nguyên giảm:** Cối −8 (110) · 40mm −60 (480) · K3 −600 · pin kính đêm cạn · 4 thương binh mới (tổng 6) · 천둥 3 hỏng bánh chịu nặng.
 - **Enemy adaptation:** Nhắm xe bò thay vì súng; đuốc lên xe (học cho 2화); giữ khoảng cách ngoài tầm.
 - **Payoff:** Red herring P9 (tưởng đánh xe → đánh lương). Cối đăng ký P8.
 - **Open loop:** "삼천 명이 성으로 들어갔습니다. 문은 닫혔습니다. 이제 나갈 길도 닫힌 것입니다." / "3.000 người vào thành. Cổng đóng. Và đường ra cũng đóng."
