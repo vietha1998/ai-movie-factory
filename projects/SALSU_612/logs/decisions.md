@@ -123,3 +123,9 @@
 ## 2026-09-16 · sau VEO 5화
 - 박기철 vết thương = **đùi TRÁI** (bible/ref) — script 5화 v2.2 sửa "bắp chân phải" → "đùi trái" (coordinator sửa trực tiếp).
 - Bản đồ lụa 을지문덕 → PROP_027; cờ hiệu nhỏ 삼족오 → PROP_028 (world-designer v4). 을지문덕 P12 dùng ref false_surrender_ep3 → OK. LOC_007_aftermath_ep5 ref riêng → OK. 20 derived state veo đặt → bible v4.
+
+## 2026-09-16 · sau VEO 3화 — TIỀN KỲ 5 TẬP HOÀN TẤT
+- 한승우 "áo choàng gai" / 박기철 "tay băng D3–D14" trong script 3화 → theo LOCK (veo đã làm); script giữ chữ, ghi proposals cho v3 nếu có vòng sửa sau.
+- Radio cầm tay → EQP_003 (bible v4). PROP_019 ở SC_136/142 → chấp nhận.
+- Mũ ngoại lệ SC_164/250 → OK. SC_124 → editor quyết.
+- Bible v4 (gom tất cả derived/sub-lock do veo đặt ở 2–5화 + PROP_027/028 + EQP_003) → chạy TRƯỚC lô ảnh tập 2; không chặn tập 1.

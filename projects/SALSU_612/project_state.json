@@ -28,57 +28,75 @@
     "series_foundation": "DONE",
     "titles_working": "DONE",
     "story_bible": "DONE",
-    "character_bible": "DONE (LOCKED)",
-    "location_bible": "DONE",
-    "vehicle_bible": "DONE",
-    "prop_bible": "DONE",
+    "character_bible": "DONE v3",
+    "location_bible": "DONE v3",
+    "vehicle_bible": "DONE v3",
+    "prop_bible": "DONE v3",
     "outline": "DONE (ep1-5)",
     "full_script": {
-      "ep1": "DONE v3",
-      "ep2": "v1 → QC",
-      "ep3": "v1 → QC",
-      "ep4": "v1 → QC",
-      "ep5": "v1 → QC"
+      "ep1": "DONE v3.1",
+      "ep2": "DONE v2.1",
+      "ep3": "DONE v2",
+      "ep4": "DONE v2.2",
+      "ep5": "DONE v2.2"
     },
     "description": {
       "ep1": "DONE",
-      "ep2": "PENDING",
-      "ep3": "PENDING",
-      "ep4": "PENDING",
-      "ep5": "PENDING"
+      "ep2": "DONE",
+      "ep3": "DONE",
+      "ep4": "DONE",
+      "ep5": "DONE"
     },
     "veo_scenes": {
-      "ep1": "DONE v1 (291 SC, scenes_ep1.json)",
-      "ep2": "PENDING",
-      "ep3": "PENDING",
-      "ep4": "PENDING",
-      "ep5": "PENDING"
+      "ep1": "DONE",
+      "ep2": "DONE",
+      "ep3": "DONE",
+      "ep4": "DONE",
+      "ep5": "DONE"
     },
     "reference_images": "PENDING",
     "scene_images": "PENDING",
     "scene_videos": "PENDING",
     "audio": "PENDING",
     "edit": "PENDING",
-    "titles_final": "ep1 DONE",
-    "thumbnail": "ep1 spec DONE (ảnh chờ G-Labs)",
+    "titles_final": "DONE 5/5",
+    "thumbnail": "spec DONE 5/5 (ảnh chờ G-Labs)",
     "final_qc": "PENDING",
-    "resource_ledger": "DONE",
+    "resource_ledger": "DONE v3",
     "ref_jobs": {
-      "locations": 19,
-      "vehicles": 25,
-      "props": 16,
-      "characters": 59,
-      "extra_ep1": 8,
-      "total": 131
+      "props/ref_jobs.json": 18,
+      "extra/ref_jobs_ep2_extra.json": 12,
+      "extra/ref_jobs_ep5_extra.json": 19,
+      "extra/ref_jobs_ep3_extra.json": 11,
+      "extra/ref_jobs_ep4_extra.json": 14,
+      "extra/ref_jobs_ep1_extra.json": 7,
+      "locations/ref_jobs.json": 24,
+      "vehicles/ref_jobs.json": 26,
+      "characters/ref_jobs.json": 74
     },
     "qc": {
-      "ep1_script": "DONE (v1 → v3)"
-    }
+      "scripts": "DONE 5/5 (6 BLOCK, 83 FIX, 114 NOTE → all fixed)",
+      "tts_budget": "DONE 5/5 (0 SC vượt)"
+    },
+    "ref_jobs_total": 205
   },
   "blockers": [
-    "G-Labs app chưa chạy tại 127.0.0.1:8765",
-    "Master prompt mục N+ chưa nhận",
-    "Template 02 & 04 bị cắt",
-    "Chưa chọn TTS tiếng Hàn (narrator + thoại)"
+    "G-Labs app chưa chạy tại 127.0.0.1:8765 (cần MAX license, Google account)",
+    "Chưa chọn TTS tiếng Hàn (narrator + thoại)",
+    "Người Hàn bản ngữ soát 조사/띄어쓰기 trước khi đăng",
+    "Master prompt mục N+ / template 02 & 04 phần bị cắt (không còn chặn — đã bổ sung ⚙️)"
+  ],
+  "totals": {
+    "scenes": 1441,
+    "runtime_min": 200,
+    "ref_jobs": 205
+  },
+  "next": [
+    "GLABS RUN refs (base 131 + extra)",
+    "GLABS RUN scenes ep1 → QC ảnh",
+    "GLABS RUN videos ep1 (chain) → QC video",
+    "TTS narrator + thoại ep1",
+    "tools/assemble.py ghép ep1 (sub cứng KO, overlay 잔탄/chữ, mid-roll marker)",
+    "Bible v4 trước lô ảnh ep2"
   ]
 }

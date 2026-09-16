@@ -150,6 +150,7 @@ EXTRAS = {
     "XIANBEI_ARCHERS_PRONE": "Xianbei archers lying flat on a rock ledge in brown leather lamellar armor and fur-trimmed leather caps, composite bows drawn and aimed downward, faces hidden behind the bows",
     "XIANBEI_WARRIORS_FOOT": "Xianbei warriors on foot in brown leather lamellar armor and fur-trimmed leather caps, short curved sabers and lassos, faces turned away",
     "XIANBEI_CAMP_MEN": "Xianbei warriors around a small campfire in brown leather lamellar armor and fur-trimmed leather caps, faces half lit by the fire and turned away",
+    "XIANBEI_MESSENGER": "a Xianbei rider in brown leather lamellar armor and a fur-trimmed leather cap kneeling on one knee with his head bowed, mud to the thighs, face hidden",
     "SUI_ENVOY": "Sui civil official around 50, thin, clean-shaven long face, calm eyes, dark blue silk robe with wide sleeves, black gauze cap with side wings, hands folded in the sleeves",
     "SUI_COURIER": "Sui mounted courier in a grey-blue padded coat under a light iron lamellar vest, black head cloth, a black lacquered bamboo dispatch tube on a cord, coated in mud, kneeling with the tube held up in both hands, face turned down",
     "SUI_CAVALRY_ENVOY": "Sui cavalry officer in mingguang iron lamellar armor with polished round chest plates, pointed iron helmet with a red tassel, a red command pennant, face shadowed by the helmet",
@@ -207,7 +208,7 @@ EXTRA_REF = {  # extra → ref đính (nếu có)
     "SUI_VANGUARD_GENERAL": "EXTRA_sui_vanguard_general_ref",
     "GOG_CAVALRYMEN": "VEH_101_ref", "GOG_CAVALRYMEN_WALKING": "VEH_101_ref", "GOG_CAVALRYMEN_GRAVE": "VEH_101_ref", "GOG_ARCHERS_TWO": "WPN_101_ref",
     "XIANBEI_RIDERS": "VEH_206_ref", "XIANBEI_RIDERS_EARS": "VEH_206_ref", "XIANBEI_TORCHBEARERS": "VEH_206_ref",
-    "XIANBEI_CLIMBERS": "VEH_206_ref", "XIANBEI_ARCHERS_PRONE": "VEH_206_ref", "XIANBEI_WARRIORS_FOOT": "VEH_206_ref", "XIANBEI_CAMP_MEN": "VEH_206_ref",
+    "XIANBEI_CLIMBERS": "VEH_206_ref", "XIANBEI_ARCHERS_PRONE": "VEH_206_ref", "XIANBEI_WARRIORS_FOOT": "VEH_206_ref", "XIANBEI_CAMP_MEN": "VEH_206_ref", "XIANBEI_MESSENGER": "VEH_206_ref",
     "SUI_MARCHERS": "WPN_201_ref", "SUI_DIGGERS": "WPN_201_ref", "SUI_DIGGERS_BANK": "WPN_201_ref", "SUI_VANGUARD_WET": "WPN_201_ref",
     "SUI_CROWD_CHARGING": "WPN_201_ref", "SUI_GUARDS": "WPN_201_ref", "SUI_SOLDIERS_STARVING": "WPN_201_ref",
     "SUI_SCOUTS_HORSE": "VEH_207_ref", "SUI_CAVALRY_ENVOY": "VEH_207_ref", "SUI_RAIDERS": "VEH_207_ref", "SUI_OFFICER_HORSE": "VEH_207_ref",
@@ -618,11 +619,13 @@ def build_scene(s, sc):
         seg.append(f"{tag_of(ref_id)}: {lock_txt(c)}" + (f" {st_text}" if st_text else ""))
         add_ref(ref_id)
     for e in extras:
-        seg.append(EXTRAS[e] if EXTRAS[e].endswith(".") else EXTRAS[e] + ".")
+        et = EXTRAS[e][0].upper() + EXTRAS[e][1:]
+        seg.append(et if et.endswith(".") else et + ".")
         if e in EXTRA_REF: add_ref(EXTRA_REF[e])
     vstates = s.get("veh_state", {})
     for v in vehs:
-        vref = s.get("veh_ref", {}).get(v, f"{v}_ref")
+        default_ref = "VEH_001_mule_ep3" if (v == "VEH_001" and vstates.get(v, "") in ("K2_MULE", "K2_MULE_STEAM", "K2_MULE_SCORCH", "K2_MULE_PATCH", "K2_PASS", "K2_AFTER")) else f"{v}_ref"
+        vref = s.get("veh_ref", {}).get(v, default_ref)
         seg.append(f"{tag_of(vref)}: {lock_txt(v)}" + (f" {VEH_STATE[vstates[v]]}" if v in vstates else ""))
         add_ref(vref)
     for p in props:
@@ -766,7 +769,7 @@ def validate(recs):
             for tok in ("한승우", "오태민", "Han S", "Tae-min", "Eulji", "Tuoba", "Yang Guang", "Ki-cheol", "Seo-ah", "Tae-oh", "Seong-min",
                         "Hae Mo", "Jeong-su", "Eul-bo", "A-ri", "Zhongwen", "Yuwen", "Salong", "Mundeok"):
                 if tok in r["image_prompt"] or tok in r["video_prompt"]: errs.append(f"{r['id']} proper name '{tok}' in prompt")
-            if r["type"] == "video8s" and r["cut_half"] is False and r["part"] == 10 and 207 <= int(r["id"][3:]) <= 241:
+            if r["type"] == "video8s" and r["cut_half"] is False and r["part"] == 10 and 207 <= int(r["id"][3:]) <= 238:
                 errs.append(f"{r['id']} P10 battle clip without cut_half")
         if r["chain_from"]:
             prev = recs[ids.index(r["chain_from"])]

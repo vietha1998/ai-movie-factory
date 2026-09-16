@@ -1,0 +1,145 @@
+[
+ {
+  "id": "LOC_003_valley_fire_ep3",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 10,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_003_valley_fire",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. The hidden company valley behind the Goguryeo fortress at night in early summer: a narrow valley of green grass and leafed oak scrub with bare earth churned by tracks, two six-wheeled military cargo trucks and a boxy 4x4 command vehicle burning with tall orange flames that light the rocky valley sides, black smoke rising into low cloud, struck olive-green army tents folded on the ground, one K21 infantry fighting vehicle standing apart with its rear ramp open, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_001_plain_rain_ep3",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 7,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_001_plain_road",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A wide road of deep grey mud across a flat green plain in early summer rain, trampled wet grass either side, cart ruts full of water, low grey cloud, no trees, no buildings, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_008_mountain_road_ep3",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 18,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_008_mountain_road",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A narrow mountain road of red-brown mud winding along a green early-summer hillside of pine and young oak, wet ferns and moss on the rocks, low cloud on the ridges, steady drizzle, no buildings, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_008_hill_fort_ep3",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 24,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_008_hill_fort",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A small Goguryeo hill fort on a wooded hilltop at night in rain: a low dry-stacked grey stone wall three to four meters high following the ridge, a single wooden gate under a small roof with torches, a timber watchtower, inside a packed-earth yard with a raised-floor granary on wooden posts, a large brown hemp tent with a wet black three-legged crow banner, long horse lines, pine trees beyond the wall, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_005_south_hill_ep3",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 19,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_005_south_hill",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A rocky outcrop under wet pines on the steep south bank above the river: wet moss and ferns, grey rock, a gap in the pines looking down on a wide grey cobble shoal and the dark green river, the far bank crowded with sagging grey tents in drizzle, mist on the peaks, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_005_sui_tent_ep3",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 13,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_005_sui_tent",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. Interior of a large Sui field tent on the north bank of the river: a wet plank floor, grey felt walls dripping, a folding wooden camp chair, a low black lacquered table with a brush, an ink stone and strips of pale silk, bronze oil lamps, a red and yellow banner, spears of the guard along the walls, rain drumming on the roof, grey daylight from the open flap, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_009_saddle_night_ep3",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 22,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_009_saddle_night",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. The saddle of a mountain pass at night: bare wet rock and short grass, a low ruined dry-stacked Goguryeo stone barrier with a five-meter gap crossing the saddle, a collapsed round stone watch post at its north end, wet blue-grey cliffs rising into low cloud on both sides, thin mist, no light except a few faint red charging LEDs, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_009_outcrop_ep3",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 14,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_009_outcrop_top",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. The flat top of a rocky outcrop ten meters square two hundred meters above a mountain pass saddle at night: bare wet blue-grey rock, a few tufts of grass, a sheer drop on three sides, the cliff continuing up behind, low cloud, the saddle a dark trough far below, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_009_xianbei_camp_ep3",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 10,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_009_xianbei_camp_night",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A Xianbei camp on a high plateau north-west of a mountain pass at night in light rain: a small campfire under a big pine, steppe horses on picket ropes with felt in their ears, wet leather saddles, a hard olive case on the ground, low cloud, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "VEH_001_mule_ep3",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 45,
+  "out_dir": "05_references/vehicles",
+  "used_by_state": "K2_MULE",
+  "body": {
+   "prompt": "Product-style reference photo, three-quarter rear-left view, 16:9. South Korean K2 Black Panther main battle tank, low angular wedge-shaped turret, long 120mm gun with bore evacuator, six twin road wheels per side under thick side skirts, six smoke launchers each side, three-tone green-brown-black camouflage, small white numeral 1 and a small Korean flag on the turret side, black whip antennas Wet mud over the lower half of the hull, cut pine branches over the turret roof, two heavy machine guns, mortar tubes and olive ammunition cans lashed under a net on the engine deck, a green jerrycan and a dark olive 200-liter drum roped to the turret rear, black soot around the muzzle, an extra black whip antenna, one skirt plate missing on the left side. Pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_xianbei_deputy_ref",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 10,
+  "out_dir": "05_references/characters",
+  "used_by_extra": "XIANBEI_DEPUTY",
+  "body": {
+   "prompt": "Character reference sheet, two views side by side: full body and head-and-shoulders, 3:4. Xianbei deputy commander around 30, stocky, round weathered face, thin moustache, single braid, brown leather lamellar armor over a dark felt coat, fur-trimmed leather cap, composite bow and hip quiver, short curved saber, standing, neutral expression, pure white background, even studio lighting, no shadows, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "3:4"
+  }
+ }
+]
