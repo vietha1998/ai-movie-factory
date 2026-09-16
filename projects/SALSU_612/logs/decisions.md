@@ -81,3 +81,13 @@
 - Dầu: phương án **A** (350/300, ledger K2 cuối 2화 = 300; K21 † hạ) + 박기철 nói vì sao chỉ 400 km ("장갑차는 바닥, 트럭은 반, 드럼 하나").
 - Mặt thành bị công = nam + đông-nam → world-designer khóa vào location_bible LOC_002 trước veo-stage.
 - Toàn bộ 11 FIX + NOTE ≤1 dòng: áp dụng. Đề xuất hay-hơn #1–#3: DUYỆT.
+
+## 2026-09-16 · sau QC 5화 (logs/qc_ep5_script.md) → v2
+- ★ BLOCK ID sai: ngựa/kỵ Tùy → tạo **VEH_207** (kỵ binh Tùy — tướng trên ngựa Hán, giáp 명광개); cờ đỏ hiệu lệnh 을지문덕 → **PROP_024**; lựu đạn nhiệt nhôm → **PROP_025**. World-designer thêm vào bible + lock; script v2 thay ID ngay (không chờ bible).
+- ★ Vết thương 해모루 → theo BIBLE (tên dưới xương đòn trái, băng chéo ngực) — dùng câu thay thế QC (SC_234/243/248/255).
+- 신세웅 → "수 후군 장수", giữ tên đúng 1 lần (SC_091, narrator).
+- Nối tiếp 4화: nước 4화 kết 허리 → 5화 mở "허리… 오늘은 가슴" (bỏ "무릎/이레"); K2 vị trí: dời "간밤에 삼백 미터" thành "이틀 전, 삼백 미터" khớp đảo lau 4화 + 1 câu N; 천둥 3 "마흔 날" → "스무 날", "두 달 전" → "한 달 전"; radio 40→15 % thêm nguồn (1 câu 태오 "무전기, 십오 퍼센트. 날마다 말라갑니다.").
+- "총" trong miệng Goguryeo → "쇠" (kể cả quote outline P12 — ghi proposals).
+- Narrator KHÔNG giải thích công nghệ ("테르밋 삼천 도" → bỏ số, giữ hình).
+- DUYỆT hay-hơn: #1 SC_222 thêm N "불보다 사람을 먼저 세었습니다" (Phase 3 = sai lầm thật của 한승우); #2 박기철 nói giới hạn lội 1,2 m → sông làm K2 tắt máy (không phải người); #3 trả 나각 3 hồi bằng 2-BEAT SC_208/211; 양제 có xe 15 ngày không chạm tới khi tin thảm bại.
+- Dầu SC_057: phương án A (khớp ledger 20 km → 300 m cuối). SC_252 → video truy kích 압록 [史] (P-47 DUYỆT). Toàn bộ 16 FIX + NOTE ≤1 dòng: áp dụng.
