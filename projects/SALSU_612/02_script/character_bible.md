@@ -1,4 +1,5 @@
-# 살수 612 — CHARACTER BIBLE (v1 · 2026-09-16)
+# 살수 612 — CHARACTER BIBLE (v3 · 2026-09-16)
+> **v3 (character-designer, sau QC 2–5화):** chỉ thêm/sửa `Bổ sung v3` + `Trạng thái theo tập` + `DERIVED_STATES` theo logs/decisions.md (từ "sau QC 2화"), proposals P-5x, NOTE "bible lệch" qc_ep2–5, bảng ngày/đêm + phụ lục full_script ep2 v2 / ep3 v2 / ep4 v2.1 / ep5 v2. **22 trường, VISUAL_LOCK_EN, REF_SHEET_PROMPT_EN KHÔNG đổi.** Derived hủy (✖, giữ id trong ref_jobs.json với `deprecated: true`, không chạy): CHAR_001_rain_cloak_ep3 · CHAR_102_wall_night_ep4 · CHAR_104_no_cloak_ep3. Derived mới (✔): CHAR_001_rain_ep3 · CHAR_001_river_oil_ep5 · CHAR_001_final_ep5 · CHAR_002_k3_rain_ep3 · CHAR_003_hands_bandaged_ep2 · CHAR_003_crutch_ep5 · CHAR_101_hall_seated_ep4 · CHAR_102_hall_night_ep4 · CHAR_105_plain_robe_ep3 · CHAR_105_bandaged_ep5 · CHAR_106_rain_south_ep3 · CHAR_201_rain_k21_ep5 · CHAR_202_rain_ep5 · CHAR_203_chained_ep5 · CHAR_205_bandaged_ep4 (+ sửa prompt: CHAR_202_defeat_ep5 = bị bắt sống, CHAR_205_final_ep5 = cung slung/mũ đội/băng tay phải, CHAR_205_nvg_ep3 = dây quấn mũ, CHAR_005_* = không patch/chân nẹp/radio, CHAR_107_night_trail_ep4 = liềm không đèn lồng).
 > **STATUS: LOCKED 2026-09-16** — đổi ngoại hình/trang bị phải qua logs/proposals.md.
 
 > Nguồn sự thật: `02_script/series_foundation.md` §4 (nhân vật), §5 (khí tài), §7 (arc), §8 (ngôn ngữ), §9 (visual). File này KHÔNG mâu thuẫn với foundation; điểm cần đổi/bổ sung ghi ở `logs/proposals.md`.
@@ -37,14 +38,16 @@
 | CHAR_204 | 내호아 Lai Huer | ~50 | mũ sắt vành rộng thủy quân; áo choàng dầu; sống mũi dẹt | — |
 | CHAR_205 | 탁발흠 Tuoba Qin | 38 | sẹo dài thái dương→hàm trái; 1 bím tóc dày sau lưng; mũ vành lông cáo; (3화+) kính nhìn đêm trên mũ | duy nhất giáp da + cung |
 
+**Bổ sung v3 §0.2 (identifier thay đổi theo tập — script đã khóa):** 한승우 bao K5 đùi phải + cán mũi tên Goguryeo túi ngực trái (1화 P10→hết) · 오태민 K3 băng dính tên trên báng (3화 P10→hết), kính bảo hộ mất 5화 SC_132 · 박기철 hai tay băng (2화 P8–P12), biển "천둥 3" trên ba lô (3화→hết), nạng giáo gãy (5화 P11–P12) · 서아 bím Goguryeo (4화 P2→hết) · 태오 KHÔNG patch 태극기 vai phải (3화 P11→hết), mũ trụ Goguryeo (4화 P11→hết), radio trên đùi (5화) · 해모루 radio trên giáp (3화 D11→5화 D−3), băng chéo ngực (5화 P11) · 아리 khăn olive (2화 D29→hết; cháy góc 3화 P7→) · 탁발흠 băng đạn rỗng (cuối 2화→), kính đêm trên mũ (3화 D15→), băng cẳng tay PHẢI (4화 D2→), kính vỡ treo cổ + cung slung (5화) · 우중문 bị bắt sống 5화 (ướt, trói) · 우문술 xiềng D+5.
+
 ### 0.3 Bảng hao mòn chung — 천둥 중대 (áp dụng mọi CHAR_001–006 trừ khi ghi khác)
 | 화 | Mốc thời gian | Trạng thái chung | Palette (foundation §9) |
 |---|---|---|---|
 | 1화 요하 | 3/612, ngày 1–5 | Quân phục mới, nếp gấp còn; sáng sương bám; cuối tập bụi vàng mịn trên vai/mũ, môi nứt gió. Cạo râu sạch. | xám-vàng bụi, gió, lạnh |
 | 2화 요동성 | 4–5/612 | Bụi đá xám + tro đen công thành; mồ hôi vệt thái dương; tay áo xắn; râu 1–2 ngày (nước hạn chế). Đêm hỏa công: bồ hóng. | bụi + lửa đêm |
-| 3화 남하 | 6/612, mưa bắt đầu | Áo sẫm nước, bùn tới gối, râu 3–5 ngày, gò má hóp; bắt đầu mang đồ Goguryeo (áo choàng vải thô, dép rơm thay giày hỏng — chỉ 1–2 người). | xanh mưa, xám |
+| 3화 남하 | 6/612, mưa bắt đầu | Áo sẫm nước, bùn tới gối, râu 3–5 ngày, gò má hóp; D4–D8 cả đại đội trên lưng ngựa Goguryeo (K2 chở đồ nặng); 2 lính bỏng 2화 băng kín tay; KHÔNG ai khoác áo choàng Goguryeo (script). | xanh mưa, xám |
 | 4화 평양 | 7/612 đầu, mưa dầm | Ẩn trong lau sậy: mũ bọc lưới + lau, mặt bôi bùn, râu ~1 tuần (사병 cạo dao Goguryeo → không đều), quầng mắt, áo rách vá vải nâu Goguryeo. | xanh mưa, sương sông |
-| 5화 살수 | 7/612 ngày quyết định | Mũ đội lại; bùn tới thắt lưng; máu (của người khác) trên ngực/tay; mưa → cuối: nắng xé mây, bùn khô xám. | mưa + lửa + nắng |
+| 5화 살수 | 7/612 ngày quyết định | Mũ đội lại, **bọc lau + mặt bôi bùn** (P1–P9); bùn tới thắt lưng; máu (của người khác) trên ngực/tay; mưa → cuối: nắng xé mây, bùn khô xám. | mưa + lửa + nắng |
 
 Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đây là identifier series. Râu chỉ mọc từ 2화; không ai để râu dài kiểu Goguryeo.
 
@@ -85,14 +88,20 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Cấp trên trực tiếp của 오태민 (đối trọng "bắn hay ẩn"); tin 박기철 làm "người nói thật"; bảo vệ 장태오 như em út; cử 백성민 làm tai mắt; **đối tác bị 을지문덕 thử rồi mới tin**; giao tiếp Goguryeo qua 해모루; 고정수 tin ông đầu tiên; 탁발흠 là đối thủ cá nhân; KHÔNG gặp trực tiếp 영양왕 (qua 해모루) |
 | Visual identifiers | (1) la bàn dây cổ; (2) 3 kim cương ngực; (3) cằm rãnh mờ; (4) tổ hợp radio vai trái; (5) tư thế đứng thẳng, hai tay chắp sau lưng khi suy nghĩ |
 
+**Bổ sung v3 (không đổi LOCK — theo decisions P-28, K5 5화, script 3–5화)**
+- **Súng ngắn K5 trong bao đùi phải** (15 viên → 0 ở 5화 SC_137–138) — có trong mọi ảnh cảnh từ 1화, không có trên ref gốc.
+- **Mũi tên Goguryeo (PROP_015) rút từ gỗ cổng 1화 P10** giữ trong túi ngực trái suốt series (mũi tên lốp trả 백성민); cử chỉ nhận diện: tay phải chạm túi ngực (4화 SC_0xx, 5화 SC_028/161/165 cùng nút bầu 마개 PROP_024-nút).
+- 3화 P10–P12: tay trái cầm **mũ chiến đấu trống ngàm kính của 태오** từ 석문령 (SC_245/248/285) → 4화 SC_248 đặt cạnh 태오.
+- 5화 P11: gỡ 11 patch 태극기 của tử sĩ bỏ túi ngực (SC_254); Phase 5 thả lựu đạn nhiệt nhôm (PROP_025) vào K2 → **bỏng nhẹ mu bàn tay phải**, băng vải P11–P12.
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
-| 1화 | Sạch → cuối tập bụi vàng mịn; cháy thuốc súng nhẹ trên găng phải sau lần nổ súng đầu. Mũ luôn đội. |
-| 2화 | Bụi đá + tro; băng nhỏ mu bàn tay trái (mảnh đá công thành); tay áo xắn; râu 1 ngày. |
-| 3화 | Mưa: áo sẫm, bùn tới gối, râu 4 ngày, má hóp; **khoác áo choàng vải gai nâu Goguryeo** (고정수 tặng khi rời thành) trùm ngoài áo giáp; mũ đội. |
-| 4화 | **Mũ tháo** (bọc lưới để cạnh); tóc bết, râu 1 tuần; bùn bôi mặt ngụy trang; quầng mắt sâu; tay áo phải rách vá vải nâu. |
-| 5화 | Mũ đội lại (vỏ ướt); bùn tới thắt lưng; máu người khác quệt ngang ngực giáp; mưa. Cuối tập: nắng, mũ cầm tay, tóc ướt, đứng cạnh K2 hết đạn. |
+| 1화 | Sạch → cuối tập bụi vàng mịn; cháy thuốc súng nhẹ trên găng phải sau lần nổ súng đầu; bao K5 đùi phải; **P10+: cán mũi tên Goguryeo lộ ở túi ngực trái**. Mũ luôn đội. |
+| 2화 | D25–D29: bụi đá, đêm vá tường dưới đuốc (bồ hóng tay), băng nhỏ mu bàn tay trái, tay áo xắn, râu 1 ngày. D45 hỏa công: tro đen. D70–D71 (3차 공성): bụi + tro, mồ hôi thái dương, mũ đội. |
+| 3화 | D1 đêm thung lũng: tay cầm lựu đạn nhiệt nhôm trước 천둥 3. D2–D17 mưa: áo sẫm nước, bùn tới gối, râu 3–5 ngày, má hóp, mũ đội vỏ ướt; D4–D8 **trên lưng ngựa Goguryeo**; **KHÔNG áo choàng Goguryeo** (script không có → derived `rain_cloak_ep3` hủy); P10–P12 tay trái cầm mũ trống của 태오. |
+| 4화 | **Mũ tháo suốt P1–P9** (SC_009/194/238): tóc bết bùn, râu ~1 tuần, bùn ngụy trang mặt, tay áo phải rách vá vải nâu; D4 đêm phá vây: máu người khác trên găng; D7 rạng sáng cứu 태오 — đặt mũ trống cạnh cậu; D8 chôn: mũ đội lại, ướt. |
+| 5화 | P1–P9: mũ bọc lau, mặt bùn, mưa, phát băng đạn. P10 Phase 3 (SC_222): **tháo mũ đặt lên cát**, lội nước ngang ngực → **quân phục và mặt loang dầu đen**, tóc bết. Phase 5: thả nhiệt nhôm, lăn khỏi nóc xe → **bỏng nhẹ mu tay phải**. P11: bao K5 rỗng, 11 patch trong túi ngực, băng tay phải. P12: nắng, không mũ, tóc ướt, đứng cạnh K2 cháy đen, chào 을지문덕; "이제 우리는 뭡니까?" |
 
 **Giọng/ngôn ngữ** (foundation §8)
 - 다나까체 chuẩn, âm lượng thấp, câu ≤8 어절. Radio: "천둥 지휘, 전 소대 사격 중지." / "천둥 1, 감명도?"
@@ -108,11 +117,13 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_001_dusty_ep2 | 2화 P3–P10 | ✔ | Fine yellow-grey stone dust and black soot on helmet, shoulders and cheeks, sweat streaks at the temples, sleeves rolled to the elbow, small field bandage on the back of the left hand, one-day stubble. |
-| CHAR_001_rain_cloak_ep3 | 3화 toàn tập | ✔ | Rain-soaked uniform darkened with water, mud caked to the knees, four-day stubble, hollow cheeks, a coarse brown hemp Goguryeo cloak worn over the body armor, helmet on with wet cover. |
-| CHAR_001_reeds_ep4 | 4화 P2–P9 | ✔ | Helmet off, wet matted hair, one-week beard, mud smeared across face as camouflage, dark circles under the eyes, right sleeve torn and patched with brown Goguryeo cloth, uniform wet and muddy. |
-| CHAR_001_muddy_bloody_ep5 | 5화 P3–P11 | ✔ | Helmet on with soaked cover, mud caked to the waist, someone else's blood smeared across the chest armor and gloves, rain running down the face, exhausted eyes, jaw clenched. |
-| CHAR_001_final_ep5 | 5화 P12 | – | Helmet held in one hand, wet hair, mud drying grey on uniform, quiet still face, warm sunlight. |
+| CHAR_001_dusty_ep2 | 2화 D25–D71 (P3–P10) | ✔ | Fine yellow-grey stone dust and black soot on helmet, shoulders and cheeks, sweat streaks at the temples, sleeves rolled to the elbow, small field bandage on the back of the left hand, one-day stubble, black pistol in a thigh holster on the right leg. |
+| CHAR_001_rain_cloak_ep3 | — (HỦY v3: script 3화 không có áo choàng) | ✖ | Rain-soaked uniform darkened with water, mud caked to the knees, four-day stubble, hollow cheeks, a coarse brown hemp Goguryeo cloak worn over the body armor, helmet on with wet cover. |
+| CHAR_001_rain_ep3 | 3화 D2–D17 / 4화 D8 | ✔ | Rain-soaked uniform darkened with water, mud caked to the knees, four-day stubble, hollow cheeks, helmet on with wet cover, black pistol in a thigh holster on the right leg, the shaft of a Goguryeo arrow protruding from the left chest pocket. |
+| CHAR_001_reeds_ep4 | 4화 P1–P9 | ✔ | Helmet off, wet matted hair, one-week beard, mud smeared across face as camouflage, dark circles under the eyes, right sleeve torn and patched with brown Goguryeo cloth, uniform wet and muddy, black pistol in a thigh holster, arrow shaft in the left chest pocket. |
+| CHAR_001_muddy_bloody_ep5 | 5화 P1–P9 | ✔ | Helmet on with soaked cover and reed stalks tucked in the band, mud smeared on the face, mud caked to the waist, someone else's blood smeared across the chest armor and gloves, rain running down the face, exhausted eyes, jaw clenched. |
+| CHAR_001_river_oil_ep5 | 5화 P10 Phase 3–5 (SC_222–228) | ✔ | Helmet off, hair plastered flat, soaked to the chest, uniform and face streaked with the black sheen of fuel oil, water running from the sleeves, exhausted fierce eyes, empty hands. |
+| CHAR_001_final_ep5 | 5화 P11–P12 | ✔ | Helmet off, wet hair, mud drying grey on the uniform, a strip of cloth bandage wrapped around the right hand, empty thigh holster, quiet still face lit by warm sunlight. |
 
 ---
 
@@ -142,14 +153,20 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Phó của 한승우 — cãi công khai, phục tùng khi lệnh chốt; ma sát ngầm với 백성민 (người thận trọng); 장태오 ngưỡng mộ anh; 해모루 nể sức mạnh nhưng thấy anh "trẻ"; 5화 giữ bờ bắc — nơi 탁발흠 đánh vào |
 | Visual identifiers | (1) kính bảo hộ trên mũ; (2) 2 kim cương; (3) tay áo xắn; (4) lông mày rậm thẳng; (5) cầm súng hai tay kể cả khi nói chuyện |
 
+**Bổ sung v3 (không đổi LOCK — script 2–5화)**
+- 2화 D45 hỏa công: **tay áo phải cháy xém** từ P7; D71 tự ý đưa 천둥 2 vòng góc đông-nam (chốt quan sát gò tây P2).
+- 3화 P10 (SC_246/252/278): nhận **K3 của người chết — băng dính vải ghi tên trên báng** (chữ không rõ) → mang cùng/thay K2C1 tới hết 5화 (identifier mới 3–5화).
+- 4화 D7 đêm cứu 태오: **tên sượt bắp tay trái → băng** (nguồn: 5화 SC_009).
+- 5화: kính bảo hộ trên mũ tới **SC_132 → mất trong cận chiến lau sậy**; giữ tuyến bắc; lau tên trên báng K3 bằng khăn (SC_022).
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
 | 1화 | Sạch; sau trận đầu: muội thuốc súng trên hai cẳng tay trần. |
-| 2화 | Tro đen, mồ hôi; **tay áo phải cháy xém** (đêm hỏa công, anh lao vào kéo phuy dầu); râu 2 ngày. |
-| 3화 | Mưa, bùn; râu 4 ngày; kính bảo hộ vẫn trên mũ, kính mờ nước. |
-| 4화 | **Mũ tháo**, tóc ướt; mặt căng, môi nứt chảy máu; bùn ngụy trang; tay áo rách hẳn, cẳng tay bầm. |
-| 5화 | Bùn + máu trên hai cẳng tay; **băng quấn bắp tay trái** (tên sượt); **kính bảo hộ mất** (vỡ trong cận chiến) → identifier thay bằng băng tay; mũ đội, quai không cài. |
+| 2화 | D25–D29 bụi; D25 ở chốt quan sát gò tây. D45 hỏa công: **tay áo phải cháy xém ở cổ tay**, bồ hóng, mồ hôi. D71 3차 공성: tro, mồ hôi, trong khoang 천둥 2 rồi trên bộ; râu 2 ngày; kính bảo hộ trên mũ. |
+| 3화 | Mưa, bùn, râu 4–5 ngày; D4–D8 trên ngựa; kính mờ nước. **P10+ (SC_246): K3 băng dính tên trên vai phải**, K2C1 đeo lưng. |
+| 4화 | P1–P9: mũ tháo, tóc ướt, râu 1 tuần, môi nứt chảy máu, bùn mặt, hai tay áo rách hẳn, cẳng tay bầm; K3 luôn bên người. D7 rạng sáng (SC_198+): **băng bắp tay trái** (tên sượt). |
+| 5화 | Mũ đội, quai không cài, mũ bọc lau; kính bảo hộ trên mũ **tới SC_132 → mất**; K3 trên bao cát; băng bắp tay trái; P8–P10: bùn + máu cẳng tay, nòng K3 đỏ, răng nghiến; P11–P12: ướt, mệt, không kính, nắng. |
 
 **Giọng/ngôn ngữ**
 - 다나까체 to, dứt khoát; với lính dưới quyền đôi lúc 반말 ngắn ("가!", "엎드려!"). Gọi 한승우 "중대장님", 박기철 "박 상사", 백성민 "백 중사".
@@ -165,9 +182,10 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_002_soot_ep2 | 2화 P5–P11 | ✔ | Black soot and stone dust on face and armor, sweat streaks, right sleeve scorched at the cuff, forearms smudged with gunpowder residue, two-day stubble, goggles still on the helmet. |
-| CHAR_002_reeds_ep4 | 4화 P2–P9 | ✔ | Helmet off, wet short hair, one-week beard, split bleeding lip, mud smeared on face, both sleeves torn off at the elbow, bruised forearms, uniform soaked and muddy, tense jaw. |
-| CHAR_002_muddy_bloody_ep5 | 5화 P3–P11 | ✔ | Helmet on with chinstrap hanging loose, goggles missing, blood-soaked field bandage wrapped around the left upper arm, mud and blood on both forearms, rain-soaked uniform, teeth bared. |
+| CHAR_002_soot_ep2 | 2화 D45–D71 (P7–P11) | ✔ | Black soot and stone dust on face and armor, sweat streaks, right sleeve scorched at the cuff, forearms smudged with gunpowder residue, two-day stubble, goggles still on the helmet. |
+| CHAR_002_k3_rain_ep3 | 3화 P10–P12 / 4화 D8 | ✔ | Helmet on with wet cover, rain-soaked uniform, mud to the knees, five-day stubble, right sleeve scorched at the cuff, a K3 light machine gun slung on the right shoulder with a strip of cloth tape wrapped around its stock, goggles on the helmet fogged with water. |
+| CHAR_002_reeds_ep4 | 4화 P1–P9 | ✔ | Helmet off, wet short hair, one-week beard, split bleeding lip, mud smeared on face, both sleeves torn off at the elbow, bruised forearms, uniform soaked and muddy, tense jaw, a K3 light machine gun with cloth tape on the stock held across the body. |
+| CHAR_002_muddy_bloody_ep5 | 5화 P7–P12 (từ SC_132) | ✔ | Helmet on with chinstrap hanging loose and reed stalks in the band, goggles missing, blood-soaked field bandage wrapped around the left upper arm, mud and blood on both forearms, rain-soaked uniform, teeth bared, K3 light machine gun with cloth tape on the stock. |
 
 ---
 
@@ -197,14 +215,19 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Cố vấn "nói thật" cho 한승우; cãi vui với 오태민; thương 태오; **kết bạn với 을보 — hai người thợ giao tiếp bằng tay và kim loại, không cần chung ngôn ngữ** (cặp cross-era quan trọng); 을지문덕 hỏi ông về "쇠수레" |
 | Visual identifiers | (1) mũ lưỡi trai camo; (2) thái dương bạc; (3) giẻ đỏ thắt lưng; (4) găng dầu; (5) sổ tay xanh + bút chì |
 
+**Bổ sung v3 (không đổi LOCK — decisions P-05, script 2–5화)**
+- 2화 D45: lăn phuy #2 tay không → **hai bàn tay băng trắng P8–P12**, lông mày trái cháy xém; D26 kiểm kê với que đo dầu; đọc bảng do 태오 viết hộ.
+- 3화 D1: tháo **biển "천둥 3" (PROP_023)** buộc dây ba lô 3–5화; D12–D13 nung/gò miếng đồng vá ống nước K2 cùng 을보; D4–D8 ngồi đuôi K2.
+- 5화 Phase 3 (SC_216–220): **tên vào đùi trái, không chạm xương** ("다리입니다. 뼈는 아닙니다") → P11–P12 **chống nạng = cán giáo Goguryeo gãy** (không mất chân — P-05), giọng khàn; SC_282 ngồi tháp K2 cháy, đặt biển "3" cạnh số "1".
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
 | 1화 | Sạch nhưng găng đã dầu; ống quần dính bùn cỏ. |
-| 2화 | Bồ hóng đen (dập lửa xe K21 cháy); lông mày trái cháy xém một nửa; râu muối tiêu 2 ngày. |
-| 3화 | Mưa, bùn; **biển kim loại "천둥 3" tháo từ K21 buộc vào ba lô** (identifier từ đây); găng rách. |
-| 4화 | Râu muối tiêu 1 tuần; mũ lưỡi trai ướt nhẹp; ít bùn mặt hơn người khác (ở lại với K2). |
-| 5화 | Bùn tới hông (đẩy K2 lún); dầu + máu trên cẳng tay; cuối tập ngồi trên thân K2 với sổ tay. |
+| 2화 | D26: găng dầu, que đo dầu, sổ tay. D45 hỏa công (P7): mặt bồ hóng, lông mày trái cháy xém một nửa, **hai tay ngâm xô nước**. **P8–P12: hai bàn tay băng trắng, không găng**, đọc bảng 태오 viết hộ. D71: mũ đội (giao tranh), băng tay bẩn tro. |
+| 3화 | Mưa; **biển "천둥 3" buộc dây ba lô** (từ D1); tay hết băng — vết bỏng hồng mu hai bàn tay; găng rách; D4–D8 ngồi đuôi K2; D12 tay dầu + bồ hóng lò (đồng nung); râu muối tiêu 5 ngày; mũ lưỡi trai ướt sũng. |
+| 4화 | Đảo lau: mũ lưỡi trai ướt nhẹp, ít bùn mặt (ở với K2); râu 1 tuần; **sổ tay bọc nilon**; đọc "여섯 발". |
+| 5화 | P3: đọc bảng đếm trên váy xích K2, giọng khàn, sổ bọc nilon. Phase 3: **tên cắm đùi trái**, nằm sau xác ngựa, được kéo lên mô cát. P11–P12: **nạng cán giáo Goguryeo gãy**, ống quần trái cắt, băng đùi dính máu, bùn tới hông, dầu + máu cẳng tay; SC_282 ngồi tháp K2 cháy với biển "3". |
 
 **Giọng/ngôn ngữ**
 - 다나까체 nhưng chậm, ngắt nhịp; hay lặp con số hai lần. Gọi 한승우 "중대장님", lính "야, 태오".
@@ -221,10 +244,12 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_003_soot_ep2 | 2화 P7–P11 | ✔ | Face and gloves blackened with soot from a vehicle fire, left eyebrow half singed, sweat cutting clean lines through the grime, two-day salt-and-pepper stubble, patrol cap pushed back. |
-| CHAR_003_rain_ep3 | 3화 toàn tập | ✔ | Rain-soaked uniform, mud to the knees, torn mechanic gloves, a small painted metal vehicle nameplate tied to his backpack strap, four-day gray stubble, patrol cap dripping. |
-| CHAR_003_muddy_ep5 | 5화 P3–P12 | ✔ | Mud caked to the hips, engine oil and blood on both forearms, soaked patrol cap, week-old gray stubble, exhausted but calm face. |
-| CHAR_003_helmet_combat | 2화/5화 giao tranh | – | Ballistic helmet with camo cover worn instead of the patrol cap, chinstrap fastened. |
+| CHAR_003_soot_ep2 | 2화 D45 (P7) | ✔ | Face and gloves blackened with soot from a vehicle fire, left eyebrow half singed, sweat cutting clean lines through the grime, two-day salt-and-pepper stubble, patrol cap pushed back. |
+| CHAR_003_hands_bandaged_ep2 | 2화 D46–D75 (P8–P12) | ✔ | Both hands wrapped in white field bandages, no gloves, left eyebrow half singed, soot-streaked tired face, patrol cap, red rag in belt, holding a small green notebook awkwardly between bandaged hands. |
+| CHAR_003_rain_ep3 | 3화 toàn tập / 4화 | ✔ | Rain-soaked uniform, mud to the knees, torn mechanic gloves, pink healing burn marks on the backs of both hands, a small painted metal vehicle nameplate with a white "3" tied to his backpack strap, four-day gray stubble, patrol cap dripping. |
+| CHAR_003_muddy_ep5 | 5화 P1–P10 Phase 2 | ✔ | Mud caked to the hips, engine oil and blood on both forearms, soaked patrol cap, week-old gray stubble, exhausted but calm face, the metal vehicle nameplate still tied to the backpack strap. |
+| CHAR_003_crutch_ep5 | 5화 P11–P12 | ✔ | Leaning on a crutch made from a broken Goguryeo spear shaft, left trouser leg cut open with a blood-stained bandage around the thigh, soaked patrol cap, mud to the hips, week-old gray stubble, exhausted calm face, small painted metal vehicle nameplate tied to the backpack strap. |
+| CHAR_003_helmet_combat | 2화 D71 / 5화 giao tranh | – | Ballistic helmet with camo cover worn instead of the patrol cap, chinstrap fastened. |
 
 ---
 
@@ -254,14 +279,20 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | "Chị" của 아리 (dạy nhau: thuốc thảo dược ↔ chữ, băng bó); được 을보 tin; 태오 xem như chị; xung đột đạo đức với 한승우 (thuốc cho ai); 해모루 → kính trọng sau 5화; Goguryeo gọi cô là "의녀" |
 | Visual identifiers | (1) băng chữ thập đỏ tay trái; (2) ba lô quân y lớn; (3) nốt ruồi dưới mắt trái; (4) đèn đội đầu; (5) dáng nhỏ giữa lính to; (4화+) bím tóc Goguryeo |
 
+**Bổ sung v3 (không đổi LOCK — script 2–5화)**
+- 2화 D26 bệnh xá (nỏ Tùy xuyên cửa); D29 SC_104 **quàng khăn olive cho 아리**; D46 băng tay 박기철; P12 **ba lô quân y buộc rổ thảo dược của 을보** (P-47).
+- 3화 SC_191: kim chỉ trong túi quân y — khâu 3 mũi patch 태극기 cho 태오.
+- 4화: **bím Goguryeo từ P2 (SC_024)**, băng chữ thập sờn; D7 nẹp bàn chân 태오 bằng lau, "모르핀은 안 씁니다".
+- 5화 SC_024 trạm cứu thương (mũ đội); Phase 4 → P11 với 해모루: ép quanh cán tên (không rút) → rút tên → băng chéo vai trái–ngực; ống morphine đầu (8→7); đêm: băng cuối, ~25 thương binh.
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
 | 1화 | Sạch; sau cứu dân: máu trên găng nitrile, vài sợi tóc xổ. |
-| 2화 | **Máu khô trên hai tay áo tới khuỷu** (thương binh Goguryeo); mặt tái; búi tóc xổ nửa; mũ tháo trong lều quân y. |
-| 3화 | Mưa; mệt; túi thảo dược xuất hiện; giày ngập bùn; tóc vẫn búi. |
-| 4화 | **Tóc tết bím kiểu Goguryeo buộc dây gai**; mũ tháo; tay áo xắn, cẳng tay có máu khô; băng chữ thập sờn. |
-| 5화 | Quỳ trong bùn bên 해모루: máu tới khuỷu, mưa, bím tóc ướt, băng chữ thập rách một góc; mũ đội (giao tranh bờ bắc). |
+| 2화 | D26 bệnh xá: mũ tháo trong nhà, búi xổ nửa, găng nitrile máu. D45–D46: **máu khô hai tay áo tới khuỷu** (thương binh Goguryeo + bỏng 박기철), mặt tái, kháng sinh 0 (SC_155). P12: rổ thảo dược 을보 buộc ngoài ba lô quân y. |
+| 3화 | Mưa, mệt; túi thảo dược + rổ thuốc; kim chỉ (SC_191); D14–D15 đèo: máu tới khuỷu, bùn; búi tóc còn. |
+| 4화 | **Tóc tết bím Goguryeo buộc dây gai từ P2 (SC_024)**; mũ tháo; băng chữ thập sờn; tay áo xắn, cẳng tay máu khô; D7 quỳ nẹp chân 태오; D7 đêm bên người sắp chết. |
+| 5화 | P2 (SC_024) trạm cứu thương trong lau: **mũ đội**, bím ướt, băng chữ thập rách góc, xếp băng ép. Phase 4 (SC_234+): quỳ trong bùn bên 해모루, máu tới khuỷu, hai tay ép quanh cán tên. P11 (SC_255): rút tên, băng chéo, ống morphine đầu. Đêm: băng cuối. P12: nắng, bím khô bết máu. |
 
 **Giọng/ngôn ngữ**
 - 다나까체 với đồng đội; **해요체** mềm với dân/아리/thương binh; dứt khoát khi cấp cứu.
@@ -277,9 +308,9 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_004_bloody_sleeves_ep2 | 2화 P6–P11 | ✔ | Helmet off, hair bun half undone with loose strands, dried blood on both sleeves up to the elbows and on nitrile gloves, pale tired face, headlamp hanging around the neck. |
-| CHAR_004_braid_ep4 | 4화–5화 | ✔ | Helmet off, hair in a single long Goguryeo-style braid tied with hemp cord, sleeves rolled, dried blood on forearms, small cloth herb pouch at belt, worn red cross armband, wet muddy uniform. |
-| CHAR_004_muddy_bloody_ep5 | 5화 P4–P11 | ✔ | Helmet on with soaked cover, long braid dripping, blood to the elbows, mud on knees and thighs, red cross armband torn at one corner, rain on face, focused expression. |
+| CHAR_004_bloody_sleeves_ep2 | 2화 D26–D75 (P3–P12) | ✔ | Helmet off, hair bun half undone with loose strands, dried blood on both sleeves up to the elbows and on nitrile gloves, pale tired face, headlamp hanging around the neck. |
+| CHAR_004_braid_ep4 | 4화 P2–P12 | ✔ | Helmet off, hair in a single long Goguryeo-style braid tied with hemp cord, sleeves rolled, dried blood on forearms, small cloth herb pouch at belt, worn red cross armband, wet muddy uniform. |
+| CHAR_004_muddy_bloody_ep5 | 5화 P2–P12 | ✔ | Helmet on with soaked cover, long braid dripping, blood to the elbows, mud on knees and thighs, red cross armband torn at one corner, rain on face, focused expression. |
 
 ---
 
@@ -309,14 +340,19 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Em út: 한승우 bảo vệ, 오태민 nạt yêu, 박기철/윤서아 chăm; 백성민 + 아리 cứu; **đối thoại không lời với 탁발흠** qua drone (Tuoba hỏi bằng cử chỉ, cậu không trả lời); 아리 coi là anh |
 | Visual identifiers | (1) controller trên ngực; (2) hộp drone lưng; (3) mặt tròn trẻ con; (4) pin dán số; (5) helmet đẩy ra sau |
 
+**Bổ sung v3 (không đổi LOCK — decisions "sau QC 4화" phương án B, P-53, script 3–5화)**
+- 3화 D14 đêm 석문령 **bị bắt**: mất mũ (mũ Hàn không ngàm kính — 한승우 nhặt mang theo), áo giáp, kính đêm, giày; tóc bị cắt nham nhở trong trại. SC_191 서아 khâu 3 mũi patch 태극기 → SC_262 **탁발흠 giật patch** → **vai phải chỉ còn ô vải sẫm hình chữ nhật, KHÔNG patch, từ 3화 P11 đến hết series**.
+- 4화 D7 cứu về: **bàn chân phải gãy** (sưng đen) → nẹp lau + băng; 저고리 vải gai khoác ngoài quân phục rách; SC_248 mũ Hàn trống ngàm đặt cạnh; **SC_255 (P11) 해모루 đội mũ trụ sắt Goguryeo (không chỏm lông) cho cậu** — mũ Hàn trống nằm bên đùi, sau đưa cho xạ thủ mất mũ.
+- 5화: **trực radio "천둥 지휘"** (tổ hợp PRC-999K trên đùi, pin 15 % → chết SC_178), mũ trụ Goguryeo quá rộng, mắt trái vết bầm mờ, chân nẹp; ngồi hố cát cạnh K2.
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
-| 1화 | Sạch; 4 pin; drone #1 rơi — cậu ôm xác drone gãy cánh. |
-| 2화 | Tro; 2 pin; hộp drone cháy xém một góc. |
-| 3화 | Mưa, bùn; 1 pin; **BỊ BẮT**: tay trói dây gai sau lưng, mũ + áo giáp + giày bị lột, môi rách, mắt trái bầm, chỉ còn áo quân phục rách và tất. |
-| 4화 | Tù binh: như 3화 + bẩn hơn, cổ tay trầy dây trói; sau khi được cứu: **áo 저고리 vải gai Goguryeo khoác ngoài quân phục**, dép rơm. |
-| 5화 | **Đội mũ trụ sắt Goguryeo** (mũ mình bị lấy) + áo giáp mượn của đồng đội tử trận, K2C1 trên tay — hình ảnh "lính hiện đại đội mũ cổ" (→ proposals). Bùn, mưa. |
+| 1화 | Sạch; 4 pin; drone #1 rơi — ôm xác drone gãy cánh. |
+| 2화 | Tro; 2 pin; hộp drone #2 cháy trong khoang 천둥 4 (D45); D29 học chữ với 아리 (SC_105); P12 viết bảng đếm hộ 박기철. |
+| 3화 | Mưa, bùn; 1 pin; D3 drone bay lần cuối (2→1); SC_191 patch được khâu 3 mũi. D14 đêm **BỊ BẮT**: tay trói dây gai sau lưng, mất mũ/giáp/kính/giày, chỉ còn áo quân phục rách + tất, môi rách, mắt trái bầm. D15 (SC_262): **patch 태극기 bị giật — ô vải sẫm trên vai phải**; trói gốc thông trong mưa; D16 trong cũi. |
+| 4화 | D1–D6 tù binh: cũi bờ nam, tóc cắt nham nhở, bẩn hơn, cổ tay trầy dây trói, bàn chân phải sưng đen. D7 cứu về (SC_246–248): nằm trên lau, chân phải nẹp lau + băng, môi nứt, mắt đỏ; mũ Hàn trống đặt cạnh đầu. **P11 (SC_255): 저고리 vải gai khoác ngoài, mũ trụ sắt Goguryeo không chỏm**, ngồi dựa váy xích K2. |
+| 5화 | **Mũ trụ Goguryeo quá rộng**, mắt trái bầm mờ, chân phải nẹp, 저고리 vải gai bỏ (mặc lại quân phục rách + áo giáp mượn — vai phải KHÔNG patch), **tổ hợp radio trên đùi/đầu gối**, ngồi hố cát cạnh K2; mưa, bùn; P12 nắng. |
 
 **Giọng/ngôn ngữ**
 - 다나까체 hồi hộp, hay lặp; báo số. Gọi mọi người bằng cấp bậc + 님. Được gọi "태오야" (박기철/윤서아), "장 일병" (사관).
@@ -332,9 +368,9 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_005_captive_ep3 | 3화 P10–4화 P8 | ✔ | Prisoner: no helmet, no body armor, no boots, torn dirty camo uniform and socks, hands bound behind the back with hemp rope, split lip, bruised swollen left eye, mud on face, frightened but defiant. |
-| CHAR_005_rescued_ep4 | 4화 P9–P12 | – | Rope marks on wrists, coarse hemp Goguryeo jacket worn open over the torn camo uniform, straw sandals, no helmet, exhausted relief. |
-| CHAR_005_goguryeo_helmet_ep5 | 5화 | ✔ | Wearing a Goguryeo iron plate helmet instead of a modern one, borrowed body armor, K2C1 rifle held ready, rain-soaked, mud to the knees, bruise fading on the left eye, determined face. |
+| CHAR_005_captive_ep3 | 3화 P10–P12 / 4화 P1–P8 | ✔ | Prisoner: no helmet, no body armor, no boots, torn dirty camo uniform and socks, a dark rectangular patch of unfaded cloth on the right shoulder where the flag patch was torn off, hands bound behind the back with hemp rope, split lip, bruised swollen left eye, hair hacked short unevenly, mud on face, frightened but defiant. |
+| CHAR_005_rescued_ep4 | 4화 P9–P10 | – | Rope marks on wrists, coarse hemp Goguryeo jacket worn open over the torn camo uniform, right foot splinted with reed stalks and bandage, no helmet, hair hacked unevenly, exhausted relief. |
+| CHAR_005_goguryeo_helmet_ep5 | 4화 P11–P12 / 5화 toàn tập | ✔ | Wearing a plain Goguryeo iron plate helmet without plume, slightly too large, over hacked short hair, borrowed body armor over a torn camo uniform with no flag patch on the right shoulder, a fading bruise on the left eye, right foot splinted with reeds and bandage, a military handheld radio handset in his hands, rain-soaked, mud to the knees, determined face. |
 
 ---
 
@@ -364,14 +400,19 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | **Bạn thực địa với 해모루** — hai trinh sát hiểu nhau không cần nhiều lời; dẫn 아리 và được 아리 dẫn; cứu 태오; ma sát nhẹ với 오태민; 한승우 tin anh tuyệt đối |
 | Visual identifiers | (1) boonie hat; (2) sẹo lông mày trái; (3) khăn lưới ngụy trang; (4) súng có kính ngắm; (5) sơn mặt khi trinh sát |
 
+**Bổ sung v3 (không đổi LOCK — script 3–5화)**
+- 3화: D11 chặn 2 척후 Tùy phía nam; D14 đèo 석문령 dùng kính đêm dẫn đầu; D15 chôn KIA kiểu Goguryeo.
+- 4화 D2 đêm chốt gác: **đánh dao — chém cẳng tay PHẢI 탁발흠** (hắn thoát); D7 rạng sáng cứu 태오 cùng 아리 + 6 bà làng (chó sủa, kính đêm mù sương). Bỏ chi tiết "vòng dây gai cổ tay" (script không có).
+- 5화 SC_026: ở **mô cát thượng lưu** với 해모루 + 300 kỵ + 고구려 부장; P9–P10 dẫn kỵ qua bãi cạn trên lưng ngựa; callsign "수색".
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
 | 1화 | Sạch, sơn mặt xanh-đen 2 vệt; cỏ khô găm khăn ngụy trang. |
-| 2화 | Bụi, sơn mặt trôi loang; râu 2 ngày. |
-| 3화 | Mưa; bùn toàn thân (bò trinh sát); râu 5 ngày; mũ boonie ướt sũng vành cụp. |
-| 4화 | **Đêm cứu 태오**: không mũ, tóc ướt, mặt bôi bùn đen hoàn toàn chỉ hở mắt, dao trên tay, vòng dây gai cổ tay. |
-| 5화 | **Trên lưng ngựa Goguryeo** (yên da, bàn đạp sắt) dẫn kỵ binh qua bãi cạn — boonie hat, khăn ngụy trang, K2C1 đeo chéo; nước tới bụng ngựa (→ proposals). |
+| 2화 | Bụi, sơn mặt trôi loang; râu 2 ngày; D45 hạ 3 kẻ đột nhập trong đêm hỏa công (bồ hóng). |
+| 3화 | Mưa; bùn toàn thân (bò trinh sát); râu 5 ngày; mũ boonie ướt vành cụp; D14 đêm kính đêm gắn mũ boonie (dây quấn), dẫn đầu đèo. |
+| 4화 | Đảo lau: ướt, ống nhòm, đếm ngày; **D2 đêm chốt gác: dao trên tay, mặt bôi bùn đen, không mũ**; D7 rạng sáng cứu 태오 trong sương: như D2 + áo ướt sương. |
+| 5화 | Mô cát thượng lưu (SC_026): **trên lưng ngựa Goguryeo** giữa kỵ binh, boonie hat ướt, khăn ngụy trang, K2C1 đeo chéo, nước tới bụng ngựa; P9–P10 dẫn kỵ qua bãi cạn; P12 nắng. |
 
 **Giọng/ngôn ngữ**
 - 다나까체 tối giản, kiểu điện tín: danh từ + số + thời gian. Gọi 해모루 "말객님" rồi từ 3화 chỉ "해모루" (được phép). Được gọi "백 중사".
@@ -387,8 +428,8 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
 | CHAR_006_facepaint_ep1 | 1화–2화 trinh sát | ✔ | Two diagonal streaks of green and black camouflage face paint across cheeks and forehead, dry yellow grass stalks tucked into the scrim scarf, fine dust on the hat brim. |
-| CHAR_006_night_raid_ep4 | 4화 P8–P9 | ✔ | No hat, wet hair plastered down, entire face blackened with mud camouflage except the eyes, fixed-blade knife in right hand, hemp cord bracelet on left wrist, soaked uniform, crouched posture. |
-| CHAR_006_horseback_ep5 | 5화 P9–P11 | ✔ | Mounted on a Goguryeo warhorse with leather saddle and iron stirrups, boonie hat soaked, scrim scarf, K2C1 rifle slung across the chest, mud and river water to the boots, rain. |
+| CHAR_006_night_raid_ep4 | 4화 D2 đêm (SC_061–075) / D7 rạng sáng (SC_198–249) | ✔ | No hat, wet hair plastered down, entire face blackened with mud camouflage except the eyes, fixed-blade knife in right hand, soaked uniform, crouched posture. |
+| CHAR_006_horseback_ep5 | 5화 P2, P9–P11 | ✔ | Mounted on a Goguryeo warhorse with leather saddle and iron stirrups, boonie hat soaked, scrim scarf, K2C1 rifle slung across the chest, mud and river water to the boots, rain. |
 
 ---
 
@@ -420,14 +461,20 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Phục vụ 영양왕 (kính nhưng giữ ý kiến); trên 해모루 (phó/liên lạc — người ông tin nhất) và 고정수; hiểu 고건무; **đối tác thử thách với 한승우**; để ý 백성민; đối thủ trí tuệ với 우중문 (thơ); 3화 đích thân giả hàng vào trại Tùy |
 | Visual identifiers | (1) râu bạc ngắn; (2) chỏm lông đen cao + 2 lông trắng; (3) ống đựng thư thắt lưng; (4) mắt hẹp sụp; (5) áo lót đỏ nâu lộ dưới giáp |
 
+**Bổ sung v3 (không đổi LOCK — QC 2화 NOTE, P-47, script 3–5화)**
+- 2화: áo choàng đen không chỏm từ **P3 (SC_049)**–P5; D28 lộ diện đại sảnh; **chạm K2 lần 1 (D46, SC_160)**, lần 2 gõ hai ngón lên 천둥 4 cháy (D71, SC_169) — "다음은 강가에서"; D75 vẽ đường trên đất ở lỗ hổng tường.
+- 3화 D9 giả hàng (SC_051–075): **áo lụa đỏ nâu, 조우관 2 lông trắng, không giáp, không vũ khí**, đi bộ vào trại 우중문, viết lụa (필담), không quỳ; 해모루 áo vải nâu cầm cờ trắng đi sau.
+- 4화 D3 đêm nội điện 평양: **ngồi trên chiếu trước bàn thấp, giáp ướt, tóc bạc, không mũ**; D8 trên gò "살수로".
+- 5화: gò nam trong mưa với 기수 cờ đỏ (PROP_024) + 나각수, kiếm cầm thấp; SC_211 hạ kiếm khi nghe 나각 hồi 3; P11 xuống mô cát: xuống ngựa, nhìn K2 cháy 30 m, nhận bát nước đưa cho 우중문 quỳ; D+8 평양 khung cửa mưa "내년에 또 올 것이오".
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
-| 1화 | Không xuất hiện trực tiếp (chỉ nhắc tên / cờ hiệu xa). |
-| 2화 | **Đến thành bằng đường bí mật**: áo choàng đen trùm kín giáp, không lông chỏm, bụi đường; sau đó giáp đủ bộ trên tường thành, tro nhẹ. |
-| 3화 | **Giả hàng**: KHÔNG giáp — áo lụa đỏ nâu, 조우관 lông chim, tay không, đi bộ vào trại Tùy; mưa bụi; sau: giáp, mưa. |
-| 4화 | Giáp trận, mưa dầm, bùn giày, áo choàng ướt; viết thơ trong lều (mũ tháo, tóc bạc búi). |
-| 5화 | Trên gò cát Salsu: mưa, kiếm rút, chỏm lông rủ nước, bùn tới cẳng; cuối: nắng, đứng nhìn sông. |
+| 1화 | Không xuất hiện trực tiếp (nhắc tên / cờ hiệu xa). |
+| 2화 | **P3–P5 (D26–D27)**: áo choàng đen trùm kín, không chỏm, bụi đường, đếm ngón tay trong bóng tường. D28: đại sảnh, giáp đủ bộ. D46: xuống thung lũng giữa 2차 공성, đặt tay lên K2. D71: trên tường nam 3차 공성 (tro, mồ hôi), gõ hai ngón lên xác 천둥 4. D75: vẽ trên đất ở lỗ hổng, mũ đội. |
+| 3화 | **D9 giả hàng**: KHÔNG giáp — áo lụa đỏ nâu, 조우관, tay buông, mưa bụi trên vai; lều 우중문: bút và lụa. D11: lều sơn thành (giáp, mưa, mũ tháo). D15+: cùng 해모루 về phía 평양. |
+| 4화 | D−6…D−1: 7 trận giả thua/ngày trên đồi mưa — giáp ướt, cờ 삼족오. **D3 đêm nội điện: ngồi chiếu, giáp ướt, tóc bạc búi, không mũ**. D5 nhận báo 해모루 trên đồi bắc. D8: trên gò nhìn 방진 rút — "살수로". |
+| 5화 | Gò nam (SC_004/019/020/146): giáp ướt, chỏm lông đen + 2 lông trắng rủ nước, kiếm cầm thấp, mưa xám. SC_211: hạ kiếm. P11 (SC_260+): xuống ngựa lên mô cát — giáp ướt, bùn tới cẳng, không chạm K2, bát nước. D+8 평양: giáp khô, mũ tháo, đứng ở khung cửa nhìn mưa. |
 
 **Giọng/ngôn ngữ**
 - 사극체 **하오체** ("~하오/~시오/~이오"), câu ngắn, sắc, thỉnh thoảng mỉa. Với vua: 합쇼체 "전하". Gọi 한승우 "한 대장" / gọi đại đội "천둥 군사" (→ proposals); gọi xe tăng "쇠수레".
@@ -443,10 +490,11 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_101_cloak_incognito_ep2 | 2화 P4–P5 | ✔ | A plain black wool cloak with hood drawn over the armor hiding the plume, road dust on the hem and boots, helmet plume removed, face half in shadow of the hood. |
-| CHAR_101_false_surrender_ep3 | 3화 P8–P9 | ✔ | No armor: a dark red-brown silk long jacket with black border, wide trousers, a Goguryeo bird-feather court cap with two white feathers, unarmed, empty hands open, light rain on the shoulders. |
-| CHAR_101_salsu_rain_ep5 | 5화 | ✔ | Full armor soaked with rain, plume feathers heavy and dripping, mud to the shins, longsword drawn and held low, water droplets on the beard, eyes fixed on the distance. |
-| CHAR_101_helmet_off_tent | 4화 lều | – | Helmet removed, gray topknot exposed, cloak over shoulders, brush in hand. |
+| CHAR_101_cloak_incognito_ep2 | 2화 P3–P5 (SC_049–077) | ✔ | A plain black wool cloak with hood drawn over the armor hiding the plume, road dust on the hem and boots, helmet plume removed, face half in shadow of the hood. |
+| CHAR_101_false_surrender_ep3 | 3화 P4–P5 (SC_051–075) | ✔ | No armor: a dark red-brown silk long jacket with black border, wide trousers, a Goguryeo bird-feather court cap with two white feathers, unarmed, empty hands open, light rain on the shoulders. |
+| CHAR_101_hall_seated_ep4 | 4화 P6 (SC_103–109) / 3화 D11 lều | ✔ | Helmet removed, gray topknot exposed, armor darkened with rain, seated cross-legged on a woven mat before a low wooden table, hands on knees, face lit warm from one side by oil lamps. |
+| CHAR_101_salsu_rain_ep5 | 5화 P1–P11 | ✔ | Full armor soaked with rain, plume feathers heavy and dripping, mud to the shins, longsword drawn and held low, water droplets on the beard, eyes fixed on the distance. |
+| CHAR_101_helmet_off_tent | 4화 lều / 5화 D+8 | – | Helmet removed, gray topknot exposed, cloak over shoulders, brush in hand. |
 
 ---
 
@@ -476,14 +524,19 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Anh của 고건무; quân chủ của 을지문덕/고정수/해모루; **KHÔNG gặp trực tiếp 한승우** — hỏi qua 해모루 (4화); kết series: bàn giữ hay giải tán "뇌군" |
 | Visual identifiers | (1) 백라관 trắng-vàng; (2) râu cằm dài mảnh; (3) long bào đỏ thẫm; (4) thắt lưng trắng-vàng; (5) mí mắt sụp |
 
+**Bổ sung v3 (không đổi LOCK — QC 4화 NOTE bible lệch, P-34)**
+- 1화 P12: 1 still chân dung nội điện + giọng đọc chiếu.
+- 4화 D3 đêm (SC_103–110): **ngồi ngai trong nội điện** (KHÔNG lên tường thành) — 백라관, long bào đỏ thẫm, **áo choàng đen khoác ngoài**, bút lông viết một dòng, ngón tay nhẫn vàng trên bản đồ da; "답은 네가 듣고 오라". → derived `wall_night_ep4` HỦY, thay `hall_night_ep4`.
+- 5화 D+8 đêm mưa nội điện: hội đồng 뇌군 — ngồi ngai, không quyết.
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
-| 1화 | Cuối tập: thiết triều đêm, ánh đèn dầu, ban chiếu chỉ — trang phục đủ bộ, tĩnh. |
+| 1화 | P12: still chân dung nội điện đêm, đèn dầu, đủ bộ, tĩnh; giọng đọc chiếu "죽어도 지키라". |
 | 2화 | Không xuất hiện (chiếu chỉ được đọc). |
-| 3화 | Không xuất hiện. |
-| 4화 | Bình Nhưỡng: long bào + **áo choàng đen khoác ngoài** khi lên tường thành đêm nhìn lửa thuyền Tùy; mặt có bóng đèn đuốc. |
-| 5화 | Kết: trong điện, nhận tin thắng — không đổi trang phục; nét mặt không cười. |
+| 3화 | Không xuất hiện (을지문덕 viết thư cho vua SC_114). |
+| 4화 | **D3 đêm nội điện: ngồi ngai đen viền vàng, áo choàng đen khoác ngoài long bào**, bút lông, bản đồ da trên bàn thấp, cờ 삼족오 lớn sau ngai; mặt sáng một bên đèn dầu. |
+| 5화 | D+8 đêm mưa nội điện: cùng trang phục, áo choàng đen, ngồi ngai; "이겼다. 그런데 과인은…" — không cười. |
 
 **Giọng/ngôn ngữ**
 - 사극체 vương giả: **"과인"**, 하라체 "~하라/~인가/~하겠는가"; chậm, mỗi câu là một cân nhắc. Gọi 을지문덕 "대장군", 고건무 "아우", đại đội "그 군사들".
@@ -498,8 +551,9 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_102_wall_night_ep4 | 4화 P4, P12 | ✔ | A heavy black wool cloak over the crimson robe, crown unchanged, standing, face lit warm from one side as if by torchlight, faint mist on the shoulders. |
-| CHAR_102_seated_throne | 1화 P12 / 5화 P12 | – | Seated on a red-lacquered wooden throne, hands on knees, edict scroll on a low table. |
+| CHAR_102_wall_night_ep4 | — (HỦY v3: script 4화 vua ở nội điện, không lên tường) | ✖ | A heavy black wool cloak over the crimson robe, crown unchanged, standing, face lit warm from one side as if by torchlight, faint mist on the shoulders. |
+| CHAR_102_hall_night_ep4 | 4화 P6 (SC_103–110) / 5화 P12 (SC_276–280) | ✔ | Seated on a black lacquered throne with gold trim, a heavy black wool cloak over the crimson robe, crown unchanged, a writing brush held in the right hand above a low table, face lit warm from one side by oil lamps, calm heavy-lidded gaze. |
+| CHAR_102_seated_throne | 1화 P12 | – | Seated on the throne, hands on knees, edict scroll on a low table, oil lamp light. |
 
 ---
 
@@ -529,12 +583,16 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Em của 영양왕; ngang hàng chiến lược với 을지문덕; đối thủ trực tiếp của 내호아 (phục kích ngoại thành — thật); nghi 한승우; 해모루 là người truyền tin giữa hai bên |
 | Visual identifiers | (1) chỏm bờm ngựa đỏ ngắn; (2) râu quai nón gọn; (3) khiên tròn; (4) gờ lông mày; (5) giáo dài |
 
+**Bổ sung v3 (không đổi LOCK — script 4–5화)**
+- 4화 D2: trên tháp cổng gỗ (khiên tròn trên lưng); trong chùa gỗ với 500 quân (khiên tay trái, giáo tay phải); D3 phục kích 나곽 — máu, khói; đuổi 내호아 tới thuyền; D3 đêm nội điện: **mặt lem khói, không mũ, quỳ một gối** chào vua.
+- 5화 D+8 nội điện: "쇠를 거두면 저들은 여든 명의 농부입니다." (không "총" — P-51).
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
 | 1–3화 | Không xuất hiện (có thể nhắc tên). |
-| 4화 | **Phục kích ngoại thành**: máu trên lưỡi giáo và cẳng tay, khói, mồ hôi, khiên nứt một mảnh, chỏm đỏ xơ; sau trận: tháo mũ, tóc ướt, mặt lem khói. |
-| 5화 | Kết: tại Bình Nhưỡng cạnh vua, giáp sạch hơn, không mũ. |
+| 4화 | D2: tháp cổng — giáp đủ, khiên trên lưng, mưa; chùa gỗ — khiên trái, giáo phải, mặt tối. D3 **phục kích**: máu trên lưỡi giáo và cẳng tay phải, khói phố chợ, mồ hôi, khiên nứt một mảnh, chỏm đỏ xơ. D3 đêm nội điện: mũ tháo, mặt lem khói, tóc ướt, quỳ một gối. |
+| 5화 | D+8 nội điện đêm mưa: giáp sạch hơn, không mũ, đứng bên vua. |
 
 **Giọng/ngôn ngữ**
 - 하오체 với ngang hàng, **하게체** với thuộc hạ; thẳng, cộc. Với vua: 합쇼체 "전하" — "신". Gọi đại đội "그 쇠수레 무리".
@@ -549,8 +607,8 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_103_ambush_ep4 | 4화 P5–P8 | ✔ | Blood on the spear blade and right forearm, smoke smudges on face and armor, sweat, one plank of the round shield split, red crest frayed, teeth clenched mid-battle. |
-| CHAR_103_helmet_off | 4화 sau trận / 5화 | – | Helmet removed and held at the side, black topknot loosened, smoke-smudged face, calm. |
+| CHAR_103_ambush_ep4 | 4화 P4–P5 (SC_076–093) | ✔ | Blood on the spear blade and right forearm, smoke smudges on face and armor, sweat, one plank of the round shield split, red crest frayed, teeth clenched mid-battle. |
+| CHAR_103_helmet_off | 4화 P6 nội điện / 5화 P12 | – | Helmet removed and held at the side, black topknot loosened and wet, smoke-smudged face, calm. |
 
 ---
 
@@ -580,13 +638,16 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Cấp dưới 을지문덕; **đối tác đầu tiên của 한승우**; "cha" cộng đồng 을보/아리; 2화 chỉ huy phòng thủ cùng đại đội; 3화 tặng 한승우 áo choàng khi rời thành; ở lại giữ thành (không nam hạ) |
 | Visual identifiers | (1) râu rậm muối tiêu; (2) áo choàng len xám; (3) chùm chìa khóa; (4) mũ cầm nách; (5) khăn trán |
 
+**Bổ sung v3 (không đổi LOCK — P-47, script 2화; 3화 KHÔNG xuất hiện)**
+- 2화: D25 tường nam "탑이 성벽보다 높소"; D25 đêm vá tường dưới đuốc; **băng trán từ P4 (D27, 1차 공성)**; D71 3차 공성 cầm **giáo dài** trên tường nam; "황제가 눈치챘소" nói với 한승우 (을지문덕 đứng sau).
+- 3화–5화: không xuất hiện (nhắc "요동성은 아직 서 있소"); derived `no_cloak_ep3` HỦY; chi tiết "tặng áo choàng cho 한승우" bỏ.
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
-| 1화 | Bụi đường, áo choàng xám, đón dân chạy nạn ở cổng 옹성; đuốc. |
-| 2화 | **Vây thành**: bụi đá, tro đuốc, **băng vải quấn trán dưới khăn** (mảnh đá), râu dính bụi, áo choàng cháy thủng; mũ ĐỘI trong đợt công thành. |
-| 3화 | Tiễn đại đội ở cổng: sạch hơn, mệt, áo choàng đã tặng → không có áo choàng. |
-| 4–5화 | Không xuất hiện (nhắc: "요동성은 아직 서 있소"). |
+| 1화 | Bụi đường, áo choàng xám, đón dân chạy nạn ở cổng 옹성; đuốc; kho lương (2 câu). |
+| 2화 | D25: tường nam, mũ cầm nách, áo choàng xám; đêm vá tường dưới đuốc (bồ hóng). **D27 (P4)+: băng vải trán dưới khăn (mảnh đá)**, mũ ĐỘI trong đợt công thành; D45–D46: tro đuốc, râu dính bụi. D71: giáo dài, áo choàng cháy thủng, mũ đội, tro. D75: lỗ hổng tường, mệt. |
+| 3–5화 | Không xuất hiện. |
 
 **Giọng/ngôn ngữ**
 - 하오체 ấm; với dân 하게체 dịu ("어서 들어가게"). Với 을지문덕 합쇼체. Gọi 한승우 "한 대장", đại đội "천둥 군사".
@@ -601,8 +662,8 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_104_siege_ep2 | 2화 P4–P11 | ✔ | Helmet worn on the head, a blood-spotted cloth bandage around the forehead under the headband, stone dust in the beard, torch soot on cheeks, cloak scorched with a burnt hole, tired fierce eyes. |
-| CHAR_104_no_cloak_ep3 | 3화 P2–P3 | – | Without the gray cloak, cuirass and brown jacket only, helmet under arm, face washed but exhausted. |
+| CHAR_104_siege_ep2 | 2화 P4–P12 (SC_055–287) | ✔ | Helmet worn on the head, a blood-spotted cloth bandage around the forehead under the headband, stone dust in the beard, torch soot on cheeks, cloak scorched with a burnt hole, a long iron-tipped spear in the right hand, tired fierce eyes. |
+| CHAR_104_no_cloak_ep3 | — (HỦY v3: 3화 không xuất hiện) | ✖ | Without the gray cloak, cuirass and brown jacket only, helmet under arm, face washed but exhausted. |
 
 ---
 
@@ -632,18 +693,23 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Phó/liên lạc của 을지문덕; **bạn thực địa với 백성민**; cầu nối 한승우 ↔ Goguryeo (kể cả vua); được 윤서아 cứu 5화; truyền tin giữa 고건무 và đại đội |
 | Visual identifiers | (1) 1 lông trắng; (2) không râu; (3) tù và; (4) radio hiện đại trên giáp (3화+); (5) áo xanh lá viền đỏ |
 
+**Bổ sung v3 (không đổi LOCK — P-48, P-54, decisions 5화, script 3–5화)**
+- 3화 D9 giả hàng: **cởi giáp, áo vải dài nâu, không đao, không cung, cầm cờ trắng** đi sau 을지문덕 (SC_051–075); **D11 (SC_112) nhận radio PRC-999K** — kẹp trên dây giáp ngực từ đó ("말하는 돌"), 7 lần dùng 3화; D15 tách về với 을지문덕; D17 phi 2 đêm tới 살수.
+- 4화: D3 đêm nội điện (đứng, nhận thư PROP_013); D4 tới đảo lau; D7 rạng sáng thổi 나각 (SC_225 radio "한 대장, 여기는 해모루. 나각 부오."); D8 chôn — tháo mũ cúi đầu; **P11 đội mũ trụ cho 태오**.
+- 5화: **radio chết D−3** → phi ngựa vào lau với 100 giáo; SC_180 giao **cờ hiệu nhỏ 삼족오** cho 한승우 thay radio; SC_208 thổi 나각 3 hồi; **Phase 4 (SC_234, 32:02): tên kỵ xạ Tiên Ti bắn 15 m — dưới xương đòn trái**; SC_243/248 cán tên còn cắm, tay trái giữ cung run; **SC_255 (P11): tên đã rút, băng chéo vai trái–ngực**, ống morphine đầu; thở tới sáng.
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
-| 1화 | Đang thu quân sau chạm trán: bụi vàng, máu khô trên bao tay, ngựa thở dốc. |
-| 2화 | Tro trên giáp, mồ hôi; lông trắng cháy sém đầu. |
-| 3화 | **Radio kẹp trên giáp ngực** (từ đây); mưa, áo choàng vải dầu; bùn. |
-| 4화 | Mưa dầm; đi lại giữa Bình Nhưỡng và Salsu: bùn tới đùi, ngựa ướt; mắt trũng. |
-| 5화 | **Bị thương**: mũi tên cắm vai trái/dưới xương đòn, máu loang xanh lá thành đen, mũ rơi, tóc xổ, nằm trong lau sậy; sau: băng trắng hiện đại quấn chéo ngực, nửa ngồi. |
+| 1화 | Thu quân sau chạm trán: bụi vàng, máu khô bao tay, ngựa thở dốc; lông trắng cong nhẹ. |
+| 2화 | Tro trên giáp, mồ hôi; lông trắng cháy sém đầu; D71 xuất kích cổng bắc vòng đông tới góc đông-nam (bùn, máu trên đao). |
+| 3화 | D2 kỵ chặn cánh sườn (bụi, mưa phùn). **D9: áo vải nâu, không giáp, cờ trắng**. **D11+: radio kẹp giáp ngực**, mưa, áo choàng vải dầu. D14 đêm đèo: bùn, đuốc. D15: tháo mũ chôn KIA. D17: 2 đêm phi ngựa — ướt sũng, ngựa sùi bọt, thẻ tre. |
+| 4화 | D3 đêm nội điện: giáp ướt, đứng, nhận thư. D4–D7 đảo lau: mưa dầm, bùn tới đùi, mắt trũng, radio trên giáp; D7 rạng sáng: 나각 trên tay, sương. D8: mũ tháo cúi đầu; P11 cầm mũ trụ đội cho 태오. |
+| 5화 | P2 flashback đêm trước: nút bầu. P6 (SC_103+): vào lau với 100 giáo, radio chết đã tháo (còn cờ hiệu nhỏ); SC_180 trao cờ. SC_208: 나각 3 hồi. **Phase 4 (SC_234): tên cắm dưới xương đòn trái, máu loang áo xanh thành đen, mũ rơi, tóc xổ, nửa nằm trong bùn lau — cán tên còn cắm tới SC_248**. **P11 (SC_255): tên đã rút, băng trắng hiện đại chéo vai trái–ngực, áo khoác hờ, nửa ngồi**; đêm thở tới sáng; P12 nắng, tái. |
 
 **Giọng/ngôn ngữ**
 - 하오체 với lính hiện đại ("대장, 쇠새는 어디까지 보오?"); 합쇼체 với 을지문덕/vua ("장군", "전하"); 하게체 với lính mình. Gọi drone "쇠새" (chim sắt), K2 "쇠수레", radio "말하는 돌".
-- Câu mẫu: "영양왕 이십삼 년이오. 그대들은 어디서 왔소?" / "그 쇠새로 강 건너까지 보오? 그럼 내가 길을 내겠소." / (5화, thều thào) "마개는… 아직 서 있소?"
+- Câu mẫu: "대왕 재위 이십삼 년이오. 그대들은 어디서 왔소?" (1화 v3 — không dùng 시호) / "한 대장, 여기는 해모루. 나각 부오." (4화 SC_225, radio) / "그 쇠새로 강 건너까지 보오? 그럼 내가 길을 내겠소." / (5화, thều thào) "마개는… 아직 서 있소?"
 
 **VISUAL_LOCK_EN** (57 từ)
 > 32-year-old Korean man, tall lean rider's build, sharp angular hawk-like face, bright quick upturned dark eyes, narrow straight nose, sharp clean-shaven jaw, black topknot. Light Goguryeo iron lamellar chest armor with laced leather skirt over a dark green long jacket with red border, iron helmet with a single white feather, signal horn slung at hip, ring-pommel sword.
@@ -655,9 +721,10 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
 | CHAR_105_dusty_ep1 | 1화 P4–P12 | – | Fine yellow dust on armor and face, dried blood on leather gloves, sweat, feather slightly bent. |
-| CHAR_105_radio_ep3 | 3화–4화 | ✔ | A modern olive-green military handheld radio clipped to the chest armor lacing, rain-soaked armor and jacket, oiled dark cloak over one shoulder, mud on boots and skirt, wet feather. |
-| CHAR_105_wounded_ep5 | 5화 P9–P12 | ✔ | Helmet gone, topknot loosened, an arrow shaft embedded below the left collarbone, blood soaking the green jacket black, lying half-propped in mud and reeds, face pale, rain on skin. |
-| CHAR_105_bandaged_ep5 | 5화 P12 | – | Modern white bandage wrapped diagonally across the bare chest and shoulder, jacket draped over, seated, weak but alert. |
+| CHAR_105_plain_robe_ep3 | 3화 P4–P5 (SC_051–075) | ✔ | No armor and no helmet: a long plain brown cloth robe belted with cord, black topknot bare, no sword, no bow, holding a white cloth flag on a short bamboo pole, rain-damp shoulders, alert eyes. |
+| CHAR_105_radio_ep3 | 3화 D11+ (SC_112–287) / 4화 P1–P10 | ✔ | A modern olive-green military handheld radio clipped to the chest armor lacing, rain-soaked armor and jacket, oiled dark cloak over one shoulder, mud on boots and skirt, wet feather. |
+| CHAR_105_wounded_ep5 | 5화 P10 Phase 4 (SC_234, 32:02) → SC_248 | ✔ | Helmet gone, topknot loosened, an arrow shaft still embedded below the left collarbone, blood soaking the green jacket black, lying half-propped in mud and reeds, face pale, rain on skin, left hand weakly gripping a composite bow. |
+| CHAR_105_bandaged_ep5 | 5화 P11–P12 (SC_255+) | ✔ | Arrow removed: a modern white bandage wrapped diagonally from the left shoulder across the bare chest, green jacket draped open over the shoulders, no helmet, hair loose, seated half-upright, pale but alert, rain giving way to sunlight. |
 
 ---
 
@@ -689,14 +756,19 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Ông của 아리; **bạn của 박기철** (ngôn ngữ chung = kim loại); dân của 고정수; được cứu bởi quyết định 1화 của 한승우 → lý do đại đội "lộ diện"; nam hạ cùng đại đội 3화 (→ proposals) |
 | Visual identifiers | (1) tạp dề da; (2) búa thắt lưng; (3) mắt trái nheo; (4) mất đốt ngón tay; (5) râu cằm trắng lưa thưa |
 
+**Bổ sung v3 (không đổi LOCK — decisions #5, P-47, P-49, script 2–5화)**
+- 2화: D26 đóng **chốt sắt** vào bánh chịu nặng 천둥 3 (P3); mài lại **xẻng cán sồi (PROP_019)** và rèn **thanh bẩy từ giáo Tùy** cho đại đội; D25 vá tường nứt trên giàn gỗ; **P9 (D47–D69) đục rộng vòm cổng đông 반 미터 trên giàn** (đá mới trắng); D46 rổ thuốc cho 서아.
+- 3화: nam hạ cùng đại đội (gậy chống, cuộn dụng cụ); D4–D8 **ngồi trên buồng động cơ K2**; D12–D13 nung + gò **miếng đồng vá ống nước làm mát K2** — "구리는 뜨거웠습니다" → **lòng bàn tay phải bỏng nhẹ bọc vải gai** D12–D15.
+- 4화 D7 (SC_246): cầm đèn lồng KHÔNG thắp khi 서아 cắt băng chân 태오. 5화 SC_024 trạm cứu thương trong lau; P3 "가슴까지"; P12 nhìn K2 cháy.
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
 | 1화 | **Chạy nạn**: bọc hành lý sau lưng, bụi vàng, máu người khác trên tay áo, kéo 아리 chạy; không tạp dề. |
-| 2화 | Tại 천둥 기지: tạp dề, bồ hóng, đứng bên xe K21 với 박기철. |
-| 3화 | Nam hạ: gậy chống, áo choàng gai, mưa, dép rơm bùn; mang cuộn dụng cụ. |
-| 4화 | Lau sậy: ướt, im lặng, giữ 아리; tay run vì lạnh. |
-| 5화 | Sau trận: đứng nhìn K2 lún bùn, tay sờ giáp thép; nắng. |
+| 2화 | D25 đêm: trên giàn gỗ vá tường, bồ hóng đuốc. D26: tạp dề, búa, đóng chốt sắt 천둥 3. P9: **trên giàn đục vòm cổng đông**, bụi đá trắng bám râu và tạp dề. D46: rổ thuốc. |
+| 3화 | Nam hạ: gậy chống, áo choàng vải gai, mưa, dép rơm bùn, cuộn dụng cụ trên lưng; D4–D8 ngồi buồng động cơ K2; **D12–D15: lòng bàn tay phải bọc vải gai (bỏng đồng nung)**, bồ hóng lò dã chiến. |
+| 4화 | Đảo lau: ướt, im lặng, giữ 아리, tay run vì lạnh; góc thuốc với 서아 (SC_022/024–025); D7 cầm đèn lồng không thắp. |
+| 5화 | SC_024 trạm cứu thương trong lau; "가슴까지"; sau trận: đứng nhìn K2 lún bùn cháy đen, tay sờ thép; nắng. |
 
 **Giọng/ngôn ngữ**
 - **하게체/반말** với tất cả kể cả lính hiện đại (ông già); với 성주 하오체 miễn cưỡng. Gọi 박기철 "쇠쟁이" (thợ sắt), 한승우 "대장 양반".
@@ -712,8 +784,8 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
 | CHAR_106_refugee_ep1 | 1화 P4–P7 | ✔ | No apron: a large cloth bundle tied on the back, yellow dust over hair and clothes, someone else's blood on the right sleeve, walking staff, frightened exhausted face. |
-| CHAR_106_forge_ep2 | 2화–3화 căn cứ | ✔ | Leather apron blackened with soot, sweat on the brow, sleeves pushed up showing burn-scarred forearms, hammer in hand. |
-| CHAR_106_rain_south_ep3 | 3화–4화 | – | Coarse hemp cloak over the jacket, rain-soaked, mud on sandals and shins, walking staff, tool roll on the back. |
+| CHAR_106_forge_ep2 | 2화–3화 căn cứ / 3화 D12–D13 | ✔ | Leather apron blackened with soot, sweat on the brow, sleeves pushed up showing burn-scarred forearms, hammer in hand, white stone dust in the beard. |
+| CHAR_106_rain_south_ep3 | 3화 D2–D17 / 4화 | ✔ | Coarse hemp cloak over the jacket, rain-soaked, mud on sandals and shins, walking staff, tool roll on the back, right palm wrapped in a strip of hemp cloth. |
 
 ---
 
@@ -743,14 +815,20 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Cháu 을보; **"em gái" của 윤서아**; dẫn đường 백성민 4화; bạn đồng lứa của 태오; 고정수 biết tên cô |
 | Visual identifiers | (1) 2 bím chỉ đỏ; (2) áo chàm viền trắng; (3) váy xếp ly vàng đất; (4) khăn olive (2화+); (5) túi thảo dược |
 
+**Bổ sung v3 (không đổi LOCK — P-42/P-49 3화, QC 4화 NOTE, script 2–5화)**
+- 2화 D29 (SC_104): **nhận khăn olive từ 서아** — quàng cổ từ đó; SC_105 dạy 태오 dấu thợ rèn của 을보 trên đất.
+- 3화 P7 (SC_137–139): dập tên lửa trên nóc K2 bằng khăn olive → **khăn cháy sém một góc** từ đó; D4–D8 ngồi buồng động cơ K2 với ông.
+- 4화 D2 rạng sáng (SC_026): đi cắt lau với 5 bà làng — **bím giấu dưới khăn, khăn olive quấn bụng giấu trong váy, liềm trong tay, rổ trên lưng**; D7 rạng sáng dẫn 백성민 + 6 bà làng (SC_198+): **liềm (không đèn lồng)**, bím dưới khăn tối, mặt bôi bùn nhạt, váy vén buộc gối, chân trần; SC_256–258 hỏi 태오 về bài thơ ("오라버니").
+- 5화 SC_024: đặt bát thuốc giã cạnh 서아 ở trạm cứu thương (khăn olive); P11–P12 băng bó thương binh.
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
 | 1화 | Chạy nạn: khăn gai trùm đầu, bụi, nước mắt vệt bụi, dép rơm đứt một chiếc; ôm giỏ. |
-| 2화 | Khăn olive quàng cổ (từ đây); sạch hơn; giúp lều quân y — máu trên ngón tay. |
-| 3화 | Mưa: bím tóc ướt, váy bùn gấu, áo choàng gai; đi cạnh 을보. |
-| 4화 | **Đêm dẫn đường**: bím giấu dưới khăn tối, mặt bôi bùn (백성민 bôi cho), váy vén buộc gối, chân trần, đèn lồng không thắp trên tay. |
-| 5화 | Cùng 윤서아 băng bó thương binh: máu trên hai bàn tay, khăn olive buộc tay áo, mưa rồi nắng. |
+| 2화 | **D29+: khăn olive quàng cổ**; sạch hơn; giúp lều quân y — máu trên ngón tay; viết chữ trên đất với 태오. |
+| 3화 | Mưa: bím ướt, váy bùn gấu, áo choàng gai; đi cạnh 을보, ngồi buồng động cơ K2; **P7+: khăn olive cháy sém một góc**. |
+| 4화 | D2 rạng sáng: bím giấu dưới khăn, khăn olive quấn bụng trong váy, liềm, rổ. **D7 rạng sáng dẫn đường**: bím dưới khăn tối, mặt bôi bùn nhạt, váy vén buộc gối, chân trần, **liềm trong tay**, khăn olive lộ lại sau khi thoát. P11: ngồi cạnh 태오 đội mũ trụ. |
+| 5화 | SC_024 trạm cứu thương: khăn olive (góc cháy), bát thuốc; P11–P12: máu trên hai bàn tay, khăn buộc tay áo, mưa rồi nắng. |
 
 **Giọng/ngôn ngữ**
 - **해요체** trẻ con; với ông 존댓말 nhẹ ("할아버지, 여기요"); với 윤서아 "언니"; với lính "군사 아저씨"; với 태오 "오라버니" (→ 오빠 quá hiện đại).
@@ -766,8 +844,9 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
 | CHAR_107_refugee_ep1 | 1화 P4–P7 | ✔ | A coarse hemp scarf over the head, yellow dust on clothes and face, tear tracks through the dust, one straw sandal broken, clutching a basket, frightened. |
-| CHAR_107_scarf_ep2 | 2화–5화 mặc định | ✔ | A modern olive-green military scarf tied around the neck over the indigo jacket, braids neat, small smear of blood on the fingertips. |
-| CHAR_107_night_trail_ep4 | 4화 P8–P9 | ✔ | Braids hidden under a dark cloth, mud smeared on cheeks, skirt hitched and tied at the knees, bare feet, olive scarf, carrying a small unlit paper lantern, wet from rain. |
+| CHAR_107_scarf_ep2 | 2화 D29 → 5화 (mặc định) | ✔ | A modern olive-green military scarf tied around the neck over the indigo jacket, braids neat, small smear of blood on the fingertips. |
+| CHAR_107_scarf_burnt_ep3 | 3화 P7+ / 4화 / 5화 | – | The olive military scarf with one corner scorched black and frayed, rain-damp braids, mud on the hem of the skirt. |
+| CHAR_107_night_trail_ep4 | 4화 D2 rạng sáng (SC_026) / D7 rạng sáng (SC_198–230) | ✔ | Braids hidden under a dark cloth, pale mud smeared on the cheeks, skirt hitched and tied at the knees, bare feet, a small iron sickle in the right hand, a woven basket on the back, wet from mist and rain, no scarf visible. |
 
 ---
 
@@ -799,14 +878,19 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Hoàng đế của 우중문/우문술/내호아; **dùng 탁발흠 báo cáo trực tiếp** (bất thường — lý do Tuoba có quyền hành động); đối thủ vô hình của 한승우 (không gặp mặt); 5화 nhận tin thảm bại |
 | Visual identifiers | (1) 통천관 đen-vàng; (2) áo vàng thổ; (3) giáp mạ vàng; (4) râu dê dài mảnh; (5) dáng cao mảnh |
 
+**Bổ sung v3 (không đổi LOCK — P-47 3화, decisions 5화 hay-hơn #4, script 2–5화)**
+- 2화: P2 lều vàng bên 요하 (KB); D45 육합성 "뇌군은 어디 있느냐" → "오늘 밤은 네 것이다"; **D71 (6월 11 [史]) đài quan sát nam thành** — giáp mạ vàng, bụi gấu áo vàng.
+- 3화 **SC_132 (D11 rạng sáng, 육합성)**: áo vàng không giáp, **cầm xác drone #1 ngang mắt** — "천둥을 산 채로 잡아라."
+- 5화 D+5 (SC_266–272): đứng bất động, 통천관 hơi lệch, tay bóp nát tờ tấu trước 우문술 xiềng; **bước ra sân mưa không lọng, kéo vải dầu, đặt bàn tay nhẫn ngọc lên giáp K21 ướt** — "내년".
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
-| 1화 | Đọc chiếu xuất quân: đủ bộ, sạch tuyệt đối; nghe 탁발흠 quỳ báo. |
-| 2화 | Tại 육합성 nhìn thành: giáp mạ vàng, **bụi bám gấu áo vàng**, mặt cáu; đêm: áo lụa không giáp. |
-| 3화 | Không giáp, áo vàng, xem drone/kính đêm bị bắt — cầm lên ngang mắt; nắng lều. |
-| 4화 | Không xuất hiện (lệnh truyền qua sứ). |
-| 5화 | Nhận tin: đứng bất động, mặt trắng bệch, mũ hơi lệch, tay bóp nát tờ tấu — không gào. |
+| 1화 | Đọc chiếu xuất quân: đủ bộ, sạch tuyệt đối; nghe 탁발흠 quỳ báo — "뇌군이라 하라." |
+| 2화 | P2: lều vàng bên 요하 (KB, đèn). D45 육합성: giáp mạ vàng, mặt cáu. D71 đài quan sát nam thành: giáp mạ vàng, **bụi bám gấu áo vàng thổ**, quạt tròn, mắt nheo nhìn tường. D72–D74 hội đồng: áo vàng không giáp. |
+| 3화 | SC_132: áo vàng không giáp, 통천관, **hai tay nâng xác drone ngang mắt** trong lều 육합성, ánh sáng lều buổi sáng. |
+| 4화 | Không xuất hiện (lệnh qua sứ). |
+| 5화 | D+5: **đứng bất động, mũ hơi lệch, mặt trắng bệch, tay phải bóp nát tờ tấu**; rồi **ra sân mưa: áo vàng thổ ướt sẫm, không lọng, bàn tay nhẫn ngọc trên thép K21 ướt**, mặt không đổi. |
 
 **Giọng/ngôn ngữ**
 - 사극체 đế vương Trung Hoa: **"짐"**, 하라체; lạnh, chậm, từng chữ. Tướng gọi ông "폐하". Gọi Goguryeo "고구려 놈들", đại đội "뇌군".
@@ -821,9 +905,10 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_201_robe_only_ep3 | 1화 đêm / 3화 | ✔ | Without the gilded cuirass: ochre-yellow silk robe with wide sleeves only, crown unchanged, hands holding a small dark gray quadcopter drone at eye level, studying it. |
-| CHAR_201_field_dust_ep2 | 2화 | – | Gilded cuirass, fine dust on the yellow hem and red boots, irritated expression, a round silk fan in the left hand. |
-| CHAR_201_defeat_news_ep5 | 5화 P11–P12 | ✔ | Standing rigid, face drained white, crown slightly askew, a crushed paper report in the clenched right fist, eyes wide and unblinking, no armor, yellow robe. |
+| CHAR_201_robe_only_ep3 | 1화 đêm / 2화 D72–D74 / 3화 SC_132 | ✔ | Without the gilded cuirass: ochre-yellow silk robe with wide sleeves only, crown unchanged, hands holding a small dark gray quadcopter drone at eye level, studying it. |
+| CHAR_201_field_dust_ep2 | 2화 D45–D71 | – | Gilded cuirass, fine dust on the yellow hem and red boots, irritated expression, a round silk fan in the left hand. |
+| CHAR_201_defeat_news_ep5 | 5화 P11 (SC_266–269) | ✔ | Standing rigid, face drained white, crown slightly askew, a crushed paper report in the clenched right fist, eyes wide and unblinking, no armor, yellow robe. |
+| CHAR_201_rain_k21_ep5 | 5화 P11 (SC_270–272) | ✔ | No armor, the ochre-yellow silk robe soaked dark with rain, crown beaded with water, no umbrella, right hand wearing a jade ring pressed flat against a wet slab of armored steel, expressionless face, rain running down the goatee. |
 
 ---
 
@@ -853,13 +938,18 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Trên 우문술 (xung đột tiến/lùi — thật); nhận thơ 을지문덕; nghe/không nghe 탁발흠; không phối hợp với 내호아; (outline) có thể bị bắt sống 5화 |
 | Visual identifiers | (1) 2 gương ngực; (2) râu trắng dài; (3) áo choàng đỏ; (4) tua đỏ mũ; (5) lông mày trắng rậm |
 
+**Bổ sung v3 (không đổi LOCK — decisions 5화 BLOCK/rẽ sử, P-54, script 3–5화)**
+- 3화 D9: lều Áp Lục — **ngồi ghế gấp**, 명광개, áo choàng đỏ, nhận 을지문덕 (필담); D10 mắng 우문술; D16 "뇌군은 살수로" (SC_070/078: nhận ra 뇌군 từ 2화).
+- 4화 D5 nhận báo; **D6 nhận thơ (lều, mũ tháo, mặt đỏ dần)**; D8 giữa đường rút trong mưa — 탁발흠 quỳ trước ông.
+- 5화 D1: **đứng giữa sông với cờ** (SC_016/063, VEH_207); ngựa hụt hố cát — ngã xuống nước; **SC_236+: 3 kỵ Goguryeo kéo lên khỏi nước, trói quặt tay** — ướt sũng, râu bết bùn, một gương ngực móp, áo choàng rách nửa; **quỳ trên mô cát trước 을지문덕, uống bát nước** (SC_260–262). D+5: "실종" (không ở 육합성). → derived `defeat_ep5` viết lại = "bị bắt sống".
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
-| 1–2화 | Không/ít xuất hiện (hội nghị 육합성: đủ bộ, sạch). |
-| 3화 | Áp Lục: bụi, rồi mưa; cãi với 우문술 trong lều — mũ tháo, râu dính mưa. |
-| 4화 | **Nhận thơ**: trong lều, mũ tháo, áo choàng cởi, đọc lụa dưới đèn; mặt đỏ dần. |
-| 5화 | **Thảm bại**: bùn tới ngực, áo choàng rách nửa, một gương ngực móp, tua đỏ đứt, râu bết bùn, mưa; (nếu bị bắt) quỳ trên bãi cát, tay trói. |
+| 1–2화 | 2화 D72–D74 hội đồng 육합성: đủ bộ, sạch, "사흘". |
+| 3화 | D9 lều Áp Lục: ngồi ghế gấp, giáp + áo choàng đỏ, ván sàn ướt; D10 cãi 우문술 — mũ tháo, râu dính mưa; D16 mưa bụi đường. |
+| 4화 | D5 lều: đọc báo cáo. **D6 nhận thơ: mũ tháo, áo choàng cởi, đọc lụa dưới đèn, mặt đỏ dần**. D8: trên ngựa giữa đường rút, mưa, áo choàng ướt nặng. |
+| 5화 | D1 giữa sông (SC_016/063): giáp mưa chảy, áo choàng đỏ sẫm nước, tua đỏ rủ, cờ bên cạnh. **SC_236–239: ngã xuống nước, được kéo lên — ướt sũng, tóc xổ búi, râu bết bùn, gương ngực móp, áo choàng rách nửa, mũ mất, tay trói sau lưng**. SC_260–262: quỳ trên cát ướt, uống nước, mặt trống rỗng. |
 
 **Giọng/ngôn ngữ**
 - Với vua: 합쇼체 "폐하" — "신"; với tướng: 하오체 gầm; với 우문술 mỉa ("우 장군은 늙었소"). Gọi 을지문덕 "을지 놈".
@@ -874,8 +964,9 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_202_tent_ep4 | 3화–4화 lều | ✔ | Helmet off showing the white topknot, red cloak removed, armor worn open at the throat, holding a small silk scroll, face flushed red with anger, lamplight warmth on the beard. |
-| CHAR_202_defeat_ep5 | 5화 P9–P12 | ✔ | Mud caked to the chest, red cloak torn to half its length, one breast mirror dented, red tassel torn off, beard matted with mud and rain, helmet lost, stunned exhausted face. |
+| CHAR_202_tent_ep4 | 3화 D9–D10 / 4화 D5–D6 lều | ✔ | Helmet off showing the white topknot, red cloak removed, armor worn open at the throat, holding a small silk scroll, face flushed red with anger, lamplight warmth on the beard. |
+| CHAR_202_rain_ep5 | 4화 D8 / 5화 P1–P9 (SC_016–063) | ✔ | Armor streaming with rain, red silk cloak soaked dark and heavy, red tassel on the helmet dripping, water in the white beard, mud on the red boots, jaw set, fierce eyes. |
+| CHAR_202_defeat_ep5 | 5화 P10 Phase 6 → P11 (SC_236–262) | ✔ | Captured: soaked to the skin, white hair loose from the topknot, beard matted with mud and river water, one breast mirror dented, red cloak torn to half its length, helmet lost, hands bound behind the back with hemp rope, kneeling on wet sand, stunned blank face. |
 
 ---
 
@@ -905,13 +996,18 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Phó của 우중문 — xung đột tiến/lùi (enemy POV chính 3–4화); tôn trọng 탁발흠 (người duy nhất nghe Tuoba); 5화 dẫn tàn quân rút |
 | Visual identifiers | (1) râu xám ngắn gọn; (2) giáp đen trơn; (3) áo choàng xám cổ lông; (4) thẻ tre trong tay; (5) dáng gầy còng |
 
+**Bổ sung v3 (không đổi LOCK — script 3–5화)**
+- 3화 D9 lều Áp Lục: đứng bên 우중문, giáp sẫm không trang trí, thẻ tre; D10 muốn lui — nhượng.
+- 4화 D6: quyết rút, xếp 방진; D8 "살수까지 며칠".
+- 5화 D1: tiền quân qua cổng họng trước (SC_015, VEH_207); "뚫어라"; **SC_239 hạ kiếm để tiền quân chạy**; chạy 450리. **D+5 (SC_266–269): quỳ trước 양제 — cổ và tay xiềng sắt, giáp bùn khô, râu xám**; "…고구려 손에 있습니다. 살아서."
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
-| 1–2화 | Hội nghị 육합성: đủ bộ, đứng sau 우중문. |
-| 3화 | Áp Lục: mưa bụi, thẻ tre ướt, mặt lo; thấy lính chôn lương. |
-| 4화 | Lều: khăn đầu đen, không giáp, áo bào xanh, viết thẻ tre dưới đèn. |
-| 5화 | **Rút**: bùn tới gối, áo choàng ướt nặng, mũ đội, dắt ngựa què, nhìn lại sông. |
+| 1–2화 | 2화 D72–D74 hội đồng 육합성: đủ bộ, đứng sau 우중문, thẻ tre "백 일치 군량을 누가 집니까?" |
+| 3화 | D9 lều: giáp đen trơn, thẻ tre trong tay, đứng; D10 cãi rồi nhượng — mặt xám. |
+| 4화 | D6 lều: khăn đầu đen, không giáp, áo bào xanh, viết thẻ tre dưới đèn; D8 trên ngựa trong mưa. |
+| 5화 | D1 tiền quân: giáp ướt, mũ đội, trên ngựa, mưa; SC_239 hạ kiếm. **D+5: quỳ xiềng cổ + tay, giáp bùn khô nứt, áo choàng mất, râu xám bết, ngẩng nhìn thẳng**. |
 
 **Giọng/ngôn ngữ**
 - 합쇼체 cẩn trọng với vua và 우중문 ("장군, 아뢰옵니다"); 하오체 khô với thuộc hạ. Tôn trọng: gọi 탁발흠 "탁발 낭장".
@@ -926,8 +1022,9 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_203_tent_ep4 | 3화–4화 lều | – | No armor: dark blue robe and a black cloth head wrap, cloak over the shoulders, brush and bamboo slips in hand, lamplight. |
-| CHAR_203_retreat_ep5 | 5화 P9–P12 | ✔ | Helmet on, cloak soaked and heavy with rain, mud to the knees, face gray with exhaustion, leading a limping gray horse by the reins, looking back over his shoulder. |
+| CHAR_203_tent_ep4 | 3화 D10 / 4화 D6 lều | – | No armor: dark blue robe and a black cloth head wrap, cloak over the shoulders, brush and bamboo slips in hand, lamplight. |
+| CHAR_203_retreat_ep5 | 5화 P10 (SC_239) / SC_252 truy kích | ✔ | Helmet on, cloak soaked and heavy with rain, mud to the knees, face gray with exhaustion, sword lowered in the right hand, looking back over his shoulder. |
+| CHAR_203_chained_ep5 | 5화 P11 (SC_266–269) | ✔ | Kneeling, an iron collar and iron shackles on neck and wrists joined by chain, no helmet and no cloak, dark cuirass caked with dried cracked mud, gray beard matted, gray topknot loose, face lifted and eyes steady. |
 
 ---
 
@@ -957,12 +1054,15 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Độc lập với 우중문 (không phối hợp — thật); bị 고건무 phục kích; báo về Dạng Đế |
 | Visual identifiers | (1) mũ vành rộng; (2) áo choàng dầu; (3) sống mũi dẹt; (4) khăn xanh; (5) đại đao |
 
+**Bổ sung v3 (không đổi LOCK — script 4화)**
+- 4화 D1: mũi thuyền kỳ hạm 누선 trong 패수, mưa tạt (SC_019); D2 đổ bộ dưới lọng dầu, cười vỗ gương ngực, đao chỉ phố (SC_052–060, 090); D3 phục kích 나곽 → thoát thân tới thuyền, rút ra 해포.
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
 | 1–3화 | Không xuất hiện (nhắc: thủy quân đang tới). |
-| 4화 | **Đổ bộ**: nước sông bắn ướt, áo choàng dầu bóng; **phục kích**: máu trên đao, khói phố chợ, mũ mất vành móp, chạy về thuyền, áo choàng cháy. |
-| 5화 | Không xuất hiện (nhắc: đã rút ra biển). |
+| 4화 | D1 kỳ hạm: mũ vành rộng nhỏ nước, áo choàng dầu bóng, tay nắm lan can ướt. D2 đổ bộ: dưới lọng dầu, cười to, đao giơ; cưỡi ngựa vào phố chợ. **D3 phục kích**: máu trên đao, khói phố, mũ vành móp, áo choàng cháy gấu, chạy về thuyền. |
+| 5화 | Không xuất hiện (narrator 1 câu: rút). |
 
 **Giọng/ngôn ngữ**
 - 하오체 to, thô, khinh; với vua 합쇼체. Gọi Bình Nhưỡng "내 성" trước khi chiếm.
@@ -977,8 +1077,8 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 **DERIVED_STATES**
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
-| CHAR_204_landing_ep4 | 4화 P3–P4 | – | River spray on the oiled cloak and helmet, wet beard, confident grin, dao drawn. |
-| CHAR_204_ambush_ep4 | 4화 P5–P8 | ✔ | Blood on the dao blade, smoke smudges, helmet brim dented, cloak scorched at the hem, sweat and panic in the eyes, mid-run. |
+| CHAR_204_landing_ep4 | 4화 P2–P4 (SC_019, 052–060) | – | River spray on the oiled cloak and helmet, wet beard, confident grin, dao drawn. |
+| CHAR_204_ambush_ep4 | 4화 P4–P5 (SC_076–093) | ✔ | Blood on the dao blade, smoke smudges, helmet brim dented, cloak scorched at the hem, sweat and panic in the eyes, mid-run. |
 
 ---
 
@@ -1008,18 +1108,25 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | Relationship | Báo thẳng Dạng Đế; 우문술 là tướng duy nhất nghe ông; **đối thủ cá nhân của 한승우 & 백성민**; bắt và "nghiên cứu" 태오 (đối thoại không lời); 5화 dẫn kỵ Tiên Ti đánh thẳng bãi cạn bờ bắc → phải bị giải quyết |
 | Visual identifiers | (1) sẹo mặt; (2) 1 bím dày; (3) mũ lông cáo; (4) cung phức hợp; (5) kính nhìn đêm trên mũ (3화+) |
 
+**Bổ sung v3 (không đổi LOCK — P-42 2화, P-39 ep1, decisions 4화 "cẳng tay PHẢI", P-39/P-54 5화, script 2–5화)**
+- 2화: D33 hỏi cung nông dân qua 통역 → "검은 물"; D33 đêm đi bộ đường mòn đã biết (12 ngày rình thung lũng); D45 hỏa công ("오늘 밤은 네 것이다"); **D71 sau 3차 공성 nhặt băng đạn K2C1 rỗng dưới chân tường (SC_270/283) → treo thắt lưng từ CUỐI 2화** (không phải "2화+").
+- 3화: D10 đêm chui vào 천둥 3; D12 gờ núi nhìn làng, thả 3 척후 ("아무도 없다고 하게 두어라"); D14 đêm đèo; **D15: đeo kính đêm PVS-11K (dây quấn qua mũ lông), hỏi cung 태오 qua thông ngôn Goguryeo, giật patch 태극기 của 태오 → cất trong áo giáp ("품에") tới sông cuối**; D16 đi đêm bằng kính đêm. Đếm sấm 3화: **"넷."** (+ N "밤눈도 밥을 먹는다").
+- 4화 D2 đêm: dò đầm bằng kính đêm → **백성민 chém cẳng tay PHẢI → băng vải sẫm** từ đó; D5 đếm vỏ đạn đảo lau 1: **"열 번, 네 번, 그리고 두 번. 열여섯"**; D8 quỳ trước 우중문 trong mưa — kính đêm treo ngực đọng nước, tay phải băng, bím ướt.
+- 5화: **mũ lông cáo ĐỘI, cung slung trên lưng suốt P7–P10** (rút đao P6–P7, giương cung trên nóc K2 SC_245), **kính đêm vỡ treo cổ**, băng cẳng tay phải; đếm **"스물둘"** (22 tiếng sấm → 6 viên cuối); Phase 5: chết trên nóc K2 cháy (decisions P-02).
+
 **Trạng thái theo tập**
 | 화 | Trạng thái riêng |
 |---|---|
-| 1화 | **Sống sót trận đầu**: bụi vàng, máu chảy từ tai trái (sóng nổ), ngựa chết cạnh, mũ lông rơi — tóc bím lộ; sau: quỳ trước Dạng Đế, bụi còn nguyên. |
-| 2화 | Đêm hỏa công: bồ hóng, đuốc, mắt sáng; băng đạn rỗng treo thắt lưng (từ đây). |
-| 3화 | **Chiếm K21**: đứng trên nóc xe; **kính nhìn đêm gắn trên mũ lông** (từ đây), 2 chiếc — 1 đeo, 1 đưa thuộc hạ; mưa. |
-| 4화 | **Săn đêm**: kính đêm hạ xuống mắt, áo choàng ướt, cung trên tay, bùn; sau giao tranh: vết cắt cẳng tay. |
-| 5화 | **Xung phong lau sậy**: bùn tới đùi, máu, cung bỏ, đao trên tay, mũ lông mất → bím tóc bay, kính đêm vỡ treo cổ; mưa; kết thúc theo outline. |
+| 1화 | **Sống sót trận đầu**: bụi vàng, máu chảy từ tai trái (sóng nổ), ngựa chết cạnh, mũ lông rơi — bím lộ; sau: quỳ trước 양제, bụi nguyên. |
+| 2화 | D33: lều hỏi cung, khô ráo. D33 đêm: đường mòn, không đuốc. D45 hỏa công: bồ hóng, đuốc, mắt sáng. **D71 (SC_270/283): nhặt băng đạn rỗng dưới chân tường** → treo thắt lưng. D75: "뒤를 밟는다." |
+| 3화 | D10 đêm: trong khoang 천둥 3 (dầu, bùn). D12: gờ núi mưa, bùn tới gối. D14 đêm đèo: đuốc, bùn, máu trên đao. **D15+: kính đêm dây quấn trên mũ lông cáo, băng đạn rỗng thắt lưng**; patch 태극기 trong áo giáp (không lộ). D16 đêm: kính đêm hạ xuống mắt. |
+| 4화 | D2 đêm đầm: kính đêm hạ, áo choàng ướt → **vết chém cẳng tay PHẢI → băng vải sẫm** (từ SC_075). D5: đếm vỏ đạn ở đảo lau 1. D8 (SC_262/267): quỳ trước 우중문 trên đường bùn mưa, kính đêm treo ngực đọng nước, tay phải băng, bím ướt. |
+| 5화 | **Mũ lông cáo đội**, bím ướt, **kính đêm vỡ treo cổ đập ngực**, băng cẳng tay phải, **cung slung trên lưng**, đao rút (SC_124); bùn tới đùi, máu trên áo; Phase 5: trèo nóc K2, giương cung — chết trong lửa trên nóc xe. |
 
 **Giọng/ngôn ngữ**
 - Với vua: 합쇼체 chuẩn, ngắn; với thuộc hạ: 반말 cộc bằng động từ; phân tích như kỹ sư. Gọi đại đội "뇌군" (ông là người đặt tên), K2 "검은 소", drone "쇠새".
-- Câu mẫu: "저들은 손에 천둥을 쥐고 있습니다." (foundation) / "쇠수레는 검은 물을 마십니다. 물을 태우면 됩니다." / "천둥도 셀 수 있습니다. 스물두 번 울렸습니다." / (với 태오, tiếng Hàn để khán giả hiểu) "이 새… 누가 날리나. 너인가."
+- **Đếm sấm (xuyên tập, giữ nguyên số):** 3화 "넷." · 4화 "열 번, 네 번, 그리고 두 번. 열여섯." · 5화 "스물둘." — bài học "천둥도 센다. 언젠가는 마른다."
+- Câu mẫu: "저들은 손에 천둥을 쥐고 있습니다." (foundation) / "보내라. 아무도 없다고 하게 두어라." (3화) / "쇠수레는 검은 물을 마십니다. 물을 태우면 됩니다." / "천둥도 셀 수 있습니다. 스물두 번 울렸습니다." / (với 태오, tiếng Hàn để khán giả hiểu) "이 새… 누가 날리나. 너인가."
 
 **VISUAL_LOCK_EN** (59 từ)
 > 38-year-old Xianbei man, compact rider's build, broad high-cheekboned face, long pale scar from left temple to jaw, narrow steady intelligent amber-brown eyes, straight nose, short dark goatee, sides of head shaved, single thick black braid down the back. Dark brown hardened leather lamellar armor over a dark red felt tunic, fox-fur brimmed cap, bronze plaque belt, composite recurve bow.
@@ -1031,59 +1138,77 @@ Quy tắc: 태극기 trên vai LUÔN nhìn thấy (kể cả rách/bẩn) — đ
 | state_id | Dùng ở | Ref | Prompt bổ sung (EN) |
 |---|---|---|---|
 | CHAR_205_survivor_ep1 | 1화 P5–P12 | ✔ | Fox-fur cap lost, braid exposed and dusty, yellow dust over armor and face, a line of dried blood from the left ear down the neck, torn tunic sleeve, steady unafraid eyes. |
-| CHAR_205_nvg_ep3 | 3화–4화 | ✔ | A modern night-vision monocular device mounted on the front of the fox-fur cap, an empty black rifle magazine hanging from the belt, rain-darkened leather armor, mud on boots. |
-| CHAR_205_night_hunt_ep4 | 4화 P6–P9 | ✔ | Night-vision monocular flipped down over the right eye, wet dark cloak over the armor, bow in hand with arrow nocked, mud on the knees, a fresh cut on the right forearm. |
-| CHAR_205_final_ep5 | 5화 P7–P10 | ✔ | Cap lost, braid flying loose, mud to the thighs, blood on the saber and tunic, bow discarded, a cracked night-vision device hanging from a cord around the neck, rain, fierce calm face. |
+| CHAR_205_magazine_ep2 | 2화 P11–P12 / 3화 D1–D14 | – | An empty black rifle magazine hanging from a cord on the bronze plaque belt, stone dust on the fur cap and shoulders, soot on the cheeks. |
+| CHAR_205_nvg_ep3 | 3화 D15+ (SC_257–270) / 4화 D1 | ✔ | A modern night-vision monocular device strapped with a leather strap over the front of the fox-fur cap, an empty black rifle magazine hanging from the belt, rain-darkened leather armor, mud on boots. |
+| CHAR_205_night_hunt_ep4 | 4화 D2 đêm (SC_061–075) | ✔ | Night-vision monocular flipped down over the right eye, wet dark cloak over the armor, bow in hand with arrow nocked, mud on the knees, a fresh bleeding cut on the right forearm. |
+| CHAR_205_bandaged_ep4 | 4화 D3–D8 (SC_128–160, 262–267) | ✔ | The night-vision monocular hanging from a cord at the chest beaded with rain, right forearm wrapped in a dark cloth bandage, fox-fur cap soaked, braid wet, empty magazine on the belt, mud on the boots, calm assessing eyes. |
+| CHAR_205_final_ep5 | 5화 P6–P10 (SC_060–245) | ✔ | Fox-fur cap on, braid wet and swinging, a cracked night-vision device hanging from a cord around the neck, composite bow slung across the back, ring-pommel saber drawn in the right hand, right forearm wrapped in a black cloth bandage, mud to the thighs, blood on the tunic, rain, fierce calm face. |
 
 ---
 
-## 5. TỔNG HỢP DERIVED_STATES CẦN REF RIÊNG (khớp `ref_jobs.json`)
-| # | job id | Tập | Ưu tiên |
+## 5. TỔNG HỢP DERIVED_STATES CẦN REF RIÊNG (v3 — khớp `ref_jobs.json`)
+| # | job id | Dùng ở | Trạng thái |
 |---|---|---|---|
 | Base | CHAR_001_ref … CHAR_205_ref (18) | — | P1 |
-| 1 | CHAR_001_dusty_ep2 | 2 | P1 |
-| 2 | CHAR_001_rain_cloak_ep3 | 3 | P1 |
-| 3 | CHAR_001_reeds_ep4 | 4 | P1 |
-| 4 | CHAR_001_muddy_bloody_ep5 | 5 | P1 |
-| 5 | CHAR_002_soot_ep2 | 2 | P1 |
-| 6 | CHAR_002_reeds_ep4 | 4 | P2 |
-| 7 | CHAR_002_muddy_bloody_ep5 | 5 | P1 |
-| 8 | CHAR_003_soot_ep2 | 2 | P2 |
-| 9 | CHAR_003_rain_ep3 | 3 | P1 |
-| 10 | CHAR_003_muddy_ep5 | 5 | P2 |
-| 11 | CHAR_004_bloody_sleeves_ep2 | 2 | P1 |
-| 12 | CHAR_004_braid_ep4 | 4–5 | P1 |
-| 13 | CHAR_004_muddy_bloody_ep5 | 5 | P2 |
-| 14 | CHAR_005_captive_ep3 | 3–4 | P1 |
-| 15 | CHAR_005_goguryeo_helmet_ep5 | 5 | P1 |
-| 16 | CHAR_006_facepaint_ep1 | 1–2 | P1 |
-| 17 | CHAR_006_night_raid_ep4 | 4 | P1 |
-| 18 | CHAR_006_horseback_ep5 | 5 | P2 |
-| 19 | CHAR_101_cloak_incognito_ep2 | 2 | P2 |
-| 20 | CHAR_101_false_surrender_ep3 | 3 | P1 |
-| 21 | CHAR_101_salsu_rain_ep5 | 5 | P1 |
-| 22 | CHAR_102_wall_night_ep4 | 4 | P2 |
-| 23 | CHAR_103_ambush_ep4 | 4 | P1 |
-| 24 | CHAR_104_siege_ep2 | 2 | P1 |
-| 25 | CHAR_105_radio_ep3 | 3–4 | P1 |
-| 26 | CHAR_105_wounded_ep5 | 5 | P1 |
-| 27 | CHAR_106_refugee_ep1 | 1 | P1 |
-| 28 | CHAR_106_forge_ep2 | 2–3 | P2 |
-| 29 | CHAR_107_refugee_ep1 | 1 | P1 |
-| 30 | CHAR_107_scarf_ep2 | 2–5 | P1 |
-| 31 | CHAR_107_night_trail_ep4 | 4 | P1 |
-| 32 | CHAR_201_robe_only_ep3 | 1/3 | P1 |
-| 33 | CHAR_201_defeat_news_ep5 | 5 | P2 |
-| 34 | CHAR_202_tent_ep4 | 3–4 | P1 |
-| 35 | CHAR_202_defeat_ep5 | 5 | P1 |
-| 36 | CHAR_203_retreat_ep5 | 5 | P2 |
-| 37 | CHAR_204_ambush_ep4 | 4 | P1 |
-| 38 | CHAR_205_survivor_ep1 | 1 | P1 |
-| 39 | CHAR_205_nvg_ep3 | 3–4 | P1 |
-| 40 | CHAR_205_night_hunt_ep4 | 4 | P1 |
-| 41 | CHAR_205_final_ep5 | 5 | P1 |
+| 1 | CHAR_001_dusty_ep2 | 2화 D25–D71 (P3–P10) | ✔ chạy |
+| 2 | CHAR_001_rain_cloak_ep3 | — (HỦY v3: script 3화 không có áo choàng) | ✖ HỦY (deprecated, giữ id) |
+| 3 | CHAR_001_rain_ep3 | 3화 D2–D17 / 4화 D8 | ✔ chạy |
+| 4 | CHAR_001_reeds_ep4 | 4화 P1–P9 | ✔ chạy |
+| 5 | CHAR_001_muddy_bloody_ep5 | 5화 P1–P9 | ✔ chạy |
+| 6 | CHAR_001_river_oil_ep5 | 5화 P10 Phase 3–5 (SC_222–228) | ✔ chạy |
+| 7 | CHAR_001_final_ep5 | 5화 P11–P12 | ✔ chạy |
+| 8 | CHAR_002_soot_ep2 | 2화 D45–D71 (P7–P11) | ✔ chạy |
+| 9 | CHAR_002_k3_rain_ep3 | 3화 P10–P12 / 4화 D8 | ✔ chạy |
+| 10 | CHAR_002_reeds_ep4 | 4화 P1–P9 | ✔ chạy |
+| 11 | CHAR_002_muddy_bloody_ep5 | 5화 P7–P12 (từ SC_132) | ✔ chạy |
+| 12 | CHAR_003_soot_ep2 | 2화 D45 (P7) | ✔ chạy |
+| 13 | CHAR_003_hands_bandaged_ep2 | 2화 D46–D75 (P8–P12) | ✔ chạy |
+| 14 | CHAR_003_rain_ep3 | 3화 toàn tập / 4화 | ✔ chạy |
+| 15 | CHAR_003_muddy_ep5 | 5화 P1–P10 Phase 2 | ✔ chạy |
+| 16 | CHAR_003_crutch_ep5 | 5화 P11–P12 | ✔ chạy |
+| 17 | CHAR_004_bloody_sleeves_ep2 | 2화 D26–D75 (P3–P12) | ✔ chạy |
+| 18 | CHAR_004_braid_ep4 | 4화 P2–P12 | ✔ chạy |
+| 19 | CHAR_004_muddy_bloody_ep5 | 5화 P2–P12 | ✔ chạy |
+| 20 | CHAR_005_captive_ep3 | 3화 P10–P12 / 4화 P1–P8 | ✔ chạy |
+| 21 | CHAR_005_goguryeo_helmet_ep5 | 4화 P11–P12 / 5화 toàn tập | ✔ chạy |
+| 22 | CHAR_006_facepaint_ep1 | 1화–2화 trinh sát | ✔ chạy |
+| 23 | CHAR_006_night_raid_ep4 | 4화 D2 đêm (SC_061–075) / D7 rạng sáng (SC_198–249) | ✔ chạy |
+| 24 | CHAR_006_horseback_ep5 | 5화 P2, P9–P11 | ✔ chạy |
+| 25 | CHAR_101_cloak_incognito_ep2 | 2화 P3–P5 (SC_049–077) | ✔ chạy |
+| 26 | CHAR_101_false_surrender_ep3 | 3화 P4–P5 (SC_051–075) | ✔ chạy |
+| 27 | CHAR_101_hall_seated_ep4 | 4화 P6 (SC_103–109) / 3화 D11 lều | ✔ chạy |
+| 28 | CHAR_101_salsu_rain_ep5 | 5화 P1–P11 | ✔ chạy |
+| 29 | CHAR_102_wall_night_ep4 | — (HỦY v3: script 4화 vua ở nội điện, không lên tường) | ✖ HỦY (deprecated, giữ id) |
+| 30 | CHAR_102_hall_night_ep4 | 4화 P6 (SC_103–110) / 5화 P12 (SC_276–280) | ✔ chạy |
+| 31 | CHAR_103_ambush_ep4 | 4화 P4–P5 (SC_076–093) | ✔ chạy |
+| 32 | CHAR_104_siege_ep2 | 2화 P4–P12 (SC_055–287) | ✔ chạy |
+| 33 | CHAR_104_no_cloak_ep3 | — (HỦY v3: 3화 không xuất hiện) | ✖ HỦY (deprecated, giữ id) |
+| 34 | CHAR_105_plain_robe_ep3 | 3화 P4–P5 (SC_051–075) | ✔ chạy |
+| 35 | CHAR_105_radio_ep3 | 3화 D11+ (SC_112–287) / 4화 P1–P10 | ✔ chạy |
+| 36 | CHAR_105_wounded_ep5 | 5화 P10 Phase 4 (SC_234, 32:02) → SC_248 | ✔ chạy |
+| 37 | CHAR_105_bandaged_ep5 | 5화 P11–P12 (SC_255+) | ✔ chạy |
+| 38 | CHAR_106_refugee_ep1 | 1화 P4–P7 | ✔ chạy |
+| 39 | CHAR_106_forge_ep2 | 2화–3화 căn cứ / 3화 D12–D13 | ✔ chạy |
+| 40 | CHAR_106_rain_south_ep3 | 3화 D2–D17 / 4화 | ✔ chạy |
+| 41 | CHAR_107_refugee_ep1 | 1화 P4–P7 | ✔ chạy |
+| 42 | CHAR_107_scarf_ep2 | 2화 D29 → 5화 (mặc định) | ✔ chạy |
+| 43 | CHAR_107_night_trail_ep4 | 4화 D2 rạng sáng (SC_026) / D7 rạng sáng (SC_198–230) | ✔ chạy |
+| 44 | CHAR_201_robe_only_ep3 | 1화 đêm / 2화 D72–D74 / 3화 SC_132 | ✔ chạy |
+| 45 | CHAR_201_defeat_news_ep5 | 5화 P11 (SC_266–269) | ✔ chạy |
+| 46 | CHAR_201_rain_k21_ep5 | 5화 P11 (SC_270–272) | ✔ chạy |
+| 47 | CHAR_202_tent_ep4 | 3화 D9–D10 / 4화 D5–D6 lều | ✔ chạy |
+| 48 | CHAR_202_rain_ep5 | 4화 D8 / 5화 P1–P9 (SC_016–063) | ✔ chạy |
+| 49 | CHAR_202_defeat_ep5 | 5화 P10 Phase 6 → P11 (SC_236–262) | ✔ chạy |
+| 50 | CHAR_203_retreat_ep5 | 5화 P10 (SC_239) / SC_252 truy kích | ✔ chạy |
+| 51 | CHAR_203_chained_ep5 | 5화 P11 (SC_266–269) | ✔ chạy |
+| 52 | CHAR_204_ambush_ep4 | 4화 P4–P5 (SC_076–093) | ✔ chạy |
+| 53 | CHAR_205_survivor_ep1 | 1화 P5–P12 | ✔ chạy |
+| 54 | CHAR_205_nvg_ep3 | 3화 D15+ (SC_257–270) / 4화 D1 | ✔ chạy |
+| 55 | CHAR_205_night_hunt_ep4 | 4화 D2 đêm (SC_061–075) | ✔ chạy |
+| 56 | CHAR_205_bandaged_ep4 | 4화 D3–D8 (SC_128–160, 262–267) | ✔ chạy |
+| 57 | CHAR_205_final_ep5 | 5화 P6–P10 (SC_060–245) | ✔ chạy |
 
-Tổng: 18 base + 41 biến thể = **59 job**. Chạy: `python3 tools/glabs_client.py batch --jobs projects/SALSU_612/05_references/characters/ref_jobs.json --out projects/SALSU_612/05_references/characters/ --parallel 4`. Gợi ý chạy P1 trước (thêm filter theo trường `priority` nếu cần).
+Tổng: 18 base + 54 biến thể chạy (+2 hủy giữ id trong JSON: CHAR_001_rain_cloak_ep3, CHAR_102_wall_night_ep4; CHAR_104_no_cloak_ep3 chưa từng có job → bỏ) = **72 job cần sinh** (file có 74 dòng job). Chạy: `python3 tools/glabs_client.py batch --jobs projects/SALSU_612/05_references/characters/ref_jobs.json --out projects/SALSU_612/05_references/characters/ --parallel 4` (operator lọc `deprecated != true`; ưu tiên `priority` 1).
 
 ## 6. CHECKLIST QC REF SHEET (trước khi LOCK)
 - [ ] 2 view rõ trên 1 ảnh, nền trắng thuần, không bóng đổ, không chữ.
@@ -1092,4 +1217,5 @@ Tổng: 18 base + 41 biến thể = **59 job**. Chạy: `python3 tools/glabs_cli
 - [ ] Không vật lạc thời: Goguryeo/Tùy không có khóa kéo, nút nhựa, đồng hồ; hiện đại không có phù hiệu đơn vị thật.
 - [ ] Không giống diễn viên/chính khách/tượng đài (CHAR_101, 102, 201, 202, 203, 204).
 - [ ] Biến thể giữ đúng mặt/tóc/vóc của base; chỉ đổi trạng thái.
+- [ ] v3: ref biến thể đúng mốc SC ghi ở cột "Dùng ở" (veo-prompt-engineer đính theo SC, không theo tập).
 - [ ] Sau khi user duyệt → cập nhật `continuity_master.json.character_locks` và `derived_states`, đổi header file này thành LOCKED.

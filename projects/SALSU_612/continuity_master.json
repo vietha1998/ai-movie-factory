@@ -80,7 +80,416 @@
     "PROP_022": "grey hemp grain sacks about forty kilograms tied at the mouth, half-buried in a shallow wet earth pit, spilled millet and pressed millet cakes, a bamboo carrying pole",
     "PROP_023": "small rectangular olive-drab painted steel vehicle nameplate with a scratched white numeral 3, two bolt holes, scorched edge, tied to a backpack strap with paracord"
   },
-  "derived_states": {},
+  "derived_states": {
+    "CHAR_001_dusty_ep2": {
+      "group": "CHAR_001",
+      "use": "2화 D25–D71 (P3–P10)",
+      "ref": "job",
+      "prompt_add": "Fine yellow-grey stone dust and black soot on helmet, shoulders and cheeks, sweat streaks at the temples, sleeves rolled to the elbow, small field bandage on the back of the left hand, one-day stubble, black pistol in a thigh holster on the right leg."
+    },
+    "CHAR_001_rain_cloak_ep3": {
+      "group": "CHAR_001",
+      "use": "— (HỦY v3: script 3화 không có áo choàng)",
+      "ref": "deprecated",
+      "prompt_add": "Rain-soaked uniform darkened with water, mud caked to the knees, four-day stubble, hollow cheeks, a coarse brown hemp Goguryeo cloak worn over the body armor, helmet on with wet cover."
+    },
+    "CHAR_001_rain_ep3": {
+      "group": "CHAR_001",
+      "use": "3화 D2–D17 / 4화 D8",
+      "ref": "job",
+      "prompt_add": "Rain-soaked uniform darkened with water, mud caked to the knees, four-day stubble, hollow cheeks, helmet on with wet cover, black pistol in a thigh holster on the right leg, the shaft of a Goguryeo arrow protruding from the left chest pocket."
+    },
+    "CHAR_001_reeds_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 P1–P9",
+      "ref": "job",
+      "prompt_add": "Helmet off, wet matted hair, one-week beard, mud smeared across face as camouflage, dark circles under the eyes, right sleeve torn and patched with brown Goguryeo cloth, uniform wet and muddy, black pistol in a thigh holster, arrow shaft in the left chest pocket."
+    },
+    "CHAR_001_muddy_bloody_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P1–P9",
+      "ref": "job",
+      "prompt_add": "Helmet on with soaked cover and reed stalks tucked in the band, mud smeared on the face, mud caked to the waist, someone else's blood smeared across the chest armor and gloves, rain running down the face, exhausted eyes, jaw clenched."
+    },
+    "CHAR_001_river_oil_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P10 Phase 3–5 (SC_222–228)",
+      "ref": "job",
+      "prompt_add": "Helmet off, hair plastered flat, soaked to the chest, uniform and face streaked with the black sheen of fuel oil, water running from the sleeves, exhausted fierce eyes, empty hands."
+    },
+    "CHAR_001_final_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P11–P12",
+      "ref": "job",
+      "prompt_add": "Helmet off, wet hair, mud drying grey on the uniform, a strip of cloth bandage wrapped around the right hand, empty thigh holster, quiet still face lit by warm sunlight."
+    },
+    "CHAR_002_soot_ep2": {
+      "group": "CHAR_001",
+      "use": "2화 D45–D71 (P7–P11)",
+      "ref": "job",
+      "prompt_add": "Black soot and stone dust on face and armor, sweat streaks, right sleeve scorched at the cuff, forearms smudged with gunpowder residue, two-day stubble, goggles still on the helmet."
+    },
+    "CHAR_002_k3_rain_ep3": {
+      "group": "CHAR_001",
+      "use": "3화 P10–P12 / 4화 D8",
+      "ref": "job",
+      "prompt_add": "Helmet on with wet cover, rain-soaked uniform, mud to the knees, five-day stubble, right sleeve scorched at the cuff, a K3 light machine gun slung on the right shoulder with a strip of cloth tape wrapped around its stock, goggles on the helmet fogged with water."
+    },
+    "CHAR_002_reeds_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 P1–P9",
+      "ref": "job",
+      "prompt_add": "Helmet off, wet short hair, one-week beard, split bleeding lip, mud smeared on face, both sleeves torn off at the elbow, bruised forearms, uniform soaked and muddy, tense jaw, a K3 light machine gun with cloth tape on the stock held across the body."
+    },
+    "CHAR_002_muddy_bloody_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P7–P12 (từ SC_132)",
+      "ref": "job",
+      "prompt_add": "Helmet on with chinstrap hanging loose and reed stalks in the band, goggles missing, blood-soaked field bandage wrapped around the left upper arm, mud and blood on both forearms, rain-soaked uniform, teeth bared, K3 light machine gun with cloth tape on the stock."
+    },
+    "CHAR_003_soot_ep2": {
+      "group": "CHAR_001",
+      "use": "2화 D45 (P7)",
+      "ref": "job",
+      "prompt_add": "Face and gloves blackened with soot from a vehicle fire, left eyebrow half singed, sweat cutting clean lines through the grime, two-day salt-and-pepper stubble, patrol cap pushed back."
+    },
+    "CHAR_003_hands_bandaged_ep2": {
+      "group": "CHAR_001",
+      "use": "2화 D46–D75 (P8–P12)",
+      "ref": "job",
+      "prompt_add": "Both hands wrapped in white field bandages, no gloves, left eyebrow half singed, soot-streaked tired face, patrol cap, red rag in belt, holding a small green notebook awkwardly between bandaged hands."
+    },
+    "CHAR_003_rain_ep3": {
+      "group": "CHAR_001",
+      "use": "3화 toàn tập / 4화",
+      "ref": "job",
+      "prompt_add": "Rain-soaked uniform, mud to the knees, torn mechanic gloves, pink healing burn marks on the backs of both hands, a small painted metal vehicle nameplate with a white \"3\" tied to his backpack strap, four-day gray stubble, patrol cap dripping."
+    },
+    "CHAR_003_muddy_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P1–P10 Phase 2",
+      "ref": "job",
+      "prompt_add": "Mud caked to the hips, engine oil and blood on both forearms, soaked patrol cap, week-old gray stubble, exhausted but calm face, the metal vehicle nameplate still tied to the backpack strap."
+    },
+    "CHAR_003_crutch_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P11–P12",
+      "ref": "job",
+      "prompt_add": "Leaning on a crutch made from a broken Goguryeo spear shaft, left trouser leg cut open with a blood-stained bandage around the thigh, soaked patrol cap, mud to the hips, week-old gray stubble, exhausted calm face, small painted metal vehicle nameplate tied to the backpack strap."
+    },
+    "CHAR_003_helmet_combat": {
+      "group": "CHAR_001",
+      "use": "2화 D71 / 5화 giao tranh",
+      "ref": "prompt_only",
+      "prompt_add": "Ballistic helmet with camo cover worn instead of the patrol cap, chinstrap fastened."
+    },
+    "CHAR_004_bloody_sleeves_ep2": {
+      "group": "CHAR_001",
+      "use": "2화 D26–D75 (P3–P12)",
+      "ref": "job",
+      "prompt_add": "Helmet off, hair bun half undone with loose strands, dried blood on both sleeves up to the elbows and on nitrile gloves, pale tired face, headlamp hanging around the neck."
+    },
+    "CHAR_004_braid_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 P2–P12",
+      "ref": "job",
+      "prompt_add": "Helmet off, hair in a single long Goguryeo-style braid tied with hemp cord, sleeves rolled, dried blood on forearms, small cloth herb pouch at belt, worn red cross armband, wet muddy uniform."
+    },
+    "CHAR_004_muddy_bloody_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P2–P12",
+      "ref": "job",
+      "prompt_add": "Helmet on with soaked cover, long braid dripping, blood to the elbows, mud on knees and thighs, red cross armband torn at one corner, rain on face, focused expression."
+    },
+    "CHAR_005_captive_ep3": {
+      "group": "CHAR_001",
+      "use": "3화 P10–P12 / 4화 P1–P8",
+      "ref": "job",
+      "prompt_add": "Prisoner: no helmet, no body armor, no boots, torn dirty camo uniform and socks, a dark rectangular patch of unfaded cloth on the right shoulder where the flag patch was torn off, hands bound behind the back with hemp rope, split lip, bruised swollen left eye, hair hacked short unevenly, mud on face, frightened but defiant."
+    },
+    "CHAR_005_rescued_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 P9–P10",
+      "ref": "prompt_only",
+      "prompt_add": "Rope marks on wrists, coarse hemp Goguryeo jacket worn open over the torn camo uniform, right foot splinted with reed stalks and bandage, no helmet, hair hacked unevenly, exhausted relief."
+    },
+    "CHAR_005_goguryeo_helmet_ep5": {
+      "group": "CHAR_001",
+      "use": "4화 P11–P12 / 5화 toàn tập",
+      "ref": "job",
+      "prompt_add": "Wearing a plain Goguryeo iron plate helmet without plume, slightly too large, over hacked short hair, borrowed body armor over a torn camo uniform with no flag patch on the right shoulder, a fading bruise on the left eye, right foot splinted with reeds and bandage, a military handheld radio handset in his hands, rain-soaked, mud to the knees, determined face."
+    },
+    "CHAR_006_facepaint_ep1": {
+      "group": "CHAR_001",
+      "use": "1화–2화 trinh sát",
+      "ref": "job",
+      "prompt_add": "Two diagonal streaks of green and black camouflage face paint across cheeks and forehead, dry yellow grass stalks tucked into the scrim scarf, fine dust on the hat brim."
+    },
+    "CHAR_006_night_raid_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 D2 đêm (SC_061–075) / D7 rạng sáng (SC_198–249)",
+      "ref": "job",
+      "prompt_add": "No hat, wet hair plastered down, entire face blackened with mud camouflage except the eyes, fixed-blade knife in right hand, soaked uniform, crouched posture."
+    },
+    "CHAR_006_horseback_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P2, P9–P11",
+      "ref": "job",
+      "prompt_add": "Mounted on a Goguryeo warhorse with leather saddle and iron stirrups, boonie hat soaked, scrim scarf, K2C1 rifle slung across the chest, mud and river water to the boots, rain."
+    },
+    "CHAR_101_cloak_incognito_ep2": {
+      "group": "CHAR_001",
+      "use": "2화 P3–P5 (SC_049–077)",
+      "ref": "job",
+      "prompt_add": "A plain black wool cloak with hood drawn over the armor hiding the plume, road dust on the hem and boots, helmet plume removed, face half in shadow of the hood."
+    },
+    "CHAR_101_false_surrender_ep3": {
+      "group": "CHAR_001",
+      "use": "3화 P4–P5 (SC_051–075)",
+      "ref": "job",
+      "prompt_add": "No armor: a dark red-brown silk long jacket with black border, wide trousers, a Goguryeo bird-feather court cap with two white feathers, unarmed, empty hands open, light rain on the shoulders."
+    },
+    "CHAR_101_hall_seated_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 P6 (SC_103–109) / 3화 D11 lều",
+      "ref": "job",
+      "prompt_add": "Helmet removed, gray topknot exposed, armor darkened with rain, seated cross-legged on a woven mat before a low wooden table, hands on knees, face lit warm from one side by oil lamps."
+    },
+    "CHAR_101_salsu_rain_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P1–P11",
+      "ref": "job",
+      "prompt_add": "Full armor soaked with rain, plume feathers heavy and dripping, mud to the shins, longsword drawn and held low, water droplets on the beard, eyes fixed on the distance."
+    },
+    "CHAR_101_helmet_off_tent": {
+      "group": "CHAR_001",
+      "use": "4화 lều / 5화 D+8",
+      "ref": "prompt_only",
+      "prompt_add": "Helmet removed, gray topknot exposed, cloak over shoulders, brush in hand."
+    },
+    "CHAR_102_wall_night_ep4": {
+      "group": "CHAR_001",
+      "use": "— (HỦY v3: script 4화 vua ở nội điện, không lên tường)",
+      "ref": "deprecated",
+      "prompt_add": "A heavy black wool cloak over the crimson robe, crown unchanged, standing, face lit warm from one side as if by torchlight, faint mist on the shoulders."
+    },
+    "CHAR_102_hall_night_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 P6 (SC_103–110) / 5화 P12 (SC_276–280)",
+      "ref": "job",
+      "prompt_add": "Seated on a black lacquered throne with gold trim, a heavy black wool cloak over the crimson robe, crown unchanged, a writing brush held in the right hand above a low table, face lit warm from one side by oil lamps, calm heavy-lidded gaze."
+    },
+    "CHAR_102_seated_throne": {
+      "group": "CHAR_001",
+      "use": "1화 P12",
+      "ref": "prompt_only",
+      "prompt_add": "Seated on the throne, hands on knees, edict scroll on a low table, oil lamp light."
+    },
+    "CHAR_103_ambush_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 P4–P5 (SC_076–093)",
+      "ref": "job",
+      "prompt_add": "Blood on the spear blade and right forearm, smoke smudges on face and armor, sweat, one plank of the round shield split, red crest frayed, teeth clenched mid-battle."
+    },
+    "CHAR_103_helmet_off": {
+      "group": "CHAR_001",
+      "use": "4화 P6 nội điện / 5화 P12",
+      "ref": "prompt_only",
+      "prompt_add": "Helmet removed and held at the side, black topknot loosened and wet, smoke-smudged face, calm."
+    },
+    "CHAR_104_siege_ep2": {
+      "group": "CHAR_001",
+      "use": "2화 P4–P12 (SC_055–287)",
+      "ref": "job",
+      "prompt_add": "Helmet worn on the head, a blood-spotted cloth bandage around the forehead under the headband, stone dust in the beard, torch soot on cheeks, cloak scorched with a burnt hole, a long iron-tipped spear in the right hand, tired fierce eyes."
+    },
+    "CHAR_104_no_cloak_ep3": {
+      "group": "CHAR_001",
+      "use": "— (HỦY v3: 3화 không xuất hiện)",
+      "ref": "deprecated",
+      "prompt_add": "Without the gray cloak, cuirass and brown jacket only, helmet under arm, face washed but exhausted."
+    },
+    "CHAR_105_dusty_ep1": {
+      "group": "CHAR_001",
+      "use": "1화 P4–P12",
+      "ref": "prompt_only",
+      "prompt_add": "Fine yellow dust on armor and face, dried blood on leather gloves, sweat, feather slightly bent."
+    },
+    "CHAR_105_plain_robe_ep3": {
+      "group": "CHAR_001",
+      "use": "3화 P4–P5 (SC_051–075)",
+      "ref": "job",
+      "prompt_add": "No armor and no helmet: a long plain brown cloth robe belted with cord, black topknot bare, no sword, no bow, holding a white cloth flag on a short bamboo pole, rain-damp shoulders, alert eyes."
+    },
+    "CHAR_105_radio_ep3": {
+      "group": "CHAR_001",
+      "use": "3화 D11+ (SC_112–287) / 4화 P1–P10",
+      "ref": "job",
+      "prompt_add": "A modern olive-green military handheld radio clipped to the chest armor lacing, rain-soaked armor and jacket, oiled dark cloak over one shoulder, mud on boots and skirt, wet feather."
+    },
+    "CHAR_105_wounded_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P10 Phase 4 (SC_234, 32:02) → SC_248",
+      "ref": "job",
+      "prompt_add": "Helmet gone, topknot loosened, an arrow shaft still embedded below the left collarbone, blood soaking the green jacket black, lying half-propped in mud and reeds, face pale, rain on skin, left hand weakly gripping a composite bow."
+    },
+    "CHAR_105_bandaged_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P11–P12 (SC_255+)",
+      "ref": "job",
+      "prompt_add": "Arrow removed: a modern white bandage wrapped diagonally from the left shoulder across the bare chest, green jacket draped open over the shoulders, no helmet, hair loose, seated half-upright, pale but alert, rain giving way to sunlight."
+    },
+    "CHAR_106_refugee_ep1": {
+      "group": "CHAR_001",
+      "use": "1화 P4–P7",
+      "ref": "job",
+      "prompt_add": "No apron: a large cloth bundle tied on the back, yellow dust over hair and clothes, someone else's blood on the right sleeve, walking staff, frightened exhausted face."
+    },
+    "CHAR_106_forge_ep2": {
+      "group": "CHAR_001",
+      "use": "2화–3화 căn cứ / 3화 D12–D13",
+      "ref": "job",
+      "prompt_add": "Leather apron blackened with soot, sweat on the brow, sleeves pushed up showing burn-scarred forearms, hammer in hand, white stone dust in the beard."
+    },
+    "CHAR_106_rain_south_ep3": {
+      "group": "CHAR_001",
+      "use": "3화 D2–D17 / 4화",
+      "ref": "job",
+      "prompt_add": "Coarse hemp cloak over the jacket, rain-soaked, mud on sandals and shins, walking staff, tool roll on the back, right palm wrapped in a strip of hemp cloth."
+    },
+    "CHAR_107_refugee_ep1": {
+      "group": "CHAR_001",
+      "use": "1화 P4–P7",
+      "ref": "job",
+      "prompt_add": "A coarse hemp scarf over the head, yellow dust on clothes and face, tear tracks through the dust, one straw sandal broken, clutching a basket, frightened."
+    },
+    "CHAR_107_scarf_ep2": {
+      "group": "CHAR_001",
+      "use": "2화 D29 → 5화 (mặc định)",
+      "ref": "job",
+      "prompt_add": "A modern olive-green military scarf tied around the neck over the indigo jacket, braids neat, small smear of blood on the fingertips."
+    },
+    "CHAR_107_scarf_burnt_ep3": {
+      "group": "CHAR_001",
+      "use": "3화 P7+ / 4화 / 5화",
+      "ref": "prompt_only",
+      "prompt_add": "The olive military scarf with one corner scorched black and frayed, rain-damp braids, mud on the hem of the skirt."
+    },
+    "CHAR_107_night_trail_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 D2 rạng sáng (SC_026) / D7 rạng sáng (SC_198–230)",
+      "ref": "job",
+      "prompt_add": "Braids hidden under a dark cloth, pale mud smeared on the cheeks, skirt hitched and tied at the knees, bare feet, a small iron sickle in the right hand, a woven basket on the back, wet from mist and rain, no scarf visible."
+    },
+    "CHAR_201_robe_only_ep3": {
+      "group": "CHAR_001",
+      "use": "1화 đêm / 2화 D72–D74 / 3화 SC_132",
+      "ref": "job",
+      "prompt_add": "Without the gilded cuirass: ochre-yellow silk robe with wide sleeves only, crown unchanged, hands holding a small dark gray quadcopter drone at eye level, studying it."
+    },
+    "CHAR_201_field_dust_ep2": {
+      "group": "CHAR_001",
+      "use": "2화 D45–D71",
+      "ref": "prompt_only",
+      "prompt_add": "Gilded cuirass, fine dust on the yellow hem and red boots, irritated expression, a round silk fan in the left hand."
+    },
+    "CHAR_201_defeat_news_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P11 (SC_266–269)",
+      "ref": "job",
+      "prompt_add": "Standing rigid, face drained white, crown slightly askew, a crushed paper report in the clenched right fist, eyes wide and unblinking, no armor, yellow robe."
+    },
+    "CHAR_201_rain_k21_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P11 (SC_270–272)",
+      "ref": "job",
+      "prompt_add": "No armor, the ochre-yellow silk robe soaked dark with rain, crown beaded with water, no umbrella, right hand wearing a jade ring pressed flat against a wet slab of armored steel, expressionless face, rain running down the goatee."
+    },
+    "CHAR_202_tent_ep4": {
+      "group": "CHAR_001",
+      "use": "3화 D9–D10 / 4화 D5–D6 lều",
+      "ref": "job",
+      "prompt_add": "Helmet off showing the white topknot, red cloak removed, armor worn open at the throat, holding a small silk scroll, face flushed red with anger, lamplight warmth on the beard."
+    },
+    "CHAR_202_rain_ep5": {
+      "group": "CHAR_001",
+      "use": "4화 D8 / 5화 P1–P9 (SC_016–063)",
+      "ref": "job",
+      "prompt_add": "Armor streaming with rain, red silk cloak soaked dark and heavy, red tassel on the helmet dripping, water in the white beard, mud on the red boots, jaw set, fierce eyes."
+    },
+    "CHAR_202_defeat_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P10 Phase 6 → P11 (SC_236–262)",
+      "ref": "job",
+      "prompt_add": "Captured: soaked to the skin, white hair loose from the topknot, beard matted with mud and river water, one breast mirror dented, red cloak torn to half its length, helmet lost, hands bound behind the back with hemp rope, kneeling on wet sand, stunned blank face."
+    },
+    "CHAR_203_tent_ep4": {
+      "group": "CHAR_001",
+      "use": "3화 D10 / 4화 D6 lều",
+      "ref": "prompt_only",
+      "prompt_add": "No armor: dark blue robe and a black cloth head wrap, cloak over the shoulders, brush and bamboo slips in hand, lamplight."
+    },
+    "CHAR_203_retreat_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P10 (SC_239) / SC_252 truy kích",
+      "ref": "job",
+      "prompt_add": "Helmet on, cloak soaked and heavy with rain, mud to the knees, face gray with exhaustion, sword lowered in the right hand, looking back over his shoulder."
+    },
+    "CHAR_203_chained_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P11 (SC_266–269)",
+      "ref": "job",
+      "prompt_add": "Kneeling, an iron collar and iron shackles on neck and wrists joined by chain, no helmet and no cloak, dark cuirass caked with dried cracked mud, gray beard matted, gray topknot loose, face lifted and eyes steady."
+    },
+    "CHAR_204_landing_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 P2–P4 (SC_019, 052–060)",
+      "ref": "prompt_only",
+      "prompt_add": "River spray on the oiled cloak and helmet, wet beard, confident grin, dao drawn."
+    },
+    "CHAR_204_ambush_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 P4–P5 (SC_076–093)",
+      "ref": "job",
+      "prompt_add": "Blood on the dao blade, smoke smudges, helmet brim dented, cloak scorched at the hem, sweat and panic in the eyes, mid-run."
+    },
+    "CHAR_205_survivor_ep1": {
+      "group": "CHAR_001",
+      "use": "1화 P5–P12",
+      "ref": "job",
+      "prompt_add": "Fox-fur cap lost, braid exposed and dusty, yellow dust over armor and face, a line of dried blood from the left ear down the neck, torn tunic sleeve, steady unafraid eyes."
+    },
+    "CHAR_205_magazine_ep2": {
+      "group": "CHAR_001",
+      "use": "2화 P11–P12 / 3화 D1–D14",
+      "ref": "prompt_only",
+      "prompt_add": "An empty black rifle magazine hanging from a cord on the bronze plaque belt, stone dust on the fur cap and shoulders, soot on the cheeks."
+    },
+    "CHAR_205_nvg_ep3": {
+      "group": "CHAR_001",
+      "use": "3화 D15+ (SC_257–270) / 4화 D1",
+      "ref": "job",
+      "prompt_add": "A modern night-vision monocular device strapped with a leather strap over the front of the fox-fur cap, an empty black rifle magazine hanging from the belt, rain-darkened leather armor, mud on boots."
+    },
+    "CHAR_205_night_hunt_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 D2 đêm (SC_061–075)",
+      "ref": "job",
+      "prompt_add": "Night-vision monocular flipped down over the right eye, wet dark cloak over the armor, bow in hand with arrow nocked, mud on the knees, a fresh bleeding cut on the right forearm."
+    },
+    "CHAR_205_bandaged_ep4": {
+      "group": "CHAR_001",
+      "use": "4화 D3–D8 (SC_128–160, 262–267)",
+      "ref": "job",
+      "prompt_add": "The night-vision monocular hanging from a cord at the chest beaded with rain, right forearm wrapped in a dark cloth bandage, fox-fur cap soaked, braid wet, empty magazine on the belt, mud on the boots, calm assessing eyes."
+    },
+    "CHAR_205_final_ep5": {
+      "group": "CHAR_001",
+      "use": "5화 P6–P10 (SC_060–245)",
+      "ref": "job",
+      "prompt_add": "Fox-fur cap on, braid wet and swinging, a cracked night-vision device hanging from a cord around the neck, composite bow slung across the back, ring-pommel saber drawn in the right hand, right forearm wrapped in a black cloth bandage, mud to the thighs, blood on the tunic, rain, fierce calm face."
+    }
+  },
   "style_tag": "photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
   "locked_at": "2026-09-16",
   "rules": {
