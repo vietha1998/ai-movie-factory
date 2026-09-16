@@ -1,0 +1,252 @@
+[
+  {
+    "id": "VEH_001_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a South Korean K2 Black Panther main battle tank, three-quarter front-left view, low angular wedge-shaped turret, long 120mm smoothbore gun with bore evacuator, six twin rubber-rimmed road wheels per side under thick side skirts, six smoke grenade launchers on each side of the turret, commander's panoramic sight on the turret roof, 12.7mm machine gun on the commander's cupola, stowage basket at the turret rear, three-tone green-brown-black South Korean army camouflage, small white numeral 1 stenciled on the turret side with a small Korean flag beside it, two black whip antennas, clean factory condition with light yellow dust on the hull, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K2_hero"
+  },
+  {
+    "id": "VEH_001_ep5",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a battle-worn South Korean K2 Black Panther main battle tank, three-quarter front-left view, low angular wedge-shaped turret, long 120mm gun depressed low, hull caked in wet grey-brown river mud up to half its height, left side scorched black, one side skirt panel missing, reeds and broken arrow shafts stuck in the stowage basket, one headlight smashed, commander's hatch open, faded three-tone green-brown-black camouflage showing through the mud, small white numeral 1 and small Korean flag half hidden under mud, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K2_ep5"
+  },
+  {
+    "id": "VEH_002_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a South Korean K21 infantry fighting vehicle, three-quarter front-left view, angular boxy hull with steep sloped glacis, small two-man turret offset to the right with a short 40mm autocannon and boxy sights on top, folded rubberized flotation panels along the hull sides above thin side skirts, six road wheels per side, rear troop ramp, smoke grenade launchers, three-tone green-brown-black South Korean army camouflage, small white numeral 2 stenciled on the turret side with a small Korean flag beside it, one black whip antenna, clean condition with light yellow dust, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K21_base"
+  },
+  {
+    "id": "VEH_002_captured",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a captured South Korean K21 infantry fighting vehicle, three-quarter rear-left view, angular boxy hull in mud-streaked three-tone green-brown-black camouflage, rear troop ramp lowered and open, a red and yellow Sui dynasty silk banner with black tassels tied to the turret, thick hemp ropes lashed around the hull front for horses to tow, a small white arrow mark painted on the ramp, dried mud and grass on the tracks, no fuel cans, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K21_captured"
+  },
+  {
+    "id": "VEH_002_burned",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a burned-out South Korean K21 infantry fighting vehicle, three-quarter front-right view, hull scorched black and rust-brown, paint blistered, flotation panels burned away, turret slightly dislodged, rubber on the road wheels melted, thin grey smoke still rising from the open hatches, charred remains of a camouflage net hanging from the side, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K21_burned"
+  },
+  {
+    "id": "VEH_003_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a South Korean K511A1 six-wheeled military cargo truck, three-quarter front-left view, boxy hard cab with long hood and vertical grille, canvas-covered cargo bed on arched bows with the rear flap open showing two green 200-liter fuel drums strapped upright, big lugged tires, a machine gun ring mount on the cab roof, three-tone green-brown-black South Korean army camouflage on the cab, faded olive canvas, small Korean flag on the door, light yellow dust, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K511_truck"
+  },
+  {
+    "id": "VEH_004_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a South Korean K151 light tactical 4x4 command vehicle, three-quarter front-right view, tall boxy lightly-armored body, two-piece sloped windshield, thick doors, round roof hatch with a 12.7mm heavy machine gun, three black whip antennas, roof rack with a folded solar panel and a small portable generator, big lugged tires, caged round headlights, three-tone green-brown-black South Korean army camouflage, small Korean flag on the door, light yellow dust, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K151_cmd"
+  },
+  {
+    "id": "WPN_001_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a South Korean K2C1 5.56mm assault rifle, three-quarter view from the right side, black matte finish, quad Picatinny rail handguard, side-folding skeleton stock extended, 30-round steel magazine, small red-dot sight on the top rail, tactical light clamped to the side rail, two-point sling, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K2C1_rifle"
+  },
+  {
+    "id": "WPN_002_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of an 81mm KM187 infantry mortar set up for firing, three-quarter view, dark olive steel tube on a two-leg bipod with traversing and elevating handwheels, round aluminum baseplate, small optical sight, three finned high-explosive mortar bombs and their green plastic carrying tubes laid beside it, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "KM187_mortar"
+  },
+  {
+    "id": "WPN_003_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a South Korean K3 5.56mm light machine gun on its folding bipod, three-quarter view from the right, black finish, long barrel with carrying handle, green 200-round plastic belt box attached under the receiver with a length of linked ammunition, fixed stock, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K3_lmg"
+  },
+  {
+    "id": "WPN_004_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a K6 12.7mm heavy machine gun on a heavy olive tripod, three-quarter view from the rear-left, long boxy grey-black steel receiver, thick perforated barrel jacket, twin spade grips, a wide belt of 12.7mm cartridges feeding from a green ammunition can, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K6_hmg"
+  },
+  {
+    "id": "WPN_005_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Panzerfaust 3 shoulder-fired anti-tank weapon, three-quarter view, long dark olive launch tube with a large black conical warhead protruding from the front, detachable sight and trigger unit mounted on the left side, shoulder rest, one spare warhead-and-tube beside it, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "PZF3"
+  },
+  {
+    "id": "WPN_006_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a K4 40mm automatic grenade launcher on a heavy olive tripod, three-quarter view from the rear-right, large square grey-black steel receiver, short thick barrel, twin grips, steel ammunition can on the left feeding a belt of 40mm grenades, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "K4_agl"
+  },
+  {
+    "id": "UAV_001_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a small dark graphite-grey military reconnaissance quadcopter drone, three-quarter view slightly from above, four folding arms with orange-tipped propellers, short landing legs, spherical three-axis gimbal camera with thermal lens under the belly, tiny status LEDs, small white numeral on one arm, tiny Korean flag sticker on the body, its handheld controller with a seven-inch screen and folding antennas beside it, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "drone_quad"
+  },
+  {
+    "id": "EQP_001_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a PVS-11K monocular night vision device, three-quarter view, short black cylindrical tube with a round objective lens and a rubber eyecup, flip-up metal helmet mount arm, small battery pack, mounted on the front of a dark green South Korean K1 combat helmet, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "PVS11K_nvg"
+  },
+  {
+    "id": "EQP_002_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a PRC-999K South Korean military VHF backpack radio, three-quarter view, dark olive metal box with rotary knobs and a small LCD panel, long black whip antenna, coiled-cord handset resting on top, mounted on a backpack frame, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "PRC999K_radio"
+  },
+  {
+    "id": "VEH_101_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Goguryeo heavy cavalryman of 612 AD standing beside his horse, three-quarter view, the horse fully armored in dull dark iron lamellar barding from neck to rump with an iron face mask with eye holes and leather edging, the rider in full iron lamellar armor with arm and shin guards over a dark red long tunic, iron helmet with a red horsehair plume, holding a four-meter lance, sword at the waist, composite bow on the saddle, a small black three-legged crow pennant on a yellow field on his back, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "goguryeo_cataphract"
+  },
+  {
+    "id": "WPN_101_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of Goguryeo archery equipment of 612 AD laid out together, a short composite reflex bow of horn, wood and sinew wrapped in dark cherry bark, strung, a leather quiver with a dozen arrows with iron willow-leaf and barbed triangular heads and grey three-vane fletching, and a heavy wooden crossbow with a bronze trigger and short thick bolts, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "goguryeo_bow"
+  },
+  {
+    "id": "VEH_201_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Sui dynasty eight-wheeled siege tower of 612 AD, three-quarter front view, tall four-story raw timber frame narrowing upward with an internal ladder, front and sides covered in wet dark ox hides lashed with hemp rope, a hinged drop-bridge at the top, arrow slits on the upper floors, eight solid wooden wheels about one and a half meters tall, towing ropes and pushing beams at the base, a red Sui banner on top, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "sui_siege_tower"
+  },
+  {
+    "id": "VEH_202_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Sui dynasty battering ram cart of 612 AD, three-quarter view, a long timber ram with a forged iron head hung on iron chains under a low turtle-shell-shaped wooden roof covered in wet dark ox hides, six solid wooden wheels, pushing bars along the sides, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "sui_ram"
+  },
+  {
+    "id": "VEH_203_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Sui dynasty cloud ladder siege cart of 612 AD, three-quarter view, a heavy four-wheeled wooden cart base carrying a two-section hinged extending ladder raised halfway, iron hooks at the top rung, hemp ropes and pulleys, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "sui_ladder"
+  },
+  {
+    "id": "VEH_204_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Sui dynasty tower warship of 612 AD, three-quarter bow view, long dark red-brown wooden hull about forty meters, two stories of wooden deckhouses with red railings and a small tower at the stern, square brown cloth sail furled, rows of oars on both sides, carved beast head at the prow, red and yellow silk banners with black tassels, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "sui_warship"
+  },
+  {
+    "id": "VEH_205_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a twenty-meter section of a Sui dynasty pontoon bridge of 612 AD, three-quarter view, flat-bottomed wooden boats about eight meters long moored side by side with thick hemp rope and iron chain, a plank deck four meters wide laid across them, wooden mooring stakes and a red banner at one end, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "sui_pontoon"
+  },
+  {
+    "id": "VEH_206_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Xianbei steppe cavalryman of 612 AD standing beside his horse, three-quarter view, a short stocky steppe horse with thick mane and long tail and no armor, the rider in brown leather lamellar armor with black-painted scales over a long leather coat, fur-trimmed leather cap, soft leather boots, composite bow in a case at the hip with a quiver of arrows, short curved saber, coiled rope lasso on the saddle, a black horse-tail standard on a pole, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "xianbei_cavalry"
+  },
+  {
+    "id": "WPN_201_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Sui dynasty infantryman of 612 AD, three-quarter view, mingguang armor with two polished round iron chest plates over lamellar, pointed iron helmet with neck guard, long spear, red rectangular wooden shield, straight sword at the waist, grey-blue padded coat beneath, leather boots, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "sui_infantry"
+  }
+]

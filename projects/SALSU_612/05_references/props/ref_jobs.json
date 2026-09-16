@@ -1,0 +1,162 @@
+[
+  {
+    "id": "PROP_001_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a folded South Korean army topographic paper map opened flat, three-quarter view from above, brown contour lines, pale green forest areas, black grid squares, red and blue grease-pencil tactical marks, worn creases, light yellow dust, beside it the same map's back side covered in rough charcoal sketches of a river, a rectangular fortress and an arrow route heading south, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "map_paper"
+  },
+  {
+    "id": "PROP_002_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a rugged black rubber-armored military tablet, three-quarter view, a diagonal crack across the upper right of its ten-inch screen, screen glowing dimly with an empty dark blue digital map grid and a small crossed-out satellite icon in the corner, hand strap on the back, scuffed edges, light yellow dust, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "tablet_cracked"
+  },
+  {
+    "id": "PROP_006_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of black rubber-armored 7x50 military binoculars, three-quarter view, neck strap, flip-up lens caps open, light yellow dust on the rubber, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "binoculars"
+  },
+  {
+    "id": "PROP_007_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a dark olive 200-liter steel fuel drum standing upright, three-quarter view, two raised ribs around the body, twin screw caps on top, a small red triangle painted on the side, dents and scratches, a rotary hand pump inserted in one cap, a green 20-liter military jerrycan beside it, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "fuel_drum"
+  },
+  {
+    "id": "PROP_008_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of South Korean army ammunition laid out together, three-quarter view, three olive-green steel ammunition cans of different sizes with hinged latched lids and carry handles, one open showing linked 5.56mm rounds, a wooden crate holding 81mm mortar bombs in green plastic tubes, and a single one-meter-long 120mm tank round with a copper-brown semi-combustible case and black fin-stabilized projectile lying in front, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "ammo_cans"
+  },
+  {
+    "id": "PROP_009_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of an olive-green military medic shoulder bag open, three-quarter view from above, small red cross patch, many zipped pockets, contents laid out in front: rolled bandages, pressure dressings, an orange tourniquet, trauma shears, two morphine autoinjectors, an empty white plastic antibiotic bottle on its side, and a small brown hemp pouch of dried herbs tied to the strap, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "medic_bag"
+  },
+  {
+    "id": "PROP_010_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a South Korean army combat ration laid out, three-quarter view from above, square olive-brown plastic pouches, one opened flameless heating bag with a little steam rising, a plastic spoon, a compressed biscuit and a small sachet, next to it a rough grey Goguryeo clay bowl of cooked millet with wooden chopsticks, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "ration"
+  },
+  {
+    "id": "PROP_011_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a small full-color embroidered South Korean flag patch, close three-quarter view, red and blue taeguk circle with four black trigrams on a white field, hook-and-loop backing, about seven by four centimeters, one copy clean and one copy dusty with a torn upper corner, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "taegukgi_patch"
+  },
+  {
+    "id": "PROP_012_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Goguryeo war banner of 612 AD, three-quarter view, a tall rectangular earthy yellow silk flag bearing a black three-legged crow inside a black sun circle, black tassel fringe along the edges, hung from a long bamboo pole topped with a tuft of dark feathers, fabric slightly worn and dusty, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "samjoko_flag"
+  },
+  {
+    "id": "PROP_013_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Goguryeo royal edict of 612 AD partly unrolled, three-quarter view from above, pale yellow silk on a black lacquered wooden rod with bronze end caps, columns of black brush calligraphy, a large square red seal impression near the end, its black lacquered bamboo carrying tube with red silk cord lying beside it, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "royal_edict"
+  },
+  {
+    "id": "PROP_014_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a small ivory silk scroll of 612 AD unrolled, three-quarter view from above, about thirty by forty centimeters, four short columns of elegant black brush calligraphy, no seal, a length of hemp cord and a Goguryeo arrow with grey fletching lying across it, a Goguryeo brush and ink stone at the edge, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "poem_scroll"
+  },
+  {
+    "id": "PROP_015_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of three Goguryeo arrows of 612 AD, three-quarter view, eighty-centimeter bamboo shafts, one with a barbed triangular iron head and two with willow-leaf iron heads, grey three-vane feather fletching bound with sinew, notched nocks, one arrow shown embedded deep in the tread of a large black military truck tire, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "goguryeo_arrow"
+  },
+  {
+    "id": "PROP_017_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of two ancient East Asian war drums side by side, three-quarter view, on the left a Goguryeo drum one meter across with a faded red lacquered wooden body, bronze studs and hide heads on an X-shaped wooden stand with a leather-wrapped beater, on the right a larger Sui dynasty drum in bright red lacquer with gold cloud patterns hung in a red lacquered wooden frame, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "war_drums"
+  },
+  {
+    "id": "PROP_019_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of two tools, three-quarter view, a hand-forged dark iron pry bar one point two meters long with a flattened chisel end and a hooked end, surface showing hammer marks and forge scale, and a modern olive-green folding entrenching shovel whose broken handle has been replaced with a new pale oak shaft bound by a hand-forged iron collar, both dusty, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "eulbo_tools"
+  },
+  {
+    "id": "PROP_021_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of two Sui dynasty banners of 612 AD side by side, three-quarter view, on the left a tall red silk rectangular army banner with a yellow border and black tassels on a black lacquered pole with a bronze finial, on the right a yellow silk imperial banner with an embroidered coiled dragon and red tassels, fabric moving slightly, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "sui_banners"
+  },
+  {
+    "id": "PROP_022_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of Sui dynasty soldier's rations of 612 AD, three-quarter view, a grey hemp grain sack tied at the mouth with spilled millet, a few round pressed millet cakes, a bundle of dried beans, a bamboo carrying pole with rope, all smeared with wet dark earth as if just dug up, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "sui_rations"
+  }
+]

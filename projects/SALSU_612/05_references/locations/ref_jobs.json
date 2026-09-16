@@ -1,0 +1,192 @@
+[
+  {
+    "id": "LOC_001_wide",
+    "type": "image",
+    "body": {
+      "prompt": "Aerial establishing shot from high above the east bank, early spring 612 AD Manchuria: a wide muddy brown river crossed by three long pontoon bridges made of flat wooden boats lashed side by side with plank decks, endless columns of Sui dynasty soldiers with red and yellow banners crossing them, on the far bank a Sui dynasty camp of countless grey felt tents in grid rows to the horizon with thousands of cooking smoke columns, on the near bank a flat steppe of dry knee-high yellow grass bending in one direction under constant wind, drifting yellow dust, cold pale grey overcast sky, no trees, no modern structures, no roads, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-001-wide"
+  },
+  {
+    "id": "LOC_001_detail",
+    "type": "image",
+    "body": {
+      "prompt": "Ground-level detail shot at the east bank of the Liao River, early spring 612 AD: the end of a Sui pontoon bridge of flat wooden boats lashed with thick hemp rope and plank decking, wooden mooring stakes driven into grey mud, a red and yellow silk banner with black tassels on a tall pole, hoofprints and cart ruts in the mud, dry yellow grass in the foreground bending in wind, cold grey diffused light with yellow dust drifting through it, no people in frame, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-001-detail"
+  },
+  {
+    "id": "LOC_002_wide",
+    "type": "image",
+    "body": {
+      "prompt": "Aerial establishing shot, late afternoon, 612 AD: a Goguryeo plain fortress on a low rise amid dry yellow steppe, long dry-stacked grey granite walls slightly battered inward with rectangular protruding bastions every fifty meters, a semicircular stone barbican enclosing the south gate, a two-story timber gate tower with dark grey tiled roof, wooden corner watchtowers, a three-story wooden pagoda and tiled-roof timber halls inside, black three-legged crow banners on tall poles along the wall, a muddy moat on three sides, trampled grass and yellow dust outside the walls, low amber sun cutting through thick dust haze, long shadows, no modern structures, no roads, no power lines, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-002-wide"
+  },
+  {
+    "id": "LOC_002_detail",
+    "type": "image",
+    "body": {
+      "prompt": "Detail shot on top of a Goguryeo fortress wall, late afternoon: dry-stacked grey granite blocks without mortar forming a rectangular protruding bastion with a low stone parapet and narrow arrow slits, a wooden rack of arrows, clay water jars, a large hide war drum on a wooden stand, a black three-legged crow banner on a pole, the timber gate tower with dark tiled roof in the background, amber low sun through yellow dust, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-002-detail"
+  },
+  {
+    "id": "LOC_002_interior",
+    "type": "image",
+    "body": {
+      "prompt": "Interior of a Goguryeo commander's timber hall at night, 612 AD: dark wooden floor, thick round wooden pillars with faded red lacquer, low black lacquered table with a leather map painted in ink, woven reed mats, a rack of spears and composite bows, bronze incense burner, clay oil lamps giving warm yellow light, latticed wooden windows shuttered, a black three-legged crow banner on the wall, smoke haze, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-002-interior"
+  },
+  {
+    "id": "LOC_003_wide",
+    "type": "image",
+    "body": {
+      "prompt": "Wide establishing shot at cold blue hour dawn: a hidden modern South Korean mechanized company base in a shallow valley between low hills of bare oak scrub and dry yellow grass, one K2 Black Panther main battle tank and three K21 infantry fighting vehicles in three-tone green-brown-black camouflage parked under green-brown camouflage netting, two 6x6 military cargo trucks and one boxy 4x4 command vehicle with antennas, a stack of green 200-liter fuel drums behind sandbags, olive-green military tents pitched beside brown hemp Goguryeo tents with wooden poles and pointed roofs, two sandbagged 81mm mortar pits on a small knoll, a dry stony stream bed, tracks churned into bare earth, faint red lamplight from the command tent, wind bending the grass, no modern buildings, no roads, no power lines, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-003-wide"
+  },
+  {
+    "id": "LOC_003_detail",
+    "type": "image",
+    "body": {
+      "prompt": "Detail shot inside a modern South Korean army command tent at night, dim red tactical lamplight: a steel folding table with a paper topographic map weighted by a cracked military tablet and a PRC-999K backpack radio with handset, a hand-written tally board of ammunition and fuel numbers on a plank, stacked olive-green ammunition cans, a quadcopter drone battery charging from a cable that runs out under the tent flap, a Goguryeo clay water jar and a bronze oil lamp on the earth floor, faint yellow dust in the air, no people in frame, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-003-detail"
+  },
+  {
+    "id": "LOC_003_mobile",
+    "type": "image",
+    "body": {
+      "prompt": "Wide shot in steady rain, early summer 612 AD Korean mountains: a single K2 Black Panther tank in mud-smeared three-tone camouflage hidden under cut pine branches and a camouflage net in a narrow rocky ravine with a stream, one olive-green command tent and a few ponchos strung between pine trunks, wet ferns and moss, thick grey mist drifting through the trees, cold grey-green light, no other vehicles, no modern buildings, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-003-mobile"
+  },
+  {
+    "id": "LOC_004_wide",
+    "type": "image",
+    "body": {
+      "prompt": "Aerial establishing shot at dusk, 612 AD: a Sui dynasty prefabricated mobile fortress standing on a trampled yellow plain, square walls of timber panels faced with grey-painted hemp cloth imitating brick, red-lacquered wooden watchtowers with railings at the corners and mid-walls, a red wooden gate, at the center a pavilion with a golden silk roof and red pillars on a three-step wooden dais glowing with lantern light, tall red and yellow silk banners with black tassels, surrounding it an ocean of grey felt tents in grid rows to the horizon with thousands of cooking fires, horse lines and wooden siege engines being assembled, yellow dust haze, cold grey sky with a last amber band, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-004-wide"
+  },
+  {
+    "id": "LOC_004_detail",
+    "type": "image",
+    "body": {
+      "prompt": "Interior of the Sui emperor's field pavilion at night: a carved wooden throne lacquered red and gilded on a three-step dais, a silk folding screen painted with mountains and rivers, red lacquered pillars, yellow silk drapes moving in wind, large bronze incense burner with rising smoke, silk lanterns giving rich golden light, a clay sand-table model of a stone fortress on a low table, a large silk map, sword rack, the timber-and-cloth fortress wall visible through a gap in the drapes, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-004-detail"
+  },
+  {
+    "id": "LOC_005_wide",
+    "type": "image",
+    "body": {
+      "prompt": "Aerial establishing shot in steady drizzle, early summer 612 AD: a dark green river rushing between steep grey rocky mountains covered in pine and fresh green oak, a wide shoal of grey cobbles where endless columns of Sui dynasty soldiers with red banners wade chest-deep across the river, on the far bank a disordered wet camp of sagging grey tents and smoking fires with hundreds of shallow pits dug beside the tents, low cloud hiding the peaks, mist pouring down the valley, wet moss and ferns on the near bank, cold grey-green diffused light, no modern structures, no bridges, no roads, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-005-wide"
+  },
+  {
+    "id": "LOC_005_detail",
+    "type": "image",
+    "body": {
+      "prompt": "Detail shot on a riverbank in rain, 612 AD: a shallow pit dug in wet dark earth beside a sagging grey felt tent, hemp sacks of grain half-buried and trampled into mud, a wooden shovel, spilled millet, hoofprints filling with rainwater, wet grey cobbles and green ferns, the dark green river and mist-covered mountains behind, cold grey-green light, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-005-detail"
+  },
+  {
+    "id": "LOC_006_wide",
+    "type": "image",
+    "body": {
+      "prompt": "Aerial establishing shot in monsoon rain, 612 AD: a Goguryeo capital fortress on low hills above a wide grey-green river, long dry-stacked grey granite outer walls with rectangular bastions and tiled timber gate towers, an outer town of empty wooden houses with rain-dark grey tiled and thatched roofs, an empty wooden Buddhist temple with a five-story stone pagoda, palace halls with red pillars and tiled roofs on the highest hill, black three-legged crow banners, dozens of Sui dynasty warships with tower decks and red banners landing troops on the riverbank below the walls, willows dripping along the river, low grey cloud, smoke from the outer town mixing with rain, no modern structures, no modern bridges, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-006-wide"
+  },
+  {
+    "id": "LOC_006_detail",
+    "type": "image",
+    "body": {
+      "prompt": "Detail shot inside an empty Goguryeo wooden Buddhist temple hall in rain, 612 AD: thick wooden pillars, a dim gilded wooden Buddha statue, bronze incense burner, a bronze bell, scattered offerings, latticed wooden doors half open showing an empty rain-soaked market street with abandoned stalls, overturned clay jars and an abandoned ox cart, grey wet light, smoke drifting, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-006-detail"
+  },
+  {
+    "id": "LOC_007_wide",
+    "type": "image",
+    "body": {
+      "prompt": "Aerial establishing shot at flat grey dawn, July 612 AD Korea: a wide shallow river eight hundred meters across with long wet grey-brown sandbars showing through, the north bank buried in dense two-meter-tall reed beds stretching hundreds of meters, the south bank rising into low green hills, thin river mist lying on the water, a line of wooden ford-marker stakes crossing the shallows, heavy grey monsoon cloud, no people, no vehicles, no modern structures, no bridges, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-007-wide"
+  },
+  {
+    "id": "LOC_007_detail",
+    "type": "image",
+    "body": {
+      "prompt": "Low-angle detail shot from inside a dense wet reed bed on a riverbank in steady rain: tall grey-green reeds with pale feathered tops bending under raindrops, wet grey-brown sand and a sandbagged fighting hole at the base, brown river water rising between the stalks, a few wooden ford stakes and a broken red Sui banner lying in the shallows beyond, cold grey-green light, shallow depth of field, no people, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-007-detail"
+  },
+  {
+    "id": "LOC_007_finale_light",
+    "type": "image",
+    "body": {
+      "prompt": "Wide shot of a wide shallow river after a monsoon battle, 612 AD: shafts of yellow sunlight tearing through heavy grey cloud onto brown floodwater, wet sandbars littered with broken spears, fallen red and yellow Sui banners and dead horses, dense reed beds on the near bank flattened and scorched, black smoke drifting, steam rising from the water, rain still falling on one side of the frame, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-007-finale-light"
+  },
+  {
+    "id": "LOC_008_wide",
+    "type": "image",
+    "body": {
+      "prompt": "Wide establishing shot at misty early morning, early summer 612 AD Korean mountains: a Goguryeo village of about fifteen timber houses with dark bark-shingle roofs weighted with stones scattered along a green slope, small raised-floor granaries on wooden posts, wooden fences, an open forge shed by a rocky stream, narrow terraced fields of young green millet below, a low dry-stacked grey stone hill fort with one wooden gate and a watchtower on the ridge above, pine and young oak forest, blue hearth smoke drifting through low sunlight and mist, warm brown and moss-green tones, no modern structures, no roads, no power lines, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-008-wide"
+  },
+  {
+    "id": "LOC_008_detail",
+    "type": "image",
+    "body": {
+      "prompt": "Detail shot of a Goguryeo village forge at dusk, 612 AD: an open timber shed with bark-shingle roof, a clay furnace glowing orange, a leather bellows, a stone anvil with a hammer, iron tongs, a bucket of dark water, bundles of dried medicinal herbs hanging from the rafters, a clay pot and woven baskets, wet stone path outside with a rocky stream, warm orange forge light against cool blue dusk, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-008-detail"
+  }
+]
