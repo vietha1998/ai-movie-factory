@@ -53,3 +53,10 @@
 
 ## 2026-09-16 · sau script-writer 2화 v1 (P-38…P-47 của ep2)
 - P-39 "탑 마흔" giữ, ghi [虚] trong story_bible (số tháp công thành không có trong sử). P-40 giữ 2차 공성 P8 (đủ "3 đợt"). P-45 "이백 년" → world-designer xác nhận (Goguryeo lấy 요동 ~404 → 208 năm, OK). P-41★ ledger v3 gom sau. 서아/태오 ít thoại 2화 → chấp nhận (tập 3–4 họ nhiều hơn).
+
+## 2026-09-16 · sau script-writer 5화 v1 (P-38…P-49 của ep5)
+- P-38 vết thương 해모루 → theo **BIBLE (mũi tên dưới xương đòn trái)** vì ref/derived đã có → script sửa 3 câu [ACTION] ở vòng QC.
+- P-39 탁발흠 giữ cung trên lưng ở 5화 → DUYỆT; character_bible sửa "bow discarded" → "bow slung" cho derived 5화.
+- P-42 giữ 289 SC. P-46 KHÔNG mid-roll 5 (34:30 là aftermath — giữ cảm xúc). P-47 chấp nhận 5:30 cuối không action (aftermath finale); thêm 1 KB truy kích 압록수 [史] ở SC_273 nếu QC thấy trống.
+- P-44 신세웅 → dùng "수 장군" generic + 1 dòng narrator gọi tên (không ref riêng).
+- Ledger/bible v3 gom sau QC 5 tập (morphine, K6, PROP_024, sub-LOC cổng họng).

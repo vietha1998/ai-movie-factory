@@ -277,7 +277,7 @@ N: 하늘 눈. 해모루는 드론을 그렇게 불렀습니다. 을지문덕은
 ### SC_042 · LOC_003_CHEONDUNG_BASE (lều chỉ huy, đèn đỏ) · CHAR_001 · PROP_001 · video8s · 5:44–5:52
 [ACTION-VI] Trong lều: 한승우 cúi trên bản đồ giấy quân sự, ngón tay đo bằng dây dù từ điểm đánh dấu tới sông Áp Lục; ông nhẩm, gõ ngón tay xuống bàn thép ba lần.
 [SOUND] mưa trên vải lều, giấy.
-N: 압록수까지 삼백 킬로였습니다. 닷새면 하루 육십 킬로였습니다. 이 부대는 하루에 십이 킬로를 걸었습니다. 사백 킬로 중 사십을 온 참이었습니다.
+N: 압록수까지 삼백 킬로였습니다. 닷새면 하루 육십 킬로였습니다. 이 부대는 하루에 십이 킬로를 걸었습니다. 사백 킬로 중 삼십을 온 참이었습니다.
 한승우: 하루 육십 킬로. 걸어선 못 간다.
 
 ### SC_043 · LOC_003_CHEONDUNG_BASE (cửa khe) · CHAR_105, CHAR_001 · VEH_101 · video8s · 5:52–6:00
@@ -751,7 +751,7 @@ N: 을지문덕은 계획을 말하지 않았습니다. 다만 강 이름을 말
 [Kết thúc Phần 6]
 
 ## [Phần 7] 쇠수레는 산을 못 넘는다 — 「쇠수레는 산을 못 넘는다」 / Kẻ địch thích nghi  (17:30–21:00)
-> Tóm tắt VI: (a) ENEMY POV, bờ tây 압록, đêm D10: 탁발흠 chui vào 천둥 3 — ngửi dầu, sờ giá đỡ drone, cầm một viên 40mm. Bản đồ vẽ trong bùn: xe sắt không qua núi → chỉ một con đường: 석문령. "쇠수레는 산을 못 넘소. 길로 가오." Hắn đã thấy ở 압록: "새는 수레에 앉아 밥을 먹고, 밤눈을 가진 자들은 그때 가만히 있소." → đánh lúc xe ngủ, chim ăn. Lính nhét vải vào tai ngựa, tập với trống. Lệnh 양제 từ 육합성: "천둥을 산 채로 잡아라." → 2.000 kỵ. (b) D12: K2 rò nước làm mát trên dốc, đồng hồ đỏ; 박기철: dừng 2 ngày — 을보: "쇠는 쇠요. 구리로 때우면 되지." Hậu vệ 해모루 đuổi 척후 Tùy; 2 척후 sót bắn tên lửa vào cành thông trên nóc K2 — 아리 dập bằng khăn olive (khăn cháy sém). Làng dưới chân đèo. 백성민: cột Tùy + 천둥 3 cách 2 ngày phía sau; đường dê tây-bắc có phân ngựa mới — 해모루 xác nhận có gửi 3 척후 → hiểu sai. 박기철: "이틀 서 있으면 전차 삼 킬로가 날아갑니다."
+> Tóm tắt VI: (a) ENEMY POV, bờ tây 압록, đêm D10: 탁발흠 chui vào 천둥 3 — ngửi dầu, sờ giá đỡ drone, cầm một viên 40mm. Bản đồ vẽ trong bùn: xe sắt không qua núi → chỉ một con đường: 석문령. "쇠수레는 산을 못 넘소. 길로 가오." Hắn đã thấy ở 압록: "새는 수레에 앉아 밥을 먹고, 밤눈을 가진 자들은 그때 가만히 있소." → đánh lúc xe ngủ, chim ăn. Lính nhét vải vào tai ngựa, tập với trống. Lệnh 양제 từ 육합성: "천둥을 산 채로 잡아라." → 2.000 kỵ. (b) D12: K2 rò nước làm mát trên dốc, đồng hồ đỏ; 박기철: dừng 2 ngày — 을보: "쇠는 쇠요. 구리로 때우면 되지." Hậu vệ 해모루 đuổi 척후 Tùy; 2 척후 sót bắn tên lửa vào cành thông trên nóc K2 — 아리 dập bằng khăn olive (khăn cháy sém). Làng dưới chân đèo. 백성민: cột Tùy cách 2 ngày phía sau (천둥 3 ở lại bờ tây 압록 với 200 kỵ); đường dê tây-bắc có phân ngựa mới — 해모루 xác nhận có gửi 3 척후 → hiểu sai. 박기철: "이틀 서 있으면 전차 삼 킬로가 날아갑니다."
 > Chức năng: THREAT (turning point) · Tài nguyên: dầu −3 km (APU 2 ngày) · Enemy adaptation: đoán đường từ vật lý xe · đánh lúc sạc · bịt tai ngựa · lệnh bắt sống · Red herring: phân ngựa = 해모루 척후 · Open loop: 탁발흠 "쇠수레가 멈췄다. 물을 마시고 있다." → [MID-ROLL 3 · 21:00]
 
 ### SC_126 · LOC_005_AMNOK (bờ tây, bãi lầy cạnh đường, đêm D10) · CHAR_205 · VEH_002 (천둥 3), VEH_206 · video8s · 17:30–17:38
@@ -854,9 +854,9 @@ N: 전차가 서 있는 동안 보조동력은 돌았습니다. 서 있는 전�
 장태오: 전차가 서야 얘가 밥을 먹습니다.
 
 ### SC_144 · LOC_009_SEOKMUN_PASS (gờ núi phía bắc làng, chiều) · CHAR_006 · PROP_006 · video8s · 20:00–20:08
-[ACTION-VI] 백성민 nằm trên gờ đá cao phía bắc, ống nhòm về phía bắc: POV — rất xa dưới thung lũng, cột quân Tùy đen như dòng nước chậm; ở đuôi, chấm vuông K21 sau hai hàng bò. Ông hạ ống nhòm, nhìn trời tính.
+[ACTION-VI] 백성민 nằm trên gờ đá cao phía bắc, ống nhòm về phía bắc: POV — rất xa dưới thung lũng, cột quân Tùy đen như dòng nước chậm, cờ đỏ rũ mưa; không thấy đầu đuôi. Ông hạ ống nhòm, nhìn trời tính.
 [SOUND] gió, ống nhòm.
-N: 수나라 대열은 이틀 뒤에 있었습니다. 소가 끄는 쇠수레도 그 끝에 있었습니다. 이틀. 고치는 데 이틀. 오는 데 이틀. 같은 숫자였습니다.
+N: 수나라 대열은 이틀 뒤에 있었습니다. 소가 끄는 쇠수레는 강 서쪽에 남았습니다. 이틀. 고치는 데 이틀. 오는 데 이틀. 같은 숫자였습니다.
 
 ### SC_145 · LOC_009_SEOKMUN_PASS (đường dê tây-bắc, chiều) · CHAR_006 · — · video8s · 20:08–20:16
 [ACTION-VI] Đường dê: lối mòn rộng 1 m bám vách đá xám-xanh, dốc; 백성민 ngồi xổm, lấy que gạt một đống phân ngựa — còn ướt bên trong, hơi bốc nhẹ; ông nhìn lên đường dê ngoằn ngoèo mất hút vào mây, rồi nhìn xuống về phía nam.
@@ -1023,7 +1023,7 @@ N: 그들은 고개에서 배터리를 충전하기로 했습니다. 탁발흠�
 [Kết thúc Phần 8]
 
 ## [Phần 9] 석문령, 마흔 분 — 「석문령, 마흔 분」 / Kế hoạch lớn  (24:00–27:30)
-> Tóm tắt VI: D14. K2 vá xong — "새지 않습니다." Bàn cát bằng bùn cạnh kho thóc: 석문령 — yên ngựa hẹp, vách hai bên, đường dê tây-bắc (백성민 cắm mũi tên Goguryeo = "해모루 척후" — sai), mỏm đá 200 m đông-nam. Kế: qua đèo đêm; 12 kính đêm (pin 40%) đi đầu với 백성민; drone bay 10 phút cuối trên yên; 태오 lên mỏm đá giữ tín hiệu với 1 xạ thủ K3 + 2 lính kính đêm; K2 sau cùng với xe cối; 해모루 chặn phía nam; dừng 40 phút trên yên để APU sạc. 오태민 đòi đi đầu — "너는 전차 옆이다." Insert địch: 2 척후 Tiên Ti trên gờ núi nhìn xuống bàn cát. Mini: 해모루 đuổi 5 척후 Tùy ở cửa nam → "역시 남쪽이다." Chân đèo: 한승우 nhìn mỏm: "너무 높다." — 태오: "신호는 높아야 잡힙니다." 서아 khâu lại patch 태극기 lỏng trên vai 태오. 박기철: "배터리 다 쓰지 마라." Hoàng hôn: đoàn bò lên yên.
+> Tóm tắt VI: D14. K2 vá xong — "새지 않습니다." Bàn cát bằng bùn cạnh kho thóc: 석문령 — yên ngựa hẹp, vách hai bên, đường dê tây-bắc (백성민 cắm mũi tên Goguryeo = "해모루 척후" — sai), mỏm đá 200 m đông-nam. Kế: qua đèo đêm; 12 kính đêm (pin 40%) đi đầu với 백성민; drone bay 10 phút cuối trên yên; 태오 lên mỏm đá giữ tín hiệu với 1 xạ thủ K3 + 2 lính súng trường; K2 sau cùng với xe cối; 해모루 chặn phía nam; dừng 40 phút trên yên để APU sạc. 오태민 đòi đi đầu — "너는 전차 옆이다." Insert địch: 2 척후 Tiên Ti trên gờ núi nhìn xuống bàn cát. Mini: 해모루 đuổi 5 척후 Tùy ở cửa nam → "역시 남쪽이다." Chân đèo: 한승우 nhìn mỏm: "너무 높다." — 태오: "신호는 높아야 잡힙니다." 서아 khâu lại patch 태극기 lỏng trên vai 태오. 박기철: "배터리 다 쓰지 마라." Hoàng hôn: đoàn bò lên yên.
 > Chức năng: PLAN · Tài nguyên: drone lần bay cuối · Red herring: hướng nam · Open loop: "고개 위에서 마흔 분. 그동안 전차는 잠들고, 드론은 밥을 먹어야 했습니다." → [MID-ROLL 4 · 27:30]
 
 ### SC_173 · LOC_008_GOGURYEO_VILLAGE (đuôi K2, rạng sáng D14) · CHAR_003, CHAR_106 · VEH_001, PROP_019 · still_kenburns · 24:00–24:10
@@ -1104,7 +1104,7 @@ N: 전차 옆. 가장 큰 것을 지키는 자리였습니다. 오태민에게 �
 ### SC_186 · LOC_008_GOGURYEO_VILLAGE (hông K2 — phấn vẽ) · CHAR_001 (tay) · VEH_001 · still_kenburns · 25:48–25:58
 [ACTION-VI] Ảnh cận: hông tháp K2, phấn trắng vẽ sơ đồ trên giáp ướt — hai đường cong (vách), một đường giữa (yên), chấm và mũi tên (không chữ đọc được); bàn tay 한승우 cầm viên phấn; giọt mưa làm phấn chảy một vệt. Ken-burns trượt theo sơ đồ.
 [SOUND] phấn trên thép, mưa.
-N: 야시경 열둘은 백성민과 앞에. 장태오는 바위 위에, K3 사수 하나와 야시경 둘이 같이. 해모루는 남쪽. 전차는 맨 뒤. 마흔 분. 모든 눈이 남쪽을 보고 있었습니다.
+N: 야시경은 백성민과 앞에. 장태오는 바위 위에, K3 사수 하나와 소총수 둘이 같이. 해모루는 남쪽. 전차는 맨 뒤. 마흔 분. 모든 눈이 남쪽을 보고 있었습니다.
 
 ### SC_187 · LOC_009_SEOKMUN_PASS (cửa nam đèo, đường xuống phía nam, trưa D14) · CHAR_105, kỵ Goguryeo, 수 척후 · VEH_101, WPN_201, WPN_101 · video8s · 25:58–26:06
 [ACTION-VI] Trưa: 해모루 đã đưa 300 kỵ qua đèo trước để chiếm cửa nam; trên con đường đổ xuống phía nam, 5 kỵ Tùy 척후 đang bò lên gặp hàng kỵ Goguryeo — tên bay, 2 ngã, 3 quay chạy; kỵ Goguryeo đuổi một quãng ngắn. Wide.
@@ -1174,7 +1174,7 @@ N: 고개 위에서 마흔 분. 그동안 전차는 잠들고, 드론은 밥을 
 [Kết thúc Phần 9]
 
 ## [Phần 10] 고개의 밤 — 「고개의 밤」 / Trận đánh quyết định  (27:30–34:30) — 6 phase
-> Tóm tắt VI: Phase 1 yên đèo: K2 tắt máy, APU, dây sạc; 태오 lên mỏm với 1 xạ thủ K3 + 2 lính kính đêm; drone 10 phút; 80 người trong tối; 해모루 "남쪽 조용하오". Phase 2 tây-bắc: tên cắm váy xích K2; đuốc bừng dọc vách; 2.000 kỵ 탁발흠 đổ xuống đường dê; ngựa bịt tai không hoảng trước K3; 80 người bắn vào đuốc; "박 상사, 시동!" — "충전 중입니다! 이 분!". Phase 3 mục tiêu thật: kỵ Tiên Ti không lao vào K2 — lao lên chân mỏm, đồng bọn từ đỉnh vách thả dây xuống mỏm; 백성민: "목표는 태오다!"; drone quay về mỏm — 태오 thấy chính mình bị vây trên màn hình; 한승우 cử 백성민 + 2 lính lên mỏm; 탁발흠: "쇠수레를 붙들어라. 나는 위로 간다." Phase 4 NARRATOR IM 31:32–33:00: K2 nổ máy, 4 viên vào vách → đá lở bịt cửa tây-bắc — chặn viện binh 탁발흠 nhưng cũng chặn đường 백성민; xạ thủ K3 trúng tên — KIA đầu tiên; "본부, 본부… 잡혔—"; PZF ×1 vào cụm đuốc; kính đêm 백성민 tắt; drone tự hạ về mỏm — tay Tiên Ti nhặt. Phase 5: 해모루 quay kỵ từ nam phá cửa đông; kỵ Goguryeo cõng thương binh; qua yên lúc rạng đông; 백성민 tới mỏm: hộp drone mất, 2 kính đêm mất, 태오 mất, xác xạ thủ. Phase 6: 오태민 nhặt K3 người chết; vách xa: 탁발흠 trên ngựa, 태오 vắt ngang yên; hắn nhìn — quay đi. Không reo hò.
+> Tóm tắt VI: Phase 1 yên đèo: K2 tắt máy, APU, dây sạc; 태오 lên mỏm với 1 xạ thủ K3 + 2 lính súng trường; drone 10 phút; 80 người trong tối; 해모루 "남쪽 조용하오". Phase 2 tây-bắc: tên cắm váy xích K2; đuốc bừng dọc vách; 2.000 kỵ 탁발흠 đổ xuống đường dê; ngựa bịt tai không hoảng trước K3; 80 người bắn vào đuốc; "박 상사, 시동!" — "충전 중입니다! 이 분!". Phase 3 mục tiêu thật: kỵ Tiên Ti không lao vào K2 — lao lên chân mỏm, đồng bọn từ đỉnh vách thả dây xuống mỏm; 백성민: "목표는 태오다!"; drone quay về mỏm — 태오 thấy chính mình bị vây trên màn hình; 한승우 cử 백성민 + 2 lính lên mỏm; 탁발흠: "쇠수레를 붙들어라. 나는 위로 간다." Phase 4 NARRATOR IM 31:32–33:00: K2 nổ máy, 4 viên vào vách → đá lở bịt cửa tây-bắc — chặn viện binh 탁발흠 nhưng cũng chặn đường 백성민; xạ thủ K3 trúng tên — KIA đầu tiên; "본부, 본부… 잡혔—"; PZF ×1 vào cụm đuốc; kính đêm 백성민 tắt; drone tự hạ về mỏm — tay Tiên Ti nhặt. Phase 5: 해모루 quay kỵ từ nam phá cửa đông; kỵ Goguryeo cõng thương binh; qua yên lúc rạng đông; 백성민 tới mỏm: hộp drone mất, 2 kính đêm mất, 태오 mất, xác xạ thủ. Phase 6: 오태민 nhặt K3 người chết; vách xa: 탁발흠 trên ngựa, 태오 vắt ngang yên; hắn nhìn — quay đi. Không reo hò.
 > Chức năng: BATTLE · Tài nguyên: K2 12→8 · PZF 10→9 · kính đêm 12→10 · drone 1→0 · 94→93 (+1 bị bắt) · K3 −1.000 · Enemy adaptation: đường dê, ngựa bịt tai, nhắm mắt/người điều khiển thay vì xe · Payoff: phân ngựa (P7), "너무 높다" (P9), "살아 있어야 해" (P6, đảo) · Open loop: "94명으로 왔습니다. 이제 92명이 걷고, 한 명이 묻히고, 한 명이 끌려갔습니다."
 > [NARRATOR IM LẶNG] 31:32–33:00. Sau mid-roll 4: SC_198 aerial hoàng hôn, không thoại.
 
@@ -1192,15 +1192,15 @@ N: 전차는 잠들었습니다. 보조동력만 깨어 있었습니다. 지금�
 박기철: 시동 끕니다. 보조동력 가동.
 
 ### SC_200 · LOC_009_SEOKMUN_PASS (đuôi K2) · CHAR_003, 무전병 · VEH_001, EQP_001, EQP_002, UAV_001 · video8s · 27:48–27:56
-[ACTION-VI] Dây sạc từ đuôi K2 chạy trên đá xếp khan cổ tới một tấm bạt: 12 kính đêm — 9 chiếc đang sạc, đèn đỏ hàng dài (3 chiếc đang dùng: 백성민 + 2 lính đi đầu); pin drone; 4 radio; 무전병 cắm nốt dây cuối; 박기철 bấm đồng hồ.
+[ACTION-VI] Dây sạc từ đuôi K2 chạy trên đá xếp khan cổ tới một tấm bạt: 7 kính đêm đang sạc, đèn đỏ hàng dài (5 chiếc đang dùng: 백성민 + 2 lính đi đầu + 태오 + xạ thủ K3 trên mỏm); pin drone; 4 radio; 무전병 cắm nốt dây cuối; 박기철 bấm đồng hồ.
 [SOUND] đèn sạc "띡, 띡", APU.
 N: 21세기의 줄이 7세기의 돌담 위를 지나갔습니다. 야시경, 무전기, 드론. 모두 한 통에서 밥을 먹었습니다. 그 통은 지금 잠든 전차 안에 있었습니다.
 박기철: 마흔 분. 지금부터.
 
 ### SC_201 · LOC_009_SEOKMUN_PASS (đường dốc lên mỏm đá, chạng vạng) · CHAR_005, K3 사수, 2 병사 · UAV_001, WPN_003, EQP_001 · video8s · 27:56–28:04
-[ACTION-VI] Đường mòn đá dốc bám vách đông-nam lên mỏm: 태오 đi trước với hộp drone trên lưng, dây thừng buộc ngang người; sau cậu, K3 사수 vác súng máy, hai lính kính đêm (kính đã hạ xuống mắt) chốt sau; đá vụn lăn; xa dưới, yên đèo là những chấm đỏ nhỏ của đèn sạc.
+[ACTION-VI] Đường mòn đá dốc bám vách đông-nam lên mỏm: 태오 đi trước với hộp drone trên lưng, kính đêm gắn trên mũ, dây thừng buộc ngang người; sau cậu, K3 사수 vác súng máy (kính đêm trên mũ), hai lính súng trường không kính chốt sau; đá vụn lăn; xa dưới, yên đèo là những chấm đỏ nhỏ của đèn sạc.
 [SOUND] đá lăn, thở, dây thừng.
-N: 이백 미터. 넷이 올라갔습니다. 조종병 하나, K3 사수 하나, 야시경 둘. 위에서 보면 고개 전체가 손바닥 같을 것이었습니다.
+N: 이백 미터. 넷이 올라갔습니다. 조종병 하나, K3 사수 하나, 소총수 둘. 밤눈은 위의 둘에게만 있었습니다. 위에서 보면 고개 전체가 손바닥 같을 것이었습니다.
 
 ### SC_202 · LOC_009_SEOKMUN_PASS (đỉnh mỏm đá, đêm) · CHAR_005 · UAV_001, EQP_002 · video8s · 28:04–28:12
 [ACTION-VI] Đỉnh mỏm phẳng 10×10 m: 태오 quỳ, drone cất cánh khỏi tay biến vào đêm; màn hình controller: pin 30 → cậu đặt hẹn 10; K3 사수 đặt súng hướng xuống con đường vừa leo; 태오 bấm radio.
@@ -1273,7 +1273,7 @@ N: 탁발흠은 쇠수레를 보지 않았습니다. 그는 바위를 보았습�
 ### SC_215 · LOC_009_SEOKMUN_PASS (đuôi K2) · CHAR_003 · VEH_001, EQP_001 · video8s · 29:48–29:56
 [ACTION-VI] 박기철 quỳ giữa dây sạc, nhìn đồng hồ, nhìn hàng kính đêm đèn đỏ chưa xanh; ông gào lại — hai ngón tay giơ lên; tay kia đã cầm sẵn đầu dây để giật.
 [SOUND] APU, đèn sạc, K3, trống.
-N: 이 분. 야시경 아홉 개가 아직 밥을 먹고 있었습니다. 시동을 걸면 밥은 끊깁니다. 박기철은 이 분을 달라고 했습니다. 이 분은 그날 밤 가장 비싼 시간이었습니다.
+N: 이 분. 야시경 일곱 개가 아직 밥을 먹고 있었습니다. 시동을 걸면 밥은 끊깁니다. 박기철은 이 분을 달라고 했습니다. 이 분은 그날 밤 가장 비싼 시간이었습니다.
 박기철: 충전 중입니다! 이 분!
 
 ### — Phase 3 · 진짜 목표 / Mục tiêu thật (29:56–31:32) —
@@ -1331,9 +1331,9 @@ N: 그는 스스로 올라갔습니다. 늘 그랬습니다. 요하에서 언덕
 N: 벼랑 위의 활은 돌담을 넘어왔습니다. 방탄복은 가슴을 가렸습니다. 어깨와 팔은 가리지 못했습니다. 요하에서 배운 것을 그날 밤 다시 배웠습니다.
 
 ### SC_226 · LOC_009_SEOKMUN_PASS (đuôi K2) · CHAR_003 · VEH_001, EQP_001 · video8s · 31:16–31:24
-[ACTION-VI] 박기철 nhìn đồng hồ — hết hai phút; ông giật cả bó dây sạc khỏi ổ đuôi xe bằng một động tác, đập tay lên nắp ổ điện, gào vào cửa lái; kính đêm trên bạt: 5 đèn xanh, 4 đèn đỏ.
+[ACTION-VI] 박기철 nhìn đồng hồ — hết hai phút; ông giật cả bó dây sạc khỏi ổ đuôi xe bằng một động tác, đập tay lên nắp ổ điện, gào vào cửa lái; kính đêm trên bạt: 5 đèn xanh, 2 đèn đỏ.
 [SOUND] dây giật, nắp đập, gào.
-N: 아홉 개 중 다섯 개가 찼습니다. 나머지 넷은 사십 퍼센트로 밤을 넘겨야 했습니다. 박기철은 줄을 뽑았습니다.
+N: 일곱 개 중 다섯 개가 찼습니다. 나머지 둘은 사십 퍼센트로 밤을 넘겨야 했습니다. 박기철은 줄을 뽑았습니다.
 박기철: 됐다! 시동!
 
 ### SC_227 · LOC_009_SEOKMUN_PASS (K2 trong khoảng hở ải đá) · CHAR_001, 조종수 · VEH_001, EQP_002 · video8s · 31:24–31:32
