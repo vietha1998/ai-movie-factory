@@ -52,6 +52,7 @@ CHAIN_FROM: <SC_011 nếu cảnh liên tục cùng địa điểm → dùng fram
 `cartoon, anime, video game render, plastic skin, extra limbs, deformed hands, text, watermark, logo, modern buildings in historical scene, anachronistic clothing`
 
 ### F. QUY TẮC 8 GIÂY
+- **shot ≠ clip**: trong hook (0–30 s) và khối trận, 1 clip 8 s được cắt thành 2 shot 4 s ở khâu edit (cắt giữa clip, hoặc dùng 2 clip xen kẽ A/B) → nhịp 4 s như kênh gốc mà không tăng số clip. Đánh dấu `CUT_HALF: yes` trong scene_list.
 - 1 cảnh = 1 hành động chính, tối đa 1 câu thoại ngắn.
 - Không chuyển địa điểm trong 1 clip. Không quá 2 nhân vật nói trong 1 clip.
 - Camera: 1 chuyển động duy nhất (push-in / drone reveal / tracking / static).

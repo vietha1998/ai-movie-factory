@@ -29,3 +29,13 @@
 - **P-28** mũi tên: 백성민 trả mũi tên lốp; 한승우 giữ mũi tên khác từ gỗ cổng suốt series → DUYỆT (prop).
 - **P-29/30/31** drone bay lần 2 pin 12 phút vì giữ dầu; "위성 0개" giao 태오; kính đêm "사흘치" → DUYỆT.
 - **P-34** 영양왕 xuất hiện 1 still chân dung nội điện 평양 + giọng đọc chiếu → DUYỆT (đã có LOC_006_interior ref).
+
+## 2026-09-16 · sau QC 1화 script (logs/qc_ep1_script.md) → v3
+- DUYỆT sửa toàn bộ **1 BLOCK + 18 FIX**; NOTE: sửa những cái ≤1 dòng (câu chữ, 하오체, 나각, 간밤에, 황공하오나, 전령…), bỏ qua NOTE cần đổi cấu trúc lớn.
+- ★ Dầu (SC_261): dùng **"간밤에 삼십 킬로. 남은 건 삼백칠십."** — ledger sửa theo; không thêm beat dời căn cứ.
+- ★ Năm (SC_114–117): bỏ "몇 년입니까" + bỏ 시호 "영양왕". 해모루: **"대왕 재위 이십삼 년이오."** → 한승우 tự suy: **"수나라… 백만… 요동성. 육백십이 년."** (lính Hàn biết sử mình; đòn bẩy khác kênh gốc). Quy tắc mới: người đương thời KHÔNG dùng 시호; narrator được dùng.
+- DUYỆT đề xuất hay-hơn #1: chèn 2 khối mini-combat P7 (trinh sát Tiên Ti bám đuôi đoàn xe đêm, 백성민 thấy qua kính đêm, kỵ 해모루 đuổi) và P8 (địch dò thung lũng, tên cắm lưới K2) — KHÔNG tăng số SC (thay still sử P4 + SC "đứng nói" P8), mục tiêu combat ≥30%.
+- DUYỆT #3: 양제 tự nói **"뇌군이라 하라."** (SC_288) — narrator không đặt tên thay. 2 câu 고정수 chuyển vào kho lương, bỏ tableau "2 chỉ huy trên tường".
+- DUYỆT: 7 SC lều (SC_161–167) → xen 3 SC insert (tay trên bản đồ, ngoài lều lính sạc pin, 탁발흠 quan sát từ xa).
+- 0–30 s: tách SC_001 (3 s đen + 5 s tên) + 1 insert 4 s → ≥5 shot.
+- QUY TRÌNH: (a) template 04 thêm "shot ≠ clip: trong hook/trận, 1 clip 8 s được cắt 2 shot 4 s ở edit"; (b) script-writer phải có **bảng ngày/đêm** ở header (đếm ngày theo SC) để tránh lỗi timeline; (c) story_bible thêm quy tắc 시호; (d) ledger: K2 dầu 400→370 sau đêm 1화.

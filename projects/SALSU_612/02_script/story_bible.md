@@ -158,3 +158,7 @@ Mỗi tập ≥ 3 quyết định của người Goguryeo/Tùy thay đổi plot 
 | Địch vô danh, chỉ hoảng | 탁발흠 có tên, học 5 tập, chết trên xe tăng |
 | Trận Hàn họ đã làm (645 안시, 1010, 1593, 1636…) | 612 요하–요동성–압록수–평양–살수: chưa làm |
 | Tên đơn vị 강철소대 | 천둥 / 뇌군 |
+
+
+## Quy tắc 시호 (bổ sung 2026-09-16, từ QC 1화)
+Người đương thời 612 KHÔNG gọi vua đang sống bằng tên thụy (영양왕, 수 양제). Thoại dùng 대왕/전하/과인 (Goguryeo), 폐하/황상 (Tùy). Narrator được dùng 시호 vì kể từ hiện tại. Lính Hàn hiện đại biết sử → được dùng 시호 khi nói với nhau ("영양왕 때야").
