@@ -23,6 +23,15 @@ story-director · character-designer · world-designer · script-writer · veo-p
 Quy tắc: viết `series_foundation.md` TRƯỚC → phóng character/world/story song song → script-writer từng tập song song (mỗi agent 1 tập) → veo-prompt-engineer từng tập → glabs-operator (tuần tự theo lô, batch --parallel 4) → youtube-packager + qc-reviewer song song.
 Agent không tự sửa foundation; đề xuất ghi `logs/proposals.md`.
 
+## Quy trình sau MỖI deliverable (bắt buộc — yêu cầu user 2026-09-16)
+1. **QC soi lỗi**: qc-reviewer chạy trên sản phẩm (script/scene list/ảnh/video) + chấm `docs/benchmark_vs_reference.md`.
+2. **Sửa lỗi**: BLOCK/FIX sửa ngay (agent gốc hoặc coordinator), ghi `logs/decisions.md`.
+3. **Ghi kinh nghiệm**: `docs/lessons_learned.md` (lỗi → sửa ở đâu).
+4. **Sửa quy trình**: cập nhật template/agent/foundation/tool tương ứng — không để lỗi lặp ở tập sau.
+5. **So với kênh gốc & làm hay hơn**: từng chỉ số trong benchmark phải ≥ kênh gốc; áp dụng 5 đòn bẩy (địch có tên · hậu cần đếm ngược · nhân vật lịch sử là bộ não · chi phí thật · open loop mỗi phần).
+Thứ tự ưu tiên nguồn khi lệch: series_foundation > outline > resource_ledger > bible.
+Checklist NEW PROJECT: thị trường? ngôn ngữ đầu ra? khán giả? độ dài/tập? — hỏi nếu chưa có.
+
 ## Lệnh điều khiển
 - `NEW PROJECT <NAME>` → tạo `projects/<NAME>/` (mục E) + 3 JSON state + `output/<epN>/`.
 - `REFRESH CHANNEL STYLE` → phân tích lại kênh.
