@@ -1,0 +1,4774 @@
+[
+{
+"id": "SC_001",
+"t0": 0,
+"t1": 8,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (thảo nguyên, chưa đặt tên)",
+"chars": "—",
+"props": "VEH_003",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Màn đen 2 s, tiếng gió. Mở sáng: cận lốp trước phải xe tải K511 #2 — một mũi tên Goguryeo (PROP_015, đầu tam giác có ngạnh) cắm ngập nửa thân, lông vũ xám rung trong gió. Cỏ vàng khô phía sau lốp. Máy tĩnh, đẩy chậm vào cán tên.",
+"header": " · LOC_003_CHEONDUNG_BASE (thảo nguyên, chưa đặt tên) · — · VEH_003 · video8s · 0:00–0:08"
+},
+{
+"id": "SC_002",
+"t0": 8,
+"t1": 16,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_003",
+"props": "VEH_003",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"타이어에… 화살입니다."
+]
+],
+"action": "[ACTION-VI] Bàn tay đeo găng dính dầu của 박기철 vào khung, chạm cán tên, lắc thử — cắm chắc. Ngón tay vuốt lông vũ. Máy ngước lên mặt ông: mũ lưỡi trai, thái dương muối tiêu, không cười.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_003 · VEH_003 · video8s · 0:08–0:16"
+},
+{
+"id": "SC_003",
+"t0": 16,
+"t1": 24,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Pan lên: 한승우 đứng trên nóc K151, ống nhòm hạ ngang ngực, nhìn chân trời — cỏ vàng đến tận cùng, không cột điện, không dãy núi 철원, chỉ trời xám bạc. La bàn đeo dây cổ đung đưa. Máy đẩy chậm vào mặt.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001 · — · video8s · 0:16–0:24"
+},
+{
+"id": "SC_004",
+"t0": 24,
+"t1": 32,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_002, CHAR_005",
+"props": "VEH_004",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"위성 0개입니다. 하나도 안 잡힙니다."
+]
+],
+"action": "[ACTION-VI] Trong K151: 오태민 gõ ngón tay lên màn hình định vị, gõ lại, gõ mạnh. Cận màn hình: \"위성 0/0\". 태오 ngồi ghế sau, controller drone trên ngực, nhìn màn hình rồi nhìn 오태민.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_002, CHAR_005 · VEH_004 · video8s · 0:24–0:32"
+},
+{
+"id": "SC_005",
+"t0": 32,
+"t1": 40,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "초병",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"초병",
+"11시 방향… 사람입니다."
+]
+],
+"action": "[ACTION-VI] Lính gác trên nóc K21 천둥 2, ống nhòm dán mắt, tay trái giơ lên ra hiệu ngừng. Máy over-the-shoulder từ sau lưng anh nhìn ra thảo nguyên.",
+"header": " · LOC_003_CHEONDUNG_BASE · 초병 · VEH_002 · video8s · 0:32–0:40"
+},
+{
+"id": "SC_006",
+"t0": 40,
+"t1": 48,
+"kind": "video",
+"loc": "LOC_001_YOHA (thảo nguyên bờ đông, cách sông ~15 km)",
+"chars": "—",
+"props": "VEH_206",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Aerial wide rất cao: thảo nguyên vàng lượn sóng; ở xa ~3 km, một vệt bụi dài bốc lên theo hàng — kỵ binh, chỉ là chấm đen chuyển động dưới bụi. Máy giữ tĩnh, không zoom.",
+"header": " · LOC_001_YOHA (thảo nguyên bờ đông, cách sông ~15 km) · — · VEH_206 · video8s · 0:40–0:48"
+},
+{
+"id": "SC_007",
+"t0": 48,
+"t1": 54,
+"kind": "still",
+"loc": "LOC_004_YUKHAPSEONG (탁군 — sân điểm binh, identity Tùy)",
+"chars": "—",
+"props": "WPN_201",
+"narr": [
+"612년 정월. 탁군."
+],
+"dlg": [],
+"action": "[ACTION-VI] HARD CUT. Ảnh: sân điểm binh 탁군 sáng chói, hàng vạn lính Tùy giáp 명광개 xếp ô vuông tới chân trời, trống lớn sơn đỏ hai bên, cờ đỏ-vàng. Ken-burns kéo ra chậm từ trống → toàn cảnh.",
+"header": " · LOC_004_YUKHAPSEONG (탁군 — sân điểm binh, identity Tùy) · — · WPN_201 · still_kenburns · 0:48–0:54"
+},
+{
+"id": "SC_008",
+"t0": 54,
+"t1": 60,
+"kind": "still",
+"loc": "LOC_004_YUKHAPSEONG (탁군)",
+"chars": "수 환관",
+"props": "—",
+"narr": [
+"수 양제가 조서를 읽습니다. 전투 병력 113만 3천 8백."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: cuộn chiếu lụa vàng mở ra trên tay quan đọc chiếu (brush calligraphy, không chữ rõ), phía sau là biển giáp bạc. Ken-burns cuộn dọc theo cột chữ.",
+"header": " · LOC_004_YUKHAPSEONG (탁군) · 수 환관 · — · still_kenburns · 0:54–1:00"
+},
+{
+"id": "SC_009",
+"t0": 60,
+"t1": 66,
+"kind": "still",
+"loc": "LOC_004_YUKHAPSEONG (탁군, đường xuất quân)",
+"chars": "—",
+"props": "WPN_201",
+"narr": [
+"24군이 하루에 한 군씩, 40리 간격으로 떠납니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: đường lớn xuyên đồng, 24 lá cờ quân đoàn nối nhau xa dần đến chân trời, mỗi quân một khối bụi. Ken-burns trượt ngang theo hàng cờ.",
+"header": " · LOC_004_YUKHAPSEONG (탁군, đường xuất quân) · — · WPN_201 · still_kenburns · 1:00–1:06"
+},
+{
+"id": "SC_010",
+"t0": 66,
+"t1": 74,
+"kind": "video",
+"loc": "LOC_004_YUKHAPSEONG (탁군, đài duyệt binh)",
+"chars": "CHAR_201",
+"props": "—",
+"narr": [
+"목표는 하나. 고구려입니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Low-angle: 수 양제 đứng trên đài gỗ sơn son, 통천관 đen viền vàng, áo vàng thổ, sạch tuyệt đối giữa bụi. Ông không nhìn quân — nhìn về phía đông. Máy đẩy chậm vào mặt.",
+"header": " · LOC_004_YUKHAPSEONG (탁군, đài duyệt binh) · CHAR_201 · — · video8s · 1:06–1:14"
+},
+{
+"id": "SC_011",
+"t0": 74,
+"t1": 82,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001, CHAR_003",
+"props": "VEH_004",
+"narr": [
+"하늘에 위성은 없었습니다. 땅 위에는 화살이 있었습니다."
+],
+"dlg": [
+[
+"한승우",
+"전 차량, 위장망. 지금."
+]
+],
+"action": "[ACTION-VI] HARD CUT về: 한승우 hạ ống nhòm, nhìn xuống 박기철 đang đứng cạnh lốp có mũi tên. Hai người nhìn nhau một nhịp. 한승우 quay sang tổ hợp radio trên vai.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001, CHAR_003 · VEH_004 · video8s · 1:14–1:22"
+},
+{
+"id": "SC_012",
+"t0": 82,
+"t1": 90,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "đại đội (không mặt)",
+"props": "VEH_001, VEH_002, VEH_003, VEH_004",
+"narr": [
+"그 113만이 향하는 길 위에, 94명의 대한민국 군인이 서 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Wide từ gò thấp: lính kéo lưới ngụy trang phủ K2 và ba K21; đoàn xe nhỏ xíu giữa biển cỏ vàng; phía xa, vệt bụi kỵ binh vẫn đang di chuyển ngang đường chân trời. Máy tĩnh.",
+"header": " · LOC_003_CHEONDUNG_BASE · đại đội (không mặt) · VEH_001, VEH_002, VEH_003, VEH_004 · video8s · 1:22–1:30"
+},
+{
+"id": "SC_013",
+"t0": 90,
+"t1": 98,
+"kind": "video",
+"loc": "LOC_FLASHBACK_CHEORWON (đêm, đường đất đóng băng — đề xuất, chưa có trong bible)",
+"chars": "đại đội",
+"props": "VEH_001, VEH_002, VEH_003, VEH_004",
+"narr": [
+"그 전날 밤. 철원, 겨울 훈련장입니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ánh sáng xanh xám lạnh, không title card. Đoàn xe nổ máy trên đường đất đóng băng giữa đồi thông: K2 \"천둥 1\" dẫn đầu, 3 K21, 2 K511, K151 khóa đuôi; đèn pha xuyên hơi thở lính. Tracking ngang theo đoàn.",
+"header": " · LOC_FLASHBACK_CHEORWON (đêm, đường đất đóng băng — đề xuất, chưa có trong bible) · đại đội · VEH_001, VEH_002, VEH_003, VEH_004 · video8s · 1:30–1:38"
+},
+{
+"id": "SC_014",
+"t0": 98,
+"t1": 106,
+"kind": "video",
+"loc": "LOC_FLASHBACK_CHEORWON",
+"chars": "CHAR_003",
+"props": "VEH_001",
+"narr": [
+"훈련은 사흘. 연료는 그 사흘을 위한 것이었습니다."
+],
+"dlg": [
+[
+"박기철",
+"연료, 한 통입니다. 딱 한 통."
+]
+],
+"action": "[ACTION-VI] 박기철 rút que đo dầu khỏi K2 dưới đèn pin che tay, soi vạch, lau que bằng giẻ đỏ ở thắt lưng, ghi số vào sổ bìa xanh bằng bút chì. Cận mặt càu nhàu.",
+"header": " · LOC_FLASHBACK_CHEORWON · CHAR_003 · VEH_001 · video8s · 1:38–1:46"
+},
+{
+"id": "SC_015",
+"t0": 106,
+"t1": 114,
+"kind": "video",
+"loc": "LOC_FLASHBACK_CHEORWON",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [
+"장태오 일병, 스물한 살. 중대에서 가장 어렸습니다."
+],
+"dlg": [
+[
+"장태오",
+"1호기 이상 무. 배터리 백 퍼센트입니다."
+]
+],
+"action": "[ACTION-VI] 태오 đứng sau K151, controller sáng xanh hắt lên mặt búng sữa; drone #1 (đèn LED đỏ-xanh) bay lên khỏi lòng bàn tay, treo trên đầu, camera gimbal xoay. Bốn viên pin dán số 1/2/3/4 trên túi giáp.",
+"header": " · LOC_FLASHBACK_CHEORWON · CHAR_005 · UAV_001 · video8s · 1:46–1:54"
+},
+{
+"id": "SC_016",
+"t0": 114,
+"t1": 122,
+"kind": "video",
+"loc": "LOC_FLASHBACK_CHEORWON",
+"chars": "CHAR_004",
+"props": "—",
+"narr": [
+"윤서아 하사. 약을 세는 사람이었습니다."
+],
+"dlg": [
+[
+"윤서아",
+"항생제 스무 개, 모르핀 서른 개. 이상 없습니다."
+]
+],
+"action": "[ACTION-VI] Trong thùng K511 #1 dưới đèn đỏ: 서아 mở túi quân y, đếm lọ kháng sinh xếp thành hàng trên nắp thùng đạn, ghi vào sổ; băng chữ thập đỏ trên tay trái. Máy tĩnh, cận tay và mặt.",
+"header": " · LOC_FLASHBACK_CHEORWON · CHAR_004 · — · video8s · 1:54–2:02"
+},
+{
+"id": "SC_017",
+"t0": 122,
+"t1": 130,
+"kind": "video",
+"loc": "LOC_FLASHBACK_CHEORWON",
+"chars": "CHAR_006",
+"props": "—",
+"narr": [
+"백성민 중사, 강원도 산골 사냥꾼의 아들. 땅을 읽는 사람이었습니다."
+],
+"dlg": [
+[
+"백성민",
+"고라니. 한 시간 전."
+]
+],
+"action": "[ACTION-VI] 백성민 mũ boonie, quỳ một gối bên bìa rừng, đèn pin đỏ soi vết chân hươu trên đất đóng băng; ngón tay chạm mép vết, ngẩng lên nhìn vào rừng tối.",
+"header": " · LOC_FLASHBACK_CHEORWON · CHAR_006 · — · video8s · 2:02–2:10"
+},
+{
+"id": "SC_018",
+"t0": 130,
+"t1": 138,
+"kind": "video",
+"loc": "LOC_FLASHBACK_CHEORWON",
+"chars": "CHAR_002",
+"props": "VEH_004",
+"narr": [
+"오태민 중위, 부중대장. 화력이 답이라고 믿는 사람이었습니다."
+],
+"dlg": [
+[
+"오태민",
+"가정, 북에서 삼십만 남하… 반나절이면 끝납니다."
+]
+],
+"action": "[ACTION-VI] 오태민 dựa cửa K151, đọc kịch bản diễn tập trên tablet, cười khẩy một bên mép, tay áo xắn dù trời rét, kính bảo hộ gác trên mũ.",
+"header": " · LOC_FLASHBACK_CHEORWON · CHAR_002 · VEH_004 · video8s · 2:10–2:18"
+},
+{
+"id": "SC_019",
+"t0": 138,
+"t1": 146,
+"kind": "video",
+"loc": "LOC_FLASHBACK_CHEORWON",
+"chars": "CHAR_001",
+"props": "VEH_004",
+"narr": [
+"한승우 대위, 중대장. 아흔네 명의 목숨을 맡은 사람이었습니다."
+],
+"dlg": [
+[
+"한승우",
+"천둥 지휘. 한탄강 여울 확보 후 대기한다."
+]
+],
+"action": "[ACTION-VI] 한승우 trải bản đồ giấy Cheorwon trên mui K151, đèn pin đỏ, ngón tay dừng ở một khúc sông; bấm tổ hợp radio.",
+"header": " · LOC_FLASHBACK_CHEORWON · CHAR_001 · VEH_004 · video8s · 2:18–2:26"
+},
+{
+"id": "SC_020",
+"t0": 146,
+"t1": 154,
+"kind": "video",
+"loc": "LOC_FLASHBACK_CHEORWON",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Sét không mưa xé ngang trời đen trên đồi — sét khô, không tiếng sấm đúng nhịp. Cận: la bàn lensatic trên ngực 한승우 — kim quay loạn, quay, quay. 한승우 nhìn xuống la bàn, không nói.",
+"header": " · LOC_FLASHBACK_CHEORWON · CHAR_001 · — · video8s · 2:26–2:34"
+},
+{
+"id": "SC_021",
+"t0": 154,
+"t1": 162,
+"kind": "video",
+"loc": "LOC_FLASHBACK_CHEORWON",
+"chars": "CHAR_005, CHAR_002",
+"props": "VEH_004, VEH_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"화면이 전부… 나갔습니다!"
+]
+],
+"action": "[ACTION-VI] Mọi màn hình trong K151 và trên controller của 태오 nhiễu trắng; đèn pha K2 rồi từng xe tắt lần lượt như bị thổi; khung hình chìm vào đen hoàn toàn 2 s cuối.",
+"header": " · LOC_FLASHBACK_CHEORWON · CHAR_005, CHAR_002 · VEH_004, VEH_001 · video8s · 2:34–2:42"
+},
+{
+"id": "SC_022",
+"t0": 162,
+"t1": 168,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "—",
+"props": "VEH_001, VEH_002",
+"narr": [
+"아침이었습니다. 아무 소리도 나지 않았습니다. 차 소리도, 비행기 소리도."
+],
+"dlg": [],
+"action": "[ACTION-VI] Từ đen mở ra bình minh xám bạc: ảnh wide đoàn xe đứng im giữa cỏ vàng đến chân trời, sương bám trên lưới ngụy trang, không núi, không cây. Ken-burns kéo ra rất chậm.",
+"header": " · LOC_003_CHEONDUNG_BASE · — · VEH_001, VEH_002 · still_kenburns · 2:42–2:48"
+},
+{
+"id": "SC_023",
+"t0": 168,
+"t1": 176,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_006",
+"props": "—",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] POV 백성민 (gác ca sáng): đường nhựa dưới chân chạy thẳng 50 m rồi kết thúc như bị dao cắt — mép nhựa gọn, bên kia là cỏ vàng khô cao đến gối rạp theo gió. Máy đi bộ chậm tới mép cắt, dừng.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_006 · — · video8s · 2:48–2:56"
+},
+{
+"id": "SC_024",
+"t0": 176,
+"t1": 184,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_006",
+"props": "EQP_002",
+"narr": [],
+"dlg": [
+[
+"백성민",
+"중대장님. 나와 보셔야겠습니다."
+]
+],
+"action": "[ACTION-VI] 백성민 ngẩng lên: trời xám mênh mông, không một vệt máy bay. Anh nhìn đồng hồ, nhìn trời lần nữa, rồi bấm radio kẹp vai, giọng không đổi.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_006 · EQP_002 · video8s · 2:56–3:04"
+},
+{
+"id": "SC_025",
+"t0": 184,
+"t1": 192,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001",
+"props": "VEH_004, EQP_002",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"여단 지휘소, 여기는 천둥 지휘. 감명도?"
+]
+],
+"action": "[ACTION-VI] 한승우 ngồi ghế trước K151, tổ hợp radio xe áp tai, mắt nhìn màn hình LCD chỉ hiện dòng kênh. Ông bấm, nói, thả — trả về tiếng rít trắng.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001 · VEH_004, EQP_002 · video8s · 3:04–3:12"
+},
+{
+"id": "SC_026",
+"t0": 192,
+"t1": 200,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "무전병, CHAR_001",
+"props": "VEH_004",
+"narr": [],
+"dlg": [
+[
+"무전병",
+"중대 내부만 됩니다. 십 킬로 밖은 아무것도 없습니다."
+]
+],
+"action": "[ACTION-VI] Nhân viên radio ở ghế sau xoay núm kênh liên tục, lắc đầu nhìn 한승우. 한승우 đặt tổ hợp xuống chậm, nhìn ra ngoài kính chắn.",
+"header": " · LOC_003_CHEONDUNG_BASE · 무전병, CHAR_001 · VEH_004 · video8s · 3:12–3:20"
+},
+{
+"id": "SC_027",
+"t0": 200,
+"t1": 210,
+"kind": "still",
+"loc": "LOC_001_YOHA (đường tiến quân Tùy, ken-burns lịch sử)",
+"chars": "—",
+"props": "WPN_201",
+"narr": [
+"같은 봄. 수나라 24군이 차례로 요하로 향합니다. 한 군이 떠나면 다음 군이 하루 뒤에 떠났습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: cột quân Tùy giáp bạc, khiên đỏ, đi trên đường đất rộng qua đồng cỏ, bụi vàng cuộn, cờ đỏ-vàng nghiêng cùng hướng gió. Ken-burns đẩy chậm dọc hàng quân.",
+"header": " · LOC_001_YOHA (đường tiến quân Tùy, ken-burns lịch sử) · — · WPN_201 · still_kenburns · 3:20–3:30"
+},
+{
+"id": "SC_028",
+"t0": 210,
+"t1": 220,
+"kind": "still",
+"loc": "LOC_001_YOHA (kênh đào & dân phu, ken-burns lịch sử)",
+"chars": "—",
+"props": "—",
+"narr": [
+"군량을 나르는 민부가 병사의 두 배였습니다. 운하는 곡식 배로 막혔습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: dân phu áo gai kéo xe lương hai bánh nối đuôi vô tận; phía sau, kênh đào chật thuyền chở thóc phủ vải. Ken-burns trượt ngang.",
+"header": " · LOC_001_YOHA (kênh đào & dân phu, ken-burns lịch sử) · — · — · still_kenburns · 3:30–3:40"
+},
+{
+"id": "SC_029",
+"t0": 220,
+"t1": 230,
+"kind": "still",
+"loc": "LOC_001_YOHA (cờ trải đến chân trời, ken-burns lịch sử)",
+"chars": "—",
+"props": "WPN_201",
+"narr": [
+"깃발은 960리에 이어졌습니다. 앞뒤 군의 북소리가 서로 들렸습니다. 다 떠나는 데 사십 일이 걸렸습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh aerial: một dải cờ và bụi chạy từ tiền cảnh đến tận chân trời, không thấy điểm cuối; mặt trời bạc sau mây. Ken-burns kéo ra.",
+"header": " · LOC_001_YOHA (cờ trải đến chân trời, ken-burns lịch sử) · — · WPN_201 · still_kenburns · 3:40–3:50"
+},
+{
+"id": "SC_030",
+"t0": 230,
+"t1": 238,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [
+"이 풀은 철원의 풀이 아니었습니다. 그는 그것만은 알았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] HARD CUT về: 한승우 quỳ một gối ngoài mép đường nhựa, bốc một nắm đất lẫn cỏ vàng khô, bóp trong găng, để rơi qua kẽ tay, nhìn chân trời. Không nói. Máy đẩy chậm từ tay lên mặt.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001 · — · video8s · 3:50–3:58"
+},
+{
+"id": "SC_031",
+"t0": 238,
+"t1": 246,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_002, CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"중대장님, 여기… 철원이 아닙니다."
+]
+],
+"action": "[ACTION-VI] 오태민 đi tới sau lưng, dừng, nhìn cùng hướng, giọng nhỏ lần đầu tiên. 한승우 không quay lại, chỉ đứng dậy, phủi găng.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_002, CHAR_001 · — · video8s · 3:58–4:06"
+},
+{
+"id": "SC_032",
+"t0": 246,
+"t1": 254,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "—",
+"props": "VEH_001, VEH_002, VEH_003, VEH_004",
+"narr": [
+"아무도 그 말을 입에 올리지 않았습니다. 대신, 땅을 읽었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh aerial rất cao: đoàn xe dưới lưới ngụy trang là một vệt nhỏ giữa cỏ vàng vô tận, đoạn đường nhựa 50 m nằm lạc lõng như mảnh băng dính trên thảm. Ken-burns kéo ra thêm.",
+"header": " · LOC_003_CHEONDUNG_BASE · — · VEH_001, VEH_002, VEH_003, VEH_004 · still_kenburns · 4:06–4:14"
+},
+{
+"id": "SC_033",
+"t0": 254,
+"t1": 262,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_006, CHAR_001",
+"props": "—",
+"narr": [
+"그날 아침 백성민이 읽은 것은 발자국이었습니다. 말 스무 필. 두 시간 전."
+],
+"dlg": [],
+"action": "[ACTION-VI] 백성민 đi trước lần theo một hàng vết trên đất cứng ven đường cỏ, 한승우 theo sau; 백성민 dừng, ngồi xổm, chỉ ngón tay xuống mà không nói. 한승우 ngồi xuống cạnh.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_006, CHAR_001 · — · video8s · 4:14–4:22"
+},
+{
+"id": "SC_034",
+"t0": 262,
+"t1": 270,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_006",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"백성민",
+"말발굽 자국인데… 편자가 없습니다."
+]
+],
+"action": "[ACTION-VI] Cận: vết móng ngựa in sâu trên đất bùn cứng — hình móng tròn tự nhiên, không viền sắt, không đinh. Bàn tay 백성민 đặt cạnh làm thước. Máy giữ tĩnh, rồi ngước lên mặt anh.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_006 · — · video8s · 4:22–4:30"
+},
+{
+"id": "SC_035",
+"t0": 270,
+"t1": 278,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_003, đại đội",
+"props": "VEH_001, VEH_002",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"현재 인원 아흔네 명. 전원 이상 없습니다."
+]
+],
+"action": "[ACTION-VI] Wide tĩnh: hàng xe dưới lưới ngụy trang xanh-nâu trong bãi cỏ trũng; trước xe, lính xếp hàng ngang. 박기철 đứng trước hàng, sổ bìa xanh mở, đọc to không ngẩng lên.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_003, đại đội · VEH_001, VEH_002 · video8s · 4:30–4:38"
+},
+{
+"id": "SC_036",
+"t0": 278,
+"t1": 286,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_003",
+"props": "VEH_001",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"포탄 스물두 발. 그게 전부입니다."
+]
+],
+"action": "[ACTION-VI] 박기철 xoay người, bút chì chỉ vào tháp pháo K2 dưới lưới rồi chỉ vào sổ; cận mặt ông, không cảm xúc.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_003 · VEH_001 · video8s · 4:38–4:46"
+},
+{
+"id": "SC_037",
+"t0": 286,
+"t1": 296,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "—",
+"props": "WPN_002, WPN_005, UAV_001",
+"narr": [
+"40밀리 600발. 박격포탄 120발. 판처파우스트 18발. 드론 넷, 한 대에 30분."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh cận trang sổ bìa xanh viết tay bút chì: các dòng số xếp cột (40mm ×3, 박격포, PZF, 드론) — chữ số Ả Rập rõ, chữ Hàn chỉ gợi nét. Ken-burns trượt dọc trang từ trên xuống.",
+"header": " · LOC_003_CHEONDUNG_BASE · — · WPN_002, WPN_005, UAV_001 · still_kenburns · 4:46–4:56"
+},
+{
+"id": "SC_038",
+"t0": 296,
+"t1": 306,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "—",
+"props": "VEH_001, VEH_003",
+"narr": [
+"연료는 전차 한 통과 드럼 두 개. 물 이틀. 항생제 한 가방."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: hai phuy dầu 200 L xếp cạnh bao cát, phía sau là K2 dưới lưới và thùng xe tải chở thùng đạn; ánh sáng xám lạnh. Ken-burns đẩy chậm vào hai phuy.",
+"header": " · LOC_003_CHEONDUNG_BASE · — · VEH_001, VEH_003 · still_kenburns · 4:56–5:06"
+},
+{
+"id": "SC_039",
+"t0": 306,
+"t1": 314,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_003",
+"props": "—",
+"narr": [
+"그것이 이 부대의 전 재산이었습니다."
+],
+"dlg": [
+[
+"박기철",
+"식량 사흘, 물 이틀. 들어오는 건 없습니다."
+]
+],
+"action": "[ACTION-VI] 박기철 gập sổ, nhét vào túi ngực, nhìn thẳng hàng lính rồi nhìn 한승우 đứng bên cạnh.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_003 · — · video8s · 5:06–5:14"
+},
+{
+"id": "SC_040",
+"t0": 314,
+"t1": 322,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001, CHAR_002, CHAR_003, CHAR_006",
+"props": "VEH_004",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"선택은 둘이다. 여기 있거나, 움직이거나."
+]
+],
+"action": "[ACTION-VI] Bốn người quanh mui K151; bản đồ giấy Cheorwon trải ra vô dụng, gió lật góc. 한승우 chắp hai tay sau lưng, nhìn về hướng vệt bụi sáng nay.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001, CHAR_002, CHAR_003, CHAR_006 · VEH_004 · video8s · 5:14–5:22"
+},
+{
+"id": "SC_041",
+"t0": 322,
+"t1": 330,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_002, CHAR_003",
+"props": "VEH_004",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"움직입니다. 먼지 난 쪽으로 밀고 갑니다."
+]
+],
+"action": "[ACTION-VI] 오태민 đập tay lên mui xe, chỉ về phía tây; 박기철 bên cạnh lắc đầu rất nhẹ, mắt không rời bản đồ.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_002, CHAR_003 · VEH_004 · video8s · 5:22–5:30"
+},
+{
+"id": "SC_042",
+"t0": 330,
+"t1": 338,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001, CHAR_005",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"장 일병. 1호기, 서쪽. 낮게 말고 높게."
+]
+],
+"action": "[ACTION-VI] 한승우 quay sang 태오 đang đứng cách vài bước ôm hộp drone; ánh mắt ra lệnh trước khi lời nói. 태오 đứng thẳng người.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001, CHAR_005 · UAV_001 · video8s · 5:30–5:38"
+},
+{
+"id": "SC_043",
+"t0": 338,
+"t1": 346,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [
+"하늘 위의 눈. 이 부대가 가진 가장 귀한 것이었습니다."
+],
+"dlg": [
+[
+"장태오",
+"1호기 이륙. 배터리 삼십 분."
+]
+],
+"action": "[ACTION-VI] Drone #1 bốc lên khỏi lòng bàn tay 태오, xuyên qua khe lưới ngụy trang, lên cao khỏi bãi cỏ; 태오 ngẩng theo, tay trên cần điều khiển. Low-angle.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_005 · UAV_001 · video8s · 5:38–5:46"
+},
+{
+"id": "SC_044",
+"t0": 346,
+"t1": 354,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_005, CHAR_001, CHAR_002",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"십 킬로… 아직 풀입니다."
+]
+],
+"action": "[ACTION-VI] Cận màn hình controller trong tay 태오: cỏ vàng lướt qua liên tục từ trên cao, chỉ cỏ và bóng mây; quanh màn hình, mấy cái đầu chụm lại, mũ chạm mũ.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_005, CHAR_001, CHAR_002 · UAV_001 · video8s · 5:46–5:54"
+},
+{
+"id": "SC_045",
+"t0": 354,
+"t1": 362,
+"kind": "still",
+"loc": "LOC_001_YOHA",
+"chars": "—",
+"props": "VEH_205",
+"narr": [
+"요하였습니다. 고구려와 수나라의 경계입니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh màn hình drone (góc nhìn thẳng xuống, viền HUD mờ): mép trên khung hình, một dải sông rộng nâu đục hiện ra giữa cỏ vàng. Ken-burns tilt lên rất chậm về phía sông.",
+"header": " · LOC_001_YOHA · — · VEH_205 · still_kenburns · 5:54–6:02"
+},
+{
+"id": "SC_046",
+"t0": 362,
+"t1": 370,
+"kind": "video",
+"loc": "LOC_001_YOHA",
+"chars": "CHAR_005",
+"props": "VEH_205, WPN_201",
+"narr": [
+"수나라 공부상서 우문개가 세운 다리였습니다. 셋이었습니다."
+],
+"dlg": [
+[
+"장태오",
+"다리… 다리를 놓고 있습니다."
+]
+],
+"action": "[ACTION-VI] Màn hình drone: ba dải cầu phao thuyền gỗ đang được hàng nghìn người đẩy từ bờ tây sang; trên cầu, lính Tùy xếp hàng dài; bụi và khói. 태오 (ngoài hình) thở gấp. Máy cận màn hình rồi lên mặt 태오.",
+"header": " · LOC_001_YOHA · CHAR_005 · VEH_205, WPN_201 · video8s · 6:02–6:10"
+},
+{
+"id": "SC_047",
+"t0": 370,
+"t1": 380,
+"kind": "still",
+"loc": "LOC_001_YOHA",
+"chars": "—",
+"props": "VEH_205, WPN_201",
+"narr": [
+"탁군을 떠난 지 두 달. 24군이 요하 서안에 모여 있었습니다. 강 하나가 고구려와 그들 사이에 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh aerial từ drone: bờ tây sông Liêu — lều trại xám xếp ô đến tận chân trời, nghìn cột khói bếp, cờ đỏ-vàng, bãi ngựa; bờ đông cỏ vàng trống. Ken-burns kéo ra rất chậm, không thấy điểm cuối trại.",
+"header": " · LOC_001_YOHA · — · VEH_205, WPN_201 · still_kenburns · 6:10–6:20"
+},
+{
+"id": "SC_048",
+"t0": 380,
+"t1": 388,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"끝이… 안 보입니다."
+]
+],
+"action": "[ACTION-VI] Cận mặt 태오, ánh màn hình xanh xám hắt lên, mắt không chớp; môi run.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_005 · UAV_001 · video8s · 6:20–6:28"
+},
+{
+"id": "SC_049",
+"t0": 388,
+"t1": 396,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_002, CHAR_003",
+"props": "UAV_001",
+"narr": [
+"삼십만이면 반나절이라던 사람이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 오태민 nhìn màn hình, lần đầu tiên im — cằm siết, kính bảo hộ trên mũ phản chiếu màn hình. 박기철 không nhìn màn hình; ông nhìn 오태민. Máy tĩnh, hai mặt trong khung.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_002, CHAR_003 · UAV_001 · video8s · 6:28–6:36"
+},
+{
+"id": "SC_050",
+"t0": 396,
+"t1": 404,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_005, CHAR_001",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"배터리 십팔 분. 복귀시킵니까?"
+]
+],
+"action": "[ACTION-VI] Cận góc màn hình controller: chỉ số pin nhảy 19 → 18. 태오 ngẩng nhìn 한승우; 한승우 gật một cái. 태오 đẩy cần — hình ảnh trên màn hình quay đầu về đông.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_005, CHAR_001 · UAV_001 · video8s · 6:36–6:44"
+},
+{
+"id": "SC_051",
+"t0": 404,
+"t1": 412,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001",
+"props": "UAV_001",
+"narr": [
+"강 건너에 있는 건 군대가 아니었습니다. 나라 하나가 움직이고 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: 한승우 nhìn xuống màn hình đã tối, bóng ông và bóng lính phản chiếu trên mặt kính; sau lưng là K2 dưới lưới. Ken-burns đẩy vào mặt kính.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001 · UAV_001 · still_kenburns · 6:44–6:52"
+},
+{
+"id": "SC_052",
+"t0": 412,
+"t1": 420,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "—",
+"props": "UAV_001",
+"narr": [
+"그게 무엇이든, 이쪽으로 오고 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: drone #1 nhỏ như hạt bụi bay về phía máy trên nền trời xám bạc; dưới là thảo nguyên vàng; xa nơi chân trời tây, một dải bụi mỏng. Ken-burns đẩy vào chân trời.",
+"header": " · LOC_003_CHEONDUNG_BASE · — · UAV_001 · still_kenburns · 6:52–7:00"
+},
+{
+"id": "SC_053",
+"t0": 420,
+"t1": 428,
+"kind": "video",
+"loc": "LOC_001_YOHA",
+"chars": "—",
+"props": "VEH_205, WPN_201",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Aerial wide chậm: ba cầu phao thuyền gỗ đang được đẩy từ bờ tây sang bờ đông sông Liêu, hàng nghìn lính Tùy dồn trên ván cầu, cờ đỏ; bờ đông cao, cỏ vàng, trống. Không thoại, không narration.",
+"header": " · LOC_001_YOHA · — · VEH_205, WPN_201 · video8s · 7:00–7:08"
+},
+{
+"id": "SC_054",
+"t0": 428,
+"t1": 438,
+"kind": "still",
+"loc": "LOC_001_YOHA",
+"chars": "—",
+"props": "VEH_205",
+"narr": [
+"다리는 동쪽 기슭보다 한 장, 세 미터가 짧았습니다. 그 세 미터가 첫 번째 싸움을 결정했습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: đầu cầu phao dừng giữa nước, cách bờ đông cao dốc một khoảng nước đục; lính Tùy đứng dồn ở mép ván nhìn khoảng cách. Ken-burns đẩy vào khe nước giữa cầu và bờ.",
+"header": " · LOC_001_YOHA · — · VEH_205 · still_kenburns · 7:08–7:18"
+},
+{
+"id": "SC_055",
+"t0": 438,
+"t1": 446,
+"kind": "video",
+"loc": "LOC_001_YOHA",
+"chars": "quân Goguryeo",
+"props": "WPN_101",
+"narr": [
+"고구려군은 높은 기슭에서 기다리고 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Trên bờ đông cao: hàng lính Goguryeo giáp lamellar sắt, mũ chỏm lông, cờ 삼족오 đen — đứng dậy khỏi cỏ vàng, cung 맥궁 giương đồng loạt, bắn xuống. Low-angle từ mép nước.",
+"header": " · LOC_001_YOHA · quân Goguryeo · WPN_101 · video8s · 7:18–7:26"
+},
+{
+"id": "SC_056",
+"t0": 446,
+"t1": 454,
+"kind": "video",
+"loc": "LOC_001_YOHA",
+"chars": "lính Tùy",
+"props": "VEH_205, WPN_201",
+"narr": [
+"먼저 물에 들어간 쪽이 불리했습니다. 갑옷은 젖으면 두 배로 무거웠습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Lính Tùy nhảy từ đầu cầu xuống nước ngang ngực, khiên đỏ giơ trên đầu, lội về bờ; tên cắm vào khiên, vào nước; người ngã kéo theo người sau. Tracking ngang.",
+"header": " · LOC_001_YOHA · lính Tùy · VEH_205, WPN_201 · video8s · 7:26–7:34"
+},
+{
+"id": "SC_057",
+"t0": 454,
+"t1": 462,
+"kind": "video",
+"loc": "LOC_001_YOHA",
+"chars": "quân Goguryeo, lính Tùy",
+"props": "WPN_101",
+"narr": [
+"물속에서 싸운 쪽이 졌습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Mép nước: lính Goguryeo từ trên bùn cao đâm giáo xuống; lính Tùy trượt trên bùn dốc, không lên nổi, giáp ướt nặng. Cận trung, không gore.",
+"header": " · LOC_001_YOHA · quân Goguryeo, lính Tùy · WPN_101 · video8s · 7:34–7:42"
+},
+{
+"id": "SC_058",
+"t0": 462,
+"t1": 470,
+"kind": "video",
+"loc": "LOC_001_YOHA",
+"chars": "맥철장 (tướng Tùy), lính Tùy",
+"props": "VEH_205",
+"narr": [
+"선봉장 맥철장이 그 물가에서 죽었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Một tướng Tùy giáp 명광개 hai gương ngực, áo choàng đỏ, mũ chỏm tua — khuỵu xuống ở mép ván cầu; hai lính kéo ông về, áo choàng trôi trên nước. Máy từ trên cầu nhìn xuống.",
+"header": " · LOC_001_YOHA · 맥철장 (tướng Tùy), lính Tùy · VEH_205 · video8s · 7:42–7:50"
+},
+{
+"id": "SC_059",
+"t0": 470,
+"t1": 480,
+"kind": "still",
+"loc": "LOC_001_YOHA",
+"chars": "—",
+"props": "VEH_205",
+"narr": [
+"전사웅, 맹차 두 장수도 함께 죽었습니다. 수나라는 다리를 도로 끌어갔습니다. 첫 도하는 실패였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: ba cầu phao bị kéo ngược về bờ tây, dây neo căng, ván cầu trống; trên bờ đông, hàng lính Goguryeo đứng nhìn; mặt sông đầy khiên đỏ trôi. Ken-burns kéo ra.",
+"header": " · LOC_001_YOHA · — · VEH_205 · still_kenburns · 7:50–8:00"
+},
+{
+"id": "SC_060",
+"t0": 480,
+"t1": 488,
+"kind": "video",
+"loc": "LOC_001_YOHA",
+"chars": "lính Goguryeo",
+"props": "WPN_101",
+"narr": [
+"고구려는 이겼습니다. 그날은."
+],
+"dlg": [],
+"action": "[ACTION-VI] Cận một lính Goguryeo trên bờ cao: giáp lamellar bụi, mũ chỏm lông đỏ, mặt lấm, thở dốc — không reo, chỉ nhìn sang bờ tây nơi trại lều kéo đến chân trời. Máy đẩy chậm.",
+"header": " · LOC_001_YOHA · lính Goguryeo · WPN_101 · video8s · 8:00–8:08"
+},
+{
+"id": "SC_061",
+"t0": 488,
+"t1": 496,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_006",
+"props": "VEH_003",
+"narr": [
+"화살에는 주인이 있었습니다. 백성민은 그 주인을 찾으러 갔습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] HARD CUT: 백성민 quỳ bên lốp K511 #2, nắm cán mũi tên bằng hai tay, rút một nhát — lốp xì hơi dài. Anh nhìn đầu tên tam giác có ngạnh, nhét mũi tên vào dây giáp ngực.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_006 · VEH_003 · video8s · 8:08–8:16"
+},
+{
+"id": "SC_062",
+"t0": 496,
+"t1": 504,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (rìa đông, cỏ → khe cạn)",
+"chars": "CHAR_006 + 2 lính trinh sát",
+"props": "—",
+"narr": [
+"발자국은 동쪽으로, 마른 개울까지 이어졌습니다. 말 한 필. 편자는 없었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 백성민 đi khom dẫn hai lính trinh sát theo hàng vết móng ngựa qua cỏ vàng cao đến gối, xuống một khe cạn đáy đá cuội. Tay ra hiệu dừng — ngồi. Tracking phía sau.",
+"header": " · LOC_003_CHEONDUNG_BASE (rìa đông, cỏ → khe cạn) · CHAR_006 + 2 lính trinh sát · — · video8s · 8:16–8:24"
+},
+{
+"id": "SC_063",
+"t0": 504,
+"t1": 512,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khe cạn)",
+"chars": "CHAR_006, 소년 척후",
+"props": "WPN_101",
+"narr": [
+"열일곱쯤 된 소년이었습니다. 요동성의 척후였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Over-the-shoulder từ sau vai 백성민: cách 10 m trong khe đá, một cậu bé ~17 tuổi, áo 저고리 gai nâu, khăn 건 trên đầu, cung 맥궁 giương hết cỡ — mũi tên chĩa thẳng, hai tay run thấy rõ.",
+"header": " · LOC_003_CHEONDUNG_BASE (khe cạn) · CHAR_006, 소년 척후 · WPN_101 · video8s · 8:24–8:32"
+},
+{
+"id": "SC_064",
+"t0": 512,
+"t1": 520,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khe cạn)",
+"chars": "CHAR_006 + 2 lính",
+"props": "WPN_001",
+"narr": [
+"이 땅에서 처음 만난 사람이었습니다. 총을 겨눌 수는 없었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 백성민 chậm rãi hạ K2C1 xuống đá, hai lòng bàn tay mở ra hai bên, lùi nửa bước; tay trái ra hiệu sau lưng — hai lính hạ nòng súng xuống đất. Cậu bé vẫn giương cung.",
+"header": " · LOC_003_CHEONDUNG_BASE (khe cạn) · CHAR_006 + 2 lính · WPN_001 · video8s · 8:32–8:40"
+},
+{
+"id": "SC_065",
+"t0": 520,
+"t1": 528,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khe cạn)",
+"chars": "CHAR_006, 소년 척후",
+"props": "PROP_015",
+"narr": [],
+"dlg": [
+[
+"백성민",
+"네 화살이다. 돌려준다."
+]
+],
+"action": "[ACTION-VI] 백성민 rút mũi tên từ giáp ngực, chìa ra bằng hai tay, đuôi tên hướng về cậu bé, đầu tên về phía mình; đặt xuống phiến đá giữa hai người, lùi lại.",
+"header": " · LOC_003_CHEONDUNG_BASE (khe cạn) · CHAR_006, 소년 척후 · PROP_015 · video8s · 8:40–8:48"
+},
+{
+"id": "SC_066",
+"t0": 528,
+"t1": 536,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khe cạn)",
+"chars": "소년 척후",
+"props": "PROP_015",
+"narr": [],
+"dlg": [
+[
+"소년 척후",
+"수나라… 수나라요?"
+]
+],
+"action": "[ACTION-VI] Cận cậu bé: mắt nhìn mũi tên trên đá, nhìn lên vai áo 백성민 — miếng vải nhỏ đỏ-xanh (태극기) — cung hạ dần từng chút, giọng vỡ.",
+"header": " · LOC_003_CHEONDUNG_BASE (khe cạn) · 소년 척후 · PROP_015 · video8s · 8:48–8:56"
+},
+{
+"id": "SC_067",
+"t0": 536,
+"t1": 544,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khe cạn)",
+"chars": "CHAR_006, 소년 척후",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"소년 척후",
+"백만. 백만이오."
+]
+],
+"action": "[ACTION-VI] 백성민 lắc đầu chậm, một lần. Cậu bé cúi nhặt mũi tên, rồi giơ tay chỉ về phía tây — bàn tay vẫn run; nói như người vừa chạy suốt đêm.",
+"header": " · LOC_003_CHEONDUNG_BASE (khe cạn) · CHAR_006, 소년 척후 · — · video8s · 8:56–9:04"
+},
+{
+"id": "SC_068",
+"t0": 544,
+"t1": 554,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (khe cạn)",
+"chars": "소년 척후",
+"props": "PROP_015",
+"narr": [
+"백만. 소년은 그 수를 세어 본 적이 없었습니다. 들었을 뿐입니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh cận cậu bé: mặt lấm bụi vàng, mắt to, mũi tên nhận lại nắm chặt trong tay, phía sau là vách khe đá xám. Ken-burns đẩy vào mắt.",
+"header": " · LOC_003_CHEONDUNG_BASE (khe cạn) · 소년 척후 · PROP_015 · still_kenburns · 9:04–9:14"
+},
+{
+"id": "SC_069",
+"t0": 554,
+"t1": 562,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (mép khe)",
+"chars": "CHAR_001, 소년 척후 + 2 lính",
+"props": "—",
+"narr": [
+"태극기. 소년이 알 리 없는 깃발이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 한승우 cùng hai lính đi tới mép khe phía trên, dừng lại nhìn xuống. Cậu bé ngước lên: mắt dừng ở lá cờ 태극기 trên vai 한승우 — không nhận ra, ánh mắt trống, rồi nhìn xuống nòng súng.",
+"header": " · LOC_003_CHEONDUNG_BASE (mép khe) · CHAR_001, 소년 척후 + 2 lính · — · video8s · 9:14–9:22"
+},
+{
+"id": "SC_070",
+"t0": 562,
+"t1": 570,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khe cạn)",
+"chars": "CHAR_001, 소년 척후",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"우리는 수나라가 아닙니다. 성은 어디입니까?"
+]
+],
+"action": "[ACTION-VI] 한승우 trượt xuống khe, quỳ một gối ngang tầm mắt cậu bé, chỉ ngực mình, lắc đầu, rồi chỉ về đông; nói chậm, từng chữ.",
+"header": " · LOC_003_CHEONDUNG_BASE (khe cạn) · CHAR_001, 소년 척후 · — · video8s · 9:22–9:30"
+},
+{
+"id": "SC_071",
+"t0": 570,
+"t1": 578,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khe cạn)",
+"chars": "소년 척후, CHAR_001",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"소년 척후",
+"요동… 요동성이오."
+]
+],
+"action": "[ACTION-VI] Cậu bé giơ tay chỉ về đông, môi mấp máy \"요동…\" — đúng lúc từ sau gò cỏ, K21 천둥 2 nổ máy, tiếng gầm diesel dội xuống khe, tháp pháo nhô lên khỏi cỏ.",
+"header": " · LOC_003_CHEONDUNG_BASE (khe cạn) · 소년 척후, CHAR_001 · VEH_002 · video8s · 9:30–9:38"
+},
+{
+"id": "SC_072",
+"t0": 578,
+"t1": 586,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khe cạn)",
+"chars": "소년 척후, CHAR_006",
+"props": "VEH_002",
+"narr": [
+"쇠로 된 집이 울었습니다. 소년에게는 그렇게 보였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Cậu bé ngã ngồi, bò lùi trên đá cuội, mắt dán vào tháp pháo K21 trên gò; 백성민 giơ tay mở \"không sao\" — nhưng cậu đã lật người dậy.",
+"header": " · LOC_003_CHEONDUNG_BASE (khe cạn) · 소년 척후, CHAR_006 · VEH_002 · video8s · 9:38–9:46"
+},
+{
+"id": "SC_073",
+"t0": 586,
+"t1": 594,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cỏ phía đông)",
+"chars": "소년 척후, CHAR_001 + 2 lính",
+"props": "—",
+"narr": [
+"한승우는 소년을 보냈습니다. 그가 달려가는 곳에 성이 있을 것이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Cậu bé chạy về phía đông qua cỏ vàng, cung trên lưng, mũi tên vẫn nắm trong tay; hai lính định lao theo — 한승우 giơ thẳng cánh tay chặn, không nói. Wide.",
+"header": " · LOC_003_CHEONDUNG_BASE (cỏ phía đông) · 소년 척후, CHAR_001 + 2 lính · — · video8s · 9:46–9:54"
+},
+{
+"id": "SC_074",
+"t0": 594,
+"t1": 604,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (đồng cỏ)",
+"chars": "소년 척후",
+"props": "—",
+"narr": [
+"소년은 성으로 달렸습니다. 보고할 말은 하나였습니다. 쇠로 된 집."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: bóng cậu bé nhỏ dần trên biển cỏ vàng, bóng đổ dài, chân trời đông xám. Ken-burns theo hướng chạy.",
+"header": " · LOC_003_CHEONDUNG_BASE (đồng cỏ) · 소년 척후 · — · still_kenburns · 9:54–10:04"
+},
+{
+"id": "SC_075",
+"t0": 604,
+"t1": 612,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_002, CHAR_001",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"왜 보내십니까? 잡았어야 합니다!"
+]
+],
+"action": "[ACTION-VI] 오태민 đứng trên nóc K21, kính bảo hộ gác mũ, hai tay chống hông, gào xuống. 한승우 dưới cỏ ngước lên, mặt không đổi.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_002, CHAR_001 · VEH_002 · video8s · 10:04–10:12"
+},
+{
+"id": "SC_076",
+"t0": 612,
+"t1": 620,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001, CHAR_006",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"백 중사. 소년이 간 방향, 기록해."
+]
+],
+"action": "[ACTION-VI] 한승우 không đáp 오태민; quay sang 백성민 đang nhặt lại K2C1, chỉ về hướng đông. 백성민 gật, rút sổ nhỏ ghi phương vị.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001, CHAR_006 · — · video8s · 10:12–10:20"
+},
+{
+"id": "SC_077",
+"t0": 620,
+"t1": 630,
+"kind": "still",
+"loc": "LOC_001_YOHA",
+"chars": "—",
+"props": "VEH_205, WPN_201",
+"narr": [
+"다리는 이틀 뒤 다시 놓였습니다. 이번엔 길이가 맞았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh aerial: ba cầu phao đã nối dài chạm hẳn bờ đông; quân Tùy tràn sang thành hàng, kỵ binh đi trước, bụi vàng bốc trên bờ đông. Ken-burns kéo ra.",
+"header": " · LOC_001_YOHA · — · VEH_205, WPN_201 · still_kenburns · 10:20–10:30"
+},
+{
+"id": "SC_078",
+"t0": 630,
+"t1": 638,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [
+"이틀 뒤. 요하 동안으로 수나라 기병이 올라왔습니다."
+],
+"dlg": [
+[
+"장태오",
+"1호기, 배터리 십이 분. 동남쪽 봅니다."
+]
+],
+"action": "[ACTION-VI] Bình minh xám ngày thứ ba. Drone #1 treo thấp trên bãi trũng rồi bốc lên; 태오 dưới lưới ngụy trang, controller sáng; góc màn hình pin hiện 12.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_005 · UAV_001 · video8s · 10:30–10:38"
+},
+{
+"id": "SC_079",
+"t0": 638,
+"t1": 646,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đồng cỏ đông-nam, đoàn dân chạy nạn)",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [
+"요하 동쪽 마을들은 불탔습니다. 사람들은 성으로 걸었습니다."
+],
+"dlg": [
+[
+"장태오",
+"피난민입니다. 삼백쯤… 소달구지도 있습니다."
+]
+],
+"action": "[ACTION-VI] Màn hình drone: cách 3 km, một đoàn người đi bộ dài trên cỏ vàng — bọc hành lý, xe bò hai bánh, trẻ con; phía sau rất xa, khói đen của làng cháy. Máy cận màn hình, ngón tay 태오 run trên cần.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đồng cỏ đông-nam, đoàn dân chạy nạn) · CHAR_005 · UAV_001 · video8s · 10:38–10:46"
+},
+{
+"id": "SC_080",
+"t0": 646,
+"t1": 654,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đồng cỏ)",
+"chars": "CHAR_005",
+"props": "UAV_001, VEH_206",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"기병… 이백. 앞을 끊고 있습니다."
+]
+],
+"action": "[ACTION-VI] Màn hình drone lia sang phải: 200 kỵ binh nhẹ — mũ lông, cung, ngựa lùn — chạy thành vòng cung rộng qua cỏ, cắt lên phía trước đầu đoàn dân; bụi thành dải.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đồng cỏ) · CHAR_005 · UAV_001, VEH_206 · video8s · 10:46–10:54"
+},
+{
+"id": "SC_081",
+"t0": 654,
+"t1": 662,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đồng cỏ)",
+"chars": "CHAR_004, CHAR_005; trên màn hình: CHAR_106, CHAR_107",
+"props": "UAV_001",
+"narr": [
+"선비족 기병이었습니다. 수나라의 눈이자 사냥개였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Màn hình drone zoom: một xe bò lật nghiêng; cô gái hai bím tóc buộc chỉ đỏ (아리) kéo ông lão bọc hành lý sau lưng (을보) ra khỏi càng xe, ông lết một chân. 서아 nhìn qua vai 태오, tay đưa lên miệng.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đồng cỏ) · CHAR_004, CHAR_005; trên màn hình: CHAR_106, CHAR_107 · UAV_001 · video8s · 10:54–11:02"
+},
+{
+"id": "SC_082",
+"t0": 662,
+"t1": 670,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_002, CHAR_001",
+"props": "VEH_004, VEH_001",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"전차 내보냅니다. 한 발이면 다 흩어집니다."
+]
+],
+"action": "[ACTION-VI] Cạnh K151: 오태민 chỉ thẳng tay về K2 dưới lưới, mặt đỏ, giọng to. 한승우 đứng im nhìn màn hình controller trong tay 태오.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_002, CHAR_001 · VEH_004, VEH_001 · video8s · 11:02–11:10"
+},
+{
+"id": "SC_083",
+"t0": 670,
+"t1": 678,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_003",
+"props": "VEH_001",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"나가면 들킵니다. 기름도요."
+]
+],
+"action": "[ACTION-VI] 박기철 đứng dựa váy xích K2, tay đặt lên tấm giáp như giữ nó lại, nói chậm, không to.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_003 · VEH_001 · video8s · 11:10–11:18"
+},
+{
+"id": "SC_084",
+"t0": 678,
+"t1": 686,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_004, CHAR_001",
+"props": "UAV_001",
+"narr": [
+"아흔네 명을 데리고 돌아가는 것. 그것이 한승우의 임무였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 서아 không nói — nhìn màn hình rồi ngẩng nhìn 한승우. 한승우 nhìn màn hình: cô gái vẫn đang kéo ông lão, kỵ binh đã cách đoàn dân một quãng ngắn. Máy đẩy chậm vào mặt 한승우.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_004, CHAR_001 · UAV_001 · video8s · 11:18–11:26"
+},
+{
+"id": "SC_085",
+"t0": 686,
+"t1": 694,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"쏜다. 대신 전차는 안 나간다."
+]
+],
+"action": "[ACTION-VI] Cận 한승우: mắt rời màn hình, nhìn 오태민, rồi 박기철. Câu nói ngắn, không cao giọng.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001 · — · video8s · 11:26–11:34"
+},
+{
+"id": "SC_086",
+"t0": 694,
+"t1": 702,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001",
+"props": "EQP_002",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"천둥 2, 3. 1소대 탑승. 팔백 미터, 정지 사격."
+]
+],
+"action": "[ACTION-VI] 한승우 bấm tổ hợp radio vai trái, mắt vẫn nhìn về phía đông-nam; sau lưng ông, lính 1소대 đã chạy về phía K21.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001 · EQP_002 · video8s · 11:34–11:42"
+},
+{
+"id": "SC_087",
+"t0": 702,
+"t1": 710,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_003, 1소대",
+"props": "VEH_002, VEH_001",
+"narr": [
+"한승우의 첫 번째 결정이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] K21 천둥 2 và 3 xé lưới ngụy trang lao lên khỏi bãi trũng, cửa đuôi đang khép, lính cuối nhảy vào; K2 vẫn nằm dưới lưới; 박기철 đứng cạnh K2 nhìn theo hai xe. Wide.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_003, 1소대 · VEH_002, VEH_001 · video8s · 11:42–11:50"
+},
+{
+"id": "SC_088",
+"t0": 710,
+"t1": 718,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đồng cỏ)",
+"chars": "CHAR_002",
+"props": "VEH_002",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Hai K21 chạy song song qua cỏ vàng, bụi bốc sau đuôi; 오태민 nhô nửa người trên nóc 천둥 2, kính bảo hộ kéo xuống mắt; tháp 40mm xoay về phải. Tracking ngang thấp.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đồng cỏ) · CHAR_002 · VEH_002 · video8s · 11:50–11:58"
+},
+{
+"id": "SC_089",
+"t0": 718,
+"t1": 726,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đồng cỏ)",
+"chars": "CHAR_205",
+"props": "VEH_206",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Phía kỵ binh: 탁발흠 — sẹo thái dương trái, mũ vành lông cáo, áo choàng da sói xám, bím tóc dày — dẫn đầu, cung trong tay, ngựa phi; ông ngoái nhìn đầu đoàn dân, giơ cung ra hiệu vòng chặn. Tracking bên hông.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đồng cỏ) · CHAR_205 · VEH_206 · video8s · 11:58–12:06"
+},
+{
+"id": "SC_090",
+"t0": 726,
+"t1": 734,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đồng cỏ)",
+"chars": "CHAR_002",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"천둥 2, 기병 선두 전방 오십. 점사."
+]
+],
+"action": "[ACTION-VI] K21 천둥 2 phanh gấp trên gò thấp, bụi trùm; 오태민 cúi vào cửa nóc, tay ấn tai nghe, mắt nhìn qua ống nhòm về đầu kỵ binh cách 800 m.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đồng cỏ) · CHAR_002 · VEH_002 · video8s · 12:06–12:14"
+},
+{
+"id": "SC_091",
+"t0": 734,
+"t1": 742,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đồng cỏ)",
+"chars": "—",
+"props": "VEH_002, VEH_206",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Wide: pháo 40mm bắn loạt ngắn — đất bùng lên thành cột 50 m trước mũi hàng kỵ binh dẫn đầu; ngựa dựng đứng, kỵ sĩ văng, hàng sau đâm vào hàng trước. Không cận thương vong.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đồng cỏ) · — · VEH_002, VEH_206 · video8s · 12:14–12:22"
+},
+{
+"id": "SC_092",
+"t0": 742,
+"t1": 750,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đồng cỏ)",
+"chars": "—",
+"props": "VEH_002, VEH_206",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Đội hình kỵ binh vỡ thành từng cụm quay cuồng, ngựa điên chạy ngược; từ nóc hai K21, xạ thủ K3 quét tracer thành dải sáng ngang cỏ; bụi phủ tất cả. Aerial trung.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đồng cỏ) · — · VEH_002, VEH_206 · video8s · 12:22–12:30"
+},
+{
+"id": "SC_093",
+"t0": 750,
+"t1": 758,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đồng cỏ, chân đồi)",
+"chars": "CHAR_205",
+"props": "VEH_206",
+"narr": [],
+"dlg": [
+[
+"탁발흠",
+"흩어져라! 언덕으로!"
+]
+],
+"action": "[ACTION-VI] 탁발흠 ghì cương, ngựa dựng — ông không nhìn trời, nhìn thẳng vào hai khối xe trên gò; hét một lệnh, quất ngựa vòng lên sườn đồi bên phải. Kỵ binh còn lại theo ông thành dòng.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đồng cỏ, chân đồi) · CHAR_205 · VEH_206 · video8s · 12:30–12:38"
+},
+{
+"id": "SC_094",
+"t0": 758,
+"t1": 766,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đoàn dân)",
+"chars": "CHAR_004, CHAR_106, CHAR_107, 1소대",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"아리",
+"할아버지 다리요! 피가 안 멈춰요!"
+]
+],
+"action": "[ACTION-VI] Lính 1소대 chạy tới xe bò lật, tỏa ra thành vòng; 서아 quỳ xuống bên chân 을보 đang chảy máu, kéo cắt băng; 아리 nắm tay áo cô, nói gấp.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đoàn dân) · CHAR_004, CHAR_106, CHAR_107, 1소대 · VEH_002 · video8s · 12:38–12:46"
+},
+{
+"id": "SC_095",
+"t0": 766,
+"t1": 774,
+"kind": "still",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đoàn dân)",
+"chars": "CHAR_004, CHAR_106",
+"props": "—",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh cận: hai bàn tay găng nitrile của 서아 dính máu siết băng ép quanh bắp chân 을보; bàn tay già gân guốc của ông đặt lên tay cô. Ken-burns đẩy chậm. Không thoại.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đoàn dân) · CHAR_004, CHAR_106 · — · still_kenburns · 12:46–12:54"
+},
+{
+"id": "SC_096",
+"t0": 774,
+"t1": 782,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"저 놈이 우두머리입니다. 따라갑니다."
+]
+],
+"action": "[ACTION-VI] 태오 dưới lưới: màn hình drone theo dòng kỵ binh lên sườn đồi; cậu đẩy cần — hình ảnh hạ thấp dần, cỏ lớn lên trong khung, chỉ số độ cao giảm. Cận mặt và màn hình.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_005 · UAV_001 · video8s · 12:54–13:02"
+},
+{
+"id": "SC_097",
+"t0": 782,
+"t1": 790,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (sườn đồi)",
+"chars": "CHAR_205, cung thủ Tiên Ti",
+"props": "VEH_206, UAV_001",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Sườn đồi: 탁발흠 ngẩng lên — một vật vo ve bay thấp 40 m trên đầu; ông chỉ tay; cung thủ bên cạnh giương cung, ngắm, thả. Low-angle theo mũi tên bay lên.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (sườn đồi) · CHAR_205, cung thủ Tiên Ti · VEH_206, UAV_001 · video8s · 13:02–13:10"
+},
+{
+"id": "SC_098",
+"t0": 790,
+"t1": 798,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"1호기… 신호 끊겼습니다."
+]
+],
+"action": "[ACTION-VI] Màn hình drone: hình xoay tít, một mảnh cánh quạt gãy lướt qua ống kính, cỏ lao lên → nhiễu → đen. 태오 bấm cần liên tục vô ích.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_005 · UAV_001 · video8s · 13:10–13:18"
+},
+{
+"id": "SC_099",
+"t0": 798,
+"t1": 806,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đoàn dân)",
+"chars": "CHAR_004, 2 lính bị thương",
+"props": "VEH_002",
+"narr": [
+"총이 있어도, 화살은 여전히 피를 냈습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Sau đuôi K21 천둥 3: hai lính được kéo vào khuất — một mũi tên xuyên cẳng tay, một cắm đùi; 서아 buộc garô, mặt bình tĩnh. Máy trung, không cận vết thương.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đoàn dân) · CHAR_004, 2 lính bị thương · VEH_002 · video8s · 13:18–13:26"
+},
+{
+"id": "SC_100",
+"t0": 806,
+"t1": 814,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (đoàn dân)",
+"chars": "CHAR_106, CHAR_107, 1소대",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"을보",
+"이 쇠는… 우리 쇠가 아니야."
+]
+],
+"action": "[ACTION-VI] 을보 được một lính dìu tới cửa đuôi K21 mở, 아리 ôm giỏ theo sát; ông dừng, đặt bàn tay lên tấm giáp thép của xe, vuốt như vuốt cổ ngựa, nheo mắt trái, rồi mới bước lên.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (đoàn dân) · CHAR_106, CHAR_107, 1소대 · VEH_002 · video8s · 13:26–13:34"
+},
+{
+"id": "SC_101",
+"t0": 814,
+"t1": 824,
+"kind": "still",
+"loc": "LOC_008_GOGURYEO_VILLAGE (sườn đồi)",
+"chars": "CHAR_205",
+"props": "VEH_206",
+"narr": [
+"탁발흠은 기병 마흔을 잃었습니다. 그는 물러나지 않았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh wide: sườn đồi cỏ vàng, 탁발흠 đã xuống ngựa đứng giữa đám kỵ binh còn lại; dưới đồng, ngựa mất chủ chạy tán loạn, bụi tan dần; xa xa hai K21 đang quay đầu về đông. Ken-burns kéo ra.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (sườn đồi) · CHAR_205 · VEH_206 · still_kenburns · 13:34–13:44"
+},
+{
+"id": "SC_102",
+"t0": 824,
+"t1": 832,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (sườn đồi)",
+"chars": "CHAR_205",
+"props": "UAV_001",
+"narr": [
+"그는 이름을 붙이지 않았습니다. 먼저 살펴보았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 탁발흠 đi bộ tới chỗ cỏ rạp, cúi xuống nhấc xác drone #1 lên bằng một cánh tay gãy, xoay nó trước mặt; máu chảy một vệt từ tai trái. Ông ngẩng lên nhìn về hai K21 — mặt không sợ, mắt đang ghi.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (sườn đồi) · CHAR_205 · UAV_001 · video8s · 13:44–13:52"
+},
+{
+"id": "SC_103",
+"t0": 832,
+"t1": 840,
+"kind": "still",
+"loc": "LOC_008_GOGURYEO_VILLAGE (sườn đồi)",
+"chars": "CHAR_205",
+"props": "UAV_001, VEH_002",
+"narr": [
+"탁발흠은 도망치지 않았습니다. 언덕에서, 그는 세고 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: 탁발흠 là chấm nhỏ trên đồi, tay cầm drone; dưới đồng, đoàn dân chạy nạn nối lại hàng đi về đông, hai K21 đi kèm hai bên, bụi. Ken-burns đẩy chậm vào 탁발흠.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (sườn đồi) · CHAR_205 · UAV_001, VEH_002 · still_kenburns · 13:52–14:00"
+},
+{
+"id": "SC_104",
+"t0": 840,
+"t1": 848,
+"kind": "video",
+"loc": "LOC_008_GOGURYEO_VILLAGE (sườn đồi)",
+"chars": "CHAR_205",
+"props": "UAV_001",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Cận: xác drone #1 trong bàn tay 탁발흠 xoay chậm — cánh quạt gãy, một cánh tay cong, đèn LED tắt, tem 태극기 nhỏ trên thân; nền trời hoàng hôn cam xám. Không thoại, không narration.",
+"header": " · LOC_008_GOGURYEO_VILLAGE (sườn đồi) · CHAR_205 · UAV_001 · video8s · 14:00–14:08"
+},
+{
+"id": "SC_105",
+"t0": 848,
+"t1": 858,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (gò phía đông, hoàng hôn)",
+"chars": "CHAR_105, 소년 척후",
+"props": "VEH_101",
+"narr": [
+"해 질 무렵, 삼백 기가 언덕에 섰습니다. 소년이 길을 안내했습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: trên gò cỏ vàng ngược sáng hoàng hôn, 300 kỵ binh Goguryeo dàn hàng — giáp lamellar, ngựa mặc giáp, chỏm lông đỏ, cờ 삼족오; ở giữa, 해모루 (không râu, một lông trắng trên mũ) trên ngựa; cậu bé trinh sát đứng bên cạnh chỉ tay xuống. Ken-burns kéo ra dọc hàng kỵ.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò phía đông, hoàng hôn) · CHAR_105, 소년 척후 · VEH_101 · still_kenburns · 14:08–14:18"
+},
+{
+"id": "SC_106",
+"t0": 858,
+"t1": 866,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (dưới gò)",
+"chars": "CHAR_002, đại đội",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"중대장님, 삼백입니다. 사거리 안입니다."
+]
+],
+"action": "[ACTION-VI] Dưới gò: ba K21 dàn ngang, nòng 40mm hạ thấp, lính nấp sau xe; 오태민 trên nóc 천둥 2 áp tai nghe, mắt không rời hàng kỵ binh. Over-the-shoulder từ sau 오태민 nhìn lên gò.",
+"header": " · LOC_003_CHEONDUNG_BASE (dưới gò) · CHAR_002, đại đội · VEH_002 · video8s · 14:18–14:26"
+},
+{
+"id": "SC_107",
+"t0": 866,
+"t1": 874,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (dưới gò)",
+"chars": "CHAR_001",
+"props": "VEH_002, EQP_002",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"전 차량, 포신 내려. 사격 금지."
+]
+],
+"action": "[ACTION-VI] 한승우 đứng trước mũi 천둥 3, giữa khoảng trống, tay trái giữ tổ hợp radio, tay phải giơ ngang ra sau ra hiệu cho các xe; nòng 40mm phía sau ông hạ thêm.",
+"header": " · LOC_003_CHEONDUNG_BASE (dưới gò) · CHAR_001 · VEH_002, EQP_002 · video8s · 14:26–14:34"
+},
+{
+"id": "SC_108",
+"t0": 874,
+"t1": 882,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống giữa hai bên)",
+"chars": "CHAR_106",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"을보",
+"이들이 우릴 살렸소!"
+]
+],
+"action": "[ACTION-VI] 을보 chân băng trắng lết ra khoảng trống giữa hai hàng, bọc hành lý vẫn trên lưng, giơ hai tay lên phía gò, gào bằng giọng khàn của ông già không sợ ai.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống giữa hai bên) · CHAR_106 · — · video8s · 14:34–14:42"
+},
+{
+"id": "SC_109",
+"t0": 882,
+"t1": 890,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_105",
+"props": "VEH_101",
+"narr": [
+"해모루 말객. 을지문덕 장군의 사람이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 해모루 xuống ngựa, ném cương cho lính, đi bộ xuống dốc một mình — tay không chạm chuôi kiếm — dừng cách 한승우 ba bước; mắt ông dừng ở lá cờ 태극기 trên vai áo 한승우. Máy đẩy chậm.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_105 · VEH_101 · video8s · 14:42–14:50"
+},
+{
+"id": "SC_110",
+"t0": 890,
+"t1": 898,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "소년 척후, CHAR_105, CHAR_006",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"소년 척후",
+"저 사람이오. 화살을 돌려준 사람."
+]
+],
+"action": "[ACTION-VI] Cậu bé trinh sát chạy xuống theo, đứng sau 해모루, giơ tay chỉ 백성민 đang đứng cạnh K21 — mũi tên của cậu vẫn cầm trong tay.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · 소년 척후, CHAR_105, CHAR_006 · — · video8s · 14:50–14:58"
+},
+{
+"id": "SC_111",
+"t0": 898,
+"t1": 906,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_105, CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"삼족오가 아니오. 그대들은 어느 성의 군사요?"
+]
+],
+"action": "[ACTION-VI] Cận 해모루: mắt từ 태극기 lên mặt 한승우, giọng đều, không thù không thân.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_105, CHAR_001 · — · video8s · 14:58–15:06"
+},
+{
+"id": "SC_112",
+"t0": 906,
+"t1": 914,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"성이… 없습니다."
+]
+],
+"action": "[ACTION-VI] Cận 한승우: một nhịp im — ông nhìn xuống hàng xe, nhìn lại 해모루; trả lời thật.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_001 · — · video8s · 15:06–15:14"
+},
+{
+"id": "SC_113",
+"t0": 914,
+"t1": 922,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_105",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"그대들은 어디서 왔소?"
+]
+],
+"action": "[ACTION-VI] 해모루 liếc dọc thân K21, tấm phao gấp, nòng 40mm, rồi quay lại nhìn thẳng 한승우; hỏi như thẩm vấn nhưng không lớn tiếng.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_105 · VEH_002 · video8s · 15:14–15:22"
+},
+{
+"id": "SC_114",
+"t0": 922,
+"t1": 930,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"지금이… 몇 년입니까?"
+]
+],
+"action": "[ACTION-VI] 한승우 không trả lời câu hỏi — ông hỏi lại, và câu hỏi ấy làm 해모루 nhíu mày.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_001 · — · video8s · 15:22–15:30"
+},
+{
+"id": "SC_115",
+"t0": 930,
+"t1": 938,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_105",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"영양왕 이십삼 년이오."
+]
+],
+"action": "[ACTION-VI] 해모루 nhíu mày, nhìn 한승우 như nhìn người sốt; trả lời chậm, rõ từng chữ.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_105 · — · video8s · 15:30–15:38"
+},
+{
+"id": "SC_116",
+"t0": 938,
+"t1": 946,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bên K21)",
+"chars": "CHAR_001, CHAR_003",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"육백십이년… 살수."
+]
+],
+"action": "[ACTION-VI] 한승우 quay nửa người về 박기철 đứng sát sau, nói rất nhỏ như tự nói; 박기철 nhìn ông — chưa hiểu, rồi mặt ông đổi.",
+"header": " · LOC_003_CHEONDUNG_BASE (bên K21) · CHAR_001, CHAR_003 · VEH_002 · video8s · 15:38–15:46"
+},
+{
+"id": "SC_117",
+"t0": 946,
+"t1": 954,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [
+"612년. 대한민국 군인이라면 누구나 배운 해입니다. 살수대첩의 해."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh cận 한승우 nhìn xuống la bàn trên ngực, phía sau mờ là hàng kỵ binh trên gò ngược sáng. Ken-burns đẩy vào la bàn.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001 · — · still_kenburns · 15:46–15:54"
+},
+{
+"id": "SC_118",
+"t0": 954,
+"t1": 962,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_105",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"쇠수레를 요동성으로 들이시오. 성주께서 판단하실 것이오."
+]
+],
+"action": "[ACTION-VI] 해모루 chỉ tay về hàng K21, rồi về phía đông nơi thành ở, giọng như đã quyết thay họ.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_105 · VEH_002 · video8s · 15:54–16:02"
+},
+{
+"id": "SC_119",
+"t0": 962,
+"t1": 970,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"성 안은 안 됩니다. 갇힙니다."
+]
+],
+"action": "[ACTION-VI] 한승우 lắc đầu một lần, chậm; hai tay chắp sau lưng.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_001 · — · video8s · 16:02–16:10"
+},
+{
+"id": "SC_120",
+"t0": 970,
+"t1": 978,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_002",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"서쪽으로 갑니다. 다리를 끊으면 끝입니다."
+]
+],
+"action": "[ACTION-VI] 오태민 nhảy xuống khỏi nóc K21, bước tới cạnh 한승우, chỉ về tây — nơi mặt trời đang lặn.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_002 · VEH_002 · video8s · 16:10–16:18"
+},
+{
+"id": "SC_121",
+"t0": 978,
+"t1": 986,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_003",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"식량 이틀 치입니다. 이틀."
+]
+],
+"action": "[ACTION-VI] 박기철 không nhìn ai, mở sổ bìa xanh, đọc một dòng, gập lại. Câu nói đặt dấu chấm cho cuộc cãi.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_003 · — · video8s · 16:18–16:26"
+},
+{
+"id": "SC_122",
+"t0": 986,
+"t1": 994,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_105",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"곡식은 성에 있소. 단, 오늘 밤 안에 떠나야 하오."
+]
+],
+"action": "[ACTION-VI] 해모루 nhìn 박기철 — ông hiểu con số dù không hiểu \"식량\" kiểu nào; quay lại 한승우, chỉ về đồng bằng phía tây đang tối.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_105 · — · video8s · 16:26–16:34"
+},
+{
+"id": "SC_123",
+"t0": 994,
+"t1": 1002,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (khoảng trống)",
+"chars": "CHAR_001, CHAR_002, CHAR_003",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"밤에 이동한다. 전차는 맨 뒤."
+]
+],
+"action": "[ACTION-VI] 한승우 nhìn 오태민 (cằm siết), 박기철 (gật nhẹ), rồi ngoảnh về hướng đông; ra lệnh ngắn.",
+"header": " · LOC_003_CHEONDUNG_BASE (khoảng trống) · CHAR_001, CHAR_002, CHAR_003 · VEH_002 · video8s · 16:34–16:42"
+},
+{
+"id": "SC_124",
+"t0": 1002,
+"t1": 1010,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bên K21)",
+"chars": "CHAR_006, CHAR_105",
+"props": "VEH_002",
+"narr": [
+"말은 필요 없었습니다. 척후는 척후를 알아봅니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 백성민 đứng cạnh xích K21, mũ boonie, sơn mặt hai vệt; 해모루 đi ngang qua, dừng nửa bước, nhìn anh — hai người lính trinh sát nhận ra nhau; 해모루 gật rất nhẹ; 백성민 gật lại. Không thoại.",
+"header": " · LOC_003_CHEONDUNG_BASE (bên K21) · CHAR_006, CHAR_105 · VEH_002 · video8s · 16:42–16:50"
+},
+{
+"id": "SC_125",
+"t0": 1010,
+"t1": 1018,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa đuôi K21)",
+"chars": "CHAR_106, CHAR_001, CHAR_107",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"을보",
+"대장 양반, 성주는 내가 아는 사람이야."
+]
+],
+"action": "[ACTION-VI] 을보 lết về cửa đuôi K21 nơi 아리 đang đứng ôm giỏ; ngang qua 한승우, ông nói không ngoảnh lại, giọng ông già nói với người trẻ.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa đuôi K21) · CHAR_106, CHAR_001, CHAR_107 · VEH_002 · video8s · 16:50–16:58"
+},
+{
+"id": "SC_126",
+"t0": 1018,
+"t1": 1026,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "đại đội, kỵ binh Goguryeo",
+"props": "VEH_001, VEH_002, VEH_003, VEH_004, VEH_101",
+"narr": [
+"삼백 기가 앞장섰습니다. 쇠수레 일곱 대가 뒤를 따랐습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh wide: mặt trời chạm chân trời; kỵ binh Goguryeo xếp thành hàng dẫn đầu, phía sau đoàn xe hiện đại đã cuộn lưới, K2 đi cuối; bụi vàng ngược sáng. Ken-burns trượt ngang.",
+"header": " · LOC_003_CHEONDUNG_BASE · đại đội, kỵ binh Goguryeo · VEH_001, VEH_002, VEH_003, VEH_004, VEH_101 · still_kenburns · 16:58–17:06"
+},
+{
+"id": "SC_127",
+"t0": 1026,
+"t1": 1034,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_105, CHAR_001",
+"props": "VEH_101, VEH_002",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"한 대장. 저 쇠수레, 말보다 빠르오?"
+]
+],
+"action": "[ACTION-VI] 해모루 đã lên ngựa, ghì cương quay lại nhìn K21 lần nữa — tò mò thắng nghi ngờ; hỏi 한승우 đang bước lên K151.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_105, CHAR_001 · VEH_101, VEH_002 · video8s · 17:06–17:14"
+},
+{
+"id": "SC_128",
+"t0": 1034,
+"t1": 1042,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001",
+"props": "VEH_004, PROP_001",
+"narr": [
+"철원의 지도는 이제 종이일 뿐이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 한승우 không trả lời; ngồi vào K151, mở bản đồ giấy Cheorwon, nhìn một giây, gấp lại nhét túi. Cận la bàn trên ngực: kim đứng yên, chỉ bắc.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001 · VEH_004, PROP_001 · video8s · 17:14–17:22"
+},
+{
+"id": "SC_129",
+"t0": 1042,
+"t1": 1050,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "—",
+"props": "VEH_001, VEH_101",
+"narr": [
+"한승우는 이 전쟁의 결말을 알고 있었습니다. 문제는, 자신들이 그 결말에 없다는 것이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: đoàn xe và kỵ binh thành một hàng dài đi vào bóng tối phía đông, chỉ còn vệt trời cam mỏng sau lưng. Ken-burns đẩy chậm theo hàng.",
+"header": " · LOC_003_CHEONDUNG_BASE · — · VEH_001, VEH_101 · still_kenburns · 17:22–17:30"
+},
+{
+"id": "SC_130",
+"t0": 1050,
+"t1": 1060,
+"kind": "still",
+"loc": "LOC_001_YOHA (trại tiên phong Tùy bờ đông, đêm)",
+"chars": "—",
+"props": "WPN_201, PROP_016",
+"narr": [
+"같은 밤. 요하 동안, 수나라 선봉 진영입니다. 대군이 오기 전에 길을 여는 부대였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: trại Tùy đêm trên bờ đông sông Liêu — hàng lều xám, đuốc thành hàng, cờ đỏ-vàng, một lều tướng lớn giữa; xa xa cầu phao lấp lánh đuốc. Ken-burns đẩy vào lều tướng.",
+"header": " · LOC_001_YOHA (trại tiên phong Tùy bờ đông, đêm) · — · WPN_201, PROP_016 · still_kenburns · 17:30–17:40"
+},
+{
+"id": "SC_131",
+"t0": 1060,
+"t1": 1068,
+"kind": "video",
+"loc": "LOC_001_YOHA (lều 선봉장)",
+"chars": "CHAR_205, 수 선봉장",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"수 선봉장",
+"고구려 요술이로군."
+]
+],
+"action": "[ACTION-VI] Trong lều dưới đèn lồng: 탁발흠 đặt xác drone lên bàn thấp trước 선봉장 — giáp 명광개, râu dài, áo choàng đỏ. Tướng nhấc cánh quạt gãy lên bằng hai ngón, cười thành tiếng.",
+"header": " · LOC_001_YOHA (lều 선봉장) · CHAR_205, 수 선봉장 · UAV_001 · video8s · 17:40–17:48"
+},
+{
+"id": "SC_132",
+"t0": 1068,
+"t1": 1076,
+"kind": "video",
+"loc": "LOC_001_YOHA (lều 선봉장)",
+"chars": "CHAR_205",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"탁발흠",
+"요술이 아닙니다. 쇠수레가 셋, 사람은 백 남짓입니다."
+]
+],
+"action": "[ACTION-VI] 탁발흠 quỳ một gối, máu khô ở tai trái, mũ lông cầm tay; nói ngắn như báo cáo kỹ thuật, không ngẩng đầu.",
+"header": " · LOC_001_YOHA (lều 선봉장) · CHAR_205 · UAV_001 · video8s · 17:48–17:56"
+},
+{
+"id": "SC_133",
+"t0": 1076,
+"t1": 1084,
+"kind": "video",
+"loc": "LOC_001_YOHA (lều 선봉장)",
+"chars": "수 선봉장, CHAR_205",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"수 선봉장",
+"기병 이천을 주겠다. 요동성 동쪽을 막아라."
+]
+],
+"action": "[ACTION-VI] 선봉장 ném cánh quạt xuống bàn, đứng dậy, kéo tấm bản đồ lụa — chỉ vào phía đông 요동성; giọng lệnh.",
+"header": " · LOC_001_YOHA (lều 선봉장) · 수 선봉장, CHAR_205 · UAV_001 · video8s · 17:56–18:04"
+},
+{
+"id": "SC_134",
+"t0": 1084,
+"t1": 1092,
+"kind": "video",
+"loc": "LOC_001_YOHA (lều 선봉장)",
+"chars": "수 선봉장",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"수 선봉장",
+"동쪽에서 쌀 한 톨도 못 들어가게 하라."
+]
+],
+"action": "[ACTION-VI] Cận 선봉장: ngón tay ấn lên bản đồ ở con đường phía đông, mắt vào 탁발흠.",
+"header": " · LOC_001_YOHA (lều 선봉장) · 수 선봉장 · — · video8s · 18:04–18:12"
+},
+{
+"id": "SC_135",
+"t0": 1092,
+"t1": 1100,
+"kind": "video",
+"loc": "LOC_001_YOHA (lều 선봉장)",
+"chars": "CHAR_205",
+"props": "UAV_001",
+"narr": [
+"탁발흠은 믿을 필요가 없었습니다. 더 볼 필요가 있었을 뿐입니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 탁발흠 nhặt lại cánh quạt gãy, xoay chậm giữa hai ngón tay, nhìn nó chứ không nhìn tướng; cúi đầu nhận lệnh.",
+"header": " · LOC_001_YOHA (lều 선봉장) · CHAR_205 · UAV_001 · video8s · 18:12–18:20"
+},
+{
+"id": "SC_136",
+"t0": 1100,
+"t1": 1108,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (đồng cỏ trước thành, đêm)",
+"chars": "đại đội, kỵ binh Goguryeo",
+"props": "VEH_001, VEH_002, VEH_101",
+"narr": [
+"요동성. 고구려 요동의 심장입니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Aerial thấp đêm: đoàn xe theo hàng đuốc kỵ binh qua đồng; phía trước, tường đá granite xám hiện dưới đuốc — 치 nhô hình chữ nhật, tháp cổng gỗ hai tầng, cờ 삼족오 đen. Máy bay chậm về phía tường.",
+"header": " · LOC_002_YODONGSEONG (đồng cỏ trước thành, đêm) · đại đội, kỵ binh Goguryeo · VEH_001, VEH_002, VEH_101 · video8s · 18:20–18:28"
+},
+{
+"id": "SC_137",
+"t0": 1108,
+"t1": 1118,
+"kind": "still",
+"loc": "LOC_002_YODONGSEONG (cổng nam 옹성)",
+"chars": "lính Goguryeo, lính Hàn",
+"props": "VEH_002",
+"narr": [
+"성벽 위의 병사들은 처음으로 쇠로 된 집을 보았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh low-angle: K21 dừng trước khoang cổng 옹성 vòm đá bán nguyệt, đuốc trên tường soi xuống; lính Goguryeo giáp lamellar cúi nhìn xuống xe sắt; lính Hàn dưới đất ngước nhìn tường. Ken-burns tilt từ xe lên tường.",
+"header": " · LOC_002_YODONGSEONG (cổng nam 옹성) · lính Goguryeo, lính Hàn · VEH_002 · still_kenburns · 18:28–18:38"
+},
+{
+"id": "SC_138",
+"t0": 1118,
+"t1": 1126,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (khoang 옹성)",
+"chars": "CHAR_003",
+"props": "VEH_001",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"전차는 안 들어갑니다. 반 미터 모자랍니다."
+]
+],
+"action": "[ACTION-VI] 박기철 đi bộ đo bằng bước chân qua khoang cổng đá hẹp, môi đếm khẽ; tới cánh cổng bọc sắt thì dừng, giang tay chạm hai bên vách, quay lại nhìn K2 đứng ngoài — lắc đầu.",
+"header": " · LOC_002_YODONGSEONG (khoang 옹성) · CHAR_003 · VEH_001 · video8s · 18:38–18:46"
+},
+{
+"id": "SC_139",
+"t0": 1126,
+"t1": 1134,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tháp cổng)",
+"chars": "CHAR_104",
+"props": "PROP_016",
+"narr": [
+"고정수 성주. 병사보다 백성을 먼저 세는 사람이었습니다."
+],
+"dlg": [
+[
+"고정수",
+"쇠수레를 성 안에 들이시오."
+]
+],
+"action": "[ACTION-VI] Trên tháp cổng gỗ: 고정수 — râu rậm muối tiêu, áo choàng len xám, chùm chìa khóa sắt ở thắt lưng, mũ cầm tay — nhìn xuống đoàn xe, đuốc hai bên. Low-angle từ dưới.",
+"header": " · LOC_002_YODONGSEONG (tháp cổng) · CHAR_104 · PROP_016 · video8s · 18:46–18:54"
+},
+{
+"id": "SC_140",
+"t0": 1134,
+"t1": 1142,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (trước cổng)",
+"chars": "CHAR_001",
+"props": "VEH_001",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"성주님. 성 안에 갇힌 전차는 관입니다."
+]
+],
+"action": "[ACTION-VI] 한승우 đứng trước mũi K2, ngước lên tháp cổng, 하십시오체 rõ ràng; tay chỉ vào khoang cổng hẹp rồi vào xe.",
+"header": " · LOC_002_YODONGSEONG (trước cổng) · CHAR_001 · VEH_001 · video8s · 18:54–19:02"
+},
+{
+"id": "SC_141",
+"t0": 1142,
+"t1": 1150,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (trước cổng)",
+"chars": "CHAR_105",
+"props": "VEH_101",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"성 뒤에 골짜기가 있습니다. 산길로 통합니다."
+]
+],
+"action": "[ACTION-VI] 해모루 trên ngựa cạnh 한승우, ngẩng lên tháp cổng, giọng kính nhưng nhanh — người liên lạc thực địa đề xuất.",
+"header": " · LOC_002_YODONGSEONG (trước cổng) · CHAR_105 · VEH_101 · video8s · 19:02–19:10"
+},
+{
+"id": "SC_142",
+"t0": 1150,
+"t1": 1158,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tháp cổng)",
+"chars": "CHAR_104",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"고정수",
+"좋소. 대신 한 대장과 열 명은 성 안에서 자시오."
+]
+],
+"action": "[ACTION-VI] 고정수 im, tay nắm chùm chìa khóa; nhìn K2, nhìn 한승우, nhìn hàng dân đang đợi sau đoàn xe; quyết.",
+"header": " · LOC_002_YODONGSEONG (tháp cổng) · CHAR_104 · — · video8s · 19:10–19:18"
+},
+{
+"id": "SC_143",
+"t0": 1158,
+"t1": 1166,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (trước cổng)",
+"chars": "CHAR_001, CHAR_002",
+"props": "VEH_001",
+"narr": [
+"열 명은 인질이었습니다. 신뢰는 그렇게 시작되었습니다."
+],
+"dlg": [
+[
+"한승우",
+"알겠습니다. 열 명은 제가 고릅니다."
+]
+],
+"action": "[ACTION-VI] 한승우 nhìn sang 오태민 (mặt bất bình, lắc đầu nhẹ), rồi ngẩng lên gật với 고정수.",
+"header": " · LOC_002_YODONGSEONG (trước cổng) · CHAR_001, CHAR_002 · VEH_001 · video8s · 19:18–19:26"
+},
+{
+"id": "SC_144",
+"t0": 1166,
+"t1": 1176,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (đường mòn vào thung lũng, đêm)",
+"chars": "đại đội",
+"props": "VEH_001, VEH_002, VEH_003, VEH_004",
+"narr": [
+"골짜기는 동문에서 2킬로였습니다. 그날 밤부터 그곳이 천둥 기지였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: đoàn xe rẽ theo đường mòn ven đồi sồi trụi lá vào thung lũng nông sau thành, đuốc kỵ binh dẫn đầu, K2 cuối hàng, đèn xe tắt. Ken-burns trượt theo hàng đuốc.",
+"header": " · LOC_003_CHEONDUNG_BASE (đường mòn vào thung lũng, đêm) · đại đội · VEH_001, VEH_002, VEH_003, VEH_004 · still_kenburns · 19:26–19:36"
+},
+{
+"id": "SC_145",
+"t0": 1176,
+"t1": 1184,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bình minh)",
+"chars": "CHAR_003, CHAR_001",
+"props": "VEH_001",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"오늘 밤에 전차 삼십 킬로 썼습니다."
+]
+],
+"action": "[ACTION-VI] Sương sớm: 박기철 rút que đo dầu K2, soi, lau giẻ đỏ, ghi sổ; 한승우 đi bộ từ hướng thành về, sương trên vai. 박기철 nói không ngẩng lên.",
+"header": " · LOC_003_CHEONDUNG_BASE (bình minh) · CHAR_003, CHAR_001 · VEH_001 · video8s · 19:36–19:44"
+},
+{
+"id": "SC_146",
+"t0": 1184,
+"t1": 1192,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bình minh)",
+"chars": "CHAR_006, CHAR_001",
+"props": "—",
+"narr": [
+"동쪽 길. 성으로 들어오는 마지막 길이었습니다."
+],
+"dlg": [
+[
+"백성민",
+"동쪽 길, 이틀 안에 끊깁니다. 기병 천 이상."
+]
+],
+"action": "[ACTION-VI] 백성민 từ gò trở về, mũ boonie đẫm sương, quỳ xuống vẽ lên đất bằng đầu dao: một đường, một vòng chặn; nói kiểu điện tín.",
+"header": " · LOC_003_CHEONDUNG_BASE (bình minh) · CHAR_006, CHAR_001 · — · video8s · 19:44–19:52"
+},
+{
+"id": "SC_147",
+"t0": 1192,
+"t1": 1200,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bình minh)",
+"chars": "CHAR_006",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"백성민",
+"길 위에 피난민 삼천. 곡식 수레도 있습니다."
+]
+],
+"action": "[ACTION-VI] 백성민 vẽ thêm một hàng chấm dài trên \"con đường\" — người và xe; ngẩng lên nhìn 한승우.",
+"header": " · LOC_003_CHEONDUNG_BASE (bình minh) · CHAR_006 · — · video8s · 19:52–20:00"
+},
+{
+"id": "SC_148",
+"t0": 1200,
+"t1": 1210,
+"kind": "still",
+"loc": "LOC_002_YODONGSEONG (đường đông, aerial)",
+"chars": "dân chạy nạn",
+"props": "—",
+"narr": [
+"동쪽 마을들이 곡식을 싣고 성으로 오고 있었습니다. 삼천 명이었습니다. 성이 버틸 여름이 그 수레 위에 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh aerial cao: con đường đất chạy qua đồng cỏ vàng tới cổng đông thành; trên đường, đoàn người và xe bò chở thóc kéo dài; phía bắc rất xa, một dải bụi mỏng của kỵ binh. Ken-burns kéo ra.",
+"header": " · LOC_002_YODONGSEONG (đường đông, aerial) · dân chạy nạn · — · still_kenburns · 20:00–20:10"
+},
+{
+"id": "SC_149",
+"t0": 1210,
+"t1": 1218,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường đông)",
+"chars": "CHAR_104, CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"고정수",
+"창고에 곡식이 스무 날 치요. 스무 날."
+]
+],
+"action": "[ACTION-VI] Trên tường đá phía đông: 고정수 và 한승우 đứng cạnh một 치, nhìn xuống đường đông; 고정수 cầm thẻ tre kiểm kho, gõ lên đá.",
+"header": " · LOC_002_YODONGSEONG (tường đông) · CHAR_104, CHAR_001 · — · video8s · 20:10–20:18"
+},
+{
+"id": "SC_150",
+"t0": 1218,
+"t1": 1226,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường đông)",
+"chars": "CHAR_104",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"고정수",
+"저 수레가 못 들어오면 가을까지 못 버티오."
+]
+],
+"action": "[ACTION-VI] 고정수 chỉ tay xuống đoàn xe bò xa trên đường đông, rồi chỉ về phía tây nơi trại Tùy đang mọc lên như nấm.",
+"header": " · LOC_002_YODONGSEONG (tường đông) · CHAR_104 · — · video8s · 20:18–20:26"
+},
+{
+"id": "SC_151",
+"t0": 1226,
+"t1": 1234,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường đông)",
+"chars": "CHAR_104, CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"고정수",
+"동쪽 길을 하룻밤만 지켜 주시오."
+]
+],
+"action": "[ACTION-VI] 고정수 quay hẳn người nhìn thẳng 한승우 — không xin, không ra lệnh; giao việc như giao chìa khóa.",
+"header": " · LOC_002_YODONGSEONG (tường đông) · CHAR_104, CHAR_001 · — · video8s · 20:26–20:34"
+},
+{
+"id": "SC_152",
+"t0": 1234,
+"t1": 1242,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường đông)",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"하룻밤. 그 이상은 없습니다."
+]
+],
+"action": "[ACTION-VI] 한승우 nhìn xuống đường đông, nhìn về thung lũng nơi xe ẩn; im một nhịp dài; gật.",
+"header": " · LOC_002_YODONGSEONG (tường đông) · CHAR_001 · — · video8s · 20:34–20:42"
+},
+{
+"id": "SC_153",
+"t0": 1242,
+"t1": 1252,
+"kind": "still",
+"loc": "LOC_001_YOHA (đồng cỏ phía bắc thành)",
+"chars": "CHAR_205",
+"props": "VEH_206",
+"narr": [
+"탁발흠은 이천 기와 함께 동쪽으로 돌았습니다. 대군보다 이틀 빨랐습니다. 그는 길을 막는 법을 알았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: 탁발흠 dẫn 2.000 kỵ binh Tiên Ti băng chéo đồng cỏ về phía đông — cờ đuôi ngựa đen, mũ lông, bụi dài như dòng sông. Ken-burns trượt ngang theo hướng chạy.",
+"header": " · LOC_001_YOHA (đồng cỏ phía bắc thành) · CHAR_205 · VEH_206 · still_kenburns · 20:42–20:52"
+},
+{
+"id": "SC_154",
+"t0": 1252,
+"t1": 1260,
+"kind": "still",
+"loc": "LOC_002_YODONGSEONG (tường đông)",
+"chars": "CHAR_104, CHAR_001",
+"props": "—",
+"narr": [
+"성주는 쌀을 원했습니다. 탁발흠도 같은 것을 원했습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: bóng hai người trên tường đông — áo choàng xám và quân phục camo — nhìn cùng một hướng xuống con đường; cỏ vàng, trời xám. Ken-burns đẩy chậm vào hai bóng.",
+"header": " · LOC_002_YODONGSEONG (tường đông) · CHAR_104, CHAR_001 · — · still_kenburns · 20:52–21:00"
+},
+{
+"id": "SC_155",
+"t0": 1260,
+"t1": 1268,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (aerial đêm)",
+"chars": "—",
+"props": "—",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Aerial đêm rất cao: 요동성 là khối tối giữa đồng; phía tây và nam, hàng vạn đốm lửa trại Tùy xếp thành vòng cung khép dần; phía đông còn tối. Máy lướt chậm. Không thoại, không narration.",
+"header": " · LOC_002_YODONGSEONG (aerial đêm) · — · — · video8s · 21:00–21:08"
+},
+{
+"id": "SC_156",
+"t0": 1268,
+"t1": 1276,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (đêm)",
+"chars": "CHAR_003",
+"props": "VEH_004, UAV_001",
+"narr": [
+"충전은 곧 연료였습니다. 연료는 곧 거리였습니다."
+],
+"dlg": [
+[
+"박기철",
+"드론 한 번 충전, 경유 2리터."
+]
+],
+"action": "[ACTION-VI] 박기철 cắm dây sạc drone #2 vào máy phát điện nhỏ sau K151 đang kêu ro ro; ông nhìn đồng hồ dầu máy phát, ghi vào sổ dưới đèn pin đỏ.",
+"header": " · LOC_003_CHEONDUNG_BASE (đêm) · CHAR_003 · VEH_004, UAV_001 · video8s · 21:08–21:16"
+},
+{
+"id": "SC_157",
+"t0": 1276,
+"t1": 1284,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (lều chỉ huy)",
+"chars": "CHAR_003, CHAR_001",
+"props": "EQP_001",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"오늘 밤 다 쓰면, 건전지는 나흘치입니다."
+]
+],
+"action": "[ACTION-VI] Bàn gấp trong lều đèn đỏ: 12 kính đêm PVS-11K xếp hai hàng, pin AA xếp cạnh thành cột; 박기철 đếm bằng bút chì; 한승우 đứng nhìn, tay chắp sau lưng.",
+"header": " · LOC_003_CHEONDUNG_BASE (lều chỉ huy) · CHAR_003, CHAR_001 · EQP_001 · video8s · 21:16–21:24"
+},
+{
+"id": "SC_158",
+"t0": 1284,
+"t1": 1292,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (trạm y tế)",
+"chars": "CHAR_004, lính bị thương",
+"props": "PROP_009",
+"narr": [],
+"dlg": [
+[
+"윤서아",
+"항생제, 아흔 퍼센트 남았습니다. 두 명분 썼습니다."
+]
+],
+"action": "[ACTION-VI] 서아 thay băng cho lính bị tên xuyên cẳng tay, tiêm một mũi; đặt lọ kháng sinh rỗng sang một bên, đếm số còn lại trong túi quân y bằng ngón tay.",
+"header": " · LOC_003_CHEONDUNG_BASE (trạm y tế) · CHAR_004, lính bị thương · PROP_009 · video8s · 21:24–21:32"
+},
+{
+"id": "SC_159",
+"t0": 1292,
+"t1": 1300,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (trạm y tế)",
+"chars": "CHAR_107, CHAR_004",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"아리",
+"언니, 이 풀은 피를 멎게 해요."
+]
+],
+"action": "[ACTION-VI] 아리 ngồi xổm bên cạnh, rút từ túi vải nhỏ ở thắt lưng một nắm lá khô, chìa cho 서아, chỉ vào vết thương của lính; 서아 cầm lá lên ngửi, nhìn cô bé.",
+"header": " · LOC_003_CHEONDUNG_BASE (trạm y tế) · CHAR_107, CHAR_004 · — · video8s · 21:32–21:40"
+},
+{
+"id": "SC_160",
+"t0": 1300,
+"t1": 1308,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (bếp)",
+"chars": "lính Hàn",
+"props": "—",
+"narr": [
+"첫 고구려 밥이었습니다. 조죽 한 그릇. 아무도 남기지 않았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh cận: bát gỗ Goguryeo đựng cháo kê vàng trong bàn tay găng đen của lính Hàn, thìa quân đội; nồi đất trên bếp đá; phía sau vài lính nhăn mặt nhưng vẫn húp. Ken-burns đẩy vào bát.",
+"header": " · LOC_003_CHEONDUNG_BASE (bếp) · lính Hàn · — · still_kenburns · 21:40–21:48"
+},
+{
+"id": "SC_161",
+"t0": 1308,
+"t1": 1316,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (lều chỉ huy)",
+"chars": "CHAR_001, CHAR_002, CHAR_003",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"지금부터 하는 말, 우리 셋만 안다."
+]
+],
+"action": "[ACTION-VI] Lều chỉ huy đèn đỏ: ba người quanh bàn gấp có bản đồ vẽ tay; 한승우 kéo cửa lều khép, quay lại, hạ giọng.",
+"header": " · LOC_003_CHEONDUNG_BASE (lều chỉ huy) · CHAR_001, CHAR_002, CHAR_003 · — · video8s · 21:48–21:56"
+},
+{
+"id": "SC_162",
+"t0": 1316,
+"t1": 1324,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (lều chỉ huy)",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"이 싸움은 역사가 이미 이겼다. 우리는 망치지만 않으면 된다."
+]
+],
+"action": "[ACTION-VI] Cận 한승우 dưới đèn đỏ: nói chậm, mắt nhìn 오태민 rồi 박기철.",
+"header": " · LOC_003_CHEONDUNG_BASE (lều chỉ huy) · CHAR_001 · — · video8s · 21:56–22:04"
+},
+{
+"id": "SC_163",
+"t0": 1324,
+"t1": 1332,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (lều chỉ huy)",
+"chars": "CHAR_002",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"역사책이 우리 94명을 지켜줍니까?"
+]
+],
+"action": "[ACTION-VI] 오태민 chống hai tay lên bàn, nghiêng người tới, không cao giọng nhưng từng chữ nặng.",
+"header": " · LOC_003_CHEONDUNG_BASE (lều chỉ huy) · CHAR_002 · — · video8s · 22:04–22:12"
+},
+{
+"id": "SC_164",
+"t0": 1332,
+"t1": 1340,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (lều chỉ huy)",
+"chars": "CHAR_003",
+"props": "EQP_001",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"야시경 열두 개. 다 씁니까, 아낍니까?"
+]
+],
+"action": "[ACTION-VI] 박기철 không tham gia cãi — ông cầm một kính đêm lên, đặt xuống giữa bàn, hỏi việc tối nay.",
+"header": " · LOC_003_CHEONDUNG_BASE (lều chỉ huy) · CHAR_003 · EQP_001 · video8s · 22:12–22:20"
+},
+{
+"id": "SC_165",
+"t0": 1340,
+"t1": 1348,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (lều chỉ huy)",
+"chars": "CHAR_002",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"전차를 내보내면 야시경은 필요 없습니다."
+]
+],
+"action": "[ACTION-VI] 오태민 chỉ ra ngoài lều về hướng K2 dưới lưới, lần thứ hai.",
+"header": " · LOC_003_CHEONDUNG_BASE (lều chỉ huy) · CHAR_002 · — · video8s · 22:20–22:28"
+},
+{
+"id": "SC_166",
+"t0": 1348,
+"t1": 1356,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (lều chỉ huy)",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"전차는 그물 밑에 있는다. 두 번 말 안 한다."
+]
+],
+"action": "[ACTION-VI] 한승우 nhìn 오태민 không chớp, giọng thấp hơn nữa.",
+"header": " · LOC_003_CHEONDUNG_BASE (lều chỉ huy) · CHAR_001 · — · video8s · 22:28–22:36"
+},
+{
+"id": "SC_167",
+"t0": 1356,
+"t1": 1364,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (lều chỉ huy)",
+"chars": "CHAR_001, CHAR_003",
+"props": "EQP_001",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"야시경 열두 개, 전부 켠다. 오늘 밤은 봐야 한다."
+]
+],
+"action": "[ACTION-VI] 한승우 đẩy kính đêm trên bàn về phía 박기철; quyết định thứ hai.",
+"header": " · LOC_003_CHEONDUNG_BASE (lều chỉ huy) · CHAR_001, CHAR_003 · EQP_001 · video8s · 22:36–22:44"
+},
+{
+"id": "SC_168",
+"t0": 1364,
+"t1": 1372,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (ngoài lều)",
+"chars": "CHAR_003, CHAR_005, lính",
+"props": "EQP_001",
+"narr": [
+"야시경 열두 개. 이 부대가 밤을 보는 눈이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 박기철 phát kính đêm cho từng người xếp hàng, ghi tên vào sổ; 태오 nhận chiếc cuối cùng, gắn lên cần mũ, bật thử — mắt trái sáng xanh lục. Không thoại.",
+"header": " · LOC_003_CHEONDUNG_BASE (ngoài lều) · CHAR_003, CHAR_005, lính · EQP_001 · video8s · 22:44–22:52"
+},
+{
+"id": "SC_169",
+"t0": 1372,
+"t1": 1382,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (lều chỉ huy)",
+"chars": "—",
+"props": "—",
+"narr": [
+"쓰는 것은 줄어들고, 채워지는 것은 없었습니다. 그것이 이 부대의 산수였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh cận: bảng đếm tài nguyên viết tay trên tấm ván treo trong lều — chữ số Ả Rập rõ: 야시경 12 · 드론 3 · 박격포 120 → 118 · 40mm 540; đèn đỏ. Ken-burns trượt dọc bảng.",
+"header": " · LOC_003_CHEONDUNG_BASE (lều chỉ huy) · — · — · still_kenburns · 22:52–23:02"
+},
+{
+"id": "SC_170",
+"t0": 1382,
+"t1": 1390,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (hố cối trên gò)",
+"chars": "CHAR_003, tổ cối",
+"props": "WPN_002",
+"narr": [],
+"dlg": [
+[
+"사수",
+"박격포 1번, 개울 여울 제원. 두 발 사격."
+]
+],
+"action": "[ACTION-VI] Gò nhỏ phía nam: hai khẩu cối 81mm trong hố bao cát; 박기철 chỉ hướng bến suối phía đông bằng ngón tay và la bàn; xạ thủ chỉnh tay quay tầm, thả viên đạn vào nòng.",
+"header": " · LOC_003_CHEONDUNG_BASE (hố cối trên gò) · CHAR_003, tổ cối · WPN_002 · video8s · 23:02–23:10"
+},
+{
+"id": "SC_171",
+"t0": 1390,
+"t1": 1398,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò cối → bến suối xa)",
+"chars": "tổ cối",
+"props": "WPN_002",
+"narr": [
+"여울에 표적을 등록했습니다. 박격포탄 두 발. 이제 백십팔 발이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Cối bắn hai phát — chớp lửa trong hố, rồi từ gò nhìn ra: hai cột đất bùng lên ở bến suối tối cách xa, sáng lóa một giây. Wide.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò cối → bến suối xa) · tổ cối · WPN_002 · video8s · 23:10–23:18"
+},
+{
+"id": "SC_172",
+"t0": 1398,
+"t1": 1406,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bếp đá)",
+"chars": "CHAR_106, CHAR_107, CHAR_004",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"을보",
+"쇠가 우는 소리군."
+]
+],
+"action": "[ACTION-VI] Bên bếp đá: 을보 ngồi, chân băng duỗi, không bịt tai khi tiếng nổ dội tới; ông ngẩng lên hướng tiếng, nheo mắt trái, gật gù.",
+"header": " · LOC_003_CHEONDUNG_BASE (bếp đá) · CHAR_106, CHAR_107, CHAR_004 · — · video8s · 23:18–23:26"
+},
+{
+"id": "SC_173",
+"t0": 1406,
+"t1": 1414,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bếp đá)",
+"chars": "CHAR_107, CHAR_004",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"아리",
+"언니, 저 소리… 매일 나요?"
+]
+],
+"action": "[ACTION-VI] 아리 hai tay bịt tai, hạ xuống, nhìn 서아; 서아 mỉm cười chạm vai cô bé.",
+"header": " · LOC_003_CHEONDUNG_BASE (bếp đá) · CHAR_107, CHAR_004 · — · video8s · 23:26–23:34"
+},
+{
+"id": "SC_174",
+"t0": 1414,
+"t1": 1422,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (dưới lưới)",
+"chars": "lính Hàn",
+"props": "VEH_002, EQP_001",
+"narr": [
+"잠은 세 시간이었습니다. 이 땅에서의 사흘째 밤이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: lính nằm ngủ tựa xích K21 dưới lưới ngụy trang, mũ kéo che mặt, súng ôm ngực; một lính gác đội kính đêm đứng ở mép bóng tối. Ken-burns đẩy chậm.",
+"header": " · LOC_003_CHEONDUNG_BASE (dưới lưới) · lính Hàn · VEH_002, EQP_001 · still_kenburns · 23:34–23:42"
+},
+{
+"id": "SC_175",
+"t0": 1422,
+"t1": 1430,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (dưới lưới)",
+"chars": "CHAR_001, CHAR_005",
+"props": "UAV_001",
+"narr": [
+"드론은 이제 셋이었습니다. 태오는 그 셋 중 하나를 안고 잤습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 한승우 đi ngang qua 태오 đang ngủ ngồi ôm hộp drone #2, controller vẫn trên ngực; ông dừng, kéo tấm poncho phủ lên vai cậu, đi tiếp. Không thoại.",
+"header": " · LOC_003_CHEONDUNG_BASE (dưới lưới) · CHAR_001, CHAR_005 · UAV_001 · video8s · 23:42–23:50"
+},
+{
+"id": "SC_176",
+"t0": 1430,
+"t1": 1440,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (lều chỉ huy)",
+"chars": "—",
+"props": "EQP_001",
+"narr": [
+"그날 밤 열두 개의 야시경이 켜졌습니다. 다음 날 밤엔 여섯 개만 켤 수 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: bàn gấp trống, chỉ còn 12 khối pin rỗng xếp hàng và một cái hộp mở; đèn đỏ. Ken-burns đẩy chậm vào hàng pin.",
+"header": " · LOC_003_CHEONDUNG_BASE (lều chỉ huy) · — · EQP_001 · still_kenburns · 23:50–24:00"
+},
+{
+"id": "SC_177",
+"t0": 1440,
+"t1": 1448,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (trước lều chỉ huy, đêm)",
+"chars": "CHAR_105, CHAR_001",
+"props": "—",
+"narr": [
+"계획은 흙 위에서 세워졌습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Dưới đèn pin che tay: 해모루 quỳ vẽ lên đất bằng đầu dao — một con đường, một bến suối, cửa thung, thành với hai ô vuông (치); 한승우 cắm que gỗ làm ký hiệu vào các điểm.",
+"header": " · LOC_003_CHEONDUNG_BASE (trước lều chỉ huy, đêm) · CHAR_105, CHAR_001 · — · video8s · 24:00–24:08"
+},
+{
+"id": "SC_178",
+"t0": 1448,
+"t1": 1456,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "CHAR_105",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"동쪽 길은 여울을 건너오. 돌바닥이고, 양쪽은 진창이오."
+]
+],
+"action": "[ACTION-VI] 해모루 chỉ que vào bến suối, vạch hai vệt hai bên — bùn; gõ đầu dao xuống lòng suối — đá.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · CHAR_105 · — · video8s · 24:08–24:16"
+},
+{
+"id": "SC_179",
+"t0": 1456,
+"t1": 1464,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "CHAR_001, CHAR_105",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"동문 치 두 곳. 궁수는 여기."
+]
+],
+"action": "[ACTION-VI] 한승우 đặt hai viên sỏi lên hai ô vuông ở cổng đông; 해모루 nhìn, gật một cái.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · CHAR_001, CHAR_105 · — · video8s · 24:16–24:24"
+},
+{
+"id": "SC_180",
+"t0": 1464,
+"t1": 1474,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "—",
+"props": "—",
+"narr": [
+"여울, 골짜기 입구, 동문. 세 곳이 계획의 전부였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh top-down sa bàn đất: đường vạch, que, sỏi, một vỏ đạn 40mm đặt ở cửa thung làm K21, nắp lọ làm drone; đèn pin đỏ viền. Ken-burns trượt từ bến suối tới cổng.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · — · — · still_kenburns · 24:24–24:34"
+},
+{
+"id": "SC_181",
+"t0": 1474,
+"t1": 1482,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "CHAR_001, CHAR_006",
+"props": "EQP_001",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"백 중사, 여섯 명. 고지에서 방향만 보고한다."
+]
+],
+"action": "[ACTION-VI] 한승우 chỉ que lên gò cao phía trên bến suối, nhìn 백성민 đang đội kính đêm gập trên mũ boonie; 백성민 gật, không nói.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · CHAR_001, CHAR_006 · EQP_001 · video8s · 24:34–24:42"
+},
+{
+"id": "SC_182",
+"t0": 1482,
+"t1": 1490,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"2호기, 두 번 비행. 합쳐서 이십사 분입니다."
+]
+],
+"action": "[ACTION-VI] 태오 ôm drone #2 đã sạc, hai viên pin dán số 2 và 3 trên giáp; nói khi 한승우 chỉ vào nắp lọ trên sa bàn.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · CHAR_005 · UAV_001 · video8s · 24:42–24:50"
+},
+{
+"id": "SC_183",
+"t0": 1490,
+"t1": 1498,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "CHAR_001, CHAR_002",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"천둥 2, 3은 골짜기 입구. 안 쫓는다."
+]
+],
+"action": "[ACTION-VI] 한승우 đặt vỏ đạn 40mm vào cửa thung trên sa bàn, giữ tay lên đó, nhìn 오태민.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · CHAR_001, CHAR_002 · — · video8s · 24:50–24:58"
+},
+{
+"id": "SC_184",
+"t0": 1498,
+"t1": 1506,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "CHAR_002",
+"props": "—",
+"narr": [
+"그는 약속했습니다. 그 약속은 세 시간을 갔습니다."
+],
+"dlg": [
+[
+"오태민",
+"…안 쫓습니다."
+]
+],
+"action": "[ACTION-VI] Cận 오태민: hàm siết, mắt trên vỏ đạn 40mm; một nhịp dài; gật miễn cưỡng.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · CHAR_002 · — · video8s · 24:58–25:06"
+},
+{
+"id": "SC_185",
+"t0": 1506,
+"t1": 1514,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "CHAR_105",
+"props": "PROP_018",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"삼백 기는 여울 위 언덕에 숨소. 신호는 나팔이오."
+]
+],
+"action": "[ACTION-VI] 해모루 vạch một vòng trên gò trên bến suối, chạm tay vào tù và sừng đen đeo hông.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · CHAR_105 · PROP_018 · video8s · 25:06–25:14"
+},
+{
+"id": "SC_186",
+"t0": 1514,
+"t1": 1522,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "CHAR_105",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"성주께서는 보병 오백으로 문을 지키오. 수레가 올 때만 여시오."
+]
+],
+"action": "[ACTION-VI] 해모루 chỉ que vào cổng đông, nói thay thành chủ đang ở trong thành.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · CHAR_105 · — · video8s · 25:14–25:22"
+},
+{
+"id": "SC_187",
+"t0": 1522,
+"t1": 1530,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bên K2)",
+"chars": "CHAR_003",
+"props": "VEH_001",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"전차는 그물 밑. 시동 끕니다."
+]
+],
+"action": "[ACTION-VI] 박기철 đứng cạnh K2 dưới lưới, vỗ hai cái lên váy xích như vỗ vai ngựa; nhìn về sa bàn.",
+"header": " · LOC_003_CHEONDUNG_BASE (bên K2) · CHAR_003 · VEH_001 · video8s · 25:22–25:30"
+},
+{
+"id": "SC_188",
+"t0": 1530,
+"t1": 1540,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (K2 đêm)",
+"chars": "CHAR_003",
+"props": "VEH_001",
+"narr": [
+"스물두 발은 그대로였습니다. 이 밤에도 전차는 울지 않을 것이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: K2 dưới lưới trong tối, trăng mỏng ánh trên nòng pháo; 박기철 ngồi dựa xích, sổ trên gối. Ken-burns đẩy chậm vào nòng.",
+"header": " · LOC_003_CHEONDUNG_BASE (K2 đêm) · CHAR_003 · VEH_001 · still_kenburns · 25:30–25:40"
+},
+{
+"id": "SC_189",
+"t0": 1540,
+"t1": 1548,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "CHAR_106, CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"을보",
+"마지막 수레는 우리 마을 것이야. 내가 타고 가겠네."
+]
+],
+"action": "[ACTION-VI] 을보 chân băng lết tới, bọc hành lý đã buộc lại sau lưng, búa nhỏ ở thắt lưng; nói với 한승우 như nói với cháu.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · CHAR_106, CHAR_001 · — · video8s · 25:40–25:48"
+},
+{
+"id": "SC_190",
+"t0": 1548,
+"t1": 1556,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (sa bàn)",
+"chars": "CHAR_001, CHAR_004, CHAR_006",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"백 중사, 영감님 수레 뒤에 둘 붙여."
+]
+],
+"action": "[ACTION-VI] 한승우 nhìn 을보, nhìn sang 서아 — cô lắc đầu nhẹ (chân ông); nhưng 을보 đã quay lưng đi. 한승우 nói với 백성민 đứng gần.",
+"header": " · LOC_003_CHEONDUNG_BASE (sa bàn) · CHAR_001, CHAR_004, CHAR_006 · — · video8s · 25:48–25:56"
+},
+{
+"id": "SC_191",
+"t0": 1556,
+"t1": 1564,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bên lều)",
+"chars": "CHAR_107, CHAR_106",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"아리",
+"할아버지, 저도 가요."
+]
+],
+"action": "[ACTION-VI] 아리 chạy tới níu tay áo 을보; ông gỡ tay cô bé, đặt bàn tay ấy vào tay 서아 vừa tới, lắc đầu, không nói.",
+"header": " · LOC_003_CHEONDUNG_BASE (bên lều) · CHAR_107, CHAR_106 · — · video8s · 25:56–26:04"
+},
+{
+"id": "SC_192",
+"t0": 1564,
+"t1": 1572,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bên lều)",
+"chars": "CHAR_004, CHAR_107",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"윤서아",
+"아리는 나랑 여기 있어요."
+]
+],
+"action": "[ACTION-VI] 서아 kéo 아리 vào, quàng tay qua vai cô bé, nhìn theo lưng 을보 khuất vào bóng tối.",
+"header": " · LOC_003_CHEONDUNG_BASE (bên lều) · CHAR_004, CHAR_107 · — · video8s · 26:04–26:12"
+},
+{
+"id": "SC_193",
+"t0": 1572,
+"t1": 1582,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (gò trên bến suối, đêm)",
+"chars": "CHAR_006, CHAR_105, kỵ binh Goguryeo",
+"props": "VEH_101, EQP_001",
+"narr": [
+"고구려 기병과 야시경이 같은 언덕에 올랐습니다. 이런 밤은 처음이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: kỵ binh Goguryeo dắt ngựa mặc giáp lên gò trong bóng tối, chỏm lông đỏ; bên cạnh, 백성민 và tổ trinh sát đội kính đêm — ống kính lóe xanh mờ. Ken-burns trượt ngang.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò trên bến suối, đêm) · CHAR_006, CHAR_105, kỵ binh Goguryeo · VEH_101, EQP_001 · still_kenburns · 26:12–26:22"
+},
+{
+"id": "SC_194",
+"t0": 1582,
+"t1": 1590,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"수레 행렬, 사 킬로. 앞은 아직 조용합니다."
+]
+],
+"action": "[ACTION-VI] 태오 bên K21 천둥 2, drone #2 lần bay 1: màn hình nhiệt xanh-trắng — đoàn xe bò dài, người và bò là những chấm sáng, đang tới trên đường đông.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_005 · UAV_001 · video8s · 26:22–26:30"
+},
+{
+"id": "SC_195",
+"t0": 1590,
+"t1": 1598,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"북쪽 언덕 뒤… 기병 집결. 수백입니다."
+]
+],
+"action": "[ACTION-VI] Màn hình nhiệt lia sang bắc: sau gò bắc, một mảng chấm nóng dày đặc, xếp hàng — kỵ binh tập kết. 태오 nuốt nước bọt.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_005 · UAV_001 · video8s · 26:30–26:38"
+},
+{
+"id": "SC_196",
+"t0": 1598,
+"t1": 1606,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_105, CHAR_001",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"그 쇠새가 밤에도 보오?"
+]
+],
+"action": "[ACTION-VI] 해모루 ghé nhìn màn hình qua vai 태오 — lần đầu thấy \"쇠새\" nhìn đêm; ông quay sang 한승우, tò mò thật sự.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_105, CHAR_001 · UAV_001 · video8s · 26:38–26:46"
+},
+{
+"id": "SC_197",
+"t0": 1606,
+"t1": 1614,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_001",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"밤에 더 잘 봅니다."
+]
+],
+"action": "[ACTION-VI] 한승우 nhìn màn hình rồi nhìn 해모루, trả lời ngắn; giơ tay ra hiệu 태오 cho drone về.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_001 · UAV_001 · video8s · 26:46–26:54"
+},
+{
+"id": "SC_198",
+"t0": 1614,
+"t1": 1624,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (bảng đếm)",
+"chars": "—",
+"props": "UAV_001",
+"narr": [
+"첫 비행이 끝났습니다. 남은 것은 열두 분이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh cận bảng ván: dòng \"드론 2호기 24 → 12\" viết bút dạ, số 24 gạch ngang; đèn đỏ. Ken-burns đẩy vào số 12.",
+"header": " · LOC_003_CHEONDUNG_BASE (bảng đếm) · — · UAV_001 · still_kenburns · 26:54–27:04"
+},
+{
+"id": "SC_199",
+"t0": 1624,
+"t1": 1632,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_002",
+"props": "VEH_002, EQP_001",
+"narr": [
+"골짜기 입구. 쫓지 말라는 자리였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 오태민 trên nóc 천둥 3 ở cửa thung, kính đêm hạ xuống mắt, nhìn về hướng bến suối; bàn tay bóp chặt tay cầm nắp xe; động cơ tắt, im. Không thoại.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_002 · VEH_002, EQP_001 · video8s · 27:04–27:12"
+},
+{
+"id": "SC_200",
+"t0": 1632,
+"t1": 1640,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (mép thung phía tây)",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [
+"불빛 하나가 천막 하나였습니다. 그는 세다가 그만두었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 한승우 leo lên mép thung lũng phía tây, dừng lại: dưới kia, đồng bằng đêm phủ hàng vạn đốm lửa trại Tùy đến chân trời. Máy từ sau lưng, kéo rộng.",
+"header": " · LOC_003_CHEONDUNG_BASE (mép thung phía tây) · CHAR_001 · — · video8s · 27:12–27:20"
+},
+{
+"id": "SC_201",
+"t0": 1640,
+"t1": 1650,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (mép thung phía tây)",
+"chars": "CHAR_001",
+"props": "—",
+"narr": [
+"계획은 완벽했습니다. 적이 그 계획대로 와 준다면."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: bóng 한승우 tiền cảnh, đồng bằng đêm đầy đốm lửa như sao rơi xuống đất. Ken-burns kéo ra chậm.",
+"header": " · LOC_003_CHEONDUNG_BASE (mép thung phía tây) · CHAR_001 · — · still_kenburns · 27:20–27:30"
+},
+{
+"id": "SC_202",
+"t0": 1650,
+"t1": 1658,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò trên bến suối)",
+"chars": "CHAR_006",
+"props": "EQP_001, VEH_206",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] POV kính đêm 백성민: màn xanh lục nhiễu hạt — bến suối đá cuội sáng nhạt, hai bờ bùn tối; từ phía bắc, hàng kỵ binh Tiên Ti lội xuống nước thành hàng dài, chấm sáng chuyển động. Không thoại, không narration.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò trên bến suối) · CHAR_006 · EQP_001, VEH_206 · video8s · 27:30–27:38"
+},
+{
+"id": "SC_203",
+"t0": 1658,
+"t1": 1666,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò)",
+"chars": "CHAR_006",
+"props": "EQP_001, EQP_002",
+"narr": [],
+"dlg": [
+[
+"백성민",
+"고지. 기병 사백, 여울 진입. 북에서 남."
+]
+],
+"action": "[ACTION-VI] 백성민 nằm sấp trong cỏ, kính đêm trên mắt trái, tay bấm radio; giọng điện tín, không đổi nhịp.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò) · CHAR_006 · EQP_001, EQP_002 · video8s · 27:38–27:46"
+},
+{
+"id": "SC_204",
+"t0": 1666,
+"t1": 1674,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (hố cối)",
+"chars": "tổ cối",
+"props": "WPN_002",
+"narr": [],
+"dlg": [
+[
+"사수",
+"박격포, 여울 제원 사격. 여덟 발."
+]
+],
+"action": "[ACTION-VI] Hố cối: xạ thủ nhìn thẻ đăng ký mục tiêu, gật với tổ bên; hai người nâng đạn sẵn.",
+"header": " · LOC_003_CHEONDUNG_BASE (hố cối) · tổ cối · WPN_002 · video8s · 27:46–27:54"
+},
+{
+"id": "SC_205",
+"t0": 1674,
+"t1": 1682,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (hố cối)",
+"chars": "tổ cối",
+"props": "WPN_002",
+"narr": [
+"등록된 표적이었습니다. 조준은 필요 없었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Hai khẩu cối bắn liên tiếp — chớp lửa cam trong hố bao cát, bốn lần mỗi khẩu, xạ thủ thả đạn không nhìn.",
+"header": " · LOC_003_CHEONDUNG_BASE (hố cối) · tổ cối · WPN_002 · video8s · 27:54–28:02"
+},
+{
+"id": "SC_206",
+"t0": 1682,
+"t1": 1690,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bến suối, qua kính đêm)",
+"chars": "kỵ Tiên Ti",
+"props": "VEH_206",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Góc từ gò qua kính đêm xanh: đạn cối rơi giữa hàng kỵ binh đang lội — cột nước và đá cuội bùng lên, ngựa ngã trong nước, hàng đầu vỡ tán về hai phía. Không cận thương vong.",
+"header": " · LOC_003_CHEONDUNG_BASE (bến suối, qua kính đêm) · kỵ Tiên Ti · VEH_206 · video8s · 28:02–28:10"
+},
+{
+"id": "SC_207",
+"t0": 1690,
+"t1": 1698,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò)",
+"chars": "tổ trinh sát",
+"props": "WPN_003",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] K3 từ gò bắn tracer thành dải sáng xiên xuống bến; kỵ binh trong nước quay ngựa ngược lên bờ bắc.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò) · tổ trinh sát · WPN_003 · video8s · 28:10–28:18"
+},
+{
+"id": "SC_208",
+"t0": 1698,
+"t1": 1706,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung, K151)",
+"chars": "CHAR_001",
+"props": "VEH_004, EQP_002",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"천둥 2, 접촉. 안 쫓는다."
+]
+],
+"action": "[ACTION-VI] 한승우 đứng cạnh K151 ở cửa thung, tổ hợp radio áp tai, mắt trên bến suối đang lóe lửa xa.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung, K151) · CHAR_001 · VEH_004, EQP_002 · video8s · 28:18–28:26"
+},
+{
+"id": "SC_209",
+"t0": 1706,
+"t1": 1714,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "—",
+"props": "VEH_002",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] 천둥 2 từ cửa thung bắn 40mm loạt ngắn về bến — đất bùng ở mép nước phía bắc, chặn đường lên; xe không nhúc nhích khỏi vị trí.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · — · VEH_002 · video8s · 28:26–28:34"
+},
+{
+"id": "SC_210",
+"t0": 1714,
+"t1": 1722,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò bắc, phía địch)",
+"chars": "CHAR_205",
+"props": "VEH_206",
+"narr": [
+"탁발흠은 사백을 보냈습니다. 자신은 가지 않았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 탁발흠 trên gò bắc, phía sau đội hình, nhìn xuống bến đang chớp lửa — mặt không đổi; ông giơ cánh tay lên, xòe ba ngón. Kỵ binh quanh ông tách thành ba dòng trong tối.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò bắc, phía địch) · CHAR_205 · VEH_206 · video8s · 28:34–28:42"
+},
+{
+"id": "SC_211",
+"t0": 1722,
+"t1": 1730,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"기병… 셋으로 갈라집니다!"
+]
+],
+"action": "[ACTION-VI] 태오 bên 천둥 2, drone #2 lần bay 2: màn hình nhiệt — khối chấm nóng trên gò bắc tách làm ba. Cậu gào vào radio.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_005 · UAV_001 · video8s · 28:42–28:50"
+},
+{
+"id": "SC_212",
+"t0": 1730,
+"t1": 1738,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_005",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"장태오",
+"두 무리가 북쪽 언덕을 돕니다. 수레 쪽입니다!"
+]
+],
+"action": "[ACTION-VI] Màn hình nhiệt: một cánh dừng xa bến, chấm lửa nhỏ bay về phía cửa thung (tên lửa); hai cánh lớn vòng qua gò bắc về phía đường đông. Ngón tay 태오 chỉ lên màn hình.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_005 · UAV_001 · video8s · 28:50–28:58"
+},
+{
+"id": "SC_213",
+"t0": 1738,
+"t1": 1746,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_002",
+"props": "VEH_002, PROP_016",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Tên quấn vải cháy cắm xuống cỏ trước mũi 천둥 3, lửa nhỏ lan; 오태민 gạt kính đêm lên vì chói, nhìn về bến — không thấy kẻ bắn. Không thoại.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_002 · VEH_002, PROP_016 · video8s · 28:58–29:06"
+},
+{
+"id": "SC_214",
+"t0": 1746,
+"t1": 1754,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò bắc, đêm)",
+"chars": "CHAR_205",
+"props": "VEH_206",
+"narr": [
+"그는 쇠수레를 노리지 않았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 탁발흠 dẫn cánh chính phi vòng qua sườn gò bắc trong bóng tối, cung trên tay, không đuốc; đoàn kỵ chảy như nước qua cỏ. Tracking ngang.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò bắc, đêm) · CHAR_205 · VEH_206 · video8s · 29:06–29:14"
+},
+{
+"id": "SC_215",
+"t0": 1754,
+"t1": 1762,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (đường đông, dốc lên cổng)",
+"chars": "dân chạy nạn",
+"props": "—",
+"narr": [
+"삼천 명이 문에서 이 킬로 떨어져 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Đường đông: đoàn xe bò chở thóc lên dốc về cổng đông, dân đi bộ hai bên, vài đuốc; từ bóng tối phía bắc, tiếng vó ngựa — người ngoảnh lại, bò dừng.",
+"header": " · LOC_002_YODONGSEONG (đường đông, dốc lên cổng) · dân chạy nạn · — · video8s · 29:14–29:22"
+},
+{
+"id": "SC_216",
+"t0": 1762,
+"t1": 1770,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (đường đông)",
+"chars": "kỵ Tiên Ti, dân",
+"props": "VEH_206",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Kỵ Tiên Ti xông vào đuôi đoàn xe: đao chém dây ách, một xe lật, bao thóc đổ tràn; dân chạy tán loạn lên dốc. Wide, không gore.",
+"header": " · LOC_002_YODONGSEONG (đường đông) · kỵ Tiên Ti, dân · VEH_206 · video8s · 29:22–29:30"
+},
+{
+"id": "SC_217",
+"t0": 1770,
+"t1": 1778,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (đường đông, xe cuối)",
+"chars": "CHAR_106, 2 lính Hàn",
+"props": "—",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] 을보 trên càng xe cuối, tay nắm búa nhỏ, quát bò đi tiếp; hai lính Hàn đi kèm quỳ bắn về phía bóng kỵ binh bằng loạt ngắn.",
+"header": " · LOC_002_YODONGSEONG (đường đông, xe cuối) · CHAR_106, 2 lính Hàn · — · video8s · 29:30–29:38"
+},
+{
+"id": "SC_218",
+"t0": 1778,
+"t1": 1786,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò)",
+"chars": "CHAR_006",
+"props": "EQP_002",
+"narr": [],
+"dlg": [
+[
+"백성민",
+"수레 후미 피격. 기병 이백 이상. 여울은 미끼입니다."
+]
+],
+"action": "[ACTION-VI] 백성민 xoay kính đêm về hướng đường đông, thấy lửa đuốc lộn xộn ở đuôi đoàn xe; bấm radio, giọng vẫn phẳng.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò) · CHAR_006 · EQP_002 · video8s · 29:38–29:46"
+},
+{
+"id": "SC_219",
+"t0": 1786,
+"t1": 1794,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_001",
+"props": "VEH_004",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"천둥 2, 3 위치 고수. 박격포는 수레 전방으로."
+]
+],
+"action": "[ACTION-VI] 한승우 nghe radio, cúi nhìn sa bàn đất dưới chân — kế đã lệch; ông nhìn về đường đông, rồi bấm radio.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_001 · VEH_004 · video8s · 29:46–29:54"
+},
+{
+"id": "SC_220",
+"t0": 1794,
+"t1": 1802,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò trên bến)",
+"chars": "CHAR_105",
+"props": "VEH_101, PROP_018",
+"narr": [
+"해모루는 기다렸습니다. 삼백 기는 한 번만 쓸 수 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 해모루 trên ngựa giữa 300 kỵ binh trong bóng gò, tù và nắm trong tay, nhìn về đuôi đoàn xe cháy đuốc; chưa thổi — chờ. Cận mặt ông, không râu, mắt sáng.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò trên bến) · CHAR_105 · VEH_101, PROP_018 · video8s · 29:54–30:02"
+},
+{
+"id": "SC_221",
+"t0": 1802,
+"t1": 1810,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_002",
+"props": "VEH_002, EQP_001",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] 오태민 qua kính đêm: xe bò bị chém, người ngã trên dốc; hàm ông siết, tay đập mạnh lên nắp xe.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_002 · VEH_002, EQP_001 · video8s · 30:02–30:10"
+},
+{
+"id": "SC_222",
+"t0": 1810,
+"t1": 1818,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_002",
+"props": "VEH_002, EQP_002",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"천둥 3, 전진. 여울 건넌다."
+]
+],
+"action": "[ACTION-VI] 오태민 chui vào cửa nóc 천둥 3, đập vai lái xe, bấm radio — lệnh ngược lại lệnh của 한승우.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_002 · VEH_002, EQP_002 · video8s · 30:10–30:18"
+},
+{
+"id": "SC_223",
+"t0": 1818,
+"t1": 1826,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung, K151)",
+"chars": "CHAR_001",
+"props": "VEH_004, EQP_002",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"천둥 3, 정지! 오 중위, 정지!"
+]
+],
+"action": "[ACTION-VI] 한승우 thấy 천둥 3 bật đèn lái đêm rời cửa thung; ông gào vào tổ hợp — lần đầu tiên cao giọng trong tập.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung, K151) · CHAR_001 · VEH_004, EQP_002 · video8s · 30:18–30:26"
+},
+{
+"id": "SC_224",
+"t0": 1826,
+"t1": 1834,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bến suối)",
+"chars": "—",
+"props": "VEH_002",
+"narr": [
+"천둥 3호가 골짜기 입구를 떠났습니다. 명령은 그 반대였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 천둥 3 lao xuống bến suối, nước bắn hai bên, xích nghiến đá cuội, đèn tắt; xe qua bến, mũi ngóc lên bờ đối diện. Wide thấp.",
+"header": " · LOC_003_CHEONDUNG_BASE (bến suối) · — · VEH_002 · video8s · 30:26–30:34"
+},
+{
+"id": "SC_225",
+"t0": 1834,
+"t1": 1842,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bờ bắc bến suối)",
+"chars": "조종수",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"조종수",
+"빠졌습니다! 궤도가 헛돕니다!"
+]
+],
+"action": "[ACTION-VI] Bờ đối diện toàn bùn: xích quay không, bùn văng thành vòi, xe lún nghiêng, mũi cắm bùn, đuôi chổng lên. Cận xích quay.",
+"header": " · LOC_003_CHEONDUNG_BASE (bờ bắc bến suối) · 조종수 · VEH_002 · video8s · 30:34–30:42"
+},
+{
+"id": "SC_226",
+"t0": 1842,
+"t1": 1850,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bờ bắc bến suối)",
+"chars": "kỵ Tiên Ti",
+"props": "VEH_206, VEH_002, PROP_016",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Từ bóng tối, kỵ Tiên Ti phi ngang xe ném đuốc lên nóc — đuốc lăn trên tấm lưới ngụy trang còn buộc trên xe; lửa bén, lan theo lưới.",
+"header": " · LOC_003_CHEONDUNG_BASE (bờ bắc bến suối) · kỵ Tiên Ti · VEH_206, VEH_002, PROP_016 · video8s · 30:42–30:50"
+},
+{
+"id": "SC_227",
+"t0": 1850,
+"t1": 1858,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bờ bắc, cách 100 m)",
+"chars": "CHAR_205",
+"props": "VEH_206",
+"narr": [
+"탁발흠은 배웠습니다. 불은 쇠에 붙지 않지만, 그물에는 붙습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 탁발흠 ghì ngựa cách xe 100 m, nhìn lửa bám vào lưới trên nóc xe sắt — mắt ghi nhớ; cung hạ xuống, không bắn. Cận mặt, lửa phản chiếu.",
+"header": " · LOC_003_CHEONDUNG_BASE (bờ bắc, cách 100 m) · CHAR_205 · VEH_206 · video8s · 30:50–30:58"
+},
+{
+"id": "SC_228",
+"t0": 1858,
+"t1": 1866,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (trong 천둥 3)",
+"chars": "CHAR_002, lính 1소대",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"오태민",
+"후방 램프 막혔다! 위로!"
+]
+],
+"action": "[ACTION-VI] Khoang lính đèn đỏ: khói lọt vào, lính ho; 오태민 kéo cần hạ cửa đuôi — cửa mở nửa chừng rồi kẹt vào bùn; tên gõ lên giáp xe từ ngoài.",
+"header": " · LOC_003_CHEONDUNG_BASE (trong 천둥 3) · CHAR_002, lính 1소대 · VEH_002 · video8s · 30:58–31:06"
+},
+{
+"id": "SC_229",
+"t0": 1866,
+"t1": 1874,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bờ bắc)",
+"chars": "lính 1소대",
+"props": "VEH_002, VEH_206",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Tháp 40mm 천둥 3 xoay bắn loạt ngắn quanh xe — kỵ Tiên Ti tản ra xa hơn nhưng không đi; cửa nóc mở, hai lính nhô lên bắn ra, khói lưới cháy phủ.",
+"header": " · LOC_003_CHEONDUNG_BASE (bờ bắc) · lính 1소대 · VEH_002, VEH_206 · video8s · 31:06–31:14"
+},
+{
+"id": "SC_230",
+"t0": 1874,
+"t1": 1882,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò)",
+"chars": "CHAR_006",
+"props": "EQP_001",
+"narr": [
+"야시경 하나가 꺼졌습니다. 건전지였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Kính đêm của 백성민 nhấp nháy, xanh lục tối dần — đen. Anh không chửi; tháo khối pin trong bóng tối bằng đầu ngón tay, mắt trần nhìn ra bến suối chỉ còn ánh lửa.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò) · CHAR_006 · EQP_001 · video8s · 31:14–31:22"
+},
+{
+"id": "SC_231",
+"t0": 1882,
+"t1": 1890,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_001",
+"props": "VEH_004, EQP_002",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"천둥 2, 여울 앞 사격 지원. 건너지 마라."
+]
+],
+"action": "[ACTION-VI] 한승우 đứng thẳng cạnh K151, tổ hợp radio; nhìn lửa cháy trên xe bên kia bến; lệnh cho xe còn lại.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_001 · VEH_004, EQP_002 · video8s · 31:22–31:30"
+},
+{
+"id": "SC_232",
+"t0": 1890,
+"t1": 1898,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò)",
+"chars": "CHAR_006",
+"props": "EQP_001",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] 백성민 lắp khối pin mới vào kính đêm bằng cảm giác ngón tay; kính sáng lại xanh lục — bến suối: 천둥 3 cháy lưới, vòng kỵ binh Tiên Ti xoay quanh ngoài tầm. Không thoại.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò) · CHAR_006 · EQP_001 · video8s · 31:30–31:38"
+},
+{
+"id": "SC_233",
+"t0": 1898,
+"t1": 1906,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "사수 천둥 2",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"사수",
+"40밀리 마지막 탄띠!"
+]
+],
+"action": "[ACTION-VI] Trong tháp 천둥 2: xạ thủ kéo băng đạn 40mm cuối vào máng, nhìn hộp rỗng dưới chân.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · 사수 천둥 2 · VEH_002 · video8s · 31:38–31:46"
+},
+{
+"id": "SC_234",
+"t0": 1906,
+"t1": 1914,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò trên bến)",
+"chars": "CHAR_105, kỵ Goguryeo",
+"props": "VEH_101, PROP_018",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] 해모루 giơ tù và sừng đen, thổi một hồi dài; 300 kỵ binh Goguryeo từ gò lao xuống bến — giáp ngựa lấp lánh dưới ánh lửa, giáo dài hạ ngang, chỏm lông đỏ. Aerial thấp theo đầu đoàn.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò trên bến) · CHAR_105, kỵ Goguryeo · VEH_101, PROP_018 · video8s · 31:46–31:54"
+},
+{
+"id": "SC_235",
+"t0": 1914,
+"t1": 1922,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bờ bắc bến)",
+"chars": "kỵ Goguryeo, kỵ Tiên Ti",
+"props": "VEH_101, VEH_206",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Kỵ Goguryeo giáp nặng đâm vào cánh Tiên Ti quanh xe kẹt; Tiên Ti không đón — tản ra hai bên thành hình quạt, bắn tên ngược lại khi chạy. Wide trung.",
+"header": " · LOC_003_CHEONDUNG_BASE (bờ bắc bến) · kỵ Goguryeo, kỵ Tiên Ti · VEH_101, VEH_206 · video8s · 31:54–32:02"
+},
+{
+"id": "SC_236",
+"t0": 1922,
+"t1": 1930,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bờ bắc, bên 천둥 3)",
+"chars": "CHAR_105, kỵ Goguryeo",
+"props": "VEH_101, VEH_002",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] 해모루 nhảy xuống ngựa bên xe kẹt, ném cuộn dây thừng lên móc kéo trước mũi K21; hai kỵ binh móc đầu dây vào yên ngựa, ngựa gồng.",
+"header": " · LOC_003_CHEONDUNG_BASE (bờ bắc, bên 천둥 3) · CHAR_105, kỵ Goguryeo · VEH_101, VEH_002 · video8s · 32:02–32:10"
+},
+{
+"id": "SC_237",
+"t0": 1930,
+"t1": 1938,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bờ bắc)",
+"chars": "CHAR_106, dân",
+"props": "VEH_002",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Bốn con bò được dân dắt ngược từ đoàn xe tới, ách buộc vào dây; 을보 lết tới, quát bò, vỗ mông con đầu bằng cán búa.",
+"header": " · LOC_003_CHEONDUNG_BASE (bờ bắc) · CHAR_106, dân · VEH_002 · video8s · 32:10–32:18"
+},
+{
+"id": "SC_238",
+"t0": 1938,
+"t1": 1946,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bờ bắc)",
+"chars": "—",
+"props": "VEH_002, VEH_101",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Cận: dây thừng căng như dây đàn, bò gồng cổ, ngựa mặc giáp gò lưng, kỵ binh kéo dây bằng tay; xích K21 quay chậm — bám — bùn nứt một vệt dài. Máy tĩnh trên dây và xích.",
+"header": " · LOC_003_CHEONDUNG_BASE (bờ bắc) · — · VEH_002, VEH_101 · video8s · 32:18–32:26"
+},
+{
+"id": "SC_239",
+"t0": 1946,
+"t1": 1954,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (치 cổng đông)",
+"chars": "cung thủ Goguryeo",
+"props": "WPN_101",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Trên hai 치 cổng đông: cung thủ Goguryeo giương cung đồng loạt, bắn trùm — mưa tên cắm thành hàng rào giữa kỵ Tiên Ti và đoàn xe bò trên dốc. Low-angle từ đường lên.",
+"header": " · LOC_002_YODONGSEONG (치 cổng đông) · cung thủ Goguryeo · WPN_101 · video8s · 32:26–32:34"
+},
+{
+"id": "SC_240",
+"t0": 1954,
+"t1": 1962,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bờ bắc)",
+"chars": "CHAR_002, CHAR_105",
+"props": "VEH_002",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] 천둥 3 trồi lên khỏi bùn, lính giật lưới cháy khỏi nóc ném xuống nước; 오태민 nhô người trên nóc, mặt đen khói, nhìn xuống 해모루 đứng bên xe cầm dây — 해모루 nhìn lên, không nói. Máy giữ hai mặt.",
+"header": " · LOC_003_CHEONDUNG_BASE (bờ bắc) · CHAR_002, CHAR_105 · VEH_002 · video8s · 32:34–32:42"
+},
+{
+"id": "SC_241",
+"t0": 1962,
+"t1": 1972,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (bờ bắc)",
+"chars": "kỵ Goguryeo, dân",
+"props": "VEH_002, VEH_101",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: xe sắt lấm bùn được bốn con bò kéo lên dốc, kỵ binh giáp lamellar đi hai bên dây, lửa lưới còn cháy phía sau, đuốc. Ken-burns đẩy chậm theo dây kéo. Không narration.",
+"header": " · LOC_003_CHEONDUNG_BASE (bờ bắc) · kỵ Goguryeo, dân · VEH_002, VEH_101 · still_kenburns · 32:42–32:52"
+},
+{
+"id": "SC_242",
+"t0": 1972,
+"t1": 1980,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (gò bắc)",
+"chars": "CHAR_205",
+"props": "VEH_206",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] 탁발흠 thấy xe sắt được kéo ra — không tiếc, không nhìn lâu; ông giơ cung chỉ về đuôi đoàn xe bò trên dốc — dồn tất cả về đó. Kỵ binh quanh ông đổi hướng theo cung. Không thoại.",
+"header": " · LOC_003_CHEONDUNG_BASE (gò bắc) · CHAR_205 · VEH_206 · video8s · 32:52–33:00"
+},
+{
+"id": "SC_243",
+"t0": 1980,
+"t1": 1988,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường cổng đông)",
+"chars": "CHAR_104",
+"props": "—",
+"narr": [
+"수레는 문에서 이백 미터였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 고정수 trên tường cổng đông nhìn xuống: đoàn xe còn cách cổng 200 m, đuôi đoàn bị kỵ Tiên Ti dồn ép, đuốc rơi; sau lưng ông, 500 bộ binh giáo dài đứng im trong sân cổng.",
+"header": " · LOC_002_YODONGSEONG (tường cổng đông) · CHAR_104 · — · video8s · 33:00–33:08"
+},
+{
+"id": "SC_244",
+"t0": 1988,
+"t1": 1996,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (bậc thang tường)",
+"chars": "CHAR_104",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"고정수",
+"문을 열어라! 창병 오백, 나를 따르라!"
+]
+],
+"action": "[ACTION-VI] 고정수 chạy xuống bậc đá, giật chùm chìa khóa ở thắt lưng ném cho lính cổng, rút kiếm ngắn lần đầu; quát.",
+"header": " · LOC_002_YODONGSEONG (bậc thang tường) · CHAR_104 · — · video8s · 33:08–33:16"
+},
+{
+"id": "SC_245",
+"t0": 1996,
+"t1": 2004,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (cổng đông)",
+"chars": "CHAR_104, bộ binh Goguryeo",
+"props": "—",
+"narr": [
+"성을 지키라는 왕명이었습니다. 성주는 문을 열었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Hai cánh cổng gỗ bọc sắt mở; 고정수 áo choàng xám dẫn 500 bộ binh giáo dài xông ra thành hàng, đuốc hai bên, xuống dốc đón đoàn xe. Wide từ trên tường.",
+"header": " · LOC_002_YODONGSEONG (cổng đông) · CHAR_104, bộ binh Goguryeo · — · video8s · 33:16–33:24"
+},
+{
+"id": "SC_246",
+"t0": 2004,
+"t1": 2012,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "CHAR_001",
+"props": "VEH_004, EQP_002",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"K3, K6 전부 동문 양옆. 창병 측면 엄호."
+]
+],
+"action": "[ACTION-VI] 한승우 thấy cổng mở qua ống nhòm; đổi hỏa lực bằng một câu radio.",
+"header": " · LOC_003_CHEONDUNG_BASE (cửa thung) · CHAR_001 · VEH_004, EQP_002 · video8s · 33:24–33:32"
+},
+{
+"id": "SC_247",
+"t0": 2012,
+"t1": 2020,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (dưới cổng đông)",
+"chars": "xạ thủ K6",
+"props": "VEH_003, VEH_004, WPN_004",
+"narr": [
+"창과 총이 같은 문 앞에 섰습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] K511 #1 và K151 lăn tới chân dốc; hai khẩu K6 trên nóc bắn dải tracer 12.7 qua hai bên hàng giáo Goguryeo — kỵ Tiên Ti ở sườn tản ra xa.",
+"header": " · LOC_002_YODONGSEONG (dưới cổng đông) · xạ thủ K6 · VEH_003, VEH_004, WPN_004 · video8s · 33:32–33:40"
+},
+{
+"id": "SC_248",
+"t0": 2020,
+"t1": 2028,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (dốc cổng đông)",
+"chars": "bộ binh Goguryeo, kỵ Tiên Ti",
+"props": "VEH_206",
+"narr": [
+"선비 기병은 창을 정면으로 받지 않습니다. 그것이 그들의 방식이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Khối giáo Goguryeo tiến xuống dốc thành hàng kín, giáo hạ ngang, đón đoàn xe vào giữa; kỵ Tiên Ti không đánh thẳng — vòng ra ngoài tầm giáo, bắn tên lẻ. Aerial thấp.",
+"header": " · LOC_002_YODONGSEONG (dốc cổng đông) · bộ binh Goguryeo, kỵ Tiên Ti · VEH_206 · video8s · 33:40–33:48"
+},
+{
+"id": "SC_249",
+"t0": 2028,
+"t1": 2036,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (xe cuối)",
+"chars": "CHAR_106",
+"props": "—",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] 을보 trên càng xe cuối, bò lao qua khe giữa hai hàng giáo; một mũi tên cắm vào thùng xe cách ông một gang — ông không cúi, chỉ quất bò.",
+"header": " · LOC_002_YODONGSEONG (xe cuối) · CHAR_106 · — · video8s · 33:48–33:56"
+},
+{
+"id": "SC_250",
+"t0": 2036,
+"t1": 2044,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (cổng đông)",
+"chars": "CHAR_104, CHAR_106",
+"props": "—",
+"narr": [
+"곡식 백 수레. 요동성이 여름을 버틸 양이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Xe bò cuối lăn qua cổng; 고정수 đi sau cùng bước vào; hai cánh cổng đóng lại sau lưng ông — và từ ngoài, ba mũi tên cắm vào gỗ cổng. Máy từ trong nhìn ra khe cổng đang khép.",
+"header": " · LOC_002_YODONGSEONG (cổng đông) · CHAR_104, CHAR_106 · — · video8s · 33:56–34:04"
+},
+{
+"id": "SC_251",
+"t0": 2044,
+"t1": 2052,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (ngoài tầm cổng, tối)",
+"chars": "CHAR_205",
+"props": "VEH_206, VEH_002",
+"narr": [
+"탁발흠은 다시 물러났습니다. 두 번째였습니다. 그는 두 번 다 보고 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 탁발흠 dừng ngựa ngoài tầm tên, giơ tay: rút. Kỵ binh tan vào tối. Ông quay đầu nhìn lần cuối — bên bến suối, xe sắt lấm bùn đang được bò kéo lên dốc cửa thung. Cận mặt ông, rồi máy theo ánh mắt.",
+"header": " · LOC_002_YODONGSEONG (ngoài tầm cổng, tối) · CHAR_205 · VEH_206, VEH_002 · video8s · 34:04–34:12"
+},
+{
+"id": "SC_252",
+"t0": 2052,
+"t1": 2060,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường) → LOC_003_CHEONDUNG_BASE (cửa thung)",
+"chars": "lính Goguryeo, CHAR_002",
+"props": "VEH_002",
+"narr": [
+"고구려는 환호했습니다. 천둥 중대는 아니었습니다. 이긴 것은 그들의 총이 아니었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Trên tường: lính Goguryeo reo, giơ giáo lên trời. Cắt: cửa thung — lính Hàn không reo; 오태민 đứng thở bên 천둥 3 lấm bùn, kính bảo hộ vỡ một mắt, tay chống lên xe, nhìn về phía cổng.",
+"header": " · LOC_002_YODONGSEONG (tường) → LOC_003_CHEONDUNG_BASE (cửa thung) · lính Goguryeo, CHAR_002 · VEH_002 · video8s · 34:12–34:20"
+},
+{
+"id": "SC_253",
+"t0": 2060,
+"t1": 2070,
+"kind": "still",
+"loc": "LOC_002_YODONGSEONG (cổng đông, đêm)",
+"chars": "—",
+"props": "PROP_016",
+"narr": [
+"삼천 명이 성으로 들어갔습니다. 문은 닫혔습니다. 이제 나갈 길도 닫힌 것입니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: cổng đông đóng kín, tên cắm dày trên gỗ bọc sắt, đuốc hai bên; phía xa, thung lũng tối. Ken-burns đẩy chậm vào then cổng.",
+"header": " · LOC_002_YODONGSEONG (cổng đông, đêm) · — · PROP_016 · still_kenburns · 34:20–34:30"
+},
+{
+"id": "SC_254",
+"t0": 2070,
+"t1": 2080,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (bình minh)",
+"chars": "—",
+"props": "VEH_002",
+"narr": [
+"새벽. 천둥 3호는 바퀴 하나를 잃었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: bình minh xám lạnh trong thung lũng; 천둥 3 lấm bùn đến nóc, lưới cháy đen rách; một bánh chịu nặng tháo ra nằm trên cỏ, dụng cụ rải quanh. Ken-burns đẩy chậm vào bánh xe.",
+"header": " · LOC_003_CHEONDUNG_BASE (bình minh) · — · VEH_002 · still_kenburns · 34:30–34:40"
+},
+{
+"id": "SC_255",
+"t0": 2080,
+"t1": 2088,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_003, CHAR_005",
+"props": "VEH_002",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"지지륜 축이 휘었습니다. 부품은 없습니다."
+]
+],
+"action": "[ACTION-VI] 박기철 nằm ngửa dưới gầm 천둥 3, tay bùn, kìm đa năng; 태오 quỳ đưa dụng cụ, drone #2 đặt cạnh trên cỏ. 박기철 nói từ dưới gầm.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_003, CHAR_005 · VEH_002 · video8s · 34:40–34:48"
+},
+{
+"id": "SC_256",
+"t0": 2088,
+"t1": 2096,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_106, CHAR_003",
+"props": "VEH_002, PROP_019",
+"narr": [],
+"dlg": [
+[
+"을보",
+"쇠는 쇠요."
+]
+],
+"action": "[ACTION-VI] 을보 lết tới, chân băng, tay cầm búa nhỏ và một thanh sắt rèn tay còn ám khói lò đêm qua; ông ướm thanh sắt lên trục, gõ hai cái, nheo mắt trái, gật.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_106, CHAR_003 · VEH_002, PROP_019 · video8s · 34:48–34:56"
+},
+{
+"id": "SC_257",
+"t0": 2096,
+"t1": 2104,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_003, CHAR_106",
+"props": "VEH_002, PROP_019",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"영감님, 이거… 되겠습니다."
+]
+],
+"action": "[ACTION-VI] 박기철 chui ra, cầm thanh sắt, ướm vào chốt xích, xoay, nhìn 을보; hai người thợ hai thời đại gật nhau — không cần thêm lời.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_003, CHAR_106 · VEH_002, PROP_019 · video8s · 34:56–35:04"
+},
+{
+"id": "SC_258",
+"t0": 2104,
+"t1": 2114,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "—",
+"props": "VEH_002, PROP_019",
+"narr": [
+"고구려 대장간의 쇠가 쇠수레의 발을 붙들었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh cận: thanh sắt rèn tay có vết búa thô chốt tạm vào mắt xích thép công nghiệp mài nhẵn; bùn khô, dây thép quấn. Ken-burns đẩy vào chỗ nối.",
+"header": " · LOC_003_CHEONDUNG_BASE · — · VEH_002, PROP_019 · still_kenburns · 35:04–35:14"
+},
+{
+"id": "SC_259",
+"t0": 2114,
+"t1": 2122,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (trạm y tế)",
+"chars": "CHAR_004, thương binh",
+"props": "PROP_009",
+"narr": [
+"항생제는 스무 개에서 열여덟 개가 되었습니다. 돌아오지 않는 숫자였습니다."
+],
+"dlg": [
+[
+"윤서아",
+"부상 여섯. 항생제는 아직 아흔 퍼센트입니다."
+]
+],
+"action": "[ACTION-VI] Sáu thương binh ngồi hàng trên thùng đạn; 서아 băng vết tên ở vai người cuối, đếm lọ kháng sinh trong túi bằng ngón tay, ghi sổ.",
+"header": " · LOC_003_CHEONDUNG_BASE (trạm y tế) · CHAR_004, thương binh · PROP_009 · video8s · 35:14–35:22"
+},
+{
+"id": "SC_260",
+"t0": 2122,
+"t1": 2130,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bên K151)",
+"chars": "CHAR_003, CHAR_001",
+"props": "VEH_004",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"40밀리 사백팔십. 박격포 백십. 야시경 건전지 사흘치."
+]
+],
+"action": "[ACTION-VI] 박기철 lau tay giẻ đỏ, mở sổ bìa xanh đọc cho 한승우 đang đứng tựa K151; giọng đều như đọc đơn hàng.",
+"header": " · LOC_003_CHEONDUNG_BASE (bên K151) · CHAR_003, CHAR_001 · VEH_004 · video8s · 35:22–35:30"
+},
+{
+"id": "SC_261",
+"t0": 2130,
+"t1": 2138,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (bên K151)",
+"chars": "CHAR_003",
+"props": "VEH_001",
+"narr": [],
+"dlg": [
+[
+"박기철",
+"연료는… 이틀에 육십 킬로 썼습니다."
+]
+],
+"action": "[ACTION-VI] 박기철 lật trang, dừng ở dòng cuối; nhìn về K2 dưới lưới rồi mới nói.",
+"header": " · LOC_003_CHEONDUNG_BASE (bên K151) · CHAR_003 · VEH_001 · video8s · 35:30–35:38"
+},
+{
+"id": "SC_262",
+"t0": 2138,
+"t1": 2146,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE",
+"chars": "CHAR_001",
+"props": "VEH_001",
+"narr": [],
+"dlg": [
+[
+"한승우",
+"전차는 한 발도 안 쐈다."
+]
+],
+"action": "[ACTION-VI] 한승우 nhìn K2 dưới lưới — nòng pháo sạch, chưa một vệt bồ hóng; ông nói khẽ như ghi vào sổ của chính mình.",
+"header": " · LOC_003_CHEONDUNG_BASE · CHAR_001 · VEH_001 · video8s · 35:38–35:46"
+},
+{
+"id": "SC_263",
+"t0": 2146,
+"t1": 2156,
+"kind": "still",
+"loc": "LOC_002_YODONGSEONG (aerial ban ngày)",
+"chars": "—",
+"props": "WPN_201",
+"narr": [
+"포위는 하룻밤 사이에 닫혔습니다. 골짜기는 그 안에 있었습니다. 들어올 수는 있어도 나갈 수는 없는 자리였습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh aerial cao: 요동성 giữa đồng; lều trại Tùy phủ kín đồng bằng phía tây, nam và nay cả phía bắc; thung lũng nhỏ phía đông với vệt lưới ngụy trang nằm gọn bên trong vòng. Ken-burns kéo ra.",
+"header": " · LOC_002_YODONGSEONG (aerial ban ngày) · — · WPN_201 · still_kenburns · 35:46–35:56"
+},
+{
+"id": "SC_264",
+"t0": 2156,
+"t1": 2166,
+"kind": "still",
+"loc": "LOC_002_YODONGSEONG (ngoài thành phía tây)",
+"chars": "lính Tùy",
+"props": "WPN_201",
+"narr": [
+"수나라는 이 성을 여러 달 에워쌀 것이었습니다. 요동성이 버티는 동안, 백만 대군은 여기 묶여 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: quân Tùy đào hào, dựng tháp canh gỗ, khung tháp công thành bằng gỗ đang được lắp trên đồng cỏ; hàng vạn người làm việc dưới trời xám. Ken-burns trượt ngang.",
+"header": " · LOC_002_YODONGSEONG (ngoài thành phía tây) · lính Tùy · WPN_201 · still_kenburns · 35:56–36:06"
+},
+{
+"id": "SC_265",
+"t0": 2166,
+"t1": 2174,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (cổng đông → tường tây)",
+"chars": "CHAR_001",
+"props": "PROP_015",
+"narr": [
+"그는 화살 하나를 가졌습니다. 이 땅이 그에게 준 첫 번째 것이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 한승우 đi qua cổng đông vào thành, ngang tấm gỗ cổng cắm dày tên; ông rút một mũi tên ra, nhìn đầu tam giác có ngạnh, cất vào túi ngực; rồi lên bậc đá tường tây. Không thoại.",
+"header": " · LOC_002_YODONGSEONG (cổng đông → tường tây) · CHAR_001 · PROP_015 · video8s · 36:06–36:14"
+},
+{
+"id": "SC_266",
+"t0": 2174,
+"t1": 2182,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường tây, 치)",
+"chars": "CHAR_104, CHAR_001",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"고정수",
+"그대들이 없었으면 쌀은 못 들어왔소."
+]
+],
+"action": "[ACTION-VI] 고정수 đứng ở 치 tường tây, không quay lại khi 한승우 tới bên; hai người nhìn xuống biển lều. 고정수 nói mặt nghiêm, không cảm ơn.",
+"header": " · LOC_002_YODONGSEONG (tường tây, 치) · CHAR_104, CHAR_001 · — · video8s · 36:14–36:22"
+},
+{
+"id": "SC_267",
+"t0": 2182,
+"t1": 2190,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường tây)",
+"chars": "CHAR_104",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"고정수",
+"그대들이 있어서 저들도 여기 온 것이오."
+]
+],
+"action": "[ACTION-VI] 고정수 quay đầu nhìn 한승우 lần đầu, rồi lại nhìn xuống lều; câu thứ hai nặng hơn câu đầu.",
+"header": " · LOC_002_YODONGSEONG (tường tây) · CHAR_104 · — · video8s · 36:22–36:30"
+},
+{
+"id": "SC_268",
+"t0": 2190,
+"t1": 2198,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường tây)",
+"chars": "CHAR_001",
+"props": "PROP_015",
+"narr": [
+"감사는 없었습니다. 계산이 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 한승우 im; mắt trên biển lều; bàn tay phải chạm vào mũi tên trong túi ngực, dừng ở đó. Máy đẩy chậm vào mặt.",
+"header": " · LOC_002_YODONGSEONG (tường tây) · CHAR_001 · PROP_015 · video8s · 36:30–36:38"
+},
+{
+"id": "SC_269",
+"t0": 2198,
+"t1": 2208,
+"kind": "still",
+"loc": "LOC_002_YODONGSEONG (tường tây)",
+"chars": "CHAR_001",
+"props": "PROP_011, PROP_012",
+"narr": [
+"성벽 위에 두 개의 깃발이 나란히 섰습니다. 서로 알지 못하는 깃발이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh cận: miếng vá 태극기 trên vai áo camo của 한승우, ngay cạnh lá cờ 삼족오 đen cắm trên tường đá granite xám. Ken-burns kéo ra chậm.",
+"header": " · LOC_002_YODONGSEONG (tường tây) · CHAR_001 · PROP_011, PROP_012 · still_kenburns · 36:38–36:48"
+},
+{
+"id": "SC_270",
+"t0": 2208,
+"t1": 2216,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường tây)",
+"chars": "CHAR_105, CHAR_104",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"해모루",
+"성주, 평양에서 기사가 왔습니다."
+]
+],
+"action": "[ACTION-VI] 해모루 lên bậc thang tường, bụi đường, cúi đầu với thành chủ, giọng 합쇼체 ngắn.",
+"header": " · LOC_002_YODONGSEONG (tường tây) · CHAR_105, CHAR_104 · — · video8s · 36:48–36:56"
+},
+{
+"id": "SC_271",
+"t0": 2216,
+"t1": 2224,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (tường tây)",
+"chars": "CHAR_104, CHAR_001",
+"props": "—",
+"narr": [
+"왕의 글이었습니다. 성주는 읽기 전에 내용을 알았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 고정수 gật, không quay đi ngay — nhìn biển lều thêm một lúc, chùm chìa khóa nắm trong tay; 한승우 nhìn ông. Rồi ông mới xuống bậc thang. Không thoại.",
+"header": " · LOC_002_YODONGSEONG (tường tây) · CHAR_104, CHAR_001 · — · video8s · 36:56–37:04"
+},
+{
+"id": "SC_272",
+"t0": 2224,
+"t1": 2234,
+"kind": "still",
+"loc": "LOC_001_YOHA (trại Tùy ban ngày)",
+"chars": "CHAR_205",
+"props": "VEH_206, UAV_001",
+"narr": [
+"같은 아침, 탁발흠은 서쪽으로 말을 몰았습니다. 안장에는 쇠새가 묶여 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: 탁발흠 buộc xác drone lên sau yên ngựa bằng dây da, mấy kỵ binh tùy tùng đã lên ngựa, đường về tây qua biển lều. Ken-burns trượt theo hướng tây.",
+"header": " · LOC_001_YOHA (trại Tùy ban ngày) · CHAR_205 · VEH_206, UAV_001 · still_kenburns · 37:04–37:14"
+},
+{
+"id": "SC_273",
+"t0": 2234,
+"t1": 2242,
+"kind": "video",
+"loc": "LOC_003_CHEONDUNG_BASE (mép thung)",
+"chars": "CHAR_107, CHAR_004",
+"props": "—",
+"narr": [
+"돌아갈 길은 없었습니다. 서아는 그 말을 하지 않았습니다."
+],
+"dlg": [
+[
+"아리",
+"언니, 돌아갈 수 있어요? 언니네 집으로요."
+]
+],
+"action": "[ACTION-VI] 아리 và 서아 ngồi trên mép thung nhìn về thành đá và biển lều xa; 아리 hỏi không nhìn cô; 서아 không trả lời, chỉ nắm tay cô bé chặt hơn.",
+"header": " · LOC_003_CHEONDUNG_BASE (mép thung) · CHAR_107, CHAR_004 · — · video8s · 37:14–37:22"
+},
+{
+"id": "SC_274",
+"t0": 2242,
+"t1": 2250,
+"kind": "still",
+"loc": "LOC_002_YODONGSEONG (tường tây)",
+"chars": "CHAR_001, CHAR_104",
+"props": "—",
+"narr": [
+"성벽 위에서 두 사람은 같은 것을 보았습니다. 끝이 없는 천막이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: hai bóng người trên tường tây — áo choàng xám và quân phục camo — trước biển lều xám trải đến chân trời dưới trời bạc. Ken-burns kéo ra tới khi hai người thành hai chấm.",
+"header": " · LOC_002_YODONGSEONG (tường tây) · CHAR_001, CHAR_104 · — · still_kenburns · 37:22–37:30"
+},
+{
+"id": "SC_275",
+"t0": 2250,
+"t1": 2260,
+"kind": "still",
+"loc": "LOC_002_YODONGSEONG (đại sảnh dinh thành chủ, đêm)",
+"chars": "기사(사자), CHAR_104, CHAR_001, CHAR_105",
+"props": "PROP_013",
+"narr": [
+"그날 저녁, 평양의 기사가 요동성 대청에 무릎을 꿇었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: đại sảnh gỗ tối, cột tròn sơn son bạc màu, đèn dầu đất nung, bản đồ da trên khung; giữa sàn, kỵ sứ bụi đường quỳ, hai tay nâng ống tre sơn đen; 고정수 ngồi bàn thấp, 한승우 đứng bên cột, 해모루 cạnh ông. Ken-burns đẩy vào ống tre.",
+"header": " · LOC_002_YODONGSEONG (đại sảnh dinh thành chủ, đêm) · 기사(사자), CHAR_104, CHAR_001, CHAR_105 · PROP_013 · still_kenburns · 37:30–37:40"
+},
+{
+"id": "SC_276",
+"t0": 2260,
+"t1": 2268,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (đại sảnh)",
+"chars": "CHAR_104",
+"props": "PROP_013",
+"narr": [
+"영양왕 고원. 고구려의 스물여섯 번째 왕이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 고정수 nhận ống tre, mở nắp, rút cuộn lụa vàng nhạt trên trục gỗ đen, trải ra trên bàn thấp — cột chữ Hán, ấn son đỏ vuông ở cuối. Ông đọc, môi không động.",
+"header": " · LOC_002_YODONGSEONG (đại sảnh) · CHAR_104 · PROP_013 · video8s · 37:40–37:48"
+},
+{
+"id": "SC_277",
+"t0": 2268,
+"t1": 2278,
+"kind": "still",
+"loc": "LOC_002_YODONGSEONG (đại sảnh)",
+"chars": "CHAR_102 (giọng)",
+"props": "PROP_013",
+"narr": [],
+"dlg": [
+[
+"영양왕",
+"요동성은 죽어도 지키라. 이것이 과인의 뜻이다."
+]
+],
+"action": "[ACTION-VI] Ảnh cận chiếu lụa dưới đèn dầu: cột chữ brush calligraphy, ấn son đỏ. Ken-burns trượt dọc cột chữ từ trên xuống. Giọng vua đọc chiếu (voice-over nhân vật, không phải narrator).",
+"header": " · LOC_002_YODONGSEONG (đại sảnh) · CHAR_102 (giọng) · PROP_013 · still_kenburns · 37:48–37:58"
+},
+{
+"id": "SC_278",
+"t0": 2278,
+"t1": 2288,
+"kind": "still",
+"loc": "LOC_006_PYONGYANG (điện đêm — ken-burns chân dung)",
+"chars": "CHAR_102",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"영양왕",
+"항복은 없다. 성과 함께 죽으라."
+]
+],
+"action": "[ACTION-VI] Ảnh: 영양왕 trong điện 평양 đêm — 백라관 lụa trắng viền vàng, long bào đỏ thẫm, ngồi trước bàn thấp có bút lông và lụa, đèn dầu; mặt tĩnh, tính toán. Ken-burns đẩy chậm vào mặt. Giọng vua tiếp.",
+"header": " · LOC_006_PYONGYANG (điện đêm — ken-burns chân dung) · CHAR_102 · — · still_kenburns · 37:58–38:08"
+},
+{
+"id": "SC_279",
+"t0": 2288,
+"t1": 2296,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (đại sảnh)",
+"chars": "CHAR_104, CHAR_001",
+"props": "PROP_013",
+"narr": [],
+"dlg": [
+[
+"고정수",
+"왕명이오. 이 성과 함께… 그대들도."
+]
+],
+"action": "[ACTION-VI] 고정수 cuộn chiếu lại chậm, đặt lên bàn, ngẩng lên nhìn thẳng 한승우 đứng bên cột.",
+"header": " · LOC_002_YODONGSEONG (đại sảnh) · CHAR_104, CHAR_001 · PROP_013 · video8s · 38:08–38:16"
+},
+{
+"id": "SC_280",
+"t0": 2296,
+"t1": 2304,
+"kind": "video",
+"loc": "LOC_002_YODONGSEONG (đại sảnh)",
+"chars": "CHAR_001, CHAR_105",
+"props": "—",
+"narr": [
+"한승우는 대답하지 않았습니다. 그 대답은 아직 그의 것이 아니었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 한승우 không trả lời: nhìn cuộn chiếu, nhìn 해모루 (đang quan sát ông), nhìn lại 고정수; im hoàn toàn. Máy đẩy chậm vào mặt ông.",
+"header": " · LOC_002_YODONGSEONG (đại sảnh) · CHAR_001, CHAR_105 · — · video8s · 38:16–38:24"
+},
+{
+"id": "SC_281",
+"t0": 2304,
+"t1": 2314,
+"kind": "still",
+"loc": "LOC_004_YUKHAPSEONG (hành doanh 양제 bên 요하, đêm — lều vàng, chưa phải 육합성)",
+"chars": "수 환관",
+"props": "PROP_021",
+"narr": [
+"요하 서안. 황제의 행영입니다. 육합성은 아직 세워지기 전이었습니다. 하지만 이미 비단과 금이 벌판 위에 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: giữa biển lều Tùy đêm, một lều-điện lớn mái lụa vàng, rèm lụa vàng-đỏ, hàng đuốc, hàng trăm hoạn quan áo lụa đứng hai bên lối vào. Ken-burns đẩy vào cửa rèm.",
+"header": " · LOC_004_YUKHAPSEONG (hành doanh 양제 bên 요하, đêm — lều vàng, chưa phải 육합성) · 수 환관 · PROP_021 · still_kenburns · 38:24–38:34"
+},
+{
+"id": "SC_282",
+"t0": 2314,
+"t1": 2322,
+"kind": "video",
+"loc": "LOC_004_YUKHAPSEONG (trong lều vàng)",
+"chars": "CHAR_205, 수 선봉장",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"수 선봉장",
+"폐하, 무례하오나 보셔야 할 것입니다."
+]
+],
+"action": "[ACTION-VI] Trong lều: 탁발흠 quỳ, bụi vàng còn nguyên trên áo choàng da sói, đặt xác drone lên thảm đỏ dưới bậc ngai; 선봉장 quỳ bên, cúi đầu sát sàn.",
+"header": " · LOC_004_YUKHAPSEONG (trong lều vàng) · CHAR_205, 수 선봉장 · UAV_001 · video8s · 38:34–38:42"
+},
+{
+"id": "SC_283",
+"t0": 2322,
+"t1": 2330,
+"kind": "video",
+"loc": "LOC_004_YUKHAPSEONG (lều vàng)",
+"chars": "CHAR_201",
+"props": "UAV_001",
+"narr": [
+"수 양제 양광. 놀라는 법이 없는 사람이었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] 양제 trên ngai sơn son thếp vàng, quạt tròn lụa trong tay, 통천관 đen; nhìn xuống vật lạ trên thảm — không kinh ngạc, chỉ tò mò lạnh; ông khẽ giơ quạt — hoạn quan bưng drone lên bậc. Low-angle từ chỗ 탁발흠 quỳ.",
+"header": " · LOC_004_YUKHAPSEONG (lều vàng) · CHAR_201 · UAV_001 · video8s · 38:42–38:50"
+},
+{
+"id": "SC_284",
+"t0": 2330,
+"t1": 2338,
+"kind": "video",
+"loc": "LOC_004_YUKHAPSEONG (lều vàng)",
+"chars": "CHAR_201",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"수 양제",
+"이것이 고구려의 것인가."
+]
+],
+"action": "[ACTION-VI] Cận 양제: ngón tay đeo nhẫn ngọc chạm cánh quạt gãy dưới đèn lồng, xoay nhẹ; hoạn quan bưng khay run tay.",
+"header": " · LOC_004_YUKHAPSEONG (lều vàng) · CHAR_201 · UAV_001 · video8s · 38:50–38:58"
+},
+{
+"id": "SC_285",
+"t0": 2338,
+"t1": 2346,
+"kind": "video",
+"loc": "LOC_004_YUKHAPSEONG (lều vàng)",
+"chars": "CHAR_205",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"탁발흠",
+"고구려의 것이 아닙니다. 삼족오 깃발이 아니었습니다."
+]
+],
+"action": "[ACTION-VI] 탁발흠 ngẩng đầu lần đầu — máu khô ở tai trái, sẹo, mắt thẳng — 합쇼체 ngắn, chắc.",
+"header": " · LOC_004_YUKHAPSEONG (lều vàng) · CHAR_205 · — · video8s · 38:58–39:06"
+},
+{
+"id": "SC_286",
+"t0": 2346,
+"t1": 2354,
+"kind": "video",
+"loc": "LOC_004_YUKHAPSEONG (lều vàng)",
+"chars": "CHAR_205",
+"props": "—",
+"narr": [],
+"dlg": [
+[
+"탁발흠",
+"저들은 손에 천둥을 쥐고 있습니다."
+]
+],
+"action": "[ACTION-VI] Cận 탁발흠: giọng không cao, không thấp — lời của người đã đứng trên đồi và đếm.",
+"header": " · LOC_004_YUKHAPSEONG (lều vàng) · CHAR_205 · — · video8s · 39:06–39:14"
+},
+{
+"id": "SC_287",
+"t0": 2354,
+"t1": 2362,
+"kind": "video",
+"loc": "LOC_004_YUKHAPSEONG (lều vàng)",
+"chars": "CHAR_201",
+"props": "UAV_001",
+"narr": [],
+"dlg": [
+[
+"수 양제",
+"그럼 그 천둥을 가져오라."
+]
+],
+"action": "[ACTION-VI] 양제 cầm cánh quạt gãy lên khỏi khay, giơ trước đèn lồng xoay một vòng, rồi hạ mắt xuống 탁발흠.",
+"header": " · LOC_004_YUKHAPSEONG (lều vàng) · CHAR_201 · UAV_001 · video8s · 39:14–39:22"
+},
+{
+"id": "SC_288",
+"t0": 2362,
+"t1": 2372,
+"kind": "still",
+"loc": "LOC_004_YUKHAPSEONG (lều vàng)",
+"chars": "CHAR_205, CHAR_201",
+"props": "UAV_001",
+"narr": [
+"그날 밤, 이름 없던 부대에 이름이 붙었습니다. 뇌군. 천둥의 군대."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: 탁발흠 cúi đầu chạm thảm, xác drone nằm giữa ông và bậc ngai, bóng ngai đổ dài lên người ông. Ken-burns đẩy chậm vào drone.",
+"header": " · LOC_004_YUKHAPSEONG (lều vàng) · CHAR_205, CHAR_201 · UAV_001 · still_kenburns · 39:22–39:32"
+},
+{
+"id": "SC_289",
+"t0": 2372,
+"t1": 2382,
+"kind": "still",
+"loc": "LOC_004_YUKHAPSEONG (aerial đêm)",
+"chars": "—",
+"props": "VEH_205, WPN_201",
+"narr": [
+"113만이 성 하나를 에워쌌습니다. 그리고 이제, 94명을 찾고 있었습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh aerial đêm: lều vàng là một đốm sáng giữa biển lửa trại Tùy đến chân trời; sông Liêu và ba cầu phao lấp lánh đuốc; bờ đông xa, một khối tối — 요동성. Ken-burns kéo ra rất chậm.",
+"header": " · LOC_004_YUKHAPSEONG (aerial đêm) · — · VEH_205, WPN_201 · still_kenburns · 39:32–39:42"
+},
+{
+"id": "SC_290",
+"t0": 2382,
+"t1": 2392,
+"kind": "still",
+"loc": "LOC_003_CHEONDUNG_BASE (đêm)",
+"chars": "—",
+"props": "VEH_001",
+"narr": [
+"전차는 아직 한 번도 울지 않았습니다."
+],
+"dlg": [],
+"action": "[ACTION-VI] Ảnh: K2 dưới lưới ngụy trang trong thung lũng đêm, trăng mỏng trên nòng pháo sạch, lính gác nhỏ bên xích. Ken-burns đẩy chậm vào nòng pháo.",
+"header": " · LOC_003_CHEONDUNG_BASE (đêm) · — · VEH_001 · still_kenburns · 39:42–39:52"
+},
+{
+"id": "SC_291",
+"t0": 2392,
+"t1": 2400,
+"kind": "still",
+"loc": "[END CARD]",
+"chars": "—",
+"props": "—",
+"narr": [],
+"dlg": [],
+"action": "[ACTION-VI] Đen. Chữ trắng giữa khung: 「살수 612 · 2화 요동성」. Không hình khác.",
+"header": " · [END CARD] · — · — · still_kenburns · 39:52–40:00"
+}
+]
