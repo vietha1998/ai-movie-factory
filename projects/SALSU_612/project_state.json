@@ -34,21 +34,21 @@
     "prop_bible": "DONE",
     "outline": "DONE (ep1-5)",
     "full_script": {
-      "ep1": "DONE v3 (QC-fixed)",
-      "ep2": "IN_PROGRESS",
-      "ep3": "IN_PROGRESS",
-      "ep4": "IN_PROGRESS",
-      "ep5": "IN_PROGRESS"
+      "ep1": "DONE v3",
+      "ep2": "v1 → QC",
+      "ep3": "v1 → QC",
+      "ep4": "v1 → QC",
+      "ep5": "v1 → QC"
     },
     "description": {
-      "ep1": "IN_PROGRESS",
+      "ep1": "DONE",
       "ep2": "PENDING",
       "ep3": "PENDING",
       "ep4": "PENDING",
       "ep5": "PENDING"
     },
     "veo_scenes": {
-      "ep1": "DONE v1 (291 SC · scene_list_ep1.md / scenes_ep1.json / ep1_asset_usage.md · chờ QC)",
+      "ep1": "DONE v1 (291 SC, scenes_ep1.json)",
       "ep2": "PENDING",
       "ep3": "PENDING",
       "ep4": "PENDING",
@@ -59,15 +59,17 @@
     "scene_videos": "PENDING",
     "audio": "PENDING",
     "edit": "PENDING",
-    "titles_final": "PENDING",
-    "thumbnail": "PENDING",
+    "titles_final": "ep1 DONE",
+    "thumbnail": "ep1 spec DONE (ảnh chờ G-Labs)",
     "final_qc": "PENDING",
     "resource_ledger": "DONE",
     "ref_jobs": {
       "locations": 19,
       "vehicles": 25,
       "props": 16,
-      "characters": 59
+      "characters": 59,
+      "extra_ep1": 8,
+      "total": 131
     },
     "qc": {
       "ep1_script": "DONE (v1 → v3)"
