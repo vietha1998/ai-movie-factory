@@ -78,19 +78,6 @@
   }
  },
  {
-  "id": "LOC_010_wide",
-  "type": "image",
-  "priority": 2,
-  "sc_count": 9,
-  "out_dir": "05_references/locations",
-  "used_by_sublock": "LOC_010",
-  "body": {
-   "prompt": "Wide establishing reference shot, 16:9. A frozen dirt road at night between low hills of dark pine forest in the Korean highlands in winter: frost on the ruts, patches of old snow under the pines, bare oak among the pines, a cold blue-grey night sky, no power lines, no buildings, no lights except vehicle headlights, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
-   "model": "nano_banana_pro",
-   "aspect_ratio": "16:9"
-  }
- },
- {
   "id": "EXTRA_sui_vanguard_general_ref",
   "type": "image",
   "priority": 2,

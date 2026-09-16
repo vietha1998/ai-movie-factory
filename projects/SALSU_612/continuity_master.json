@@ -29,7 +29,9 @@
     "LOC_005_AMNOK": "Dark green Yalu River rushing between steep grey rocky mountains covered in pine and young oak, a wide cobble shoal where endless columns of Sui soldiers wade chest-deep, low cloud on the peaks, steady drizzle, mist pouring down the valley, wet moss and ferns, no yellow grass, cold grey-green diffused light",
     "LOC_006_PYONGYANG": "Goguryeo capital fortress on low hills above a wide grey-green river in monsoon rain: long dry-stacked grey granite walls with bastions, tiled timber gate towers, an outer town of empty wooden houses with rain-dark tiled and thatched roofs, an empty wooden Buddhist temple with a five-story stone pagoda, palace halls with red pillars on the hill, black three-legged crow banners",
     "LOC_007_SALSU": "Wide shallow Cheongcheon River eight hundred meters across with long wet grey-brown sandbars, north bank buried in dense two-meter reed beds, south bank low green hills, July monsoon: flat grey dawn light, then steady rain and rising brown water, then shafts of yellow sun tearing through cloud, mud, river mist, no trees on the sandbars",
-    "LOC_008_GOGURYEO_VILLAGE": "Goguryeo mountain village on a green early-summer slope: timber houses with bark-shingle roofs weighted with stones, small raised-floor granaries on wooden posts, an open forge shed by a stream, wooden fences, narrow terraced millet fields below, a low dry-stacked stone hill fort on the ridge above, morning mist and blue hearth smoke, warm brown-and-moss tones"
+    "LOC_008_GOGURYEO_VILLAGE": "Goguryeo mountain village on a green early-summer slope: timber houses with bark-shingle roofs weighted with stones, small raised-floor granaries on wooden posts, an open forge shed by a stream, wooden fences, narrow terraced millet fields below, a low dry-stacked stone hill fort on the ridge above, morning mist and blue hearth smoke, warm brown-and-moss tones",
+    "LOC_009_SEOKMUN_PASS": "Narrow mountain pass saddle forty meters wide between two wet blue-grey stone cliffs thirty to sixty meters high, a low ruined dry-stacked Goguryeo stone barrier with a five-meter gap across the saddle, a rocky outcrop two hundred meters above on the right, a steep goat path down the left cliff, twisted red pines and scree, monsoon mist, torchlight at night",
+    "LOC_010_CHEORWON_NIGHT": "A frozen dirt road at night between low hills of dark pine forest in the Korean highlands in winter: frost on the ruts, patches of old snow under the pines, bare oak among the pines, a cold blue-grey night sky, no power lines, no buildings, no lights except vehicle headlights"
   },
   "vehicle_locks": {
     "VEH_001": "South Korean K2 Black Panther main battle tank, low angular wedge-shaped turret, long 120mm gun with bore evacuator, six twin road wheels per side under thick side skirts, six smoke launchers each side, three-tone green-brown-black camouflage, small white numeral 1 and a small Korean flag on the turret side, black whip antennas",
@@ -53,7 +55,8 @@
     "VEH_204": "Sui dynasty tower warship, long dark red-brown wooden hull about forty meters, two to three stories of wooden deckhouses with railings, square brown sail, rows of oars on both sides, carved beast head at the prow, red and yellow banners",
     "VEH_205": "Sui pontoon bridge of flat-bottomed wooden boats moored side by side with hemp rope and iron chain, plank deck four meters wide, wooden mooring stakes, crossing a wide brown river",
     "VEH_206": "Xianbei steppe light cavalry: short stocky steppe horses with thick manes and no armor, riders in brown leather lamellar armor over long leather coats, fur-trimmed leather caps, soft boots, composite bows and hip quivers, short curved sabers, coiled lassos, black horse-tail standards on poles",
-    "WPN_201": "Sui dynasty infantry in mingguang armor with two polished round chest plates, pointed iron helmets, long spears, red rectangular wooden shields, straight swords, archers in grey-blue padded coats, red and yellow banners"
+    "WPN_201": "Sui dynasty infantry in mingguang armor with two polished round chest plates, pointed iron helmets, long spears, red rectangular wooden shields, straight swords, archers in grey-blue padded coats, red and yellow banners",
+    "VEH_207": "Sui dynasty cavalry: tall Han war horses with trimmed upright manes, high-pommel wooden saddles with iron stirrups, red silk caparisons with gold borders on the generals' horses, riders in mingguang iron lamellar armor with polished round chest plates and pointed iron helmets with red tassels, long spears, red and yellow banners"
   },
   "prop_locks": {
     "PROP_001": "folded South Korean army topographic paper map with brown contour lines, pale green forest areas and a black grid, red and blue grease-pencil marks, its back side covered in charcoal sketches of a river, a fortress and a route, creased, dusty, later mud-stained",
@@ -78,7 +81,10 @@
     "PROP_020": "bundles of wet two-meter grey-green river reeds with pale silver feathered plumes, tied with cord, used as camouflage on helmets and tank",
     "PROP_021": "Sui army banner: tall red silk rectangle with a yellow border and black tassels on a black lacquered pole with bronze finial; imperial banner: yellow silk with an embroidered coiled dragon and red tassels",
     "PROP_022": "grey hemp grain sacks about forty kilograms tied at the mouth, half-buried in a shallow wet earth pit, spilled millet and pressed millet cakes, a bamboo carrying pole",
-    "PROP_023": "small rectangular olive-drab painted steel vehicle nameplate with a scratched white numeral 3, two bolt holes, scorched edge, tied to a backpack strap with paracord"
+    "PROP_023": "small rectangular olive-drab painted steel vehicle nameplate with a scratched white numeral 3, two bolt holes, scorched edge, tied to a backpack strap with paracord",
+    "PROP_024": "large plain red silk signal banner on a bamboo pole, rolled and tied with hemp cord, no emblem",
+    "PROP_025": "grey cylindrical incendiary (thermite) grenade, faded stencil, pull ring, olive canvas strap",
+    "PROP_026": "small worn wooden gourd stopper about five centimeters long, turned wood with a ridge, dark with water, one chipped corner"
   },
   "derived_states": {
     "CHAR_001_dusty_ep2": {
@@ -488,12 +494,441 @@
       "use": "5화 P6–P10 (SC_060–245)",
       "ref": "job",
       "prompt_add": "Fox-fur cap on, braid wet and swinging, a cracked night-vision device hanging from a cord around the neck, composite bow slung across the back, ring-pommel saber drawn in the right hand, right forearm wrapped in a black cloth bandage, mud to the thighs, blood on the tunic, rain, fierce calm face."
-    }
+    },
+    "VEH_001_ep5_wreck": "see vehicle_bible VEH_001 damage 5화 P11–P12 + REF_PROMPT_EN_EP5 (K2_ep5)",
+    "VEH_002_captured_ep5": "천둥 3 in 육합성 courtyard on giant ox cart under oiled cloth, Sui flag, white arrow mark on ramp, lacquer box with drone beside (5:SC_270)",
+    "LOC_002_eastgate_widened": "sublocks.LOC_002_eastgate_widened (2화 P9 → 3화)",
+    "LOC_007_throat_k2": "sublocks.LOC_007_throat_k2 (5화 P10 Phase 2–5)"
   },
   "style_tag": "photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
-  "locked_at": "2026-09-16",
+  "locked_at": "2026-09-16 (v3 world-designer: +VEH_207, PROP_024/025/026, LOC_009/010, sublocks)",
   "rules": {
     "flag_patch": "태극기 patch = RIGHT upper sleeve (ROK Army regulation: 부대마크 왼팔, 태극기 오른팔). Unit lightning patch = LEFT sleeve.",
-    "vehicle_flag": "small 태극기 on hull — vehicle_bible position (left hull side) is a vehicle marking, independent of uniform."
+    "vehicle_flag": "small 태극기 on hull — vehicle_bible position (left hull side) is a vehicle marking, independent of uniform.",
+    "k2_limits": "K2 unprepared fording depth ~1.2 m — deeper water floods the rear engine air intake and stalls the engine (5화 SC_197/206). Engine off + APU: gun, turret and FCS still work; never justify 'asleep = cannot fire'.",
+    "sui_cavalry_id": "Sui horses/cavalry/generals on horseback = VEH_207 (never VEH_205 pontoon). Xianbei = VEH_206. Goguryeo cataphract = VEH_101.",
+    "snow": "No snow anywhere in 612 (LOC_001–009). LOC_010 (Cheorwon 2026 flashback) allows 'patches of old snow under the pines' only — no falling snow, no white ground."
+  },
+  "sublocks": {
+    "LOC_001": {
+      "loc": "LOC_001_YOHA",
+      "ref": "LOC_001_wide",
+      "use": "D1 trưa (drone/aerial sông Liêu)",
+      "sc": "5 SC: 045–047, 053, 077",
+      "lock": "Wide brown Liao River under a cold pale grey sky, three long Sui pontoon bridges of lashed flat boats crossing it, endless Sui army columns and tents to the horizon on the far bank, near bank a flat steppe of dry knee-high yellow grass bending in one direction under constant wind, drifting yellow dust, early spring, no trees"
+    },
+    "LOC_001_bank": {
+      "loc": "LOC_001_YOHA",
+      "ref": "LOC_001_detail",
+      "use": "D1 trưa [史] trận cầu phao",
+      "sc": "7 SC: 054–060",
+      "lock": "East bank of the Liao River, early spring 612 AD: the end of a Sui pontoon bridge of flat wooden boats lashed with thick hemp rope and plank decking, wooden mooring stakes driven into grey mud, a red and yellow silk banner with black tassels on a tall pole, hoofprints and cart ruts in the mud, a steep muddy bank rising to dry yellow grass bending in wind, the wide brown river, cold grey diffused light with yellow dust drifting through it"
+    },
+    "LOC_001_march": {
+      "loc": "LOC_001_YOHA",
+      "ref": "LOC_001_wide",
+      "use": "ken-burns sử (ngày)",
+      "sc": "3 SC: 009, 027, 029",
+      "lock": "A wide beaten dirt road across the flat North China plain in early spring 612 AD, dry knee-high yellow grass to the horizon bending under constant wind, drifting yellow dust, cold pale grey overcast sky, no trees, no buildings"
+    },
+    "LOC_001_canal": {
+      "loc": "LOC_001_YOHA",
+      "ref": "LOC_001_wide",
+      "use": "ken-burns sử (ngày)",
+      "sc": "1 SC: 028",
+      "lock": "A straight man-made canal cutting across the flat yellow plain in early spring 612 AD, packed with flat-bottomed wooden grain barges under cloth covers, a towpath beside it, dry yellow grass, drifting yellow dust, cold pale grey overcast sky"
+    },
+    "LOC_001_sui_camp_night": {
+      "loc": "LOC_001_YOHA",
+      "ref": "LOC_001_wide",
+      "use": "D3 đêm",
+      "sc": "1 SC: 130",
+      "lock": "Sui vanguard camp on the east bank of the Liao River at night: grid rows of grey felt tents, lines of burning torches, red and yellow banners with black tassels on black lacquered poles, a large general's tent in the center, wooden watchtowers, horse lines, the three pontoon bridges glittering with torches on the wide black river beyond"
+    },
+    "LOC_001_sui_tent": {
+      "loc": "LOC_001_YOHA",
+      "ref": "LOC_001_detail",
+      "use": "D3 đêm (đèn lồng)",
+      "sc": "4 SC: 131–134",
+      "lock": "Interior of a Sui vanguard general's campaign tent at night: grey felt walls, a low black lacquered table, silk lanterns giving warm orange light, a silk map painted with rivers and a square fortress hung on a wooden frame, a sword rack, a red and yellow banner, a bronze brazier"
+    },
+    "LOC_001_sui_camp_day": {
+      "loc": "LOC_001_YOHA",
+      "ref": "LOC_001_wide",
+      "use": "D5 sáng",
+      "sc": "1 SC: 272",
+      "lock": "Sui camp on the east bank of the Liao River by day: grid rows of grey felt tents to the horizon, red and yellow banners, horse lines, cooking smoke, trampled yellow grass and dust, cold pale grey sky"
+    },
+    "LOC_001_north_steppe": {
+      "loc": "LOC_001_YOHA",
+      "ref": "LOC_001_wide",
+      "use": "D1 sáng / D4 ngày (kỵ binh xa)",
+      "sc": "2 SC: 006, 153",
+      "lock": "Open yellow steppe north of the Goguryeo fortress, dry knee-high yellow grass bending in one direction under constant wind, drifting yellow dust, low grassy rises, cold pale grey sky, early spring, no trees"
+    },
+    "LOC_002": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_wide",
+      "use": "aerial ngày/đêm",
+      "sc": "2 SC: 155, 263",
+      "lock": "Goguryeo plain fortress on a low rise in yellow steppe: dry-stacked grey granite walls slightly battered inward, rectangular protruding bastions every fifty meters, semicircular stone barbican at the south gate, two-story timber gate tower with dark grey tiled roof, wooden corner watchtowers, a three-story wooden pagoda inside, black three-legged crow banners, amber low sun through yellow dust"
+    },
+    "LOC_002_night_road": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_wide",
+      "use": "D3 đêm hành quân",
+      "sc": "2 SC: 135–136",
+      "lock": "Night on the open yellow steppe west of the Goguryeo fortress: dry knee-high yellow grass under thin moonlight, drifting dust, the dark mass of the fortress on its low rise with torches along dry-stacked grey granite walls and a timber gate tower far ahead"
+    },
+    "LOC_002_gate": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_detail",
+      "use": "D3 đêm (đuốc)",
+      "sc": "7 SC: 137–143",
+      "lock": "South gate of the Goguryeo fortress at night: a semicircular stone barbican of dry-stacked grey granite, a narrow arched gate passage with two-leaf iron-sheathed wooden doors studded with large iron nails, a two-story timber gate tower with dark grey tiled roof above, rectangular protruding bastions, burning torches along the wall, black three-legged crow banners"
+    },
+    "LOC_002_eastwall": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_detail",
+      "use": "D4 bình minh/ngày",
+      "sc": "5 SC: 149–152, 154",
+      "lock": "On top of the east wall of the Goguryeo fortress: dry-stacked grey granite blocks without mortar forming a rectangular protruding bastion with a low stone parapet and narrow arrow slits, a wooden rack of arrows, clay water jars, a large hide war drum on a wooden stand, a black three-legged crow banner on a pole, the dirt road below running east through dry yellow steppe"
+    },
+    "LOC_002_eastroad": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_wide",
+      "use": "D4 ngày aerial / D4 đêm trận",
+      "sc": "8 SC: 148, 215–217, 247–249, 251",
+      "lock": "The east road: a beaten dirt road through dry knee-high yellow steppe climbing a long gentle slope toward the east gate of the Goguryeo fortress, dry-stacked grey granite walls with rectangular protruding bastions, a timber gate tower with dark tiled roof, torches on the wall"
+    },
+    "LOC_002_eastgate": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_detail",
+      "use": "D4 đêm (đuốc)",
+      "sc": "4 SC: 239, 245, 250, 253",
+      "lock": "East gate of the Goguryeo fortress at night: two-leaf wooden gate doors sheathed with iron plates and studded with large iron nails, a heavy wooden crossbar, a stone gate passage in dry-stacked grey granite walls flanked by two rectangular protruding bastions, burning torches in iron brackets, black three-legged crow banners"
+    },
+    "LOC_002_gateyard": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_detail",
+      "use": "D4 đêm / D5 sáng",
+      "sc": "3 SC: 243–244, 265",
+      "lock": "Inside the east gate of the Goguryeo fortress at night: a packed-earth yard behind two-leaf iron-sheathed wooden gate doors, a stone stair climbing the dry-stacked grey granite wall, torches in iron brackets, black three-legged crow banners, timber halls with dark tiled roofs behind"
+    },
+    "LOC_002_granary": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_detail",
+      "use": "D5 sáng",
+      "sc": "5 SC: 266–268, 270–271",
+      "lock": "Inside the Goguryeo fortress at a raised-floor timber granary standing on thick wooden posts with a dark grey tiled roof, wooden steps up to its door, grey hemp grain sacks, a packed-earth street, two-wheeled ox carts, timber halls and a three-story wooden pagoda behind, the dry-stacked grey granite wall in the distance, cold grey daylight"
+    },
+    "LOC_002_hall": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_interior",
+      "use": "D5 tối (đèn dầu)",
+      "sc": "5 SC: 275–277, 279–280",
+      "lock": "Interior of a Goguryeo commander's timber hall at night, 612 AD: dark wooden floor, thick round wooden pillars with faded red lacquer, low black lacquered table with a leather map painted in ink, woven reed mats, a rack of spears and composite bows, bronze incense burner, clay oil lamps giving warm yellow light, latticed wooden windows shuttered, a black three-legged crow banner on the wall, smoke haze"
+    },
+    "LOC_002_westwall": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_detail",
+      "use": "D5 sáng",
+      "sc": "2 SC: 269, 274",
+      "lock": "On a rectangular protruding bastion of the west wall of the Goguryeo fortress: dry-stacked grey granite parapet with arrow slits, a black three-legged crow banner on a tall bamboo pole, and beyond the wall an ocean of grey felt Sui tents with red and yellow banners covering the trampled yellow plain to the horizon under a pale silver sky"
+    },
+    "LOC_002_siege_works": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_wide",
+      "use": "D5 sáng",
+      "sc": "1 SC: 264",
+      "lock": "The yellow plain west of the Goguryeo fortress: Sui soldiers digging a ditch and raising earth banks, wooden watchtowers going up, the raw timber frames of siege towers being assembled, grey felt tents in grid rows behind, dry-stacked grey granite fortress walls with rectangular bastions and a timber gate tower in the background, cold grey sky"
+    },
+    "LOC_002_eastgate_widened": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_detail",
+      "use": "2화 P9–P12 ngày/đêm, 3화 P1 khi rời thành",
+      "sc": "2화 SC_179, 182–183, 195",
+      "lock": "East gate of the Goguryeo fortress after widening: a narrow stone gate passage in dry-stacked grey granite walls whose arch has been chiseled half a meter wider on both sides, the freshly cut stone pale white against the weathered grey blocks, a packed-earth ramp built up outside the gate, stone chips and wooden scaffolding poles at the base, two-leaf iron-sheathed wooden doors, black three-legged crow banners"
+    },
+    "LOC_002_chi_southeast": {
+      "loc": "LOC_002_YODONGSEONG",
+      "ref": "LOC_002_detail",
+      "use": "2화 vị trí K2 \"고지\" (ngày + đêm)",
+      "sc": "2화 SC_182, 184, 204, 226",
+      "lock": "The south-east bastion of the Goguryeo fortress: a rectangular protruding bastion of dry-stacked grey granite with a chiseled soot-blackened firing notch in its parapet, an earth ramp behind it inside the wall, stone range markers on the trampled yellow field to the south, Sui siege works and siege towers beyond, black three-legged crow banner"
+    },
+    "LOC_003": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "(lock gốc — dùng cho aerial thung lũng)",
+      "sc": "—",
+      "lock": "Hidden mechanized company base in a shallow oak-scrub valley of dry yellow grass: one K2 tank and three K21 IFVs in three-tone green-brown-black camouflage under camouflage netting, olive-green Korean army tents pitched beside brown hemp Goguryeo tents with wooden poles, sandbagged mortar pits, cold blue-hour light, dim red lamplight inside the command tent"
+    },
+    "LOC_003_steppe": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_steppe_d1",
+      "use": "D1 (trước khi có lưới)",
+      "sc": "17 SC: 001–005, 011–012, 022–026, 030–034",
+      "lock": "Open flat steppe of dry knee-high yellow grass to the horizon under a cold pale grey sky, grass bending in one direction under constant wind, drifting yellow dust, no trees, no hills, no buildings, a fifty-meter stub of modern asphalt road ending abruptly in the grass as if cut with a knife, modern South Korean army vehicles in three-tone green-brown-black camouflage parked on it"
+    },
+    "LOC_003_hollow": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_hollow_d1",
+      "use": "D1 trưa–chiều / D3 chiều (có lưới)",
+      "sc": "27 SC: 035–044, 048–052, 061, 075–076, 078, 082–087, 096, 098",
+      "lock": "A shallow grassy hollow in the open yellow steppe, dry knee-high yellow grass bending under constant wind, a low grassy rise to the east, drifting yellow dust under a cold pale grey sky, modern South Korean army vehicles in three-tone green-brown-black camouflage parked under green-brown camouflage netting, no trees, no buildings"
+    },
+    "LOC_003_gully": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_hollow_d1",
+      "use": "D1 chiều",
+      "sc": "13 SC: 062–074",
+      "lock": "A narrow dry gully cutting through the yellow steppe east of the hollow: a bed of pale grey river cobbles, low walls of grey rock and crumbling earth, dry yellow grass along the rim bending in wind, cold grey light, no trees"
+    },
+    "LOC_003_ridge_sunset": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_hollow_d1",
+      "use": "D3 hoàng hôn",
+      "sc": "25 SC: 105–129",
+      "lock": "The open yellow steppe at sunset: a long low grassy ridge to the east backlit by a low amber sun, dry knee-high yellow grass glowing orange, long shadows, drifting dust lit gold, a shallow hollow below with modern South Korean army vehicles in three-tone green-brown-black camouflage"
+    },
+    "LOC_003_trail": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "D3 đêm",
+      "sc": "1 SC: 144",
+      "lock": "A dirt trail at night skirting low hills of bare oak scrub and dry yellow grass into a shallow valley, thin moonlight, dark oak thickets on the slopes above"
+    },
+    "LOC_003_tent": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_detail",
+      "use": "D4 đêm (đèn đỏ)",
+      "sc": "5 SC: 157, 162–164, 167",
+      "lock": "Inside a modern South Korean army command tent at night, dim red tactical lamplight: a steel folding table with a paper topographic map weighted by a cracked military tablet and a PRC-999K backpack radio with handset, a hand-written tally board of ammunition and fuel numbers on a plank, stacked olive-green ammunition cans, a quadcopter drone battery charging from a cable that runs out under the tent flap, a Goguryeo clay water jar and a bronze oil lamp on the earth floor, faint yellow dust in the air"
+    },
+    "LOC_003_tent_ext": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "D4 đêm",
+      "sc": "18 SC: 156, 161, 166, 168, 177–186, 189–192",
+      "lock": "Outside the olive-green command tent of the hidden company base at night: a faint red glow through the tent flap, stacked olive-green ammunition cans, a boxy 4x4 command vehicle with antennas, camouflage netting, brown hemp Goguryeo tents with wooden poles beside the olive army tents, dry yellow grass, bare oak scrub on the dark slopes"
+    },
+    "LOC_003_medic": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "D4 đêm / D5 bình minh",
+      "sc": "3 SC: 158–159, 259",
+      "lock": "The aid station of the hidden company base at night: a canvas awning off an olive-green army tent, a folding stretcher on olive ammunition cans, a headlamp and a shaded red lamp, camouflage netting, brown hemp Goguryeo tents beside, dry yellow grass, dark oak scrub slopes"
+    },
+    "LOC_003_hearth": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "D4 đêm (lửa bếp)",
+      "sc": "3 SC: 160, 172–173",
+      "lock": "A Goguryeo stone hearth fire at the hidden company base at night: a ring of grey stones, a clay pot over orange flames, brown hemp Goguryeo tents with wooden poles beside olive-green army tents, camouflage netting over dark vehicle shapes behind, dry yellow grass, bare oak scrub"
+    },
+    "LOC_003_mortar": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "D4 đêm",
+      "sc": "4 SC: 170–171, 204–205",
+      "lock": "A sandbagged mortar pit on a small grassy knoll at the south end of the hidden valley base at night: two 81mm mortars on bipods, round baseplates, olive ammunition cans, a range card on a stake, dry yellow grass, dark oak scrub slopes, the valley below"
+    },
+    "LOC_003_k2": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "D4/D5 đêm (trăng mỏng)",
+      "sc": "7 SC: 165, 175–176, 187–188, 290–291",
+      "lock": "The hidden company base at night: a K2 tank under green-brown camouflage netting in a shallow valley of dry yellow grass, thin moonlight on the netting, bare oak scrub on the dark slopes, olive-green army tents and brown hemp Goguryeo tents beyond"
+    },
+    "LOC_003_mouth": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "D4 đêm trận",
+      "sc": "17 SC: 194–197, 208–209, 211–213, 219, 221–223, 231, 233, 246, 252",
+      "lock": "The mouth of the hidden valley at night: dry yellow grass, bare oak scrub on low hills either side, a stony stream bed, modern South Korean army vehicles in three-tone green-brown-black camouflage waiting under thin moonlight, the dark steppe and the distant fortress beyond"
+    },
+    "LOC_003_ford": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_ford_night",
+      "use": "D4 đêm trận (Phase 1–3)",
+      "sc": "3 SC: 202, 206, 224",
+      "lock": "A shallow stream ford north of the valley mouth at night: a bed of pale grey cobbles under a hand's depth of black water, wide banks of dark grey mud on both sides, dry yellow reeds and grass, a low grassy ridge rising to the north, thin moonlight"
+    },
+    "LOC_003_ford_northbank": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_ford_night",
+      "use": "D4 đêm trận (Phase 3–4)",
+      "sc": "11 SC: 225–229, 235–238, 240–241",
+      "lock": "The north bank of the stream ford at night: deep dark grey mud churned and glistening, tufts of dry yellow grass, the cobble ford and black water behind, a low grassy ridge rising to the north under thin moonlight"
+    },
+    "LOC_003_northridge": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_ford_night",
+      "use": "D4 đêm (phía địch)",
+      "sc": "5 SC: 169, 174, 210, 214, 242",
+      "lock": "A low grassy ridge north of the valley at night: dry knee-high yellow grass under thin moonlight, bare oak scrub, the dark hollow of a valley below with a faint red glow leaking through camouflage netting"
+    },
+    "LOC_003_hill_ford": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_ford_night",
+      "use": "D4 đêm (tổ trinh sát + 300 kỵ)",
+      "sc": "10 SC: 193, 198–199, 203, 207, 218, 220, 230, 232, 234",
+      "lock": "A grassy hill above the stream ford at night: dry knee-high yellow grass, bare oak scrub, the pale cobble ford and its dark mud banks visible below, a low ridge to the north, thin moonlight"
+    },
+    "LOC_003_westrim": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "D4 đêm (đốm lửa)",
+      "sc": "2 SC: 200–201",
+      "lock": "The western rim of the hidden valley at night: dry yellow grass and bare oak scrub on the crest, and beyond it the whole dark plain covered with tens of thousands of Sui campfires like a field of fallen stars to the horizon, the black mass of the Goguryeo fortress in between"
+    },
+    "LOC_003_dawn": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "D4/D5 bình minh",
+      "sc": "11 SC: 145–147, 254–258, 260–262",
+      "lock": "The hidden company base at cold grey dawn: modern South Korean army vehicles in three-tone green-brown-black camouflage under camouflage netting in a shallow valley of dry yellow grass, thin mist on the ground, dew on the netting, bare oak scrub on the slopes, olive-green army tents beside brown hemp Goguryeo tents, a stony stream bed"
+    },
+    "LOC_003_rim_day": {
+      "loc": "LOC_003_CHEONDUNG_BASE",
+      "ref": "LOC_003_wide",
+      "use": "D5 sáng",
+      "sc": "1 SC: 273",
+      "lock": "The eastern rim of the hidden valley by day: dry yellow grass and bare oak scrub, and in the distance the Goguryeo fortress of dry-stacked grey granite on its low rise with black banners, the yellow plain beyond it covered with grey felt Sui tents to the horizon under a pale grey sky"
+    },
+    "LOC_004": {
+      "loc": "LOC_004_YUKHAPSEONG",
+      "ref": "LOC_004_wide",
+      "use": "(lock gốc 육합성 — 2화+)",
+      "sc": "—",
+      "lock": "Sui emperor's prefabricated mobile fortress on trampled yellow plain: six-meter walls of timber panels faced with grey-painted hemp cloth imitating brick, red-lacquered wooden watchtowers at corners, a central pavilion with golden silk roof and red pillars on a three-step wooden dais, red and yellow banners, thousands of grey felt tents to the horizon around it"
+    },
+    "LOC_004_parade": {
+      "loc": "LOC_004_YUKHAPSEONG",
+      "ref": "LOC_004_wide",
+      "use": "1화 P1 탁군 sáng chói",
+      "sc": "3 SC: 007–008, 010",
+      "lock": "A vast packed-earth parade ground at dawn, 612 AD: tens of thousands of Sui infantry in mingguang armor with polished round chest plates standing in square blocks to the horizon, huge red-lacquered war drums with gold patterns on wooden frames either side of a red-lacquered timber reviewing platform, red and yellow silk banners with black tassels, low bright sun through dust haze"
+    },
+    "LOC_004_pavilion_ext": {
+      "loc": "LOC_004_YUKHAPSEONG",
+      "ref": "LOC_004_wide",
+      "use": "D5 đêm hành doanh (chưa 육합성)",
+      "sc": "2 SC: 281, 289",
+      "lock": "The Sui emperor's traveling court on the west bank of the Liao River at night: a huge pavilion tent with a golden silk roof and red pillars raised on a wooden dais, yellow and red silk drapes, rows of burning torches on tall poles, hundreds of eunuchs in grey-blue silk robes lining the approach, red and yellow banners, an ocean of grey felt tents with campfires to the horizon"
+    },
+    "LOC_004_pavilion_int": {
+      "loc": "LOC_004_YUKHAPSEONG",
+      "ref": "LOC_004_detail",
+      "use": "D5 đêm (đèn lồng vàng)",
+      "sc": "7 SC: 282–288",
+      "lock": "Interior of the Sui emperor's field pavilion at night: a carved wooden throne lacquered red and gilded on a three-step dais, a silk folding screen painted with mountains and rivers, red lacquered pillars, yellow silk drapes moving in wind, a large bronze incense burner with rising smoke, silk lanterns giving rich golden light, a red carpet below the dais, a clay sand-table model of a stone fortress on a low table, a large silk map, a sword rack"
+    },
+    "LOC_006_hall": {
+      "loc": "LOC_006_PYONGYANG",
+      "ref": "LOC_006_interior",
+      "use": "D5 tối (1 still 영양왕)",
+      "sc": "1 SC: 278",
+      "lock": "Interior of the Goguryeo royal audience hall at Pyongyang at night in monsoon rain, 612 AD: a long timber hall with thick round pillars lacquered deep red, dark wooden floor, a plain black lacquered throne with gold trim on a low two-step dais, a painted silk folding screen behind it, bronze incense burners with rising smoke, clay and bronze oil lamps giving dim warm light, a large black three-legged crow banner on a yellow field hanging behind the throne, latticed wooden doors open onto a rain-soaked stone courtyard and veranda, low tables with a leather map and a rack of composite bows, wet grey-blue light from outside mixing with warm lamplight inside"
+    },
+    "LOC_006_hall_dry": {
+      "loc": "LOC_006_PYONGYANG",
+      "ref": "LOC_006_interior",
+      "use": "1화 SC_278 (still vua viết chiếu — 3월, không mưa)",
+      "sc": "1화 SC_278",
+      "lock": "Interior of the Goguryeo royal audience hall at Pyongyang at night, 612 AD: a long timber hall with thick round pillars lacquered deep red, dark wooden floor, a plain black lacquered throne with gold trim on a low two-step dais, a painted silk folding screen behind it, bronze incense burners with rising smoke, clay and bronze oil lamps giving dim warm light, a large black three-legged crow banner on a yellow field hanging behind the throne, latticed wooden doors closed, low tables with a leather map, brush and ink stone"
+    },
+    "LOC_007_reeds": {
+      "loc": "LOC_007_SALSU",
+      "ref": "LOC_007_detail",
+      "use": "4화/5화 medium–cận trong bãi lau bờ bắc (hố cát)",
+      "sc": "4화 P1/P6/P10, 5화 P1–P9",
+      "lock": "Inside a dense wet reed bed on the north bank of a wide shallow river: tall grey-green reeds with pale feathered tops, wet grey-brown sand, sandbagged fighting holes at the base of the stalks, brown river water showing between the reeds, river mist, monsoon rain"
+    },
+    "LOC_007_reed_island": {
+      "loc": "LOC_007_SALSU",
+      "ref": "LOC_007_detail",
+      "use": "4화 đảo lau (đại đội + K2 nằm im), đêm trống-đuốc",
+      "sc": "4화 P1–P8, P10",
+      "lock": "A low reed island in a wide shallow river at dusk: two-meter grey-green reeds on wet grey-brown sand surrounded by knee-deep brown water, a K2 tank buried under cut reeds and camouflage netting, sandbagged holes, river mist, rain, the far banks lost in grey"
+    },
+    "LOC_007_throat": {
+      "loc": "LOC_007_SALSU",
+      "ref": "LOC_007_wide",
+      "use": "5화 cổng họng bãi — khe 60 m, K2 chắn khe (P10)",
+      "sc": "5화 SC_021, 197–251",
+      "lock": "The throat of the ford: a sixty-meter gap of chest-deep brown water between a dense reed bed on the west and a steep slick mud bank on the east, the only way up from the wide shallow ford to the north sandflat, a line of leaning wooden ford stakes, monsoon rain, river mist"
+    },
+    "LOC_007_throat_k2": {
+      "loc": "LOC_007_SALSU",
+      "ref": "LOC_007_wide` + `K2_ep5",
+      "use": "5화 P10 Phase 2–5: K2 chết máy giữa khe",
+      "sc": "5화 SC_206–249",
+      "lock": "A mud-caked K2 Black Panther tank stalled broadside in the middle of a sixty-meter gap of chest-deep brown river water between a reed bed and a steep mud bank, tilted slightly with its tracks sunk in sand, a rainbow oil slick spreading downstream from its hull, thousands of Sui soldiers packed in the water below it and on the sandflat above it, monsoon rain"
+    },
+    "LOC_007_small_bar": {
+      "loc": "LOC_007_SALSU",
+      "ref": "LOC_007_detail",
+      "use": "5화 mô cát nhỏ cách K2 30 m (Phase 3–5)",
+      "sc": "5화 SC_222–247",
+      "lock": "A small wet grey-brown sandbar beside the throat of the ford, a dead steppe horse lying on it, broken arrows and a fallen red Sui banner in the wet sand, brown river water on three sides, the reed bed behind, rain"
+    },
+    "LOC_007_mid_bar": {
+      "loc": "LOC_007_SALSU",
+      "ref": "LOC_007_wide",
+      "use": "5화 mô cát giữa sông — cờ 우중문, mục tiêu 6 viên; mô cát lở",
+      "sc": "5화 SC_062, 076–086, 236",
+      "lock": "A long low sandbar in the middle of a wide shallow river, crowded with Sui soldiers in mingguang armor and a cluster of tall red and yellow banners around mounted generals, brown water rising over its edges, collapsing sand at one end, monsoon rain, grey river mist"
+    },
+    "LOC_007_upstream_bar": {
+      "loc": "LOC_007_SALSU",
+      "ref": "LOC_007_wide",
+      "use": "5화 mô cát thượng lưu 1,5 km đông — đường lội bí mật Goguryeo",
+      "sc": "5화 SC_026, 111, 2xx",
+      "lock": "A hidden crossing one and a half kilometers upstream: a chain of low sandbars under belly-deep brown water between reed beds, willow scrub on the banks, Goguryeo cataphracts wading in a long file, low green hills behind, rain and mist"
+    },
+    "LOC_007_north_flat": {
+      "loc": "LOC_007_SALSU",
+      "ref": "LOC_007_wide",
+      "use": "5화 bãi cát bắc → đồi thấp bắc (2.000 kỵ Tiên Ti)",
+      "sc": "5화 P7, P10 Phase 2",
+      "lock": "A wide wet grey-brown sandflat on the north bank of a shallow river rising to low bare hills, trampled reeds, hoofprints filling with rain, a dark mass of steppe horsemen on the hill crest, monsoon rain, grey light"
+    },
+    "LOC_007_south_knoll": {
+      "loc": "LOC_007_SALSU",
+      "ref": "LOC_007_wide",
+      "use": "5화 gò nam — 을지문덕, cờ đỏ, 나각",
+      "sc": "5화 SC_004, 111, 184, 208–211",
+      "lock": "A grassy knoll on the south bank above a wide shallow river in monsoon rain: wet green grass, a few wind-bent pines, Goguryeo armored guards and a banner bearer, the wide grey river and its sandbars below crowded with crossing troops, low cloud"
+    },
+    "LOC_007_aftermath": {
+      "loc": "LOC_007_SALSU",
+      "ref": "LOC_007_finale_light",
+      "use": "5화 P11–P12 nước rút, nắng",
+      "sc": "5화 SC_281–283",
+      "lock": "The ford days after the battle in sunshine: the river has dropped, wide dry grey-brown sandflats exposed and cracking, the throat of the ford only a shallow channel, a burned tank lying tilted in the sand, broken spears, fallen Sui banners and drying mud everywhere, flattened scorched reeds, birds, a clear pale sky"
+    },
+    "LOC_008_steppe": {
+      "loc": "LOC_008_GOGURYEO_VILLAGE",
+      "ref": "LOC_008_steppe_ep1",
+      "use": "D3 chiều (đoàn dân)",
+      "sc": "11 SC: 079–081, 088–089, 091–092, 094–095, 099–100",
+      "lock": "Open yellow steppe south-east of the Liao River in early spring: dry knee-high yellow grass bending in one direction under constant wind, low rolling grassy hills, drifting yellow dust, a column of black smoke from a burned village far on the horizon, cold pale grey sky, no trees"
+    },
+    "LOC_008_hill": {
+      "loc": "LOC_008_GOGURYEO_VILLAGE",
+      "ref": "LOC_008_steppe_ep1",
+      "use": "D3 chiều–hoàng hôn (탁발흠)",
+      "sc": "7 SC: 090, 093, 097, 101–104",
+      "lock": "A low grassy hillside above the open yellow steppe in early spring: dry knee-high yellow grass bending under constant wind, drifting yellow dust, the flat steppe below, cold pale grey sky, no trees"
+    },
+    "LOC_010": {
+      "loc": "LOC_010_CHEORWON_NIGHT",
+      "ref": "LOC_010_wide",
+      "use": "D0 đêm 철원 (flashback)",
+      "sc": "9 SC: 013–021",
+      "lock": "A frozen dirt road at night between low hills of dark pine forest in the Korean highlands in winter: frost on the ruts, patches of old snow under the pines, bare oak among the pines, a cold blue-grey night sky, no power lines, no buildings, no lights except vehicle headlights"
+    }
   }
 }

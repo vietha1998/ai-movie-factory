@@ -106,3 +106,10 @@
 
 ## 2026-09-16 · sau packaging 2화/4화
 - series_titles.md dự phòng 2화 "20대" → "40대" (khớp script). Title 4화 49 ký tự → GIỮ (đã duyệt). Thumbnail 4화 không lộ 태극기 → GIỮ (chủ đề ẩn nấp; alternate 탁발흠 kính đêm dùng A/B test).
+
+## 2026-09-16 · sau bible/ledger v3
+- K4 (WPN_006) không xuất hiện 5 tập → CHẤP NHẬN "bỏ lại/cháy cùng xe tải 3화, không nhắc" (không thêm N).
+- LOC_010_wide: dùng bản BIBLE (locations/ref_jobs.json); xóa khỏi extra/ref_jobs_ep1_extra.json.
+- PROP_026 nút bầu: không ref; thêm nếu QC ảnh drift.
+- Kính đêm thứ 2 của 탁발흠 → về tây theo 선비 부장 (hạt series 2 「613」) — ledger ghi.
+- K3/K6 lệch nhỏ: ledger là chuẩn (1.800 / −600 †).

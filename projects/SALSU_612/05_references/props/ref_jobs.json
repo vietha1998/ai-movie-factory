@@ -158,5 +158,25 @@
       "aspect_ratio": "16:9"
     },
     "ref_name": "sui_rations"
+  },
+  {
+    "id": "PROP_024_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Goguryeo signal banner of 612 AD, three-quarter view, a large plain red silk banner about one and a half by two and a half meters on a long bamboo pole, shown twice: on the left rolled tightly around the pole and tied with hemp cord, on the right unfurled and hanging loose, no emblem, no border, no writing, wet silk, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "red_signal_flag"
+  },
+  {
+    "id": "PROP_025_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a military thermite incendiary grenade, three-quarter view, a grey cylindrical steel body about twelve centimeters tall with a grey lid, faded illegible stencil marks, a steel safety lever and pull ring on top, a short olive canvas strap looped around the body, slight scuffs and dried mud, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "thermite_grenade"
   }
 ]

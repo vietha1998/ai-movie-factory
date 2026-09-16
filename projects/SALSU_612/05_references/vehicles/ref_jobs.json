@@ -13,7 +13,7 @@
     "id": "VEH_001_ep5",
     "type": "image",
     "body": {
-      "prompt": "Product-style reference photo of a battle-worn South Korean K2 Black Panther main battle tank, three-quarter front-left view, low angular wedge-shaped turret, long 120mm gun depressed low, hull caked in wet grey-brown river mud up to half its height, left side scorched black, one side skirt panel missing, reeds and broken arrow shafts stuck in the stowage basket, one headlight smashed, commander's hatch open, faded three-tone green-brown-black camouflage showing through the mud, small white numeral 1 and small Korean flag half hidden under mud, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "prompt": "Product-style reference photo of a destroyed South Korean K2 Black Panther main battle tank, three-quarter front-left view, hull tilted ten degrees and sunk to half its height in cracked dry grey-brown river mud, low angular wedge-shaped turret scorched black with heat-discolored blue-brown steel around the open commander's hatch, long 120mm gun depressed low, one side skirt panel missing, broken arrow shafts stuck on the roof and in the stowage basket, one headlight smashed, faded three-tone green-brown-black camouflage showing through mud and soot, small white numeral 1 and small Korean flag half hidden under dried mud on the turret side, a small scorched olive-drab steel nameplate with a scratched white numeral 3 lying on the turret edge beside the numeral 1, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
       "model": "nano_banana_pro",
       "aspect_ratio": "16:9"
     },
@@ -238,6 +238,16 @@
       "aspect_ratio": "16:9"
     },
     "ref_name": "xianbei_cavalry"
+  },
+  {
+    "id": "VEH_207_ref",
+    "type": "image",
+    "body": {
+      "prompt": "Product-style reference photo of a Sui dynasty cavalry general of 612 AD mounted on a tall black Han war horse, three-quarter front-left view, the horse with a trimmed upright mane, high-pommel and high-cantle wooden saddle with iron stirrups, red silk caparison with a gold border and red tassels under the jaw, gilded bronze harness fittings, the rider in mingguang iron lamellar armor with two polished round chest plates and gilded edges, a red silk cloak, a pointed iron helmet with a red tassel crest, straight sword at the hip, holding a long spear with a small red pennant, beside him a dismounted Sui cavalryman in plain iron lamellar armor holding a grey horse with a simple leather breast strap and no silk, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "sui_cavalry"
   },
   {
     "id": "WPN_201_ref",

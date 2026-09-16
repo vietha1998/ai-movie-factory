@@ -228,5 +228,15 @@
       "aspect_ratio": "16:9"
     },
     "ref_name": "loc-009-aftermath"
+  },
+  {
+    "id": "LOC_010_wide",
+    "type": "image",
+    "body": {
+      "prompt": "Wide establishing shot at night, winter in the Korean highlands, present day: a frozen dirt road between low hills of dark pine forest, frost on the ruts, patches of old snow under the pines, bare oak among the pines, a cold blue-grey night sky, a column of modern South Korean army vehicles in three-tone green-brown-black camouflage halted on the road with headlights cutting through the breath-fog of soldiers, a K2 main battle tank at the head, three K21 infantry fighting vehicles, two six-wheeled cargo trucks and a boxy 4x4 command vehicle at the rear, dim red light leaking from one truck bed, a silent fork of dry lightning across the sky with no rain, no power lines, no buildings, no lights except the vehicle headlights, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-010-wide"
   }
 ]
