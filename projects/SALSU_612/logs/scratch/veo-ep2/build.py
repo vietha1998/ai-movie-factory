@@ -521,7 +521,7 @@ def build_scene(s, sc):
         "narration_ko": sc["nar"], "dialogue_ko": sc["dlg"], "sound": sc["sound"], "combat": sc["combat"],
         "continuity": s.get("cont", ""),
         "chain_from": s.get("chain"), "cut_half": bool(s.get("cut", False)),
-        "aerial_quality": bool(s.get("aerial", False)), "ai_risk": s.get("risk", ""),
+        "aerial_quality": bool(s.get("aerial", False)), "ai_risk": ("" if s.get("risk", "") in ("", "—") else s["risk"]),
         "overlay_text": s.get("overlay"),
         "refs": [] if edit_only else refs,
         "image_body": None if edit_only else {

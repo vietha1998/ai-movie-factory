@@ -26,8 +26,8 @@ IMAGE_PROMPT: Close-up profile, static camera (keyframe = beat B). 17-year-old G
 VIDEO_PROMPT: Beat A (0–3 s): frame held on pure black, only a slow heavy wooden creak repeating far away. Beat B (3–8 s): cut to the boy's profile in fog, static camera; his head turns a few degrees toward the sound, breath fogging, eyes narrowing; no one else enters. Sound: rhythmic heavy wooden creaking far off, faint wind, no music.
 ACTION_START: black frame → boy's profile listening
 ACTION_END: boy's head turned further toward the fog, breath steaming
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: cót két gỗ nặng đều nhịp, gió nhẹ, không nhạc.
 CONTINUITY: Mở tập: D25 rạng sáng sương đặc, tường nam 치. 소년 척후 (1화) nay có mũ da. 2-BEAT 3+5 s.
 CHAIN_FROM: —
@@ -42,7 +42,7 @@ IMAGE_PROMPT: Medium tracking shot along the parapet, single lateral move. 17-ye
 VIDEO_PROMPT: Camera tracks beside the boy as he walks the parapet, hand on the stone; he stops at the sleeping sentry, shakes his shoulder, points into the fog and says one line; the sentry jerks awake, face still down. Sound: layered wooden creaking closer now, armor scraping stone, a man waking, one line of Korean dialogue.
 ACTION_START: boy walking along parapet, hand on stone
 ACTION_END: boy pointing into fog, sentry half-risen
-NARRATION_KO: —
+NARRATION_KO: 
 DIALOGUE_KO: 소년 척후: 일어나시오. 소리가… 여럿이오.
 SOUND: cót két thành nhiều lớp chồng nhau, giáp va đá, tiếng người tỉnh giấc.
 CONTINUITY: Nối SC_001 cùng tường sương. Mặt 초병 khuất. Tiếng cót két nhiều lớp.
@@ -57,8 +57,8 @@ IMAGE_PROMPT: Low angle tilting up from a giant wooden wheel to the top of a sie
 VIDEO_PROMPT: Beat A (0–4 s): insert — the great wheel turning slowly in fog, feet pushing behind it. Beat B (4–8 s): camera tilts slowly up from the wheel along the wet black hide to the tower top with its red banner standing higher than the parapet in the foreground fog. Sound: wheel grinding, rope creaking, the breathing of hundreds of men pushing.
 ACTION_START: wheel filling frame (insert) / camera at wheel level
 ACTION_END: tilted up, tower top and red banner above the parapet line
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: bánh gỗ nghiến đất, dây gai kẽo kẹt, tiếng thở của hàng trăm người đẩy.
 CONTINUITY: Tháp da trâu ướt (TOWER_HIDE). Đỉnh tháp CAO HƠN lan can. 2-BEAT 4+4 s. Hàng chục bàn chân trần đẩy.
 CHAIN_FROM: —
@@ -73,7 +73,7 @@ IMAGE_PROMPT: Medium shot, static, slight low angle. 17-year-old Goguryeo boy sc
 VIDEO_PROMPT: Static: the boy strikes the drum twice, hard; on the second stroke a crossbow bolt thuds into the drum post beside his hand and vibrates; he freezes, the sentry beside him shouts one line into the fog and points. Sound: two heavy drum strokes, a bolt striking wood, a shout, then Sui drums answering from far out in the fog.
 ACTION_START: boy raising the drumstick
 ACTION_END: bolt quivering in the post, sentry pointing and shouting
-NARRATION_KO: —
+NARRATION_KO: 
 DIALOGUE_KO: 고구려 초병: 탑이다! 탑이 왔다!
 SOUND: trống hai tiếng nặng, mũi nỏ cắm gỗ, tiếng gào, rồi trống Tùy nổi lên từ xa đáp lại.
 CONTINUITY: Mũi nỏ Tùy đầu tiên (0:24). Trống Goguryeo PROP_017. Mặt 초병 quay đi.
@@ -88,7 +88,7 @@ IMAGE_PROMPT: Low-angle tracking up a stone stair, single move. @CHAR_001_ref: 3
 VIDEO_PROMPT: Camera tracks up the stair behind and below the two men as they climb fast; at the top the sergeant lifts the binoculars, the captain asks one short question without turning. Sound: boots on stone, armor, Sui drums now from several directions, one line of Korean dialogue.
 ACTION_START: two men at the bottom of the stair starting to climb
 ACTION_END: both at the parapet, binoculars up, captain speaking
-NARRATION_KO: —
+NARRATION_KO: 
 DIALOGUE_KO: 한승우: 탑이… 몇 개입니까?
 SOUND: giày trên đá, giáp, trống Tùy mỗi lúc một nhiều hướng.
 CONTINUITY: 한승우 bụi nhẹ (3 tuần), 백성민 sơn mặt loang. Chưa có băng tay (P3+).
@@ -103,7 +103,7 @@ IMAGE_PROMPT: Binocular POV: circular double-lens mask, slow pan right. hundreds
 VIDEO_PROMPT: Through the binocular mask the camera pans slowly right as the fog thins: one tower, two, then a receding line of them, figures swarming at their bases; the image shakes very slightly as if handheld; a flat voice speaks one line. Sound: wind tearing the fog, drums, the murmur of thousands of men pushing, one line of Korean dialogue.
 ACTION_START: one tower barely visible in fog
 ACTION_END: a line of towers revealed, farthest as shadows
-NARRATION_KO: —
+NARRATION_KO: 
 DIALOGUE_KO: 백성민: 스물. 아니, 더.
 SOUND: gió cuốn sương, trống, tiếng người đẩy vọng lên.
 CONTINUITY: POV ống nhòm 백성민 (mask tròn, không HUD). Sương loãng dần. Tháp da đen.
@@ -119,7 +119,7 @@ VIDEO_PROMPT: KEN-BURNS (6 s): slow pull-out from a few tower tops in fog to the
 ACTION_START: tight on tower tops in fog
 ACTION_END: whole plain, fortress and tower line revealed
 NARRATION_KO: 612년 4월. 요동성. 수 양제의 공성 무기가 요동성 앞에 도착했습니다. 요하를 건넌 지 스무 날 남짓이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống Tùy khắp đồng bằng, gió trên cao.
 CONTINUITY: Narrator vào 0:48 '612년 4월. 요동성.' Aerial cao, không mặt.
 CHAIN_FROM: —
@@ -134,7 +134,7 @@ VIDEO_PROMPT: KEN-BURNS (6 s): slow drift from the wheels up to the drop-bridge 
 ACTION_START: wheels at the bottom of the drawing
 ACTION_END: drop-bridge at the top
 NARRATION_KO: 팔륜누차. 바퀴가 여덟, 층이 넷. 성벽보다 높았습니다. 앞면은 젖은 소가죽으로 덮었습니다. 불화살이 붙지 않게 하기 위해서였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống nền xa, bút lông.
 CONTINUITY: Bản vẽ binh thư — chữ mờ/không có (decisions #6). Tham chiếu hình dáng VEH_201.
 CHAIN_FROM: —
@@ -149,7 +149,7 @@ VIDEO_PROMPT: KEN-BURNS (6 s): slow vertical drift from the ram and ladder above
 ACTION_START: ram and ladder above ground
 ACTION_END: tunnel cross-section below ground
 NARRATION_KO: 충차, 운제. 그리고 땅 밑으로는 굴이 파이고 있었습니다. 위에서 보이는 것만이 공성이 아니었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: bút lông, rồi tiếng cuốc rất khẽ dưới đất.
 CONTINUITY: Foreshadow hầm (P10 SC_230–231). Chữ không có.
 CHAIN_FROM: —
@@ -164,7 +164,7 @@ VIDEO_PROMPT: Camera low, tracking slowly backward with a basket of earth passed
 ACTION_START: basket lifted at the earth face
 ACTION_END: basket passed toward camera, post wedged in behind
 NARRATION_KO: 굴은 밤에만 팠습니다. 흙은 자루에 담아 멀리 버렸습니다. 성 위에서는 아무것도 보이지 않았습니다. 그것이 굴의 목적이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: cuốc, thở, gỗ nêm, nước nhỏ giọt; trống trên mặt đất nghe ù.
 CONTINUITY: Hầm Tùy đào đêm (narration). Không mặt rõ, lưng và tay.
 CHAIN_FROM: —
@@ -194,7 +194,7 @@ VIDEO_PROMPT: Static wide: the fog rips away in one long gust revealing the whol
 ACTION_START: last fog still hiding half the line
 ACTION_END: full line of forty towers revealed, wall silent
 NARRATION_KO: 안개가 걷혔습니다. 탑은 스물이 아니었습니다. 마흔이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió mạnh, trống dồn, rồi im một nhịp.
 CONTINUITY: Kết P1: '마흔이었습니다.' Bốn mươi tháp da đen. Máy sau lưng 3 người.
 CHAIN_FROM: —
@@ -212,7 +212,7 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow pull-out from the fortress to reveal the te
 ACTION_START: fortress centered
 ACTION_END: felled forest and earth heaps in frame, east hills empty
 NARRATION_KO: 이 땅에 온 지 삼 주였습니다. 포위는 스무 날째였습니다. 수나라는 숲 하나를 베어 탑을 만들었습니다. 성 뒤 골짜기는 지난달 밤 선비 척후에게 들켰습니다. 그 뒤로 스무 날, 아무도 오지 않았습니다. 이유는 아직 아무도 몰랐습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió trên cao, trống nhiều hướng, tiếng búa rất xa.
 CONTINUITY: Toàn vòng vây: tây/nam/bắc kín, ĐÔNG trống. Miệng hầm phía nam-tây. Thung lũng LOC_003 dưới tán sồi.
 CHAIN_FROM: —
@@ -227,7 +227,7 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in up the steps toward the wooden tall
 ACTION_START: whole pavilion and steps
 ACTION_END: tight on the raised tally and the emperor's fan
 NARRATION_KO: 황제는 요하 서안에 있었습니다. 성에서 백 리였습니다. 황제의 명령은 둘이었습니다. 나아가고 물러서는 것은 모두 짐에게 아뢰라. 고구려가 항복을 청하면 받아들이고, 치지 말라. 이 두 줄이 요동성을 지키고 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lụa gió, trống xa.
 CONTINUITY: Hành doanh bên 요하 (chưa 육합성 — lều vàng như 1화 P12). 양제 áo lụa không giáp. Thẻ = gỗ trơn, không chữ.
 CHAIN_FROM: —
@@ -242,7 +242,7 @@ VIDEO_PROMPT: Camera flies low and fast along the charging front rank toward the
 ACTION_START: front rank on the trampled grass
 ACTION_END: front rank reaching the filled moat with ladders
 NARRATION_KO: 해자는 흙 자루로 메워져 있었습니다. 탑이 자리를 잡기 전에 사다리가 먼저 왔습니다. 탑은 하루에 오 리를 갔습니다. 사다리는 사람의 걸음이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: hô đồng thanh, khiên va, ván đập nước.
 CONTINUITY: Đợt xung phong đầu = bộ binh + 운제, tháp chưa tới. Hào lấp bao đất.
 CHAIN_FROM: —
@@ -257,7 +257,7 @@ VIDEO_PROMPT: Static behind the defenders: arrows go down in a volley, the bould
 ACTION_START: archers drawing, cauldron being lifted
 ACTION_END: ladder toppling away, steam clearing
 NARRATION_KO: 고구려는 이백 년 동안 이 성을 지켜 온 사람들이었습니다. 돌과 물과 화살. 그것이 그들의 순서였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: dây cung hàng loạt, đá đập thang, nước sôi xèo, thét dưới hào.
 CONTINUITY: '돌과 물과 화살' — Goguryeo tự giữ. Máy sau lưng, không thương vong cận.
 CHAIN_FROM: —
@@ -272,7 +272,7 @@ VIDEO_PROMPT: Static close on the old stones as the ladders hit; blocks slip and
 ACTION_START: intact old wall face with ladders hitting
 ACTION_END: crack open, dust settling, soldiers stepped back
 NARRATION_KO: 담에는 약한 곳이 있었습니다. 이백 년 된 돌이었습니다. 수나라는 그곳을 알고 있었습니다. 사다리는 그곳에 몰렸습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: đá lăn, tiếng lính gọi nhau hoảng.
 CONTINUITY: Đoạn tường cũ góc tây-nam nứt → lý do cờ trắng. '이백 년 된 돌'.
 CHAIN_FROM: —
@@ -302,7 +302,7 @@ VIDEO_PROMPT: Camera at the foot of the wall tilts slowly up from the ladders to
 ACTION_START: ladders full of climbing men, cloth just appearing
 ACTION_END: white cloth unfurled above, men climbing down
 NARRATION_KO: 흰 천 하나가 올라갔습니다. 만 명이 멈췄습니다. 황제의 명령이 그렇게 시켰습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống ngừng đột ngột, thang gỗ kêu, tiếng hô "멈춰라" lan dần.
 CONTINUITY: 수 공성총관 lần đầu (EXTRA mới, ref cần tạo). Trống ngừng giữa nhịp.
 CHAIN_FROM: —
@@ -347,7 +347,7 @@ VIDEO_PROMPT: Camera starts on the seal pressed onto silk, lifts to the tube han
 ACTION_START: seal pressed on silk
 ACTION_END: courier galloping away into the tent-sea
 NARRATION_KO: 총관은 글을 썼습니다. 고구려가 항복을 청한다. 전령은 서쪽으로 백 리를 달렸습니다. 하루 길이었습니다. 답이 오는 데 또 하루였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: ngựa phi, lụa, tiếng tướng gầm sau lưng.
 CONTINUITY: Thẻ lụa không chữ đọc được. 전령 phi về tây 100리.
 CHAIN_FROM: —
@@ -362,7 +362,7 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow lateral drift following the dust plume west
 ACTION_START: dust plume near the fortress
 ACTION_END: dust plume small against the far river
 NARRATION_KO: 백만 대군이 사람 하나를 기다렸습니다. 황제가 모든 것을 직접 정했기 때문입니다. 그것이 수나라의 힘이었고, 그날은 수나라의 약점이었습니다. 요동성은 그 약점을 세 번째 쓰고 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió trên cao, một tiếng ngựa nhỏ.
 CONTINUITY: '백만 대군이 사람 하나를 기다렸습니다.' Aerial cao.
 CHAIN_FROM: —
@@ -407,7 +407,7 @@ VIDEO_PROMPT: Camera tracks sideways along the line of torches and carriers; the
 ACTION_START: carriers entering from the left, girl at the far end
 ACTION_END: girl reaching the scaffold, carriers continuing
 NARRATION_KO: 해가 지자 성이 움직였습니다. 군사만이 아니었습니다. 삼천 명의 피난민이 돌을 날랐습니다. 지난달 동문으로 들어온 사람들이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: đá đặt lên đá, thở, gọi nhau, đuốc cháy.
 CONTINUITY: 아리 chưa có khăn olive (hemp_scarf_ep2). 3.000 dân chạy nạn khiêng đá.
 CHAIN_FROM: —
@@ -437,7 +437,7 @@ VIDEO_PROMPT: Static: the two men heave the block up together, set it, straighte
 ACTION_START: both bent, hands on the block
 ACTION_END: block set, both turning back
 NARRATION_KO: 한승우는 돌을 들었습니다. 이 성은 그가 오기 전에도 지혜로웠습니다. 그가 가져온 것은 어깨 둘이었습니다. 그날 밤은 그것으로 충분했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: đá, thở, đuốc.
 CONTINUITY: Contrast bắt buộc: 태극기 vai PHẢI cạnh giáp lamellar. '어깨 둘'.
 CHAIN_FROM: —
@@ -452,13 +452,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in on the pale strip of new stone. Sou
 ACTION_START: whole wall face with the white cloth above
 ACTION_END: tight on the new pale stone
 NARRATION_KO: 역사는 이 일을 기록했습니다. 요동성은 무너질 때마다 항복을 청했고, 답이 오기 전에 담을 고쳤습니다. 한 번이 아니었습니다. 여러 번이었습니다. 흰 천 하나가 돌 백 개의 값을 했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: đuốc, gió, xa xa trống Tùy im.
 CONTINUITY: Tường đã vá; cờ trắng còn treo. Narration lịch sử.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: LOC_002_detail
-AI_RISK: —
 
 ### SC_030 | 3:54–4:02 | LOC_002 (LOC_002_sui_lines) | SUI_SIEGE_GENERAL | WPN_201 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot from behind the general looking at the fortress, then a slow push-in on his jaw, static base
@@ -497,7 +496,7 @@ VIDEO_PROMPT: Static: the carrier goes down, the boy coughs and wipes his brow; 
 ACTION_START: carrier being set down
 ACTION_END: close on the boy's sweating forehead, medic gone
 NARRATION_KO: 소년 척후는 삼 주 전 화살을 돌려받은 아이였습니다. 지금은 성벽 위의 군사였습니다. 그날 밤 그는 땀을 흘렸습니다. 밤은 추웠습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: ho, đá, gọi "의녀!".
 CONTINUITY: Foreshadow sốt (SC_044). 서아 đèn đội đầu, chưa máu tay áo.
 CHAIN_FROM: —
@@ -512,7 +511,7 @@ VIDEO_PROMPT: KEN-BURNS (6 s): slow push-in from the wide interior to the black 
 ACTION_START: wide interior with kneeling courier
 ACTION_END: tight on the tube
 NARRATION_KO: 전령은 그날 밤 황제의 발치에 닿았습니다. 황제는 글을 읽고 한마디만 했습니다. 받으라. 그 한마디가 돌아오는 동안 담은 완성될 것이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lụa, lửa đèn lồng.
 CONTINUITY: '받으라.' Hành doanh đêm bên 요하 — nội thất lều vàng (bible).
 CHAIN_FROM: —
@@ -527,13 +526,12 @@ VIDEO_PROMPT: KEN-BURNS (6 s): slow pull-out from the white cloth to the wall an
 ACTION_START: tight on the white cloth
 ACTION_END: wall, new stone and still towers
 NARRATION_KO: 네 번째 항복 깃발이 오르는 날, 황제는 요동성 앞에 와 있을 것이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, chim sớm.
 CONTINUITY: Kết P2: open loop '네 번째 항복 깃발…'. D26 bình minh.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_201_ref, LOC_002_detail
-AI_RISK: —
 
 
 ## [Phần 3] 발전기 연료 30일 (4:30–7:00) · kiểm kê D26 · bệnh xá · người áo choàng đen · MID-ROLL 1 @7:00
@@ -545,7 +543,7 @@ VIDEO_PROMPT: KEN-BURNS (10 s): start on the chalk-smeared board, drift out to t
 ACTION_START: tight on the tally board
 ACTION_END: whole valley with vehicles under netting
 NARRATION_KO: 스물여섯째 아침이었습니다. 삼 주 동안 늘어난 것은 없었습니다. 줄어든 것만 있었습니다. 박기철은 매일 아침 같은 판을 읽었습니다. 읽는 것이 그의 기도였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: chim, gió khe, máy phát K151 không chạy — im.
 CONTINUITY: '스물여섯째 아침'. Bảng gỗ chữ phấn loang — số thật overlay. 천둥 3 chốt sắt.
 CHAIN_FROM: —
@@ -612,7 +610,6 @@ CONTINUITY: '드럼 둘. 발전기 기름은 드론 열다섯 번입니다.' Phu
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_003_ref, CHAR_001_dusty_ep2, VEH_003_ref, PROP_007_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_040 | 5:12–5:20 | LOC_003 (LOC_003_tent_ext_day) | CHAR_005, CHAR_003 | VEH_004, UAV_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot, static, slight high angle
@@ -666,7 +663,7 @@ VIDEO_PROMPT: Static: the medic cuts cloth in the headlamp beam; two bolts crack
 ACTION_START: scissors on cloth, shutter intact
 ACTION_END: two bolts in the post, medic still cutting
 NARRATION_KO: 성 안의 병실은 담에서 스무 걸음이었습니다. 수나라 쇠뇌는 담을 넘어왔습니다. 서아는 셋째 날부터 고개를 들지 않았습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: nỏ xuyên gỗ "탁, 탁", rên, kéo cắt.
 CONTINUITY: Từ đây 서아 = bloody_sleeves_ep2. Nỏ Tùy xuyên chớp cửa (mini-combat).
 CHAIN_FROM: —
@@ -696,7 +693,7 @@ VIDEO_PROMPT: Static: fingertip counting along the vials, one drawn, the syringe
 ACTION_START: bag open, finger on the first vial
 ACTION_END: captain gone from the doorway, medic bending to inject
 NARRATION_KO: 열세 개였습니다. 아흔네 명의 몫이었습니다. 한승우는 문 앞에 서 있었습니다. 그는 말리지 않았습니다. 말리지 않는 것도 결정이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: xé bao ống tiêm, lửa đèn, tiếng nỏ xa.
 CONTINUITY: 13 lọ → 12. 한승우 không cản. Chain từ SC_044 cùng bệnh xá.
 CHAIN_FROM: SC_044
@@ -726,13 +723,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in on the two faces and the hand. Soun
 ACTION_START: hand and both faces
 ACTION_END: tight on the boy's closed eyes and the glove
 NARRATION_KO: 삼 주 동안 다섯 병이 고구려 사람에게 갔습니다. 오늘이 여섯 번째였습니다. 서아는 그 셈을 숨기지 않았습니다. 우리 사람과 조상 사이에서 그녀는 매번 아픈 쪽을 골랐습니다. 열두 개. 다음 스무 명의 화살이면 끝이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: thở đều, đèn, xa xa trống Tùy.
 CONTINUITY: '열두 개. 다음 스무 명의 화살이면 끝이었습니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_004_bloody_sleeves_ep2, EXTRA_boy_scout_ref, LOC_002_infirmary_ep2
-AI_RISK: —
 
 ### SC_048 | 6:18–6:26 | LOC_003 (LOC_003_line) | CHAR_106, CHAR_003 | VEH_002 | PROPS: PROP_019 | TYPE: video8s | 8s
 SHOT: Medium two-shot at the vehicle skirt, static
@@ -747,7 +743,6 @@ CONTINUITY: '쇠는 쇠요, 쇠쟁이.' Callback 1화. PROP_019 thanh bẩy (ngu
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_106_forge_ep2, CHAR_003_ref, VEH_002_ref, PROP_019_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_049 | 6:26–6:34 | LOC_002 (LOC_002_courtyard) | CHAR_101, CHAR_105, CHAR_001, CHAR_004 | — | PROPS: PROP_009 | TYPE: video8s | 8s
 SHOT: Wide from across the courtyard, static
@@ -756,7 +751,7 @@ VIDEO_PROMPT: Static wide: the cloaked figure stands still; the Goguryeo command
 ACTION_START: cloaked figure alone, others entering
 ACTION_END: deep bow held, captain slowed mid-step
 NARRATION_KO: 해모루는 아무에게도 그렇게 절하지 않았습니다. 성주에게도 그러지 않았습니다. 한승우는 그것을 보았습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, cờ, giáp 해모루 khi cúi.
 CONTINUITY: 을지문덕 xuất hiện lần đầu — KHÔNG lộ mặt (cloak_incognito_ep2). 해모루 cúi rất sâu.
 CHAIN_FROM: —
@@ -777,7 +772,6 @@ CONTINUITY: '말객님, 저분은 누구십니까?' Chain từ SC_049.
 CHAIN_FROM: SC_049
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, CHAR_105_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_051 | 6:42–6:50 | LOC_002 (LOC_002_courtyard) | CHAR_105 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Close-up, static, then he walks out of frame
@@ -792,7 +786,6 @@ CONTINUITY: '성주께서 내일 부르실 것이오.' Chain từ SC_050.
 CHAIN_FROM: SC_050
 CUT_HALF: no
 REFS: CHAR_105_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_052 | 6:50–7:00 | LOC_002 (LOC_002_courtyard) | CHAR_101, CHAR_105 | — | PROPS: — | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: wide from behind, pulling out
@@ -801,13 +794,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow pull-out from the two walking figures to th
 ACTION_START: two figures close, backs to camera
 ACTION_END: wide with long shadows and pagoda
 NARRATION_KO: 그날 저녁, 비밀 통로로 한 사람이 성에 들어왔습니다. 그는 쇠수레를 보러 온 것이 아니었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, cờ, trống Tùy xa.
 CONTINUITY: Open loop P3: '비밀 통로로 한 사람이…' → MID-ROLL 1. Không mặt.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_cloak_incognito_ep2, CHAR_105_ref, LOC_002_detail
-AI_RISK: —
 
 
 ## [Phần 4] 충차와 한 발 (7:00–10:30) · D27 1차 공성 thuần cổ + PZF 1 phát vào 충차 · CUT_HALF khối trận
@@ -819,7 +811,7 @@ VIDEO_PROMPT: KEN-BURNS (10 s): very slow push-in on the hand on the stone. Soun
 ACTION_START: hand and sleeve on the stone
 ACTION_END: tight on the fingers and the callus
 NARRATION_KO: 스물일곱째 새벽. 손 하나가 담을 만졌습니다. 담은 차가웠고, 새로 쌓은 돌은 아직 젖어 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió sớm, chim, xa xa vó ngựa một con.
 CONTINUITY: Sau MID-ROLL 1: không thoại. 을지문덕 — chỉ bàn tay.
 CHAIN_FROM: —
@@ -849,7 +841,7 @@ VIDEO_PROMPT: Camera glides low and sideways along the advancing towers, wheels 
 ACTION_START: first tower entering frame
 ACTION_END: line of towers advanced, causeway ahead
 NARRATION_KO: 탑을 앞세운 첫 공성이 시작되었습니다. 흰 천은 더 이상 통하지 않았습니다. 적어도 오늘은.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống, dây gai, bánh gỗ, bò rống.
 CONTINUITY: 1차 공성 bắt đầu. Tháp da ướt bốc hơi.
 CHAIN_FROM: —
@@ -864,7 +856,7 @@ VIDEO_PROMPT: Static: a volley of fire arrows arcs out, strikes the hide, each f
 ACTION_START: archers drawing fire arrows
 ACTION_END: arrows smoking out on the hide, commander's jaw set
 NARRATION_KO: 젖은 가죽은 불을 먹었습니다. 불화살 백 개가 연기 백 줄이 되었습니다. 수나라는 요동성의 첫 번째 답을 미리 알고 왔습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: dây cung, tên lửa rít, xèo tắt.
 CONTINUITY: '젖은 가죽은 불을 먹었습니다.' Tên lửa PROP_016 vô hiệu.
 CHAIN_FROM: —
@@ -879,7 +871,7 @@ VIDEO_PROMPT: Static: the bridge slams down, shields pour across, spears meet th
 ACTION_START: bridge falling toward the parapet
 ACTION_END: melee on the wall top
 NARRATION_KO: 다리가 내려왔습니다. 담 위는 이제 벌판이었습니다. 창 하나 길이의 벌판이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: cầu gỗ đập đá, khiên, giáo, thét.
 CONTINUITY: '담 위는 이제 벌판이었습니다.' Không gore.
 CHAIN_FROM: —
@@ -894,7 +886,7 @@ VIDEO_PROMPT: Static waist-up: the spear thrust shoves the shield back, sparks l
 ACTION_START: spear drawn back
 ACTION_END: second thrust, cloak hem smoking
 NARRATION_KO: 성주는 뒤에 서지 않았습니다. 요동성에서 성주는 첫 번째 창이었습니다. 그것이 이 성이 이백 년을 버틴 방식이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: giáo va khiên, thở, lửa bén vải.
 CONTINUITY: Áo choàng cháy thủng từ đây (burnt_cloak_ep2 → siege_ep2 từ SC_076). Chain từ SC_057.
 CHAIN_FROM: SC_057
@@ -909,7 +901,7 @@ VIDEO_PROMPT: Static low angle: the cauldron tips, water sheets down in steam, t
 ACTION_START: cauldron tilting at the parapet
 ACTION_END: ladder broken in two, steam drifting
 NARRATION_KO: 물은 화살보다 쌌습니다. 성 안에는 우물이 셋 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: nước sôi trút, thét, gỗ gãy.
 CONTINUITY: '물은 화살보다 쌌습니다.' Không gore cận.
 CHAIN_FROM: —
@@ -930,7 +922,6 @@ CONTINUITY: '지원 나갑니까?' Kíp xe mặt khuất.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_002_ref, VEH_002_ref, EQP_002_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_061 | 8:06–8:14 | LOC_002 (LOC_002_bastion_se) | CHAR_001, CHAR_105 | EQP_002 | PROPS: PROP_006 | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium two-shot on the bastion, static
@@ -945,7 +936,6 @@ CONTINUITY: '대기. 성이 막고 있다.' 치 đông-nam (chưa cải tạo).
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_001_dusty_ep2, CHAR_105_ref, EQP_002_ref, PROP_006_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_062 | 8:14–8:22 | LOC_002 (LOC_002_causeway) | SUI_PUSHERS | VEH_202 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Tracking shot alongside the ram cart rolling up the causeway, single move
@@ -954,7 +944,7 @@ VIDEO_PROMPT: Camera tracks beside the ram cart as it rolls up the causeway, arr
 ACTION_START: ram cart at the start of the causeway
 ACTION_END: ram cart nearing the barbican arch
 NARRATION_KO: 충차였습니다. 쇠머리를 단 통나무가 가죽 지붕 밑에서 왔습니다. 화살도 돌도 지붕 위로 미끄러졌습니다. 문은 담보다 약했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: bánh gỗ, tên cắm da, hô đẩy trong mái.
 CONTINUITY: 충차 VEH_202 lần đầu (da đen, chưa phủ đất).
 CHAIN_FROM: —
@@ -969,13 +959,12 @@ VIDEO_PROMPT: Static close: the doors jump with each blow, dust falls, the crack
 ACTION_START: crossbar intact, first blow
 ACTION_END: long crack in the crossbar, props wedged
 NARRATION_KO: 옹성 안쪽에서 문은 북처럼 울었습니다. 빗장은 참나무 한 아름이었습니다. 그것이 갈라지고 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: húc nặng lặp nhịp, gỗ nứt, thở.
 CONTINUITY: '빗장은 참나무 한 아름이었습니다.'
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: WPN_102_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_064 | 8:30–8:38 | LOC_002 (LOC_002_gate_tower) | CHAR_104, GOG_SOLDIER_RUNNER | — | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot on the gate tower, static
@@ -990,7 +979,6 @@ CONTINUITY: '한 대장을 불러라. 지금.' Lính trẻ mặt quay đi.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_104_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_065 | 8:38–8:46 | LOC_002 (LOC_002_southwall) | CHAR_001, CHAR_006, PZF_GUNNER, GOG_INFANTRY | WPN_005 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Tracking shot ahead of three men running along the wall top, single backward move
@@ -999,7 +987,7 @@ VIDEO_PROMPT: Camera tracks backward ahead of the three running men, soldiers fl
 ACTION_START: three men running toward camera
 ACTION_END: passing the last soldiers, gate tower ahead
 NARRATION_KO: 문에서 육십 미터. 치 하나가 문을 내려다보고 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: giày trên đá, tên rít, thở.
 CONTINUITY: '문에서 육십 미터.' PZF 사수 2소대 mặt khuất.
 CHAIN_FROM: —
@@ -1035,7 +1023,6 @@ CONTINUITY: '한 발이다. 한 발에 끝내.' Chain từ SC_066.
 CHAIN_FROM: SC_066
 CUT_HALF: yes
 REFS: CHAR_001_dusty_ep2, WPN_005_ref, LOC_002_southwall_ep2
-AI_RISK: —
 
 ### SC_068 | 9:02–9:10 | LOC_002 (LOC_002_causeway) | — | WPN_005, VEH_202 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Wide from the wall top looking down at the causeway, static  · ⚑ AERIAL/QUALITY
@@ -1044,7 +1031,7 @@ VIDEO_PROMPT: Static wide from above: backblast dust off the bastion, the smoke 
 ACTION_START: ram cart at the wall, launcher just fired
 ACTION_END: ram cart in pieces, dust cloud settling
 NARRATION_KO: 육십 미터. 한 발. 그것으로 충분했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: "쾅" khô, mảnh gỗ rơi rào rào, rồi im lạ.
 CONTINUITY: '육십 미터. 한 발.' PZF 18→17.
 CHAIN_FROM: —
@@ -1059,7 +1046,7 @@ VIDEO_PROMPT: Static: men crawl from the wreck, the shield line backs away with 
 ACTION_START: survivors emerging, shield line intact
 ACTION_END: shield line backed away, officer's sword raised
 NARRATION_KO: 지난달 동쪽 길에서 천둥을 본 것은 선비 기병 이천이었습니다. 오늘은 수나라 본군 만 명이 보았습니다. 소문이 아니었습니다. 문 앞에서였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lửa, rên, hàng khiên lùi lạo xạo.
 CONTINUITY: '오늘은 수나라 본군 만 명이 보았습니다.'
 CHAIN_FROM: —
@@ -1074,7 +1061,7 @@ VIDEO_PROMPT: Static: the horse wheels, the general's eyes go to the smoking sli
 ACTION_START: horse wheeling
 ACTION_END: whip pointing at the slit
 NARRATION_KO: 총관은 불을 보지 않았습니다. 연기가 나온 구멍을 보았습니다. 그도 배우는 사람이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: ngựa hí, gió, lửa xa.
 CONTINUITY: '연기가 나온 구멍을 보았습니다.' Tướng học (foreshadow SC_226).
 CHAIN_FROM: —
@@ -1089,7 +1076,7 @@ VIDEO_PROMPT: Camera tilts slowly down from the hooded head to the hand at his s
 ACTION_START: hooded figure at the parapet
 ACTION_END: close on the hand, one finger raised
 NARRATION_KO: 담 위의 누군가는 문을 보지 않았습니다. 연기도 보지 않았습니다. 그는 손가락 하나를 폈습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: giao chiến tan dần, gió.
 CONTINUITY: Người áo choàng đếm: một ngón. Không mặt.
 CHAIN_FROM: —
@@ -1104,7 +1091,7 @@ VIDEO_PROMPT: Static wide: the bridge is levered up and away, drums change, ladd
 ACTION_START: bridge being levered off the parapet
 ACTION_END: towers receding, soldiers slumped on the wall
 NARRATION_KO: 첫 번째 공성은 해와 함께 끝났습니다. 탑 하나가 담에 닿았고, 문 하나가 갈라졌습니다. 성은 섰습니다. 값은 나중에 셀 것이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống rút, thang kéo, thở dốc.
 CONTINUITY: 1차 공성 kết thúc. Không reo.
 CHAIN_FROM: —
@@ -1125,7 +1112,6 @@ CONTINUITY: '다음 충차엔 젖은 흙을 덮어라. 두 겹으로.' Enemy ada
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: EXTRA_sui_siege_general_ref, VEH_202_ref, LOC_002_south_plain_ep2
-AI_RISK: —
 
 ### SC_074 | 9:50–10:02 | LOC_002 (LOC_002_sui_yard) | SUI_CRAFTSMEN | VEH_202, VEH_201 | PROPS: PROP_016 | TYPE: still_kenburns | 12s
 SHOT: Still for ken-burns: medium-wide by torchlight, sliding from the ram cart to the tower line
@@ -1134,7 +1120,7 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow slide from the mud-covered ram cart out to 
 ACTION_START: ram cart under shovels
 ACTION_END: tower line being covered
 NARRATION_KO: 그날 밤 수나라는 흙을 팠습니다. 가죽 위에 거적을 깔고, 거적 위에 진흙을 얹었습니다. 불에도, 그리고 아직 이름을 모르는 것에도 대비하기 위해서였습니다. 성 안의 한 발이 성 밖의 흙 만 삽이 되었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: xẻng, bùn, hô lệnh đêm.
 CONTINUITY: Từ đây xe húc = RAM_MUD; tháp bắt đầu phủ đất (hoàn tất SC_099).
 CHAIN_FROM: —
@@ -1171,7 +1157,6 @@ CONTINUITY: '그 한 발이 몇 개나 남았소?' Từ đây 고정수 = siege_
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_104_siege_ep2, CHAR_001_dusty_ep2, LOC_002_southwall_ep2
-AI_RISK: —
 
 ### SC_077 | 10:18–10:30 | LOC_002 (LOC_002_bastion_se) | CHAR_101 | VEH_202 | PROPS: — | TYPE: still_kenburns | 12s
 SHOT: Still for ken-burns: wide at night from the plain toward the bastion, pushing in on a cloaked figure
@@ -1180,13 +1165,12 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow push-in from the sea of campfires to the cl
 ACTION_START: wide: campfires, bastion small
 ACTION_END: tight on the cloaked figure
 NARRATION_KO: 한승우는 대답하지 않았습니다. 열일곱이라는 숫자는 아직 그의 것이었습니다. 하지만 그 숫자를 세는 사람은 그만이 아니었습니다. 성 안의 누군가가 그 한 발을 세고 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, lửa xa, im.
 CONTINUITY: Open loop P4: '성 안의 누군가가 그 한 발을 세고 있었습니다.' Không mặt. (VEH_202 = xác xe húc cháy — chỉ đốm lửa nhỏ, lock dán để glabs biết hình.)
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_cloak_incognito_ep2, VEH_202_ref, LOC_002_detail
-AI_RISK: —
 
 
 ## [Phần 5] 열 발에 둘 (10:30–14:00) · D28 을지문덕 lộ diện · cối 10 viên → 2 tháp cháy · Tùy lùi 6리 phủ đất · MID-ROLL 2 @14:00
@@ -1219,7 +1203,6 @@ CONTINUITY: '달리면 닷새. 안 움직이면 한 달.' Chain từ SC_078.
 CHAIN_FROM: SC_078
 CUT_HALF: no
 REFS: CHAR_003_ref, CHAR_001_dusty_ep2, LOC_002_interior
-AI_RISK: —
 
 ### SC_080 | 10:46–10:54 | LOC_002 (LOC_002_veranda) | CHAR_101 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot from behind as he walks out onto the veranda, single push
@@ -1234,7 +1217,6 @@ CONTINUITY: '그 우는 쇠는 몇 발이나 남았소?'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_081 | 10:54–11:02 | LOC_002 (LOC_002_veranda) | CHAR_003, CHAR_002 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot on the veranda, static
@@ -1249,7 +1231,6 @@ CONTINUITY: '백십 발입니다. 백이십 발로 왔습니다.' Chain từ SC_
 CHAIN_FROM: SC_080
 CUT_HALF: no
 REFS: CHAR_003_ref, CHAR_002_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_082 | 11:02–11:10 | LOC_002 (LOC_002_veranda) | CHAR_104, CHAR_001 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot, static, ending on the captain's chin dropping
@@ -1264,7 +1245,6 @@ CONTINUITY: '대장군 을지문덕이시오.' Chain từ SC_081.
 CHAIN_FROM: SC_081
 CUT_HALF: no
 REFS: CHAR_104_siege_ep2, CHAR_001_dusty_ep2, LOC_002_interior
-AI_RISK: —
 
 ### SC_083 | 11:10–11:18 | LOC_002 (LOC_002_veranda) | CHAR_101, CHAR_001 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot, static
@@ -1279,7 +1259,6 @@ CONTINUITY: '저 탑들을 가장 적은 화살로 부수시오.' Thử thách.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_001_dusty_ep2, LOC_002_interior
-AI_RISK: —
 
 ### SC_084 | 11:18–11:26 | LOC_002 (LOC_002_southwall) | CHAR_002, CHAR_001 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Walk-and-talk tracking ahead of two men striding along the wall top
@@ -1294,7 +1273,6 @@ CONTINUITY: '전차입니다. 탑 하나에 한 발.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_002_ref, CHAR_001_dusty_ep2, LOC_002_southwall_ep2
-AI_RISK: —
 
 ### SC_085 | 11:26–11:34 | LOC_002 (LOC_002_bastion_se) | CHAR_001, CHAR_003 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot on the bastion, static
@@ -1309,7 +1287,6 @@ CONTINUITY: '박격포. 전차는 숨긴 채로 간다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, CHAR_003_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_086 | 11:34–11:42 | LOC_003 (LOC_003_mortar_day) | MORTAR_GUNNER, MORTAR_CREW | WPN_002, EQP_002 | PROPS: PROP_008 | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot in the mortar pit, static
@@ -1354,7 +1331,6 @@ CONTINUITY: '탑은 속에서 타. 꼭대기를 쳐, 대장 양반.'
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_106_forge_ep2, CHAR_001_dusty_ep2, LOC_002_detail
-AI_RISK: —
 
 ### SC_089 | 11:58–12:06 | LOC_002 (LOC_002_bastion_se) | CHAR_001 | EQP_002 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Close-up, static
@@ -1369,7 +1345,6 @@ CONTINUITY: '탑 꼭대기. 여덟 발.' Chain từ SC_088.
 CHAIN_FROM: SC_088
 CUT_HALF: yes
 REFS: CHAR_001_dusty_ep2, EQP_002_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_090 | 12:06–12:14 | LOC_003 (LOC_003_mortar_day) | MORTAR_CREW | WPN_002 | PROPS: PROP_008 | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium-wide on both mortars, static
@@ -1378,7 +1353,7 @@ VIDEO_PROMPT: Static: flash after flash from the two tubes, bombs dropped in rhy
 ACTION_START: first bomb dropping in
 ACTION_END: last bomb fired, dust hanging
 NARRATION_KO: 여덟 발. 지난달 여울에서 쓴 것과 같은 수였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: "퉁, 퉁, 퉁, 퉁" dồn.
 CONTINUITY: 8 viên. Không mặt.
 CHAIN_FROM: —
@@ -1393,7 +1368,7 @@ VIDEO_PROMPT: Static: two bursts high on the towers, splinters and a falling hid
 ACTION_START: towers intact, bombs arriving
 ACTION_END: two tower tops burning from inside
 NARRATION_KO: 가죽은 젖어 있었습니다. 사다리는 말라 있었습니다. 불은 안에서 시작되었습니다. 을보의 말대로였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: nổ trên cao, gỗ vỡ, lửa bén, thét.
 CONTINUITY: '불은 안에서 시작되었습니다.'
 CHAIN_FROM: —
@@ -1408,7 +1383,7 @@ VIDEO_PROMPT: Camera pans slowly from the two burning towers to the wall top, pa
 ACTION_START: two burning towers filling frame
 ACTION_END: general with hand raised, cheering behind him
 NARRATION_KO: 담 위가 환호했습니다. 을지문덕은 아니었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lửa lớn, gỗ gãy, reo hò bắt đầu rồi chìm vào gió.
 CONTINUITY: '을지문덕은 아니었습니다.' Pan 1 chiều, dừng ở người đếm.
 CHAIN_FROM: —
@@ -1444,7 +1419,6 @@ CONTINUITY: '마흔이면 이백 발. 그대들은 백십 발이라 했소.' Cha
 CHAIN_FROM: SC_093
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_003_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_095 | 12:46–12:54 | LOC_002 (LOC_002_bastion_se) | CHAR_003, CHAR_101 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot, static
@@ -1459,7 +1433,6 @@ CONTINUITY: '이제 백 발입니다.' Chain từ SC_094 (chuỗi 3 — dừng).
 CHAIN_FROM: SC_094
 CUT_HALF: no
 REFS: CHAR_003_ref, CHAR_101_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_096 | 12:54–13:02 | LOC_002 (LOC_002_bastion_se) | CHAR_002, CHAR_001 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot leaning on the parapet, static
@@ -1474,7 +1447,6 @@ CONTINUITY: '전차면 두 발입니다. 두 발.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_002_ref, CHAR_001_dusty_ep2, LOC_002_detail
-AI_RISK: —
 
 ### SC_097 | 13:02–13:12 | LOC_002 (LOC_002_south_plain) | — | VEH_201 | PROPS: — | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: wide at sunset along the tower line, pulling out  · ⚑ AERIAL/QUALITY
@@ -1483,13 +1455,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow pull-out from the two black skeletons to th
 ACTION_START: tight on the two burnt skeletons
 ACTION_END: whole line with long shadows
 NARRATION_KO: 그날의 셈은 이랬습니다. 열 발에 탑 둘. 남은 탑 서른여덟. 남은 우는 쇠 백 발. 한승우는 이겼습니다. 을지문덕은 아직 아무 말도 하지 않았습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lửa tàn, gió chiều, trống Tùy nhịp chậm.
 CONTINUITY: '남은 탑 서른여덟.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_201_ref, LOC_002_south_plain_ep2
-AI_RISK: —
 
 ### SC_098 | 13:12–13:20 | LOC_002 (LOC_002_south_plain) | SUI_SIEGE_GENERAL, SUI_PUSHERS | VEH_201 | PROPS: PROP_016 | TYPE: video8s | 8s
 SHOT: Medium-wide by torchlight, static  · ⚑ AERIAL/QUALITY
@@ -1513,7 +1484,7 @@ VIDEO_PROMPT: Camera tracks sideways past men spreading mud mats up the tower fa
 ACTION_START: men spreading mats on a tower
 ACTION_END: new tower frame under mallets
 NARRATION_KO: 젖은 흙은 불도 막고 쇳덩이도 받았습니다. 그리고 숲은 아직 남아 있었습니다. 탑 둘이 탄 자리에 탑 둘이 올라갔습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: búa, bùn, đuốc.
 CONTINUITY: Từ đây tháp = TOWER_MUD + ref VEH_201_mud_ep2. '탑 둘이 탄 자리에 탑 둘이 올라갔습니다.'
 CHAIN_FROM: —
@@ -1528,13 +1499,12 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow slide along the line of forty earth-brown t
 ACTION_START: one end of the tower line
 ACTION_END: other end of the line, fortress in frame
 NARRATION_KO: 스물아홉째 새벽. 탑은 멀어졌고, 색이 바뀌었고, 수가 돌아왔습니다. 쇠 한 발은 돌아오지 않았습니다. 나무는 돌아왔습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió trên cao, chim, trống buổi sáng.
 CONTINUITY: '탑은 멀어졌고, 색이 바뀌었고, 수가 돌아왔습니다.' D29.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_201_mud_ep2, LOC_002_wide
-AI_RISK: —
 
 ### SC_101 | 13:40–13:48 | LOC_002 (LOC_002_bastion_se) | CHAR_006, CHAR_001 | — | PROPS: PROP_006 | TYPE: video8s | 8s
 SHOT: Medium two-shot at dawn, static
@@ -1549,7 +1519,6 @@ CONTINUITY: '탑이 다시 마흔입니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_006_facepaint_ep1, CHAR_001_dusty_ep2, PROP_006_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_102 | 13:48–14:00 | LOC_002 (LOC_002_bastion_se) | CHAR_101, GOG_INFANTRY, ROK_SOLDIERS | — | PROPS: — | TYPE: still_kenburns | 12s
 SHOT: Still for ken-burns: close three-quarter portrait at the parapet, pushing in on the eyes
@@ -1576,13 +1545,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow slide along the line, no dialogue. Sound: w
 ACTION_START: start of the line
 ACTION_END: end of the line with new frames
 NARRATION_KO: 흙을 뒤집어쓴 탑 마흔이 이천오백 미터 밖에 섰습니다. 우는 쇠가 닿지 않는 거리였습니다. 수나라는 하루 만에 답을 냈습니다. 답은 흙과 거리와 나무였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, búa xa, trống nhịp chậm.
 CONTINUITY: Sau MID-ROLL 2: không thoại.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_201_mud_ep2, LOC_002_wide
-AI_RISK: —
 
 ### SC_104 | 14:10–14:18 | LOC_003 (LOC_003_hearth) | CHAR_004, CHAR_106, CHAR_107 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium three-shot at the hearth, static
@@ -1642,7 +1610,6 @@ CONTINUITY: '명령은 못 받습니다. 임무는 받겠습니다.' Chain từ 
 CHAIN_FROM: SC_106
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, LOC_002_interior
-AI_RISK: —
 
 ### SC_108 | 14:42–14:50 | LOC_002 (LOC_002_well_yard) | CHAR_005, CHAR_107, GOG_INFANTRY | UAV_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Wide insert at the well under a paper lantern, static
@@ -1651,13 +1618,12 @@ VIDEO_PROMPT: Static wide: lens wiped slowly, the girl's head nodding, the soldi
 ACTION_START: private wiping the lens, soldier entering
 ACTION_END: soldier past, glancing back
 NARRATION_KO: 대청 밖에서는 아무도 판을 몰랐습니다. 그들은 글자와 쇠새와 잠을 나눴습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: dế, giáp xa, gió.
 CONTINUITY: Không thoại. Insert giữa đại sảnh.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_005_ref, CHAR_107_scarf_ep2, WPN_102_ref, UAV_001_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_109 | 14:50–14:58 | LOC_002 (LOC_002_hall) | CHAR_101 | — | PROPS: PROP_010 | TYPE: video8s | 8s
 SHOT: Medium shot across the table, static
@@ -1672,7 +1638,6 @@ CONTINUITY: '그대들, 오늘 저녁은 무엇을 먹었소?' PROP_010 = bát k
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, PROP_010_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_110 | 14:58–15:06 | LOC_002 (LOC_002_hall) | CHAR_003, CHAR_002, CHAR_001 | — | PROPS: PROP_010 | TYPE: video8s | 8s
 SHOT: Close-up on the bowl, then a slow rack to three faces, static base
@@ -1681,13 +1646,12 @@ VIDEO_PROMPT: Static close on the bowl, focus racks slowly to the three faces on
 ACTION_START: bowl in focus
 ACTION_END: captain's face in focus, eyes on the bowl
 NARRATION_KO: 삼 주 동안 아흔네 명은 고구려의 조를 먹었습니다. 전투식량은 스무 날 전에 끝났습니다. 먹이는 자가 판의 주인이었습니다. 을지문덕은 그것을 말하지 않았습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lửa đèn, một tiếng dế.
 CONTINUITY: Im lặng. Chain từ SC_109.
 CHAIN_FROM: SC_109
 CUT_HALF: no
 REFS: CHAR_003_ref, CHAR_002_ref, CHAR_001_dusty_ep2, PROP_010_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_111 | 15:06–15:14 | LOC_002 (LOC_002_hall) | CHAR_104 | — | PROPS: PROP_013 | TYPE: video8s | 8s
 SHOT: Medium shot, static
@@ -1702,7 +1666,6 @@ CONTINUITY: '대왕의 글은 그대들도 성의 것이라 하오.' Chiếu 1�
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_104_siege_ep2, PROP_013_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_112 | 15:14–15:22 | LOC_002 (LOC_002_hall) | CHAR_001 | — | PROPS: PROP_013 | TYPE: video8s | 8s
 SHOT: Close-up, static
@@ -1717,7 +1680,6 @@ CONTINUITY: '우리 것이 아닙니다. 그렇다고 왕의 것도 아닙니다
 CHAIN_FROM: SC_111
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, PROP_013_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_113 | 15:22–15:30 | LOC_002 (LOC_002_granary_fire) | — | — | PROPS: PROP_016 | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Low angle from the yard, static
@@ -1726,13 +1688,12 @@ VIDEO_PROMPT: Static low angle: one red arc over the wall onto the thatch, flame
 ACTION_START: dark yard, first arrow arcing
 ACTION_END: thatch burning, arrows in the ground
 NARRATION_KO: 그날 밤부터 수나라는 밤마다 불화살을 넘겼습니다. 성을 태우기 위해서가 아니었습니다. 성이 자지 못하게 하기 위해서였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: tên lửa rít, rơm bén lửa, tiếng hô "불이야!".
 CONTINUITY: Mini-combat: tên lửa đêm vào thành.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: LOC_002_detail
-AI_RISK: —
 
 ### SC_114 | 15:30–15:38 | LOC_002 (LOC_002_granary_fire) | CHAR_005, CHAR_107, GOG_CIVILIANS | — | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Tracking shot through the firefighting, single move
@@ -1741,7 +1702,7 @@ VIDEO_PROMPT: Camera tracks through the chain of jars to the private flinging wa
 ACTION_START: jars passing, private scooping
 ACTION_END: girl and child clear, arrow in the ground
 NARRATION_KO: 물은 우물 셋에서 왔습니다. 손은 삼천 명에게서 왔습니다. 밤마다 그랬습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: nước, lửa, thét, tên cắm đất.
 CONTINUITY: '물은 우물 셋에서 왔습니다.' Đám đông dập lửa.
 CHAIN_FROM: —
@@ -1762,7 +1723,6 @@ CONTINUITY: '황제가 성 앞으로 온답니다. 보름 안입니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_105_ref, CHAR_101_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_116 | 15:46–15:54 | LOC_002 (LOC_002_hall) | CHAR_002 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot at the table, static
@@ -1777,7 +1737,6 @@ CONTINUITY: '그럼 전차로 황제 행영을 칩니다. 한 발이면 됩니�
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_002_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_117 | 15:54–16:02 | LOC_002 (LOC_002_hall) | CHAR_101 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Close-up, static
@@ -1792,7 +1751,6 @@ CONTINUITY: '황제를 죽이면 백만이 돌아가겠소, 아니면 백만이 
 CHAIN_FROM: SC_116
 CUT_HALF: no
 REFS: CHAR_101_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_118 | 16:02–16:10 | LOC_002 (LOC_002_southwall) | GOG_ARCHERS | WPN_101 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium-wide on the wall at night, static
@@ -1801,7 +1759,7 @@ VIDEO_PROMPT: Static: archers loose into the dark, one folds against the parapet
 ACTION_START: archers drawing
 ACTION_END: wounded archer pulled down, fire arrows stopping
 NARRATION_KO: 매일 밤 두세 명이 담에서 내려왔습니다. 화살은 병실로 갔습니다. 병실은 서아의 것이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: dây cung, tên rít hai chiều, rên.
 CONTINUITY: '매일 밤 두세 명이 담에서 내려왔습니다.' Cutaway.
 CHAIN_FROM: —
@@ -1816,7 +1774,7 @@ VIDEO_PROMPT: The lieutenant's finger withdraws; camera pushes in past the capta
 ACTION_START: lieutenant's finger on the map
 ACTION_END: close on the general's finger, third tap
 NARRATION_KO: 한승우는 대답을 알았습니다. 그가 두려워하던 것이 바로 그것이었습니다. 역사가 이긴 싸움을 총 한 발로 망치는 것. 을지문덕은 그 두려움을 한 문장으로 말했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gõ da ba nhịp.
 CONTINUITY: Không thoại. Ngón tay gõ 3 nhịp.
 CHAIN_FROM: —
@@ -1846,7 +1804,7 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow slide along the line of broken carts toward
 ACTION_START: overturned cart and dead ox
 ACTION_END: line of stalled carts to the horizon
 NARRATION_KO: 역사는 그 길을 기록했습니다. 탁군에서 요하까지, 수레와 소는 갔고 돌아오지 않았습니다. 쌀은 길 위에서 사람보다 먼저 죽었습니다. 백만을 먹이는 길이 백만보다 먼저 지쳤습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: bánh xe gãy, bò rống, roi, gió bụi.
 CONTINUITY: [史 수서 식화지] xe bò đi không về. Dân phu gục = mặt cúi.
 CHAIN_FROM: —
@@ -1867,7 +1825,6 @@ CONTINUITY: '임무는 해모루가 전하오. 쇠수레는 한 대장이 정하
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_105_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_123 | 16:44–16:52 | LOC_002 (LOC_002_hall) | CHAR_001, CHAR_003, CHAR_002 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium three-shot, static
@@ -1882,7 +1839,6 @@ CONTINUITY: '그렇게 하겠습니다.' Chain từ SC_122.
 CHAIN_FROM: SC_122
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, CHAR_003_ref, CHAR_002_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_124 | 16:52–17:00 | LOC_003 (LOC_003_line_night) | CHAR_003, ROK_SENTRY | VEH_001 | PROPS: PROP_007 | TYPE: video8s | 8s
 SHOT: Medium shot at the tank, static
@@ -1897,7 +1853,6 @@ CONTINUITY: '불티는 그물부터 먹는다. 전차 그물은 적셔.' Payoff 
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_003_ref, VEH_001_ref, PROP_007_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_125 | 17:00–17:10 | LOC_002 (LOC_002_pagoda_view) | — | — | PROPS: PROP_016 | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: wide from the pagoda at night, pulling out  · ⚑ AERIAL/QUALITY
@@ -1906,13 +1861,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow pull-out from the smoking roof to the ring 
 ACTION_START: smoking roof
 ACTION_END: whole fortress ringed by fires
 NARRATION_KO: 성은 그날 밤도 자지 못했습니다. 밖에는 백만이 있었고, 안에는 조 한 그릇과 아흔네 명이 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: khói, đuốc, trống xa.
 CONTINUITY: '성은 그날 밤도 자지 못했습니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: LOC_002_wide
-AI_RISK: —
 
 ### SC_126 | 17:10–17:18 | LOC_002 (LOC_002_hall) | CHAR_101, CHAR_105 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot in the emptied hall, static
@@ -1927,7 +1881,6 @@ CONTINUITY: '저들은 오래 못 버티오. 그러니 오래 쓸 데를 찾아�
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_105_ref, LOC_002_interior
-AI_RISK: —
 
 ### SC_127 | 17:18–17:30 | LOC_002 (LOC_002_hall) | CHAR_101 | — | PROPS: — | TYPE: still_kenburns | 12s
 SHOT: Still for ken-burns: close-up of a map corner under a lamp, pushing in on a finger
@@ -1936,7 +1889,7 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow push-in on the finger on the river. Sound: 
 ACTION_START: map corner with fortress and river
 ACTION_END: tight on the finger on the river
 NARRATION_KO: 오래 쓸 데. 그 말에는 아직 이름이 없었습니다. 지도 위에는 강 하나가 있었습니다. 성에서 아득히 남쪽이었습니다. 그는 그날 밤 그 강을 보고 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: đèn, im.
 CONTINUITY: Open loop P6: '오래 쓸 데'. Bản đồ không chữ.
 CHAIN_FROM: —
@@ -1975,7 +1928,6 @@ CONTINUITY: '말은 풀을 먹고, 쇠수레는 검은 물을 마신다.' Chain 
 CHAIN_FROM: SC_128
 CUT_HALF: no
 REFS: CHAR_205_ref, LOC_001_wide
-AI_RISK: —
 
 ### SC_130 | 17:46–17:54 | LOC_001 (LOC_001_xianbei_camp) | CHAR_205, XIANBEI_DEPUTY | VEH_206 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot, static
@@ -1990,7 +1942,6 @@ CONTINUITY: '검은 통이 어디 있는지 찾는다. 수레는 나중이다.' 
 CHAIN_FROM: SC_129
 CUT_HALF: no
 REFS: CHAR_205_ref, VEH_206_ref, LOC_001_wide
-AI_RISK: —
 
 ### SC_131 | 17:54–18:02 | LOC_003 (LOC_003_ford_northbank) | CHAR_205, XIANBEI_SCOUTS | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Low-angle tracking shot following four men on foot past the ford, single move
@@ -1999,7 +1950,7 @@ VIDEO_PROMPT: Camera tracks low behind the four walking figures past the dried r
 ACTION_START: four men entering along the bank
 ACTION_END: passing the ruts, climbing toward the hillside
 NARRATION_KO: 지난달 그는 이 길로 척후를 내려보냈습니다. 화살 하나가 쇠수레의 그물에 박혔습니다. 그때는 무엇을 쳐야 하는지 몰랐습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: nước suối, côn trùng, ngón tay trên đất khô.
 CONTINUITY: Đường ĐÃ BIẾT từ 1화 (không lần vết). Rãnh xích + vết bò 1화.
 CHAIN_FROM: —
@@ -2014,7 +1965,7 @@ VIDEO_PROMPT: Static POV through leaves: the dark valley with netting shapes and
 ACTION_START: valley shapes in the dark
 ACTION_END: two fingers held up in the foreground
 NARRATION_KO: 골짜기는 그대로였습니다. 그물, 붉은 빛, 그리고 둥근 통이 둘. 이번에는 그는 통만 보았습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió trong lá, máy phát K151 ro ro rất nhỏ.
 CONTINUITY: '이번에는 그는 통만 보았습니다.' Đếm 2 phuy. Không HUD.
 CHAIN_FROM: —
@@ -2029,7 +1980,7 @@ VIDEO_PROMPT: Static close: the knife hand is caught, one shake of the head, one
 ACTION_START: wrist caught, knife half drawn
 ACTION_END: commander crawling up out of frame
 NARRATION_KO: 그는 그날 밤 아무것도 하지 않았습니다. 황제의 허락이 없었습니다. 수나라에서는 황제 없이 불도 못 놓았습니다. 스무 날 동안 오지 않은 이유였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: dao vào vỏ, lá, thở.
 CONTINUITY: '그는 열이틀을 기다렸습니다.' Trả lời open loop SC_013.
 CHAIN_FROM: —
@@ -2044,13 +1995,12 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow pull-out from the golden pavilion to the wh
 ACTION_START: golden pavilion tight
 ACTION_END: whole mobile fortress in the tent-sea, Goguryeo wall in frame
 NARRATION_KO: 탁발흠은 열이틀을 기다렸습니다. 5월. 황제가 왔습니다. 하룻밤 사이에 성 하나가 벌판에 섰습니다. 육합성. 둘레 여덟 리, 나무 틀에 천을 씌운 성이었습니다. 역사는 이것을 기록했습니다. 고구려 군사들은 담 위에서 그것을 보았습니다. 하룻밤에 성을 세우는 나라와 싸우고 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống lớn, kèn, gió trên cao.
 CONTINUITY: '5월. 황제가 왔습니다.' 육합성 [史] dựng 1 đêm, chu vi 8리. D45.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: WPN_102_ref, PROP_021_ref, LOC_004_wide
-AI_RISK: —
 
 ### SC_135 | 18:30–18:38 | LOC_004 (LOC_004_hall_day) | CHAR_201, CHAR_205, SUI_SIEGE_GENERAL | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Wide interior with sun stripes, low angle toward the throne, static
@@ -2080,7 +2030,6 @@ CONTINUITY: '탁발 낭장이 지난달부터 지켜봤습니다.' Chain từ SC
 CHAIN_FROM: SC_135
 CUT_HALF: no
 REFS: EXTRA_sui_siege_general_ref, LOC_004_detail
-AI_RISK: —
 
 ### SC_137 | 18:46–18:54 | LOC_004 (LOC_004_hall_day) | CHAR_205 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Close-up, low angle, static
@@ -2095,7 +2044,6 @@ CONTINUITY: '폐하, 쇠수레를 치지 않겠습니다. 쇠수레가 마시는
 CHAIN_FROM: SC_136
 CUT_HALF: no
 REFS: CHAR_205_ref, LOC_004_detail
-AI_RISK: —
 
 ### SC_138 | 18:54–19:02 | LOC_004 (LOC_004_hall_day) | CHAR_201 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium close-up on the throne, static
@@ -2119,7 +2067,7 @@ VIDEO_PROMPT: Beat A (0–4 s): close on the sergeant's face under the monocular
 ACTION_START: sergeant adjusting the monocular
 ACTION_END: ramp of the vehicle closing
 NARRATION_KO: 그날 밤 야시경은 여섯이었습니다. 건전지를 아끼는 밤이었습니다. 바람은 서쪽에서 불었고, 골짜기는 말라 있었습니다. 불이 좋아하는 밤이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió giật, lá khô, kính đêm rít, cửa đuôi K21 khép.
 CONTINUITY: 6 kính đêm. Hộp drone #2 vào khoang 천둥 4 (SC_146 cháy). Đêm khô gió, không trăng sáng.
 CHAIN_FROM: —
@@ -2134,7 +2082,7 @@ VIDEO_PROMPT: Camera tracks low along the file, red glows at the pot rims lighti
 ACTION_START: file moving down the trail
 ACTION_END: file crouched, leader's hand up
 NARRATION_KO: 그들은 말을 두고 왔습니다. 횃불도 두고 왔습니다. 불은 항아리 안에 있었습니다. 야시경은 항아리 안을 볼 수 없었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: than trong nồi lách tách, dép da trên đá, gió.
 CONTINUITY: '불은 항아리 안에 있었습니다.' Không đuốc. 탁발흠 đi bộ đầu hàng.
 CHAIN_FROM: —
@@ -2149,7 +2097,7 @@ VIDEO_PROMPT: Static wide from above: ten flames lit, ten arcs of fire flying lo
 ACTION_START: archers lighting arrowheads
 ACTION_END: fire arrows burning in the nets below
 NARRATION_KO: 그물이었습니다. 달포 전 여울에서 배운 것이었습니다. 쇠는 안 타도 그물은 탔습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: dây cung, tên lửa rít, lưới bén "화르륵".
 CONTINUITY: '쇠는 안 타도 그물은 탔습니다.' Lưới bắt lửa (payoff 1화).
 CHAIN_FROM: —
@@ -2178,8 +2126,8 @@ IMAGE_PROMPT: Low wide, camera shaking, static base. ROK Army soldiers in granit
 VIDEO_PROMPT: Low wide, camera shuddering: the drum erupts into a ten-meter column of fire, net and sandbags thrown outward, everyone flat on the earth, the valley walls lit orange. Sound: a deep concussion, fire roaring, ringing ears.
 ACTION_START: drum engulfed, about to burst
 ACTION_END: fire column standing, everyone flat
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: "쾅" trầm, lửa gầm, tai ù.
 CONTINUITY: Phuy #1 nổ. Narrator IM. Không thoại.
 CHAIN_FROM: —
@@ -2193,8 +2141,8 @@ IMAGE_PROMPT: Tight tracking shot with two men rolling a drum, single move. @CHA
 VIDEO_PROMPT: Camera tracks tight with the two men as the drum goes over and rolls, bare hands on hot steel, a sleeve catching and slapped out, the drum crossing from firelight into darkness. Sound: the drum rumbling over the ground, fire, harsh breathing, skin hissing.
 ACTION_START: sergeant shouldering the upright drum
 ACTION_END: drum rolled into the dark, both men on it
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: phuy lăn ầm ầm, lửa, thở gắt, da cháy xèo.
 CONTINUITY: Chain từ SC_143. 박기철 tay bỏng (burned_hands), 오태민 tay áo phải cháy (soot_ep2 từ đây).
 CHAIN_FROM: SC_143
@@ -2208,8 +2156,8 @@ IMAGE_PROMPT: Medium-wide on the vehicle, static. ROK Army armored vehicle crew 
 VIDEO_PROMPT: Static: the burning net drops onto the vehicle, the can bursts, fire sheets over the flank and roof, hatches fly open and three crew scramble out, one rolling. Sound: fire, metal ticking and groaning, screaming.
 ACTION_START: net collapsing onto the vehicle
 ACTION_END: vehicle burning, crew out, one rolling
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: lửa, kim loại kêu, thét.
 CONTINUITY: 천둥 4 cháy. Narrator IM. Kíp xe mặt khuất.
 CHAIN_FROM: —
@@ -2223,8 +2171,8 @@ IMAGE_PROMPT: Wide from across the valley, static. ROK Army soldiers in granite-
 VIDEO_PROMPT: Static wide: stuttering white flashes through the hatches, tracer fountaining up, the ramp blowing open on fire, everyone flat. Sound: rapid detonations without pause, steel fragments falling.
 ACTION_START: vehicle burning, first flash
 ACTION_END: tracer fountain, ramp open, everyone flat
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: "탕탕탕" dồn dập không dứt, mảnh rơi thép.
 CONTINUITY: 40mm nổ dây chuyền, drone #2 cháy. Narrator IM.
 CHAIN_FROM: —
@@ -2239,7 +2187,7 @@ VIDEO_PROMPT: Camera stays at the sergeant's back as he closes: the first man fa
 ACTION_START: three men crawling toward the net, sergeant behind them
 ACTION_END: third man down on the slope, embers scattered
 NARRATION_KO: 셋이 전차로 갔습니다. 백성민은 그것을 처음부터 보고 있었습니다. 셋 다 돌아가지 못했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: dao, loạt ngắn, nồi vỡ, than rơi.
 CONTINUITY: '셋 다 돌아가지 못했습니다.' Không lưỡi dao chạm da (QC NOTE). Máy sau lưng.
 CHAIN_FROM: —
@@ -2254,7 +2202,7 @@ VIDEO_PROMPT: Static: embers hiss out on the wet net in little puffs of steam; t
 ACTION_START: embers falling on the wet net
 ACTION_END: sergeant standing with his hands held away from his body
 NARRATION_KO: 전차는 젖은 그물 밑에 있었습니다. 박기철의 버릇이었습니다. 버릇 하나가 전차 한 대를 남겼습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: than tắt trong nước, thở, lửa xa.
 CONTINUITY: '버릇 하나가 전차 한 대를 남겼습니다.' Payoff SC_124.
 CHAIN_FROM: —
@@ -2290,7 +2238,6 @@ CONTINUITY: '검은 물이 탄다. 그럼 쇠수레도 탄다.' Open loop P7.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_205_ref, LOC_003_wide
-AI_RISK: —
 
 ### SC_151 | 20:38–20:50 | LOC_003 (LOC_003_fire_wide) | ROK_SOLDIERS | VEH_002, VEH_001 | PROPS: PROP_007 | TYPE: still_kenburns | 12s
 SHOT: Still for ken-burns: wide from the valley rim at night, pulling out slowly  · ⚑ AERIAL/QUALITY
@@ -2299,13 +2246,12 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow pull-out from the burning vehicle to the wh
 ACTION_START: burning vehicle tight
 ACTION_END: whole valley in firelight
 NARRATION_KO: 그날 밤의 셈은 이랬습니다. 장갑차 셋에서 둘. 드럼 둘에서 하나. 드론 셋에서 둘. 40밀리 이백 발이 하늘로 갔습니다. 총 한 발 맞지 않고 잃은 것이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lửa, tiếng người xa, 40mm còn nổ lẻ.
 CONTINUITY: '장갑차 셋에서 둘. 드럼 둘에서 하나. 드론 셋에서 둘.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_002_burned, VEH_001_ref, PROP_007_ref, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 ### SC_152 | 20:50–21:00 | LOC_003 (LOC_003_wreck_dawn) | CHAR_003, CHAR_004 | VEH_002 | PROPS: — | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: medium shot at grey dawn, pushing in on two hands in a bucket
@@ -2314,13 +2260,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in on the two hands in the water. Soun
 ACTION_START: two figures and the wreck
 ACTION_END: tight on the hands in the bucket
 NARRATION_KO: 처음으로 싸움 밖에서 쇠를 잃었습니다. 적은 쇠수레를 치지 않았습니다. 쇠수레를 먹이는 것을 쳤습니다. 탁발흠은 그날 밤 이름 하나를 더 배웠습니다. 검은 물.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: nước, khói, chim sớm.
 CONTINUITY: '검은 물.' → MID-ROLL 3. D46.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_003_soot_ep2, CHAR_004_bloody_sleeves_ep2, VEH_002_burned, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 
 ## [Phần 8] 항생제, 없습니다 (21:00–24:00) · D46 xác 천둥 4 · 2차 공성 Goguryeo tự giữ · 을지문덕 chạm K2 lần 1 · '열 발'
@@ -2332,13 +2277,12 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow push-in on the gaping hatch. Sound: smoke, 
 ACTION_START: wreck and crater wide
 ACTION_END: tight on the open hatch
 NARRATION_KO: 새벽. 천둥 4호는 검은 뼈였습니다. 어제까지 아홉 명을 태우던 쇠집이었습니다. 기름 한 통이 그것을 태웠습니다. 기름은 목숨이었고, 그래서 불이기도 했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: khói, kim loại nguội kêu tách, chim.
 CONTINUITY: Sau MID-ROLL 3: không thoại. '검은 뼈'.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_002_burned, PROP_007_ref, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 ### SC_154 | 21:12–21:20 | LOC_003 (LOC_003_tent_ext_day) | CHAR_003, CHAR_005, CHAR_001 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium three-shot at the tally board, static
@@ -2384,7 +2328,6 @@ CONTINUITY: '쓰다. 쓴 만큼 듣는다.' Chain từ SC_155.
 CHAIN_FROM: SC_155
 CUT_HALF: no
 REFS: CHAR_106_forge_ep2, CHAR_107_scarf_ep2, CHAR_004_bloody_sleeves_ep2, PROP_009_ref, LOC_003_wide
-AI_RISK: —
 
 ### SC_157 | 21:36–21:44 | LOC_003 (LOC_003_line) | CHAR_002 | VEH_002, EQP_002 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Low-angle medium shot on the vehicle roof, static
@@ -2399,7 +2342,6 @@ CONTINUITY: '중대장님, 성이 공격받습니다. 나가겠습니다.' 2차 
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_002_soot_ep2, VEH_002_ref, EQP_002_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_158 | 21:44–21:52 | LOC_002 (LOC_002_southwall) | CHAR_104, GOG_INFANTRY, SUI_TOWER_MEN | VEH_203, VEH_201 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium-wide along the south wall, static
@@ -2408,7 +2350,7 @@ VIDEO_PROMPT: Static: the ladder is levered off, water and stones go over, the b
 ACTION_START: ladder against the wall, bridge rising
 ACTION_END: ladder gone, spears at the dropped bridge
 NARRATION_KO: 두 번째 공성이었습니다. 담 위에는 고구려뿐이었습니다. 담은 총 없이 싸우는 법을 이백 년 알고 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống, thang gãy, giáo, thét.
 CONTINUITY: '담 위에는 고구려뿐이었습니다.' Tháp phủ đất (mud).
 CHAIN_FROM: —
@@ -2429,7 +2371,6 @@ CONTINUITY: '성은 성이 막소. 나는 쇠수레를 보러 왔소.' 을지문
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_101_ref, CHAR_105_ref, CHAR_002_soot_ep2, LOC_003_wide
-AI_RISK: —
 
 ### SC_160 | 22:00–22:08 | LOC_003 (LOC_003_k2_day) | CHAR_101, CHAR_003, CHAR_001 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium-wide at the tank, slow circling move with the general
@@ -2438,13 +2379,12 @@ VIDEO_PROMPT: Camera moves slowly with the general: the hand on the armor for tw
 ACTION_START: hand rising to the turret armor
 ACTION_END: general at the rear of the tank, still circling
 NARRATION_KO: 그는 쇠수레가 무엇인지 묻지 않았습니다. 손을 한 번 얹었습니다. 그리고 셈을 물었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: giáp ông, bước chân trên đất trần, trống xa.
 CONTINUITY: Chạm K2 lần 1 (bàn tay đặt 2 giây). Chain từ SC_159.
 CHAIN_FROM: SC_159
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_003_soot_ep2, CHAR_001_dusty_ep2, VEH_001_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_161 | 22:08–22:16 | LOC_003 (LOC_003_k2_day) | CHAR_101, CHAR_003 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot at the muzzle, static
@@ -2459,7 +2399,6 @@ CONTINUITY: '쇠수레는 몇 번 울 수 있소?' Chain từ SC_160.
 CHAIN_FROM: SC_160
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_003_soot_ep2, VEH_001_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_162 | 22:16–22:24 | LOC_003 (LOC_003_k2_day) | CHAR_003 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium close-up, static
@@ -2474,7 +2413,6 @@ CONTINUITY: '스물두 발. 기름은 삼백오십.' Chain từ SC_161 (chuỗi 
 CHAIN_FROM: SC_161
 CUT_HALF: no
 REFS: CHAR_003_soot_ep2, VEH_001_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_163 | 22:24–22:32 | LOC_002 (LOC_002_southwall) | BOY_SCOUT_THIN, GOG_INFANTRY, GOG_ARCHERS | VEH_203 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Wide along the wall top, static
@@ -2483,13 +2421,12 @@ VIDEO_PROMPT: Static wide: the ladder goes, drums change, ladders retreat below,
 ACTION_START: last ladder going over
 ACTION_END: boy handing arrows, soldiers sitting
 NARRATION_KO: 두 번째 공성은 한나절로 끝났습니다. 담이 혼자 막았습니다. 화살을 나르는 아이의 열은 보름 전에 내렸습니다. 열두 병 중 한 병의 값이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống rút, thở, tên xếp.
 CONTINUITY: '화살을 나르는 아이의 열은 보름 전에 내렸습니다.' BOY_SCOUT_THIN.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: EXTRA_boy_scout_ref, WPN_102_ref, VEH_203_ref, LOC_002_southwall_ep2
-AI_RISK: —
 
 ### SC_164 | 22:32–22:40 | LOC_003 (LOC_003_k2_day) | CHAR_101 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot, static
@@ -2504,7 +2441,6 @@ CONTINUITY: '한 번 울면 저 탑이 몇 개 무너지오?'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, VEH_001_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_165 | 22:40–22:48 | LOC_003 (LOC_003_k2_day) | CHAR_003, CHAR_001 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot, static
@@ -2519,7 +2455,6 @@ CONTINUITY: '한 발에 탑 하나입니다.' Chain từ SC_164.
 CHAIN_FROM: SC_164
 CUT_HALF: no
 REFS: CHAR_003_soot_ep2, CHAR_001_dusty_ep2, VEH_001_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_166 | 22:48–22:56 | LOC_003 (LOC_003_k2_day) | CHAR_002, CHAR_001 | VEH_001, VEH_002 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot, static
@@ -2534,7 +2469,6 @@ CONTINUITY: '전차로 포위를 뚫습니다. 지금이 기회입니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_002_soot_ep2, CHAR_001_dusty_ep2, VEH_001_ref, VEH_002_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_167 | 22:56–23:04 | LOC_003 (LOC_003_k2_day) | CHAR_003 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot, static
@@ -2549,7 +2483,6 @@ CONTINUITY: '전차 시동 한 번이 드론 열 번입니다.' Chain từ SC_16
 CHAIN_FROM: SC_166
 CUT_HALF: no
 REFS: CHAR_003_soot_ep2, VEH_001_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_168 | 23:04–23:12 | LOC_003 (LOC_003_wreck_day) | CHAR_101, CHAR_001, CHAR_002 | VEH_001, VEH_002 | PROPS: — | TYPE: video8s | 8s
 SHOT: Walk-and-talk tracking shot from the tank to the wreck, then static
@@ -2564,7 +2497,6 @@ CONTINUITY: '황제가 성을 돌아갈 군사를 모으고 있소. 수는 모�
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_001_dusty_ep2, CHAR_002_soot_ep2, VEH_001_ref, VEH_002_burned, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 ### SC_169 | 23:12–23:20 | LOC_003 (LOC_003_k2_day) | CHAR_101, CHAR_001 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot at the tank's side skirt, static
@@ -2579,7 +2511,6 @@ CONTINUITY: '다음 공성 때 쇠수레를 쓰시오. 열 발만.' Gõ 2 ngón,
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_001_dusty_ep2, VEH_001_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_170 | 23:20–23:28 | LOC_003 (LOC_003_k2_day) | CHAR_001, CHAR_002, CHAR_003 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium three-shot, static
@@ -2594,7 +2525,6 @@ CONTINUITY: '포위는 안 뚫는다. 기름은 지킨다. 전차는 열 발.' C
 CHAIN_FROM: SC_169
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, CHAR_002_soot_ep2, CHAR_003_soot_ep2, VEH_001_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_171 | 23:28–23:38 | LOC_003 (LOC_003_k2_day) | CHAR_101 | VEH_001, VEH_002 | PROPS: — | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: close-up of a thin hand on a tank turret corner, pulling out
@@ -2603,13 +2533,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow pull-out from the hand to the wreck behind.
 ACTION_START: tight on the hand
 ACTION_END: hand and the wreck behind
 NARRATION_KO: 그는 오늘 쇠수레를 한 번 만졌습니다. 다음은 강가에서일 것이었습니다. 그는 그것을 아직 몰랐습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, im.
 CONTINUITY: '다음은 강가에서일 것이었습니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, VEH_001_ref, VEH_002_burned, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_172 | 23:38–23:48 | LOC_003 (LOC_003_tent_ext_day) | — | — | PROPS: — | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: close-up of a wooden tally board, pushing in on one circled figure
@@ -2618,7 +2547,7 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in on the circled figure. Sound: wind,
 ACTION_START: whole board
 ACTION_END: tight on the double-ringed figure
 NARRATION_KO: 판 위에 새 숫자가 하나 붙었습니다. 열. 줄어드는 숫자가 아니라 정해진 숫자였습니다. 이 부대가 받은 첫 번째 한계였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, tro.
 CONTINUITY: Bảng: K21 2 · 드럼 1 · 드론 2 · 항생제 0 · 포탄 22 · '10' khoanh 2 vòng → OVERLAY.
 CHAIN_FROM: —
@@ -2640,7 +2569,6 @@ CONTINUITY: '열 발. 그 이상은 안 되오. 그다음엔 저들이 어디로
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_105_ref, LOC_003_wide
-AI_RISK: —
 
 
 ## [Phần 9] 치 위의 전차 (24:00–27:30) · D47–D70 tháo tường/đắp dốc/đục cổng đông 반 미터 · mốc đá · K2 chui vòm cổng đông · MID-ROLL 4 @27:30
@@ -2652,13 +2580,12 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow slide along the tower line to the south-eas
 ACTION_START: west end of the tower line
 ACTION_END: south-east cluster and the fortress corner
 NARRATION_KO: 한 달이 지났습니다. 5월이 6월이 되었습니다. 탑은 모두 흙을 입었고, 수는 마흔을 넘었습니다. 우는 쇠는 흙 앞에서 소용이 없었습니다. 탑은 담까지 올 것이었습니다. 그렇다면 싸움은 담에서였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: búa xa, trống nhịp chậm, gió.
 CONTINUITY: '한 달이 지났습니다. 5월이 6월이 되었습니다.' D47–69 (đặt D60 → mùa JUN).
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_201_mud_ep2, PROP_012_ref, LOC_002_wide
-AI_RISK: —
 
 ### SC_175 | 24:12–24:20 | LOC_002 (LOC_002_ramp_work) | CHAR_003, CHAR_001, CHAR_106 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium-wide behind the bastion, static
@@ -2673,7 +2600,6 @@ CONTINUITY: '안쪽 벽을 헐고 흙을 쌓으면… 오릅니다.' Tường tr
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_003_ref, CHAR_001_dusty_ep2, CHAR_106_forge_ep2, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_176 | 24:20–24:28 | LOC_002 (LOC_002_ramp_work) | CHAR_106 | — | PROPS: PROP_019 | TYPE: video8s | 8s
 SHOT: Medium shot at the inner wall, static
@@ -2688,7 +2614,6 @@ CONTINUITY: '이 돌은 뺄 수 있어. 위에서부터 열 줄.' Chain từ SC_
 CHAIN_FROM: SC_175
 CUT_HALF: no
 REFS: CHAR_106_forge_ep2, PROP_019_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_177 | 24:28–24:36 | LOC_002 (LOC_002_ramp_work) | CHAR_104, CHAR_003 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot, static
@@ -2703,7 +2628,6 @@ CONTINUITY: '내 성벽을 헐자는 것이오? 조상이 쌓은 돌이오.' Cha
 CHAIN_FROM: SC_176
 CUT_HALF: no
 REFS: CHAR_104_siege_ep2, CHAR_003_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_178 | 24:36–24:44 | LOC_002 (LOC_002_ramp_work) | CHAR_101, CHAR_104 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot from the foot of the bastion stair, static
@@ -2718,7 +2642,6 @@ CONTINUITY: '조상은 돌을 지키라고 쌓지 않았소. 사람을 지키라
 CHAIN_FROM: SC_177
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_104_siege_ep2, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_179 | 24:44–24:56 | LOC_002 (LOC_002_ramp_work) | CHAR_005, CHAR_106, GOG_STONEMASONS, ROK_SOLDIERS, GOG_CIVILIANS | — | PROPS: PROP_019 | TYPE: still_kenburns | 12s
 SHOT: Still for ken-burns: high angle from the wall top over the worksite, sliding to the east gate  · ⚑ AERIAL/QUALITY
@@ -2727,7 +2650,7 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow slide from the dismantled stone courses acr
 ACTION_START: dismantled courses and the ramp
 ACTION_END: the widened east gate arch
 NARRATION_KO: 사흘이 걸렸습니다. 열 줄의 돌이 내려왔고, 흙 삼천 짐이 올라갔습니다. 치의 총안 하나가 쇠수레의 눈 크기로 넓어졌습니다. 동문도 반 미터 넓어졌습니다. 두 달 전의 그 반 미터였습니다. 천사백 년 전의 담이 오늘의 쇠를 위해 몸을 바꿨습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: bẩy đá, giỏ đất đổ, đục.
 CONTINUITY: 3 ngày: 10 hàng đá xuống, 3.000 gánh đất lên, khe đục, cổng đông 반 미터 (payoff 1화). D63.
 CHAIN_FROM: —
@@ -2748,7 +2671,6 @@ CONTINUITY: '경사 이십 도. 오르는 데 기름 십 킬로 몫입니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_003_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_181 | 25:04–25:12 | LOC_002 (LOC_002_hall_day) | CHAR_101, CHAR_104, CHAR_001 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot over the map, static
@@ -2763,7 +2685,6 @@ CONTINUITY: '탑이 백 걸음에 오면 깃발을 올리오.' Kế A/B.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_104_siege_ep2, CHAR_001_dusty_ep2, LOC_002_interior
-AI_RISK: —
 
 ### SC_182 | 25:12–25:20 | LOC_002 (LOC_002_eastgate_chisel) | CHAR_105, CHAR_001, GOG_STONEMASONS | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Walk-and-talk tracking through the gate arch, single backward move
@@ -2793,7 +2714,6 @@ CONTINUITY: '지키지 않으면, 전차입니다. 열 발.' Chain từ SC_182.
 CHAIN_FROM: SC_182
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, CHAR_106_forge_ep2, PROP_019_ref, LOC_002_eastgate_chisel_ep2
-AI_RISK: —
 
 ### SC_184 | 25:28–25:38 | LOC_002 (LOC_002_marker_field) | CHAR_006, GOG_TORCH_SQUAD, GOG_ARCHERS | — | PROPS: — | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: medium-wide at night from the near marker out to the far one
@@ -2802,13 +2722,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow drift from the nearest white stone to the f
 ACTION_START: nearest white boulder
 ACTION_END: farthest white boulder, wall behind
 NARRATION_KO: 우는 쇠는 백 발이었습니다. 겨냥에 쓸 발은 없었습니다. 그래서 돌로 쟀습니다. 흰 돌 하나가 백 걸음이었습니다. 화살 대신 돌이 표적을 등록했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: đá đặt cỏ, đuốc, dế.
 CONTINUITY: Mốc đá 100/200/300 bước thay đạn đăng ký.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_006_facepaint_ep1, WPN_102_ref, LOC_002_south_plain_ep2
-AI_RISK: —
 
 ### SC_185 | 25:38–25:46 | LOC_003 (LOC_003_trail_day) | CHAR_001, CHAR_003, CHAR_006 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium three-shot at the valley mouth, static
@@ -2823,7 +2742,6 @@ CONTINUITY: '전투 다음 날 밤, 산길로 골짜기를 뜬다.' Red herring 
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, CHAR_003_ref, CHAR_006_facepaint_ep1, LOC_003_wide
-AI_RISK: —
 
 ### SC_186 | 25:46–25:54 | LOC_003 (LOC_003_hilltop_enemy) | CHAR_205, XIANBEI_DEPUTY | VEH_206 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot behind a boulder at dusk, static
@@ -2838,7 +2756,6 @@ CONTINUITY: '낭장, 길목에 기병을 두겠습니다.' 탁발흠 chưa có b
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_205_ref, VEH_206_ref, LOC_003_wide
-AI_RISK: —
 
 ### SC_187 | 25:54–26:02 | LOC_003 (LOC_003_line_night) | CHAR_002, K2_GUNNER | VEH_002 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Close medium at the turret hatch, static, with a screen insert
@@ -2862,7 +2779,7 @@ VIDEO_PROMPT: Static wide: three flashes on the slope, embers bursting outward, 
 ACTION_START: dark hillside, first flash
 ACTION_END: embers glowing, figures gone over the crest
 NARRATION_KO: 넷이 왔고, 셋이 돌아갔습니다. 불은 항아리째 깨졌습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: 40mm ba phát, nồi vỡ, tiếng hét.
 CONTINUITY: '넷이 왔고, 셋이 돌아갔습니다.' Mini-combat lần 2.
 CHAIN_FROM: —
@@ -2883,7 +2800,6 @@ CONTINUITY: '골짜기를 지키란 말씀입니까? 전차 옆은 제 자리입
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_002_soot_ep2, CHAR_001_dusty_ep2, VEH_002_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_190 | 26:18–26:26 | LOC_003 (LOC_003_line) | CHAR_001 | VEH_002 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium close-up, static
@@ -2898,7 +2814,6 @@ CONTINUITY: '골짜기는 두 번째 불이 온다. 그걸 막는 게 네 자리
 CHAIN_FROM: SC_189
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, VEH_002_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_191 | 26:26–26:34 | LOC_003 (LOC_003_line) | CHAR_002 | VEH_002 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot, static
@@ -2907,13 +2822,12 @@ VIDEO_PROMPT: Static: the slap on steel, breathing, goggles pulled down, he turn
 ACTION_START: palm striking the flank
 ACTION_END: goggles down, turned to the tracks
 NARRATION_KO: 오태민은 따랐습니다. 이번에는. 요하의 여울에서 그는 세 시간을 따랐습니다. 이번에는 며칠이 될지 아무도 몰랐습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: tay đập thép, thở, xích.
 CONTINUITY: Không thoại. '오태민은 따랐습니다. 이번에는.' Chain từ SC_190 (chuỗi 3 — dừng).
 CHAIN_FROM: SC_190
 CUT_HALF: no
 REFS: CHAR_002_soot_ep2, VEH_002_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_192 | 26:34–26:42 | LOC_002 (LOC_002_ramp) | CHAR_101, CHAR_003 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot at the foot of the ramp, static
@@ -2928,7 +2842,6 @@ CONTINUITY: '청천강까지 며칠이오?'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_101_ref, CHAR_003_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_193 | 26:42–26:50 | LOC_002 (LOC_002_ramp) | CHAR_003 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot, static
@@ -2943,7 +2856,6 @@ CONTINUITY: '…청천강 말입니까? 왜 청천강을…' Chain từ SC_192.
 CHAIN_FROM: SC_192
 CUT_HALF: no
 REFS: CHAR_003_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_194 | 26:50–27:02 | LOC_002 | — | VEH_201 | PROPS: PROP_021 | TYPE: still_kenburns | 12s
 SHOT: Still for ken-burns: high aerial at night pulling out from a golden canopy  · ⚑ AERIAL/QUALITY
@@ -2952,13 +2864,12 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow pull-out from the golden canopy to the whol
 ACTION_START: golden canopy tight
 ACTION_END: whole plain: towers, mobile fortress, dark fortress
 NARRATION_KO: 6월 10일 밤. 탑이 천 미터까지 왔습니다. 성 남쪽에 높은 대가 섰습니다. 황제의 자리였습니다. 역사는 다음 날을 기록했습니다. 6월 11일, 황제가 요동성 남쪽에 서서 장수들을 꾸짖었습니다. 그날이 내일이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống đêm nhiều lớp, gió trên cao.
 CONTINUITY: '6월 10일 밤.' Đài quan sát 양제 phía nam thành.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_201_mud_ep2, PROP_021_ref, LOC_002_wide
-AI_RISK: —
 
 ### SC_195 | 27:02–27:10 | LOC_002 (LOC_002_eastgate_night_k2) | CHAR_003, K2_CREW, GOG_INFANTRY | VEH_001 | PROPS: PROP_016 | TYPE: video8s | 8s
 SHOT: Static from inside the fortress looking out through the arch
@@ -2967,7 +2878,7 @@ VIDEO_PROMPT: Static from inside: the tank's nose fills the arch and creeps forw
 ACTION_START: tank nose entering the arch
 ACTION_END: tank halfway through, skirts a finger from the stone
 NARRATION_KO: 두 달 만이었습니다. 문은 반 미터 넓어져 있었습니다. 을보의 돌이었습니다. 두 달 동안 골짜기의 돌이던 것이, 오늘 밤 다시 쇠수레였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: động cơ K2 dội trong vòm đá, xích trên đá, bụi đá rơi trên thép, đuốc.
 CONTINUITY: '문은 반 미터 넓어져 있었습니다. 을보의 돌이었습니다.' Payoff 1화 SC_138.
 CHAIN_FROM: —
@@ -2982,13 +2893,12 @@ VIDEO_PROMPT: Static wide: the tank stops, the old man's hand up, two knocks and
 ACTION_START: tank rolling to a stop
 ACTION_END: thumbs-up given, everyone still
 NARRATION_KO: 언덕 아래에 전차가 섰습니다. 언덕 위에는 치와 넓힌 총안이 있었습니다. 열 발이 올라갈 자리였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: động cơ chờ, đuốc, giáp.
 CONTINUITY: Không thoại. Chain từ SC_195 (khác subloc — không chain).
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_003_ref, CHAR_106_forge_ep2, WPN_102_ref, VEH_001_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_197 | 27:18–27:30 | LOC_002 (LOC_002_bastion_se_k2) | CHAR_104 | VEH_001 | PROPS: PROP_021 | TYPE: still_kenburns | 12s
 SHOT: Still for ken-burns: medium shot on the bastion at night, drifting from a folded cloth over a shoulder to a golden canopy
@@ -2997,13 +2907,12 @@ VIDEO_PROMPT: KEN-BURNS (12 s): slow drift from the folded white cloth past his 
 ACTION_START: folded white cloth in his hands
 ACTION_END: golden canopy far to the south
 NARRATION_KO: 흰 천은 네 번째였습니다. 세 번은 통했습니다. 네 번째는 황제가 백 리 밖이 아니라 오 리 밖에 있었습니다. 황제는 자신의 명령을 지킬까요?
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, trống Tùy đêm, đuốc.
 CONTINUITY: '황제는 자신의 명령을 지킬까요?' → MID-ROLL 4.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_104_siege_ep2, VEH_001_ref, PROP_021_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 
 ## [Phần 10] 제3차 공성전 (27:30–34:30) · D71 6월 11 [史] · 6 phase · narrator im 31:30–33:00 · CUT_HALF toàn khối · K2 22→12
@@ -3014,8 +2923,8 @@ IMAGE_PROMPT: Low angle from the foot of the ramp, static. @CHAR_003_ref: 42-yea
 VIDEO_PROMPT: Static low: the tank climbs, earth spilling, nose rising to the sky and levelling at the top, the old man's hand up. Sound: engine roaring uphill, tracks grinding earth, torches. No dialogue, no narration.
 ACTION_START: tank at the foot of the ramp starting up
 ACTION_END: tank levelling on the bastion top
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: động cơ gầm lên dốc, xích nghiến đất, đuốc.
 CONTINUITY: Sau MID-ROLL 4: không thoại.
 CHAIN_FROM: —
@@ -3030,7 +2939,7 @@ VIDEO_PROMPT: Camera glides high over the plain from the west face around to the
 ACTION_START: west face towers
 ACTION_END: south-east corner cluster, empty hills to the east
 NARRATION_KO: 6월 11일. 세 번째 공성이었습니다. 탑은 마흔이 넘었고, 모두 흙을 입었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống dồn hai mặt và một góc, bánh gỗ, hô đồng thanh.
 CONTINUITY: 3차 공성 mở màn. Mặt công = tây + nam + đông-nam; đông trống.
 CHAIN_FROM: —
@@ -3060,7 +2969,7 @@ VIDEO_PROMPT: Static low angle: nothing moves but the banner and the plume; the 
 ACTION_START: tableau on the bastion
 ACTION_END: same, banner moving
 NARRATION_KO: 치 위에 쇠수레가 있었습니다. 돌 담과 쇠 사이에 두 깃발이 있었습니다. 열 발이 그 사이에 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: động cơ K2 chờ nhỏ, cờ, trống.
 CONTINUITY: Contrast bắt buộc: K2 sau 치 + 태극기 cạnh 삼족오. 4 người + xe.
 CHAIN_FROM: —
@@ -3081,7 +2990,6 @@ CONTINUITY: '백 걸음.' Chain từ SC_201.
 CHAIN_FROM: SC_201
 CUT_HALF: yes
 REFS: CHAR_006_facepaint_ep1, VEH_201_mud_ep2, PROP_006_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_203 | 28:10–28:18 | LOC_002 (LOC_002_bastion_se_k2) | CHAR_104 | — | PROPS: PROP_012 | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot, low angle, static
@@ -3096,7 +3004,6 @@ CONTINUITY: '올려라.' Cờ trắng #4. Chain từ SC_202 (chuỗi 3 — dừn
 CHAIN_FROM: SC_202
 CUT_HALF: yes
 REFS: CHAR_104_siege_ep2, PROP_012_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_204 | 28:18–28:26 | LOC_002 (LOC_002_se_corner_out) | SUI_COURIER, SUI_PUSHERS | VEH_201 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Tracking shot alongside a galloping courier, single move
@@ -3126,7 +3033,6 @@ CONTINUITY: '황제가 눈치챘소.'
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_104_siege_ep2, CHAR_101_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_206 | 28:34–28:42 | LOC_002 (LOC_002_bastion_se_k2) | CHAR_101, CHAR_001 | EQP_002 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium two-shot, static
@@ -3141,7 +3047,6 @@ CONTINUITY: '우는 쇠부터. 마흔 발.' Chain từ SC_205.
 CHAIN_FROM: SC_205
 CUT_HALF: yes
 REFS: CHAR_101_ref, CHAR_001_dusty_ep2, EQP_002_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_207 | 28:42–28:50 | LOC_003 (LOC_003_mortar_day) | MORTAR_GUNNER, MORTAR_CREW | WPN_002 | PROPS: PROP_008 | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium-wide in the mortar pit, static
@@ -3156,7 +3061,6 @@ CONTINUITY: '1번, 2번, 표석 백. 스무 발씩.' Cối 40 viên (100→60).
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: WPN_002_ref, PROP_008_ref, LOC_003_wide
-AI_RISK: —
 
 ### SC_208 | 28:50–28:58 | LOC_002 (LOC_002_south_plain) | SUI_TOWER_MEN | VEH_201 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium-long from the wall toward a tower top, static
@@ -3165,13 +3069,12 @@ VIDEO_PROMPT: Static: bursts on the tower top swallowed in mud, mud raining down
 ACTION_START: tower rolling, first burst
 ACTION_END: tower still rolling, mud dripping
 NARRATION_KO: 흙이 쇠를 먹었습니다. 두 달 전 탑 둘을 태운 것과 같은 쇠였습니다. 이번에는 진흙만 튀었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: nổ bị bùn nuốt "퍽", bùn rơi, bánh gỗ vẫn lăn.
 CONTINUITY: '흙이 쇠를 먹었습니다.' Đất vô hiệu cối.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: WPN_201_ref, VEH_201_mud_ep2, LOC_002_south_plain_ep2
-AI_RISK: —
 
 ### SC_209 | 28:58–29:06 | LOC_002 (LOC_002_south_plain) | — | VEH_201 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Wide from the wall over the tower line, static  · ⚑ AERIAL/QUALITY
@@ -3180,13 +3083,12 @@ VIDEO_PROMPT: Static wide: three towers burning from the top, the rest rolling o
 ACTION_START: three tower tops catching
 ACTION_END: three burning, the line advancing through smoke
 NARRATION_KO: 셋. 마흔 발에 셋이었습니다. 서른일곱이 왔습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lửa, trống không ngớt.
 CONTINUITY: '셋. 마흔 발에 셋이었습니다. 서른일곱이 왔습니다.'
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: VEH_201_mud_ep2, LOC_002_south_plain_ep2
-AI_RISK: —
 
 ### SC_210 | 29:06–29:14 | LOC_002 (LOC_002_causeway) | GOG_ARCHERS, SUI_TOWER_MEN | WPN_101, VEH_203 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Low angle from the filled moat up the wall, static
@@ -3195,7 +3097,7 @@ VIDEO_PROMPT: Static low: ladders full of climbing men, arrows and stones and wa
 ACTION_START: ladders going up
 ACTION_END: ladders full, water sheeting down
 NARRATION_KO: 남쪽 담은 옛 방식으로 싸웠습니다. 돌과 물과 화살.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: dây cung, thang gỗ, thét.
 CONTINUITY: '남쪽 담은 옛 방식으로 싸웠습니다.'
 CHAIN_FROM: —
@@ -3210,13 +3112,12 @@ VIDEO_PROMPT: Static: the poles push, the ladder tips away with its men, the one
 ACTION_START: poles set against the ladder
 ACTION_END: ladder falling away, parapet clear
 NARRATION_KO: 사다리 하나에 스무 명이 있었습니다. 장대 하나가 스무 명을 떨어뜨렸습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: sào gỗ, thang đổ, giáp rơi.
 CONTINUITY: '장대 하나가 스무 명을 떨어뜨렸습니다.'
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: WPN_102_ref, WPN_201_ref, VEH_203_ref, LOC_002_southwall_ep2
-AI_RISK: —
 
 ### SC_212 | 29:22–29:30 | LOC_002 (LOC_002_southwall) | CHAR_104, GOG_SPEARMEN, SUI_TOWER_MEN | VEH_201 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Close medium at the bridge head, static
@@ -3225,7 +3126,7 @@ VIDEO_PROMPT: Static close medium: the bridge slams down, the commander's spear 
 ACTION_START: bridge dropping toward the parapet
 ACTION_END: lines locked at the bridge head
 NARRATION_KO: 성주는 이번에도 첫 번째 창이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: cầu đập đá, giáo, thét.
 CONTINUITY: '성주는 이번에도 첫 번째 창이었습니다.'
 CHAIN_FROM: —
@@ -3240,13 +3141,12 @@ VIDEO_PROMPT: Static: three smoke columns beyond, the fan moving, a bent report,
 ACTION_START: emperor watching, fan moving
 ACTION_END: report given, face unchanged
 NARRATION_KO: 마흔 중 셋. 황제는 그 셈을 들었습니다. 셋은 그에게 아무것도 아니었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lọng gió, trống xa.
 CONTINUITY: '셋은 그에게 아무것도 아니었습니다.' Không thoại.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_201_ref, WPN_201_ref, PROP_021_ref, LOC_004_platform_ep2
-AI_RISK: —
 
 ### SC_214 | 29:38–29:46 | LOC_002 (LOC_002_bastion_se_k2) | CHAR_006 | VEH_201, VEH_202 | PROPS: PROP_006 | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot at the parapet, static
@@ -3261,7 +3161,6 @@ CONTINUITY: '동남쪽, 탑 셋. 이백 걸음.'
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_006_facepaint_ep1, VEH_201_mud_ep2, VEH_202_ref, PROP_006_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_215 | 29:46–29:54 | LOC_002 (LOC_002_bastion_se_k2) | CHAR_101, CHAR_001 | VEH_001 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium two-shot beside the tank, static
@@ -3291,7 +3190,6 @@ CONTINUITY: '천둥 1, 여기는 천둥 지휘. 동남쪽 첫 번째 탑. 한 �
 CHAIN_FROM: SC_215
 CUT_HALF: yes
 REFS: CHAR_001_dusty_ep2, EQP_002_ref, VEH_001_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_217 | 30:02–30:10 | LOC_002 (LOC_002_k2_interior) | K2_COMMANDER, K2_GUNNER | VEH_001 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Interior of the tank turret, tight, static
@@ -3316,7 +3214,7 @@ VIDEO_PROMPT: Static wide: the muzzle flash, dust blown off the bastion, the ban
 ACTION_START: bastion quiet, gun through the slot
 ACTION_END: dust cloud over the bastion, banner sideways
 NARRATION_KO: 돌 담이 천둥을 냈습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: "쾅" xé, dội nhiều lần qua đồng bằng, tai ù.
 CONTINUITY: '돌 담이 천둥을 냈습니다.' Viên 1 (22→21).
 CHAIN_FROM: —
@@ -3331,7 +3229,7 @@ VIDEO_PROMPT: Static: the tower splits, the upper half topples, dust engulfs the
 ACTION_START: tower intact, hit arriving
 ACTION_END: upper half down, dust wall
 NARRATION_KO: 첫 번째 탑은 흙째 갈라졌습니다. 흙은 우는 쇠를 막았습니다. 이것은 막지 못했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gỗ vỡ tan, đổ, thét bị bụi nuốt.
 CONTINUITY: '첫 번째 탑은 흙째 갈라졌습니다.'
 CHAIN_FROM: —
@@ -3346,7 +3244,7 @@ VIDEO_PROMPT: Static aerial: everything stops, a full second of stillness, then 
 ACTION_START: army in motion
 ACTION_END: army frozen, then moving again
 NARRATION_KO: 한 순간, 백만이 멈췄습니다. 두 달 전 문 앞의 만 명이 아니었습니다. 벌판 전체였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: im một giây trọn, rồi trống lộn xộn.
 CONTINUITY: '한 순간, 백만이 멈췄습니다.'
 CHAIN_FROM: —
@@ -3361,13 +3259,12 @@ VIDEO_PROMPT: Static medium: the shoulder jerks, the fan stops, faces below tilt
 ACTION_START: fan mid-stroke
 ACTION_END: fan stopped, eyes east
 NARRATION_KO: 황제도 들었습니다. 두 달 반 전 탁발흠이 말한 천둥이었습니다. 이번에는 귀로였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: tiếng nổ dội tới muộn, lọng lụa, im.
 CONTINUITY: '이번에는 귀로였습니다.' Không thoại.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_201_ref, WPN_201_ref, PROP_021_ref, LOC_004_platform_ep2
-AI_RISK: —
 
 ### SC_222 | 30:42–30:50 | LOC_002 (LOC_002_bastion_se_k2) | CHAR_001, K2_COMMANDER | VEH_001, EQP_002 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot at the embrasure, static, with a quick screen insert
@@ -3392,13 +3289,12 @@ VIDEO_PROMPT: Static wide: the second tower bursts, the third leans and comes to
 ACTION_START: two towers rolling
 ACTION_END: one burst, one leaning dead against the wall
 NARRATION_KO: 둘, 셋. 탑 하나는 담에 기대어 죽었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: hai "쾅", gỗ đổ tựa đá, dây gai đứt.
 CONTINUITY: '탑 하나는 담에 기대어 죽었습니다.' Viên 2–3.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: VEH_201_mud_ep2, LOC_002_south_plain_ep2
-AI_RISK: —
 
 ### SC_224 | 30:58–31:06 | LOC_002 (LOC_002_causeway) | SUI_PUSHERS | VEH_202 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium-long down the causeway, static
@@ -3407,13 +3303,12 @@ VIDEO_PROMPT: Static: the ram cart rolling, then the roof lifts off in one piece
 ACTION_START: ram cart rolling
 ACTION_END: ram cart wrecked, beam in the ground
 NARRATION_KO: 넷. 흙 두 겹은 한 발의 값을 못 했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: "쾅", bùn và gỗ rơi.
 CONTINUITY: '넷. 흙 두 겹은 한 발의 값을 못 했습니다.' Viên 4.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: VEH_202_ref, LOC_002_south_plain_ep2
-AI_RISK: —
 
 ### SC_225 | 31:06–31:14 | LOC_002 (LOC_002_ramp) | CHAR_003, GOG_CIVILIANS | VEH_001 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot at the foot of the ramp looking up, static
@@ -3428,7 +3323,6 @@ CONTINUITY: '여섯.' Viên 5–6.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_003_ref, VEH_001_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_226 | 31:14–31:22 | LOC_002 (LOC_002_sui_lines) | SUI_SIEGE_GENERAL, SUI_CROSSBOWMEN | WPN_201 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot on the mounted general, static
@@ -3452,13 +3346,12 @@ VIDEO_PROMPT: Static close: cheering figures soft behind, his eyes down on the c
 ACTION_START: cheering rising behind him
 ACTION_END: his eyes on the crossbows, jaw set
 NARRATION_KO: 담은 환호했습니다. 을지문덕은 환호하지 않았습니다. 그는 쇠뇌를 보고 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: reo hò, nỏ lên dây xa.
 CONTINUITY: '그는 쇠뇌를 보고 있었습니다.' → NARRATOR IM 31:30–33:00.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_101_ref, WPN_102_ref, VEH_001_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_228 | 31:30–31:38 | LOC_002 (LOC_002_bastion_se_k2) | GOG_INFANTRY, K2_COMMANDER | VEH_001 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Close medium on the bastion face and embrasure, static
@@ -3466,8 +3359,8 @@ IMAGE_PROMPT: Close medium on the bastion face and embrasure, static. Goguryeo f
 VIDEO_PROMPT: Static: bolts rattle in like hail on stone and steel, sparks off the armor, a soldier by the track sits down hard with a bolt in his shoulder, the cupola hatch slams. Sound: bolts hammering stone and steel like hailstones, a fall, a hatch slamming. No narration.
 ACTION_START: volley arriving
 ACTION_END: soldier down by the track, hatch closed
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: nỏ đập đá và thép như mưa đá, tiếng ngã.
 CONTINUITY: Narrator IM. Trúng nỏ vai: không cận vết thương.
 CHAIN_FROM: —
@@ -3481,8 +3374,8 @@ IMAGE_PROMPT: Interior of the turret, tight, static. ROK Army tank commander in 
 VIDEO_PROMPT: Static tight: drumming on the hull, the gunner's flinch at a strike in front of the sight, the screen shuddering, the commander's eyes on the side panel. Sound: relentless drumming on steel, fans, breathing. No dialogue, no narration.
 ACTION_START: gunner at the sight
 ACTION_END: gunner flinched, commander watching the panel
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: gõ thép dồn dập, quạt, thở.
 CONTINUITY: Bộ đếm 16 → OVERLAY. Narrator IM.
 CHAIN_FROM: —
@@ -3497,8 +3390,8 @@ IMAGE_PROMPT: Low tracking shot backing out of the tunnel. Sui conscript soldier
 VIDEO_PROMPT: Camera backs out along the tunnel ahead of the running men, fire climbing the props behind them, cracking, earth starting to fall. Sound: fire in a confined space, timber cracking, earth falling. No narration.
 ACTION_START: oil thrown, torch touched
 ACTION_END: men running toward camera, ceiling collapsing behind
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: lửa trong hầm, gỗ nứt, đất đổ.
 CONTINUITY: Hầm đốt cột chống → tường sập (SC_231). Payoff SC_009–010.
 CHAIN_FROM: —
@@ -3512,8 +3405,8 @@ IMAGE_PROMPT: Wide from the bastion looking west along the wall, static. Gogurye
 VIDEO_PROMPT: Static wide along the wall: the section sags, then the outer face collapses outward in a cascade of blocks, dust rising; figures on top fall with it. Sound: stone thundering, a rising dust roar, screams. No narration.
 ACTION_START: wall intact, beginning to sag
 ACTION_END: outer face collapsed, dust cloud
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: đá đổ như sấm, bụi, thét.
 CONTINUITY: Lỗ hổng 80 m tây 치 đông-nam. Người rơi = xa, trong bụi.
 CHAIN_FROM: —
@@ -3527,8 +3420,8 @@ IMAGE_PROMPT: Low aerial rushing toward the breach with the assault. @WPN_201_re
 VIDEO_PROMPT: Camera flies low with the surge across the moat and up the rubble into the dust, banner going in. Sound: a mass charge shout, stones rolling under feet. No narration.
 ACTION_START: infantry at the moat
 ACTION_END: infantry on the rubble, banner planted
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: hô xung phong, đá lăn dưới chân.
 CONTINUITY: Bộ binh Tùy tràn vào lỗ hổng.
 CHAIN_FROM: —
@@ -3542,7 +3435,7 @@ IMAGE_PROMPT: Medium shot on the wall top between the bastion and the breach, st
 VIDEO_PROMPT: Static: long bursts, tracer streaking down, belt feeding, the barrel glowing red, one screamed line over the shoulder. Sound: sustained machine-gun fire, belt links, a scream, one line of Korean dialogue.
 ACTION_START: gunner firing
 ACTION_END: barrel glowing, line screamed
-NARRATION_KO: —
+NARRATION_KO: 
 DIALOGUE_KO: K3 사수: 총열 교환!
 SOUND: K3 quét dài, dây đạn, hét.
 CONTINUITY: '총열 교환!' K3 −1.200. Narrator IM.
@@ -3557,14 +3450,13 @@ IMAGE_PROMPT: Medium shot at the parapet above the breach, static. ROK Army sold
 VIDEO_PROMPT: Static: two tubes fire nearly together, backblast dust, the ladder cart bursts and the ladder falls in two pieces. Sound: two blasts, wood, screams. No narration.
 ACTION_START: two gunners aiming down
 ACTION_END: ladder cart wrecked, dust
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: hai "쾅", gỗ, thét.
 CONTINUITY: PZF ×2 (17→15).
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: WPN_005_ref, VEH_203_ref, LOC_002_southwall_ep2
-AI_RISK: —
 
 ### SC_235 | 32:26–32:36 | LOC_002 (LOC_002_breach_in) | GOG_SPEARMEN, ROK_SOLDIER | WPN_201 | PROPS: PROP_011 | TYPE: still_kenburns | 10s  · [COMBAT]
 SHOT: Still for ken-burns: medium shot in white dust, pushing in on two shoulders
@@ -3572,14 +3464,13 @@ IMAGE_PROMPT: Still for ken-burns: medium shot in white dust, pushing in on two 
 VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in on the two shoulders side by side. Sound: spears, shields, breathing, dust. No dialogue, no narration.
 ACTION_START: spear line and shields in dust
 ACTION_END: tight on the flag patch beside the iron shoulder guard
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: giáo, khiên, thở, bụi.
 CONTINUITY: Contrast bắt buộc: 태극기 vai PHẢI cạnh giáp lamellar (lặp SC_028).
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: WPN_102_ref, WPN_201_ref, PROP_011_ref, LOC_002_breach_ep2
-AI_RISK: —
 
 ### SC_236 | 32:36–32:44 | LOC_002 (LOC_002_southwall) | PZF_GUNNERS | WPN_005, VEH_201 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Wide from the wall, static  · ⚑ AERIAL/QUALITY
@@ -3587,14 +3478,13 @@ IMAGE_PROMPT: Wide from the wall, static. ROK Army soldiers in granite-pattern d
 VIDEO_PROMPT: Static wide: three shots in quick sequence into the tower's middle, fire inside, the bridge dropping short. Sound: three blasts, fire, the bridge crashing down. No narration.
 ACTION_START: tower close, bridge rising
 ACTION_END: tower burning inside, bridge fallen
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: ba "쾅" nối nhau, lửa, cầu rơi.
 CONTINUITY: PZF ×3 (15→12).
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: WPN_005_ref, VEH_201_mud_ep2, LOC_002_southwall_ep2
-AI_RISK: —
 
 ### SC_237 | 32:44–32:52 | LOC_002 (LOC_002_bastion_se_k2) | CHAR_001 | EQP_002, VEH_001 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot crouched at the parapet, static
@@ -3602,14 +3492,13 @@ IMAGE_PROMPT: Medium shot crouched at the parapet, static. @CHAR_001_dusty_ep2: 
 VIDEO_PROMPT: Static: crouched under the bolts, a look along the wall, the handset pressed, one line — then the gun beside him traverses west and fires twice, dust flying. Sound: bolts on stone, push-to-talk, two blasts six seconds apart, autoloader, one line of Korean dialogue.
 ACTION_START: captain crouched, handset rising
 ACTION_END: gun traversed west, second shot, dust
-NARRATION_KO: —
+NARRATION_KO: 
 DIALOGUE_KO: 한승우: 천둥 1, 무너진 벽 앞 탑. 네 발.
 SOUND: nỏ đập đá, PTT, hai "쾅" cách nhau sáu giây, máy nạp đạn.
 CONTINUITY: '천둥 1, 무너진 벽 앞 탑. 네 발.' Viên 7–8.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_001_dusty_ep2, EQP_002_ref, VEH_001_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_238 | 32:52–33:00 | LOC_002 (LOC_002_breach) | SUI_PUSHERS | VEH_001, VEH_201 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Wide from the bastion along the wall to the breach (keyframe = beat A)  · ⚑ AERIAL/QUALITY
@@ -3617,8 +3506,8 @@ IMAGE_PROMPT: Wide from the bastion along the wall to the breach (keyframe = bea
 VIDEO_PROMPT: Beat A (0–4 s): wide — two blasts, the tower breaks, the ladder cart shatters, earth erupts before the breach, infantry streaming back. Beat B (4–8 s): insert — inside the turret, the gunner's hand lifting off the grip, the counter panel glowing, the autoloader silent. Sound: two blasts, earth and stone, ragged Sui drums, then the autoloader going quiet.
 ACTION_START: wide along the wall, tower about to be hit
 ACTION_END: insert: gunner's hand off the grip, panel glowing
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: hai "쾅", đất đá, trống Tùy rối, máy nạp đạn im.
 CONTINUITY: 2-BEAT 4+4 s. Viên 9–10 → 잔탄 12 OVERLAY. Kết narrator IM.
 CHAIN_FROM: —
@@ -3650,7 +3539,7 @@ VIDEO_PROMPT: Camera flies low with the head of the column out of the gate, alon
 ACTION_START: gate opening, horn raised
 ACTION_END: column rounding the south-east corner, lances down
 NARRATION_KO: 해모루의 삼백 기가 북문으로 나갔습니다. 적이 없는 동쪽을 돌아, 탑을 미는 자들의 옆구리로.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: tù và, vó ngựa như sấm, giáp.
 CONTINUITY: '적이 없는 동쪽을 돌아…' 해모루 xuất kích cổng bắc.
 CHAIN_FROM: —
@@ -3671,7 +3560,6 @@ CONTINUITY: '조종수, 북문. 말객 옆에 선다.' Trái lệnh lần 2.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_002_soot_ep2, VEH_002_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_242 | 33:24–33:32 | LOC_002 (LOC_002_se_corner_out) | CHAR_002, GOG_CAVALRYMEN, SUI_PUSHERS | VEH_002, VEH_101, VEH_201 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Lateral tracking shot along the corner, single move  · ⚑ AERIAL/QUALITY
@@ -3680,7 +3568,7 @@ VIDEO_PROMPT: Camera tracks sideways with the vehicle as it fires a long burst, 
 ACTION_START: vehicle bursting into frame beside the cavalry
 ACTION_END: towers dead, cavalry through the gap
 NARRATION_KO: 오 분 뒤, 천둥 2가 동남쪽 모퉁이로 나왔습니다. 예순 발. 어긴 명령이 제때 왔습니다. 그것이 문제였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: 40mm loạt dài, vó ngựa, giáo.
 CONTINUITY: '예순 발.' 40mm 280→220. 천둥 2 góc đông-nam.
 CHAIN_FROM: —
@@ -3695,7 +3583,7 @@ VIDEO_PROMPT: Static: the spear line steps forward, shields give way, the broken
 ACTION_START: spear line at the top of the rubble
 ACTION_END: shields pushed down, sword drawn
 NARRATION_KO: 구멍은 창으로 막혔습니다. 총으로 막힌 것이 아니었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: giáo, khiên lùi lạo xạo, thở.
 CONTINUITY: '구멍은 창으로 막혔습니다.'
 CHAIN_FROM: —
@@ -3716,7 +3604,6 @@ CONTINUITY: '얼마나 남았소?' K2 = K2_SOOT từ đây.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_101_ref, CHAR_001_dusty_ep2, VEH_001_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_245 | 33:48–33:56 | LOC_002 (LOC_002_bastion_se_k2) | CHAR_001, K2_COMMANDER | VEH_001 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot, static
@@ -3731,7 +3618,6 @@ CONTINUITY: '열두 발입니다.' Chain từ SC_244.
 CHAIN_FROM: SC_244
 CUT_HALF: yes
 REFS: CHAR_001_dusty_ep2, VEH_001_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_246 | 33:56–34:04 | LOC_002 (LOC_002_bastion_se_k2) | CHAR_101 | VEH_001 | PROPS: — | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot, static
@@ -3746,7 +3632,6 @@ CONTINUITY: '그럼 이제 내려가시오. 그건 여기 것이 아니오.' Ch�
 CHAIN_FROM: SC_245
 CUT_HALF: yes
 REFS: CHAR_101_ref, VEH_001_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 ### SC_247 | 34:04–34:14 | LOC_002 (LOC_002_south_plain) | GOG_CAVALRYMEN | VEH_201, WPN_201, VEH_202 | PROPS: — | TYPE: still_kenburns | 10s  · [COMBAT]
 SHOT: Still for ken-burns: high wide at sunset, pulling out very slowly  · ⚑ AERIAL/QUALITY
@@ -3755,13 +3640,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): very slow pull-out over the whole field. Sound: 
 ACTION_START: burning towers near the wall
 ACTION_END: whole plain: columns withdrawing, cavalry returning
 NARRATION_KO: 해가 졌습니다. 세 번째 공성이 끝났습니다. 탑 아홉이 벌판에서 탔습니다. 담 하나가 무너졌고, 창으로 막혔습니다. 성은 섰습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lửa, trống rút, vó ngựa về.
 CONTINUITY: '탑 아홉이 벌판에서 탔습니다.'
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: VEH_101_ref, VEH_201_mud_ep2, WPN_201_ref, VEH_202_ref, LOC_002_south_plain_ep2
-AI_RISK: —
 
 ### SC_248 | 34:14–34:22 | LOC_004 (LOC_004_platform) | CHAR_201, SUI_GENERALS | — | PROPS: PROP_021 | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Medium shot from below the platform steps, static
@@ -3770,7 +3654,7 @@ VIDEO_PROMPT: Static from below: the fan folds, he rises and descends between th
 ACTION_START: emperor seated, fan folding
 ACTION_END: emperor at the foot of the steps, canopy following
 NARRATION_KO: 황제는 아무 말도 하지 않았습니다. 그는 오늘 천둥을 귀로 들었습니다. 말은 그날 밤 육합성에서 나올 것이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lọng, giáp tướng, im.
 CONTINUITY: '황제는 아무 말도 하지 않았습니다.' Không thoại.
 CHAIN_FROM: —
@@ -3785,13 +3669,12 @@ VIDEO_PROMPT: Static low: the tank reverses down the ramp, the sergeant's hand s
 ACTION_START: tank at the top starting to reverse
 ACTION_END: tank halfway down the ramp
 NARRATION_KO: 성은 버텼습니다. 황제는 그날 밤 다른 지도를 펼쳤습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: xích trên đất, reo hò trên tường, động cơ.
 CONTINUITY: '황제는 그날 밤 다른 지도를 펼쳤습니다.' Kết P10.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: CHAR_003_ref, WPN_102_ref, VEH_001_ref, LOC_002_bastion_se_ep2
-AI_RISK: —
 
 
 ## [Phần 11] 성은 버티오, 문제는 평양이오 (34:30–37:30) · D71 đêm vá lỗ hổng · 육합성 9군 30만 5천 [史] · 9 quân đi qua
@@ -3803,7 +3686,7 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow tilt from the row of hemp-covered dead on t
 ACTION_START: row of hemp cloth on the wall top
 ACTION_END: stone passing hand to hand at the breach
 NARRATION_KO: 그날 밤 성은 언덕을 먹었습니다. 쇠수레가 오른 흙 언덕의 돌이 구멍으로 갔습니다. 담 위에는 마흔 명이 천 밑에 누웠습니다. 성이 낸 값이었습니다. 총이 낸 값은 따로 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: đá, đuốc, không tiếng người.
 CONTINUITY: '담 위에는 마흔 명이 천 밑에 누웠습니다.' Xác dưới vải, không mặt.
 CHAIN_FROM: —
@@ -3824,7 +3707,6 @@ CONTINUITY: '이 돌은 성 돌이야. 제자리로 간다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_106_forge_ep2, CHAR_005_ref, PROP_019_ref, LOC_002_breach_ep2
-AI_RISK: —
 
 ### SC_252 | 34:48–34:56 | LOC_002 (LOC_002_southwall) | BOY_SCOUT_THIN, GOG_ARCHERS | WPN_101 | PROPS: PROP_016 | TYPE: video8s | 8s  · [COMBAT]
 SHOT: Low angle from the yard up at the wall top, static
@@ -3833,13 +3715,12 @@ VIDEO_PROMPT: Static low: arrows arrive, a torch drops, the boy draws and shoots
 ACTION_START: arrows arriving, torch falling
 ACTION_END: boy's bow released, volley following
 NARRATION_KO: 수나라는 밤에도 화살을 보냈습니다. 담을 고치지 못하게 하려는 것이었습니다. 화살을 나르던 아이가 그날 밤 처음 활을 당겼습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: tên rít hai chiều, đuốc rơi, dây cung.
 CONTINUITY: '화살을 나르던 아이가 그날 밤 처음 활을 당겼습니다.' Mini-combat.
 CHAIN_FROM: —
 CUT_HALF: yes
 REFS: EXTRA_boy_scout_ref, WPN_102_ref, WPN_101_ref, LOC_002_southwall_ep2
-AI_RISK: —
 
 ### SC_253 | 34:56–35:04 | LOC_003 (LOC_003_medic) | CHAR_004, ROK_BURNED | WPN_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot under the awning, static
@@ -3869,7 +3750,6 @@ CONTINUITY: '포탄 열두 발. 박격포 예순. PZF 열둘. 40밀리 이백이
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_003_ref, CHAR_001_dusty_ep2, VEH_001_ref, VEH_002_ref, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 ### SC_255 | 35:12–35:20 | LOC_003 (LOC_003_line_jun) | CHAR_003 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Close-up on bandaged hands and a dipstick, static
@@ -3884,7 +3764,6 @@ CONTINUITY: '전차, 오늘 하루 오십 킬로 몫 먹었습니다. 삼백.' C
 CHAIN_FROM: SC_254
 CUT_HALF: no
 REFS: CHAR_003_ref, VEH_001_ref, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 ### SC_256 | 35:20–35:30 | LOC_004 | — | — | PROPS: PROP_021 | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: high aerial at night pushing in on the golden pavilion  · ⚑ AERIAL/QUALITY
@@ -3893,13 +3772,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in on the golden pavilion. Sound: nigh
 ACTION_START: whole mobile fortress and fires
 ACTION_END: tight on the golden pavilion
 NARRATION_KO: 그날 밤 육합성에서 회의가 열렸습니다. 요동성에 대한 회의가 아니었습니다. 요동성을 두고 가는 회의였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: trống đêm, gió.
 CONTINUITY: '요동성을 두고 가는 회의였습니다.' D72–74.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: PROP_021_ref, LOC_004_wide
-AI_RISK: —
 
 ### SC_257 | 35:30–35:38 | LOC_004 (LOC_004_pavilion_int) | CHAR_201, CHAR_202, CHAR_203, CHAR_205 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium-wide interior, low angle toward the throne, static
@@ -3908,7 +3786,7 @@ VIDEO_PROMPT: Static: lantern light, incense smoke rising, no one moving. Sound:
 ACTION_START: tableau
 ACTION_END: same, smoke drifting
 NARRATION_KO: 우중문. 우문술. 역사가 이름을 남긴 두 장군이었습니다. 하나는 치자고 했고, 하나는 세자고 했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: lụa, lư hương.
 CONTINUITY: 우중문 (202) + 우문술 (203) lần đầu. Bản đồ lụa không chữ. Không thoại.
 CHAIN_FROM: —
@@ -3929,7 +3807,6 @@ CONTINUITY: '평양이 떨어지면 요동은 저절로 떨어집니다.' Chain 
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_202_ref, LOC_004_detail
-AI_RISK: —
 
 ### SC_259 | 35:46–35:54 | LOC_004 (LOC_004_pavilion_int) | CHAR_203 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot, static
@@ -3953,7 +3830,7 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow slide along the line of loaded men to the f
 ACTION_START: men receiving sacks
 ACTION_END: nine banners in a row
 NARRATION_KO: 우문술의 셈은 이랬습니다. 한 사람에 백 일치, 세 섬. 사람은 그것을 지고 걸을 수 없었습니다. 역사는 그 무게를 적었습니다. 그것을 아는 장군은 그날 밤 하나뿐이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: bao gạo lên lưng, thẻ tre, hô số.
 CONTINUITY: Minh họa 우문술: 100일치, 3석. [史]
 CHAIN_FROM: —
@@ -3974,7 +3851,6 @@ CONTINUITY: '평양은 압록에서 사흘 거리요. 사흘이면 끝나오.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_202_ref, CHAR_203_ref, LOC_004_detail
-AI_RISK: —
 
 ### SC_262 | 36:12–36:20 | LOC_004 (LOC_004_pavilion_int) | CHAR_201 | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium close-up on the throne, static
@@ -4004,7 +3880,6 @@ CONTINUITY: '뇌군도 남쪽으로 갈 것이다. 탁발흠은 따라붙어라.
 CHAIN_FROM: SC_262
 CUT_HALF: no
 REFS: CHAR_201_robe_only_ep3, CHAR_205_ref, LOC_004_detail
-AI_RISK: —
 
 ### SC_264 | 36:28–36:36 | LOC_002 (LOC_002_breach_in) | CHAR_101, CHAR_001, GOG_CIVILIANS | — | PROPS: PROP_015 | TYPE: video8s | 8s
 SHOT: Medium two-shot low over the ground, static
@@ -4034,7 +3909,6 @@ CONTINUITY: '나와 같이 남쪽으로 가시오.' Chain từ SC_264.
 CHAIN_FROM: SC_264
 CUT_HALF: no
 REFS: CHAR_101_ref, LOC_002_breach_ep2
-AI_RISK: —
 
 ### SC_266 | 36:44–36:52 | LOC_002 (LOC_002_breach_in) | CHAR_001 | — | PROPS: PROP_015 | TYPE: video8s | 8s
 SHOT: Close-up, slow push-in
@@ -4043,13 +3917,12 @@ VIDEO_PROMPT: Slow push-in: eyes on the marks, the hand on the arrow, no answer,
 ACTION_START: eyes on the marks in the earth
 ACTION_END: tight on the face, eyes on the dark
 NARRATION_KO: 한승우는 대답하지 않았습니다. 그의 머릿속에는 숫자 하나가 있었습니다. 박기철의 숫자였습니다. 삼백.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, đá xa.
 CONTINUITY: '삼백.' Không thoại. Chain từ SC_265 (chuỗi 3 — dừng).
 CHAIN_FROM: SC_265
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, PROP_015_ref, LOC_002_breach_ep2
-AI_RISK: —
 
 ### SC_267 | 36:52–37:02 | LOC_002 | — | WPN_201 | PROPS: — | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: very high aerial under the moon, pulling out slowly  · ⚑ AERIAL/QUALITY
@@ -4058,13 +3931,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): very slow pull-out over the nine columns and the
 ACTION_START: columns close to the fortress
 ACTION_END: whole plain, columns stretching east
 NARRATION_KO: 며칠 뒤 밤, 아홉 군이 움직였습니다. 요동성을 돌아 동쪽으로였습니다. 성은 처음으로 지나가는 군대를 보았습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: bước chân vạn người rất xa, gió trên cao.
 CONTINUITY: '아홉 군이 움직였습니다.' Aerial rất cao.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: WPN_201_ref, LOC_002_wide
-AI_RISK: —
 
 ### SC_268 | 37:02–37:10 | LOC_002 (LOC_002_eastwall_night) | CHAR_105, BOY_SCOUT_THIN | — | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot at the parapet under moonlight, static
@@ -4073,13 +3945,12 @@ VIDEO_PROMPT: Static: the boy watching, the commander arriving, hand on the shou
 ACTION_START: boy alone at the parapet
 ACTION_END: both turning away down the stair
 NARRATION_KO: 아이는 석 달 전 백만이라 했습니다. 오늘 밤 그 백만의 삼십만이 성을 지나갔습니다. 어디로 가는지 아이는 몰랐습니다. 대장군은 알았습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, bước chân xa của đại quân.
 CONTINUITY: Không thoại. '대장군은 알았습니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_105_ref, EXTRA_boy_scout_ref, LOC_002_detail
-AI_RISK: —
 
 ### SC_269 | 37:10–37:20 | LOC_001 (LOC_001_march_night) | SUI_MARCHERS | — | PROPS: PROP_022 | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: close medium at the roadside at night, pushing in on a hand
@@ -4088,13 +3959,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in on the hand letting the grain run o
 ACTION_START: soldier at the roadside, column ahead
 ACTION_END: tight on the hand and the running grain
 NARRATION_KO: 무게는 첫날 밤부터 등을 눌렀습니다. 버리면 목이 달아났습니다. 그래도 몇 줌이 길가에 떨어졌습니다. 아무도 보지 않는 곳에서였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gạo đổ khẽ, bước chân.
 CONTINUITY: '몇 줌이 길가에 떨어졌습니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: WPN_201_ref, PROP_022_ref, LOC_001_wide
-AI_RISK: —
 
 ### SC_270 | 37:20–37:30 | LOC_004 (LOC_004_gate_night) | CHAR_205 | VEH_206 | PROPS: — | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: medium-wide at the red gate, following the riders out
@@ -4103,13 +3973,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow drift with the riders out of the gate and t
 ACTION_START: riders in the gate
 ACTION_END: riders turning toward the hills
 NARRATION_KO: 탁발흠은 아홉 군을 따라가지 않았습니다. 그는 다른 것을 따라갈 것이었습니다. 삼십만 오천 명이 동쪽으로 떠났습니다. 그들의 등에는 백 일치 쌀이 있었습니다. — 아직은.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: vó ngựa ít, gió.
 CONTINUITY: Open loop P11: '— 아직은.' Băng đạn rỗng nhặt sau 3차 공성.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_205_ref, VEH_206_ref, LOC_004_wide
-AI_RISK: —
 
 
 ## [Phần 12] 400km (37:30–40:00) · D75 que đo dầu · '전차 한 대 몫' · 탁발흠 bám đuôi · end card
@@ -4121,13 +3990,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): start on the lone drum, drift out to the vehicle
 ACTION_START: tight on the lone drum
 ACTION_END: whole vehicle line
 NARRATION_KO: 골짜기에는 아직 쇠가 많았습니다. 전차 하나, 장갑차 둘, 트럭 둘, 지휘차 하나. 그리고 드럼 하나. 문제는 쇠가 아니었습니다. 쇠를 먹일 것이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió khe, dế, không máy phát.
 CONTINUITY: '문제는 쇠가 아니었습니다. 쇠를 먹일 것이었습니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_001_ref, VEH_002_ref, VEH_003_ref, VEH_004_ref, PROP_007_ref, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 ### SC_272 | 37:40–37:48 | LOC_003 (LOC_003_k2_day) | CHAR_003 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Close-up on hands and the engine deck, static
@@ -4136,7 +4004,7 @@ VIDEO_PROMPT: Static close: six sticks laid down one by one, nudged into a strai
 ACTION_START: first stick laid down
 ACTION_END: six sticks in a straight row
 NARRATION_KO: 여섯 개의 막대였습니다. 여섯 대의 기름이었습니다. 박기철은 그것을 한 줄로 놓았습니다. 한 줄로 놓으면 답이 보였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: que kim loại trên thép, gió.
 CONTINUITY: 6 que = 6 xe. Không thoại. (Sub-lock k2_day dùng cho vị trí, light = đêm trăng.)
 CHAIN_FROM: —
@@ -4157,7 +4025,6 @@ CONTINUITY: '장갑차는 바닥, 트럭은 반, 드럼 하나. 다 짜면 사�
 CHAIN_FROM: SC_272
 CUT_HALF: no
 REFS: CHAR_003_ref, CHAR_001_dusty_ep2, CHAR_002_soot_ep2, VEH_001_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_274 | 37:56–38:04 | LOC_003 (LOC_003_k2_day) | CHAR_003 | VEH_001 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot, static
@@ -4172,7 +4039,6 @@ CONTINUITY: '여기서 청천강까지 400km. 연료는 전차 한 대 몫뿐입
 CHAIN_FROM: SC_273
 CUT_HALF: no
 REFS: CHAR_003_ref, VEH_001_ref, LOC_003_valley_ep2
-AI_RISK: —
 
 ### SC_275 | 38:04–38:12 | LOC_003 (LOC_003_line_jun) | CHAR_001 | VEH_002, VEH_003, VEH_004 | PROPS: — | TYPE: video8s | 8s
 SHOT: Slow pan following the captain's gaze along the vehicle line
@@ -4181,13 +4047,12 @@ VIDEO_PROMPT: Camera pans slowly along the line as his eyes move from vehicle to
 ACTION_START: captain looking at the first K21
 ACTION_END: gaze resting on the K2
 NARRATION_KO: 나머지 다섯 대는 그 셈에 없었습니다. 한승우는 다섯 대를 하나씩 보았습니다. 지난 두 달의 집이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, lưới sột soạt.
 CONTINUITY: '나머지 다섯 대는 그 셈에 없었습니다.' Không thoại.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_001_dusty_ep2, VEH_002_ref, VEH_003_ref, VEH_004_ref, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 ### SC_276 | 38:12–38:20 | LOC_003 (LOC_003_line_jun) | CHAR_002 | VEH_002 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium shot at the vehicle flank, static
@@ -4202,7 +4067,6 @@ CONTINUITY: '그럼 나머지는요?'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_002_soot_ep2, VEH_002_ref, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 ### SC_277 | 38:20–38:28 | LOC_003 (LOC_003_line_jun) | CHAR_003, CHAR_001, CHAR_106 | VEH_002 | PROPS: PROP_007 | TYPE: video8s | 8s
 SHOT: Wide across the vehicle line, static
@@ -4211,13 +4075,12 @@ VIDEO_PROMPT: Static wide: three figures still, each looking at a different thin
 ACTION_START: three figures after the question
 ACTION_END: same, old man's eye narrowing
 NARRATION_KO: 아무도 대답하지 않았습니다. 대답은 이미 땅 위에 그어져 있었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, dế, im.
 CONTINUITY: '대답은 이미 땅 위에 그어져 있었습니다.' Chain từ SC_276.
 CHAIN_FROM: SC_276
 CUT_HALF: no
 REFS: CHAR_003_ref, CHAR_001_dusty_ep2, CHAR_106_forge_ep2, VEH_002_ref, PROP_007_ref, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 ### SC_278 | 38:28–38:38 | LOC_003 (LOC_003_line_jun) | CHAR_106 | VEH_002 | PROPS: PROP_019 | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: extreme close-up of an old hand on an iron pin in a road wheel, pushing in
@@ -4226,13 +4089,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in on where ancient iron meets modern 
 ACTION_START: hand on the pin
 ACTION_END: tight on iron against steel
 NARRATION_KO: 을보는 그 바퀴를 두 달 동안 매일 만졌습니다. 고구려 쇠로 굴러온 바퀴였습니다. 그 바퀴가 사백 킬로를 못 간다는 것을 그는 방금 들었습니다. 쇠는 쇠였습니다. 기름은 아니었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, im.
 CONTINUITY: '쇠는 쇠였습니다. 기름은 아니었습니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_106_forge_ep2, VEH_002_ref, PROP_019_ref, LOC_003_valley_burned_ep2
-AI_RISK: —
 
 ### SC_279 | 38:38–38:46 | LOC_003 (LOC_003_medic) | CHAR_004, CHAR_107 | — | PROPS: PROP_009 | TYPE: video8s | 8s
 SHOT: Close-up on hands and the medic bag, static
@@ -4241,13 +4103,12 @@ VIDEO_PROMPT: Static close: bundles passed and packed one at a time into the emp
 ACTION_START: first bundle passed
 ACTION_END: pocket filled with bundles
 NARRATION_KO: 항생제 자리에 약초가 들어갔습니다. 서아의 가방은 이제 이 땅의 가방이었습니다. 이름을 외운 풀이 스물이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: vải gói, lá khô.
 CONTINUITY: '항생제 자리에 약초가 들어갔습니다.' Không thoại.
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_004_bloody_sleeves_ep2, CHAR_107_scarf_ep2, PROP_009_ref, LOC_003_wide
-AI_RISK: —
 
 ### SC_280 | 38:46–38:54 | LOC_003 (LOC_003_line_jun) | CHAR_001 | VEH_001 | PROPS: PROP_015 | TYPE: video8s | 8s
 SHOT: Medium close-up at the tank track, static
@@ -4271,13 +4132,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow drift eastward with the columns toward the 
 ACTION_START: columns and the fortress
 ACTION_END: the silver river ahead
 NARRATION_KO: 삼십만 오천 명이 압록수로 갔습니다. 역사는 그 뒤를 알고 있었습니다. 숫자 하나로. 그 숫자는 아직 오지 않은 일이었습니다. 한 달 하고도 보름 뒤였습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió trên cao, bước chân vạn người rất mơ hồ.
 CONTINUITY: '삼십만 오천 명이 압록수로 갔습니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: WPN_201_ref, LOC_002_wide
-AI_RISK: —
 
 ### SC_282 | 39:04–39:14 | LOC_002 | — | VEH_206 | PROPS: — | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: high aerial at the tail of the columns, pushing in on a small party  · ⚑ AERIAL/QUALITY
@@ -4286,13 +4146,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in on the small party turning toward t
 ACTION_START: tail of the columns
 ACTION_END: tight on the party turning to the hills
 NARRATION_KO: 가장 끝에서 기병 한 무리가 길을 벗어났습니다. 동쪽이 아니었습니다. 산이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: vó ngựa ít, gió.
 CONTINUITY: '동쪽이 아니었습니다. 산이었습니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_206_ref, LOC_002_wide
-AI_RISK: —
 
 ### SC_283 | 39:14–39:22 | LOC_003 (LOC_003_fork_night) | CHAR_205, XIANBEI_DEPUTY | VEH_206 | PROPS: — | TYPE: video8s | 8s
 SHOT: Medium two-shot mounted at the fork, static
@@ -4316,13 +4175,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow drift with the file of riders southward. So
 ACTION_START: riders on the hillside, red dot below
 ACTION_END: riders heading south
 NARRATION_KO: 탁발흠은 명령을 받았습니다. 따라붙어라. 그는 명령을 제 방식으로 읽었습니다. 앞을 막는 자는 한 번 싸웁니다. 뒤를 밟는 자는 골라서 싸웁니다. 그는 고르기로 했습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: vó ngựa nhẹ, gió.
 CONTINUITY: '그는 고르기로 했습니다.' LOC_003 sườn đồi nam (v2).
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: CHAR_205_ref, VEH_206_ref, LOC_003_wide
-AI_RISK: —
 
 ### SC_285 | 39:32–39:42 | LOC_003 (LOC_003_k2) | ROK_SENTRY | VEH_001 | PROPS: — | TYPE: still_kenburns | 10s
 SHOT: Still for ken-burns: medium shot of the tank under netting, pushing in on the black muzzle
@@ -4331,13 +4189,12 @@ VIDEO_PROMPT: KEN-BURNS (10 s): slow push-in on the black muzzle. Sound: wind, s
 ACTION_START: tank under netting
 ACTION_END: tight on the soot-black muzzle
 NARRATION_KO: 두 달 전 전차는 한 번도 울지 않았습니다. 이제 열 번 울었습니다. 열두 발. 삼백 킬로. 아흔네 명. 그리고 사백 킬로의 남쪽. 이 숫자들이 다음 길이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: gió, im.
 CONTINUITY: '열두 발. 삼백 킬로. 아흔네 명. 그리고 사백 킬로의 남쪽.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: VEH_001_ref, LOC_003_wide
-AI_RISK: —
 
 ### SC_286 | 39:42–39:51 | LOC_002 (LOC_002_breach_repaired) | — | — | PROPS: PROP_012 | TYPE: still_kenburns | 9s
 SHOT: Still for ken-burns: medium-wide at night, pulling out from the soot-black embrasure to the banner
@@ -4346,13 +4203,12 @@ VIDEO_PROMPT: KEN-BURNS (9 s): slow pull-out from the soot-black embrasure to th
 ACTION_START: tight on the black embrasure
 ACTION_END: wall, new stone and banner
 NARRATION_KO: 요동성은 그해 여름 끝까지 섰습니다. 성은 버텼습니다. 문제는 남쪽이었습니다.
-DIALOGUE_KO: —
+DIALOGUE_KO: 
 SOUND: cờ đập gió, im.
 CONTINUITY: '성은 버텼습니다. 문제는 남쪽이었습니다.'
 CHAIN_FROM: —
 CUT_HALF: no
 REFS: PROP_012_ref, LOC_002_breach_ep2
-AI_RISK: —
 
 ### SC_287 | 39:51–40:00 | — | — | — | PROPS: — | TYPE: still_kenburns | 9s
 SHOT: END CARD — black frame, white title text centered (edit only)
@@ -4360,8 +4216,8 @@ IMAGE_PROMPT: — (EDIT ONLY: end card đen + chữ ở khâu edit, không tạo
 VIDEO_PROMPT: EDIT: pure black, white title text centered 「살수 612 · 3화 남하」; the sound of tank tracks rolling on earth for 3 s over black, then absolute silence. No AI image.
 ACTION_START: black
 ACTION_END: black
-NARRATION_KO: —
-DIALOGUE_KO: —
+NARRATION_KO: 
+DIALOGUE_KO: 
 SOUND: tiếng xích K2 lăn trên đất vọng 3 s trong đen, rồi im tuyệt đối.
 CONTINUITY: End card. Không tạo ảnh AI. Chữ ở edit.
 CHAIN_FROM: —

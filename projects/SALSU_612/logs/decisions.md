@@ -113,3 +113,9 @@
 - PROP_026 nút bầu: không ref; thêm nếu QC ảnh drift.
 - Kính đêm thứ 2 của 탁발흠 → về tây theo 선비 부장 (hạt series 2 「613」) — ledger ghi.
 - K3/K6 lệch nhỏ: ledger là chuẩn (1.800 / −600 †).
+
+## 2026-09-16 · sau VEO 2화/4화
+- Derived state veo đặt thêm (2화: 22; 4화: 19) chỉ dùng text + ref gốc → CHẤP NHẬN, không tạo ref mới; character-designer nhập bible v4 khi gom lần sau.
+- LOC_002 aerial 6월: dùng lock gốc + "Season: JUN" → OK (không tạo lock JUN riêng). VEH_202 mud: text only; tạo ref nếu QC ảnh drift.
+- Sub-lock mới 2화 (LOC_002 ×12) và 4화 (LOC_007/006/008 ×62) → world-designer nhập bible v4 trước lô ảnh của tập đó (tập 1 chạy trước, không bị chặn).
+- Thứ tự sinh ảnh: ref base (131) → ref extra 1화 (7) → ảnh cảnh 1화 → video 1화 → rồi 2→5.

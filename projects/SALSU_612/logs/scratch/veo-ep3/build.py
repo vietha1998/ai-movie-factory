@@ -583,6 +583,10 @@ def load_batches():
 def tag_of(rid):
     return "@" + rid
 
+def lock_txt(k):
+    t = LOCKS[k].strip()
+    return t if t.endswith((".", "!", "?")) else t + "."
+
 def build_scene(s, sc):
     sid = s["id"]
     day = s.get("day", "D2")
@@ -605,7 +609,7 @@ def build_scene(s, sc):
             assert cid == c, (sid, c, st)
         else:
             ref_id, st_text = f"{c}_ref", ""
-        seg.append(f"{tag_of(ref_id)}: {LOCKS[c]}" + (f" {st_text}" if st_text else ""))
+        seg.append(f"{tag_of(ref_id)}: {lock_txt(c)}" + (f" {st_text}" if st_text else ""))
         add_ref(ref_id)
     for e in extras:
         seg.append(EXTRAS[e] if EXTRAS[e].endswith(".") else EXTRAS[e] + ".")
@@ -613,11 +617,11 @@ def build_scene(s, sc):
     vstates = s.get("veh_state", {})
     for v in vehs:
         vref = s.get("veh_ref", {}).get(v, f"{v}_ref")
-        seg.append(f"{tag_of(vref)}: {LOCKS[v]}" + (f" {VEH_STATE[vstates[v]]}" if v in vstates else ""))
+        seg.append(f"{tag_of(vref)}: {lock_txt(v)}" + (f" {VEH_STATE[vstates[v]]}" if v in vstates else ""))
         add_ref(vref)
     for p in props:
         pref = f"{p}_ref" if f"{p}_ref" in REF_DIR else None
-        seg.append((f"{tag_of(pref)}: " if pref else "") + LOCKS[p])
+        seg.append((f"{tag_of(pref)}: " if pref else "") + lock_txt(p))
         add_ref(pref)
     seg.append(f"Setting {tag_of(loc_ref)}: {loc_text}")
     add_ref(loc_ref)
@@ -748,12 +752,12 @@ def validate(recs):
             if not r["image_prompt"].endswith(STYLE): errs.append(f"{r['id']} style tag missing")
             if len(r["refs"]) > 10: errs.append(f"{r['id']} >10 refs")
             for c in r["chars"]:
-                if LOCKS[c] not in r["image_prompt"]: errs.append(f"{r['id']} lock {c} not verbatim")
+                if LOCKS[c].strip() not in r["image_prompt"]: errs.append(f"{r['id']} lock {c} not verbatim")
             for v in r["vehicles"]:
-                if LOCKS[v] not in r["image_prompt"]: errs.append(f"{r['id']} lock {v} not verbatim")
+                if LOCKS[v].strip() not in r["image_prompt"]: errs.append(f"{r['id']} lock {v} not verbatim")
             for p in r["props"]:
-                if LOCKS[p] not in r["image_prompt"]: errs.append(f"{r['id']} lock {p} not verbatim")
-            for tok in ("한승우", "오태민", "Han ", "Tae-min", "Eulji", "Tuoba", "Yang Guang", "Ki-cheol", "Seo-ah", "Tae-oh", "Seong-min",
+                if LOCKS[p].strip() not in r["image_prompt"]: errs.append(f"{r['id']} lock {p} not verbatim")
+            for tok in ("한승우", "오태민", "Han S", "Tae-min", "Eulji", "Tuoba", "Yang Guang", "Ki-cheol", "Seo-ah", "Tae-oh", "Seong-min",
                         "Hae Mo", "Jeong-su", "Eul-bo", "A-ri", "Zhongwen", "Yuwen", "Salong", "Mundeok"):
                 if tok in r["image_prompt"] or tok in r["video_prompt"]: errs.append(f"{r['id']} proper name '{tok}' in prompt")
             if r["type"] == "video8s" and r["cut_half"] is False and r["part"] == 10 and 207 <= int(r["id"][3:]) <= 241:

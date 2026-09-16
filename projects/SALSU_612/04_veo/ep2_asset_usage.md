@@ -337,17 +337,14 @@
 | SC_026 | đám đông lao động | tracking, mặt quay đi, 1 nhân vật ID rõ |
 | SC_027 | tay cầm búa cận | búa nhỏ, 3 nhịp gõ chậm |
 | SC_028 | 2 người khiêng đá | 1 tảng đá, tay không cận |
-| SC_029 | — | — |
 | SC_030 | hàng lính ngồi | lưng/mũ, xa mờ |
 | SC_031 | walk-and-talk 2 người | tracking lùi đều, đám đông sau lưng mờ |
 | SC_032 | mồ hôi cận | 1 mặt, giọt mồ hôi đơn giản |
 | SC_033 | 3 người nội thất | hoàng đế mặt che quạt, 2 người quỳ/cúi |
-| SC_034 | — | — |
 | SC_035 | chữ trên bảng | 'rain-smeared chalk marks that cannot be read'; số overlay |
 | SC_036 | walk-and-talk + xe | tracking 1 chiều, sổ đóng |
 | SC_037 | thùng đạn nhiều + phấn | 'chalk tally marks', không chữ |
 | SC_038 | tay cận cầm que | 1 tay, que dài, găng dầu che ngón |
-| SC_039 | — | — |
 | SC_040 | 3 drone + 2 người | drone nhỏ trên ca-pô, không HUD |
 | SC_041 | xe chuyển động + tay trên xe | tracking chậm, 1 bàn tay |
 | SC_042 | 3 người | lính ốm mặt cúi, 2 mặt ID |
@@ -355,12 +352,7 @@
 | SC_044 | bỏng cẳng tay cận | 'red and blistered', không vết hở |
 | SC_045 | 13 lọ giống nhau | hàng lọ trắng trong túi, đếm ngón tay, không chữ nhãn |
 | SC_046 | kim tiêm cận | 1 tay găng, kim đơn giản, chuyển động chậm |
-| SC_047 | — | — |
-| SC_048 | — | — |
 | SC_049 | 4 người wide | áo choàng không mặt, 3 người xa |
-| SC_050 | — | — |
-| SC_051 | — | — |
-| SC_052 | — | — |
 | SC_053 | tay cận | 1 bàn tay tĩnh trên đá, 5 ngón rõ |
 | SC_054 | chữ trên lụa | không đọc được, nắm tay vò |
 | SC_055 | tháp + hàng trăm người + bò | aerial thấp, lưng cúi |
@@ -368,84 +360,40 @@
 | SC_057 | cận chiến đám đông | medium-wide, mũ che mặt, không máu |
 | SC_058 | giáo + khiên cận | 1 giáo, 1 khiên, lính Tùy mặt khuất |
 | SC_059 | người rơi thang | xa, mờ trong hơi nước |
-| SC_060 | — | — |
-| SC_061 | — | — |
 | SC_062 | nhiều chân dưới mái | chỉ chân, không mặt; tracking 1 chiều |
-| SC_063 | — | — |
-| SC_064 | — | — |
 | SC_065 | chạy trên tường + lính ép lan can | tracking lùi, mặt phụ quay đi |
 | SC_066 | ống PZF cận + 4 người | xạ thủ mặt khuất kính ngắm |
-| SC_067 | — | — |
 | SC_068 | nổ + mảnh | 1 vụ nổ, wide từ trên, không người cận |
 | SC_069 | đám đông lùi | mũ che mặt, medium-wide |
 | SC_070 | ngựa + kỵ sĩ | 1 ngựa, medium |
 | SC_071 | tay cận | 1 bàn tay, 1 ngón giơ |
 | SC_072 | đại quân rút | wide, mặt lính Goguryeo cúi |
-| SC_073 | — | — |
 | SC_074 | đám đông lao động đêm | đuốc + lưng, không mặt |
 | SC_075 | chữ trên bảng | 'smudged and unreadable', số overlay |
-| SC_076 | — | — |
-| SC_077 | — | — |
 | SC_078 | 6 người nội thất | wide, mỗi người 1 dấu hiệu, mặt 2 người ngồi/đứng chính rõ |
-| SC_079 | — | — |
-| SC_080 | — | — |
-| SC_081 | — | — |
-| SC_082 | — | — |
-| SC_083 | — | — |
-| SC_084 | — | — |
-| SC_085 | — | — |
 | SC_086 | tay trên vũ khí | tay trên tay quay, đạn 1 viên, không mặt |
 | SC_087 | nổ xa | 2 cột đất nhỏ ở hậu cảnh |
-| SC_088 | — | — |
-| SC_089 | — | — |
 | SC_090 | lặp động tác | nhịp đơn giản, 2 ống, tay không cận |
 | SC_091 | nổ + người nhảy | medium-long, người nhỏ, không gore |
 | SC_092 | 2 tháp cháy + đám đông | pan 1 chiều, cuối = 1 mặt |
 | SC_093 | tay đếm ngón cận | 1 bàn tay, gập chậm |
-| SC_094 | — | — |
-| SC_095 | — | — |
-| SC_096 | — | — |
-| SC_097 | — | — |
 | SC_098 | hàng nghìn người kéo | đuốc + lưng, wide |
 | SC_099 | đám đông lao động | tracking, lưng |
-| SC_100 | — | — |
-| SC_101 | — | — |
 | SC_102 | chân dung lịch sử | theo lock hư cấu |
-| SC_103 | — | — |
 | SC_104 | 3 người + khăn | khăn olive rõ, không chữ sổ |
 | SC_105 | chữ trên đất | 'a simple smith's mark, not a character' |
 | SC_106 | 6 người + bản đồ | wide, bản đồ 'painted rivers and a square fortress, no characters' |
-| SC_107 | — | — |
-| SC_108 | — | — |
-| SC_109 | — | — |
-| SC_110 | — | — |
-| SC_111 | — | — |
-| SC_112 | — | — |
-| SC_113 | — | — |
 | SC_114 | đám đông + lửa + trẻ em | tracking, mặt dân quay đi, 1 nguồn lửa |
-| SC_115 | — | — |
-| SC_116 | — | — |
-| SC_117 | — | — |
 | SC_118 | trúng tên | không cận, gập người, không máu |
 | SC_119 | tay cận trên bản đồ | 1 tay, bản đồ không chữ |
 | SC_120 | chữ trên thẻ tre | thẻ trơn |
 | SC_121 | xác bò + người gục | không gore, mặt cúi |
-| SC_122 | — | — |
-| SC_123 | — | — |
-| SC_124 | — | — |
-| SC_125 | — | — |
-| SC_126 | — | — |
 | SC_127 | chữ trên bản đồ | 'no writing' |
 | SC_128 | 3 người | thông ngôn mặt nghiêng cúi, 2 mặt |
-| SC_129 | — | — |
-| SC_130 | — | — |
 | SC_131 | đêm không trăng + 4 người | silhouette, 1 mặt chính khi liếc |
 | SC_132 | POV đêm + xe xa | hình khối tối, 1 đốm đỏ, 2 ngón tay |
 | SC_133 | dao cận | lưỡi dao không chạm ai, 1 tay chặn cổ tay |
-| SC_134 | — | — |
 | SC_135 | 3 người nội thất | 2 người quỳ mặt cúi/nghiêng, hoàng đế rõ |
-| SC_136 | — | — |
-| SC_137 | — | — |
 | SC_138 | chân dung lịch sử | lock hư cấu |
 | SC_139 | 2 beat + POV xanh | POV ngắn không HUD, 2 địa điểm gần nhau |
 | SC_140 | hàng người đêm | cằm sáng đỏ, mặt tối, 1 mặt chính |
@@ -458,143 +406,51 @@
 | SC_147 | giết cận | máy sau lưng, không lưỡi dao chạm, không máu, chớp lửa đầu nòng |
 | SC_148 | tay bỏng cận | 'red and blistered', không da tróc |
 | SC_149 | 2 người ngã + lửa | 1 chuyển động, lửa hậu cảnh |
-| SC_150 | — | — |
-| SC_151 | — | — |
-| SC_152 | — | — |
-| SC_153 | — | — |
 | SC_154 | chữ trên bảng | 'smudged and unreadable'; số overlay |
 | SC_155 | thương binh băng | băng trắng, mặt quay đi |
-| SC_156 | — | — |
-| SC_157 | — | — |
 | SC_158 | cận chiến | medium-wide, không gore |
-| SC_159 | — | — |
-| SC_160 | — | — |
-| SC_161 | — | — |
-| SC_162 | — | — |
-| SC_163 | — | — |
-| SC_164 | — | — |
-| SC_165 | — | — |
-| SC_166 | — | — |
-| SC_167 | — | — |
-| SC_168 | — | — |
-| SC_169 | — | — |
-| SC_170 | — | — |
-| SC_171 | — | — |
 | SC_172 | chữ trên bảng | chalk marks không đọc được; số overlay |
-| SC_173 | — | — |
-| SC_174 | — | — |
-| SC_175 | — | — |
-| SC_176 | — | — |
-| SC_177 | — | — |
-| SC_178 | — | — |
 | SC_179 | đám đông lao động | high angle, mặt cúi; 2 điểm mốc rõ (khe, vòm) |
-| SC_180 | — | — |
-| SC_181 | — | — |
 | SC_182 | giàn + thợ đục | thợ mặt quay vào đá, tracking lùi |
-| SC_183 | — | — |
-| SC_184 | — | — |
-| SC_185 | — | — |
-| SC_186 | — | — |
 | SC_187 | màn hình nhiệt | chấm trắng trên nền đen, không chữ/số |
 | SC_188 | nổ đêm | 3 chớp nhỏ, người = silhouette |
-| SC_189 | — | — |
-| SC_190 | — | — |
-| SC_191 | — | — |
-| SC_192 | — | — |
-| SC_193 | — | — |
-| SC_194 | — | — |
 | SC_195 | xe + vòm hẹp | máy tĩnh, 1 chuyển động xe, ref LOC_002_eastgate_chisel_ep2 |
-| SC_196 | — | — |
-| SC_197 | — | — |
 | SC_198 | xe leo dốc | 1 chuyển động, máy tĩnh |
 | SC_199 | đại quân | aerial cao, 1 chuyển động máy |
 | SC_200 | hàng tướng quỳ | lưng/mũ, xa |
 | SC_201 | 4 người + xe + cờ | low angle wide, mỗi người 1 dấu hiệu |
-| SC_202 | — | — |
-| SC_203 | — | — |
 | SC_204 | ngựa phi + đám đông | tracking 1 con ngựa, lưng người đẩy |
-| SC_205 | — | — |
-| SC_206 | — | — |
-| SC_207 | — | — |
-| SC_208 | — | — |
-| SC_209 | — | — |
 | SC_210 | đám đông leo thang | low angle, mũ che mặt |
-| SC_211 | — | — |
 | SC_212 | cận chiến | 1 mặt ID, còn lại mũ/khiên, không máu |
-| SC_213 | — | — |
-| SC_214 | — | — |
 | SC_215 | tay mở 10 ngón | 2 bàn tay rõ, tĩnh |
-| SC_216 | — | — |
 | SC_217 | màn hình + số | không digit, panel sáng trơn; overlay 22 |
 | SC_218 | chớp lửa đầu nòng | 1 chớp, wide |
 | SC_219 | người bay | xa, bụi che, không gore |
 | SC_220 | đại quân | aerial trung, khối người |
-| SC_221 | — | — |
 | SC_222 | insert màn hình | không digit; overlay |
-| SC_223 | — | — |
-| SC_224 | — | — |
-| SC_225 | — | — |
 | SC_226 | hàng nỏ thủ | sau khiên, mặt khuất |
-| SC_227 | — | — |
 | SC_228 | trúng nỏ | mũi nỏ cắm vai giáp, không máu; sparks trên thép |
 | SC_229 | màn hình | không digit; overlay |
 | SC_230 | lửa trong hầm + người chạy | 1 nguồn lửa, lưng người |
 | SC_231 | tường sập + người rơi | wide xa, bụi che |
 | SC_232 | đám đông xung phong | aerial thấp, mũ che |
 | SC_233 | bắn súng cận | xạ thủ mặt khuất sau súng, chớp đầu nòng |
-| SC_234 | — | — |
-| SC_235 | — | — |
-| SC_236 | — | — |
-| SC_237 | — | — |
 | SC_238 | 2 beat | nếu veo không cắt, glabs tạo 2 clip 4 s; màn hình không digit |
 | SC_239 | hàng giáo | mặt lính khuất mũ, 1 mặt ID |
 | SC_240 | 300 kỵ | aerial thấp, đầu đoàn rõ, sau bụi |
-| SC_241 | — | — |
 | SC_242 | xe + kỵ + đám đông | tracking 1 chiều, bụi che |
 | SC_243 | cận chiến | không máu, 1 mặt ID |
-| SC_244 | — | — |
-| SC_245 | — | — |
-| SC_246 | — | — |
-| SC_247 | — | — |
 | SC_248 | hàng tướng quỳ rạp | lưng, không mặt |
-| SC_249 | — | — |
 | SC_250 | xác chết | dưới vải gai, giáo dựng, không mặt |
-| SC_251 | — | — |
-| SC_252 | — | — |
 | SC_253 | tay + súng | súng dựng, tay băng không khép, 1 chuyển động |
-| SC_254 | — | — |
-| SC_255 | — | — |
-| SC_256 | — | — |
 | SC_257 | 4 người nội thất | mỗi người 1 dấu hiệu; bản đồ 'no characters' |
-| SC_258 | — | — |
 | SC_259 | chữ trên thẻ tre | vạch đếm, không ký tự |
 | SC_260 | đám đông | lưng cúi, đuốc |
-| SC_261 | — | — |
 | SC_262 | chân dung lịch sử | lock |
-| SC_263 | — | — |
 | SC_264 | chữ trên đất | chấm + vạch, không ký tự |
-| SC_265 | — | — |
-| SC_266 | — | — |
-| SC_267 | — | — |
-| SC_268 | — | — |
-| SC_269 | — | — |
-| SC_270 | — | — |
-| SC_271 | — | — |
 | SC_272 | 6 vật giống nhau | hàng thẳng, giẻ đánh dấu khác màu |
-| SC_273 | — | — |
-| SC_274 | — | — |
-| SC_275 | — | — |
-| SC_276 | — | — |
-| SC_277 | — | — |
-| SC_278 | — | — |
-| SC_279 | — | — |
 | SC_280 | tay cầm mũi tên | 1 tay, 1 mũi tên |
-| SC_281 | — | — |
-| SC_282 | — | — |
 | SC_283 | 2 kỵ sĩ | 2 ngựa đứng yên, medium |
-| SC_284 | — | — |
-| SC_285 | — | — |
-| SC_286 | — | — |
 | SC_287 | chữ | không tạo ảnh; end card ở edit |
 
 ### Quy tắc né chung (áp dụng toàn tập — kế thừa 1화 + riêng 2화)
