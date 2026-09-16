@@ -21,3 +21,11 @@
 - Đèo climax 3화 đổi tên **청석령 → 석문령 (hư cấu, [虚])**, ID LOC_009_SEOKMUN_PASS, đặt phía nam Áp Lục — giữ trình tự outline, tránh sai địa lý.
 - K3 cuối 4화 = 1.800 (theo 5화 P3). Quân số cuối 5화 = 80. Máy phát K151 gom vào "400 딱".
 - vehicle_bible bổ sung: 천둥 3 hỏng bánh 1화 P10 (을보 chốt sắt), 천둥 4 cháy 2화, biển tên 천둥 3.
+
+## 2026-09-16 · sau script-writer 1화 v1 (P-25…P-35)
+- **P-25** giữ **291 SC** (đúng 40:00); still_kenburns được kéo 10–12 s ở đoạn narration thuần nếu veo-stage muốn giảm số video.
+- **P-26** narration 1.024 어절 QUÁ THƯA → chạy pass "narration-dense" lên **3.500–4.500 어절**, không đổi SC/thời gian/thoại. Nguyên nhân: .claude/agents/script-writer.md còn spec 8 phút cũ → đã sửa.
+- **P-27** LOC_FLASHBACK_CHEORWON (đêm huấn luyện 철원) → DUYỆT, world-designer thêm LOC_010_CHEORWON_NIGHT sau.
+- **P-28** mũi tên: 백성민 trả mũi tên lốp; 한승우 giữ mũi tên khác từ gỗ cổng suốt series → DUYỆT (prop).
+- **P-29/30/31** drone bay lần 2 pin 12 phút vì giữ dầu; "위성 0개" giao 태오; kính đêm "사흘치" → DUYỆT.
+- **P-34** 영양왕 xuất hiện 1 still chân dung nội điện 평양 + giọng đọc chiếu → DUYỆT (đã có LOC_006_interior ref).
