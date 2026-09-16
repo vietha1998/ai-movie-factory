@@ -1,6 +1,7 @@
-# 살수 612 — 4화 「평양」 대본 v2.1 (QC-fixed; P-53 SC_283–284 이틀→며칠)
+# 살수 612 — 4화 「평양」 대본 v2.2 (TTS-trimmed)
 
 > **Runtime mục tiêu:** 40:00 (38–42) · **Tổng shot:** 287 (239 video8s + 48 still_kenburns 8–12 s) — xem bảng thống kê cuối file · **Mid-roll:** 7:00 · 14:00 · 21:00 · 27:30 · **Ngày:** 2026-09-16 · script-writer
+> **v2.2 (TTS-trimmed, 2026-09-16):** pass ngân sách TTS (`tools/tts_budget.py`: video8s ≤22 어절 N+thoại, still ≤45, tập ≤115 어절/phút) — cắt gọn narration ở 25 SC, không chạm thoại/SC/thời gian/open loop/quotes/vùng im; v2.1 = coordinator sửa SC_283–284 이틀→며칠 (P-53).
 > **v2 (QC-fixed, 2026-09-16):** áp dụng logs/qc_ep4_script.md (1 BLOCK phương án B + 16 FIX + NOTE ≤1 dòng + đề xuất #1/#2/#3) theo decisions.md mục "sau QC 4화 → v2". Không đổi số SC / thời gian / SC ID / open loop / quotes / mid-roll. Nhật ký thay đổi ở phụ lục C-v2. Quy ước mới: `2-BEAT` được đánh dấu trong [ACTION-VI] ở 8 SC trận (P7/P10); `[OVERLAY]` = chữ hiện ở khâu edit (bộ đếm 잔탄 08→07→06).
 > **Nguồn:** outline_ep4.md (khung 12 phần — chuẩn), series_foundation.md (§7 4화, §8, §8b), story_bible.md ([史] 내호아·고건무·7 trận·thơ·방진; quy tắc 시호), character_bible.md (LOCKED), location_bible.md (LOC_006 + interior, LOC_007), prop_bible.md (PROP_013/014/016/017/018/020/022), vehicle_bible.md, resource_ledger.md (lệch → outline), logs/decisions.md, full_script_ep1.md v3 (chuẩn định dạng/giọng), SCRIPT_BRIEF.md.
 > **Quy ước ghi:** `N:` = narration tiếng Hàn (격식체, giọng nam trầm, thì quá khứ "-였습니다/-했습니다"; câu mở địa danh có thể "612년 7월. 패수."). Trong SC có cả `N:` và thoại, thứ tự đọc do editor quyết (mặc định: N bình luận → đọc SAU thoại; N dẫn vào → đọc TRƯỚC). `TÊN:` = thoại tiếng Hàn. `[ACTION-VI]` = hành động nhìn thấy được (tiếng Việt, cho veo-prompt-engineer). `[SOUND]` = âm thanh gợi ý. `2-BEAT` = 1 SC 8 s gồm 2 shot (chỉ ở hook/trận). `[NARRATOR IM LẶNG]` / `[MID-ROLL]` / `[END CARD]` theo outline.
@@ -151,13 +152,13 @@ N: 내호아는 우중문을 기다리지 않을 생각이었습니다. 평양�
 ### SC_020 · LOC_007_SALSU (đảo lau 1, chiều D1) · lính Hàn, CHAR_004 · PROP_020, PROP_010 · video8s · 2:40–2:48
 [ACTION-VI] HARD CUT về đảo lau: một gò đất thấp giữa bãi lau ngập nước, lính Hàn nằm dưới mái lau bó tạm, mặt bôi bùn, súng bọc vải; 서아 đi khom giữa họ, phát từng nắm cơm kê nguội gói lá; không khói, không lửa. Tracking thấp theo cô.
 [SOUND] mưa trên lau, nhai, tiếng lội rất xa (cột quân vẫn qua sông).
-N: 여울에서 이 킬로. 갈대 사이에 낮은 섬 하나가 있었습니다. 삼 일 전부터 92명은 거기 있었습니다. 불은 피우지 않았습니다. 연기 한 줄이면 삼십만이 돌아볼 것이었습니다.
+N: 여울에서 이 킬로. 갈대 사이의 낮은 섬이었습니다. 92명은 거기 있었습니다. 연기 한 줄이면 삼십만이 돌아볼 것이었습니다.
 서아: 식은 밥입니다. 다 드십시오.
 
 ### SC_021 · LOC_007_SALSU (đảo lau 1, K2) · CHAR_003, 2 lính · VEH_001, PROP_020 · video8s · 2:48–2:56
 [ACTION-VI] K2 giữa lau: 박기철 (mũ lưỡi trai ướt nhẹp, râu muối tiêu) và hai lính vốc bùn ướt từ xô, trát từng lớp lên váy xích và tháp pháo; bùn dính vào lưới lau đã cắm; tay ông vỗ bùn như vỗ lưng bò. Máy trung.
 [SOUND] bùn nhão, tay vỗ thép qua bùn, mưa.
-N: 진흙은 박기철의 생각이었습니다. 요동성에서 그는 기름이 타는 것을 보았습니다. 그때 손을 데었습니다. 젖은 진흙은 불화살을 받아도 타지 않았습니다.
+N: 진흙은 박기철의 생각이었습니다. 요동성에서 그는 기름이 타는 것을 보았습니다. 젖은 진흙은 불화살에도 타지 않았습니다.
 박기철: 젖은 흙은 안 탑니다. 두 번은 안 당합니다.
 
 ### SC_022 · LOC_007_SALSU (đảo lau 1, K2) · CHAR_106 · VEH_001 · video8s · 2:56–3:04
@@ -187,7 +188,7 @@ N: 항생제는 요동성에서 끝났습니다. 남은 것은 이 노인의 풀
 ### SC_026 · LOC_007_SALSU (đường lau, rạng sáng D2) · CHAR_107, 마을 아낙들 · PROP_020 · video8s · 3:30–3:38
 [ACTION-VI] Rạng sáng xám: 아리 (hai bím buộc chỉ đỏ giấu dưới khăn, khăn olive quấn bụng giấu trong váy, liềm trong tay, rổ trên lưng) đi giữa năm bà làng theo lối lau ngập nước về phía sông; các bà nói chuyện bình thường, 아리 im. Tracking từ sau.
 [SOUND] nước tới đùi, liềm chạm rổ, tiếng các bà.
-N: 다음 날 새벽부터 아리는 아낙들과 함께 나갔습니다. 아리의 어머니는 이 강가 마을 사람이었습니다. 아리는 갈대 베는 법을 알았습니다. 그리고 갈대가 어디까지 이어지는지도 알았습니다.
+N: 다음 날 새벽부터 아리는 아낙들과 나갔습니다. 아리의 어머니는 이 강가 마을 사람이었습니다. 아리는 갈대가 어디까지 이어지는지 알았습니다.
 마을 아낙: 아가, 고개 숙이고 걸어라.
 
 ### SC_027 · LOC_007_SALSU (mép đảo lau 1) · CHAR_006, CHAR_001 · PROP_006 · video8s · 3:38–3:46
@@ -248,7 +249,7 @@ N: 연료 이십 킬로는 산길 기준이었습니다. 평지라면 조금 더
 ### SC_036 · LOC_007_SALSU (đảo lau 1, dưới mái lau) · CHAR_003 · PROP_001 · video8s · 4:56–5:04
 [ACTION-VI] 박기철 tiếp, ngón tay dò từng dòng; mưa nhỏ từ mái lau xuống vai ông.
 [SOUND] mưa, giấy.
-N: 포탄 여덟에 박격포 오십. 요동성의 절반도 안 되는 숫자였습니다. 그 절반이 삼십만을 상대해야 했습니다.
+N: 포탄 여덟에 박격포 오십. 요동성의 절반도 안 되는 숫자였습니다. 그것으로 삼십만을 상대해야 했습니다.
 박기철: 박격포 오십. PZF 아홉. 야시경 열 개, 배터리 삼십.
 
 ### SC_037 · LOC_007_SALSU (đảo lau 1, dưới mái lau) · CHAR_003 · EQP_002 · video8s · 5:04–5:12
@@ -271,7 +272,7 @@ N: 낙오병 둘이 마른 갈대를 꺾으러 들어왔습니다. 세 걸음 �
 ### SC_040 · LOC_007_SALSU (mép đảo lau 1) · CHAR_006, CHAR_001 · PROP_006 · video8s · 5:28–5:36
 [ACTION-VI] Hai lính Tùy ôm bó lau khô đi khuất; 백성민 bò lùi về chỗ 한승우, chìa máy đếm tay — con số bốn chữ số đã quay vòng nhiều lần; giọng phẳng.
 [SOUND] bò trên bùn, máy đếm, mưa.
-N: 사람을 세는 기계는 만에서 다시 영으로 돌아갔습니다. 백성민은 그것을 몇 번이나 돌렸는지 종이에 적었습니다. 어제도, 오늘도. 종이가 젖어서 숫자가 번졌습니다.
+N: 사람을 세는 기계는 만에서 다시 영으로 돌아갔습니다. 백성민은 몇 번 돌렸는지 종이에 적었습니다. 젖은 종이에서 숫자가 번졌습니다.
 백성민: 하루 종일 셌습니다. 끝이 없습니다.
 
 ### SC_041 · LOC_007_SALSU (aerial đuôi cột quân, bờ nam) · — · WPN_201, PROP_021 · still_kenburns · 5:36–5:46
@@ -293,13 +294,13 @@ N: 한 뼘. 어른 손으로 한 뼘이었습니다. 박기철은 그것을 수�
 ### SC_044 · LOC_007_SALSU (mép nước, cạnh cọc) · CHAR_106 · — · video8s · 6:02–6:10
 [ACTION-VI] 을보 ngồi xổm bên cọc, thọc cả bàn tay xuống dòng nước, cảm dòng chảy, nheo mắt trái nhìn thượng nguồn nơi mây đen đè xuống núi; nói không quay lại (하오체 với sĩ quan — miễn cưỡng).
 [SOUND] nước qua tay, sấm rất xa.
-N: 을보는 강가 마을에서 자란 사람이 아니었습니다. 그러나 대장장이는 물을 알았습니다. 쇠를 식히는 물이 어디서 오는지 알았습니다.
+N: 을보는 강가 사람이 아니었습니다. 그러나 대장장이는 물을 알았습니다. 쇠를 식히는 물이었습니다.
 을보: 이 강은 한 번 화나면 사흘 만에 어른 키를 넘소.
 
 ### SC_045 · LOC_007_SALSU (mép nước) · CHAR_001 · PROP_015 · video8s · 6:10–6:18
 [ACTION-VI] 한승우 đứng phía sau nhìn cọc — vạch thứ hai — rồi ngẩng nhìn mây đen thượng nguồn; bàn tay phải theo thói quen chạm túi ngực nơi cán mũi tên Goguryeo lộ ra. Máy đẩy chậm.
 [SOUND] mưa dày hơn, sấm xa.
-N: 물이 오르면 여울은 사라집니다. 여울이 사라지면 삼십만은 돌아갈 길이 없어집니다. 한승우는 아직 그 셈을 하지 않았습니다. 을지문덕은 이미 했습니다.
+N: 물이 오르면 여울은 사라집니다. 그러면 삼십만은 돌아갈 길이 없어집니다. 한승우는 그 셈을 하지 않았습니다. 을지문덕은 이미 했습니다.
 한승우: 하루에 한 뼘. 적어 둬.
 
 ### SC_046 · LOC_007_SALSU (đảo lau 1, hoàng hôn D2) · CHAR_107, CHAR_004 · PROP_020 · video8s · 6:18–6:26
@@ -354,7 +355,7 @@ N: 첫 싸움은 작았습니다. 고구려 군은 몇 번 쏘고 물러났습�
 ### SC_054 · LOC_006_PYONGYANG (bãi đổ bộ, dưới lọng) · CHAR_204, 주법상 · VEH_204 · video8s · 7:26–7:34
 [ACTION-VI] 내호아 đứng dưới lọng dầu, mũ vành rộng nhỏ nước; 주법상 (부총관, giáp sẫm, mặt gầy) tiến lên một bước, cúi đầu, nói thấp — hợp lễ, cẩn trọng.
 [SOUND] mưa trên lọng, trại.
-N: 부총관 주법상은 뭍의 군대를 기다리자고 했습니다. 우중문의 삼십만이 오면 함께 치자는 것이었습니다. 옳은 말이었습니다. 옳은 말은 늦게 오는 법이었습니다.
+N: 부총관 주법상은 뭍의 군대를 기다리자고 했습니다. 옳은 말이었습니다. 옳은 말은 늦게 오는 법이었습니다.
 주법상: 총관, 뭍의 군사가 올 때까지 기다리십시오.
 
 ### SC_055 · LOC_006_PYONGYANG (bãi đổ bộ, dưới lọng) · CHAR_204 · — · video8s · 7:34–7:42
@@ -366,7 +367,7 @@ N: 그는 성벽 위의 빈자리를 보았습니다. 빈자리는 항복이거�
 ### SC_056 · LOC_006_PYONGYANG (bãi đổ bộ) · 4만 tinh binh Tùy · WPN_201, PROP_021 · video8s · 7:42–7:50
 [ACTION-VI] 4만 lính tinh nhuệ xếp hàng trên bãi cát: giáp 명광개 ướt bóng, đao, khiên, cờ đỏ; hàng nối hàng dọc bờ sông; sĩ quan cưỡi ngựa dọc hàng. Aerial trung, không thấy điểm cuối.
 [SOUND] giáp va, trống, mưa.
-N: 사만. 강회에서 데려온 가장 좋은 병사들이었습니다. 내호아는 그들을 성으로 보냈습니다. 배는 강에 남겨 두었습니다. 그것이 두 번째 실수였습니다. 첫 번째는 주법상의 말을 듣지 않은 것이었습니다.
+N: 사만. 강회에서 데려온 가장 좋은 병사들이었습니다. 내호아는 그들을 성으로 보내고 배는 강에 남겼습니다. 두 번째 실수였습니다. 첫 번째는 주법상이었습니다.
 수 장교: 사만, 성으로!
 
 ### SC_057 · LOC_006_PYONGYANG (tháp cổng ngoại thành) · CHAR_103 · PROP_012 · still_kenburns · 7:50–8:00
@@ -575,7 +576,7 @@ N: 해포. 내호아는 거기서 멈췄습니다. 다시는 강을 거슬러 �
 ### SC_094 · LOC_008_GOGURYEO_VILLAGE (đồi phía bắc 평양, trại Tùy 30리 — lều 우중문) · 전령, CHAR_202, CHAR_203 · PROP_021 · video8s · 13:00–13:08
 [ACTION-VI] Lều lớn dựa sườn núi, mưa gõ mái da; một 전령 Tùy bùn tới ngực quỳ, hai tay dâng thẻ tre; 우중문 ngồi ghế gấp, 우문술 đứng bên, thẻ tre trong tay. Máy trung.
 [SOUND] mưa trên da lều, thở của người quỳ.
-N: 그 소식은 이틀 뒤 우중문에게 닿았습니다. 삼십만은 그때 평양에서 삼십 리 떨어진 산기슭에 진을 치고 있었습니다. 다섯 날을 걸어온 길이었습니다.
+N: 그 소식은 이틀 뒤 우중문에게 닿았습니다. 삼십만은 그때 평양에서 삼십 리 떨어진 산기슭에 있었습니다. 다섯 날을 걸어온 길이었습니다.
 전령: 장군, 패수에서 온 글입니다.
 
 ### SC_095 · LOC_008_GOGURYEO_VILLAGE (lều 우중문) · CHAR_202 · — · video8s · 13:08–13:16
@@ -717,7 +718,7 @@ N: 아무것도 튀어나오지 않았습니다. 기병 둘이 돌아갔습니�
 ### SC_118 · LOC_007_SALSU (đảo lau 1, lối bùn) · CHAR_002, CHAR_001 · — · video8s · 16:22–16:30
 [ACTION-VI] 오태민 đi sau 한승우 dọc lối bùn giữa lau (walk-and-talk, khom người), tay áo rách hẳn, cẳng tay bầm; giọng thấp nhưng từng chữ nặng.
 [SOUND] bùn, lau, mưa.
-N: 오태민은 사흘을 참았습니다. 강 건너 우리 이야기를 들은 뒤로는 하루도 참기 어려웠습니다. 그의 말은 틀리지 않았습니다.
+N: 오태민은 사흘을 참았습니다. 우리 이야기를 들은 뒤로는 하루도 참기 어려웠습니다. 그의 말은 틀리지 않았습니다.
 오태민: 태오는 저기 우리에 있고, 우리는 진흙에 누워 있습니다.
 
 ### SC_119 · LOC_007_SALSU (đảo lau 1, lối bùn) · CHAR_001, CHAR_002 · — · video8s · 16:30–16:38
@@ -769,7 +770,7 @@ N: 왕은 답을 기다렸습니다. 한승우는 답을 쓰지 않았습니다.
 ### SC_126 · LOC_007_SALSU (bờ nam, bãi cát trước trại hậu quân, chiều D4) · CHAR_005, 선비 기병 · — · video8s · 17:30–17:38
 [ACTION-VI] Bốn lính Tiên Ti khiêng cũi tre ra khỏi trại, đặt xuống bãi cát ngay mép nước bờ nam, chỗ nhìn thẳng sang bãi lau bờ bắc; trong cũi 태오 ngồi co, chân trần, bàn chân phải sưng tím; áo rằn ri rách, không mũ, không giáp. Wide từ phía sông.
 [SOUND] cũi đặt cát, dây da, mưa, sông.
-N: 넷째 날 오후. 해모루는 답 없이 마을로 돌아갔습니다. 탁발흠은 우리를 강가로 옮겼습니다. 갈대밭에서 보이는 자리였습니다. 그는 낚시를 계속했습니다. 이번 미끼는 사람이었습니다.
+N: 넷째 날 오후. 해모루는 답 없이 마을로 돌아갔습니다. 탁발흠은 우리를 갈대밭에서 보이는 강가로 옮겼습니다. 낚시는 계속됐습니다. 이번 미끼는 사람이었습니다.
 선비 기병: 여기 놔라. 보이게.
 
 ### SC_127 · LOC_007_SALSU (mép đảo lau 1) · CHAR_006, CHAR_002 · PROP_006 · video8s · 17:38–17:46
@@ -788,7 +789,7 @@ N: 탁발흠은 소년의 말을 믿지 않았습니다. 믿을 필요도 없었
 ### SC_129 · LOC_007_SALSU (bờ nam, cạnh cũi) · CHAR_205, 선비 기병 (phó) · EQP_001 · video8s · 17:54–18:02
 [ACTION-VI] 탁발흠 đứng dậy, nhìn sang bãi lau bờ bắc rất lâu; bốc một nắm lau ướt trên cát, bóp — nước chảy; ném xuống; nói với phó (반말 cộc) — bài học của đêm 요동성.
 [SOUND] lau ướt, mưa, trại.
-N: 요동성에서 그는 기름을 태웠습니다. 여기는 태울 것이 없었습니다. 그래서 그는 다른 것을 골랐습니다. 몰이였습니다. 초원에서 늑대를 잡던 방식이었습니다.
+N: 요동성에서 그는 기름을 태웠습니다. 여기는 태울 것이 없었습니다. 그래서 몰이를 골랐습니다. 초원에서 늑대를 잡던 방식이었습니다.
 탁발흠: 젖은 갈대는 안 탄다. 그럼 몰아낸다. 짐승처럼.
 
 ### SC_130 · LOC_007_SALSU (bờ nam, trại hậu quân, đêm D4) · lính Tùy, 선비 기병 · PROP_016, PROP_017 · still_kenburns · 18:02–18:11
@@ -816,13 +817,13 @@ N: 몰이. 백성민의 아버지도 그렇게 멧돼지를 잡았습니다. 소
 ### SC_134 · LOC_007_SALSU (cửa bãi cạn, mô cát — phía địch) · cung thủ Tùy · WPN_201 · video8s · 18:35–18:43
 [ACTION-VI] Insert: trên mô cát cửa bãi cạn, trong tối, hàng trăm cung thủ Tùy quỳ thành ba hàng, cung giương — wide ngược sáng đuốc từ sau lưng hàng cung, chỉ thấy viền người và cung; một sĩ quan Tiên Ti đi sau lưng họ với đuốc che tay là người duy nhất rõ mặt; họ nhìn về bãi lau đang bị lùa.
 [SOUND] dây cung căng, mưa, trống xa.
-N: 여울 어귀. 오백 개의 활이 갈대밭 쪽을 향했습니다. 몰이가 끝나는 자리였습니다. 탁발흠은 갈대를 태우는 대신 갈대에서 나오는 것을 쏘기로 했습니다.
+N: 여울 어귀. 오백 개의 활이 갈대밭 쪽을 향했습니다. 몰이가 끝나는 자리였습니다. 탁발흠은 갈대를 태우는 대신 나오는 것을 쏘기로 했습니다.
 수 장교: 나오면 쏜다. 기다려.
 
 ### SC_135 · LOC_007_SALSU (đảo lau 1) · CHAR_001 · EQP_002 · video8s · 18:43–18:51
 [ACTION-VI] 한승우 bấm tổ hợp radio, giọng thấp — ra lệnh giữ im; sau lưng ông lính đã vào hố chiến đấu trong lau, súng rút vải. Cận.
 [SOUND] PTT, trống gần hơn, mưa.
-N: 그는 아직 침묵을 지키려 했습니다. 을지문덕의 명령이었습니다. 삼십만이 돌아올 때까지 여기 없는 것처럼 있으라는 것이었습니다.
+N: 그는 아직 침묵을 지키려 했습니다. 을지문덕의 명령이었습니다. 여기 없는 것처럼 있으라는 것이었습니다.
 한승우: 전 소대, 여기는 천둥 지휘. 위치 고수. 아직 쏘지 않는다.
 
 ### SC_136 · LOC_007_SALSU (đảo lau 1, hố chiến đấu) · lính Hàn, CHAR_002 · WPN_003 · video8s · 18:51–18:59
@@ -883,12 +884,12 @@ N: 동쪽 고리는 끊기지 않았습니다. 한 사람이 목에, 한 사람�
 ### SC_146 · LOC_007_SALSU (đầm lau bờ bắc, chỗ 탁발흠) · CHAR_205, 선비 기병 · EQP_001 · video8s · 20:11–20:19
 [ACTION-VI] Trong lau bờ bắc: 탁발흠 giật kính đêm khỏi mắt — ống kính lóa trắng vì chớp pháo — dụi mắt, nhìn về cửa bãi cạn bằng mắt thường: chỉ còn lửa nhỏ trên nước; quanh hắn, 20 Tiên Ti đứng chết lặng trong nước; xa xa bờ nam, đuốc trại rối loạn, tiếng bò bứt dây vọng qua sông. Cận.
 [SOUND] mưa, bò rống xa qua sông, lửa nhỏ.
-N: 삼십만의 뒤가 그 소리를 들었습니다. 요동성에서 열 번, 석문령에서 네 번 울린 소리였습니다. 살수에서 두 번. 탁발흠은 그것을 셌습니다. 그의 밤눈은 그 빛에 잠시 멀었습니다.
+N: 삼십만의 뒤가 그 소리를 들었습니다. 요동성에서 열 번, 석문령에서 네 번 울린 소리였습니다. 살수에서 두 번. 탁발흠은 셌습니다. 밤눈은 잠시 멀었습니다.
 
 ### SC_147 · LOC_007_SALSU (lối lau ngập, thượng lưu, đêm) · lính Hàn, CHAR_004 · VEH_001, PROP_020 · video8s · 20:19–20:27
 [ACTION-VI] Đại đội rút theo lối lau ngập về thượng lưu: hai lính khiêng một xác bọc poncho; 서아 đi cạnh cáng lau chở người trúng tên vào bụng, tay giữ mũi tên không cho lắc; phía sau, K2 bò rất chậm không đèn, lau trên nóc lắc lư. Tracking từ trước.
 [SOUND] lội, cáng lau, động cơ K2 ở vòng tua thấp, mưa.
-N: 그들은 침묵을 잃었습니다. 대신 밤을 얻었습니다. 동쪽 고리는 소리 하나에 풀렸습니다. 그 틈으로 그들은 상류로 갔습니다. 삼 킬로 상류에 두 번째 갈대 섬이 있었습니다. 한 사람은 판초에 싸여 갔고, 한 사람은 배에 화살을 꽂은 채 갔습니다.
+N: 그들은 침묵을 잃고 밤을 얻었습니다. 동쪽 고리는 소리 하나에 풀렸습니다. 그 틈으로 삼 킬로 상류의 두 번째 섬으로 갔습니다.
 서아: 흔들지 마세요. 천천히.
 
 ### SC_148 · LOC_008_GOGURYEO_VILLAGE (đường lầy về nam, đêm) · 전령 · VEH_206 · video8s · 20:27–20:35
@@ -944,13 +945,13 @@ N: 박격포는 오십에서 서른. PZF는 아홉에서 여섯. 이 섬에 오�
 ### SC_156 · LOC_007_SALSU (đảo lau 2, cạnh K2) · CHAR_003, CHAR_001 · EQP_002, VEH_001 · video8s · 21:34–21:42
 [ACTION-VI] 박기철 quay lại, gõ ngón tay lên máy radio rồi lên váy xích K2; 한승우 nghe, gật một cái.
 [SOUND] ngón gõ nhựa, gõ thép qua bùn.
-N: 간밤에 삼 킬로를 움직였습니다. 평지였습니다. 산길로 센 이십은 아직 이십이었습니다. 박기철은 그렇게 셈했습니다. 적은 쪽으로 세는 사람의 셈이었습니다.
+N: 간밤에 삼 킬로를 움직였습니다. 평지였습니다. 산길로 센 이십은 이십이었습니다. 적은 쪽으로 세는 사람의 셈이었습니다.
 박기철: 무전기 사십 퍼센트. 연료는 산길 기준 이십, 그대로입니다.
 
 ### SC_157 · LOC_007_SALSU (đảo lau 2, mái lau cứu thương) · CHAR_004, 부상병 · PROP_009 · video8s · 21:42–21:50
 [ACTION-VI] Dưới mái lau: người lính trúng tên vào bụng nằm ngửa, cán tên đã cắt ngắn, băng ép quanh, mặt trắng mồ hôi; 서아 ấn ống morphine tự tiêm vào đùi anh, giữ tay anh; mắt cô nhìn băng đang thấm. Cận.
 [SOUND] mưa, thở gấp, ống tiêm bấm.
-N: 배에 박힌 화살은 뽑지 않았습니다. 뽑으면 피가 났고, 두면 열이 났습니다. 항생제는 두 달 전에 끝났습니다. 서아에게 남은 것은 모르핀과 시간이었습니다.
+N: 배에 박힌 화살은 뽑지 않았습니다. 뽑으면 피가 났고, 두면 열이 났습니다. 항생제는 없었습니다. 남은 것은 모르핀과 시간이었습니다.
 서아: 모르핀 하나. 참아요.
 
 ### SC_158 · LOC_007_SALSU (đảo lau 2, mái lau cứu thương) · CHAR_106, CHAR_004 · — · video8s · 21:50–21:58
@@ -967,7 +968,7 @@ N: 서아는 알았습니다. 항생제 없는 배의 상처가 어디로 가는
 ### SC_160 · LOC_007_SALSU (đảo lau 1 bỏ trống, sáng D5 — phía địch) · CHAR_205, 선비 기병 · VEH_001 (vết) · video8s · 22:08–22:16
 [ACTION-VI] 탁발흠 đi bộ trên đảo lau 1 bỏ trống: hố cối, lau rạp, một vết xích K2 in sâu trong bùn; hắn cúi nhặt đế vỏ đạn 120 mm — vành thép to bằng bàn tay, đen bồ hóng — xoay trên ngón tay; đếm bằng ngón. Cận vỏ đạn và mặt.
 [SOUND] mưa, thép chạm bùn, lính Tiên Ti lục lọi xa.
-N: 아침이 되자 탁발흠은 빈 섬을 걸었습니다. 그는 늘 싸움 뒤에 그 자리를 걸었습니다. 요동성에서도, 석문령에서도.
+N: 아침이 되자 탁발흠은 빈 섬을 걸었습니다. 늘 싸움 뒤에 그 자리를 걸었습니다. 요동성에서도, 석문령에서도.
 탁발흠: 열 번, 네 번, 그리고 두 번. 열여섯이다.
 
 ### SC_161 · LOC_007_SALSU (đảo lau 1 bỏ trống) · CHAR_205 · — · video8s · 22:16–22:24
@@ -985,7 +986,7 @@ N: 척후 하나가 전차 자국을 따라 상류로 올라왔습니다. 백성
 ### SC_163 · LOC_007_SALSU (đảo lau 2, bàn cát) · CHAR_107, CHAR_001, CHAR_006 · PROP_020 · video8s · 22:32–22:40
 [ACTION-VI] Bàn cát: 아리 quỳ, dùng cọng lau vạch lên bùn ướt: đảo — nhánh nước — mô cát — đường lau — một vòng tròn (chỗ lấy nước của trại); 한승우 và 백성민 nhìn; 을보 đứng sau lưng cháu. Máy từ trên xuống bàn cát.
 [SOUND] cọng lau vạch bùn, mưa.
-N: 아리는 아낙들의 길을 그렸습니다. 아낙들만 아는 길이었습니다. 그 길의 끝에 적의 물 긷는 자리가 있었습니다. 우리는 그 옆으로 옮겨졌습니다.
+N: 아리는 아낙들만 아는 길을 그렸습니다. 길 끝에 적의 물 긷는 자리와 우리가 있었습니다.
 아리: 물 긷는 데예요. 새벽엔 졸아요, 지키는 사람들.
 
 ### SC_164 · LOC_007_SALSU (đảo lau 2, bàn cát) · CHAR_006, CHAR_001 · — · video8s · 22:40–22:48
@@ -1144,7 +1145,7 @@ N: 그 시를 외운 아이는 강 건너 우리 안에 있었습니다. 시험�
 ### SC_190 · LOC_007_SALSU (đảo lau 2, mép nước) · CHAR_106, CHAR_001 · — · video8s · 26:24–26:32
 [ACTION-VI] 을보 ngồi xổm ở mép nước, cọng lau chỉ mặt sông — sương mỏng đã bò trên mặt nước ấm hơn không khí; nói không ngẩng lên (하오체 miễn cưỡng).
 [SOUND] sông, sương, ếch.
-N: 비가 그치고 물이 오르면 강은 김을 냅니다. 을보는 그것을 대장간 물통에서 배웠습니다. 뜨거운 쇠를 담근 물이 그랬습니다.
+N: 비가 그치고 물이 오르면 강은 김을 냈습니다. 을보는 그것을 대장간 물통에서 배웠습니다. 뜨거운 쇠를 담근 물이었습니다.
 을보: 물이 오르면 안개가 오오. 내일 새벽이오.
 
 ### SC_191 · LOC_007_SALSU (đảo lau 2, bàn cát) · CHAR_107, CHAR_006 · PROP_020 · video8s · 26:32–26:40
@@ -1221,7 +1222,7 @@ N: 북쪽 여울. 오태민의 자리였습니다. 셋이 돌아올 문이었습
 ### SC_202 · LOC_007_SALSU (đảo lau 2, cửa tháp K2) · CHAR_001 · VEH_001, EQP_002 · video8s · 28:04–28:12
 [ACTION-VI] 한승우 nửa người trong cửa tháp K2 dưới lau, tai nghe, mũ tháo; bấm radio thì thầm — lệnh cho toàn đội.
 [SOUND] PTT, quạt điện tử nhỏ, sương.
-N: 사격 금지. 이 부대가 이 섬에서 가장 많이 들은 명령이었습니다. 오늘은 그 명령이 세 사람의 목숨이었습니다.
+N: 사격 금지. 이 섬에서 가장 많이 들은 명령이었습니다. 오늘은 명령이 세 사람의 목숨이었습니다.
 한승우: 천둥 1 이하 전원, 여기는 천둥 지휘. 사격 금지.
 
 ### SC_203 · LOC_007_SALSU (bãi đông, 2리 — kỵ Goguryeo trong sương) · CHAR_105 · VEH_101, PROP_018 · video8s · 28:12–28:20
@@ -1500,7 +1501,7 @@ N: 사흘째 밤이 끝나기 전에 그는 갔습니다. 화살이 아니라 �
 ### SC_253 · LOC_007_SALSU (đảo lau 2, rìa lau, sáng D8) · lính Hàn, kỵ Goguryeo, CHAR_105 · PROP_020 · video8s · 34:56–35:04
 [ACTION-VI] Sáng mưa nhỏ: hố cát nông giữa lau, xác bọc poncho hạ xuống; lính Hàn và hai kỵ Goguryeo cùng lấp cát bằng tay và xẻng cán sồi (PROP_019); 해모루 tháo mũ, cúi đầu kiểu Goguryeo; 한승우 đứng đầu hố. Máy trung.
 [SOUND] cát đổ, mưa, im.
-N: 갈대 사이에 묻었습니다. 석문령에서 한 사람, 여기서 두 사람. 이 땅에 묻힌 천사백 년 뒤의 사람들이었습니다. 이 땅의 사람들이 함께 흙을 덮었습니다.
+N: 갈대 사이에 묻었습니다. 석문령에서 하나, 여기서 둘. 천사백 년 뒤의 사람들을 이 땅의 사람들이 함께 덮었습니다.
 해모루: 이 땅에 눕는 것이오. 편히 가시오.
 
 ### SC_254 · LOC_007_SALSU (đảo lau 2, dưới mái lau) · CHAR_003 · PROP_001 · video8s · 35:04–35:12
@@ -1512,7 +1513,7 @@ N: 아흔넷으로 왔습니다. 이제 아흔하나였습니다. 박기철은 �
 ### SC_255 · LOC_007_SALSU (đảo lau 2, cạnh xích K2) · CHAR_005, CHAR_105 · VEH_001 · video8s · 35:12–35:20
 [ACTION-VI] 태오 ngồi dựa váy xích K2, chân phải nẹp lau và băng, áo 저고리 vải gai khoác ngoài áo rằn ri; chiếc mũ Hàn trống ngàm kính đặt bên đùi cậu; 해모루 đến, cầm một mũ trụ sắt Goguryeo ghép mảnh dọc (không chỏm lông), đặt lên đầu cậu, chỉnh quai; 태오 đưa tay chạm vành sắt.
 [SOUND] sắt chạm, quai da, mưa.
-N: 석문령의 빈 철모는 한승우가 가지고 왔습니다. 눈이 없는 철모였습니다. 해모루가 먼저 다른 것을 씌웠습니다. 육백십이 년의 쇠였습니다. 태오는 그것을 벗지 않았습니다.
+N: 빈 철모는 한승우가 석문령에서 가지고 왔습니다. 해모루가 먼저 육백십이 년의 쇠를 씌웠습니다. 태오는 벗지 않았습니다.
 해모루: 머리는 쇠로 덮는 법이오. 어느 해 것이든.
 
 ### SC_256 · LOC_007_SALSU (đảo lau 2, cạnh xích K2) · CHAR_107, CHAR_005 · — · video8s · 35:20–35:28

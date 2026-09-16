@@ -1,4 +1,4 @@
-# 살수 612 — VEHICLE / WEAPON BIBLE (v1 · 2026-09-16 · world-designer)
+# 살수 612 — VEHICLE / WEAPON BIBLE (v3 · 2026-09-16 · world-designer — gom sau QC 5 kịch bản; nguồn SC = full_script_ep1 v3 / ep2 v2 / ep3 v2 / ep4 v2.1 / ep5 v2)
 
 > Nguồn sự thật: `series_foundation.md` §5 (khí tài & tài nguyên), §7 (arc: 2화 K21 cháy · 3화 bỏ xe, 1 K21 nguyên vẹn rơi vào tay 탁발흠 · 4화 K2 còn 6 viên · 5화 K2 hết đạn, mắc bùn), §9 (visual). Không mâu thuẫn; muốn đổi → `logs/proposals.md`.
 > ID: VEH_00x / WPN_00x / UAV_00x / EQP_00x = ROK hiện đại (khớp §5). **VEH_1xx / WPN_1xx = Goguryeo lịch sử · VEH_2xx / WPN_2xx = Tùy / Tiên Ti lịch sử** (theo quy ước CHAR_1xx / CHAR_2xx của foundation).
@@ -12,7 +12,7 @@
 
 - **Camo xe:** ROK 3 màu — **xanh lá sẫm (chủ đạo ~50%) / nâu đất (~35%) / đen (~15%)** vệt lớn mềm, không pixel. Prompt: `three-tone green-brown-black South Korean army camouflage`.
 - **Số hiệu:** mật danh đại đội "천둥" + số xe. Trên ảnh chỉ vẽ **số Ả Rập trắng** (1/2/3/4) stencil nhỏ ở hông tháp pháo/cửa — KHÔNG vẽ chữ Hangul (style tag "no text" và AI dễ sai chữ). Chữ "천둥" chỉ tồn tại trong thoại/radio. → xem Phụ lục C mục 1.
-- **Cờ:** **태극기 nhỏ** (≈15 cm) dán trên hông tháp pháo sau số hiệu; lính: patch 태극기 vai trái. Không vẽ phù hiệu lữ đoàn thật.
+- **Cờ:** **태극기 nhỏ** (≈15 cm) dán trên hông tháp pháo sau số hiệu; lính: patch 태극기 **vai PHẢI** (quy định ROK: 부대마크 왼팔, 태극기 오른팔 — decisions P-38; cờ trên xe là marking xe, độc lập). Không vẽ phù hiệu lữ đoàn thật.
 - **Ăng-ten:** xe chỉ huy và K2 có ăng-ten whip đen; sau 3화 ăng-ten K151 tháo gắn lên K2.
 - **Damage timeline chung:** 1화 sạch, phủ **bụi vàng mịn** · 2화 vệt **khói đen + tro + vết cháy sém** một bên · 3화 **bùn ướt**, cành cây ngụy trang, thùng/phuy buộc ngoài · 4화 bùn dày, lau sậy phủ, trầy xước, vết tên · 5화 **bùn kín đến nửa thân, cháy sém, mắc mô cát, hết đạn**.
 - Luôn có **người bên cạnh xe** để lấy tỷ lệ trong cảnh (channel style §13).
@@ -30,16 +30,20 @@
 | Wheels / tracks | **6 bánh chịu nặng mỗi bên** (bánh đôi cao su viền), bánh dẫn động sau, bánh dẫn hướng trước, xích thép guốc cao su; treo thủy khí (xe có thể "quỳ" hạ mũi — dùng khi bắn qua lỗ châu mai 2화 và chôn mình trong cát 5화) |
 | Exterior markings | Số **1** trắng stencil hông tháp hai bên; 태극기 nhỏ sau số; **không** phù hiệu đơn vị thật; ăng-ten đen 2 cần |
 | Interior đáng chú ý | Khoang trưởng xe: 2 màn hình màu (bản đồ số, hình ảnh kính ngắm nhiệt); màn hình hiển thị **"위성 0개"** (GPS mất) và **bộ đếm đạn "잔탄 22 → … → 06 → 00"** — đây là đạo cụ kể chuyện; máy nạp tự động ở bustle (16 viên sẵn) + giá 6 viên trong thân = **22 viên** (tải huấn luyện); ghế pháo thủ với thị kính; khoang lái nằm ngả với cần lái kiểu yoke |
-| Tài nguyên (§5) | 22 viên 120 mm · 1 bình dầu (~400 km) · sau 3화 gánh toàn bộ dầu của đại đội |
+| Tài nguyên (§5) | 22 viên 120 mm · 1 bình dầu (~400 km) · sau 3화 gánh toàn bộ dầu của đại đội; **APU** (máy phát phụ) nuôi pháo/FCS/sạc khi tắt máy chính |
+| **Cái KHÔNG làm được (khóa cho script/veo)** | (a) **Lội nước không chuẩn bị ~1,2 m** — sâu hơn, nước tràn qua **lưới hút gió/ống xả ở đuôi thân** → động cơ sặc, tắt (5화 SC_197 박기철 "도하 준비 없이 일 점 이 미터. 가슴이면 아슬아슬합니다." → SC_206 "물이 껐습니다. 여울 목. 정지."): sông tắt máy, không phải người. (b) **Engine off + APU: pháo, tháp, FCS vẫn dùng được** — KHÔNG dùng lý do "xe ngủ = không bắn" (QC 3화); ràng buộc kịch 3화 = tháp "bị buộc dây" khi ổ sạc ngoài đang kéo tải (7 kính + drone + 4 radio cắm ổ đuôi) → rút dây mất ~2 phút. (c) Tắt máy chính để giấu nhiệt/tiếng, không phải vì không bắn được. (d) 1 lần sạc drone = **600 m** K2; APU 2 ngày = **3 km** (3화 SC_036/148). |
 
 **Damage state theo tập**
 | Tập | Trạng thái |
 |---|---|
 | 1화 | Sạch, sơn mới, phủ lớp bụi vàng mịn; lưới ngụy trang phủ khi đậu. Không bắn pháo chính (bị GIỮ vì dầu) |
 | 2화 | Vệt bồ hóng đen quanh miệng nòng (đã bắn ~12 viên), vết cháy sém váy xích bên trái (hỏa công đêm), tro bám nóc, 3–4 mũi tên gãy cắm trong lưới/giá đồ, bụi vàng dày |
-| 3화 | Bùn ướt bắn lên nửa thân; **can nhiên liệu (jerrycan) và 1 phuy 200L cuối buộc dây trên đuôi tháp**; cành thông phủ nóc; ăng-ten K151 gắn thêm; váy xích trái mất 1 tấm |
-| 4화 | Bùn dày, lau sậy cắm khắp nóc và giá đồ; vết cào của tên; đèn pha vỡ 1; 2 viên bắn phá vây đêm → bồ hóng mới |
-| 5화 | **Bùn kín đến nửa thân, sườn trái cháy sém đen, mắc trên mô cát nghiêng 10°**, xích phải bị bùn cát lấp, nòng hạ thấp, nắp cupola mở, cờ 태극기 nhỏ vẫn còn dưới lớp bùn (ảnh cuối: "sắt vụn chìm bùn") |
+| 3화 | Bùn ướt bắn lên nửa thân; **can nhiên liệu (jerrycan) và 1 phuy 200L cuối buộc dây trên đuôi tháp** (P1 xi-phông, SC_001) → từ D4 **"전차가 노새가 됐습니다"**: 2 K6 + ống cối + thùng đạn buộc đuôi, 을보/아리 ngồi trên buồng động cơ (SC_048); cành thông phủ nóc; ăng-ten K151 gắn thêm; váy xích trái mất 1 tấm; **P7 rò nước làm mát trên dốc → 을보 gò miếng đồng vá ống** (vết đồng đỏ sáng trên đường ống hông trái, SC_118/1xx); **vết cháy sém tên lửa trên nóc** (아리 dập bằng khăn olive, P7); P10 bắn 4 viên vào vách đèo → bồ hóng mới, tên gãy cắm giá đồ |
+| 4화 | Nằm im trong **đảo lau** (LOC_007 sub-lock `LOC_007_reed_island`): bùn dày, lau sậy cắm kín nóc và giá đồ, lưới phủ; vết cào của tên; đèn pha vỡ 1; P7 bắn 2 viên tại chỗ (SC_144–145; overlay bộ đếm 잔탄 08→07→06) → bồ hóng mới; trượt 3 km về đảo lau thứ hai (vết xích trong bùn, 5화 SC_057 "이틀 전 밤… 삼 킬로") |
+| 5화 (P1–P9) | Ở mép lau cách **cổng họng bãi (여울 목) 300 m**, phủ lau; 6 viên cuối bắn từ đây (SC_078–086); bộ đếm 잔탄 06→00 |
+| 5화 (P10 Phase 1–2, SC_197–208) | **Chạy 300 m cuối** xuống cổng họng, nước ngang ngực người; **nước qua lưới hút gió đuôi → động cơ sặc, tắt giữa khe** (SC_206), xích quay nửa vòng rồi lún cát, xe nghiêng nhẹ — **thân xe chắn ngang khe 60 m** = "cái nút chai"; 박기철 **xả van nhiên liệu** → vệt dầu loang quanh xe trôi xuống cổng họng (SC_207) |
+| 5화 (P10 Phase 3–5, SC_213–249) | Tên đập nóc như mưa đá; 한승우 thả **lựu đạn nhiệt nhôm (PROP_025) vào khay máy nạp** → cửa tháp phun **lửa trắng-vàng, mép tháp đỏ, sắt lỏng trắng chói chảy xuống váy xích** → dầu trên nước bén lửa thành **vòng lửa quanh xe** trôi xuôi (SC_227); 탁발흠 đứng trên nóc xe cháy, giương cung, trúng tên 해모루, ngã xuống sông (SC_245–249) |
+| 5화 (P11–P12, SC_251/281–283) | Aerial dưới cột nắng: tháp cháy đỏ, khói trắng, thân lún nghiêng, nước nâu tràn qua váy xích và nóc thân (SC_251). Mấy ngày sau, nước rút: **K2 nằm nghiêng 10° trong cát, thân đen sém, nửa thân chìm bùn khô nứt, nòng hạ, nắp cupola mở, tên gãy cắm nóc, 태극기 nhỏ hé dưới bùn** (SC_281); **biển tên "3" (PROP_023) đặt trên mép tháp cạnh số "1"** — 천둥 1 và 천둥 3 nằm cạnh nhau (SC_282); 박기철 "영입니다. 전부 영." |
 
 **VISUAL_LOCK_EN (≤60 từ):**
 `South Korean K2 Black Panther main battle tank, low angular wedge-shaped turret, long 120mm gun with bore evacuator, six twin road wheels per side under thick side skirts, six smoke launchers each side, three-tone green-brown-black camouflage, small white numeral 1 and a small Korean flag on the turret side, black whip antennas`
@@ -47,8 +51,8 @@
 **REF_PROMPT_EN (3/4 view, phông trắng, 16:9):**
 `Product-style reference photo of a South Korean K2 Black Panther main battle tank, three-quarter front-left view, low angular wedge-shaped turret, long 120mm smoothbore gun with bore evacuator, six twin rubber-rimmed road wheels per side under thick side skirts, six smoke grenade launchers on each side of the turret, commander's panoramic sight on the turret roof, 12.7mm machine gun on the commander's cupola, stowage basket at the turret rear, three-tone green-brown-black South Korean army camouflage, small white numeral 1 stenciled on the turret side with a small Korean flag beside it, two black whip antennas, clean factory condition with light yellow dust on the hull, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
 
-**REF_PROMPT_EN_EP5 (3/4 view, phông trắng, 16:9 — derived state cho 5화):**
-`Product-style reference photo of a battle-worn South Korean K2 Black Panther main battle tank, three-quarter front-left view, low angular wedge-shaped turret, long 120mm gun depressed low, hull caked in wet grey-brown river mud up to half its height, left side scorched black, one side skirt panel missing, reeds and broken arrow shafts stuck in the stowage basket, one headlight smashed, commander's hatch open, faded three-tone green-brown-black camouflage showing through the mud, small white numeral 1 and small Korean flag half hidden under mud, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
+**REF_PROMPT_EN_EP5 (3/4 view, phông trắng, 16:9 — derived state cuối 5화 P11–P12, SC_281–282):**
+`Product-style reference photo of a destroyed South Korean K2 Black Panther main battle tank, three-quarter front-left view, hull tilted ten degrees and sunk to half its height in cracked dry grey-brown river mud, low angular wedge-shaped turret scorched black with heat-discolored blue-brown steel around the open commander's hatch, long 120mm gun depressed low, one side skirt panel missing, broken arrow shafts stuck on the roof and in the stowage basket, one headlight smashed, faded three-tone green-brown-black camouflage showing through mud and soot, small white numeral 1 and small Korean flag half hidden under dried mud on the turret side, a small scorched olive-drab steel nameplate with a scratched white numeral 3 lying on the turret edge beside the numeral 1, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
 
 ---
 
@@ -68,11 +72,11 @@
 **Damage state theo tập (từng xe)**
 | Tập | 천둥 2 | 천둥 3 | 천둥 4 |
 |---|---|---|---|
-| 1화 | Sạch, bụi vàng; bắn 40 mm đầu tiên vào kỵ binh Tiên Ti | Sạch, bụi vàng | Sạch, bụi vàng |
-| 2화 | Bồ hóng nòng, vết tên, tro | Bồ hóng nòng, tro | **CHÁY** trong hỏa công đêm ở LOC_003: thân đen sạm, phao hơi cháy rụi, tháp lệch, khói âm ỉ đến sáng — xác xe ở lại thung lũng |
-| 3화 | Rút hết dầu → **bị phá hủy bằng PZF-3** trước khi rời: thân thủng, cháy | Rút hết dầu, **để nguyên vẹn** (rút gấp) → **탁발흠 chiếm**: cửa đuôi mở, kỵ binh Tiên Ti trèo lên, sau đó **cắm cờ Tùy đỏ-vàng lên tháp**, ngựa kéo bằng dây thừng | Xác cháy |
-| 4화 | — | Trong tay Tùy: cờ Tùy trên tháp, bị ngựa kéo theo hậu quân; lính Tùy ngồi trên nóc tò mò; tháp pháo xoay được bằng tay (họ không bắn được — không ai biết nạp) | — |
-| 5화 | — | Cảnh kết: **trên đường về Lạc Dương** — xe được đặt lên bè/xe bò khổng lồ, phủ vải, cờ Tùy, drone bị thu đặt trong hộp bên cạnh (open loop series 2) | — |
+| 1화 | Sạch, bụi vàng; bắn 40 mm đầu tiên vào kỵ binh Tiên Ti (P5 −60, P10 −60 "마지막 탄띠" SC_233); P10 kẹt bùn ở bến suối → **bò của dân + kỵ Goguryeo kéo ra** | Sạch, bụi vàng; **P10 hỏng bánh chịu nặng (bánh thứ 3 bên phải) khi vượt rãnh → P11 을보 rèn chốt sắt tạm ("쇠는 쇠요", PROP_019a)** — chạy được nhưng yếu | Sạch, bụi vàng |
+| 2화 | Bồ hóng nòng, vết tên, tro; sortie cổng bắc/góc đông-nam −60 (SC_188); dầu **≈ cạn** cuối tập ("장갑차는 바닥" SC_273 — 2 tháng chạy máy sưởi/sạc/kính nhiệt đêm) | Bồ hóng nòng, tro; chốt sắt thô ở bánh phải, vệt dầu; dầu ≈ cạn | **CHÁY** trong hỏa công đêm ở LOC_003 (SC_139–150): thân đen sạm, phao hơi cháy rụi, tháp lệch, **200 viên 40 mm + hộp drone #2 nổ/cháy trong khoang**, khói âm ỉ đến sáng — xác xe ở lại thung lũng |
+| 3화 | Rút hết dầu → **2 quả PZF-3 + dầu** (P1, SC_003–004): thân thủng, cháy cùng 2 K511 + K151; **160 viên 40 mm nổ trong xe** | Rút hết dầu, **biển tên "3" bị 박기철 tháo (PROP_023, SC_004/011)**, để nguyên vẹn (đuốc 탁발흠 cách 10 phút) → **탁발흠 chiếm**: cửa đuôi mở, kỵ Tiên Ti trèo lên, **cờ Tùy đỏ-vàng cắm lên tháp**, **40 con bò kéo** theo cột quân 70리/ngày (SC_097–098); ~60 viên 40 mm còn trong xe; **KHÔNG vượt 압록** — gửi về tây từ bờ bắc 압록 D16 với 200 kỵ hộ tống (decisions P-40 ep3) | Xác cháy |
+| 4화 | — | Trên đường về tây (bò kéo, 70리/ngày); tới sân 육합성/요동 ~3화 D22 = 4화 D3 (P-53) | — |
+| 5화 | — | **Đứng trong sân 육합성 15 ngày** trên cỗ xe gỗ khổng lồ bánh lún bùn, phủ **vải dầu bám bùn khô** (một góc váy xích + bánh chịu nặng lộ, **vệt sơn trắng hình mũi tên trên cửa đuôi**), cờ Tùy cắm trên vải rũ nước, bò đã tháo ách; **hộp sơn mài đen đựng drone #4** trên tay hoạn quan (SC_270); 양제 kéo vải dầu, đặt tay lên thép: "…내년." (SC_271) — open loop series 2 「613」 | — |
 
 **VISUAL_LOCK_EN (≤60 từ):**
 `South Korean K21 infantry fighting vehicle, angular boxy hull with steep sloped front, small two-man turret offset right with a short 40mm autocannon, folded flotation panels along the hull sides, six road wheels per side, rear troop ramp, three-tone green-brown-black camouflage, small white numeral and a small Korean flag on the turret side`
@@ -96,11 +100,11 @@
 | Shape | Ca-bin cứng góc cạnh 2 chỗ, mũi dài có lưới tản nhiệt dọc, thùng sau khung vòm bạt xanh olive; bậc lên thùng sau; lốp gai lớn |
 | Color / camo | ROK three-tone; bạt thùng **olive đơn sắc**, bạc màu |
 | Turret | Không; xe #1 có **vòng gắn K6 12.7 mm trên nóc ca-bin** (WPN_004 #1) |
-| Wheels | 6 bánh lốp gai lớn (2 trước, 4 sau đôi); lốp trước phải xe #2 có **mũi tên Goguryeo cắm** (tín hiệu xuyên không đầu tiên — 1화) |
+| Wheels | 6 bánh lốp gai lớn (2 trước, 4 sau đôi); lốp trước phải xe #2 có **mũi tên Goguryeo cắm** (tín hiệu xuyên không đầu tiên — 1화 SC_001; **do 소년 척후 ~17 tuổi đi theo 해모루 bắn**, không phải 해모루 — P-36; 백성민 trả mũi tên này, 한승우 giữ một mũi khác rút từ gỗ cổng đông — P-28) |
 | Exterior markings | Số trắng nhỏ trên cửa; 태극기 nhỏ; xe #2 có ký hiệu **hình tam giác đỏ (nhiên liệu)** nhỏ trên bạt sau |
 | Interior | Ca-bin: vô-lăng, radio gắn, bản đồ nhét cửa; thùng #1: thùng đạn xanh xếp chồng, dây chằng; thùng #2: 2 phuy 200L đứng buộc dây, can nhựa, hộp dụng cụ, lốp dự phòng |
 
-**Damage state:** 1화 sạch bụi vàng, lốp xe #2 thủng tên (thay lốp dự phòng — cảnh đầu) · 2화 tro, bạt cháy xém một góc (hỏa công), xe #2 mất 1 phuy · 3화 **bỏ lại** ở LOC_003: dỡ sạch, bạt rạch, lốp xì, đốt (ken-burns "xe bỏ hoang") · 4–5화 không xuất hiện.
+**Damage state:** 1화 sạch bụi vàng, lốp xe #2 thủng tên (thay lốp dự phòng — cảnh đầu) · 2화 tro, bạt cháy xém một góc (hỏa công), xe #2 mất 1 phuy · 3화 **đốt** ở LOC_003 (P1 SC_001–010: 2 K511 + K151 cháy sau lưng 박기철 đang xi-phông; "트럭은 반" dầu 2화 SC_273) · 4–5화 không xuất hiện.
 
 **VISUAL_LOCK_EN (≤60 từ):**
 `South Korean K511A1 six-wheeled military cargo truck, boxy hard cab with long hood and vertical grille, canvas-covered cargo bed on arched bows, big lugged tires, three-tone green-brown-black camouflage cab, faded olive canvas, small Korean flag on the door`
@@ -118,10 +122,10 @@
 | Shape | Thân hộp cao, kính chắn gió chia 2 tấm dốc, cửa dày, nóc có **cửa nóc tròn (hatch) gắn K6** (WPN_004 #2), 3 ăng-ten whip, giá đồ nóc, lốp lớn, đèn pha tròn có lồng |
 | Color / camo | ROK three-tone |
 | Wheels | 4 bánh lốp gai lớn run-flat |
-| Exterior markings | Số trắng nhỏ; 태극기 nhỏ; **tấm pin mặt trời gấp** trên nóc (bổ sung — xem Phụ lục C mục 3) |
+| Exterior markings | Số trắng nhỏ; 태극기 nhỏ; **tấm pin mặt trời gấp** trên nóc — **chỉ sạc pin AA chậm, KHÔNG sạc drone** (decisions #5: giữ áp lực tài nguyên) |
 | Interior | 4 ghế, giá radio giữa 2 ghế trước, đèn màn hình xanh, bản đồ giấy kẹp, dây sạc chằng chịt ra sau → đây là "ổ điện" của đại đội |
 
-**Damage state:** 1화 sạch bụi · 2화 tro, kính nứt vì đá ném · 3화 **bỏ lại** (radio + ăng-ten + máy phát tháo mang theo trên K2; xe đốt) · 4–5화 không xuất hiện.
+**Damage state:** 1화 sạch bụi; màn hình nhiễu trắng rồi tắt đêm 철원 (SC_021), sáng "위성 0개" · 2화 tro, kính nứt vì đá ném; máy phát "드론 열다섯 번 = 삼십 일" (SC_079) · 3화 **đốt** P1 (radio + ăng-ten tháo lên K2; máy phát gom nhiên liệu vào "사백") · 4–5화 không xuất hiện.
 
 **VISUAL_LOCK_EN (≤60 từ):**
 `South Korean K151 light tactical 4x4 command vehicle, tall boxy lightly-armored body, two-piece sloped windshield, round roof hatch with a 12.7mm machine gun, three black whip antennas, roof rack, big lugged tires, caged round headlights, three-tone green-brown-black camouflage, small Korean flag on the door`
@@ -372,6 +376,27 @@
 **REF_PROMPT_EN (3/4 view, phông trắng, 16:9):**
 `Product-style reference photo of a Xianbei steppe cavalryman of 612 AD standing beside his horse, three-quarter view, a short stocky steppe horse with thick mane and long tail and no armor, the rider in brown leather lamellar armor with black-painted scales over a long leather coat, fur-trimmed leather cap, soft leather boots, composite bow in a case at the hip with a quiver of arrows, short curved saber, coiled rope lasso on the saddle, a black horse-tail standard on a pole, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
 
+## VEH_207 — 수 기병 / 수 장군 기마 (kỵ binh Tùy — ngựa Hán, giáp 명광개) · MỚI v3 (decisions "sau QC 5화", P-50 ep5)
+
+| Trường | Nội dung |
+|---|---|
+| Type | **Kỵ binh chính quy nhà Tùy** và **ngựa của tướng lĩnh** — KHÁC VEH_206 (Tiên Ti: ngựa lùn thảo nguyên, giáp da, mũ lông) và KHÁC VEH_101 (개마무사 Goguryeo: ngựa bọc giáp sắt kín). Dùng cho 우중문 (CHAR_202), 우문술 (CHAR_203), 수 후군 장수 (신세웅 [史], EXTRA), 수 기병 sườn/hậu quân, kỵ sứ/전령 Tùy |
+| Ngựa | **Ngựa chiến Hán cao hơn ngựa thảo nguyên** (vai ~1,45 m), cổ dài, bờm tỉa ngắn dựng; **yên gỗ cao mũi-hậu (yên cao), bàn đạp sắt**, dây cương da có **khóa đồng mạ vàng**, tua đỏ dưới hàm; **tấm phủ ngựa lụa đỏ viền vàng (giáp ngựa lụa — không phải giáp sắt)** cho ngựa tướng; ngựa lính: yếm da đơn giản, không phủ lụa |
+| Kỵ sĩ (tướng) | Giáp **명광개** hai tấm gương ngực bóng, viền mạ vàng (우중문), hoặc giáp hai mảnh sơn đen không trang trí + cổ lông (우문술 — theo CHAR lock); **áo choàng đỏ** (우중문) / xám (우문술); mũ sắt tua đỏ; kiếm thẳng chuôi mạ; cờ đại quân cắm bên yên |
+| Kỵ sĩ (lính) | Giáp lamellar sắt + mũ sắt chỏm nhọn có tua, giáo dài, đao thẳng, khiên tròn nhỏ; cờ đuôi nheo đỏ trên giáo của kỵ dẫn đầu |
+| Màu | Ngựa: **우중문 ngựa đen** · **우문술 ngựa xám** · 신세웅/kỵ sứ ngựa hung; lụa đỏ, đồng vàng, sắt bóng; cờ đỏ-vàng |
+| Xuất hiện | 1화 (kỵ sứ Tùy — ít) · 2화 (đài 양제, kỵ tuần) · 3화 (kỵ Tùy sườn P2, kỵ sứ đuổi 을지문덕 P4) · 4화 (hậu quân bờ nam) · **5화 (21 SC: SC_006/015/016/018/047/052/062–064/070/072/079/081/091/094/112/113/214/236/237/239)** |
+| Damage / diễn biến 5화 | Ướt mưa, cổ lông bết (우문술 SC_015); nước lên bụng ngựa giữa khối (SC_062); 신세웅 ngã khỏi yên, mũ tua đỏ trôi (SC_091); **우중문 trên ngựa không yên bước hụt hố cát lở, ngã xuống nước, cán cờ gãy nổi lên** (SC_236) → bị bắt sống |
+| Phân biệt cho QC ảnh | Có **lụa đỏ + đồng vàng + gương ngực** = Tùy (VEH_207) · lông thú + da nâu + ngựa lùn = Tiên Ti (VEH_206) · ngựa mặc giáp sắt kín + mặt nạ = Goguryeo (VEH_101). Tuyệt đối không đính `@sui_pontoon` (VEH_205) cho kỵ Tùy |
+
+**VISUAL_LOCK_EN (≤60 từ):**
+`Sui dynasty cavalry: tall Han war horses with trimmed upright manes, high-pommel wooden saddles with iron stirrups, red silk caparisons with gold borders on the generals' horses, riders in mingguang iron lamellar armor with polished round chest plates and pointed iron helmets with red tassels, long spears, red and yellow banners`
+
+**REF_PROMPT_EN (3/4 view, phông trắng, 16:9):**
+`Product-style reference photo of a Sui dynasty cavalry general of 612 AD mounted on a tall black Han war horse, three-quarter front-left view, the horse with a trimmed upright mane, high-pommel and high-cantle wooden saddle with iron stirrups, red silk caparison with a gold border and red tassels under the jaw, gilded bronze harness fittings, the rider in mingguang iron lamellar armor with two polished round chest plates and gilded edges, a red silk cloak, a pointed iron helmet with a red tassel crest, straight sword at the hip, holding a long spear with a small red pennant, beside him a dismounted Sui cavalryman in plain iron lamellar armor holding a grey horse with a simple leather breast strap and no silk, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
+
+---
+
 ## WPN_201 — 수나라 보병 무장 (bộ binh Tùy — để dựng đại quân)
 
 | Trường | Nội dung |
@@ -390,8 +415,8 @@
 
 | ID | 1화 | 2화 | 3화 | 4화 | 5화 |
 |---|---|---|---|---|---|
-| VEH_001 K2 | sạch/bụi vàng, giữ | bắn 12 viên, sém 1 bên | gánh hết dầu, phuy buộc ngoài | bùn + lau, còn 6 viên | hết đạn, mắc mô cát, chìm bùn |
-| VEH_002 K21 ×3 | 3 sạch | **천둥 4 cháy** | 천둥 2 phá hủy, **천둥 3 bị chiếm** | 천둥 3 kéo theo hậu quân Tùy | 천둥 3 về Lạc Dương (kết) |
+| VEH_001 K2 | sạch/bụi vàng, giữ, dầu 400→370 | bắn 10 viên (22→12), sém 1 bên, dầu 300 | "400 딱" gom; 노새; miếng đồng vá; bắn 4 (→8); dầu ~20 | đảo lau, bắn 2 (→6), dầu 20 | 6 viên → 0; 300 m; nước tắt máy ở cổng họng; nhiệt nhôm; chìm bùn; biển "3" cạnh "1" |
+| VEH_002 K21 ×3 | 3 sạch; 천둥 3 hỏng bánh → chốt sắt 을보 | **천둥 4 cháy**; dầu ≈ cạn | 천둥 2 PZF ×2 + dầu, **천둥 3 bị chiếm** (biển tên tháo) | 천둥 3 bò kéo về tây | 천둥 3 trong sân 육합성 15 ngày; 양제 chạm: "내년" |
 | VEH_003 K511 ×2 | lốp thủng tên | mất 1 phuy | **bỏ lại, đốt** | — | — |
 | VEH_004 K151 | "위성 0개" | kính nứt | **bỏ lại**, radio/máy phát lên K2 | — | — |
 | UAV_001 ×4 | 4 → 3 | 3 → 2 | 2 → 1 → **0** | 0 | 0 (drone #4 về Lạc Dương) |
@@ -400,11 +425,12 @@
 | WPN_005 PZF ×18 quả | 18 | 12 | 10 | 6 | 0 |
 | VEH_201 팔륜누차 | — | 3–5 tháp cháy | — | — | — |
 | VEH_204 누선 | — | — | — | hạm đội + cháy | — |
+| VEH_207 kỵ Tùy | kỵ sứ | đài 양제 | kỵ sườn, kỵ sứ | hậu quân bờ nam | 21 SC; 우중문 ngã ngựa bị bắt |
 
 ## PHỤ LỤC B — DANH SÁCH `@name` CHO G-LABS (khớp ref_jobs.json)
-`K2_hero` (VEH_001) · `K2_ep5` · `K21_base` (천둥 2) · `K21_captured` (천둥 3) · `K21_burned` (천둥 4) · `K511_truck` · `K151_cmd` · `K2C1_rifle` · `KM187_mortar` · `K3_lmg` · `K6_hmg` · `PZF3` · `K4_agl` · `drone_quad` · `PVS11K_nvg` · `PRC999K_radio` · `goguryeo_cataphract` · `goguryeo_bow` · `sui_siege_tower` · `sui_ram` · `sui_ladder` · `sui_warship` · `sui_pontoon` · `xianbei_cavalry` · `sui_infantry`
+`K2_hero` (VEH_001) · `K2_ep5` · `K21_base` (천둥 2) · `K21_captured` (천둥 3) · `K21_burned` (천둥 4) · `K511_truck` · `K151_cmd` · `K2C1_rifle` · `KM187_mortar` · `K3_lmg` · `K6_hmg` · `PZF3` · `K4_agl` · `drone_quad` · `PVS11K_nvg` · `PRC999K_radio` · `goguryeo_cataphract` · `goguryeo_bow` · `sui_siege_tower` · `sui_ram` · `sui_ladder` · `sui_warship` · `sui_pontoon` · `xianbei_cavalry` · `sui_infantry` · **`sui_cavalry` (VEH_207, v3)**
 
-## PHỤ LỤC C — ĐIỂM CẦN USER QUYẾT
+## PHỤ LỤC C — ĐIỂM CẦN USER QUYẾT (TRẠNG THÁI v3 — decisions.md "sau world-designer": 1 → overlay ở edit, ảnh chỉ số Ả Rập · 2 → K6 cupola dùng chung kho 1.600 · 3 → giữ pin mặt trời, chỉ sạc AA, KHÔNG sạc drone · 4 → DUYỆT (thứ tự drone, ~60 viên trong 천둥 3) · 5 → giữ, QC loại plate armor phương Tây)
 1. **Số hiệu "천둥 1" bằng Hangul trên xe**: tôi chọn chỉ vẽ số Ả Rập trắng (1/2/3/4) + 태극기 nhỏ, vì style tag "no text" và AI hay sai chữ Hàn; "천둥" chỉ tồn tại trong thoại. Nếu user muốn Hangul thật trên xe → phải làm post-production (overlay) hoặc chấp nhận tỉ lệ lỗi.
 2. **K6 trên cupola K2**: foundation §5 chỉ có WPN_004 K6 ×2 (800 viên/khẩu). K2 thật có K6 gắn liền; tôi để nó là "súng của xe" và **không tính đạn** trong ledger (đề xuất: 1.000 viên 12.7 riêng, hoặc coi như dùng chung kho 12.7 với WPN_004). Cần chốt để script-writer không bắn "vô hạn".
 3. **Tấm pin mặt trời gấp trên K151**: tôi thêm để hợp lý hóa sạc drone/kính đêm những ngày không nổ máy phát (tiết kiệm dầu) — nhưng nó cũng có thể làm "hậu cần" bớt căng. Nếu user thấy làm loãng engine LIMITED RESOURCES → bỏ, tôi sửa prompt.
@@ -413,6 +439,7 @@
 
 ---
 ## Cập nhật theo outline (2026-09-16)
-- **VEH_002 천둥 3**: 1화 P10 hỏng bánh chịu nặng (road wheel) khi vượt rãnh → 을보 chốt sắt tạm 2화; là xe còn chạy được nhưng yếu → 3화 bị bỏ lại nguyên vẹn và rơi vào tay 탁발흠 (khớp foundation). Damage state 2화: bánh thứ 3 bên phải có chốt sắt thô, vệt dầu.
+- **VEH_002 천둥 3**: 1화 P10 hỏng bánh chịu nặng (road wheel) khi vượt rãnh → **을보 rèn chốt sắt tạm ngay 1화 P11** ("쇠는 쇠요", SC_2xx; P-36 — không phải 2화); là xe còn chạy được nhưng yếu → 3화 bị bỏ lại nguyên vẹn và rơi vào tay 탁발흠 (khớp foundation). Damage state 2화: bánh thứ 3 bên phải có chốt sắt thô, vệt dầu.
 - **VEH_002 천둥 4**: cháy 2화 (hỏa công) — xác xe đen ở LOC_003.
-- **PROP_023 biển tên "천둥 3"**: 박기철 tháo ở 3화 P1 trước khi bỏ xe (xem prop_bible).
+- **PROP_023 biển tên "천둥 3"**: 박기철 tháo ở 3화 P1 trước khi bỏ xe (SC_004/011), mang trên ba lô 1 tháng, 5화 nhét túi ngực (SC_168) → **đặt lên mép tháp K2 cạnh số "1"** (SC_282).
+- **v3 (sau 5 kịch bản):** VEH_207 kỵ Tùy thêm (Phần 2) · K2 giới hạn lội 1,2 m + APU (bảng VEH_001) · damage state K2 5화 tách 4 pha · 천둥 3 timeline: bờ bắc 압록 → gửi về tây D16 (200 kỵ) → sân 육합성 15 ngày · K4 (WPN_006) **không xuất hiện trong 5 kịch bản** → coi như bỏ lại/cháy cùng xe tải 3화 (ledger v3) · mọi khí tài ROK không còn ở kết: "영입니다. 전부 영."
