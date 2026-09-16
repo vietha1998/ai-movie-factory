@@ -60,3 +60,7 @@
 - P-42 giữ 289 SC. P-46 KHÔNG mid-roll 5 (34:30 là aftermath — giữ cảm xúc). P-47 chấp nhận 5:30 cuối không action (aftermath finale); thêm 1 KB truy kích 압록수 [史] ở SC_273 nếu QC thấy trống.
 - P-44 신세웅 → dùng "수 장군" generic + 1 dòng narrator gọi tên (không ref riêng).
 - Ledger/bible v3 gom sau QC 5 tập (morphine, K6, PROP_024, sub-LOC cổng họng).
+
+## 2026-09-16 · sau script-writer 3화 v1 (P-38…P-51 của ep3)
+- P-38 PZF 2 (phá 천둥 2, P1) + 1 (P10) → DUYỆT (khớp ledger 12→9). P-40 천둥 3 KHÔNG vượt 압록 (bò 70리/ngày, gửi về tây) → DUYỆT — ledger/outline ep4 không phụ thuộc. P-47 양제 1 SC ở 육합성 3화 → DUYỆT. Combat 30,8 % → chấp nhận; QC có thể đề xuất +1 khối 60 s nếu tìm được chỗ không tăng SC. Narration 4.421 → giữ; TTS đo lại P7.
+- Timeline 3화 D1–D17 (tới 살수 D17) là chuẩn cho ep4/ep5 bảng ngày/đêm (QC chéo kiểm).
