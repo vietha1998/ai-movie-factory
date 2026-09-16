@@ -1,4 +1,4 @@
-# 살수 612 — PROP BIBLE (v1 · 2026-09-16 · world-designer)
+# 살수 612 — PROP BIBLE (v3 · 2026-09-16 · world-designer — gom sau QC 5 kịch bản; nguồn SC = full_script_ep1 v3 / ep2 v2 / ep3 v2 / ep4 v2.1 / ep5 v2)
 
 > Nguồn sự thật: `series_foundation.md` §3 (tín hiệu xuyên không), §4 (nhân vật cầm), §5 (tài nguyên), §7 (arc: chiếu chỉ 1화, hỏa công 2화, lương chôn 3화, bài thơ 4화, lau sậy 4–5화, 을보 rèn). Không mâu thuẫn; muốn đổi → `logs/proposals.md`.
 > Mỗi PROP: mô tả · ai cầm · tập xuất hiện · VISUAL_LOCK_EN (dán nguyên văn vào prompt cảnh có prop). Prop có `REF_PROMPT_EN` = ảnh phông trắng để làm reference `@name`; prop không có REF = chỉ cần lock trong cảnh.
@@ -76,8 +76,8 @@
 - **REF_PROMPT_EN:** `Product-style reference photo of a South Korean army combat ration laid out, three-quarter view from above, square olive-brown plastic pouches, one opened flameless heating bag with a little steam rising, a plastic spoon, a compressed biscuit and a small sachet, next to it a rough grey Goguryeo clay bowl of cooked millet with wooden chopsticks, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
 
 ### PROP_011 — 태극기 패치 (patch cờ Hàn Quốc)
-- **Mô tả:** Patch 태극기 vải thêu **~7×4 cm** trên vai trái áo digital camo ROK (Velcro), màu **đầy đủ** (đỏ-xanh-đen-trắng) — không dùng bản subdued, để khán giả 50+ nhận ngay; tương tự 태극기 nhỏ dán hông xe. Đây là **visual identifier xuyên suốt** (foundation §4). 5화: patch rách nửa trên vai lính tử trận; 한승우 gỡ patch của đồng đội bỏ túi.
-- **Ai cầm:** mọi lính; 아리 được tặng 1 patch 3화 (đeo trên ngực áo Goguryeo — contrast).
+- **Mô tả:** Patch 태극기 vải thêu **~7×4 cm** trên **vai PHẢI** áo digital camo ROK (Velcro; quy định ROK 태극기 오른팔 — decisions P-38; 부대마크 vai trái), màu **đầy đủ** (đỏ-xanh-đen-trắng) — không dùng bản subdued, để khán giả 50+ nhận ngay; tương tự 태극기 nhỏ dán hông xe. Đây là **visual identifier xuyên suốt** (foundation §4). 5화: patch rách nửa trên vai lính tử trận; 한승우 gỡ patch của đồng đội bỏ túi.
+- **Ai cầm:** mọi lính; 아리 được tặng 1 patch 3화 (đeo trên ngực áo Goguryeo — contrast). **Diễn biến khóa theo script:** 3화 서아 khâu lại patch của 태오 (SC_191) → 3화 P11 탁발흠 gỡ patch 태오, cất trong áo giáp (SC_262) → 5화 patch tuột khỏi thắt lưng 탁발흠 chìm sông, nổi trôi xuôi (SC_249); 5화 한승우 gỡ **11 patch của tử sĩ** bỏ túi ngực (SC_254).
 - **Tập:** 1–5.
 - **VISUAL_LOCK_EN:** `small full-color embroidered South Korean Taegukgi flag patch, red and blue taeguk circle with four black trigrams on white, about seven by four centimeters, on the right upper sleeve of a digital-camouflage uniform`
 - **REF_PROMPT_EN:** `Product-style reference photo of a small full-color embroidered South Korean flag patch, close three-quarter view, red and blue taeguk circle with four black trigrams on a white field, hook-and-loop backing, about seven by four centimeters, one copy clean and one copy dusty with a torn upper corner, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
@@ -138,7 +138,8 @@
 ### PROP_019 — 을보 영감의 쇠지렛대와 삽 (thanh sắt & xẻng ông 을보 rèn)
 - **Mô tả:** 을보 (CHAR_106) thợ rèn 66 tuổi sửa/làm cho đại đội: (a) **xẻng công binh gãy cán** → ông tra cán gỗ sồi mới, đai sắt rèn tay (3화: đào hố chôn xe/đào hầm); (b) **thanh sắt bẩy** dài 1.2 m rèn từ **thanh ray/lưỡi giáo Tùy** — đầu dẹt, đầu móc, dùng để bẩy xích K2 kẹt cát 5화 (kỹ thuật cổ cứu xe hiện đại); (c) đinh, móc, mảnh vá sắt cho giá đồ K2. Vật thể phải thấy **vết búa rèn tay** đối lập với thép công nghiệp.
 - **Ai cầm:** 을보, 박기철 (nhận, gật đầu — hai "kỹ sư" hai thời đại), lính đào hầm.
-- **Tập:** 3 (rèn), 4 (dùng), 5 (bẩy xích).
+- **Tập:** 3 (rèn), 4 (dùng), 5 (bẩy xích; 5화 P11 을보 cầm thanh sắt đứng sau 한승우 trước xác K2 — SC_283).
+- **PROP_019a — 쇠 축핀 (chốt sắt rèn tay, 1화 P11, P-36):** chốt/đinh sắt thô dài ~25 cm rèn đêm, còn vảy lò, một đầu dẹt có lỗ, đầu kia vát — 을보 rèn để chốt tạm bánh chịu nặng thứ 3 bên phải của K21 천둥 3 ("쇠는 쇠요"); nằm trên bánh xe suốt 2화; đi theo 천둥 3 vào tay Tùy 3화. VISUAL_LOCK_EN: `a rough hand-forged iron axle pin about twenty-five centimeters long with forge scale, one flattened end with a hole and one tapered end, driven through the hub of a K21 road wheel`. Không ref riêng.
 - **VISUAL_LOCK_EN:** `hand-forged iron pry bar one point two meters long with a flattened end and a hooked end showing hammer marks, and a modern folding entrenching shovel re-handled with a new oak shaft and a hand-forged iron collar`
 - **REF_PROMPT_EN:** `Product-style reference photo of two tools, three-quarter view, a hand-forged dark iron pry bar one point two meters long with a flattened chisel end and a hooked end, surface showing hammer marks and forge scale, and a modern olive-green folding entrenching shovel whose broken handle has been replaced with a new pale oak shaft bound by a hand-forged iron collar, both dusty, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
 
@@ -195,11 +196,15 @@
 | 020 | Lau sậy | | | ○ | ● | ● | mọi lính |
 | 021 | Cờ Tùy | ● | ● | ● | ● | ● | Tùy |
 | 022 | Lương chôn | | | ● | ● | ○ | Tùy/백성민 |
+| 023 | Biển tên "3" | | | ● | ○ | ● | 박기철 |
+| 024 | Cờ đỏ hiệu lệnh | | | | | ● | 기수/을지문덕 |
+| 025 | Lựu đạn nhiệt nhôm | | | ● (P1) | | ● | 한승우 |
+| 026 | Nút bầu gỗ | | | | | ● | 해모루→한승우 |
 
-## PHỤ LỤC B — `@name` CHO G-LABS (khớp ref_jobs.json — 15 ref)
-`map_paper` (001) · `tablet_cracked` (002) · `binoculars` (006) · `fuel_drum` (007) · `ammo_cans` (008) · `medic_bag` (009) · `ration` (010) · `taegukgi_patch` (011) · `samjoko_flag` (012) · `royal_edict` (013) · `poem_scroll` (014) · `goguryeo_arrow` (015) · `war_drums` (017) · `eulbo_tools` (019) · `sui_banners` (021) · `sui_rations` (022)
+## PHỤ LỤC B — `@name` CHO G-LABS (khớp ref_jobs.json — 16 ref v1 + 2 ref v3)
+`map_paper` (001) · `tablet_cracked` (002) · `binoculars` (006) · `fuel_drum` (007) · `ammo_cans` (008) · `medic_bag` (009) · `ration` (010) · `taegukgi_patch` (011) · `samjoko_flag` (012) · `royal_edict` (013) · `poem_scroll` (014) · `goguryeo_arrow` (015) · `war_drums` (017) · `eulbo_tools` (019) · `sui_banners` (021) · `sui_rations` (022) · **`red_signal_flag` (024, v3) · `thermite_grenade` (025, v3)**
 
-## PHỤ LỤC C — ĐIỂM CẦN USER QUYẾT
+## PHỤ LỤC C — ĐIỂM CẦN USER QUYẾT (TRẠNG THÁI v3 — decisions: 1 → brush calligraphy, thơ hiện subtitle Hán + Hàn ở edit · 2 → giữ icon · 3 → DUYỆT · 4 → DUYỆT (4화 P3/P9 lương Tùy) · 5 → DUYỆT, 5화 trả 3 hồi bằng 2-BEAT SC_208/211 + cờ đỏ PROP_024)
 1. **Chữ trên prop** (bản đồ, chiếu chỉ, bài thơ): prompt chỉ mô tả "brush calligraphy", không yêu cầu đọc được. Nếu muốn khán giả đọc 4 câu thơ → overlay chữ Hàn ở khâu edit (đề xuất: hiện chữ Hán + dịch Hàn dạng subtitle khi narrator đọc).
 2. **Tín hiệu "위성 0개"**: tôi chuyển thành icon vệ tinh gạch chéo + số 0 (không chữ) để AI vẽ ổn định; chữ "위성 0개" thật để narrator/thoại nói.
 3. **PROP_019**: thanh bẩy rèn từ **giáo Tùy thu được** là đề xuất của tôi (foundation chỉ nói "thanh sắt, xẻng") — thêm ý "địch cấp vật liệu cho ta". Chốt hay bỏ?
@@ -208,5 +213,37 @@
 
 ### PROP_023 — "천둥 3" 차량 명판 (biển tên xe K21 천둥 3)
 - Mô tả: miếng thép sơn xanh ô-liu 10×25 cm, số "3" sơn trắng đã trầy, 2 lỗ bu-lông, mép cháy sém — 박기철 tháo khỏi K21 bỏ lại (3화), buộc ngoài ba lô.
-- Ai cầm: CHAR_003 박기철 · Tập: 3–5화 (5화 đặt lên xác K2 ở cuối).
+- Ai cầm: CHAR_003 박기철 · Tập: 3–5화. **Đường đi khóa theo script:** 3화 P1 tháo khỏi 천둥 3 trước khi bỏ xe, nhét ba lô (SC_004/011) → mang trên ba lô ~1 tháng → 5화 P8 cởi dây dù, lau bùn, **nhét túi ngực áo giáp** trước khi trèo lên K2 (SC_168) → 5화 P12 (mấy ngày sau, nước rút) **đặt lên mép tháp K2 cháy đen, cạnh số "1" trắng hé dưới bùn khô — "천둥 1호와 천둥 3호가 나란히"** (SC_282: "영입니다. 전부 영."). Không vẽ Hangul; chỉ số "3" (overlay ở edit nếu cần).
 - **VISUAL_LOCK_EN:** `small rectangular olive-drab painted steel vehicle nameplate with a scratched white numeral 3, two bolt holes, scorched edge, tied to a backpack strap with paracord`
+- **VISUAL_LOCK_EN_ON_WRECK (5화 SC_282):** `a small scorched olive-drab steel nameplate with a scratched white numeral 3 lying on the mud-caked turret edge of a burned tank beside a faded white numeral 1`
+### PROP_024 — 붉은 신호기 (cờ đỏ hiệu lệnh của 을지문덕) · MỚI v3 (decisions "sau QC 5화")
+- **Mô tả:** Lá cờ lụa **đỏ trơn, không hoa văn, không chữ**, khổ lớn ~1,5×2,5 m, cán tre dài ~4 m; **đầu tập cuộn chặt quanh cán, buộc dây gai** (mưa chảy dọc lụa — SC_004); **mở ra = hiệu lệnh "nửa quân đã qua sông"** phối hợp với 3 hồi tù và (PROP_018): cờ cho mắt xa (kỵ hai bờ, bờ bắc), tù và cho tai. Khác PROP_012 (삼족오 vàng, có hình) và khác PROP_021 (cờ Tùy đỏ viền vàng, tua đen). Trong phim: 5화 SC_004/019/020/066/075 (cuộn, chờ) → SC_111 (을지문덕 nhìn cờ, chưa ra lệnh) → SC_184 (dây gai cởi) → SC_211 (cờ bung sau hồi tù và thứ ba, 을지문덕 hạ kiếm).
+- **Ai cầm:** 기수 (lính cầm cờ, không ID) đứng cạnh 을지문덕 (CHAR_101) trên gò nam LOC_007; 해모루 (CHAR_105) nhìn cờ từ bãi bắc.
+- **Tập:** 5 (chỉ 5화).
+- **VISUAL_LOCK_EN:** `large plain red silk signal banner on a bamboo pole, rolled and tied with hemp cord, no emblem`
+- **VISUAL_LOCK_EN_OPEN (khi bung, SC_211):** `large plain red silk signal banner unfurled and streaming from a four-meter bamboo pole in rain, no emblem, no border, wet silk clinging and snapping`
+- **REF_PROMPT_EN:** `Product-style reference photo of a Goguryeo signal banner of 612 AD, three-quarter view, a large plain red silk banner about one and a half by two and a half meters on a long bamboo pole, shown twice: on the left rolled tightly around the pole and tied with hemp cord, on the right unfurled and hanging loose, no emblem, no border, no writing, wet silk, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
+
+### PROP_025 — 소이수류탄 (lựu đạn nhiệt nhôm / thermite) · MỚI v3 (decisions "sau QC 5화")
+- **Mô tả:** Lựu đạn cháy quân dụng hình **trụ xám** ~12 cm, nắp và thân sơn xám tro, **nhãn stencil mờ** (không chữ đọc được), **vòng kéo + mỏ vịt** thép, **dây vải olive** quấn thân để cài áo; khi kích: lửa trắng-vàng chói, sắt lỏng trắng chảy, khói trắng — **narrator KHÔNG giải thích công nghệ, không nói nhiệt độ** (decisions QC 5화: "테르밋 삼천 도" → bỏ số, giữ hình; nhìn từ mắt Tiên Ti: "물이 끄지 못하는 불… 쇠를 녹이는 불"). Đường đi: 3화 P1 한승우 cầm đứng trước 천둥 3, **không ném** (SC_001–011 — xe rơi vào tay Tùy) → 5화 P8 trong túi ngực áo giáp cạnh nút bầu + mũi tên (SC_161) → P9 đặt thử lên **khay máy nạp đạn trống, bộ đếm "00"** (SC_189) → cài dây áo giáp ngực (SC_213) → Phase 4 한승우 quay lại xe dưới tên, thả vào khay nạp (SC_222–224) → tháp K2 cháy trắng, sắt lỏng nhỏ xuống vệt dầu → vòng lửa trên nước (SC_227).
+- **Ai cầm:** 한승우 (CHAR_001) — "viên đạn cuối của xe tăng, không nhắm vào địch"; 박기철 lắc đầu "가지 마십시오" (SC_222).
+- **Tập:** 3 (P1, cầm không ném), 5 (P8–P10).
+- **VISUAL_LOCK_EN:** `grey cylindrical incendiary (thermite) grenade, faded stencil, pull ring, olive canvas strap`
+- **REF_PROMPT_EN:** `Product-style reference photo of a military thermite incendiary grenade, three-quarter view, a grey cylindrical steel body about twelve centimeters tall with a grey lid, faded illegible stencil marks, a steel safety lever and pull ring on top, a short olive canvas strap looped around the body, slight scuffs and dried mud, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
+
+### PROP_026 — 나무 물통 마개 (nút bầu gỗ của 해모루) · MỚI v3 (P-43 ep5, không ref riêng)
+- **Mô tả:** Nút bầu nước bằng gỗ tiện, dài ~5 cm, thân tròn có gờ, **sẫm màu vì ngấm nước, mẻ một góc**; 해모루 rút khỏi bầu nước đêm trước trận (5화 SC_027) → 한승우 giữ trong **túi ngực cạnh mũi tên cũ (PROP_015) và lựu đạn (PROP_025)** (SC_028/161/165) → cắm vào khe giáp mũi K2 trước khi xuất phát 300 m (SC_195) — biểu tượng "마개는 우리다" (SC_163) / "그대들이 마개였소" (SC_261).
+- **Ai cầm:** 해모루 → 한승우.
+- **Tập:** 5.
+- **VISUAL_LOCK_EN:** `small worn wooden gourd stopper about five centimeters long, turned wood with a ridge, dark with water, one chipped corner`
+- Ref: dùng cận cảnh trong scene (không tạo ref phông trắng — vật quá nhỏ; nếu QC ảnh drift → thêm `PROP_026_ref`).
+
+### Prop phái sinh KHÔNG có ID (nối 3화–5화, P-49 — dùng lock của vật gốc + câu mô tả này)
+| Vật | Nguồn | Diễn biến | Câu lock bổ sung (EN) |
+|---|---|---|---|
+| Mũ chiến đấu K1 của 태오 **trống ngàm kính** | EQP_001 mount | 3화 P10 백성민 nhặt trên mỏm (SC_245) → 한승우 cầm bên hông P11–P12 (SC_248/278/285) → 4화 SC_248 đặt xuống lau cạnh 태오; 태오 tiếp tục đội **mũ trụ sắt Goguryeo** (4화 SC_255 → 5화 SC_283 cầm tay) | `a dark green South Korean K1 combat helmet with an empty night-vision mount bracket on the front, no device attached, mud-streaked` |
+| K3 của xạ thủ KIA (3화) | WPN_003 | 오태민 mang từ 3화 P10 (SC_246/252/278) → 4화 SC_136/139/280 → 5화 dưới chân ở rìa lau (SC_250) | `a K3 light machine gun with a scratched receiver and a length of frayed olive sling, carried on the back over a rifle` |
+| Khăn olive của 아리 | (PROP_011 tặng kèm 2화 SC_104) | 3화 P7 dập tên lửa trên nóc K2 → **cháy sém một góc** (SC_13x); 5화 SC_283 vẫn đội | `a faded olive-green military scarf tied over the hair, one corner scorched brown` |
+| Sổ tay bìa xanh của 박기철 | — | Ghi số từ đêm 철원 (1화 SC_014) đến trang cuối "영" (5화 SC_282); bọc nilon từ 4화 | `a small green-covered military notebook wrapped in clear plastic, pencil stub tied with string, pages of hand-written tallies` |
+| Que đo dầu K2 | VEH_001 | 1화 SC_014, 2화 SC_272–273 (xếp que đo mọi xe lên nắp K2) | `a long steel fuel dipstick with graduated marks, wiped with a red shop rag` |
+

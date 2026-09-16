@@ -99,3 +99,7 @@
 - **TTS density**: cắt ~570 어절 narration ở SC 8 s chứa >22 어절 (ưu tiên P7) → mục tiêu ≤115 어절/phút; quy tắc mới vào SCRIPT_BRIEF: **video8s ≤22 어절 (N+thoại), still ≤45**; script-writer phải in bảng 어절/SC vượt ngưỡng.
 - 5 mốc thời gian theo bảng D; SC_170 hướng 3 척후; 한승우→해모루 "하십시오"; APU K2: xe "ngủ" vẫn có thể bắn (sửa tiền đề: tắt máy để giấu nhiệt/tiếng, không phải không bắn được); "ném lương xuống sông" → "chôn" [史]; "7 trận/ngày" bỏ khỏi 3화 (để 4화); 해모루 cười lần đầu → bỏ "lần đầu".
 - DUYỆT hay-hơn #1 (lấp 4:32 bằng 소년 척후 chạm 2 척후 Tiên Ti, đổi SC_178) · #2 (drone bay 10/14 phút, "돌아올 몫" → RTH rơi vào tay địch) · #3 (탁발흠 đếm "넷." + N "밤눈도 밥을 먹는다"). Toàn bộ 20 FIX + NOTE ≤1 dòng.
+
+## 2026-09-16 · TTS-trim 5 tập
+- Ngưỡng ≤22 어절/clip 8 s, ≤45/still, ≤115/phút áp cho cả 5 tập: ep1 108,5 · ep2 111,8 · ep3 111,7 · ep4 108,1 · ep5 104,8 — 0 SC vượt. Chữ đồng bộ vào scenes_epN.json bằng tools/sync_narration.py.
+- ep5: 2 chi tiết [史] rút khỏi narration (왕인공 chặn hậu — còn trong [ACTION]; 내호아 rút về biển — bỏ) → chấp nhận; 내호아 rút biển đưa vào MÔ TẢ YouTube 5화 thay vì phim.
