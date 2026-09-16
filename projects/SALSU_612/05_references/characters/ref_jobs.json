@@ -1,0 +1,792 @@
+[
+  {
+    "id": "CHAR_001_ref",
+    "type": "image",
+    "group": "CHAR_001",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 34-year-old Korean man, lean upright build, long oval face, single-lid calm dark eyes with faint crow's feet, straight nose, square jaw with faint chin cleft, black military buzz cut. ROK Army granite-pattern digital camo uniform, matching body armor and covered ballistic helmet, Korean flag patch on right shoulder, captain's three-diamond rank on chest, lensatic compass on cord around neck. Holding a K2C1 assault rifle (black receiver, tan rail handguard) muzzle down in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_001_dusty_ep2",
+    "type": "image",
+    "group": "CHAR_001",
+    "state": "dusty_ep2",
+    "derived_from": "CHAR_001_ref",
+    "episode_use": "2화 P3–P10",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 34-year-old Korean man, lean upright build, long oval face, single-lid calm dark eyes with faint crow's feet, straight nose, square jaw with faint chin cleft, black military buzz cut. ROK Army granite-pattern digital camo uniform, matching body armor and covered ballistic helmet, Korean flag patch on right shoulder, captain's three-diamond rank on chest, lensatic compass on cord around neck. Holding a K2C1 assault rifle (black receiver, tan rail handguard) muzzle down in the full-body view. Fine yellow-grey stone dust and black soot on helmet, shoulders and cheeks, sweat streaks at the temples, sleeves rolled to the elbow, small field bandage on the back of the left hand, one-day stubble. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_001_rain_cloak_ep3",
+    "type": "image",
+    "group": "CHAR_001",
+    "state": "rain_cloak_ep3",
+    "derived_from": "CHAR_001_ref",
+    "episode_use": "3화 toàn tập",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 34-year-old Korean man, lean upright build, long oval face, single-lid calm dark eyes with faint crow's feet, straight nose, square jaw with faint chin cleft, black military buzz cut. ROK Army granite-pattern digital camo uniform, matching body armor and covered ballistic helmet, Korean flag patch on right shoulder, captain's three-diamond rank on chest, lensatic compass on cord around neck. Holding a K2C1 assault rifle (black receiver, tan rail handguard) muzzle down in the full-body view. Rain-soaked uniform darkened with water, mud caked to the knees, four-day stubble, hollow cheeks, a coarse brown hemp Goguryeo cloak worn over the body armor, helmet on with wet cover. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_001_reeds_ep4",
+    "type": "image",
+    "group": "CHAR_001",
+    "state": "reeds_ep4",
+    "derived_from": "CHAR_001_ref",
+    "episode_use": "4화 P2–P9",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 34-year-old Korean man, lean upright build, long oval face, single-lid calm dark eyes with faint crow's feet, straight nose, square jaw with faint chin cleft, black military buzz cut. ROK Army granite-pattern digital camo uniform, matching body armor and covered ballistic helmet, Korean flag patch on right shoulder, captain's three-diamond rank on chest, lensatic compass on cord around neck. Holding a K2C1 assault rifle (black receiver, tan rail handguard) muzzle down in the full-body view. Helmet off, wet matted hair, one-week beard, mud smeared across face as camouflage, dark circles under the eyes, right sleeve torn and patched with brown Goguryeo cloth, uniform wet and muddy. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_001_muddy_bloody_ep5",
+    "type": "image",
+    "group": "CHAR_001",
+    "state": "muddy_bloody_ep5",
+    "derived_from": "CHAR_001_ref",
+    "episode_use": "5화 P3–P11",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 34-year-old Korean man, lean upright build, long oval face, single-lid calm dark eyes with faint crow's feet, straight nose, square jaw with faint chin cleft, black military buzz cut. ROK Army granite-pattern digital camo uniform, matching body armor and covered ballistic helmet, Korean flag patch on right shoulder, captain's three-diamond rank on chest, lensatic compass on cord around neck. Holding a K2C1 assault rifle (black receiver, tan rail handguard) muzzle down in the full-body view. Helmet on with soaked cover, mud caked to the waist, someone else's blood smeared across the chest armor and gloves, rain running down the face, exhausted eyes, jaw clenched. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_002_ref",
+    "type": "image",
+    "group": "CHAR_002",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 27-year-old Korean man, tall muscular build, rectangular face, straight thick eyebrows, large double-lid eyes, high nose with slight bridge bump, strong flared jaw, short black buzz cut. ROK Army granite-pattern digital camo uniform, sleeves rolled, matching body armor, ballistic helmet with tactical goggles pushed up on top, Korean flag patch on right shoulder, lieutenant's two-diamond rank on chest. Holding a K2C1 assault rifle (black receiver, tan rail handguard) across the chest with both hands in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_002_soot_ep2",
+    "type": "image",
+    "group": "CHAR_002",
+    "state": "soot_ep2",
+    "derived_from": "CHAR_002_ref",
+    "episode_use": "2화 P5–P11",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 27-year-old Korean man, tall muscular build, rectangular face, straight thick eyebrows, large double-lid eyes, high nose with slight bridge bump, strong flared jaw, short black buzz cut. ROK Army granite-pattern digital camo uniform, sleeves rolled, matching body armor, ballistic helmet with tactical goggles pushed up on top, Korean flag patch on right shoulder, lieutenant's two-diamond rank on chest. Holding a K2C1 assault rifle (black receiver, tan rail handguard) across the chest with both hands in the full-body view. Black soot and stone dust on face and armor, sweat streaks, right sleeve scorched at the cuff, forearms smudged with gunpowder residue, two-day stubble, goggles still on the helmet. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_002_reeds_ep4",
+    "type": "image",
+    "group": "CHAR_002",
+    "state": "reeds_ep4",
+    "derived_from": "CHAR_002_ref",
+    "episode_use": "4화 P2–P9",
+    "priority": 2,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 27-year-old Korean man, tall muscular build, rectangular face, straight thick eyebrows, large double-lid eyes, high nose with slight bridge bump, strong flared jaw, short black buzz cut. ROK Army granite-pattern digital camo uniform, sleeves rolled, matching body armor, ballistic helmet with tactical goggles pushed up on top, Korean flag patch on right shoulder, lieutenant's two-diamond rank on chest. Holding a K2C1 assault rifle (black receiver, tan rail handguard) across the chest with both hands in the full-body view. Helmet off, wet short hair, one-week beard, split bleeding lip, mud smeared on face, both sleeves torn off at the elbow, bruised forearms, uniform soaked and muddy, tense jaw. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_002_muddy_bloody_ep5",
+    "type": "image",
+    "group": "CHAR_002",
+    "state": "muddy_bloody_ep5",
+    "derived_from": "CHAR_002_ref",
+    "episode_use": "5화 P3–P11",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 27-year-old Korean man, tall muscular build, rectangular face, straight thick eyebrows, large double-lid eyes, high nose with slight bridge bump, strong flared jaw, short black buzz cut. ROK Army granite-pattern digital camo uniform, sleeves rolled, matching body armor, ballistic helmet with tactical goggles pushed up on top, Korean flag patch on right shoulder, lieutenant's two-diamond rank on chest. Holding a K2C1 assault rifle (black receiver, tan rail handguard) across the chest with both hands in the full-body view. Helmet on with chinstrap hanging loose, goggles missing, blood-soaked field bandage wrapped around the left upper arm, mud and blood on both forearms, rain-soaked uniform, teeth bared. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_003_ref",
+    "type": "image",
+    "group": "CHAR_003",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 42-year-old Korean man, short stocky build, broad round face, narrow single-lid eyes, deep smile lines, wide round nose, heavy jaw, close-cropped black hair with salt-and-pepper temples. ROK Army granite-pattern digital camo uniform, matching patrol cap, body armor open at chest, black mechanic gloves, red shop rag in belt, Korean flag patch on right shoulder, three-chevron sergeant rank on chest. Holding a small green field notebook and pencil in one hand, K2C1 assault rifle slung on his back, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_003_soot_ep2",
+    "type": "image",
+    "group": "CHAR_003",
+    "state": "soot_ep2",
+    "derived_from": "CHAR_003_ref",
+    "episode_use": "2화 P7–P11",
+    "priority": 2,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 42-year-old Korean man, short stocky build, broad round face, narrow single-lid eyes, deep smile lines, wide round nose, heavy jaw, close-cropped black hair with salt-and-pepper temples. ROK Army granite-pattern digital camo uniform, matching patrol cap, body armor open at chest, black mechanic gloves, red shop rag in belt, Korean flag patch on right shoulder, three-chevron sergeant rank on chest. Holding a small green field notebook and pencil in one hand, K2C1 assault rifle slung on his back, in the full-body view. Face and gloves blackened with soot from a vehicle fire, left eyebrow half singed, sweat cutting clean lines through the grime, two-day salt-and-pepper stubble, patrol cap pushed back. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_003_rain_ep3",
+    "type": "image",
+    "group": "CHAR_003",
+    "state": "rain_ep3",
+    "derived_from": "CHAR_003_ref",
+    "episode_use": "3화 toàn tập",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 42-year-old Korean man, short stocky build, broad round face, narrow single-lid eyes, deep smile lines, wide round nose, heavy jaw, close-cropped black hair with salt-and-pepper temples. ROK Army granite-pattern digital camo uniform, matching patrol cap, body armor open at chest, black mechanic gloves, red shop rag in belt, Korean flag patch on right shoulder, three-chevron sergeant rank on chest. Holding a small green field notebook and pencil in one hand, K2C1 assault rifle slung on his back, in the full-body view. Rain-soaked uniform, mud to the knees, torn mechanic gloves, a small painted metal vehicle nameplate tied to his backpack strap, four-day gray stubble, patrol cap dripping. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_003_muddy_ep5",
+    "type": "image",
+    "group": "CHAR_003",
+    "state": "muddy_ep5",
+    "derived_from": "CHAR_003_ref",
+    "episode_use": "5화 P3–P12",
+    "priority": 2,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 42-year-old Korean man, short stocky build, broad round face, narrow single-lid eyes, deep smile lines, wide round nose, heavy jaw, close-cropped black hair with salt-and-pepper temples. ROK Army granite-pattern digital camo uniform, matching patrol cap, body armor open at chest, black mechanic gloves, red shop rag in belt, Korean flag patch on right shoulder, three-chevron sergeant rank on chest. Holding a small green field notebook and pencil in one hand, K2C1 assault rifle slung on his back, in the full-body view. Mud caked to the hips, engine oil and blood on both forearms, soaked patrol cap, week-old gray stubble, exhausted but calm face. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_004_ref",
+    "type": "image",
+    "group": "CHAR_004",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 24-year-old Korean woman, petite slim build, small oval face, bright double-lid eyes, small mole under left eye, small straight nose, soft pointed chin, long black hair in tight low bun. ROK Army granite-pattern digital camo uniform, matching body armor and ballistic helmet with headlamp, red cross armband on left arm, olive medical backpack, Korean flag patch on right shoulder. Trauma shears clipped to the armor, K2C1 assault rifle slung muzzle down, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_004_bloody_sleeves_ep2",
+    "type": "image",
+    "group": "CHAR_004",
+    "state": "bloody_sleeves_ep2",
+    "derived_from": "CHAR_004_ref",
+    "episode_use": "2화 P6–P11",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 24-year-old Korean woman, petite slim build, small oval face, bright double-lid eyes, small mole under left eye, small straight nose, soft pointed chin, long black hair in tight low bun. ROK Army granite-pattern digital camo uniform, matching body armor and ballistic helmet with headlamp, red cross armband on left arm, olive medical backpack, Korean flag patch on right shoulder. Trauma shears clipped to the armor, K2C1 assault rifle slung muzzle down, in the full-body view. Helmet off, hair bun half undone with loose strands, dried blood on both sleeves up to the elbows and on nitrile gloves, pale tired face, headlamp hanging around the neck. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_004_braid_ep4",
+    "type": "image",
+    "group": "CHAR_004",
+    "state": "braid_ep4",
+    "derived_from": "CHAR_004_ref",
+    "episode_use": "4화–5화",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 24-year-old Korean woman, petite slim build, small oval face, bright double-lid eyes, small mole under left eye, small straight nose, soft pointed chin, long black hair in tight low bun. ROK Army granite-pattern digital camo uniform, matching body armor and ballistic helmet with headlamp, red cross armband on left arm, olive medical backpack, Korean flag patch on right shoulder. Trauma shears clipped to the armor, K2C1 assault rifle slung muzzle down, in the full-body view. Helmet off, hair in a single long Goguryeo-style braid tied with hemp cord, sleeves rolled, dried blood on forearms, small cloth herb pouch at belt, worn red cross armband, wet muddy uniform. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_004_muddy_bloody_ep5",
+    "type": "image",
+    "group": "CHAR_004",
+    "state": "muddy_bloody_ep5",
+    "derived_from": "CHAR_004_ref",
+    "episode_use": "5화 P4–P11",
+    "priority": 2,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 24-year-old Korean woman, petite slim build, small oval face, bright double-lid eyes, small mole under left eye, small straight nose, soft pointed chin, long black hair in tight low bun. ROK Army granite-pattern digital camo uniform, matching body armor and ballistic helmet with headlamp, red cross armband on left arm, olive medical backpack, Korean flag patch on right shoulder. Trauma shears clipped to the armor, K2C1 assault rifle slung muzzle down, in the full-body view. Helmet on with soaked cover, long braid dripping, blood to the elbows, mud on knees and thighs, red cross armband torn at one corner, rain on face, focused expression. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_005_ref",
+    "type": "image",
+    "group": "CHAR_005",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 21-year-old Korean man, tall thin build, sloping shoulders, round boyish face, large double-lid eyes, small upturned nose, soft round chin, black crew cut. ROK Army granite-pattern digital camo uniform, matching body armor and ballistic helmet pushed back, Korean flag patch on right shoulder, private's two-bar rank, drone ground-control tablet with sunshade on chest harness, hard drone case on back. Both hands resting on the drone controller, a dark gray quadcopter drone on the floor beside his boots, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_005_captive_ep3",
+    "type": "image",
+    "group": "CHAR_005",
+    "state": "captive_ep3",
+    "derived_from": "CHAR_005_ref",
+    "episode_use": "3화 P10–4화 P8",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 21-year-old Korean man, tall thin build, sloping shoulders, round boyish face, large double-lid eyes, small upturned nose, soft round chin, black crew cut. ROK Army granite-pattern digital camo uniform, matching body armor and ballistic helmet pushed back, Korean flag patch on right shoulder, private's two-bar rank, drone ground-control tablet with sunshade on chest harness, hard drone case on back. Both hands resting on the drone controller, a dark gray quadcopter drone on the floor beside his boots, in the full-body view. Prisoner: no helmet, no body armor, no boots, torn dirty camo uniform and socks, hands bound behind the back with hemp rope, split lip, bruised swollen left eye, mud on face, frightened but defiant. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_005_goguryeo_helmet_ep5",
+    "type": "image",
+    "group": "CHAR_005",
+    "state": "goguryeo_helmet_ep5",
+    "derived_from": "CHAR_005_ref",
+    "episode_use": "5화",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 21-year-old Korean man, tall thin build, sloping shoulders, round boyish face, large double-lid eyes, small upturned nose, soft round chin, black crew cut. ROK Army granite-pattern digital camo uniform, matching body armor and ballistic helmet pushed back, Korean flag patch on right shoulder, private's two-bar rank, drone ground-control tablet with sunshade on chest harness, hard drone case on back. Both hands resting on the drone controller, a dark gray quadcopter drone on the floor beside his boots, in the full-body view. Wearing a Goguryeo iron plate helmet instead of a modern one, borrowed body armor, K2C1 rifle held ready, rain-soaked, mud to the knees, bruise fading on the left eye, determined face. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_006_ref",
+    "type": "image",
+    "group": "CHAR_006",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 30-year-old Korean man, lean wiry build, narrow long face, sharp cheekbones, narrow single-lid eyes, small scar splitting left eyebrow, straight nose with old break, pointed jaw, black hair slightly over regulation. ROK Army granite-pattern digital camo uniform and matching boonie hat, body armor, camouflage scrim scarf on shoulders, Korean flag patch on right shoulder, staff sergeant two-chevron rank. Clean face without paint. Holding a K2C1 assault rifle with magnified optic muzzle down, binoculars on chest, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_006_facepaint_ep1",
+    "type": "image",
+    "group": "CHAR_006",
+    "state": "facepaint_ep1",
+    "derived_from": "CHAR_006_ref",
+    "episode_use": "1화–2화 trinh sát",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 30-year-old Korean man, lean wiry build, narrow long face, sharp cheekbones, narrow single-lid eyes, small scar splitting left eyebrow, straight nose with old break, pointed jaw, black hair slightly over regulation. ROK Army granite-pattern digital camo uniform and matching boonie hat, body armor, camouflage scrim scarf on shoulders, Korean flag patch on right shoulder, staff sergeant two-chevron rank. Clean face without paint. Holding a K2C1 assault rifle with magnified optic muzzle down, binoculars on chest, in the full-body view. Two diagonal streaks of green and black camouflage face paint across cheeks and forehead, dry yellow grass stalks tucked into the scrim scarf, fine dust on the hat brim. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_006_night_raid_ep4",
+    "type": "image",
+    "group": "CHAR_006",
+    "state": "night_raid_ep4",
+    "derived_from": "CHAR_006_ref",
+    "episode_use": "4화 P8–P9",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 30-year-old Korean man, lean wiry build, narrow long face, sharp cheekbones, narrow single-lid eyes, small scar splitting left eyebrow, straight nose with old break, pointed jaw, black hair slightly over regulation. ROK Army granite-pattern digital camo uniform and matching boonie hat, body armor, camouflage scrim scarf on shoulders, Korean flag patch on right shoulder, staff sergeant two-chevron rank. Clean face without paint. Holding a K2C1 assault rifle with magnified optic muzzle down, binoculars on chest, in the full-body view. No hat, wet hair plastered down, entire face blackened with mud camouflage except the eyes, fixed-blade knife in right hand, hemp cord bracelet on left wrist, soaked uniform, crouched posture. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_006_horseback_ep5",
+    "type": "image",
+    "group": "CHAR_006",
+    "state": "horseback_ep5",
+    "derived_from": "CHAR_006_ref",
+    "episode_use": "5화 P9–P11",
+    "priority": 2,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 30-year-old Korean man, lean wiry build, narrow long face, sharp cheekbones, narrow single-lid eyes, small scar splitting left eyebrow, straight nose with old break, pointed jaw, black hair slightly over regulation. ROK Army granite-pattern digital camo uniform and matching boonie hat, body armor, camouflage scrim scarf on shoulders, Korean flag patch on right shoulder, staff sergeant two-chevron rank. Clean face without paint. Holding a K2C1 assault rifle with magnified optic muzzle down, binoculars on chest, in the full-body view. Mounted on a Goguryeo warhorse with leather saddle and iron stirrups, boonie hat soaked, scrim scarf, K2C1 rifle slung across the chest, mud and river water to the boots, rain. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_101_ref",
+    "type": "image",
+    "group": "CHAR_101",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Mid-50s Korean man, tall lean upright build, long rectangular face, hooded narrow razor-sharp dark eyes, long high-bridged nose, strong jaw with short trimmed silver-gray beard, gray hair in topknot. Goguryeo iron lamellar armor laced with red cord, shoulder guards and thigh skirt, iron plate helmet with tall dark plume and two white feathers, dark red-brown jacket beneath, ring-pommel longsword. Right hand resting on the sword hilt, a small leather scroll tube at the belt, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_101_cloak_incognito_ep2",
+    "type": "image",
+    "group": "CHAR_101",
+    "state": "cloak_incognito_ep2",
+    "derived_from": "CHAR_101_ref",
+    "episode_use": "2화 P4–P5",
+    "priority": 2,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Mid-50s Korean man, tall lean upright build, long rectangular face, hooded narrow razor-sharp dark eyes, long high-bridged nose, strong jaw with short trimmed silver-gray beard, gray hair in topknot. Goguryeo iron lamellar armor laced with red cord, shoulder guards and thigh skirt, iron plate helmet with tall dark plume and two white feathers, dark red-brown jacket beneath, ring-pommel longsword. Right hand resting on the sword hilt, a small leather scroll tube at the belt, in the full-body view. A plain black wool cloak with hood drawn over the armor hiding the plume, road dust on the hem and boots, helmet plume removed, face half in shadow of the hood. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_101_false_surrender_ep3",
+    "type": "image",
+    "group": "CHAR_101",
+    "state": "false_surrender_ep3",
+    "derived_from": "CHAR_101_ref",
+    "episode_use": "3화 P8–P9",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Mid-50s Korean man, tall lean upright build, long rectangular face, hooded narrow razor-sharp dark eyes, long high-bridged nose, strong jaw with short trimmed silver-gray beard, gray hair in topknot. Goguryeo iron lamellar armor laced with red cord, shoulder guards and thigh skirt, iron plate helmet with tall dark plume and two white feathers, dark red-brown jacket beneath, ring-pommel longsword. Right hand resting on the sword hilt, a small leather scroll tube at the belt, in the full-body view. No armor: a dark red-brown silk long jacket with black border, wide trousers, a Goguryeo bird-feather court cap with two white feathers, unarmed, empty hands open, light rain on the shoulders. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_101_salsu_rain_ep5",
+    "type": "image",
+    "group": "CHAR_101",
+    "state": "salsu_rain_ep5",
+    "derived_from": "CHAR_101_ref",
+    "episode_use": "5화",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Mid-50s Korean man, tall lean upright build, long rectangular face, hooded narrow razor-sharp dark eyes, long high-bridged nose, strong jaw with short trimmed silver-gray beard, gray hair in topknot. Goguryeo iron lamellar armor laced with red cord, shoulder guards and thigh skirt, iron plate helmet with tall dark plume and two white feathers, dark red-brown jacket beneath, ring-pommel longsword. Right hand resting on the sword hilt, a small leather scroll tube at the belt, in the full-body view. Full armor soaked with rain, plume feathers heavy and dripping, mud to the shins, longsword drawn and held low, water droplets on the beard, eyes fixed on the distance. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_102_ref",
+    "type": "image",
+    "group": "CHAR_102",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Korean man around 50, heavy-set broad build, broad full face, heavy-lidded calm dark eyes, broad fleshy nose, soft full jaw, long thin black chin beard reaching the chest, thin mustache, graying black topknot. Goguryeo royal white silk crown with gold fittings, deep crimson silk robe with gold cloud embroidery, wide sleeves, white leather belt with gold plaques. Hands clasped before the belt, jade pendant hanging from the belt, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_102_wall_night_ep4",
+    "type": "image",
+    "group": "CHAR_102",
+    "state": "wall_night_ep4",
+    "derived_from": "CHAR_102_ref",
+    "episode_use": "4화 P4, P12",
+    "priority": 2,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Korean man around 50, heavy-set broad build, broad full face, heavy-lidded calm dark eyes, broad fleshy nose, soft full jaw, long thin black chin beard reaching the chest, thin mustache, graying black topknot. Goguryeo royal white silk crown with gold fittings, deep crimson silk robe with gold cloud embroidery, wide sleeves, white leather belt with gold plaques. Hands clasped before the belt, jade pendant hanging from the belt, in the full-body view. A heavy black wool cloak over the crimson robe, crown unchanged, standing, face lit warm from one side as if by torchlight, faint mist on the shoulders. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_103_ref",
+    "type": "image",
+    "group": "CHAR_103",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Korean man around 40, stocky powerful build, square face, heavy brow ridge, deep-set watchful dark eyes, short broad nose, heavy jaw with short black chinstrap beard and mustache, black topknot. Dark iron lamellar armor over a dark blue long jacket, leather bracers, iron helmet with short red horsehair crest, round wooden shield with iron boss, long spear. Spear held upright in the right hand, shield on the left arm, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_103_ambush_ep4",
+    "type": "image",
+    "group": "CHAR_103",
+    "state": "ambush_ep4",
+    "derived_from": "CHAR_103_ref",
+    "episode_use": "4화 P5–P8",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Korean man around 40, stocky powerful build, square face, heavy brow ridge, deep-set watchful dark eyes, short broad nose, heavy jaw with short black chinstrap beard and mustache, black topknot. Dark iron lamellar armor over a dark blue long jacket, leather bracers, iron helmet with short red horsehair crest, round wooden shield with iron boss, long spear. Spear held upright in the right hand, shield on the left arm, in the full-body view. Blood on the spear blade and right forearm, smoke smudges on face and armor, sweat, one plank of the round shield split, red crest frayed, teeth clenched mid-battle. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_104_ref",
+    "type": "image",
+    "group": "CHAR_104",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 45-year-old Korean man, short heavy build, round ruddy face, warm round wrinkled dark eyes, bulbous nose, round jaw with bushy black beard streaked gray, black topknot under cloth headband. Iron lamellar cuirass over a brown long jacket with white border, heavy gray wool cloak, plain iron helmet carried under one arm, iron ring of gate keys at belt. Ochre trousers and leather boots, right hand resting on the belt, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_104_siege_ep2",
+    "type": "image",
+    "group": "CHAR_104",
+    "state": "siege_ep2",
+    "derived_from": "CHAR_104_ref",
+    "episode_use": "2화 P4–P11",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 45-year-old Korean man, short heavy build, round ruddy face, warm round wrinkled dark eyes, bulbous nose, round jaw with bushy black beard streaked gray, black topknot under cloth headband. Iron lamellar cuirass over a brown long jacket with white border, heavy gray wool cloak, plain iron helmet carried under one arm, iron ring of gate keys at belt. Ochre trousers and leather boots, right hand resting on the belt, in the full-body view. Helmet worn on the head, a blood-spotted cloth bandage around the forehead under the headband, stone dust in the beard, torch soot on cheeks, cloak scorched with a burnt hole, tired fierce eyes. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_105_ref",
+    "type": "image",
+    "group": "CHAR_105",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 32-year-old Korean man, tall lean rider's build, sharp angular hawk-like face, bright quick upturned dark eyes, narrow straight nose, sharp clean-shaven jaw, black topknot. Light Goguryeo iron lamellar chest armor with laced leather skirt over a dark green long jacket with red border, iron helmet with a single white feather, signal horn slung at hip, ring-pommel sword. Leather bracers, composite bow and quiver on the back, left hand on the sword hilt, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_105_radio_ep3",
+    "type": "image",
+    "group": "CHAR_105",
+    "state": "radio_ep3",
+    "derived_from": "CHAR_105_ref",
+    "episode_use": "3화–4화",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 32-year-old Korean man, tall lean rider's build, sharp angular hawk-like face, bright quick upturned dark eyes, narrow straight nose, sharp clean-shaven jaw, black topknot. Light Goguryeo iron lamellar chest armor with laced leather skirt over a dark green long jacket with red border, iron helmet with a single white feather, signal horn slung at hip, ring-pommel sword. Leather bracers, composite bow and quiver on the back, left hand on the sword hilt, in the full-body view. A modern olive-green military handheld radio clipped to the chest armor lacing, rain-soaked armor and jacket, oiled dark cloak over one shoulder, mud on boots and skirt, wet feather. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_105_wounded_ep5",
+    "type": "image",
+    "group": "CHAR_105",
+    "state": "wounded_ep5",
+    "derived_from": "CHAR_105_ref",
+    "episode_use": "5화 P9–P12",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 32-year-old Korean man, tall lean rider's build, sharp angular hawk-like face, bright quick upturned dark eyes, narrow straight nose, sharp clean-shaven jaw, black topknot. Light Goguryeo iron lamellar chest armor with laced leather skirt over a dark green long jacket with red border, iron helmet with a single white feather, signal horn slung at hip, ring-pommel sword. Leather bracers, composite bow and quiver on the back, left hand on the sword hilt, in the full-body view. Helmet gone, topknot loosened, an arrow shaft embedded below the left collarbone, blood soaking the green jacket black, lying half-propped in mud and reeds, face pale, rain on skin. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_106_ref",
+    "type": "image",
+    "group": "CHAR_106",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 66-year-old Korean man, thin stooped build, huge calloused hands, gaunt deeply wrinkled face, small deep-set bright eyes, left eye squinting, large hooked nose, sharp jaw with long wispy white chin beard, thin white hair in small topknot under hemp headband. Coarse undyed hemp jacket and trousers, scorched leather forge apron, straw sandals, small hammer at belt. Rope belt, old burn scars on the forearms, holding a pair of blacksmith tongs in one hand, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_106_refugee_ep1",
+    "type": "image",
+    "group": "CHAR_106",
+    "state": "refugee_ep1",
+    "derived_from": "CHAR_106_ref",
+    "episode_use": "1화 P4–P7",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 66-year-old Korean man, thin stooped build, huge calloused hands, gaunt deeply wrinkled face, small deep-set bright eyes, left eye squinting, large hooked nose, sharp jaw with long wispy white chin beard, thin white hair in small topknot under hemp headband. Coarse undyed hemp jacket and trousers, scorched leather forge apron, straw sandals, small hammer at belt. Rope belt, old burn scars on the forearms, holding a pair of blacksmith tongs in one hand, in the full-body view. No apron: a large cloth bundle tied on the back, yellow dust over hair and clothes, someone else's blood on the right sleeve, walking staff, frightened exhausted face. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_106_forge_ep2",
+    "type": "image",
+    "group": "CHAR_106",
+    "state": "forge_ep2",
+    "derived_from": "CHAR_106_ref",
+    "episode_use": "2화–3화 căn cứ",
+    "priority": 2,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 66-year-old Korean man, thin stooped build, huge calloused hands, gaunt deeply wrinkled face, small deep-set bright eyes, left eye squinting, large hooked nose, sharp jaw with long wispy white chin beard, thin white hair in small topknot under hemp headband. Coarse undyed hemp jacket and trousers, scorched leather forge apron, straw sandals, small hammer at belt. Rope belt, old burn scars on the forearms, holding a pair of blacksmith tongs in one hand, in the full-body view. Leather apron blackened with soot, sweat on the brow, sleeves pushed up showing burn-scarred forearms, hammer in hand. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_107_ref",
+    "type": "image",
+    "group": "CHAR_107",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 15-year-old Korean girl, small thin build, small round face, large round bright dark eyes, thick straight brows, small button nose, soft round chin, wind-chapped pink cheeks, black hair in two long braids tied with red thread, short fringe. Faded indigo hemp jacket with white border over an ochre pleated ankle-length skirt, straw sandals, small cloth herb pouch at waist. Holding a small woven basket in both hands, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_107_refugee_ep1",
+    "type": "image",
+    "group": "CHAR_107",
+    "state": "refugee_ep1",
+    "derived_from": "CHAR_107_ref",
+    "episode_use": "1화 P4–P7",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 15-year-old Korean girl, small thin build, small round face, large round bright dark eyes, thick straight brows, small button nose, soft round chin, wind-chapped pink cheeks, black hair in two long braids tied with red thread, short fringe. Faded indigo hemp jacket with white border over an ochre pleated ankle-length skirt, straw sandals, small cloth herb pouch at waist. Holding a small woven basket in both hands, in the full-body view. A coarse hemp scarf over the head, yellow dust on clothes and face, tear tracks through the dust, one straw sandal broken, clutching a basket, frightened. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_107_scarf_ep2",
+    "type": "image",
+    "group": "CHAR_107",
+    "state": "scarf_ep2",
+    "derived_from": "CHAR_107_ref",
+    "episode_use": "2화–5화 mặc định",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 15-year-old Korean girl, small thin build, small round face, large round bright dark eyes, thick straight brows, small button nose, soft round chin, wind-chapped pink cheeks, black hair in two long braids tied with red thread, short fringe. Faded indigo hemp jacket with white border over an ochre pleated ankle-length skirt, straw sandals, small cloth herb pouch at waist. Holding a small woven basket in both hands, in the full-body view. A modern olive-green military scarf tied around the neck over the indigo jacket, braids neat, small smear of blood on the fingertips. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_107_night_trail_ep4",
+    "type": "image",
+    "group": "CHAR_107",
+    "state": "night_trail_ep4",
+    "derived_from": "CHAR_107_ref",
+    "episode_use": "4화 P8–P9",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 15-year-old Korean girl, small thin build, small round face, large round bright dark eyes, thick straight brows, small button nose, soft round chin, wind-chapped pink cheeks, black hair in two long braids tied with red thread, short fringe. Faded indigo hemp jacket with white border over an ochre pleated ankle-length skirt, straw sandals, small cloth herb pouch at waist. Holding a small woven basket in both hands, in the full-body view. Braids hidden under a dark cloth, mud smeared on cheeks, skirt hitched and tied at the knees, bare feet, olive scarf, carrying a small unlit paper lantern, wet from rain. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_201_ref",
+    "type": "image",
+    "group": "CHAR_201",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Early-40s Chinese man, tall slender soft build, long narrow refined face, half-lidded cold almond eyes, long high elegant nose, narrow pointed jaw with long thin black goatee and thin mustache, black topknot. Tall black lacquered imperial crown with gold beams, ochre-yellow silk robe embroidered with gold dragons under gilded ceremonial lamellar cuirass, jade belt with gold plaques. Red silk sash, red boots, right hand resting on a gold-hilted ceremonial sword, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_201_robe_only_ep3",
+    "type": "image",
+    "group": "CHAR_201",
+    "state": "robe_only_ep3",
+    "derived_from": "CHAR_201_ref",
+    "episode_use": "1화 đêm / 3화",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Early-40s Chinese man, tall slender soft build, long narrow refined face, half-lidded cold almond eyes, long high elegant nose, narrow pointed jaw with long thin black goatee and thin mustache, black topknot. Tall black lacquered imperial crown with gold beams, ochre-yellow silk robe embroidered with gold dragons under gilded ceremonial lamellar cuirass, jade belt with gold plaques. Red silk sash, red boots, right hand resting on a gold-hilted ceremonial sword, in the full-body view. Without the gilded cuirass: ochre-yellow silk robe with wide sleeves only, crown unchanged, hands holding a small dark gray quadcopter drone at eye level, studying it. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_201_defeat_news_ep5",
+    "type": "image",
+    "group": "CHAR_201",
+    "state": "defeat_news_ep5",
+    "derived_from": "CHAR_201_ref",
+    "episode_use": "5화 P11–P12",
+    "priority": 2,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Early-40s Chinese man, tall slender soft build, long narrow refined face, half-lidded cold almond eyes, long high elegant nose, narrow pointed jaw with long thin black goatee and thin mustache, black topknot. Tall black lacquered imperial crown with gold beams, ochre-yellow silk robe embroidered with gold dragons under gilded ceremonial lamellar cuirass, jade belt with gold plaques. Red silk sash, red boots, right hand resting on a gold-hilted ceremonial sword, in the full-body view. Standing rigid, face drained white, crown slightly askew, a crushed paper report in the clenched right fist, eyes wide and unblinking, no armor, yellow robe. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_202_ref",
+    "type": "image",
+    "group": "CHAR_202",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Mid-60s Chinese man, big barrel-chested powerful build, broad square fleshy face, small fierce bloodshot eyes under bushy white brows, broad reddish nose, heavy jaw with long full white beard to the chest, white topknot. Sui mingguang iron lamellar armor with two polished round breast mirrors and gilded edges, red silk cloak, iron helmet with red tassel crest. Helmet with iron neck guard, red lacquered leather boots, holding a sheathed gilt-hilted straight sword, cloak thrown back over the shoulders, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_202_tent_ep4",
+    "type": "image",
+    "group": "CHAR_202",
+    "state": "tent_ep4",
+    "derived_from": "CHAR_202_ref",
+    "episode_use": "3화–4화 lều",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Mid-60s Chinese man, big barrel-chested powerful build, broad square fleshy face, small fierce bloodshot eyes under bushy white brows, broad reddish nose, heavy jaw with long full white beard to the chest, white topknot. Sui mingguang iron lamellar armor with two polished round breast mirrors and gilded edges, red silk cloak, iron helmet with red tassel crest. Helmet with iron neck guard, red lacquered leather boots, holding a sheathed gilt-hilted straight sword, cloak thrown back over the shoulders, in the full-body view. Helmet off showing the white topknot, red cloak removed, armor worn open at the throat, holding a small silk scroll, face flushed red with anger, lamplight warmth on the beard. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_202_defeat_ep5",
+    "type": "image",
+    "group": "CHAR_202",
+    "state": "defeat_ep5",
+    "derived_from": "CHAR_202_ref",
+    "episode_use": "5화 P9–P12",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Mid-60s Chinese man, big barrel-chested powerful build, broad square fleshy face, small fierce bloodshot eyes under bushy white brows, broad reddish nose, heavy jaw with long full white beard to the chest, white topknot. Sui mingguang iron lamellar armor with two polished round breast mirrors and gilded edges, red silk cloak, iron helmet with red tassel crest. Helmet with iron neck guard, red lacquered leather boots, holding a sheathed gilt-hilted straight sword, cloak thrown back over the shoulders, in the full-body view. Mud caked to the chest, red cloak torn to half its length, one breast mirror dented, red tassel torn off, beard matted with mud and rain, helmet lost, stunned exhausted face. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_203_ref",
+    "type": "image",
+    "group": "CHAR_203",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Mid-60s Chinese man, thin slightly stooped build, long narrow face with hollow cheeks, tired intelligent downturned eyes, thin long slightly hooked nose, narrow jaw with short trimmed gray beard and long thin gray mustache, gray topknot. Plain dark iron two-piece cuirass with black lacquer over a dark blue robe, dark gray cloak with fur collar, unadorned iron helmet. Helmet carried under the left arm, a bundle of bamboo slip records in the right hand, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_203_retreat_ep5",
+    "type": "image",
+    "group": "CHAR_203",
+    "state": "retreat_ep5",
+    "derived_from": "CHAR_203_ref",
+    "episode_use": "5화 P9–P12",
+    "priority": 2,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Mid-60s Chinese man, thin slightly stooped build, long narrow face with hollow cheeks, tired intelligent downturned eyes, thin long slightly hooked nose, narrow jaw with short trimmed gray beard and long thin gray mustache, gray topknot. Plain dark iron two-piece cuirass with black lacquer over a dark blue robe, dark gray cloak with fur collar, unadorned iron helmet. Helmet carried under the left arm, a bundle of bamboo slip records in the right hand, in the full-body view. Helmet on, cloak soaked and heavy with rain, mud to the knees, face gray with exhaustion, leading a limping gray horse by the reins, looking back over his shoulder. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_204_ref",
+    "type": "image",
+    "group": "CHAR_204",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Chinese man around 50, broad thick-limbed bow-legged build, wide flat-cheeked weathered face, narrow squinting dark eyes, broad nose with flattened bridge, square jaw with short dense black-gray beard, hair wrapped in dark blue head cloth. Black lacquered leather lamellar armor with iron chest plates, oiled dark cloak, wide-brimmed iron naval helmet, rope belt, heavy single-edged broad dao. Dao sheathed at the hip, both hands on the rope belt, short leather boots, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_204_ambush_ep4",
+    "type": "image",
+    "group": "CHAR_204",
+    "state": "ambush_ep4",
+    "derived_from": "CHAR_204_ref",
+    "episode_use": "4화 P5–P8",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Chinese man around 50, broad thick-limbed bow-legged build, wide flat-cheeked weathered face, narrow squinting dark eyes, broad nose with flattened bridge, square jaw with short dense black-gray beard, hair wrapped in dark blue head cloth. Black lacquered leather lamellar armor with iron chest plates, oiled dark cloak, wide-brimmed iron naval helmet, rope belt, heavy single-edged broad dao. Dao sheathed at the hip, both hands on the rope belt, short leather boots, in the full-body view. Blood on the dao blade, smoke smudges, helmet brim dented, cloak scorched at the hem, sweat and panic in the eyes, mid-run. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_205_ref",
+    "type": "image",
+    "group": "CHAR_205",
+    "state": "base",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 38-year-old Xianbei man, compact rider's build, broad high-cheekboned face, long pale scar from left temple to jaw, narrow steady intelligent amber-brown eyes, straight nose, short dark goatee, sides of head shaved, single thick black braid down the back. Dark brown hardened leather lamellar armor over a dark red felt tunic, fox-fur brimmed cap, bronze plaque belt, composite recurve bow. Cap with ear flaps, soft leather riding boots, bow held in the left hand, ring-pommel saber at the left hip, quiver at the right hip, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_205_survivor_ep1",
+    "type": "image",
+    "group": "CHAR_205",
+    "state": "survivor_ep1",
+    "derived_from": "CHAR_205_ref",
+    "episode_use": "1화 P5–P12",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 38-year-old Xianbei man, compact rider's build, broad high-cheekboned face, long pale scar from left temple to jaw, narrow steady intelligent amber-brown eyes, straight nose, short dark goatee, sides of head shaved, single thick black braid down the back. Dark brown hardened leather lamellar armor over a dark red felt tunic, fox-fur brimmed cap, bronze plaque belt, composite recurve bow. Cap with ear flaps, soft leather riding boots, bow held in the left hand, ring-pommel saber at the left hip, quiver at the right hip, in the full-body view. Fox-fur cap lost, braid exposed and dusty, yellow dust over armor and face, a line of dried blood from the left ear down the neck, torn tunic sleeve, steady unafraid eyes. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_205_nvg_ep3",
+    "type": "image",
+    "group": "CHAR_205",
+    "state": "nvg_ep3",
+    "derived_from": "CHAR_205_ref",
+    "episode_use": "3화–4화",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 38-year-old Xianbei man, compact rider's build, broad high-cheekboned face, long pale scar from left temple to jaw, narrow steady intelligent amber-brown eyes, straight nose, short dark goatee, sides of head shaved, single thick black braid down the back. Dark brown hardened leather lamellar armor over a dark red felt tunic, fox-fur brimmed cap, bronze plaque belt, composite recurve bow. Cap with ear flaps, soft leather riding boots, bow held in the left hand, ring-pommel saber at the left hip, quiver at the right hip, in the full-body view. A modern night-vision monocular device mounted on the front of the fox-fur cap, an empty black rifle magazine hanging from the belt, rain-darkened leather armor, mud on boots. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_205_night_hunt_ep4",
+    "type": "image",
+    "group": "CHAR_205",
+    "state": "night_hunt_ep4",
+    "derived_from": "CHAR_205_ref",
+    "episode_use": "4화 P6–P9",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 38-year-old Xianbei man, compact rider's build, broad high-cheekboned face, long pale scar from left temple to jaw, narrow steady intelligent amber-brown eyes, straight nose, short dark goatee, sides of head shaved, single thick black braid down the back. Dark brown hardened leather lamellar armor over a dark red felt tunic, fox-fur brimmed cap, bronze plaque belt, composite recurve bow. Cap with ear flaps, soft leather riding boots, bow held in the left hand, ring-pommel saber at the left hip, quiver at the right hip, in the full-body view. Night-vision monocular flipped down over the right eye, wet dark cloak over the armor, bow in hand with arrow nocked, mud on the knees, a fresh cut on the right forearm. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  },
+  {
+    "id": "CHAR_205_final_ep5",
+    "type": "image",
+    "group": "CHAR_205",
+    "state": "final_ep5",
+    "derived_from": "CHAR_205_ref",
+    "episode_use": "5화 P7–P10",
+    "priority": 1,
+    "body": {
+      "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 38-year-old Xianbei man, compact rider's build, broad high-cheekboned face, long pale scar from left temple to jaw, narrow steady intelligent amber-brown eyes, straight nose, short dark goatee, sides of head shaved, single thick black braid down the back. Dark brown hardened leather lamellar armor over a dark red felt tunic, fox-fur brimmed cap, bronze plaque belt, composite recurve bow. Cap with ear flaps, soft leather riding boots, bow held in the left hand, ring-pommel saber at the left hip, quiver at the right hip, in the full-body view. Cap lost, braid flying loose, mud to the thighs, blood on the saber and tunic, bow discarded, a cracked night-vision device hanging from a cord around the neck, rain, fierce calm face. Same face, hair and body as the base reference. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "3:4"
+    }
+  }
+]

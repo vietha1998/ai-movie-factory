@@ -28,7 +28,7 @@
     "series_foundation": "DONE",
     "titles_working": "DONE",
     "story_bible": "PENDING",
-    "character_bible": "PENDING",
+    "character_bible": "DONE (LOCKED)",
     "location_bible": "DONE",
     "vehicle_bible": "DONE",
     "prop_bible": "DONE",
@@ -67,7 +67,7 @@
       "locations": 19,
       "vehicles": 25,
       "props": 16,
-      "characters": "PENDING"
+      "characters": 59
     }
   },
   "blockers": [

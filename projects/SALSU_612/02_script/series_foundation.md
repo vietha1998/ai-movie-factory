@@ -117,6 +117,21 @@ Lịch sử rẽ (outline chọn 1): VD 우중문 bị bắt sống thay vì ch�
 - Thoại ≤ 12 어절/câu; ≤ 1 câu/clip 8 s. Tên nhân vật hiện đại gọi bằng cấp bậc ("중대장님", "박 상사").
 - Không hô khẩu hiệu chính trị hiện đại. Không nhắc Bắc Triều Tiên trực tiếp — chỉ "이 땅" (đất này).
 
+## 8b. XƯNG HÔ LIÊN PHE & BỔ SUNG ĐÃ DUYỆT (2026-09-16, từ character-designer CD-01…13)
+- Goguryeo gọi đại đội: **"천둥 군사"**; gọi 한승우: **"한 대장"**. Lính hiện đại gọi 을지문덕: **"장군님"**, 해모루: **"말객님"**, 고정수: "성주님". 을보 gọi 박기철: **"쇠쟁이"**. 아리 gọi 태오: **"오라버니"**. 영양왕 gọi đại đội: "뇌군" (雷軍) / "그 군사들".
+- 한승우 mang súng ngắn **K5** (15 viên) — có thể dùng cho beat cuối 5화.
+- 해모루 mang **1 radio PRC-999K** kẹp trên giáp từ 3화 → thoại radio Goguryeo–hiện đại 3–5화.
+- 태오 đội **mũ trụ sắt Goguryeo** ở 5화 (mũ + giáp bị lột khi bị bắt 3화, không thu hồi).
+- 백성민 **cưỡi ngựa Goguryeo** 5화 (con nhà săn núi, biết cưỡi; 1 shot 3화 làm quen ngựa).
+- **을보 + 아리 nam hạ cùng đại đội từ 3화** — nói thành lời ở 3화 ("입이 둘 더 늘었습니다").
+- 아리 quàng **khăn quân đội olive** từ 2화 (윤서아 tặng — 1 shot trao khăn).
+- 영양왕 và 한승우 **không bao giờ gặp mặt** — chỉ qua 해모루.
+- Patch đơn vị vai trái: **tia sét trắng nền đen (hư cấu)**, không phù hiệu thật.
+- 을지문덕 giả hàng 3화: **không giáp, áo lụa + 조우관, tay không**, đi cùng 해모루.
+- 탁발흠 đeo **kính đêm PVS-11K trên mũ lông** từ 3화; kính vỡ treo cổ 5화 — biểu tượng ENEMY ADAPTATION, dùng cho thumbnail 4화.
+- Prop **biển tên xe "천둥 3"** — 박기철 tháo từ K21 bỏ lại, buộc ba lô 3–5화.
+- 박기철: viết chuẩn 다나까체 (sắc thái 경상도 chỉ ở voice nếu TTS hỗ trợ).
+
 ## 9. VISUAL IDENTITY
 - Mùa: xuân Liêu Đông (cỏ vàng, gió, xám lạnh, bụi) → hè Áp Lục/Salsu (xanh, mưa dầm, bùn, sương sông). Không tuyết.
 - Palette: xám-vàng bụi (Tập 1–2) → xanh mưa (3–4) → mưa + lửa + nắng xé mây (5).

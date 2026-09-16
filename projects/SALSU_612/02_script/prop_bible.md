@@ -205,3 +205,8 @@
 3. **PROP_019**: thanh bẩy rèn từ **giáo Tùy thu được** là đề xuất của tôi (foundation chỉ nói "thanh sắt, xẻng") — thêm ý "địch cấp vật liệu cho ta". Chốt hay bỏ?
 4. **PROP_022 4화 đào lương địch ăn**: mở rộng từ §7 (drone thấy chôn lương) — hợp engine LIMITED RESOURCES nhưng là thêm sự kiện; story-director quyết.
 5. **Tù và 3 hồi = hiệu lệnh 5화** (PROP_018): tôi đề xuất để "을지문덕 chưa ra hiệu" (§7 P2) có hình-âm cụ thể; nếu outline dùng cờ/khói thay tù và → sửa.
+
+### PROP_023 — "천둥 3" 차량 명판 (biển tên xe K21 천둥 3)
+- Mô tả: miếng thép sơn xanh ô-liu 10×25 cm, số "3" sơn trắng đã trầy, 2 lỗ bu-lông, mép cháy sém — 박기철 tháo khỏi K21 bỏ lại (3화), buộc ngoài ba lô.
+- Ai cầm: CHAR_003 박기철 · Tập: 3–5화 (5화 đặt lên xác K2 ở cuối).
+- **VISUAL_LOCK_EN:** `small rectangular olive-drab painted steel vehicle nameplate with a scratched white numeral 3, two bolt holes, scorched edge, tied to a backpack strap with paracord`
