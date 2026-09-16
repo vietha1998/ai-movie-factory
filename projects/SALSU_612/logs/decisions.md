@@ -39,3 +39,9 @@
 - DUYỆT: 7 SC lều (SC_161–167) → xen 3 SC insert (tay trên bản đồ, ngoài lều lính sạc pin, 탁발흠 quan sát từ xa).
 - 0–30 s: tách SC_001 (3 s đen + 5 s tên) + 1 insert 4 s → ≥5 shot.
 - QUY TRÌNH: (a) template 04 thêm "shot ≠ clip: trong hook/trận, 1 clip 8 s được cắt 2 shot 4 s ở edit"; (b) script-writer phải có **bảng ngày/đêm** ở header (đếm ngày theo SC) để tránh lỗi timeline; (c) story_bible thêm quy tắc 시호; (d) ledger: K2 dầu 400→370 sau đêm 1화.
+
+## 2026-09-16 · sau veo-prompt-engineer 1화 (P-38…P-45)
+- **P-38** 태극기 patch = **vai PHẢI** (quy định ROK: 부대마크 왼팔, 태극기 오른팔) — CHAR lock đúng; PROP_011 + prop_bible sửa "right upper sleeve"; cờ trên xe (vehicle_bible, sườn trái) là marking xe, không liên quan.
+- **P-43** 탁발흠: theo LOCK (không áo choàng da sói); script 1화 giữ nguyên chữ, veo bỏ qua chi tiết áo choàng. Không đổi lock.
+- **P-39** PROP_004 placeholder → thay bằng lock EQP_001; derived CHAR_205_nvg_ep3 thêm "strapped over fur-lined helmet".
+- DUYỆT 8 ref mới (LOC_003_hollow_d1, LOC_003_ford_night, LOC_008_steppe_ep1, LOC_003_steppe_d1, LOC_010_wide, EXTRA_boy_scout_ref, WPN_102_ref, EXTRA_sui_vanguard_general_ref) + 30 sub-lock → veo-agent ghi 05_references/extra/ref_jobs_ep1_extra.json và world-designer nhập sub-lock vào bible sau.

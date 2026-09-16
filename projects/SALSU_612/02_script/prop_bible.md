@@ -32,7 +32,7 @@
 ### PROP_004 — 야간투시경 PVS-11K → xem EQP_001 trong vehicle_bible.md
 - **Ai cầm:** 백성민, trưởng xe, lính gác; **탁발흠 (CHAR_205) từ 4화**.
 - **Tập:** 1–2 (đêm), 3 (mất 2), 4 (kẻ thù đội), 5 (pin cạn).
-- **VISUAL_LOCK_EN:** EQP_001 + `VISUAL_LOCK_EN_ENEMY` cho 탁발흠. Không tạo ref riêng.
+- **VISUAL_LOCK_EN:** dùng nguyên văn lock EQP_001 (vehicle_bible). Khi 탁발흠 đeo: thêm "strapped over a fur-lined steppe helmet" (derived CHAR_205_nvg_ep3). Không tạo ref riêng.
 
 ### PROP_005 — 드론 조종기 (drone quadcopter + controller) → UAV_001
 - **Mô tả bổ sung:** Tay cầm điều khiển xám đen 2 cần, màn hình 7 inch gắn trên, 2 ăng-ten gập, dây đeo cổ; màn hình hiển thị hình drone (aerial của cầu phao/đại quân/hố chôn lương) — **màn hình này là "cửa sổ" narrator kể quy mô địch**; 3화 bị Tùy thu, 5화 nằm trong hộp cùng drone #4 trên đường về Lạc Dương.
@@ -79,7 +79,7 @@
 - **Mô tả:** Patch 태극기 vải thêu **~7×4 cm** trên vai trái áo digital camo ROK (Velcro), màu **đầy đủ** (đỏ-xanh-đen-trắng) — không dùng bản subdued, để khán giả 50+ nhận ngay; tương tự 태극기 nhỏ dán hông xe. Đây là **visual identifier xuyên suốt** (foundation §4). 5화: patch rách nửa trên vai lính tử trận; 한승우 gỡ patch của đồng đội bỏ túi.
 - **Ai cầm:** mọi lính; 아리 được tặng 1 patch 3화 (đeo trên ngực áo Goguryeo — contrast).
 - **Tập:** 1–5.
-- **VISUAL_LOCK_EN:** `small full-color embroidered South Korean Taegukgi flag patch, red and blue taeguk circle with four black trigrams on white, about seven by four centimeters, on the left shoulder of a digital-camouflage uniform`
+- **VISUAL_LOCK_EN:** `small full-color embroidered South Korean Taegukgi flag patch, red and blue taeguk circle with four black trigrams on white, about seven by four centimeters, on the right upper sleeve of a digital-camouflage uniform`
 - **REF_PROMPT_EN:** `Product-style reference photo of a small full-color embroidered South Korean flag patch, close three-quarter view, red and blue taeguk circle with four black trigrams on a white field, hook-and-loop backing, about seven by four centimeters, one copy clean and one copy dusty with a torn upper corner, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
 
 ---

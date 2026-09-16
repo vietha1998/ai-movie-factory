@@ -69,7 +69,7 @@ DERIVED = {
     "CHAR_004_gloves_ep1": ("CHAR_004", "CHAR_004_ref",
         "Blue nitrile gloves stained with fresh blood, a few loose strands of hair escaping the bun, fine yellow dust on helmet."),
     "CHAR_003_oil_ep1": ("CHAR_003", "CHAR_003_ref",
-        "Mechanic gloves dark with engine oil, trouser hems muddy with crushed grass, fine yellow dust on the patrol cap."),
+        "Mechanic gloves dark with engine oil, trouser hems muddy with crushed grass."),
     "CHAR_003_mud_ep1": ("CHAR_003", "CHAR_003_ref",
         "Wet grey mud on gloves, forearms and chest of the body armor, patrol cap pushed back, grease streak on one cheek."),
     "CHAR_104_dust_ep1": ("CHAR_104", "CHAR_104_ref",
@@ -242,6 +242,7 @@ def parse_script():
         if not b.startswith("### SC_"):
             continue
         head, _, body = b.partition("\n")
+        body = re.split(r"\n(?:---|## 부록)", body)[0]  # cắt phụ lục sau SC_291
         parts = head[4:].split(" · ")
         sid = parts[0].strip()
         loc_hdr = parts[1].strip(); chars_hdr = parts[2].strip(); veh_hdr = parts[3].strip()
@@ -331,6 +332,7 @@ def build_scene(s, sc):
         seg.append(WEAR[day])
     if s.get("note_prompt"):
         seg.append(s["note_prompt"].rstrip(".") + ".")
+    seg = [x if x.rstrip().endswith((".", "!", "?")) else x.rstrip() + "." for x in seg]
     seg.append(STYLE)
     image_prompt = " ".join(seg)
     # extra refs (props/loc) authored
@@ -366,6 +368,7 @@ def build_scene(s, sc):
         },
         "video_ref_candidates": [] if (not is_video or edit_only) else refs[:2],
         "edit_only": edit_only,
+        "insert_clip": s.get("insert"),
     }
     return rec
 
@@ -395,6 +398,8 @@ def md_scene(r, sc):
     L.append(f"REFS: {', '.join(r['refs']) if r['refs'] else '—'}")
     if r["ai_risk"]:
         L.append(f"AI_RISK: {r['ai_risk']}")
+    if r.get("insert_clip"):
+        L.append(f"INSERT_CLIP ({r['insert_clip']['seconds']} s, tách riêng): {r['insert_clip']['prompt']}")
     return "\n".join(L) + "\n"
 
 HEADER = """# 살수 612 — 1화 「요하」 · SCENE LIST (VEO3 / G-Labs) · v1 · 2026-09-16 · veo-prompt-engineer

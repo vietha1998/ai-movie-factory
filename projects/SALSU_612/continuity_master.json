@@ -59,14 +59,14 @@
     "PROP_001": "folded South Korean army topographic paper map with brown contour lines, pale green forest areas and a black grid, red and blue grease-pencil marks, its back side covered in charcoal sketches of a river, a fortress and a route, creased, dusty, later mud-stained",
     "PROP_002": "rugged black rubber-armored military tablet with a diagonal crack across the upper right of its ten-inch screen, screen showing an empty dark digital map with a crossed-out satellite icon, hand strap on the back",
     "PROP_003": "PRC-999K military VHF backpack radio, dark olive metal box with rotary knobs and a small LCD panel, long black whip antenna, coiled-cord handset, backpack frame",
-    "PROP_004": "VISUAL_LOCK_EN_ENEMY",
+    "PROP_004": "PVS-11K monocular night vision device, short black cylindrical tube with a round objective lens and rubber eyecup, flip-up metal helmet mount, small battery pack",
     "PROP_005": "dark grey handheld drone controller with two thumbsticks, a seven-inch screen mounted on top showing a live aerial feed, two folding antennas, neck strap",
     "PROP_006": "black rubber-armored 7x50 military binoculars with a neck strap and flip lens caps, dusty",
     "PROP_007": "dark olive 200-liter steel fuel drum with two raised ribs, twin screw caps, a small red triangle painted on the side, dents, strapped with rope, a hand pump and a green 20-liter jerrycan beside it",
     "PROP_008": "olive-green steel ammunition cans with hinged latched lids and carry handles, a wooden crate of 81mm mortar bombs in green plastic tubes, and a single one-meter 120mm tank round with a copper-brown semi-combustible case and black projectile",
     "PROP_009": "olive-green medic shoulder bag with a small red cross patch and many zipped pockets, spilling rolled bandages, an orange tourniquet, trauma shears, morphine autoinjectors and an empty white plastic antibiotic bottle, a small brown hemp pouch of dried Goguryeo herbs tied to the strap",
     "PROP_010": "South Korean army combat ration: square olive-brown plastic pouches, a flameless heating bag steaming, plastic spoon, compressed biscuit, instant coffee sachet; later a Goguryeo clay bowl of millet",
-    "PROP_011": "small full-color embroidered South Korean Taegukgi flag patch, red and blue taeguk circle with four black trigrams on white, about seven by four centimeters, on the left shoulder of a digital-camouflage uniform",
+    "PROP_011": "small full-color embroidered South Korean Taegukgi flag patch, red and blue taeguk circle with four black trigrams on white, about seven by four centimeters, on the right upper sleeve of a digital-camouflage uniform",
     "PROP_012": "Goguryeo banner: tall rectangular earthy yellow silk flag with a black three-legged crow inside a black sun circle, black tassel fringe, on a long bamboo pole topped with a tuft of feathers",
     "PROP_013": "royal edict on pale yellow silk rolled on a black lacquered wooden rod with bronze end caps, columns of black brush calligraphy, a large square red seal impression at the end, carried in a black lacquered bamboo tube with red silk cord",
     "PROP_014": "small ivory silk scroll about thirty by forty centimeters with four short columns of black brush calligraphy, no seal, tied with hemp cord around a Goguryeo arrow shaft",
@@ -82,5 +82,9 @@
   },
   "derived_states": {},
   "style_tag": "photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
-  "locked_at": "2026-09-16"
+  "locked_at": "2026-09-16",
+  "rules": {
+    "flag_patch": "태극기 patch = RIGHT upper sleeve (ROK Army regulation: 부대마크 왼팔, 태극기 오른팔). Unit lightning patch = LEFT sleeve.",
+    "vehicle_flag": "small 태극기 on hull — vehicle_bible position (left hull side) is a vehicle marking, independent of uniform."
+  }
 }
