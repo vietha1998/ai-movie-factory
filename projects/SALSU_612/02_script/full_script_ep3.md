@@ -1119,7 +1119,7 @@ N: 해모루는 정오에 먼저 고개를 넘어 남쪽 입구에 섰습니다.
 N: 해모루는 이제 돌에 속삭였습니다. 그의 보고는 정확했습니다. 정확한 보고가 틀린 결론을 굳혔습니다.
 해모루: 한 대장, 여기는 해모루. 남쪽에 척후 다섯. 쫓았소.
 
-### SC_189 · LOC_008_GOGURYEO_VILLAGE (cạnh K2, trưa) · CHAR_001, CHAR_006 · EQP_002 · video8s · 26:14–26:22
+### SC_189 · LOC_008_GOGURYEO_VILLAGE (cạnh K2, trưa) · CHAR_001, CHAR_006, 소년 척후 · EQP_002, VEH_101, PROP_015 · video8s · 26:14–26:22
 [ACTION-VI] 소년 척후 phi vào sân, ngựa sùi bọt, xoay yên cho 백성민 xem mũi tên cắm ở yên, giơ hai ngón tay chỉ về đông; 백성민 rút mũi tên, nhìn, gật với 한승우 — kỵ Tiên Ti đi theo đại quân, cột quân ở phía bắc-đông; 한승우 vừa nghe xong radio 해모루, nói hai chữ rồi ra hiệu đoàn chuẩn bị; sau lưng, lính chằng đồ lên K2.
 [SOUND] PTT, dây chằng, ngựa.
 N: 동쪽 길에 척후 둘. 안장에 박힌 화살이 증거였습니다. 백성민은 그것을 뒤따르는 대열의 척후로 읽었습니다. 북서쪽만 비어 있었습니다.
@@ -1680,77 +1680,107 @@ N: 그날 밤부터 이 부대의 임무는 싸우지 않는 것이었습니다.
 
 ---
 
-## 부록 — THỐNG KÊ & TỰ KIỂM (ngoài phần kịch bản · script-writer · 2026-09-16 · v1)
+
+## 부록 — THỐNG KÊ & TỰ KIỂM (ngoài phần kịch bản · script-writer · 2026-09-16 · v2 QC-fixed)
 
 ### A. Thống kê (script đếm tự động `logs/scratch/script-writer-ep3/stats.py`: SC theo header `### SC_`, narration = dòng `N:`, thoại = dòng `TÊN:`; 어절 tách theo khoảng trắng; combat KHỐI = SC giao chiến/hỏa lực/truy đuổi/bị tấn công + SC setup/aftermath liền kề trong cùng khối — cách đếm của ep1 v3; combat THUẦN = chỉ SC có giao chiến/hỏa lực đang diễn ra)
 | Phần | SC | video8s | still | Giây | Dòng N | Câu N | 어절 N | Câu thoại | 어절 thoại | Combat khối (s) | Combat thuần (s) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 11 | 9 | 2 | 90 | 7 | 25 | 123 | 4 | 13 | 32 | 24 |
-| 2 | 21 | 17 | 4 | 180 | 20 | 87 | 396 | 9 | 48 | 24 | 24 |
-| 3 | 18 | 15 | 3 | 150 | 18 | 74 | 321 | 11 | 57 | 16 | 8 |
-| 4 | 25 | 21 | 4 | 210 | 24 | 97 | 415 | 14 | 73 | 48 | 40 |
-| 5 | 25 | 22 | 3 | 210 | 16 | 65 | 302 | 9 | 48 | 96 | 64 |
-| 6 | 25 | 21 | 4 | 210 | 24 | 93 | 421 | 14 | 67 | 32 | 16 |
-| 7 | 25 | 22 | 3 | 210 | 24 | 117 | 486 | 14 | 71 | 24 | 24 |
-| 8 | 22 | 19 | 3 | 180 | 22 | 87 | 399 | 10 | 55 | 24 | 16 |
-| 9 | 25 | 20 | 5 | 210 | 25 | 102 | 443 | 18 | 86 | 24 | 8 |
-| 10 | 52 | 50 | 2 | 420 | 35 | 125 | 530 | 17 | 78 | 420 | 296 |
-| 11 | 21 | 15 | 6 | 180 | 20 | 84 | 357 | 10 | 40 | 0 | 0 |
-| 12 | 17 | 10 | 7 | 150 | 16 | 59 | 227 | 8 | 38 | 0 | 0 |
-| **Tổng** | **287** | **241** | **46** | **2400** (= 40:00) | **251** | **1015** | **4420** | **138** | **674** | **740 s = 30,8 %** | **520 s = 21,7 %** |
+| 1 | 11 | 9 | 2 | 90 | 7 | 23 | 114 | 5 | 18 | 32 | 24 |
+| 2 | 21 | 17 | 4 | 180 | 20 | 77 | 344 | 9 | 48 | 24 | 24 |
+| 3 | 18 | 15 | 3 | 150 | 18 | 59 | 261 | 11 | 57 | 16 | 8 |
+| 4 | 25 | 21 | 4 | 210 | 24 | 86 | 363 | 14 | 73 | 48 | 40 |
+| 5 | 25 | 22 | 3 | 210 | 16 | 54 | 261 | 9 | 48 | 96 | 64 |
+| 6 | 25 | 21 | 4 | 210 | 24 | 87 | 365 | 14 | 67 | 32 | 16 |
+| 7 | 25 | 22 | 3 | 210 | 24 | 87 | 371 | 14 | 71 | 24 | 24 |
+| 8 | 22 | 19 | 3 | 180 | 22 | 66 | 298 | 10 | 55 | 24 | 16 |
+| 9 | 25 | 20 | 5 | 210 | 25 | 84 | 365 | 18 | 89 | 24 | 8 |
+| 10 | 52 | 50 | 2 | 420 | 35 | 119 | 498 | 18 | 82 | 420 | 296 |
+| 11 | 21 | 15 | 6 | 180 | 20 | 74 | 319 | 10 | 40 | 0 | 0 |
+| 12 | 17 | 10 | 7 | 150 | 16 | 58 | 223 | 8 | 38 | 0 | 0 |
+| **Tổng** | **287** | **241** | **46** | **2400** (= 40:00) | **251** | **874** | **3782** | **140** | **686** | **740 s = 30,8 %** (QC đếm 724 s = 30,2 % khi không tính SC_198–206 setup) | **520 s = 21,7 %** |
 
-- Khối combat (9 khối): P1 SC_003–004/007/010 (PZF vào xe mình, đuốc, tên) · P2 SC_020–022 (kỵ Tùy sườn vs 30 kỵ 해모루) · P3 SC_044–045 (lính đào ngũ) · P4 SC_066–071 (kỵ sứ đuổi, K6 xuống nước) · P5 SC_083–094 (giả thua, cối 10 viên) · P6 SC_109/115–117 (chặn 2 척후 nam) · P7 SC_137–139 (hậu vệ, tên lửa lên nóc K2) · P8 SC_152–154 (cướp ruộng) · P9 SC_187–189 (cửa nam) · P10 SC_198–249 (trận đèo). Khoảng cách dài nhất giữa 2 beat action: 21:26 → 23:36 (2:10, P8 — 3 척후 dưới cung Tiên Ti).
-- Vùng im narrator: 0:00–0:32 (narrator vào 0:32 "612년 6월. 요동성 동쪽 골짜기였습니다.") · 12:02–13:02 (P5 giả thua) · 31:32–33:00 (P10 Phase 4). Sau mỗi mid-roll: 1 SC không thoại (SC_051, SC_101, SC_151, SC_198). 30 s đầu: 6 shot (SC_001 2-beat · SC_002 · SC_003 2-beat · SC_004). 2-BEAT dùng 6 lần (hook 2, P4 K6 1, P10 3).
-- Mid-roll: 7:00 · 14:00 · 21:00 · 27:30 (đúng outline; không chen climax).
-- Thoại theo người: 한승우 21 · 박기철 20 · 태오 18 · 해모루 17 · 백성민 11 · 오태민 8 · 을지문덕 8 · 탁발흠 7 · 을보 6 · 우중문 6 · 서아 4 · 아리 4 · 수 기병 사자 2 · 우문술 2 · 유사룡 1 · 박격포 사수 1 · 양제 1 · 고구려 통역 포로 1 = 138 (hiện đại 62 % / Goguryeo 27 % / Tùy 11 %).
+- v1 → v2: narration **4.421 → 3.782 어절** (−639; 1.015 → 874 câu, 0 câu >15 어절) · thoại 138 → **140** dòng (+SC_003 박기철 "두 발…", +SC_231 탁발흠 "넷.") / 686 어절, 0 dòng >12 · SC/thời gian/open loop/quotes/mid-roll giữ nguyên · 2-BEAT: 11 SC (hook 2, P1 SC_010, P4 SC_070, P7 SC_139, P9 SC_178, P10 ×3 + ghi chú veo-stage ~12 clip).
+- Khối combat (9 khối): P1 SC_003–004/007/010 · P2 SC_020–022 · P3 SC_044–045 · P4 SC_066–071 · P5 SC_083–094 · P6 SC_107/115–117 · P7 SC_137–139 · P8 SC_152–154 · P9 SC_178 (소년 척후 bị bắn — mới) + SC_187–189 · P10 SC_198–249. Khoảng cách dài nhất không có phát súng/mũi tên: **21:26 → 24:44 = 3:18** (v1: 4:32).
+- Vùng im narrator: 0:00–0:32 · 12:02–13:02 · 31:32–33:00. Sau mỗi mid-roll 1 SC không thoại (SC_051, 101, 151, 198). 30 s đầu 6 shot.
+- Thoại theo người: 박기철 21 · 한승우 21 · 태오 18 · 해모루 17 · 백성민 11 · 오태민 8 · 을지문덕 8 · 탁발흠 8 · 을보 6 · 우중문 6 · 서아 4 · 아리 4 · 수 기병 사자 2 · 우문술 2 · 유사룡 1 · 박격포 사수 1 · 양제 1 · 고구려 통역 포로 1 = 140.
 
-### B. Tự kiểm 7 mục
-1. **ID trong bible:** CHAR_001–006, 101, 105, 106, 107, 201, 202, 203, 205 ✓ · LOC_001/003/004/005/007/008/009 ✓ · VEH_001/002/003/004/101/206 ✓ · UAV_001, EQP_001/002 ✓ · WPN_001/002/003/004/005/101/201 ✓ · PROP_001/006/007/009/011/012/013/014/015/016/017/018/019/020/021/022/023 ✓. Nhân vật phụ không ID: 소년 척후, 유사룡 [史], 수 전령, 수 기병 사자, 수 총관 사자, 수 낙오병, 수 척후, 고구려 전령, 고구려 통역 포로, PZF 사수, 박격포 사수, K3 사수 (KIA), 조종수/포수, 무전병, 선비 부장, dân làng.
-2. **Thời gian khớp outline:** 12/12 phần đúng mốc phút (0 lệch); tổng 40:00; không đứt quãng (script kiểm tra t1 = t2 trước); mọi video8s = 8 s, still 8–12 s. Bảng ngày/đêm D1–D17 ở header — mọi "이튿날/사흘째/이틀 뒤/닷새/사흘 만에" rà theo bảng.
-3. **5 direct quotes nguyên văn:** (1) SC_025 "저건 참호가 아닙니다. 밥을 묻고 있습니다." · (2) SC_036 "드론 한 번 충전이 전차 600미터입니다." · (3) SC_074 "저들은 굶고 있소. 굶는 군대는 이기게 두면 되오." · (4) SC_081 "지되, 죽지는 마시오. 지는 것도 병법이오." · (5) SC_276 "숨으시오. 30만이 지나가게 두시오." ✓ · thêm: 양제 SC_132 "천둥을 산 채로 잡아라." · 태오 SC_234 "본부, 본부… 잡혔—" · 탁발흠 SC_259 "밤이… 낮이 되었다." · SC_129 "쇠수레는 산을 못 넘소. 길로 가오." · SC_130 "새는 수레에 앉아 밥을 먹고…" · SC_150 "쇠수레가 멈췄다. 물을 마시고 있다." · 박기철 SC_034 "산길로 400km, 딱." · SC_157 "이 전차가 없으면 우리는 그냥 소총 아흔 자루입니다." · SC_038 "입이 둘 더 늘었습니다." · 을지문덕 SC_103/106/108 · 한승우 SC_123 "몰라. 그래서 살아 있어야 해." · 오태민 SC_252/278 · 백성민 SC_218 "목표는 태오다!" · 한승우/태오 SC_190–191 "너무 높다." / "신호는 높아야 잡힙니다." · 박기철 SC_280 "물이 오르고 있습니다." ✓. 12 open loop cuối phần đúng câu outline: SC_011 · 032 · 050 · 075 · 100 · 125 · 150 · 172 · 197 · 249 · 270 · 276 (+ N kết SC_286).
-4. **0–30 s không narration:** ✓ (SC_001–004 chỉ SFX + 1 câu đếm của 박기철).
-5. **≤12 어절/câu thoại:** 0 vi phạm (138 dòng, dài nhất 11 어절 — SC_077 우중문 [史]). Narration ≤15 어절/câu: 0 vi phạm (1015 câu). Không dùng "그러나 그들은 몰랐습니다". Thì quá khứ thống nhất, trừ câu mở địa danh ("612년 6월." / "닷새 뒤. 압록수." / "이틀 뒤. 살수.").
-6. **Ràng buộc nội dung:** xe 7→1 (SC_010 N) · 천둥 3 nguyên vẹn, biển tên tháo (SC_004, 011) · PZF 12→10 (SC_003/006) →9 (SC_236) · 40mm 160 nổ trong 천둥 2 (SC_004), 60 trong 천둥 3 (SC_098/127) · K2 12→8 (SC_227 "열두 발", bộ đếm SC_228→230 "08") · dầu "400km 딱" (SC_034), "600미터" (SC_036), "삼 킬로" (SC_148) · drone 2→1 (SC_035) →0 (SC_238; SC_255 "드론, 없습니다") · kính đêm 12→10 (SC_244/255/257) · cối 60→50 (SC_082/094) · K6 −60 (SC_070) · 94→93 + 1 bị bắt (SC_249) · 을보+아리 nam hạ, "입이 둘" (SC_038) · 해모루 nhận radio (SC_111–112; dùng SC_137/147/187/205/239/274) · 을지문덕 giả hàng không giáp, áo lụa + 조우관, tay không, 해모루 đi cùng, đại đội yểm hộ drone cuối, K2 không bắn (SC_052–074) · P-11: 을지문덕 viết (필담), 해모루 dịch thầm (SC_060–061); 탁발흠 ↔ 태오 qua 고구려 통역 포로 (SC_260) · 우중문/우문술 [史] (SC_076–078, 265–267) · 양제 "산 채로" (SC_132) · 탁발흠 đeo kính đêm lên mũ lông (SC_257–259) · 태극기 của 태오 (SC_191 khâu → SC_262 giật) · 백성민 làm quen ngựa (SC_047) · 1 KIA không tên, chôn kiểu Goguryeo (SC_233, 250–251) · kết "숨으시오" (SC_276) · không nhắc Bắc Triều Tiên (chỉ "이 땅" ×7) · không khẩu hiệu · 시호: 0 lần trong thoại người đương thời (nhãn "수 양제:" là tên vai như ep1).
-7. **Anti-copy:** trình tự tập = PZF vào xe mình → hai cột song song/chôn lương → "600미터"/đổi ngựa → 필담 trong trại địch, K6 xuống nước → giả thua có chủ đích, xe mình bị bò kéo → lệnh một tên sông → địch đoán đường từ vật lý xe, K2 rò nước → "소총 아흔 자루" → bàn cát nhìn nam, địch nhìn từ vách → K2 bắn 4 viên vào đá, địch nhắm mắt không nhắm xe → chôn trên đèo, kính đêm đổi phe → "để 30 vạn đi qua". Không "tướng giải thích rồi giao súng", không xe tăng cứu tinh, không tableau đôi trên tường + lều địch + card.
-
-### C. Benchmark 18 chỉ số (tự chấm theo docs/benchmark_vs_reference.md — QC reviewer chấm lại)
-| # | Chỉ số | Mục tiêu | 3화 | Chấm |
+### A2. Ngân sách đọc TTS (SCRIPT_BRIEF "Ngân sách đọc TTS" — `logs/scratch/script-writer-ep3/density.py`)
+| Phần | 어절 (N+thoại) | Phút | 어절/phút | v1 |
 |---|---|---|---|---|
-| 1 | Giây đầu có nguy hiểm/câu hỏi | ≤ 0:10 | **0:03** (rút dầu dưới ánh lửa, 0:16 xe mình cháy, 0:20 PZF vào xe mình) | ✅ |
-| 2 | Shot trong 30 s đầu | ≥ 5 | **6** (2 SC 2-beat) | ✅ (gốc 13) |
+| 1 | 132 | 1,5 | 88 | 91 |
+| 2 | 392 | 3,0 | 131 | 148 |
+| 3 | 318 | 2,5 | 127 | 151 |
+| 4 | 436 | 3,5 | 125 | 139 |
+| 5 | 309 | 3,5 | 88 | 100 |
+| 6 | 432 | 3,5 | 123 | 139 |
+| 7 | 442 | 3,5 | 126 | 159 |
+| 8 | 353 | 3,0 | 118 | 151 |
+| 9 | 454 | 3,5 | 130 | 151 |
+| 10 | 580 | 7,0 | 83 | 87 |
+| 11 | 359 | 3,0 | 120 | 132 |
+| 12 | 261 | 2,5 | 104 | 106 |
+| **Toàn tập** | **4.468** | **40** | **111,7** ✓ (≤115) | 127 |
+
+- **Bảng SC vượt ngưỡng (video8s >22 어절 N+thoại · still >45): 0 / 287** (v1: 77 SC, đỉnh SC_162 36 어절). SC nặng nhất v2: video 22 어절 (SC_014/056/077/078/128… đúng trần), still 32 (SC_079).
+- P2/P9 còn ~130 어절/phút (trên 115 theo phần, dưới trần toàn tập) — editor có thể để narration P2 SC_012/013 (still) tràn nhẹ.
+
+### B. Tự kiểm 7 mục (v2)
+1. **ID trong bible:** CHAR_001–006, 101, 105, 106, 107, 201, 202, 203, 205 ✓ · LOC_001/003/004/005/007/008/009 ✓ · VEH_001/002/003/004/101/206 ✓ · UAV_001, EQP_001/002 ✓ · WPN_001/002/003/004/005/101/201 ✓ · PROP_001/006/007/009/011/012/013/014/015/016/017/018/019/020/021/022/023 ✓ (+ quân cờ gỗ đen trên bản đồ SC_103/113 — prop mới, xem proposals). Nhân vật phụ không ID: 소년 척후, 유사룡 [史], 수 전령, 수 기병 사자, 수 총관 사자, 수 낙오병, 수 척후, 고구려 전령, 고구려 통역 포로, PZF 사수, 박격포 사수, K3 사수 (KIA), 조종수/포수, 무전병, 선비 부장, dân làng.
+2. **Thời gian khớp outline:** 12/12 phần đúng mốc phút; tổng 40:00; 0 khoảng trống; video8s = 8 s, still 8–12 s. Bảng ngày/đêm D1–D17 ở header — v2 rà lại mọi mốc tương đối: SC_005 "석 달", SC_107 "말을 바꿔 탄 날부터", SC_116 "산길에서", SC_118 "이튿날", SC_170 3 척후 xuống đường về (đi từ sáng D12), SC_192 "하루", SC_262 "어제", SC_099/256/268 bỏ "7 trận/ngày" (để 4화), SC_275 "세 번 더".
+3. **5 direct quotes nguyên văn:** (1) SC_025 · (2) SC_036 · (3) SC_074 · (4) SC_081 · (5) SC_276 ✓ · thêm: 양제 SC_132 · 태오 SC_234 "본부, 본부… 잡혔—" (giữ theo outline) · 탁발흠 SC_259/129/130/150/171/224/263 + SC_231 "넷." · 박기철 SC_034/157/038/183 "그 사이 전차는 줄에 묶입니다" · 을지문덕 SC_103/106/109 · 한승우 SC_123 · 오태민 SC_252/278 · 백성민 SC_218 · SC_190–191 · SC_280. 12 open loop cuối phần đúng câu outline: SC_011 · 032 · 050 · 075 · 100 · 125 · 150 · 172 · 197 · 249 · 270 · 276 (+ N kết SC_286).
+4. **0–30 s không narration:** ✓ (SC_001–004: SFX + 박기철 "…백팔십. 백구십." + "두 발…"; narrator 0:32).
+5. **≤12 어절/câu thoại:** 0 vi phạm (140 dòng; SC_007 11 어절 sau khi thêm danh gọi radio). Narration ≤15 어절/câu: 0 vi phạm (874 câu). Thì quá khứ thống nhất; SC_121 "살릴 것이었습니다", SC_251 "적지 않습니다".
+6. **Ràng buộc nội dung (không đổi so v1):** xe 7→1 · 천둥 3 nguyên vẹn, biển tên tháo · PZF 12→10→9 · 40mm 160/60 · K2 12→8 · "400km 딱" (D3; ledger gom ≈430 → proposals) · "600미터" · "삼 킬로" · drone 2→1→0 (v2: bay 10/14 phút, RTH 4 phút → bị nhặt) · kính 12→10 · cối 60→50 · K6 −60 · 94→93 + 1 bị bắt · "입이 둘" · radio 해모루 (십 킬로) · 을지문덕 giả hàng/필담/không ngoảnh lại · 우중문 NHẬN RA 뇌군 (SC_070/078 — v2) · P-11 · 양제 "산 채로" · 탁발흠 kính đêm + "밤눈도 밥을 먹는다" (N, v2) · 태극기 patch · 1 KIA không tên · kết "숨으시오" · không Bắc Triều Tiên · 0 시호 trong thoại · APU: tắt máy để giấu nhiệt/tiếng, tháp "bị cột vào dây" (v2) · phuy = 0 trước đèo (SC_174 v2).
+7. **Anti-copy:** không đổi (mục v1); thêm: địch thả척후 để nuôi tin sai, tổng chỉ huy Tùy vượt sông vì mục tiêu có tên.
+
+### C. Benchmark 18 chỉ số (tự chấm v2 — QC reviewer chấm lại)
+| # | Chỉ số | Mục tiêu | 3화 v2 | Chấm |
+|---|---|---|---|---|
+| 1 | Giây đầu có nguy hiểm/câu hỏi | ≤ 0:10 | **0:03** (rút dầu dưới ánh lửa; 0:16 xe mình cháy; 0:20 PZF vào xe mình + 박기철 "두 발…") | ✅ |
+| 2 | Shot trong 30 s đầu | ≥ 5 | **6** | ✅ (gốc 13) |
 | 3 | Narrator trong 30 s đầu | 0 | **0** — vào 0:32 | ✅ |
-| 4 | Giao tranh đầu | ≤ 7:00 | Hỏa lực: **0:20** (PZF, SC_003) · đại đội bắn về phía địch: **1:14** (SC_010) · kỵ chạm kỵ: **2:50** (SC_021) · địch chạm đại đội: **9:38** (K6, SC_070) | ✅ (ep1: 12:14) |
-| 5 | Combat/runtime | ≥ 35 % (S40 ≥ 30 %) | **30,8 %** khối (740 s, 9 khối) · 21,7 % thuần | ⚠️ đạt S40 ≥30 %, dưới mục tiêu 35 % và kênh gốc 45 % — P6/P11/P12 là chính trị/hậu quả theo outline |
-| 6 | Khoảng cách tối đa 2 beat retention | ≤ 4′ | action: **2:14** (23:44→25:58) · mọi beat (số/quyết định/địch/reveal): ≤ 1:30 | ✅ |
-| 7 | Con số tài nguyên nói thành lời | ≥ 6 | **≥ 24** câu thoại có số (백팔십/백구십 · 400km 딱 · 600미터 · 한 통 · 입이 둘 · 닷새 · 육십 킬로 · 삼십 분 · 네 발 · 오십/이백 미터 · 십사 분 · 열 발 ×2 · 삼백 기 · 이틀 · 삼 킬로 · 드론 하나/충전 한 번/40% · 두 시간 · 십 분 · 마흔 분 ×3 · 야시경 열둘 · 이 분 · 열 개 · 셋 · 다섯 · 사흘) + ~20 câu N có số | ✅ |
-| 8 | Enemy POV | ≥ 5 cảnh, địch có tên & học | **~62 SC** / 14 cảnh (P1 đuốc · P2 chôn lương ×2 · P4 trại 우중문 · P5 우문술/우중문, bờ tây K21 · P7 탁발흠 K21, bản đồ bùn, bịt tai, 육합성, gờ núi · P8 tai ngựa, thả척후 · P9 insert vách · P10 ×8 · P11 trại Tiên Ti, lều 우중문 ×2). 탁발흠 học/áp dụng **7**: đoán đường từ vật lý xe · đánh lúc xe sạc · bịt tai ngựa · nhánh trên đường dê · thả척후 để nuôi tin sai · nhắm mắt/người điều khiển thay vì xe · giữ kính đêm, gửi xe. Nói thành lời: SC_129/130/150/171/224/263 | ✅ |
-| 9 | Nhân vật lịch sử ra quyết định | ≥ 3 | Sử thật: 을지문덕 **5** (giả hàng · không ngoảnh lại · "지되 죽지 마시오" · Salsu không giải thích · "숨으시오") · 우중문 2 (đuổi/tiến) · 우문술 1 (nhượng) · 유사룡 1 (can) · 양제 1 (산 채로) = **10 / 5 người thật**; hư cấu: 해모루 3 (đổi ngựa · bỏ nam phá cửa đông · thả radio), 탁발흠 7 | ✅ |
-| 10 | Số câu thoại | 120–160 | **138** | ✅ |
+| 4 | Giao tranh đầu | ≤ 7:00 | Hỏa lực **0:20** · đại đội bắn về địch **1:14** · kỵ chạm kỵ **2:50** · địch chạm đại đội **9:38** | ✅ |
+| 5 | Combat/runtime | ≥ 35 % (S40 ≥ 30 %) | **30,8 %** khối (740 s; QC: 724 s = 30,2 %) · **21,7 %** thuần (520 s) | ⚠️ đạt S40, dưới 35 %/gốc 45 % |
+| 6 | Khoảng cách tối đa 2 beat | ≤ 4′ | không phát súng/mũi tên: **3:18** (21:26 → 24:44, v1 4:32) · mọi beat: ≤ 1:00 | ✅ |
+| 7 | Con số tài nguyên nói thành lời | ≥ 6 | **≥ 26** câu thoại có số (+"두 발", "열네 분 중 십 분" N, "줄 뽑는 데 이 분") | ✅ |
+| 8 | Enemy POV | ≥ 5 cảnh | ~62 SC / 14 cảnh; 탁발흠 học **8** (v2 +"đếm sấm 넷"); 우중문 nhận ra 뇌군 (v2) | ✅ |
+| 9 | Nhân vật lịch sử ra quyết định | ≥ 3 | Sử thật 5 người / **11** quyết định (v2: 우중문 vượt sông vì "천둥" có tên) | ✅ |
+| 10 | Số câu thoại | 120–160 | **140** | ✅ |
 | 11 | Thoại > 12 어절 | 0 | **0** | ✅ |
-| 12 | Quote đắt | ≥ 5 | **≥ 14** (mục B.3) | ✅ |
-| 13 | Shot trung bình | 8–10 s | **8,36 s** (2400/287) · P10 **8,08 s** (+3 SC 2-beat → ~7,6 s hiệu dụng) | ✅ khung · ❌ gốc 4 s trong trận → veo-stage cắt đôi thêm ~12 clip P10 |
-| 14 | Kết mở | có + hạt series | 12/12 open loop · kết tập = lệnh "không làm gì" + nước lên + 태오 bên kia · hạt series 2: K21 + drone về tây (SC_264) | ✅ |
-| 15 | Mid-roll sau open loop nhỏ | 4 | 7:00 / 14:00 / 21:00 / 27:30, sau mỗi điểm 1 SC không thoại | ✅ |
-| 16 | Yếu tố riêng | hậu cần · bỏ xe · để địch đi qua · địch có tên | Bỏ xe ✓ (P1) · hậu cần nói thành lời 8 lần (박기철), "전차가 노새" ✓ · địch có tên học 7 lần ✓ · **"để 30 vạn đi qua" ✓ (P12)** · tổ tiên chôn hậu duệ ✓ · 필담 ✓ · công nghệ đổi phe (kính đêm trên mũ lông) ✓ | ✅ 6/6 |
-| 17 | Lỗi lịch sử cứng | 0 | **0** (9 quân/3 tên đạo đúng · 100일/3석 · lệnh chém · 詐降 · mật lệnh bắt · 유사룡 · "더 할 말" · không ngoảnh lại · 우문술/우중문 câu mắng · 7 trận). Hư cấu ghi rõ [虛]: 석문령, sơn thành, làng, K21 bị thu, nội dung 필담. Mềm: 우중문 "평양은 사흘 거리요" (câu mẫu bible — khoác lác của nhân vật) | ✅ |
-| 18 | Trình tự giống kênh gốc | KHÔNG | Không (mục B.7); kết = lệnh ẩn, không trận thắng | ✅ |
+| 12 | Quote đắt | ≥ 5 | ≥ 15 (+"그 사이 전차는 줄에 묶입니다") | ✅ |
+| 13 | Shot trung bình | 8–10 s | 8,36 s · P10 8,08 s → với 2-BEAT đã ghi (11 SC) + ~12 clip veo-stage → ~6 s trong trận | ✅ khung · ❌ gốc 4 s |
+| 14 | Kết mở | có | 12/12 + hạt series 2 + "밤눈도 밥을 먹는다" (open loop ngầm 4–5화) | ✅ |
+| 15 | Mid-roll | 4 | 7/14/21/27:30 | ✅ |
+| 16 | Yếu tố riêng | 4 | 6/6 (+ địch nuôi red herring, 필담) | ✅ |
+| 17 | Lỗi lịch sử cứng | 0 | **0**; sử mềm v2: bỏ "ném lương xuống sông"→"chôn" [史], bỏ "7 trận/ngày" (4화), "두 총사령" | ✅ |
+| 18 | Trình tự giống kênh gốc | KHÔNG | Không | ✅ |
+| — | **Mật độ đọc (mới)** | ≤115 어절/phút · SC vượt ngưỡng = 0 | **111,7** · **0** | ✅ |
 
-**Kết luận tự chấm:** thua kênh gốc ở #5 (30,8 % vs 45 %) và #13 (8 s vs 4 s trong trận); ngang/hơn ở 16/18. Đề xuất nâng #5 nếu user muốn: đổi 2 SC thoại P6 (SC_113–114) thành mini-combat kỵ Goguryeo hạ 척후 thứ 3 → +16 s (31,5 %), hoặc giữ nguyên vì P6 theo outline là POLITICS.
+### D. Nhật ký diễn giải ngoài outline (v1 — giữ, cập nhật theo v2 ở mục E)
+1. PZF 12→10 (P1: 2 quả phá 천둥 2) → 9 (P10: 1 quả) — brief user; outline P10 ×3 → P-38.
+2. Tiêu đề P1 "4호" → "3호".
+3. 천둥 3 không qua 압록 (bờ bắc, 200 kỵ, bò 80리/ngày — v2 đổi từ 70리 để 300 km/9 ngày khớp); P11 gửi về tây từ bờ bắc.
+4. 5 ngày ngựa: K6/cối/đạn buộc lên đuôi K2 ("전차가 노새"), 을보/아리 ngồi trên buồng động cơ.
+5. Trận giả thua P5 ở bờ nam ngay sau khi tiền quân lên bờ; 1 kỵ Goguryeo chết, 3 bị thương; v2: tiền quân qua sông 1 ngày, 9 quân 3 ngày.
+6. P-11 trong trại Tùy: 필담; 해모루 dịch thầm; 탁발흠 ↔ 태오 qua 고구려 통역 포로.
+7. Mini-combat thêm P2/P3/P6/P7/P8/P9 (+ v2: SC_178 소년 척후 bị 2 척후 Tiên Ti bắn); bỏ 서아 học thảo dược với phụ nữ làng, 2 척후 Tiên Ti nhìn bàn cát (v1) → thay bằng 소년 척후.
+8. Red herring do địch nuôi: 탁발흠 thả 3 척후 해모루 (v2: trên đường về, đi từ sáng D12) + 소년 척후 mang tên Tiên Ti về → 백성민 đọc là 척후 của cột Tùy phía sau.
+9. Mỏm đá: 2 súng trường không kính; Tiên Ti lên bằng dây từ đỉnh vách; drone bay 10/14 phút, tự quay về bằng 4 phút để dành (lời 박기철) → bị nhặt (v2).
+10. Kính đêm trên đèo: 5 dùng + 7 sạc → 5 đầy, 2 còn 40 %.
+11. 해모루 tách về với 을지문덕 (D15) rồi phi 2 đêm tới 살수; quote 5 qua still + VO.
+12. 양제 1 SC (SC_132) — P-47 (QC ủng hộ giữ).
+13. Timeline D1–D17 (bảng header chuẩn).
+14. Chi tiết nối tập: thư cho vua (SC_114), 3 mũi khâu 태극기 → giật, mũ trống 태오, K3 của KIA, "이 쇠가 땀을 흘리네", 오태민 bị cấm 4 lần; v2: quân cờ đen trên bản đồ (SC_103/113), phuy rỗng ở lò rèn (SC_173), khăn 아리 cháy sém.
+15. Số km: 요동→압록 300 (5 ngày × 60), 압록→살수 ~100; đại đội bộ 30리/ngày = nửa đại quân (~70리) (v2).
+16. Ledger đề xuất: K6 900 · K3 −1.000 · 40mm 160/60 · kỵ Goguryeo −1 · phuy 0 (SC_174 "드럼은 비웠습니다") · dầu gom ≈430 ở 2화 (v2, P-52).
 
-### D. Nhật ký diễn giải ngoài outline (script-writer quyết — user/story-director đảo được)
-1. **PZF 12→9 = 2 quả phá 천둥 2 (P1) + 1 quả cụm đuốc (P10)** theo brief user ("2 quả phá xe mình"); outline P10 ghi "PZF ×3" và ledger ghi "đốt xe bằng dầu + lựu đạn, không tốn PZF". Tổng cuối tập vẫn 9. → proposals P-38.
-2. **Tiêu đề P1 "불타지 않은 4호" → "3호"** (천둥 4 đã cháy 2화; open loop outline là "천둥 3호").
-3. **천둥 3 KHÔNG qua 압록수**: ở lại bờ tây với 200 kỵ, bò 70리/ngày (để tới 압록 trong 10 ngày); P7 백성민 chỉ thấy cột Tùy 2 ngày phía sau (outline: "천둥 3 và cột Tùy"); P11 gửi về tây từ bờ tây.
-4. **5 ngày trên ngựa**: K6/cối/đạn buộc lên đuôi K2 ("전차가 노새가 됐습니다"), 을보/아리 ngồi trên buồng động cơ — xe bò không theo kịp 60 km/ngày.
-5. **Trận giả thua P5** diễn ra ở bờ nam ngay sau khi tiền quân Tùy lên bờ (không phải giữa sông); 1 kỵ Goguryeo chết, 3 bị thương — "값" của việc thua.
-6. **P-11 trong trại Tùy**: 을지문덕 không nói — viết (필담), 해모루 dịch thầm; nội dung lụa do narrator kể ("왕은 성에 계시다. 신이 대신 왔다.") — hư cấu.
-7. **Mini-combat thêm** (outline chỉ có P4/P5/P10): P2 kỵ Tùy sườn vs 30 kỵ 해모루 · P3 lính Tùy đào ngũ lạc vào trại (mang thông tin "chôn lương") · P6 백성민 chặn 2 척후 nam (nuôi red herring) · P7 hậu vệ 해모루 + tên lửa lên nóc K2 (아리 dập bằng khăn olive — khăn cháy sém, prop) · P8 kỵ Tùy cướp ruộng ("굶은 겁니다") · P9 해모루 đuổi 5 척후 cửa nam. Bỏ: cảnh 서아 học thảo dược với phụ nữ làng (P7) và 소년 척후 về báo (P9).
-8. **Red herring do địch nuôi**: 탁발흠 thả 3 척후 của 해모루 trên đường dê để họ về báo "không có ai" (SC_170–171) + insert 2 척후 Tiên Ti nhìn xuống bàn cát (SC_178). Outline chỉ có "phân ngựa hiểu sai".
-9. **Mỏm đá**: 2 người đi cùng 태오 là súng trường không kính (outline "2 lính kính đêm") để 2 kính mất = của 태오 + xạ thủ K3 (SC_257 nói rõ). Tiên Ti lên mỏm bằng dây từ đỉnh vách (nhánh trên đường dê) + leo từ chân; drone tự hạ (return-to-home) về mỏm → bị nhặt (SC_238).
-10. **Kính đêm trên đèo**: 3 dùng (백성민 + 2 đi đầu) + 2 trên mỏm, 7 sạc; sau 2 phút sạc dở: 5 đầy, 2 còn 40 % (SC_226) — nối 4화 "30 %".
-11. **해모루 tách về với 을지문덕 sau đèo (D15)** rồi phi 2 đêm tới 살수 (D17) với thẻ tre; quote "숨으시오" do 을지문덕 nói qua still + voice-over (SC_276) vì ông không có mặt ở 살수 — tránh 해모루 "đọc hộ" quote 5.
-12. **양제 xuất hiện 1 SC (SC_132, 육합성, cầm xác drone #1)** — foundation §4 ghi 양제 tập 1–2/5 nhưng character_bible 3화 có trạng thái "xem drone/kính đêm bị bắt" → dùng cho lệnh "산 채로" thay vì lệnh chuyển tiếp qua narrator.
-13. **Timeline**: P6 (lều 을지문덕) = đêm D11 (sơn thành cách 압록 1 ngày, không thể cùng đêm D10) → P7–P12 lệch +1 ngày; bảng ngày/đêm ở header là chuẩn (D17 tới 살수; "사흘 뒤" 30만 tới = D20 → 4화 P1).
-14. **Thêm chi tiết nối tập**: 을지문덕 viết thư cho vua (SC_114) · 서아 khâu 3 mũi patch 태극기 của 태오 (SC_191) → 탁발흠 giật (SC_262) · 한승우 giữ mũ trống của 태오 (SC_245/248/285) · 오태민 mang K3 người chết (SC_246/252/278) · 을보 "이 쇠가 땀을 흘리네" (SC_118) báo trước rò nước · 오태민 bị cấm 4 lần (P2/P5/P6/P12).
-15. **Số km**: 요동 골짜기 → 압록 300 km (5 ngày × 60), 압록 → 살수 ~100 km (2 ngày sau đèo) ≈ 400 km; xe bò/bộ 30리 (12 km)/ngày trước khi đổi ngựa.
-16. **Ledger đề xuất sửa** (world-designer): K6 cuối 3화 = 900 ✓ (−60 P4, −40 gác) · K3 −1.000 (P10) ✓ · 40mm: 160 nổ trong 천둥 2 + ~60 trong 천둥 3 ✓ · kỵ Goguryeo: −1 chết P5 (không trong ledger) · khăn olive 아리 cháy sém (prop) · mũ 태오 (không kính) do 한승우 giữ (prop mới) · K3 của KIA do 오태민 mang (prop) · 을보 miếng đồng vá K2 (vehicle_bible damage state 3화).
+### E. Nhật ký v2 (QC-fixed) — áp dụng logs/qc_ep3_script.md theo decisions.md "sau QC 3화 → v2"
+- **BLOCK SC_130:** bài học 탁발흠 dời về thung lũng 요동성 (2화, 12 ngày rình) — N "요동성 골짜기 위에서 열이틀을 본 것이었습니다. 쇠새는 수레 등에서 밥을 먹었습니다." + [ACTION] nhìn về tây; SC_143 N "탁발흠이 요동성 골짜기에서 본 것"; tóm tắt P7 + bảng ngày D10.
+- **FIX★ SC_070/078:** kỵ Tùy báo "천둥" → 우중문 nhận ra 뇌군 ở bờ nam ("황제가 찾는 천둥이 강 건너에 있었습니다") = động cơ vượt sông thứ hai; SC_079 nhận câu "첫걸음"; header P-11 + tóm tắt P4 đổi; outline P4 "Enemy adaptation" → proposals P-53.
+- **FIX★ SC_015/034/042:** đại quân "그 두 배" (~70리/ngày), đại đội 30리; "산길로 400km, 딱" giữ tại D3, SC_042 N "골짜기에서 여기까지 삼십 킬로를 사흘에 왔습니다" (bỏ "사백 중 삼십") → ledger gom ≈430 (P-52).
+- **Cắt narration −639 어절** (4.421 → 3.782; N+thoại 5.095 → 4.468 = 111,7/phút): quy tắc video8s ≤22 (N+thoại), still ≤45; 118 SC được viết lại N; ưu tiên P7 (−115), P8 (−96), P9 (−88), P3 (−60), P2 (−52), P4 (−52), P6 (−54), P5 (−36), P11 (−38), P10 (−28); không đổi thoại trừ 7 dòng FIX. Bảng vượt ngưỡng = 0.
+- **20 FIX:** SC_005 "석 달" · SC_022 해모루 gật (bỏ cười) + SC_046 bỏ "처음으로" · SC_039 을보/장갑차 · SC_054 chôn bên bờ [史] (+[ACTION] drone thấy hố chôn) · SC_099/268/275 bỏ "하루 일곱 번" (SC_256 "지는 싸움") · 5 mốc thời gian (SC_107 "말을 바꿔 탄 날부터", SC_116 "산길에서", SC_118 "이튿날", SC_192 "하루", SC_262 "어제") · SC_170 3 척후 đi xuống trên đường về + N mới, SC_171 nhận "죽은 척후…" · SC_111 "부르십시오" · SC_066 "보내라… 하라" · 십 리 → 십 킬로 (SC_112/256/274) · SC_162 "한승우가 허락한 충전은 한 번" + 태오 "허락된 충전 한 번" · APU: SC_182/183/199/215 — tắt máy để giấu nhiệt/tiếng, "포탑은 줄에 묶입니다", 박기철 "그 사이 전차는 줄에 묶입니다" / "줄 뽑는 데 이 분!" · SC_139 + SC_010 → 2-BEAT · lều: SC_103 quân cờ đen ở 살수, SC_108 (오태민) walk-in ấn ngón tay lên cột Tùy, SC_109→107 (백성민 ra cổng) dời vào giữa SC_106/108, SC_113 quân cờ thứ hai · SC_262 "빈 탄창을 허리에" · SC_007 "지휘, 여기는 수색. …" (11 어절).
+- **NOTE ≤1 dòng:** SC_079 "선봉 하루, 아홉 군 사흘" · phuy: SC_173 phuy rỗng cạnh lò + dây da tẩm nhựa thông, SC_174 "드럼은 비웠습니다", SC_193 hộp đạn thay can dầu · SC_017 "삼 년 전" · SC_057 2–3 mặt nét · SC_059 "두 총사령 중 하나" · SC_015 2 lính bỏng đi giữa hàng · SC_128 "농부에게 미리 물어" · SC_097 "부대를 쫓지 않았습니다… 팔십 리" (+SC_101/264 팔십 리) · SC_142 ống đồng + dây da (bỏ 쇠못) · SC_149 "서 있는 쇠수레와 꺼지지 않는 대장간 연기" · SC_121 "살릴 것이었습니다" · SC_251 "적지 않습니다" · SC_003 박기철 "두 발…" (off) · SC_124 ghi chú 2 still · "bờ tây" → "bờ bắc" toàn tập · SC_112 bỏ "xoay" · P10 ghi chú veo-stage 2-BEAT 12 clip · SC_234 "본부" giữ (outline) · SC_132 양제 giữ.
+- **Hay-hơn DUYỆT:** #1 SC_178 → 소년 척후 chạm 2 척후 Tiên Ti trên đường đông (2-BEAT), SC_168 "새벽마다", SC_189 cậu về với mũi tên cắm yên → 백성민 đọc là 척후 cột Tùy (red herring mạnh hơn); lấp lỗ 4:32 → 3:18. #2 drone 14 → bay 10, để dành 4 (SC_143 sạc kính đêm thay drone, SC_180 màn hình 14, SC_202 "열네 분 중 십 분", SC_200 bỏ pin drone, SC_238 RTH bằng 4 phút để dành → bị nhặt). #3 SC_231 탁발흠 giơ 4 ngón "넷." (đếm sấm → 4화/5화) + SC_257 N "밤눈도 밥을 먹는다는 것을, 그는 아직 몰랐습니다."
+- **Không làm (không được duyệt / NOTE lớn):** #6 해모루 nói trên mộ · QC gợi ý "충전 한 번 남았습니다" giữ ý ledger đã chuyển thành "허락된 충전 한 번" · combat ≥35 % (cần story-director thêm khối).
