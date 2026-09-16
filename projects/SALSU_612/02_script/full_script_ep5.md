@@ -1362,7 +1362,7 @@ N: 그는 세면서 쐈습니다. 박기철이 넉 달 동안 가르친 습관�
 [SOUND] giáp va giáp, giáo, ngựa hí, đao.
 
 ### SC_233 · LOC_007_SALSU (rìa bắc bãi lau, mép nước) · CHAR_105, 고구려 보병 · WPN_101 (giáo), PROP_018 · video8s · 31:54–32:02
-[ACTION-VI] 해모루 rút đao, gào một tiếng — hàng giáo Goguryeo trăm người bước ra khỏi bãi lau thành hàng ngang, tiến xuống mép nước phía đông để khép gọng kìm với kỵ binh; 해모루 đi đầu, chân trong nước nông, cung trên lưng, tù và hông. Tracking.
+[ACTION-VI] 해모루 rút đao, gào một tiếng — nửa hàng giáo Goguryeo (năm mươi người, nửa còn lại ở lại trong hố với tuyến 오태민) bước ra khỏi bãi lau thành hàng ngang, tiến xuống mép nước phía đông để khép gọng kìm với kỵ binh; 해모루 đi đầu, chân trong nước nông, cung trên lưng, tù và hông. Tracking.
 [SOUND] lệnh Goguryeo, giáo bước đều, nước nông.
 해모루: 창병, 물가로!
 

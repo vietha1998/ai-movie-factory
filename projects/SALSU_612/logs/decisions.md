@@ -50,3 +50,6 @@
 - P-38 을지문덕 biết tiếng K2 qua báo 해모루 một ngày sau (địa lý 80 km) → CHẤP NHẬN. P-39 open loop "쇠수레/보름째" → OK. P-40 kẻ thoát chốt gác = 탁발흠 bị chém cẳng tay → OK (derived state 5화: băng tay). P-41 hậu quân 5천 + cũi 태오 bờ nam → OK. P-43 dầu làm tròn 20 km "산길 기준" → OK. P-45/46/49 → OK.
 - P-50 giữ 287 SC / 40:00. P-51 giữ 2 câu narrator. SC_128 (2 câu thoại/1 SC: 통역+태오) → ngoại lệ chấp nhận, veo tách 2 beat trong clip.
 - P-44 ledger radio cuối 4화 = 40% → world-designer sửa khi cập nhật ledger v3 (gom sau khi cả 5 tập xong).
+
+## 2026-09-16 · sau script-writer 2화 v1 (P-38…P-47 của ep2)
+- P-39 "탑 마흔" giữ, ghi [虚] trong story_bible (số tháp công thành không có trong sử). P-40 giữ 2차 공성 P8 (đủ "3 đợt"). P-45 "이백 년" → world-designer xác nhận (Goguryeo lấy 요동 ~404 → 208 năm, OK). P-41★ ledger v3 gom sau. 서아/태오 ít thoại 2화 → chấp nhận (tập 3–4 họ nhiều hơn).
