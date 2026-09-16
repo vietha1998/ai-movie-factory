@@ -1170,3 +1170,284 @@ N: 고개 위에서 마흔 분. 그동안 전차는 잠들고, 드론은 밥을 
 
 [Kết thúc Phần 9]
 
+## [Phần 10] 고개의 밤 — 「고개의 밤」 / Trận đánh quyết định  (27:30–34:30) — 6 phase
+> Tóm tắt VI: Phase 1 yên đèo: K2 tắt máy, APU, dây sạc; 태오 lên mỏm với 1 xạ thủ K3 + 2 lính kính đêm; drone 10 phút; 80 người trong tối; 해모루 "남쪽 조용하오". Phase 2 tây-bắc: tên cắm váy xích K2; đuốc bừng dọc vách; 2.000 kỵ 탁발흠 đổ xuống đường dê; ngựa bịt tai không hoảng trước K3; 80 người bắn vào đuốc; "박 상사, 시동!" — "충전 중입니다! 이 분!". Phase 3 mục tiêu thật: kỵ Tiên Ti không lao vào K2 — lao lên chân mỏm, đồng bọn từ đỉnh vách thả dây xuống mỏm; 백성민: "목표는 태오다!"; drone quay về mỏm — 태오 thấy chính mình bị vây trên màn hình; 한승우 cử 백성민 + 2 lính lên mỏm; 탁발흠: "쇠수레를 붙들어라. 나는 위로 간다." Phase 4 NARRATOR IM 31:32–33:00: K2 nổ máy, 4 viên vào vách → đá lở bịt cửa tây-bắc — chặn viện binh 탁발흠 nhưng cũng chặn đường 백성민; xạ thủ K3 trúng tên — KIA đầu tiên; "본부, 본부… 잡혔—"; PZF ×1 vào cụm đuốc; kính đêm 백성민 tắt; drone tự hạ về mỏm — tay Tiên Ti nhặt. Phase 5: 해모루 quay kỵ từ nam phá cửa đông; kỵ Goguryeo cõng thương binh; qua yên lúc rạng đông; 백성민 tới mỏm: hộp drone mất, 2 kính đêm mất, 태오 mất, xác xạ thủ. Phase 6: 오태민 nhặt K3 người chết; vách xa: 탁발흠 trên ngựa, 태오 vắt ngang yên; hắn nhìn — quay đi. Không reo hò.
+> Chức năng: BATTLE · Tài nguyên: K2 12→8 · PZF 10→9 · kính đêm 12→10 · drone 1→0 · 94→93 (+1 bị bắt) · K3 −1.000 · Enemy adaptation: đường dê, ngựa bịt tai, nhắm mắt/người điều khiển thay vì xe · Payoff: phân ngựa (P7), "너무 높다" (P9), "살아 있어야 해" (P6, đảo) · Open loop: "94명으로 왔습니다. 이제 92명이 걷고, 한 명이 묻히고, 한 명이 끌려갔습니다."
+> [NARRATOR IM LẶNG] 31:32–33:00. Sau mid-roll 4: SC_198 aerial hoàng hôn, không thoại.
+
+### — Phase 1 · 고개 위 / Yên đèo (27:30–28:44) —
+
+### SC_198 · LOC_009_SEOKMUN_PASS (aerial, hoàng hôn cuối) · đại đội · VEH_001, VEH_101 · still_kenburns · 27:30–27:40
+[ACTION-VI] Ảnh aerial: ánh hổ phách cuối tắt trên đỉnh vách; dưới yên đèo đã tối, K2 bò qua khúc cua cuối lên yên, hàng người và ngựa trải dài phía trước; ải đá thấp chắn ngang yên, khoảng hở 5 m ngay trước mũi xe; sương trắng chảy từ khe tây-bắc xuống. Ken-burns đẩy chậm vào khoảng hở. Không thoại.
+[SOUND] xích K2 dội vách, gió qua khe, vó ngựa.
+N: 해가 졌습니다. 고개 위는 이미 밤이었습니다.
+
+### SC_199 · LOC_009_SEOKMUN_PASS (yên đèo, khoảng hở ải đá) · CHAR_003, 조종수 · VEH_001 · video8s · 27:40–27:48
+[ACTION-VI] K2 dừng đúng trong khoảng hở ải đá, mũi hướng nam; động cơ tắt — im đột ngột; APU sau tháp rít lên một tông đều; 박기철 đứng cạnh xích, nhìn đồng hồ đeo tay, nói vào radio.
+[SOUND] động cơ tắt, APU rì rì, gió.
+N: 전차는 잠들었습니다. 보조동력만 깨어 있었습니다. 지금부터 마흔 분.
+박기철: 시동 끕니다. 보조동력 가동.
+
+### SC_200 · LOC_009_SEOKMUN_PASS (đuôi K2) · CHAR_003, 무전병 · VEH_001, EQP_001, EQP_002, UAV_001 · video8s · 27:48–27:56
+[ACTION-VI] Dây sạc từ đuôi K2 chạy trên đá xếp khan cổ tới một tấm bạt: 12 kính đêm — 9 chiếc đang sạc, đèn đỏ hàng dài (3 chiếc đang dùng: 백성민 + 2 lính đi đầu); pin drone; 4 radio; 무전병 cắm nốt dây cuối; 박기철 bấm đồng hồ.
+[SOUND] đèn sạc "띡, 띡", APU.
+N: 21세기의 줄이 7세기의 돌담 위를 지나갔습니다. 야시경, 무전기, 드론. 모두 한 통에서 밥을 먹었습니다. 그 통은 지금 잠든 전차 안에 있었습니다.
+박기철: 마흔 분. 지금부터.
+
+### SC_201 · LOC_009_SEOKMUN_PASS (đường dốc lên mỏm đá, chạng vạng) · CHAR_005, K3 사수, 2 병사 · UAV_001, WPN_003, EQP_001 · video8s · 27:56–28:04
+[ACTION-VI] Đường mòn đá dốc bám vách đông-nam lên mỏm: 태오 đi trước với hộp drone trên lưng, dây thừng buộc ngang người; sau cậu, K3 사수 vác súng máy, hai lính kính đêm (kính đã hạ xuống mắt) chốt sau; đá vụn lăn; xa dưới, yên đèo là những chấm đỏ nhỏ của đèn sạc.
+[SOUND] đá lăn, thở, dây thừng.
+N: 이백 미터. 넷이 올라갔습니다. 조종병 하나, K3 사수 하나, 야시경 둘. 위에서 보면 고개 전체가 손바닥 같을 것이었습니다.
+
+### SC_202 · LOC_009_SEOKMUN_PASS (đỉnh mỏm đá, đêm) · CHAR_005 · UAV_001, EQP_002 · video8s · 28:04–28:12
+[ACTION-VI] Đỉnh mỏm phẳng 10×10 m: 태오 quỳ, drone cất cánh khỏi tay biến vào đêm; màn hình controller: pin 30 → cậu đặt hẹn 10; K3 사수 đặt súng hướng xuống con đường vừa leo; 태오 bấm radio.
+[SOUND] rotor nhỏ dần, PTT, gió trên cao.
+N: 마지막 비행이 시작되었습니다. 십 분. 그 십 분 동안 하늘 눈은 고개를 보았습니다. 고개는 조용했습니다.
+장태오: 천둥 지휘, 여기는 바위. 드론 이륙, 십 분.
+
+### SC_203 · LOC_009_SEOKMUN_PASS (yên đèo — POV kính đêm) · CHAR_006 · EQP_001, VEH_001 · video8s · 28:12–28:20
+[ACTION-VI] POV kính đêm 백성민 xanh lục nhiễu hạt: yên đèo trơ đá, ải đá xếp khan, khối K2 trong khoảng hở, hàng người ngồi tựa tường sáng nhạt; ông xoay sang trái — vách tây-bắc đen đặc, sương mỏng hơn lúc chiều, đường dê là vệt xám mờ, trống. Không thoại.
+[SOUND] kính đêm rít, gió, APU xa.
+N: 백성민은 북서쪽을 보았습니다. 안개는 저녁보다 엷었습니다. 염소 길이 보였습니다. 비어 있었습니다. 그는 남쪽으로 눈을 돌렸습니다.
+
+### SC_204 · LOC_009_SEOKMUN_PASS (yên đèo, dọc ải đá) · đại đội, CHAR_002, CHAR_106, CHAR_107, CHAR_004 · VEH_001, WPN_003 · video8s · 28:20–28:28
+[ACTION-VI] Wide thấp trong tối (chỉ đèn sạc đỏ và mây sáng nhạt): 80 người ngồi dọc chân ải đá, súng trên đùi, không ai nói; 오태민 sau khẩu K3 trên đống đá phía tây với hai khẩu K3 nữa cách 20 m; 을보 và 아리 ngồi giữa hai xích K2 dưới gầm; 서아 với túi quân y bên bánh xe.
+[SOUND] gió, APU, xa xa tiếng ngựa.
+N: 여든 명이 어둠 속에 앉았습니다. 총은 무릎 위에. 눈은 남쪽에. 아무도 말하지 않았습니다. 기다리는 것은 싸움이 아니라 전기였습니다.
+
+### SC_205 · LOC_009_SEOKMUN_PASS (cửa nam đèo, đêm) · CHAR_105 · EQP_002, VEH_101 · video8s · 28:28–28:36
+[ACTION-VI] Cửa nam: 해모루 trên ngựa giữa hàng kỵ binh im lặng, nhìn xuống con đường đổ về nam; ông cúi đầu thì thầm vào radio.
+[SOUND] PTT, ngựa thở, gió.
+해모루: 한 대장, 여기는 해모루. 남쪽 조용하오.
+
+### SC_206 · LOC_009_SEOKMUN_PASS (mỏm đá — màn hình drone) · CHAR_005 · UAV_001 · video8s · 28:36–28:44
+[ACTION-VI] Màn hình drone nhiệt: từ trên cao, yên đèo là vệt xám, K2 là khối trắng nóng, 80 chấm ấm dọc tường; 태오 lia sang vách tây-bắc: đường dê xám, không chấm nóng; lia bắc — trống; đồng hồ bay: 8:40 còn lại. Cận ngón tay cậu và màn hình.
+[SOUND] rotor qua loa, bíp.
+N: 팔 분 사십 초. 하늘 눈은 아무것도 보지 못했습니다. 보이지 않는 것은 없는 것이 아니었습니다. 벼랑 뒤는 열에 잡히지 않았습니다.
+
+### — Phase 2 · 북서쪽 / Tây-bắc (28:44–29:56) —
+
+### SC_207 · LOC_009_SEOKMUN_PASS (yên đèo, hông K2) · CHAR_003 · VEH_001, PROP_015 · video8s · 28:44–28:52
+[ACTION-VI] Một mũi tên từ bóng tối bay tới cắm "캉" vào váy xích K2 ngay cạnh đầu 박기철 — lông vũ rung; ông khựng, nhìn mũi tên, nhìn lên vách tây-bắc; cả hàng người dọc tường ngẩng đầu cùng lúc.
+[SOUND] tên đập thép, im, gió.
+N: 첫 화살은 북서쪽에서 왔습니다.
+
+### SC_208 · LOC_009_SEOKMUN_PASS (vách tây-bắc, đêm) · kỵ Tiên Ti · VEH_206, PROP_016, PROP_017 · video8s · 28:52–29:00
+[ACTION-VI] Vách tây-bắc đen: một đuốc bừng lên trên đường dê — rồi mười, rồi hàng trăm, nối nhau thành chuỗi lửa ngoằn ngoèo từ đỉnh vách xuống; trống da nổi dồn dập; sương ánh cam. Low-angle từ yên.
+[SOUND] trống dồn, đuốc bùng, tiếng hú.
+N: 염소 길이 불로 그려졌습니다. 이천 개의 횃불이었습니다. 말똥의 주인이 나타났습니다.
+
+### SC_209 · LOC_009_SEOKMUN_PASS (yên đèo) · CHAR_006 · EQP_001, EQP_002, VEH_206 · video8s · 29:00–29:08
+[ACTION-VI] 백성민 đứng bật dậy, kính đêm dán mắt — POV xanh lục: chuỗi đuốc lóa trắng, dưới đuốc là ngựa và người đổ xuống đường dê thành dòng; ông gào vào radio — lần đầu ông gào.
+[SOUND] PTT, trống, hú.
+백성민: 북서! 염소 길! 기병!
+
+### SC_210 · LOC_009_SEOKMUN_PASS (đống đá phía tây yên) · CHAR_002, xạ thủ K3 · WPN_003, VEH_206 · video8s · 29:08–29:16
+[ACTION-VI] 오태민 kéo cò K3 — tracer đỏ quét thành dải lên vách tây-bắc vào chuỗi đuốc; hai khẩu K3 bên cạnh nổ theo; đuốc trên đường dê rơi, lăn; nhưng dòng lửa vẫn chảy xuống.
+[SOUND] ba khẩu K3 quét dài, dội vách, đuốc rơi.
+N: 요하에서 총소리는 말을 미치게 했습니다. 요동성에서도 그랬습니다. 이번에는 아니었습니다.
+
+### SC_211 · LOC_009_SEOKMUN_PASS (chân đường dê, mép yên) · kỵ Tiên Ti · VEH_206, PROP_016 · video8s · 29:16–29:24
+[ACTION-VI] Cận ngựa Tiên Ti lao xuống đoạn cuối đường dê vào yên đèo: tai buộc vải, mắt mở, không dựng, không hí; kỵ sĩ rạp trên yên, cung giương; tracer bay qua đầu — ngựa không đổi bước; hàng sau nối hàng trước đổ vào yên như nước vỡ bờ.
+[SOUND] vó ngựa dồn, tracer rít, trống.
+N: 귀를 막은 말은 천둥을 듣지 못했습니다. 듣지 못하는 말은 달렸습니다. 탁발흠은 요하에서 배운 것을 석문령에서 썼습니다.
+
+### SC_212 · LOC_009_SEOKMUN_PASS (dọc ải đá) · đại đội · WPN_001, VEH_206 · video8s · 29:24–29:32
+[ACTION-VI] 80 người quỳ sau ải đá bắn vào đuốc — chớp lửa đầu nòng liên tiếp dọc tường; trên vách, đuốc tắt từng cụm; nhưng trong bóng tối dưới vách, tiếng vó ngựa vẫn đổ; tên từ tối rơi xuống yên cắm vào đá, một mũi cắm vào bao cát cạnh mặt lính.
+[SOUND] K2C1 hàng loạt, tên cắm, trống.
+N: 횃불을 쏘면 횃불이 꺼졌습니다. 꺼진 횃불 밑에서 말은 계속 왔습니다. 여든 명 중 야시경을 가진 사람은 셋이었습니다. 나머지는 빛을 쏘았습니다. 빛은 사람이 아니었습니다.
+
+### SC_213 · LOC_009_SEOKMUN_PASS (đường dê, đoạn trên) · CHAR_205, 선비 부장 · VEH_206, PROP_016 · video8s · 29:32–29:40
+[ACTION-VI] Đoạn trên đường dê: 탁발흠 ghì ngựa dừng bên vách, không đuốc, để dòng kỵ binh chảy qua; hắn ngẩng lên — không nhìn K2 dưới yên — nhìn mỏm đá đông-nam đối diện, nơi một đốm sáng nhỏ (màn hình controller) nhấp nháy; hắn giơ tay chỉ mỏm cho 부장.
+[SOUND] vó ngựa chảy qua, trống, gió.
+N: 탁발흠은 쇠수레를 보지 않았습니다. 그는 바위를 보았습니다. 바위 위에 작은 빛이 있었습니다. 쇠새를 부리는 자의 빛이었습니다.
+
+### SC_214 · LOC_009_SEOKMUN_PASS (hông K2) · CHAR_001 · VEH_001, EQP_002 · video8s · 29:40–29:48
+[ACTION-VI] 한승우 chạy tới hông K2, đập tay lên giáp, gào với 박기철 đang ở đuôi xe giữa mớ dây sạc; tên cắm xuống đá quanh chân ông.
+[SOUND] tay đập thép, tên cắm, K3 xa.
+한승우: 박 상사, 시동!
+
+### SC_215 · LOC_009_SEOKMUN_PASS (đuôi K2) · CHAR_003 · VEH_001, EQP_001 · video8s · 29:48–29:56
+[ACTION-VI] 박기철 quỳ giữa dây sạc, nhìn đồng hồ, nhìn hàng kính đêm đèn đỏ chưa xanh; ông gào lại — hai ngón tay giơ lên; tay kia đã cầm sẵn đầu dây để giật.
+[SOUND] APU, đèn sạc, K3, trống.
+N: 이 분. 야시경 아홉 개가 아직 밥을 먹고 있었습니다. 시동을 걸면 밥은 끊깁니다. 박기철은 이 분을 달라고 했습니다. 이 분은 그날 밤 가장 비싼 시간이었습니다.
+박기철: 충전 중입니다! 이 분!
+
+### — Phase 3 · 진짜 목표 / Mục tiêu thật (29:56–31:32) —
+
+### SC_216 · LOC_009_SEOKMUN_PASS (yên đèo, chân mỏm đá) · kỵ Tiên Ti · VEH_206 · video8s · 29:56–30:04
+[ACTION-VI] Kỵ Tiên Ti tràn vào yên — nhưng dòng chính không quay về phía K2 và ải đá; họ phóng chéo qua yên tới chân mỏm đá đông-nam, nhảy khỏi ngựa, bám đá leo lên con đường mòn 태오 vừa đi; ngựa mất chủ chạy tán loạn giữa yên.
+[SOUND] vó ngựa, giày da trên đá, hú.
+N: 그들은 쇠수레로 오지 않았습니다. 돌담으로도 오지 않았습니다. 바위로 갔습니다.
+
+### SC_217 · LOC_009_SEOKMUN_PASS (đỉnh vách trên mỏm đá) · kỵ Tiên Ti (đi bộ) · VEH_206 · video8s · 30:04–30:12
+[ACTION-VI] Trên đỉnh vách phía trên mỏm đá — nơi đường dê có nhánh vòng lên — hàng chục bóng Tiên Ti đi bộ, không đuốc, thả dây thừng xuống mặt mỏm; một người trượt xuống dây đầu tiên. High-angle từ đỉnh vách nhìn xuống mỏm nhỏ sáng nhạt.
+[SOUND] dây thừng, gió trên cao, xa xa súng.
+N: 염소 길은 하나가 아니었습니다. 위로 갈라진 가지가 있었습니다. 그 가지는 바위 위 벼랑으로 이어졌습니다. 탁발흠은 사흘 전에 그 가지를 걸어보았습니다.
+
+### SC_218 · LOC_009_SEOKMUN_PASS (yên đèo) · CHAR_006 · EQP_001 · video8s · 30:12–30:20
+[ACTION-VI] 백성민 xoay kính đêm về mỏm đá — POV xanh: bóng người bám vách leo lên từ dưới, bóng người tụt dây từ trên; ông gào — không vào radio, gào bằng cổ họng cho cả yên nghe.
+[SOUND] gào, K3, trống.
+백성민: 목표는 태오다!
+
+### SC_219 · LOC_009_SEOKMUN_PASS (mỏm đá — màn hình drone) · CHAR_005 · UAV_001 · video8s · 30:20–30:28
+[ACTION-VI] Màn hình drone nhiệt: 태오 kéo drone quay về mỏm — hình ảnh từ trên cao: một mặt phẳng nhỏ với 4 chấm nóng (chính họ), và quanh mặt phẳng, từ dưới lên và từ trên xuống, hàng chục chấm nóng đang bám vào. Cận mặt 태오 trong ánh màn hình: cậu đang nhìn chính mình bị vây.
+[SOUND] rotor qua loa, thở gấp, gió.
+N: 장태오는 화면에서 자신을 보았습니다. 작은 점 넷. 그 둘레로 올라오는 점들. 하늘 눈이 마지막으로 본 것은 자기 주인이었습니다.
+
+### SC_220 · LOC_009_SEOKMUN_PASS (mỏm đá) · CHAR_005 · EQP_002 · video8s · 30:28–30:36
+[ACTION-VI] 태오 bấm radio, giọng vỡ nhưng còn giữ được mẫu câu; tay kia vẫn giữ cần drone; K3 사수 sau lưng cậu đang xoay súng về mép mỏm.
+[SOUND] PTT, K3 lên đạn.
+장태오: 천둥 지휘, 여기는 바위. 올라옵니다. 사방입니다.
+
+### SC_221 · LOC_009_SEOKMUN_PASS (mỏm đá, mép nam) · K3 사수 · WPN_003, VEH_206 · video8s · 30:36–30:44
+[ACTION-VI] K3 사수 nằm ở mép mỏm bắn xuống con đường mòn — chớp lửa đầu nòng soi mặt đá và những bóng Tiên Ti bám vách rơi ngược; hai lính kính đêm bắn lên phía đỉnh vách nơi dây thừng buông xuống; tên cắm quanh họ.
+[SOUND] K3 dội đá, tên cắm, thét.
+N: K3 사수는 스물세 살이었습니다. 그는 길을 막았습니다. 아래에서 오는 길이었습니다. 위에서 오는 길은 총 하나로 막을 수 없었습니다.
+
+### SC_222 · LOC_009_SEOKMUN_PASS (hông K2) · CHAR_001, CHAR_006 · EQP_002 · video8s · 30:44–30:52
+[ACTION-VI] 한승우 nắm vai 백성민, chỉ về mỏm đá, hét; 백성민 gật, vẫy hai lính có kính đêm bên cạnh; ba người lao đi.
+[SOUND] hét, K3, trống, tên.
+N: 한승우는 전차 곁을 떠나지 않았습니다. 그는 갈 수 있는 사람을 보냈습니다. 밤눈을 가진 셋이었습니다.
+한승우: 백 중사, 바위로! 둘 데려가!
+
+### SC_223 · LOC_009_SEOKMUN_PASS (yên đèo, chạy qua) · CHAR_006, 2 병사 · EQP_001, WPN_001 · video8s · 30:52–31:00
+[ACTION-VI] Ba người chạy chéo qua yên trong tối giữa ngựa mất chủ và tên rơi; một lính trúng tên ở cánh tay, loạng choạng, chạy tiếp; 백성민 dẫn đầu, kính đêm trên mắt, tới chân đường mòn lên mỏm. Tracking bên hông, rung.
+[SOUND] chạy trên đá, tên, ngựa hí, thở.
+N: 이백 미터 아래에서 이백 미터 위로. 걸어서 이십 분. 뛰어서 십 분. 그들에게는 십 분이 없었습니다.
+
+### SC_224 · LOC_009_SEOKMUN_PASS (đường dê, đoạn trên) · CHAR_205, 선비 부장 · VEH_206 · video8s · 31:00–31:08
+[ACTION-VI] 탁발흠 nhảy khỏi ngựa trên đường dê, ném cương cho 부장, nói cộc hai câu; hắn bám vách rẽ lên nhánh trên về phía đỉnh vách mỏm đá, cung trên lưng.
+[SOUND] cương ngựa, đá, gió.
+N: 그는 스스로 올라갔습니다. 늘 그랬습니다. 요하에서 언덕에 올라 세었고, 골짜기에서 벼랑에 올라 보았습니다. 이번에는 잡으러 올라갔습니다.
+탁발흠: 쇠수레를 붙들어라. 나는 위로 간다.
+
+### SC_225 · LOC_009_SEOKMUN_PASS (dọc ải đá) · CHAR_004, 병사 bị thương · PROP_009 · video8s · 31:08–31:16
+[ACTION-VI] Cung thủ Tiên Ti trên vách bắn trùm xuống yên; một lính bên ải đá trúng tên ở vai ngã ngửa; 서아 bò tới, kéo anh ta sau tường đá, kéo cắt áo, băng — mặt không đổi, tên cắm xuống đá cạnh cô.
+[SOUND] tên hàng loạt, kéo cắt, rên.
+N: 벼랑 위의 활은 돌담을 넘어왔습니다. 방탄복은 가슴을 가렸습니다. 어깨와 팔은 가리지 못했습니다. 요하에서 배운 것을 그날 밤 다시 배웠습니다.
+
+### SC_226 · LOC_009_SEOKMUN_PASS (đuôi K2) · CHAR_003 · VEH_001, EQP_001 · video8s · 31:16–31:24
+[ACTION-VI] 박기철 nhìn đồng hồ — hết hai phút; ông giật cả bó dây sạc khỏi ổ đuôi xe bằng một động tác, đập tay lên nắp ổ điện, gào vào cửa lái; kính đêm trên bạt: 5 đèn xanh, 4 đèn đỏ.
+[SOUND] dây giật, nắp đập, gào.
+N: 아홉 개 중 다섯 개가 찼습니다. 나머지 넷은 사십 퍼센트로 밤을 넘겨야 했습니다. 박기철은 줄을 뽑았습니다.
+박기철: 됐다! 시동!
+
+### SC_227 · LOC_009_SEOKMUN_PASS (K2 trong khoảng hở ải đá) · CHAR_001, 조종수 · VEH_001, EQP_002 · video8s · 31:24–31:32
+[ACTION-VI] K2 nổ máy — tiếng gầm trùm cả yên đèo, khói phụt từ đuôi; tháp pháo xoay chậm sang trái, nòng nâng lên hướng vách tây-bắc nơi chuỗi đuốc vẫn chảy xuống đường dê; 한승우 đứng sát hông xe, radio áp miệng.
+[SOUND] động cơ K2 gầm, tháp pháo xoay, trống.
+N: 전차가 깨어났습니다. 남은 포탄은 열두 발이었습니다.
+한승우: 천둥 1, 염소 길 위 벼랑. 네 발.
+
+[NARRATOR IM LẶNG — 31:32 → 33:00]
+
+### — Phase 4 · 실수와 자원 / Sai sót & tài nguyên (31:32–33:00) — NARRATOR IM —
+
+### SC_228 · LOC_009_SEOKMUN_PASS (K2 — bắn) · 포수 · VEH_001 · video8s · 31:32–31:40
+[ACTION-VI] 2-BEAT: (a) 31:32–31:36 cận trong xe: màn hình pháo thủ hồng ngoại — vách đá trắng nóng phía trên miệng đường dê, chữ thập ngắm; bộ đếm "잔탄 12"; tay bóp cò; (b) 31:36–31:40 ngoài: K2 khai hỏa — chớp lửa đầu nòng trùm cả yên đèo trong một phần giây, sóng xung kích thổi bụi, đá; vách tây-bắc lóe.
+[SOUND] 120mm nổ đanh, dội vách ba lần, tai ù.
+
+### SC_229 · LOC_009_SEOKMUN_PASS (vách tây-bắc) · — · VEH_001 (off), VEH_206 · video8s · 31:40–31:48
+[ACTION-VI] 2-BEAT: (a) viên hai — vách đá phía trên miệng đường dê vỡ toác, đá tảng bung ra lăn xuống; (b) viên ba — cả một mảng vách nứt, bụi trắng phun, đuốc trên đường dê chao đảo, ngựa và người trên đoạn dưới ngoái lên.
+[SOUND] hai tiếng 120mm, đá vỡ, gầm.
+
+### SC_230 · LOC_009_SEOKMUN_PASS (vách tây-bắc — đá lở) · kỵ Tiên Ti · VEH_206, PROP_016 · video8s · 31:48–31:56
+[ACTION-VI] Viên bốn — mảng vách sụp: một thác đá xám-xanh đổ xuống lấp miệng đường dê, đuốc bị chôn tắt hàng loạt, bụi bốc cam trong ánh đuốc còn lại, tiếng gầm kéo dài; đống đá cao dần thành bức tường 6 m. Insert 2 s: bộ đếm trong xe "잔탄 08".
+[SOUND] 120mm, đá lở kéo dài, đuốc tắt, ngựa hí.
+
+### SC_231 · LOC_009_SEOKMUN_PASS (đường dê phía trên đá lở) · kỵ Tiên Ti · VEH_206, PROP_016 · video8s · 31:56–32:04
+[ACTION-VI] Trên đường dê, phía trên đống đá: hàng trăm đuốc dồn cục, ngựa quay ngang, không xuống được; dưới yên, số kỵ Tiên Ti đã vào (vài trăm) ngoái lại nhìn đường về bị bịt — họ bị cắt. High-angle.
+[SOUND] hú, ngựa, đá lăn rải rác.
+
+### SC_232 · LOC_009_SEOKMUN_PASS (đường mòn lên mỏm, đoạn dưới) · CHAR_006, 2 병사 · EQP_001 · video8s · 32:04–32:12
+[ACTION-VI] 백성민 leo đường mòn — bỗng đá tảng từ rìa đá lở văng qua, đập nát đoạn đường mòn ngay trước mặt ông, bụi trùm; ông ngã ngửa vào lính sau; trước mặt: đống đá vụn chắn lối lên mỏm. Ông gào tên cậu bé lên vách.
+[SOUND] đá đập, bụi, gào.
+백성민: 태오!
+
+### SC_233 · LOC_009_SEOKMUN_PASS (đỉnh mỏm đá) · K3 사수, CHAR_005 · WPN_003 · video8s · 32:12–32:20
+[ACTION-VI] Trên mỏm: K3 사수 quỳ bắn lên đỉnh vách — hai mũi tên từ trên cắm vào vai và ngực trên áo giáp mép hở; anh ngã nghiêng lên mặt đá, khẩu K3 trượt khỏi tay; 태오 quay lại thấy, rời cần drone. Không cận vết thương.
+[SOUND] tên cắm, thân ngã, K3 im.
+
+### SC_234 · LOC_009_SEOKMUN_PASS (đỉnh mỏm đá) · CHAR_005, kỵ Tiên Ti (đi bộ) · EQP_002 · video8s · 32:20–32:28
+[ACTION-VI] 태오 bấm radio, câu nói đứt giữa chừng — bàn tay Tiên Ti từ sau túm cổ áo, một cánh tay khác đập vào tay cầm radio; radio rơi xuống đá, đèn còn sáng; cậu bị kéo ngửa ra sau khỏi khung.
+[SOUND] PTT, tiếng kéo, radio rơi, im.
+장태오: 본부, 본부… 잡혔—
+
+### SC_235 · LOC_009_SEOKMUN_PASS (hông K2) · CHAR_001 · EQP_002 · video8s · 32:28–32:36
+[ACTION-VI] Cận 한승우: radio áp tai, nghe — im; ông bấm PTT, mở miệng, không nói được gì; bấm lần nữa; xung quanh chớp lửa và tiếng gầm nhưng máy chỉ giữ mặt ông. Không thoại.
+[SOUND] PTT hai lần, nhiễu, im giữa tiếng trận xa.
+
+### SC_236 · LOC_009_SEOKMUN_PASS (ải đá, phía tây) · PZF 사수, CHAR_002 · WPN_005, VEH_206 · video8s · 32:36–32:44
+[ACTION-VI] 오태민 vỗ vai xạ thủ PZF bên cạnh, chỉ lên cụm đuốc cung thủ đông nhất trên vách; xạ thủ quỳ, ống trên vai — phóng; quả đạn vạch sáng lên vách, nổ giữa cụm đuốc — đuốc văng, đá vụn.
+[SOUND] PZF "펑", nổ dội, đuốc rơi.
+
+### SC_237 · LOC_009_SEOKMUN_PASS (đường mòn, chân đá lở) · CHAR_006 · EQP_001 · video8s · 32:44–32:52
+[ACTION-VI] POV kính đêm 백성민 xanh lục — hình ảnh chớp, tối dần, một vệt nhiễu, rồi đen; cắt ra ngoài: ông giật kính khỏi mũ, ném vào ngực áo, bám đá bằng tay trần leo vòng qua mép đống đá lở trong tối.
+[SOUND] kính đêm tắt "틱", đá, thở.
+
+### SC_238 · LOC_009_SEOKMUN_PASS (đỉnh mỏm đá) · kỵ Tiên Ti, CHAR_005 (bị kéo) · UAV_001 · video8s · 32:52–33:00
+[ACTION-VI] Trên mỏm, đuốc Tiên Ti đã bật: drone tự hạ xuống từ đêm — không ai điều khiển — đèn nhấp nháy, đáp đúng chỗ nó cất cánh; một bàn tay Tiên Ti đeo vòng đồng chộp lấy nó khi rotor còn quay; góc khung: 태오 bị hai người kéo bằng dây lên phía đỉnh vách, mũ và áo giáp đã bị lột, chỉ còn áo quân phục.
+[SOUND] rotor hạ, tay chộp, dây thừng, đuốc.
+
+### — Phase 5 · 고구려가 짊어지다 / Goguryeo gánh (33:00–33:56) —
+
+### SC_239 · LOC_009_SEOKMUN_PASS (cửa nam đèo) · CHAR_105 · EQP_002, VEH_101, PROP_018 · video8s · 33:00–33:08
+[ACTION-VI] 해모루 trên ngựa ở cửa nam, tay đè radio trên ngực, mặt nghiêng nghe; ông rút tù và, rúc ba hồi, quay ngựa — 300 kỵ quay theo ông ngược lên yên rồi vòng về cửa đông.
+[SOUND] PTT, tù và ba hồi, vó ngựa dồn.
+N: 남쪽은 조용했습니다. 해모루는 남쪽을 버렸습니다. 말하는 돌이 동쪽 문이 막혔다고 했습니다.
+해모루: 한 대장, 여기는 해모루. 동문을 치오!
+
+### SC_240 · LOC_009_SEOKMUN_PASS (cửa đông đèo, đêm) · kỵ Goguryeo, kỵ Tiên Ti · VEH_101, VEH_206, PROP_012 · video8s · 33:08–33:16
+[ACTION-VI] Cửa đông — nơi một toán Tiên Ti đã vòng xuống chặn đường xe phía sau đại đội: 300 kỵ Goguryeo giáp lamellar đâm thẳng vào sườn họ, cờ 삼족오, giáo dài; kỵ Tiên Ti nhẹ vỡ, chạy lên scree. Wide.
+[SOUND] va chạm, giáo, ngựa, tù và.
+N: 동쪽 문은 선비 기병 이백이 막고 있었습니다. 뒤를 끊는 것이었습니다. 개마무사 삼백이 그 이백을 옆에서 쳤습니다. 이 땅의 기병이 이 땅의 고개를 열었습니다.
+
+### SC_241 · LOC_009_SEOKMUN_PASS (yên đèo, scree phía bắc) · kỵ Tiên Ti, đại đội, kỵ Goguryeo · VEH_206, VEH_001 · video8s · 33:16–33:24
+[ACTION-VI] Kỵ Tiên Ti còn trong yên — bị đá lở cắt đường về, K2 và 80 người trước mặt, kỵ Goguryeo từ đông tới — bỏ ngựa leo lên sườn scree phía bắc trong tối, đá lăn; vài người trượt ngã; K3 quét theo sườn dốc rồi ngừng — 오태민 giơ tay ngừng bắn.
+[SOUND] đá lăn, K3 loạt ngắn rồi im, ngựa mất chủ.
+N: 고개 안에 남은 선비 기병은 벼랑을 기어 올라갔습니다. 오태민은 쫓지 않았습니다. 쫓지 않는 것을 그는 이제 알았습니다.
+
+### SC_242 · LOC_009_SEOKMUN_PASS (dọc ải đá, tảng sáng) · kỵ Goguryeo, CHAR_004, thương binh · VEH_101, PROP_009 · video8s · 33:24–33:32
+[ACTION-VI] Trời tảng sáng xám: kỵ Goguryeo xuống ngựa, cúi nhấc lính Hàn bị thương lên yên — người trúng tên vai, người trúng tên tay; 서아 đỡ chân một người lên, siết garô lần cuối; kỵ sĩ Goguryeo dắt ngựa đi bộ.
+[SOUND] ngựa, rên nhẹ, mưa bắt đầu.
+N: 다친 사람은 여섯이었습니다. 고구려 기병이 그들을 말에 태웠습니다. 기병은 걸었습니다. 사흘째 밤에도 그랬고, 이 밤에도 그랬습니다.
+
+### SC_243 · LOC_009_SEOKMUN_PASS (khoảng hở ải đá, rạng đông) · đại đội, CHAR_106, CHAR_107 · VEH_001 · video8s · 33:32–33:40
+[ACTION-VI] Rạng đông xám, mưa: K2 bò qua khoảng hở ải đá về phía nam, đuôi xe chở 을보 ôm 아리, hai ông cháu nhìn ngược lại mỏm đá; hàng người đi sau, đầu cúi; đống đá lở khổng lồ bên trái khung còn bốc bụi.
+[SOUND] xích, mưa, gió.
+N: 해가 뜨기 전에 전차는 고개를 넘었습니다. 남쪽으로. 살수로. 뒤에 남은 것을 세는 일은 아직이었습니다.
+
+### SC_244 · LOC_009_SEOKMUN_PASS (đỉnh mỏm đá, rạng đông) · CHAR_006, K3 사수 (xác) · WPN_003, EQP_001 (mount trống) · video8s · 33:40–33:48
+[ACTION-VI] 백성민 nhô lên mép mỏm, tay trầy máu; mặt mỏm: đuốc tắt, dây thừng buông từ đỉnh vách, hộp drone không còn, controller không còn; xác K3 사수 nằm nghiêng, khẩu K3 bên cạnh; mũ 태오 lăn ở góc — ngàm gắn kính đêm trên mũ trống; ông đứng thở.
+[SOUND] mưa, gió, thở.
+N: 바위 위에는 아무것도 없었습니다. 드론도, 조종기도, 야시경 둘도, 장태오도. 있는 것은 사수와 그의 총, 그리고 빈 철모 하나였습니다.
+
+### SC_245 · LOC_009_SEOKMUN_PASS (đỉnh mỏm đá) · CHAR_006 · EQP_002 · video8s · 33:48–33:56
+[ACTION-VI] 백성민 nhặt mũ 태오, xoay nhìn ngàm trống, cầm radio rơi trên đá (đèn vẫn sáng); ông bấm, nói bằng giọng điện tín — nhưng ngắt một lần ở giữa.
+[SOUND] PTT, mưa.
+백성민: 천둥 지휘, 여기는 수색. 태오… 없습니다. 사수 전사.
+
+### — Phase 6 · 새벽 / Kết (33:56–34:30) —
+
+### SC_246 · LOC_009_SEOKMUN_PASS (yên đèo phía nam, bình minh xám) · CHAR_002, kỵ Goguryeo · WPN_003 · video8s · 33:56–34:04
+[ACTION-VI] Kỵ Goguryeo đưa xác K3 사수 bọc poncho xuống ngựa đặt lên nền đất bằng phía nam yên; bên cạnh, khẩu K3 dính máu; 오태민 đứng nhìn một lúc, cúi xuống nhặt khẩu K3, lau bằng tay áo, đeo lên vai cạnh súng mình. Máy đẩy chậm vào mặt ông.
+[SOUND] mưa, dây súng.
+N: 오태민은 그 총을 들었습니다. 그는 그 총을 살수까지 가져갈 것이었습니다.
+
+### SC_247 · LOC_009_SEOKMUN_PASS (đỉnh vách xa, bình minh) · CHAR_205, CHAR_005 (bị bắt), kỵ Tiên Ti · VEH_206, UAV_001 (hộp) · video8s · 34:04–34:12
+[ACTION-VI] Trên đỉnh vách xa phía tây-bắc, ngược sáng bình minh xám: 탁발흠 trên ngựa, mũ lông cáo; vắt ngang yên trước hắn — 태오, tay trói sau lưng, không mũ, không giáp, không giày; một kỵ sĩ bên cạnh ôm hộp drone olive. Hắn nhìn xuống yên đèo — nhìn K2, nhìn đống đá — rồi quay ngựa, biến sau đỉnh. Static, xa.
+[SOUND] gió, mưa.
+N: 벼랑 위에 그가 있었습니다. 안장 위에 장태오가 있었습니다. 탁발흠은 아래를 한 번 보았습니다. 그리고 돌아섰습니다. 그는 원하는 것을 가졌습니다.
+
+### SC_248 · LOC_009_SEOKMUN_PASS (yên đèo phía nam) · CHAR_001 · EQP_002 · video8s · 34:12–34:20
+[ACTION-VI] 한승우 ngẩng nhìn đỉnh vách nơi bóng ngựa vừa khuất; radio còn trong tay; ông không nói, không ra lệnh; 백성민 xuống tới cạnh ông, đưa chiếc mũ trống; ông cầm, nhìn ngàm kính đêm trống; xung quanh không một tiếng reo. Máy tĩnh.
+[SOUND] mưa, xích K2 xa, im.
+N: 아무도 소리치지 않았습니다. 고개는 넘었습니다. 이긴 것이었습니다. 그렇게 부르는 사람은 없었습니다.
+
+### SC_249 · LOC_009_SEOKMUN_PASS (aerial bình minh mưa) · đại đội · VEH_001, VEH_101 · still_kenburns · 34:20–34:30
+[ACTION-VI] Ảnh aerial: yên đèo trong mưa xám, đống đá lở 6 m bịt cửa tây-bắc, ải đá, xác ngựa, tên gãy, đuốc tắt; phía nam, một cột nhỏ — người, ngựa, K2 — bò xuống dốc về phía nam; trên mỏm đá, một chấm người đứng một mình. Ken-burns kéo ra rất chậm.
+[SOUND] mưa, gió.
+N: 94명으로 왔습니다. 이제 92명이 걷고, 한 명이 묻히고, 한 명이 끌려갔습니다.
+
+[Kết thúc Phần 10]
+

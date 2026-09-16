@@ -1,0 +1,106 @@
+[
+ {
+  "id": "LOC_003_hollow_d1",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 65,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_003_hollow",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A shallow grassy hollow in the open yellow steppe, dry knee-high yellow grass bending under constant wind, a low grassy rise to the east, drifting yellow dust under a cold pale grey sky, modern South Korean army vehicles in three-tone green-brown-black camouflage parked under green-brown camouflage netting, no trees, no buildings, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_003_ford_night",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 29,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_003_ford",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A shallow stream ford north of the valley mouth at night: a bed of pale grey cobbles under a hand's depth of black water, wide banks of dark grey mud on both sides, dry yellow reeds and grass, a low grassy ridge rising to the north, thin moonlight, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_008_steppe_ep1",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 18,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_008_steppe",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. Open yellow steppe south-east of the Liao River in early spring: dry knee-high yellow grass bending in one direction under constant wind, low rolling grassy hills, drifting yellow dust, a column of black smoke from a burned village far on the horizon, cold pale grey sky, no trees, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_003_steppe_d1",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 17,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_003_steppe",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. Open flat steppe of dry knee-high yellow grass to the horizon under a cold pale grey sky, grass bending in one direction under constant wind, drifting yellow dust, no trees, no hills, no buildings, a fifty-meter stub of modern asphalt road ending abruptly in the grass as if cut with a knife, modern South Korean army vehicles in three-tone green-brown-black camouflage parked on it, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_boy_scout_ref",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 13,
+  "out_dir": "05_references/characters",
+  "used_by_extra": "BOY_SCOUT",
+  "body": {
+   "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. 17-year-old Goguryeo boy scout, thin small build, sun-browned round face, large frightened dark eyes, cracked lips, black hair tied under a brown cloth headband, coarse undyed brown hemp jacket with crossed collar and white border, wide trousers bound at the ankles, straw sandals, short composite bow, hip quiver, yellow dust on face and clothes. Bow held loosely in the left hand, arrow in the right hand, in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "3:4"
+  }
+ },
+ {
+  "id": "WPN_102_ref",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 12,
+  "out_dir": "05_references/vehicles",
+  "used_by_extra": "GOG_INFANTRY / GOG_ARCHERS",
+  "body": {
+   "prompt": "Product-style reference photo of two Goguryeo foot soldiers of 612 AD standing side by side, three-quarter view: left, a spearman — iron lamellar armor over a brown jacket, iron plate helmet with a short plume, long spear, round wooden shield with an iron boss, a black three-legged crow banner on a tall pole; right, an archer — iron lamellar armor over a brown jacket, iron plate helmet, drawing a short composite reflex bow wrapped in dark cherry bark, hip quiver of grey-fletched arrows, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_010_wide",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 9,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_010",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A frozen dirt road at night between low hills of dark pine forest in the Korean highlands in winter: frost on the ruts, patches of old snow under the pines, bare oak among the pines, a cold blue-grey night sky, no power lines, no buildings, no lights except vehicle headlights, no people in frame, no modern structures other than the listed vehicles, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_sui_vanguard_general_ref",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 4,
+  "out_dir": "05_references/characters",
+  "used_by_extra": "SUI_VANGUARD_GENERAL",
+  "body": {
+   "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Chinese man in his mid-50s, heavy broad build, wide fleshy face with thick black brows, long black beard streaked grey to mid-chest, black topknot. Sui mingguang iron lamellar armor with two polished round breast mirrors, red silk cloak, iron helmet with red tassel crest, gilt-hilted straight sword. Helmet on, sword sheathed at the hip, cloak thrown back over the shoulders, in the full-body view. Must look clearly different from any white-bearded general: beard black streaked with grey, mid-50s. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "3:4"
+  }
+ }
+]
