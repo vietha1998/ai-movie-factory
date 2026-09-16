@@ -41,7 +41,7 @@
 **EN:** 612 AD: The Siege of Liaodong — A K2 Tank and K21 IFVs Against Sui Siege Towers | Salsu 612 – Ep. 2
 **Thumbnail text:** `요동성: 공성탑을 부숴라` + nhãn đỏ `살수 612`
 **Thumbnail moment:** tường đá Goguryeo có 치, K2 nòng pháo nhô qua lỗ châu mai đá, hậu cảnh tháp công thành gỗ 8 bánh cháy, quân Tùy dày đặc.
-Dự phòng: (a) 612년 요동성, 수나라 공성탑 20대 vs 박격포 2문과 전차 1대 · (b) 요동성 612: 밤에 불화살이 연료통을 노렸다
+Dự phòng: (a) 612년 요동성, 수나라 공성탑 40대 vs 박격포 2문과 전차 1대 · (b) 요동성 612: 밤에 불화살이 연료통을 노렸다
 
 ## 3화 「남하」
 **KO:** 612년, 연료가 바닥난 중대의 400km 남하 — 압록수를 건너는 수나라 별동대 30만 | 살수 612 – 3화
