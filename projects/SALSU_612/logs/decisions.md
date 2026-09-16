@@ -45,3 +45,8 @@
 - **P-43** 탁발흠: theo LOCK (không áo choàng da sói); script 1화 giữ nguyên chữ, veo bỏ qua chi tiết áo choàng. Không đổi lock.
 - **P-39** PROP_004 placeholder → thay bằng lock EQP_001; derived CHAR_205_nvg_ep3 thêm "strapped over fur-lined helmet".
 - DUYỆT 8 ref mới (LOC_003_hollow_d1, LOC_003_ford_night, LOC_008_steppe_ep1, LOC_003_steppe_d1, LOC_010_wide, EXTRA_boy_scout_ref, WPN_102_ref, EXTRA_sui_vanguard_general_ref) + 30 sub-lock → veo-agent ghi 05_references/extra/ref_jobs_ep1_extra.json và world-designer nhập sub-lock vào bible sau.
+
+## 2026-09-16 · sau script-writer 4화 v1 (P-38…P-52 của ep4)
+- P-38 을지문덕 biết tiếng K2 qua báo 해모루 một ngày sau (địa lý 80 km) → CHẤP NHẬN. P-39 open loop "쇠수레/보름째" → OK. P-40 kẻ thoát chốt gác = 탁발흠 bị chém cẳng tay → OK (derived state 5화: băng tay). P-41 hậu quân 5천 + cũi 태오 bờ nam → OK. P-43 dầu làm tròn 20 km "산길 기준" → OK. P-45/46/49 → OK.
+- P-50 giữ 287 SC / 40:00. P-51 giữ 2 câu narrator. SC_128 (2 câu thoại/1 SC: 통역+태오) → ngoại lệ chấp nhận, veo tách 2 beat trong clip.
+- P-44 ledger radio cuối 4화 = 40% → world-designer sửa khi cập nhật ledger v3 (gom sau khi cả 5 tập xong).
