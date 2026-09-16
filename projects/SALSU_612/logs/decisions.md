@@ -73,3 +73,11 @@
 - DUYỆT đề xuất #1 2-BEAT ×6–8 P7/P10 · #2 bộ đếm 잔탄 08→07→06 overlay khi K2 bắn (ghi [OVERLAY] cho edit) · #3 해모루 bấm radio "한 대장, 여기는 해모루. 나각 부오." trước tù và.
 - Benchmark #5 từ nay ghi 2 số: combat KHỐI / combat THUẦN.
 - Toàn bộ FIX (16) + NOTE ≤1 dòng: áp dụng.
+
+## 2026-09-16 · sau QC 2화 (logs/qc_ep2_script.md) → v2
+- ★ BLOCK thung lũng: 1화 v3 đã cho 탁발흠 biết thung (SC_169/175) → 2화 đổi câu hỏi "tìm ra đâu" → "tìm ra đánh cái gì / vì sao chưa đánh" (hệ thống Tùy + "nước đen") — dùng câu KO thay thế của QC. Outline P2/P7 ghi chú lệch (không sửa outline, ghi proposals).
+- ★ BLOCK cổng đông "반 미터": thêm beat 을보 + thợ đá đục rộng cổng trong 3 ngày + đắp dốc → K2 vào thành (payoff hình ảnh) — không tăng SC (thay still/đứng nói).
+- ★ FIX 100일치 쌀 ở 4월 → thay bằng thảm họa tiếp vận 탁군–요하 [史]; lương 100 ngày giữ cho 3화.
+- Dầu: phương án **A** (350/300, ledger K2 cuối 2화 = 300; K21 † hạ) + 박기철 nói vì sao chỉ 400 km ("장갑차는 바닥, 트럭은 반, 드럼 하나").
+- Mặt thành bị công = nam + đông-nam → world-designer khóa vào location_bible LOC_002 trước veo-stage.
+- Toàn bộ 11 FIX + NOTE ≤1 dòng: áp dụng. Đề xuất hay-hơn #1–#3: DUYỆT.
