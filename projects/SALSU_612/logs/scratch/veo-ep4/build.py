@@ -109,7 +109,7 @@ DERIVED = {
     "CHAR_006_raid_hemp_ep4": ("CHAR_006", "CHAR_006_night_raid_ep4",
         "No hat, wet hair plastered down, entire face blackened with mud camouflage except the eyes, fixed-blade knife in right hand, hemp cord bracelet on left wrist, soaked uniform, crouched posture. Disguised over the uniform in a coarse undyed hemp Goguryeo jacket with a dark cloth tied over the head, straw sandals."),
     "CHAR_101_rain_ep4": ("CHAR_101", "CHAR_101_salsu_rain_ep5",
-        "Full armor and cloak soaked with rain, plume feathers heavy and dripping, mud on the boots, water droplets on the beard, mounted on a dark warhorse in iron lamellar barding."),
+        "Full armor and cloak soaked with rain, plume feathers heavy and dripping, mud on the boots, water droplets on the beard."),
     "CHAR_102_hall_ep4": ("CHAR_102", "CHAR_102_wall_night_ep4",
         "A heavy black wool cloak over the crimson robe, crown unchanged, seated on the black lacquered throne, face lit warm from one side by oil lamps."),
     "CHAR_103_rain_ep4": ("CHAR_103", "CHAR_103_ref",
