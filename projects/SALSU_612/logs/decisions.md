@@ -91,3 +91,11 @@
 - Narrator KHÔNG giải thích công nghệ ("테르밋 삼천 도" → bỏ số, giữ hình).
 - DUYỆT hay-hơn: #1 SC_222 thêm N "불보다 사람을 먼저 세었습니다" (Phase 3 = sai lầm thật của 한승우); #2 박기철 nói giới hạn lội 1,2 m → sông làm K2 tắt máy (không phải người); #3 trả 나각 3 hồi bằng 2-BEAT SC_208/211; 양제 có xe 15 ngày không chạm tới khi tin thảm bại.
 - Dầu SC_057: phương án A (khớp ledger 20 km → 300 m cuối). SC_252 → video truy kích 압록 [史] (P-47 DUYỆT). Toàn bộ 16 FIX + NOTE ≤1 dòng: áp dụng.
+
+## 2026-09-16 · sau QC 3화 (logs/qc_ep3_script.md) → v2
+- BLOCK SC_130: bài học 탁발흠 (chim ăn trên lưng xe / mắt đêm đứng yên) dời về thung lũng 요동성 2화 (12 ngày rình) — sửa 1 N + 1 [ACTION].
+- ★ SC_070/078: 우중문 NHẬN RA 뇌군 (đã nghe ở 2화) → động cơ vượt sông; outline P4 ghi proposals.
+- ★ SC_015/034/042: đại quân 70리/ngày; "사백" nói ở D3 → ledger ghi gom ≈430 trước khi chạy 30 km (giữ câu "400km 딱").
+- **TTS density**: cắt ~570 어절 narration ở SC 8 s chứa >22 어절 (ưu tiên P7) → mục tiêu ≤115 어절/phút; quy tắc mới vào SCRIPT_BRIEF: **video8s ≤22 어절 (N+thoại), still ≤45**; script-writer phải in bảng 어절/SC vượt ngưỡng.
+- 5 mốc thời gian theo bảng D; SC_170 hướng 3 척후; 한승우→해모루 "하십시오"; APU K2: xe "ngủ" vẫn có thể bắn (sửa tiền đề: tắt máy để giấu nhiệt/tiếng, không phải không bắn được); "ném lương xuống sông" → "chôn" [史]; "7 trận/ngày" bỏ khỏi 3화 (để 4화); 해모루 cười lần đầu → bỏ "lần đầu".
+- DUYỆT hay-hơn #1 (lấp 4:32 bằng 소년 척후 chạm 2 척후 Tiên Ti, đổi SC_178) · #2 (drone bay 10/14 phút, "돌아올 몫" → RTH rơi vào tay địch) · #3 (탁발흠 đếm "넷." + N "밤눈도 밥을 먹는다"). Toàn bộ 20 FIX + NOTE ≤1 dòng.

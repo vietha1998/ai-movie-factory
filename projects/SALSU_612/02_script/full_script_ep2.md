@@ -1032,7 +1032,7 @@ N: 우는 쇠는 몇 발이냐고 물었던 사람이었습니다. 쇠수레에�
 [ACTION-VI] 박기철 giơ hai bàn tay băng như định đếm ngón, không đếm được, nói số thẳng; ánh mắt rời nòng sang que đo dầu cắm ở nắp thùng dầu.
 [SOUND] băng cọ, gió.
 N: 박기철은 모든 것을 말했습니다. 숨길 이유가 없었습니다. 그 사람은 어차피 세고 있었습니다.
-박기철: 스물두 발. 기름은 삼백육십.
+박기철: 스물두 발. 기름은 삼백오십.
 
 ### SC_163 · LOC_003_CHEONDUNG_BASE (bên K2) · CHAR_101 · VEH_001 · video8s · 22:24–22:32
 [ACTION-VI] 을지문덕 quay nhìn về phía dải đồi che thành, nơi tiếng trống dội lại; đặt ngón tay lên hông tháp pháo, hỏi tiếp.
@@ -1071,7 +1071,7 @@ N: 산길로 온 소식은 하나 더 있었습니다. 황제의 눈이 성에�
 을지문덕: 황제가 성을 돌아갈 군사를 모으고 있소. 수는 모르오.
 
 ### SC_169 · LOC_003_CHEONDUNG_BASE (bên K2) · CHAR_101, CHAR_001 · VEH_001 · video8s · 23:12–23:20
-[ACTION-VI] 을지문덕 đặt lại bàn tay lên tháp pháo — lần thứ hai và cuối cùng hôm nay — nói với 한승우 điều kiện, mắt vào mắt.
+[ACTION-VI] 을지문덕 gõ hai ngón tay lên váy xích K2 — không đặt tay — rồi nói với 한승우 điều kiện, mắt vào mắt.
 [SOUND] tay trên thép, gió.
 N: 그는 쇠수레를 쓰라고 했습니다. 그리고 수를 정했습니다. 판의 주인이 말의 걸음을 정했습니다.
 을지문덕: 다음 공성 때 쇠수레를 쓰시오. 열 발만.
@@ -1085,7 +1085,7 @@ N: 한승우는 조상의 수를 받았습니다. 스물두 발 중 열 발. 그
 ### SC_171 · LOC_003_CHEONDUNG_BASE (K2, cận — ken-burns) · CHAR_101 (tay) · VEH_001, VEH_002 · still_kenburns · 23:28–23:38
 [ACTION-VI] Ảnh cận: bàn tay gầy của 을지문덕 đặt trên góc tháp pháo K2 ba màu; nền mờ: xác 천둥 4 đen. Ken-burns kéo ra từ bàn tay tới xác xe.
 [SOUND] gió, im.
-N: 그는 쇠수레를 두 번 만졌습니다. 오늘이 처음이었습니다. 마지막은 강가에서일 것이었습니다. 그는 그것을 아직 몰랐습니다.
+N: 그는 오늘 쇠수레를 한 번 만졌습니다. 다음은 강가에서일 것이었습니다. 그는 그것을 아직 몰랐습니다.
 
 ### SC_172 · LOC_003_CHEONDUNG_BASE (bảng đếm — ken-burns) · — · — · still_kenburns · 23:38–23:48
 [ACTION-VI] Ảnh cận: bảng gỗ chữ phấn nét trẻ (태오): K21 2 · 드럼 1 · 드론 2 · 항생제 0 · 포탄 22 — và ở góc, một số "10" khoanh tròn hai vòng. Ken-burns đẩy vào số 10.
@@ -1196,7 +1196,7 @@ N: 넷이 왔고, 셋이 돌아갔습니다. 불은 항아리째 깨졌습니다
 [ACTION-VI] Sáng: 한승우 đứng bên 천둥 2, chỉ hai K21 rồi chỉ đường mòn — giao thung lũng; 오태민 nghe, mặt đỏ, bước tới một bước.
 [SOUND] gió, xích lạnh.
 N: 어젯밤이 오태민의 자리를 정했습니다. 그는 그 자리를 원하지 않았습니다.
-오태민: 골짜기 지키라고요? 전차 옆에 제가 서야 합니다.
+오태민: 골짜기를 지키란 말씀입니까? 전차 옆은 제 자리입니다.
 
 ### SC_190 · LOC_003_CHEONDUNG_BASE (bên 천둥 2) · CHAR_001 · VEH_002 · video8s · 26:18–26:26
 [ACTION-VI] 한승우 không lùi, không cao giọng; ngón tay chỉ lên sườn đồi nơi đêm qua nồi lửa vỡ.
@@ -1499,14 +1499,14 @@ K3 사수: 총열 교환!
 [COMBAT]
 
 ### SC_237 · LOC_002_YODONGSEONG (치 đông-nam) · CHAR_001 · EQP_002, VEH_001 · video8s · 32:44–32:52
-[ACTION-VI] 한승우 nép sau lan can 치 dưới mưa nỏ, ngẩng nhìn dọc tường về cụm hai tháp và xe thang đang dồn vào lỗ hổng; bấm radio, mặt bụi đá.
-[SOUND] nỏ đập đá, PTT.
+[ACTION-VI] 한승우 nép sau lan can 치 dưới mưa nỏ, ngẩng nhìn dọc tường về cụm hai tháp và xe thang đang dồn vào lỗ hổng; bấm radio, mặt bụi đá — câu vừa dứt, nòng K2 bên ông xoay về phía tây và hai phát nối nhau (viên 7–8) dội xuống cụm tháp, bụi 치 bay. 
+[SOUND] nỏ đập đá, PTT, hai "쾅" cách nhau sáu giây, máy nạp đạn.
 [COMBAT]
 한승우: 천둥 1, 무너진 벽 앞 탑. 네 발.
 
 ### SC_238 · LOC_002_YODONGSEONG (cụm tháp trước lỗ hổng) · lính Tùy · VEH_001, VEH_201 · video8s · 32:52–33:00
-[ACTION-VI] Hai phát K2 nối nhau quét dọc tường về phía tây: hai tháp phủ đất vỡ, xe thang tan, đống đá trước lỗ hổng bốc thành cột đất; bộ binh Tùy trên đống đá tản ngược xuống hào. Insert cuối: bộ đếm trong xe — 12. Wide rồi insert.
-[SOUND] bốn "쾅", đất đá, trống Tùy rối.
+[ACTION-VI] 2-BEAT (4 s + 4 s): (a) wide — viên 9 và 10 cách nhau sáu giây: tháp phủ đất thứ hai vỡ, xe thang tan, đống đá trước lỗ hổng bốc thành cột đất, bộ binh Tùy tản ngược xuống hào; (b) insert trong xe — bộ đếm "잔탄 12", 포수 buông tay khỏi cò.
+[SOUND] hai "쾅", đất đá, trống Tùy rối, máy nạp đạn im.
 [COMBAT]
 
 ### — Phase 5 · 고구려가 메우다 / Goguryeo gánh (33:00–34:04) —
@@ -1519,10 +1519,10 @@ N: 열 발은 끝났습니다. 구멍은 아직 열려 있었습니다. 구멍�
 고정수: 창을 세워라! 한 걸음도 안 된다!
 
 ### SC_240 · LOC_002_YODONGSEONG (cổng bắc) · CHAR_105, kỵ Goguryeo · VEH_101, PROP_018 · video8s · 33:08–33:16
-[ACTION-VI] Cổng bắc mở: 해모루 thổi tù và một hồi, dẫn ba trăm kỵ binh giáp ngựa lao ra, vòng theo chân tường đông về phía tổ người đẩy tháp bên ngoài lỗ hổng, giáo dài hạ ngang. Aerial thấp theo đầu đoàn.
+[ACTION-VI] Cổng bắc mở: 해모루 thổi tù và một hồi, dẫn ba trăm kỵ binh giáp ngựa lao ra, vòng theo chân tường đông — mặt không có địch — xuống góc đông-nam, đánh vào sườn tổ người đẩy tháp bên ngoài lỗ hổng, giáo dài hạ ngang. Aerial thấp theo đầu đoàn.
 [SOUND] tù và, vó ngựa như sấm, giáp.
 [COMBAT]
-N: 해모루의 삼백 기가 북문으로 나갔습니다. 탑을 미는 자들의 옆구리였습니다.
+N: 해모루의 삼백 기가 북문으로 나갔습니다. 적이 없는 동쪽을 돌아, 탑을 미는 자들의 옆구리로.
 
 ### SC_241 · LOC_003_CHEONDUNG_BASE (nóc 천둥 2) · CHAR_002 · VEH_002 · video8s · 33:16–33:24
 [ACTION-VI] Thung lũng: 오태민 trên nóc 천둥 2 nghe tù và và tiếng đá đổ dội qua đồi; ông nhìn 천둥 3 (giữ lại), nhìn đường mòn — rồi chui xuống cửa nóc, lệnh nội bộ xe. Xe nổ máy vọt lên đường mòn.
@@ -1531,11 +1531,11 @@ N: 해모루의 삼백 기가 북문으로 나갔습니다. 탑을 미는 자들
 N: 오태민은 골짜기를 맡았습니다. 골짜기는 조용했고, 북문은 아니었습니다. 그는 두 번째로 명령을 어겼습니다.
 오태민: 조종수, 북문. 말객 옆에 선다.
 
-### SC_242 · LOC_002_YODONGSEONG (ngoài cổng bắc, chân tường đông) · CHAR_002, kỵ Goguryeo · VEH_002, VEH_101, VEH_201 · video8s · 33:24–33:32
-[ACTION-VI] 천둥 2 vọt ra cạnh đoàn kỵ Goguryeo đang đâm vào sườn đám người đẩy tháp; tháp pháo 40mm xoay, bắn loạt dài vào chân hai tháp còn lại phía bắc lỗ hổng — người đẩy tản, tháp đứng chết; kỵ Goguryeo phi qua khoảng trống. Tracking ngang.
+### SC_242 · LOC_002_YODONGSEONG (góc đông-nam ngoài tường, bãi tháp) · CHAR_002, kỵ Goguryeo · VEH_002, VEH_101, VEH_201 · video8s · 33:24–33:32
+[ACTION-VI] 천둥 2 vọt ra cạnh đoàn kỵ Goguryeo đang đâm vào sườn đám người đẩy tháp; tháp pháo 40mm xoay, bắn loạt dài vào chân hai tháp còn lại phía tây lỗ hổng — người đẩy tản, tháp đứng chết; kỵ Goguryeo phi qua khoảng trống. Tracking ngang.
 [SOUND] 40mm loạt dài, vó ngựa, giáo.
 [COMBAT]
-N: 예순 발. 어긴 명령이 제때 왔습니다. 그것이 문제였습니다.
+N: 오 분 뒤, 천둥 2가 동남쪽 모퉁이로 나왔습니다. 예순 발. 어긴 명령이 제때 왔습니다. 그것이 문제였습니다.
 
 ### SC_243 · LOC_002_YODONGSEONG (lỗ hổng) · CHAR_104, giáo Goguryeo, lính Tùy · — · video8s · 33:32–33:40
 [ACTION-VI] Trong lỗ hổng: hàng giáo Goguryeo tiến từng bước lên đống đá, đẩy hàng khiên Tùy lùi xuống hào; khói PZF còn bay; 고정수 ở hàng đầu, giáo gãy, rút kiếm ngắn. Trung cảnh.
@@ -1565,7 +1565,7 @@ N: 그는 이기고 있는 쇠수레를 내렸습니다. 열두 발은 다른 �
 을지문덕: 그럼 이제 내려가시오. 그건 여기 것이 아니오.
 
 ### SC_247 · LOC_002_YODONGSEONG (đồng bằng hoàng hôn — ken-burns) · — · VEH_201, WPN_201 · still_kenburns · 34:04–34:14
-[ACTION-VI] Ảnh: hoàng hôn hổ phách qua bụi: tháp cháy rải khắp đồng phía đông và nam, một tháp đổ tựa tường đông, xe húc đen trên đường đắp; cột quân Tùy lùi về phía biển lều; kỵ Goguryeo quay về cổng bắc. Ken-burns kéo ra rất chậm.
+[ACTION-VI] Ảnh: hoàng hôn hổ phách qua bụi: tháp cháy rải khắp đồng phía nam và đông-nam, một tháp đổ tựa tường nam gần góc, xe húc đen trên đường đắp cổng nam; cột quân Tùy lùi về phía biển lều; kỵ Goguryeo quay về cổng bắc. Ken-burns kéo ra rất chậm.
 [SOUND] lửa, trống rút, vó ngựa về.
 [COMBAT]
 N: 해가 졌습니다. 세 번째 공성이 끝났습니다. 탑 아홉이 벌판에서 탔습니다. 담 하나가 무너졌고, 창으로 막혔습니다. 성은 섰습니다.
@@ -1590,7 +1590,7 @@ N: 성은 버텼습니다. 황제는 그날 밤 다른 지도를 펼쳤습니다
 > Tóm tắt VI: Đêm 6월 11: lỗ hổng vá bằng chính đá của dốc đất — thành "ăn" dốc; xác lính Goguryeo xếp trên tường dưới vải. 을보: "이 돌은 성 돌이야. 제자리로 간다." Tên Tùy từ tối bắn quấy tổ vá — 소년 척후 bắn trả (mini). Lính bỏng nặng sống nhờ thuốc 을보 nhưng ngón tay không nắm được súng. 박기철: "포탄 열두 발. 박격포 예순. PZF 열둘. 40밀리 이백이십." · "전차, 어제 하루 오십 킬로 몫 먹었습니다. 삼백십." 육합성 [史]: 우중문 (hiếu chiến) và 우문술 (thận trọng) lần đầu: "평양이 떨어지면 요동은 저절로 떨어집니다." — "백 일치 군량을 누가 집니까?" — 양제: "아홉 군. 삼십만 오천. 평양으로 가라." + "뇌군도 남쪽으로 갈 것이다. 탁발흠은 따라붙어라." Ở lỗ hổng, 을지문덕 vẽ đường trên đất bằng que: 요동 — 압록 — 평양: "성은 버티오. 문제는 평양이오." — "나와 같이 남쪽으로 가시오." Aerial: 9 quân chảy về đông dưới trăng; 소년 척후 trên tường nhìn dòng đen. "삼십만 오천 명이 동쪽으로 떠났습니다. 그들의 등에는 백 일치 쌀이 있었습니다. — 아직은."
 > Chức năng: CONSEQUENCE · Combat mini: SC_252 · Tài nguyên nói thành lời: "포탄 열두 발 · 박격포 예순 · PZF 열둘 · 40밀리 이백이십 · 전차 삼백십" · lính không cầm súng được · Quyết định lịch sử: 양제 chuẩn 9 quân 30만 5천 [史]; 우중문/우문술 tranh luận [史]; 을지문덕 đổi nhiệm vụ giữ → đi · Open loop: "삼십만 오천 명이 동쪽으로 떠났습니다. 그들의 등에는 백 일치 쌀이 있었습니다. — 아직은."
 
-### SC_250 · LOC_002_YODONGSEONG (lỗ hổng tường đông, đêm — ken-burns) · dân, lính Goguryeo · PROP_016 · still_kenburns · 34:30–34:40
+### SC_250 · LOC_002_YODONGSEONG (lỗ hổng tường nam, đêm — ken-burns) · dân, lính Goguryeo · PROP_016 · still_kenburns · 34:30–34:40
 [ACTION-VI] Ảnh: đêm, đuốc; lỗ hổng 80 m đang được xếp lại bằng những tảng đá tháo từ tường trong — dân và lính chuyền tay từ dốc đất tới lỗ hổng; dốc đất đã bị đào lở một bên; trên mặt tường phía trên, một hàng xác lính Goguryeo dưới vải gai, giáo dựng đầu mỗi người. Ken-burns từ hàng vải gai xuống dòng người chuyền đá.
 [SOUND] đá, đuốc, không tiếng người.
 N: 그날 밤 성은 언덕을 먹었습니다. 쇠수레가 오른 흙 언덕의 돌이 구멍으로 갔습니다. 담 위에는 마흔 명이 천 밑에 누웠습니다. 성이 낸 값이었습니다. 총이 낸 값은 따로 있었습니다.
@@ -1598,7 +1598,7 @@ N: 그날 밤 성은 언덕을 먹었습니다. 쇠수레가 오른 흙 언덕�
 ### SC_251 · LOC_002_YODONGSEONG (lỗ hổng) · CHAR_106, CHAR_005, thợ đá · PROP_019 · video8s · 34:40–34:48
 [ACTION-VI] 을보 trên đống đá, búa gõ chỉ chỗ; 태오 và một thợ đá Goguryeo khiêng một tảng đá từ dốc tới, đặt vào hàng; 을보 vỗ tảng đá như vỗ ngựa.
 [SOUND] búa, đá đặt, thở.
-N: 을보는 아침에 뺀 돌을 밤에 다시 쌓았습니다. 열 줄이 내려왔고, 열 줄이 올라갔습니다.
+N: 을보는 달포 전에 뺀 돌을 오늘 밤 다시 쌓았습니다. 열 줄이 내려왔고, 열 줄이 올라갔습니다.
 을보: 이 돌은 성 돌이야. 제자리로 간다.
 
 ### SC_252 · LOC_002_YODONGSEONG (mặt tường trên lỗ hổng, đêm) · 소년 척후, cung thủ Goguryeo · WPN_101 · video8s · 34:48–34:56
@@ -1610,7 +1610,7 @@ N: 수나라는 밤에도 화살을 보냈습니다. 담을 고치지 못하게 
 ### SC_253 · LOC_003_CHEONDUNG_BASE (lều quân y) · CHAR_004, lính bỏng · WPN_001 · video8s · 34:56–35:04
 [ACTION-VI] Lều quân y: lính bỏng nặng ngồi dậy, cánh tay băng kín tới vai, cố nắm báng súng K2C1 dựng bên cáng — ngón tay không khép lại được; 서아 nhẹ nhàng gỡ khẩu súng ra, đặt xuống, giọng 해요.
 [SOUND] băng cọ, súng đặt xuống.
-N: 을보의 약은 들었습니다. 두 사람은 살았습니다. 손가락은 아직 아니었습니다. 살아 있으나 총을 못 드는 사람이 둘 생겼습니다. 어제 담에서 넷이 더 다쳤습니다.
+N: 을보의 약은 들었습니다. 두 사람은 살았습니다. 손가락은 아직 아니었습니다. 살아 있으나 총을 못 드는 사람이 둘 생겼습니다. 오늘 담에서 넷이 더 다쳤습니다.
 윤서아: 살았어요. 총은… 나중에요.
 
 ### SC_254 · LOC_003_CHEONDUNG_BASE (hàng xe, đêm) · CHAR_003, CHAR_001 · VEH_001, VEH_002 · video8s · 35:04–35:12
@@ -1622,8 +1622,8 @@ N: 박기철은 오늘도 줄어든 것만 읽었습니다. K3는 천이백 발�
 ### SC_255 · LOC_003_CHEONDUNG_BASE (bên K2) · CHAR_003 · VEH_001 · video8s · 35:12–35:20
 [ACTION-VI] 박기철 dừng ở K2, rút que đo dầu bằng hai bàn tay băng vụng về, giơ lên đèn: vệt ướt thấp hơn lần trước rõ rệt; ông nhìn que rồi mới nói.
 [SOUND] que kim loại, đèn.
-N: 언덕을 오르고, 하루 종일 시동을 켜 두었습니다. 쏘지 않는 시간에도 기름은 갔습니다.
-박기철: 전차, 어제 하루 오십 킬로 몫 먹었습니다. 삼백십.
+N: 불이 난 뒤로 점검 시동은 끊었습니다. 오늘은 언덕을 오르고, 하루 종일 시동을 켜 두었습니다. 쏘지 않는 시간에도 기름은 갔습니다.
+박기철: 전차, 오늘 하루 오십 킬로 몫 먹었습니다. 삼백.
 
 ### SC_256 · LOC_004_YUKHAPSEONG (육합성 đêm — ken-burns) · — · PROP_021 · still_kenburns · 35:20–35:30
 [ACTION-VI] Ảnh: 육합성 ban đêm từ trên cao — tường vải giả gạch, lầu canh đỏ, điện vàng sáng đèn lồng giữa biển lửa trại; đường từ cổng nam ra bãi tháp cháy còn đỏ. Ken-burns đẩy vào điện vàng.
@@ -1685,7 +1685,7 @@ N: 임무는 바뀌었습니다. 지키는 것에서 가는 것으로.
 ### SC_266 · LOC_002_YODONGSEONG (lỗ hổng, trong thành) · CHAR_001 · PROP_015 · video8s · 36:44–36:52
 [ACTION-VI] 한승우 nhìn đường vạch trên đất — ba chấm, đường dài; tay phải chạm vào mũi tên trong túi ngực; không trả lời — nhìn về phía thung lũng tối sau tường. Máy đẩy chậm vào mặt.
 [SOUND] gió, đá xa.
-N: 한승우는 대답하지 않았습니다. 그의 머릿속에는 숫자 하나가 있었습니다. 박기철의 숫자였습니다. 삼백십.
+N: 한승우는 대답하지 않았습니다. 그의 머릿속에는 숫자 하나가 있었습니다. 박기철의 숫자였습니다. 삼백.
 
 ### SC_267 · LOC_002_YODONGSEONG (aerial đêm trăng — ken-burns) · — · WPN_201 · still_kenburns · 36:52–37:02
 [ACTION-VI] Ảnh aerial đêm trăng: từ biển lều phía tây, chín cột quân đen kịt chảy về phía đông vòng qua phía nam thành như một dòng sông tối dưới trăng, đuốc thưa; thành là một hòn đảo im. Ken-burns kéo ra rất chậm.
@@ -1724,10 +1724,10 @@ N: 골짜기에는 아직 쇠가 많았습니다. 전차 하나, 장갑차 둘, 
 N: 여섯 개의 막대였습니다. 여섯 대의 기름이었습니다. 박기철은 그것을 한 줄로 놓았습니다. 한 줄로 놓으면 답이 보였습니다.
 
 ### SC_273 · LOC_003_CHEONDUNG_BASE (đất trần trước K2) · CHAR_003, CHAR_001, CHAR_002 · VEH_001 · video8s · 37:48–37:56
-[ACTION-VI] 박기철 quỳ, cán búa vạch lên đất một đường dài với ba chấm — chấm đầu, chấm giữa, chấm cuối — rồi bước dọc đường vạch đếm bước; 한승우 và 오태민 đứng nhìn; đèn pin che tay chiếu xuống đất.
+[ACTION-VI] 박기철 quỳ, cán búa vạch lên đất một đường dài với ba chấm — chấm đầu, chấm giữa, chấm cuối — rồi cầm từng que đo trên nắp K2 giơ lên: que K21 khô gần hết, que xe tải ướt nửa, que phuy; đặt xuống theo hàng; 한승우 và 오태민 đứng nhìn; đèn pin che tay chiếu xuống que.
 [SOUND] cán búa trên đất, bước chân, gió.
-N: 요동성. 압록수. 청천강. 을지문덕이 물은 강이었습니다. 박기철은 이제 왜 물었는지 알았습니다.
-박기철: 전차에 삼백. 나머지 다 짜면 사백.
+N: 요동성. 압록수. 청천강. 을지문덕이 물은 강이었습니다. 박기철은 이제 왜 물었는지 알았습니다. 두 달 동안 장갑차는 밤마다 시동으로 기름을 태웠습니다.
+박기철: 장갑차는 바닥, 트럭은 반, 드럼 하나. 다 짜면 사백.
 
 ### SC_274 · LOC_003_CHEONDUNG_BASE (đất trần trước K2) · CHAR_003 · VEH_001 · video8s · 37:56–38:04
 [ACTION-VI] 박기철 đứng ở chấm cuối đường vạch, quay lại nhìn 한승우 qua khoảng đất, nói con số như đã nói mọi con số — không cao, không thấp.
@@ -1793,8 +1793,8 @@ N: 탁발흠은 명령을 받았습니다. 따라붙어라. 그는 명령을 제
 [SOUND] gió, im.
 N: 두 달 전 전차는 한 번도 울지 않았습니다. 이제 열 번 울었습니다. 열두 발. 삼백 킬로. 아흔네 명. 그리고 사백 킬로의 남쪽. 이 숫자들이 다음 길이었습니다.
 
-### SC_286 · LOC_002_YODONGSEONG (tường đông, đêm — ken-burns) · — · PROP_012 · still_kenburns · 39:42–39:51
-[ACTION-VI] Ảnh: tường đông đêm: lỗ hổng đã xếp kín bằng đá sáng màu của dốc đất, cờ 삼족오 cắm trên đó; 치 đông-nam trống, khe đục rộng còn đen bồ hóng; thành im. Ken-burns kéo ra từ khe đục tới lá cờ.
+### SC_286 · LOC_002_YODONGSEONG (tường nam gần góc đông-nam, đêm — ken-burns) · — · PROP_012 · still_kenburns · 39:42–39:51
+[ACTION-VI] Ảnh: tường nam đêm, gần góc đông-nam: lỗ hổng đã xếp kín bằng đá sáng màu của dốc đất, cờ 삼족오 cắm trên đó; 치 đông-nam trống, khe đục rộng còn đen bồ hóng; thành im. Ken-burns kéo ra từ khe đục tới lá cờ.
 [SOUND] cờ đập gió, im.
 N: 요동성은 그해 여름 끝까지 섰습니다. 성은 버텼습니다. 문제는 남쪽이었습니다.
 

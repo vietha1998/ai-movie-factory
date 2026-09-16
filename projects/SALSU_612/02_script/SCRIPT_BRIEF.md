@@ -10,6 +10,9 @@
 ## Spec S40 (cứng)
 38–42 phút · 12 phần theo outline · 250–290 SC (video8s 8 s + still_kenburns 6–12 s) · narration KO 격식체 **≥3.500 어절** (≤15 어절/câu) phủ ~70% · thoại 120–160 câu (≤12 어절, ≤1 câu/SC) · 0–30 s KHÔNG narrator · 1–2 vùng narrator im ở đỉnh trận (60–90 s) · [MID-ROLL] sau open loop nhỏ · [END CARD] · **combat ≥30% runtime, ≥5 khối** (mini-combat 20–40 s ở các phần chính trị/hậu cần để không có khoảng >4 phút không action) · **0–30 s ≥5 shot** (dùng 2-BEAT trong clip nếu cần).
 
+## Ngân sách đọc TTS (cứng — từ QC 3화)
+- video8s: N + thoại **≤22 어절**/SC · still 6–12 s: **≤45 어절** · toàn tập **≤115 어절/phút** (narration+thoại). Script-writer in bảng SC vượt ngưỡng ở phụ lục và phải = 0.
+
 ## Định dạng (giống ep1 v3)
 Header: runtime · tổng shot · mid-roll · **BẢNG NGÀY/ĐÊM** (ngày N · buổi · SC từ–đến · sự kiện [史] cùng ngày) — mọi câu "X일째/이틀 뒤/간밤에" phải khớp bảng.
 `## [Phần X] tên KO / VI (phút)` + tóm tắt VI + chức năng/tài nguyên/open loop → `### SC_nnn · LOC · CHAR · VEH · video8s|still_kenburns · t1–t2` + `[ACTION-VI]` + `[SOUND]` + `N:` + `TÊN: thoại` → `[Kết thúc Phần X]`. Cuối file: bảng thống kê tự đếm (SC, video/still, giây, câu thoại, 어절 N, **combat giây/%**, câu vi phạm) + tự kiểm 7 mục + nhật ký diễn giải ngoài outline.
