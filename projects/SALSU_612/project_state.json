@@ -34,21 +34,21 @@
     "prop_bible": "DONE",
     "outline": "DONE (ep1-5)",
     "full_script": {
+      "ep1": "DONE v3 (QC-fixed)",
+      "ep2": "IN_PROGRESS",
+      "ep3": "IN_PROGRESS",
+      "ep4": "IN_PROGRESS",
+      "ep5": "IN_PROGRESS"
+    },
+    "description": {
       "ep1": "IN_PROGRESS",
       "ep2": "PENDING",
       "ep3": "PENDING",
       "ep4": "PENDING",
       "ep5": "PENDING"
     },
-    "description": {
-      "ep1": "PENDING",
-      "ep2": "PENDING",
-      "ep3": "PENDING",
-      "ep4": "PENDING",
-      "ep5": "PENDING"
-    },
     "veo_scenes": {
-      "ep1": "PENDING",
+      "ep1": "IN_PROGRESS",
       "ep2": "PENDING",
       "ep3": "PENDING",
       "ep4": "PENDING",
@@ -68,6 +68,9 @@
       "vehicles": 25,
       "props": 16,
       "characters": 59
+    },
+    "qc": {
+      "ep1_script": "DONE (v1 → v3)"
     }
   },
   "blockers": [
