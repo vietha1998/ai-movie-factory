@@ -1,0 +1,287 @@
+[
+ {
+  "id": "LOC_007_k2_reeds_ep5",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 73,
+  "out_dir": "05_references/locations",
+  "used_by": "K2 trát bùn cắm lau ở mép bãi lau bờ bắc cách cổng họng 300 m (P1–P9)",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. At the edge of the dense reed bed on the north bank three hundred meters from the throat of the ford, monsoon rain: a K2 tank caked in cracked grey mud and stuck with reed bundles standing among two-meter grey-green reeds, sandbagged fighting holes at the base of the stalks, a mortar pit and a tripod machine gun under reeds nearby, wet grey-brown sand, brown river water showing through the reeds, river mist. Caked in layers of cracked dry grey mud, wet reed bundles stuck thick over the turret roof and stowage baskets, the gun barrel depressed low and wrapped in reeds, only a corner of the small Korean flag showing under the mud, one headlight smashed, no lights. Grey daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures other than the tank, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_north_line_ep5",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 42,
+  "out_dir": "05_references/locations",
+  "used_by": "tuyến bắc: mép lau gặp bãi cát bắc, hố bao cát nối nhau, K6 giá ba chân phủ lau",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. The north edge of the dense reed bed where the reeds end and a wide wet grey-brown sandflat begins, monsoon rain: a chain of sandbagged fighting holes along the reed edge, a heavy machine gun on a tripod under reeds at one corner, trampled reeds, the sandflat rising to low bare hills in the distance, grey light. Grey daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures other than the sandbags and the tripod machine gun, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_throat_ep5",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 28,
+  "out_dir": "05_references/locations",
+  "used_by": "cổng họng bãi (여울 목): khe 60 m nước ngang ngực giữa bãi lau (tây) và bờ bùn dốc (đông), cọc gỗ nghiêng, KHÔNG có xe",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot from the reed edge, 16:9. The throat of the ford: a sixty-meter gap of chest-deep brown water between a dense reed bed on the west and a steep slick mud bank on the east, the only way up from the wide shallow ford to the north sandflat, a line of leaning wooden ford stakes, monsoon rain, river mist. Grey daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_south_knoll_ep5",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 12,
+  "out_dir": "05_references/locations",
+  "used_by": "gò nam: cỏ ướt, vài cây thông ngả gió, nhìn xuống sông đầy quân",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A grassy knoll on the south bank above a wide shallow river in monsoon rain: wet green grass, a few wind-bent pines, the wide grey river and its sandbars below crowded with crossing troops, low cloud. Grey daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_small_bar_ep5",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 11,
+  "out_dir": "05_references/locations",
+  "used_by": "mô cát nhỏ cạnh cổng họng, xác ngựa Tùy, tên gãy, cờ đỏ ngã",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A small wet grey-brown sandbar beside the throat of the ford, a dead steppe horse lying on it, broken arrows and a fallen red Sui banner in the wet sand, brown river water on three sides, the reed bed behind, rain. Grey daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_gog_deputy_ref",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 9,
+  "out_dir": "05_references/characters",
+  "used_by": "고구려 부장 (~45, râu ngắn đen, giáp dây đỏ, chỏm lông đen)",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Goguryeo deputy commander around 45, broad face with a short black beard and heavy brows, iron lamellar armor laced with red cord over a dark brown jacket, iron plate helmet with a short black plume, ring-pommel sword. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "3:4"
+  }
+ },
+ {
+  "id": "LOC_007_mid_bar_ep5",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 8,
+  "out_dir": "05_references/locations",
+  "used_by": "mô cát giữa sông đầy lính Tùy + cụm cờ quanh tướng cưỡi ngựa, cát lở",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A long low sandbar in the middle of a wide shallow river, empty, brown water rising over its edges, collapsing sand at one end, monsoon rain, grey river mist. Grey daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "PROP_018_ref",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 8,
+  "out_dir": "05_references/props",
+  "used_by": "tù và sừng trâu đen ~50 cm, miệng đồng, dây da",
+  "lock_pending": false,
+  "dup_ep4_extra": true,
+  "body": {
+   "prompt": "Product-style reference photo of a Goguryeo signal horn, three-quarter view: curved black water-buffalo horn trumpet about fifty centimeters long with a bronze mouthpiece and a leather shoulder cord, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_north_hill_ep5",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 7,
+  "out_dir": "05_references/locations",
+  "used_by": "bãi cát bắc → đồi thấp bắc trong mưa, lau thấp chân đồi (2.000 kỵ Tiên Ti)",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A wide wet grey-brown sandflat on the north bank of a shallow river rising to low bare hills, trampled reeds, hoofprints filling with rain, monsoon rain, grey light. Grey daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_aid_ep5",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 7,
+  "out_dir": "05_references/locations",
+  "used_by": "trạm cứu thương sâu trong lau: chiếu lau hàng, mái lau, bát thuốc, băng",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Interior-style establishing reference shot, 16:9. Deep inside the dense reed bed on the north bank, monsoon rain: rows of reed mats laid on wet grey-brown sand under a low roof of bundled reeds, an olive medic bag, clay bowls of crushed herbs, rolled bandages, tall grey-green reeds walling in every side, cold grey-green light. Grey daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "VEH_001_interior_ref",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 5,
+  "out_dir": "05_references/vehicles",
+  "used_by": "nội thất K2 (2 panel: ghế trưởng xe + thị kính + khay máy nạp + màn hình trống · khoang lái yoke + kính tiềm vọng)",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Reference sheet, two panels side by side on one 16:9 image. Left panel: Inside the cramped commander's station of a K2 tank: the commander's seat, a periscope sight with a rubber eyecup, a cold blue-white screen with a small blank readout, the autoloader's steel tray beside the breech, switch panels, the open commander's hatch above letting in grey light and rain, mud on the hatch rim, no readable text. Right panel: Inside the reclined driver's compartment of a K2 tank: a yoke-style steering handle, dark instrument panels with no readable text, three periscope blocks with a slot of grey daylight, the driver's hatch above, steel walls close on every side. Cold blue screen glow and grey daylight, no people, no readable text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_upstream_bar_ep5",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 4,
+  "out_dir": "05_references/locations",
+  "used_by": "mô cát thượng lưu 1,5 km đông, nước tới bụng ngựa, kỵ Goguryeo hàng một",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A hidden crossing one and a half kilometers upstream: a chain of low sandbars under belly-deep brown water between reed beds, willow scrub on the banks, low green hills behind, rain and mist. Grey daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_aftermath_ep5",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 4,
+  "out_dir": "05_references/locations",
+  "used_by": "D+10 nước rút, nắng: bãi cát khô nứt, lạch nông, xác K2 cháy nghiêng",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. The ford days after the battle in sunshine: the river has dropped, wide dry grey-brown sandflats exposed and cracking, the throat of the ford only a shallow channel, a burned tank lying tilted in the sand, broken spears, fallen Sui banners and drying mud everywhere, flattened scorched reeds, birds, a clear pale sky. Clear warm daylight under a pale blue sky, dry cracked mud, hard sunlight, a light breeze, no people in frame, no modern structures other than the burned tank, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_silk_map_ref",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 4,
+  "out_dir": "05_references/props",
+  "used_by": "**LOCK_PENDING** bản đồ lụa 을지문덕 vẽ mực (sông cong, cọc, mô cát, lau tô dày, đồi vảy, chấm son đỏ)",
+  "lock_pending": true,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Product-style reference photo laid flat, top-down, 16:9: a Goguryeo silk map painted in black ink brush strokes: a curving river, a line of small stake marks across a ford, a long mid-river sandbar, the north bank hatched thick for reed beds, scale-like strokes for hills on both banks, one small red cinnabar dot at a gap on the north bank, no readable writing, ivory silk with frayed edges, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_004_yard_rain_ep5",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 3,
+  "out_dir": "05_references/locations",
+  "used_by": "sân 육합성 mưa D+5: cỗ xe gỗ khổng lồ lún bùn chở K21 phủ vải dầu, cờ Tùy",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. The muddy courtyard before the golden pavilion inside the Sui mobile fortress in steady rain: churned mud and standing puddles, timber-and-cloth walls painted grey, red-lacquered watchtowers, wet red and yellow banners, grey felt tents beyond the walls, and in the middle of the yard a giant flat wooden ox cart with its wheels sunk in mud carrying a boxy armored vehicle under a mud-caked oiled cloth cover. Grey daylight in steady rain, flat cold light, wet red and gold surfaces dulled by rain, no people in frame, no modern structures other than the covered vehicle, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_gog_young_rider_ref",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 3,
+  "out_dir": "05_references/characters",
+  "used_by": "고구려 전령 trẻ (~20, không râu, chỏm lông đỏ, ngựa hạt dẻ giáp)",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. A young Goguryeo cavalryman around 20, thin face, no beard, black topknot, iron lamellar armor over a brown jacket, iron helmet with a red plume, ring-pommel sword. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "3:4"
+  }
+ },
+ {
+  "id": "LOC_001_road_west_ep5",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 2,
+  "out_dir": "05_references/locations",
+  "used_by": "đường đất lầy về tây trong mưa, xe bò 40 con kéo cỗ xe khổng lồ",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A muddy dirt road running west across wet yellow-green grassland in grey rain: ruts filled with water, low grey sky, no trees, no buildings, a giant flat wooden cart drawn by forty oxen far along the road. Grey daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "PROP_023_ref",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 2,
+  "out_dir": "05_references/props",
+  "used_by": "biển thép ô-liu 10×25 cm số '3' trắng trầy, 2 lỗ bu-lông, mép cháy sém (SC_168/282 cận)",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Product-style reference photo, three-quarter view: small rectangular olive-drab painted steel vehicle nameplate with a scratched white numeral 3, two bolt holes, scorched edge, about ten by twenty-five centimeters, a loop of black paracord through one bolt hole, dried mud in the scratches, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_k2_driver_ref",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 2,
+  "out_dir": "05_references/characters",
+  "used_by": "조종수 K2 phối thuộc (~28, mặt vuông, mũ crew)",
+  "lock_pending": false,
+  "dup_ep4_extra": false,
+  "body": {
+   "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. A ROK Army tank driver around 28, square face, short black hair, granite-pattern digital camo uniform, body armor, crew helmet with boom microphone held under one arm, Korean flag patch on right shoulder, corporal's rank. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "3:4"
+  }
+ }
+]

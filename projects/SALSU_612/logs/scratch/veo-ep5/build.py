@@ -512,9 +512,10 @@ def build_scene(s, sc):
         "narration_ko": sc["nar"], "dialogue_ko": sc["dlg"], "sound": sc["sound"],
         "continuity": s.get("cont", ""),
         "chain_from": s.get("chain"), "cut_half": bool(s.get("cut", False)),
-        "aerial_quality": quality, "aerial": bool(s.get("aerial", False)), "ai_risk": s.get("risk", ""),
+        "aerial_quality": quality, "aerial": bool(s.get("aerial", False)), "ai_risk": "" if s.get("risk", "") == "—" else s.get("risk", ""),
         "overlay_text": s.get("overlay"),
         "two_beat": bool(s.get("two_beat", False)),
+        "wide_ok": bool(s.get("wide_ok", False)),
         "lock_pending": lock_pending,
         "refs": [] if edit_only else refs,
         "image_body": None if edit_only else {
@@ -629,7 +630,7 @@ def validate(recs):
             for tok in NAMES:
                 if tok in r["image_prompt"] or tok in r["video_prompt"] or (r.get("insert_clip") and tok in r["insert_clip"]["prompt"]):
                     errs.append(f"{r['id']} proper name '{tok}' in prompt")
-            if r["type"] == "video8s" and len(r["chars"]) > 3: errs.append(f"{r['id']} >3 named chars in a clip")
+            if r["type"] == "video8s" and len(r["chars"]) > 3 and not r["wide_ok"]: errs.append(f"{r['id']} >3 named chars in a clip")
             if r["type"] == "video8s" and len(r["dialogue_ko"]) > 2: errs.append(f"{r['id']} >2 speakers")
         if r["chain_from"]:
             if r["chain_from"] not in ids: errs.append(f"{r['id']} chain_from unknown"); continue
@@ -756,7 +757,7 @@ def write_usage(recs):
     L.append(", ".join(f"{r['chain_from'][3:]}→{r['id'][3:]}" for r in recs if r["chain_from"]))
     L.append("")
     L.append("## 10. SC RỦI RO AI & cách né trong prompt")
-    risk = [r for r in recs if r["ai_risk"]]
+    risk = [r for r in recs if r["ai_risk"] and r["ai_risk"] != "—"]
     L.append("| SC | loại rủi ro | cách né (đã áp dụng trong prompt) |"); L.append("|---|---|---|")
     for r in risk: L.append(f"| {r['id']} | {r['ai_risk'].split('→')[0].strip()} | {r['ai_risk'].split('→')[1].strip() if '→' in r['ai_risk'] else '—'} |")
     L.append("")
@@ -795,9 +796,10 @@ REF_JOBS_META = {
 }
 
 def write_sublocks(recs):
-    cnt_sub = collections.Counter(r["subloc"] for r in recs)
+    cnt_sub = collections.Counter(r["subloc"] for r in recs if not r["edit_only"])
     sc_by_sub = collections.defaultdict(list)
-    for r in recs: sc_by_sub[r["subloc"]].append(r["id"][3:])
+    for r in recs:
+        if not r["edit_only"]: sc_by_sub[r["subloc"]].append(r["id"][3:])
     L = ["# 살수 612 — SUB-LOCK ĐỊA ĐIỂM 5화 (veo-prompt-engineer · 2026-09-16 · chờ DUYỆT như 1화/4화)",
          "> Mỗi sub-lock = 1 đoạn VISUAL_LOCK_EN cố định cho một khu vực/buổi của LOC gốc; đã dán NGUYÊN VĂN vào mọi SC tương ứng trong `04_veo/scene_list_ep5.md`. `(v3)` = nguyên văn `continuity_master.sublocks` / location_bible v3 (8 sub-địa hình LOC_007 5화 + LOC_006_hall + LOC_004_pavilion_int); `(mới)` = veo-prompt-engineer đặt cho 5화 → world-designer nhập vào location_bible dưới mục `REF_PROMPT_EN_<subarea>`. Nguồn máy: `logs/scratch/veo-ep5/build.py` SUBLOC.",
          "> Quy tắc dùng: aerial 3 pha → `LOC_007` (lock gốc) / `LOC_007_dawn_aerial`; medium/cận → sub-lock khu vực; luôn thêm câu Light theo 3 pha (dawn_grey → day_rain → sun_tearing/sun_afternoon/sun_clear); kết bằng style tag §D. Ref đính `*_ep5` = ref mới (ref_jobs_ep5_extra.json).", "",

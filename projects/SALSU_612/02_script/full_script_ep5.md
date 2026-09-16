@@ -1,4 +1,4 @@
-# 살수 612 — 5화 「살수」 (最終話) 대본 v2.1 (TTS-trimmed)
+# 살수 612 — 5화 「살수」 (最終話) 대본 v2.2 (TTS-trimmed · 박기철 tên đùi trái theo bible)
 
 > **Runtime mục tiêu:** 40:00 (38–42) · **Tổng shot:** 289 (249 video8s + 40 still_kenburns) — xem bảng thống kê cuối file · **Mid-roll:** 7:00 · 14:00 · 21:00 · 27:30 · **Ngày:** 2026-09-16 · script-writer
 > **v2.1 (TTS-trimmed, 2026-09-16):** pass "TTS budget" (`tools/tts_budget.py`: video8s ≤22 어절 N+thoại · still ≤45 (10 s → 37) · toàn tập ≤115 어절/phút) — cắt gọn NARRATION ở 51 SC (không chạm thoại/SC/thời gian/open loop/quotes/vùng im/2-BEAT): 0 SC vượt · 4.190 어절 (N 3.601 + thoại 593) = 104,8 어절/phút · narration 3.601 ≥ 3.500. Chi tiết phụ lục F.
@@ -1294,7 +1294,7 @@ N: 문을 열면 칼이 있었습니다. 열지 않으면 불이 없었습니다
 [SOUND] nắp bật, K2C1 một phát, người rơi nước, tên rít.
 
 ### SC_219 · LOC_007_SALSU (mũi K2, mặt nước) · CHAR_003 · VEH_001 · video8s · 30:02–30:10
-[ACTION-VI] 박기철 lăn khỏi cửa lái, trượt xuống mặt giáp mũi xe nghiêng về phía mô cát nhỏ — một mũi tên từ bên hông cắm vào bắp chân phải ông giữa lúc trượt; ông rơi xuống nước ngang ngực, chìm rồi ngoi lên, ôm chân. Máy ngang nước.
+[ACTION-VI] 박기철 lăn khỏi cửa lái, trượt xuống mặt giáp mũi xe nghiêng về phía mô cát nhỏ — một mũi tên từ bên hông cắm vào đùi trái ông giữa lúc trượt; ông rơi xuống nước ngang ngực, chìm rồi ngoi lên, ôm chân. Máy ngang nước.
 [SOUND] tên cắm, người rơi nước, sặc.
 N: 화살은 다리를 골랐습니다. 방탄복은 가슴만 가렸습니다. 넉 달 동안 변하지 않은 사실이었습니다.
 
@@ -1495,7 +1495,7 @@ N: 그다음은 을보 영감의 풀과 마을 여인들의 천이었습니다. 
 아리: 언니, 붕대 마지막이에요.
 
 ### SC_258 · LOC_007_SALSU (bãi bắc) · CHAR_003, CHAR_004 (xa) · VEH_101 (giáo 삭 gãy làm nạng) · video8s · 35:18–35:26
-[ACTION-VI] 박기철 ngồi trên lau rạp, bắp chân phải băng trắng, mũi tên đã rút nằm trên cát; ông chống một cây giáo Goguryeo gãy đứng dậy, thử đặt chân, nhăn — đứng được; 서아 ở xa gật một cái; ông nhìn ra sông, nói khô.
+[ACTION-VI] 박기철 ngồi trên lau rạp, đùi trái băng trắng, mũi tên đã rút nằm trên cát; ông chống một cây giáo Goguryeo gãy đứng dậy, thử đặt chân, nhăn — đứng được; 서아 ở xa gật một cái; ông nhìn ra sông, nói khô.
 [SOUND] giáo chống cát, thở, nắng.
 N: 다리는 남았습니다. 뼈는 무사했습니다. 그는 고구려 창을 지팡이로 삼았습니다.
 박기철: 다리는 붙어 있습니다. 전차는 없습니다.

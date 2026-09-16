@@ -139,7 +139,9 @@ DERIVED = {
 
 # ---------------------------------------------------------------- EXTRAS (không ID trong bible) — lock tạm cố định, dùng NGUYÊN VĂN mọi SC; đề xuất character-designer đưa vào bible
 EXTRAS = {
-    "BOY_SCOUT": "17-year-old Goguryeo boy scout, thin small build, sun-browned round face, large alert dark eyes, cracked lips, black hair tied under a brown cloth headband beneath a plain leather cap, coarse undyed brown hemp jacket with crossed collar and white border, rain-soaked, wide trousers bound at the ankles, straw sandals, short composite bow on the back, hip quiver, on a small Goguryeo horse",
+    "BOY_SCOUT": "17-year-old Goguryeo boy scout, thin small build, sun-browned round face, large alert dark eyes, cracked lips, black hair tied under a brown cloth headband beneath a plain leather cap, coarse undyed brown hemp jacket with crossed collar and white border, rain-soaked, wide trousers bound at the ankles, straw sandals, short composite bow on the back, hip quiver",
+    "BOY_SCOUT_RIDING": "17-year-old Goguryeo boy scout, thin small build, sun-browned round face, large alert dark eyes, black hair tied under a brown cloth headband beneath a plain leather cap, coarse undyed brown hemp jacket with crossed collar and white border, rain-soaked, straw sandals, short composite bow on the back, hip quiver, riding a small shaggy Goguryeo horse with a wooden saddle",
+    "GOG_ESCORT_FOUR": "four Goguryeo soldiers on foot in plain brown hemp jackets without armor, cloth headbands, unarmed, walking in a loose file, faces turned away",
     "XIANBEI_DEPUTY": "Xianbei deputy commander around 30, stocky, round weathered face, thin moustache, single braid, brown leather lamellar armor over a dark felt coat, fur-trimmed leather cap, composite bow and hip quiver, short curved saber",
     "XIANBEI_RIDERS": "Xianbei horsemen in brown leather lamellar armor over long leather coats, fur-trimmed leather caps, composite bows drawn, faces turned away or shadowed",
     "XIANBEI_RIDERS_EARS": "Xianbei horsemen in brown leather lamellar armor and fur-trimmed leather caps on short stocky steppe horses whose ears are stuffed with rolled felt and tied with cord across the cheeks, composite bows drawn, riders bent low over the saddles",
@@ -173,6 +175,7 @@ EXTRAS = {
     "GOG_CAVALRYMEN": "Goguryeo cavalrymen in iron lamellar armor with red-plumed iron helmets on horses in iron lamellar barding, four-meter lances, black three-legged crow pennants",
     "GOG_CAVALRYMEN_WALKING": "Goguryeo cavalrymen in iron lamellar armor and red-plumed iron helmets walking on foot in rain, leading their armored horses by the reins, faces turned away",
     "GOG_CAVALRYMEN_GRAVE": "Goguryeo cavalrymen in iron lamellar armor with helmets held under their arms, black topknots bare, heads bowed, kneeling to set river cobbles in a ring around a fresh grave mound, faces turned down",
+    "GOG_ARCHERS_TWO": "two Goguryeo cavalrymen on foot in iron lamellar armor and red-plumed iron helmets kneeling in wet undergrowth with short composite bows drawn, faces shadowed under the helmets",
     "GOG_SCOUTS_THREE": "three Goguryeo scouts in light leather lamellar vests over brown hemp jackets and cloth headbands leading small horses down a cliff path, composite bows slung on their backs, unaware",
     "GOG_RIDER_WOUNDED": "a Goguryeo cavalryman with the armor removed lying on a reed mat in a brown jacket, an arrow wound in the thigh being washed, face turned away",
     "GOG_INTERPRETER_CAPTIVE": "Goguryeo prisoner around 35 in a torn undyed hemp jacket, bruised face, cloth headband, wrists bound in front with hemp rope, crouching, speaking with a hoarse tired face",
@@ -200,9 +203,9 @@ EXTRAS = {
     "RADIO_HANDHELD": "an olive-green military handheld VHF radio with a short black rubber antenna and a push-to-talk switch",
 }
 EXTRA_REF = {  # extra → ref đính (nếu có)
-    "BOY_SCOUT": "EXTRA_boy_scout_ref", "XIANBEI_DEPUTY": "EXTRA_xianbei_deputy_ref",
+    "BOY_SCOUT": "EXTRA_boy_scout_ref", "BOY_SCOUT_RIDING": "EXTRA_boy_scout_ref", "XIANBEI_DEPUTY": "EXTRA_xianbei_deputy_ref",
     "SUI_VANGUARD_GENERAL": "EXTRA_sui_vanguard_general_ref",
-    "GOG_CAVALRYMEN": "VEH_101_ref", "GOG_CAVALRYMEN_WALKING": "VEH_101_ref", "GOG_CAVALRYMEN_GRAVE": "VEH_101_ref",
+    "GOG_CAVALRYMEN": "VEH_101_ref", "GOG_CAVALRYMEN_WALKING": "VEH_101_ref", "GOG_CAVALRYMEN_GRAVE": "VEH_101_ref", "GOG_ARCHERS_TWO": "WPN_101_ref",
     "XIANBEI_RIDERS": "VEH_206_ref", "XIANBEI_RIDERS_EARS": "VEH_206_ref", "XIANBEI_TORCHBEARERS": "VEH_206_ref",
     "XIANBEI_CLIMBERS": "VEH_206_ref", "XIANBEI_ARCHERS_PRONE": "VEH_206_ref", "XIANBEI_WARRIORS_FOOT": "VEH_206_ref", "XIANBEI_CAMP_MEN": "VEH_206_ref",
     "SUI_MARCHERS": "WPN_201_ref", "SUI_DIGGERS": "WPN_201_ref", "SUI_DIGGERS_BANK": "WPN_201_ref", "SUI_VANGUARD_WET": "WPN_201_ref",
@@ -229,6 +232,7 @@ VEH_STATE = {
     "K21_2_BURNING": "White numeral 2 on the turret, hull torn open at the side, engulfed in tall orange flame with sparks and intermittent detonations flashing inside the open troop compartment.",
     "K21_3_CAPTURED": "Mud-streaked hull, rear troop ramp open, a red and yellow Sui silk banner with black tassels tied to the turret, thick hemp tow ropes lashed around the hull front leading forward to two files of oxen, two small empty bolt holes on the hull side where a nameplate was removed, a small white arrow mark painted on the ramp, no fuel cans, no camouflage net.",
     "K21_3_PARKED": "Mud-streaked hull, rear troop ramp open, a red and yellow Sui silk banner with black tassels tied to the turret, slack hemp tow ropes lying in the mud in front of the hull, two small empty bolt holes on the hull side, no camouflage net, wet armor reflecting torchlight.",
+    "K21_INTERIOR": "Inside the troop compartment: nine folding seats along the walls, an unlit red dome lamp, an empty metal rack with loose straps where a hard case was mounted, a rack of 40mm rounds under the turret basket, torchlight falling through the open roof hatch.",
     "TRUCKS_BURNING": "Two six-wheeled military cargo trucks and a boxy 4x4 command vehicle engulfed in tall orange flame, canvas covers burned away, black smoke rising.",
     "XIANBEI_EARS": "The horses' ears stuffed with rolled felt and tied with cord across the cheeks.",
     "DRONE_WRECK": "The drone with one arm snapped, two propellers broken, the gimbal camera cracked, dried mud on the body.",
@@ -493,6 +497,8 @@ LIGHT = {
     "D12_day_drizzle": "Grey overcast day, light drizzle, low cloud, flat wet green light",
     "D12_dusk_amber": "Overcast dusk, faint amber light through grey cloud on the ridges, the valley in shadow, drizzle",
     "D12_dusk_grey": "Grey dusk in drizzle, the last flat light fading, low cloud",
+    "D12_forge_day": "Grey rainy afternoon outside the open shed, warm orange forge light inside, sparks, wet stone",
+    "D12_night_house": "Night interior, low warm light from a small stone hearth, deep shadows, rain on the bark roof",
     "D12_night_forge": "Night, warm orange forge light against cool blue-black rain darkness, sparks",
     "D12_night_rain": "Night, steady rain, faint orange forge glow, deep blue-black darkness",
     "D12_night_fog_nvg": "Night, monochrome green night-vision view blurred into a bright milky mass by thick fog, grain and scan noise",

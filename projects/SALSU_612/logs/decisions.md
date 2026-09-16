@@ -119,3 +119,7 @@
 - LOC_002 aerial 6월: dùng lock gốc + "Season: JUN" → OK (không tạo lock JUN riêng). VEH_202 mud: text only; tạo ref nếu QC ảnh drift.
 - Sub-lock mới 2화 (LOC_002 ×12) và 4화 (LOC_007/006/008 ×62) → world-designer nhập bible v4 trước lô ảnh của tập đó (tập 1 chạy trước, không bị chặn).
 - Thứ tự sinh ảnh: ref base (131) → ref extra 1화 (7) → ảnh cảnh 1화 → video 1화 → rồi 2→5.
+
+## 2026-09-16 · sau VEO 5화
+- 박기철 vết thương = **đùi TRÁI** (bible/ref) — script 5화 v2.2 sửa "bắp chân phải" → "đùi trái" (coordinator sửa trực tiếp).
+- Bản đồ lụa 을지문덕 → PROP_027; cờ hiệu nhỏ 삼족오 → PROP_028 (world-designer v4). 을지문덕 P12 dùng ref false_surrender_ep3 → OK. LOC_007_aftermath_ep5 ref riêng → OK. 20 derived state veo đặt → bible v4.
