@@ -140,6 +140,16 @@
     "ref_name": "loc-006-detail"
   },
   {
+    "id": "LOC_006_interior",
+    "type": "image",
+    "body": {
+      "prompt": "Interior of the Goguryeo royal audience hall at Pyongyang at night in monsoon rain, 612 AD: a long timber hall with thick round pillars lacquered deep red, dark wooden floor, a plain black lacquered throne with gold trim on a low two-step dais, a painted silk folding screen behind it, bronze incense burners with rising smoke, clay and bronze oil lamps giving dim warm light, a large black three-legged crow banner on a yellow field hanging behind the throne, latticed wooden doors open onto a rain-soaked stone courtyard and veranda, low tables with a leather map and a rack of composite bows, wet grey-blue light from outside mixing with warm lamplight inside, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-006-interior"
+  },
+  {
     "id": "LOC_007_wide",
     "type": "image",
     "body": {
@@ -188,5 +198,35 @@
       "aspect_ratio": "16:9"
     },
     "ref_name": "loc-008-detail"
+  },
+  {
+    "id": "LOC_009_wide",
+    "type": "image",
+    "body": {
+      "prompt": "Aerial establishing shot at overcast dusk, early summer 612 AD Korean mountains: a narrow mountain pass saddle about forty meters wide between two wet blue-grey stone cliffs thirty to sixty meters high, a rough dirt-and-stone road winding up from a green valley on the east and dropping away to the south, a low ruined dry-stacked Goguryeo stone barrier with a five-meter gap across the middle of the saddle and a collapsed round stone watch post at its north end, a steep goat path scratched down the north-west cliff face, a high rocky outcrop with a flat top rising two hundred meters above the saddle on the south-east side, twisted red pines clinging to the cliffs, grey scree slopes, low cloud and mist pouring through the gap, faint amber light on the cliff tops with the saddle already in shadow, drizzle, no people, no vehicles, no modern structures, no roads with asphalt, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-009-wide"
+  },
+  {
+    "id": "LOC_009_detail",
+    "type": "image",
+    "body": {
+      "prompt": "Ground-level detail shot at night on a mountain pass saddle, early monsoon mist, 612 AD: a low ruined dry-stacked wall of wet blue-grey stone blocks with a gap for the road, moss and yellow lichen on the stones, a collapsed round stone watch post, rotten wooden posts, wet scree and short grass, torch flames flickering in clusters high on the black cliff face behind, thin mist lit orange by the torches, a twisted red pine trunk in the foreground, no people in frame, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-009-detail"
+  },
+  {
+    "id": "LOC_009_aftermath",
+    "type": "image",
+    "body": {
+      "prompt": "Wide shot at grey rainy dawn on a mountain pass saddle after a night battle, 612 AD: a fresh rockslide of blue-grey boulders six meters high blocking a goat path at the base of the north-west cliff, dust and thin smoke still drifting, broken arrows, extinguished torches and a dead steppe horse on the wet stones, a low ruined dry-stacked Goguryeo stone barrier across the saddle, on a small flat of earth at the south end a new Goguryeo-style grave mound ringed with river cobbles and one upright stone slab, twisted red pines, low cloud, cold grey-blue light, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+      "model": "nano_banana_pro",
+      "aspect_ratio": "16:9"
+    },
+    "ref_name": "loc-009-aftermath"
   }
 ]

@@ -410,3 +410,9 @@
 3. **Tấm pin mặt trời gấp trên K151**: tôi thêm để hợp lý hóa sạc drone/kính đêm những ngày không nổ máy phát (tiết kiệm dầu) — nhưng nó cũng có thể làm "hậu cần" bớt căng. Nếu user thấy làm loãng engine LIMITED RESOURCES → bỏ, tôi sửa prompt.
 4. **Thứ tự mất drone 3화** (hết pin rơi trước, rồi #4 bị bắt) và **천둥 3 còn ~60 viên 40 mm bên trong khi bị chiếm** là đề xuất của tôi (foundation chỉ nói "nguyên vẹn") — mở đường cho series 2 (Tùy có đạn nhưng không biết nạp). Chốt hay bỏ?
 5. **Ngựa Goguryeo mặc giáp toàn thân ở 5화**: cảnh kỵ binh lao xuống sông với giáp ngựa lamellar rất "đắt" hình nhưng AI có thể vẽ thành kỵ sĩ châu Âu; tôi khóa mô tả theo bích họa 안악 3호분. QC cần loại ảnh có plate armor phương Tây.
+
+---
+## Cập nhật theo outline (2026-09-16)
+- **VEH_002 천둥 3**: 1화 P10 hỏng bánh chịu nặng (road wheel) khi vượt rãnh → 을보 chốt sắt tạm 2화; là xe còn chạy được nhưng yếu → 3화 bị bỏ lại nguyên vẹn và rơi vào tay 탁발흠 (khớp foundation). Damage state 2화: bánh thứ 3 bên phải có chốt sắt thô, vệt dầu.
+- **VEH_002 천둥 4**: cháy 2화 (hỏa công) — xác xe đen ở LOC_003.
+- **PROP_023 biển tên "천둥 3"**: 박기철 tháo ở 3화 P1 trước khi bỏ xe (xem prop_bible).

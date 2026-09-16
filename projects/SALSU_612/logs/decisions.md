@@ -16,3 +16,8 @@
 - **P-11** → thêm quy ước: phim quy ước mọi phe nói tiếng Hàn; trong truyện, Tùy ↔ đại đội nói chuyện trực tiếp phải qua thông ngôn Goguryeo (해모루 đọc/viết Hán văn) hoặc cử chỉ.
 - **P-18** → CÓ series 2 「613」 — gieo hạt ở 5화 P12 (K21+drone về Lạc Dương; Dạng Đế lệnh tái chiến).
 - **P-02** → 탁발흠 CHẾT trên nóc K2 cháy (theo outline). Series 2 dùng kẻ thù thích nghi mới (học trò của hắn).
+
+## 2026-09-16 · sau world-designer (bổ sung LOC_009)
+- Đèo climax 3화 đổi tên **청석령 → 석문령 (hư cấu, [虚])**, ID LOC_009_SEOKMUN_PASS, đặt phía nam Áp Lục — giữ trình tự outline, tránh sai địa lý.
+- K3 cuối 4화 = 1.800 (theo 5화 P3). Quân số cuối 5화 = 80. Máy phát K151 gom vào "400 딱".
+- vehicle_bible bổ sung: 천둥 3 hỏng bánh 1화 P10 (을보 chốt sắt), 천둥 4 cháy 2화, biển tên 천둥 3.

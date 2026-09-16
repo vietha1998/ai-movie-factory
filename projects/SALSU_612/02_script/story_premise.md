@@ -8,7 +8,7 @@
 
 **2화 「요동성」.** Tháp 8 bánh, xe phá cổng, hầm; Goguryeo xin hàng giả để sửa tường (sử thật). 을지문덕 xuất hiện, hỏi "쇠수레는 며칠이나 달릴 수 있소?", thử: phá tháp bằng ít đạn nhất — ông đếm "열 발에 둘". 탁발흠 học xe uống "nước đen" → hỏa công đêm: 1 K21 cháy, mất 1 phuy, drone còn 2, kháng sinh 0. Đợt công thứ ba: K2 bắn 10 viên qua tường đá, 양제 nghe tận tai; 을지문덕 bắt K2 rút khi còn 12: "그건 여기 것이 아니오." Tùy quyết 30만 5천 vòng đánh 평양. Kết: "청천강까지 400km. 연료는 전차 한 대 몫뿐입니다."
 
-**3화 「남하」.** Gom dầu vào K2, đốt xe — rút gấp nên 1 K21 nguyên vẹn. Hành quân 400 km song song 30만. Ở 압록수 drone thấy lính Tùy chôn lương; 을지문덕 sang trại giả hàng, drone cuối yểm hộ; về nói "저들은 굶고 있소." 7 trận giả thua bắt đầu. 탁발흠 kéo K21 bằng bò, đoán xe tăng phải qua đèo 청석령, phục lúc K2 dừng sửa và sạc pin: 태오 bị bắt cùng drone cuối + 2 kính đêm; KIA đầu (không tên): 94→93. Tới Salsu: "숨으시오. 30만이 지나가게 두시오."
+**3화 「남하」.** Gom dầu vào K2, đốt xe — rút gấp nên 1 K21 nguyên vẹn. Hành quân 400 km song song 30만. Ở 압록수 drone thấy lính Tùy chôn lương; 을지문덕 sang trại giả hàng, drone cuối yểm hộ; về nói "저들은 굶고 있소." 7 trận giả thua bắt đầu. 탁발흠 kéo K21 bằng bò, đoán xe tăng phải qua đèo 석문령, phục lúc K2 dừng sửa và sạc pin: 태오 bị bắt cùng drone cuối + 2 kính đêm; KIA đầu (không tên): 94→93. Tới Salsu: "숨으시오. 30만이 지나가게 두시오."
 
 **4화 「평양」.** Đại đội nằm trong lau sậy khi 30만 đi qua trên đầu; 오태민 suýt bóp cò. Sử: 내호아 4만 vào ngoại thành trống, 고건무 phục từ chùa; 우중문 cách 평양 30리; bài thơ 4 câu; 우문술 rút theo 방진. 탁발흠 đeo kính đêm săn; đêm bao vây bằng trống và đuốc → K2 bắn 2 viên: còn 6; 2 KIA. 우중문 nghe sấm sau lưng → rút vội — 을지문덕: "서두르게 하시오." 백성민 + 아리 cứu 태오 trong sương (kính đêm mù sương — trả lời 을보). 영양왕 hỏi: "그 뒤에 그대들은 누구의 군대인가?" Kết: 30만 quay về Salsu, nước lên.
 

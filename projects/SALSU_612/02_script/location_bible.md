@@ -13,7 +13,7 @@
 |---|---|---|---|---|---|
 | 1화 요하 | 3 | Liêu Đông (요동) | Đầu xuân thảo nguyên: cỏ vàng khô, gió lạnh, bụi, trời xám | Xám-vàng bụi, teal lạnh ở bóng | LOC_001, LOC_003, LOC_002, LOC_004, LOC_008 (đoàn dân chạy) |
 | 2화 요동성 | 4–5 | Liêu Đông | Xuân muộn: bụi vàng + nắng gắt xiên, đêm khô (hỏa công) | Xám-vàng bụi + cam lửa đêm | LOC_002, LOC_003, LOC_004 |
-| 3화 남하 | 6 | Liêu Đông → Áp Lục (압록수) | Chuyển mùa: xanh dần, mưa đầu hè, sương núi | Xanh mưa, xám ướt | LOC_003 (di động), LOC_008, LOC_005 |
+| 3화 남하 | 6 | Liêu Đông → Áp Lục (압록수) → đèo 석문령 → Salsu | Chuyển mùa: xanh dần, mưa đầu hè, sương núi; đêm đèo tạnh có sương | Xanh mưa, xám ướt; đêm đèo: đen + đuốc cam + xanh lục kính đêm | LOC_003 (di động), LOC_005, LOC_008, **LOC_009 (climax)**, LOC_007 (P12) |
 | 4화 평양 | 7 đầu | Bình Nhưỡng + Salsu | Mưa dầm, bùn, sương sông | Xanh mưa, khói xám | LOC_006, LOC_007, LOC_003 (di động) |
 | 5화 살수 | 7 | Salsu (청천강) | Mưa dầm → nước lên → nắng xé mây | Mưa + lửa cam + nắng vàng rách mây | LOC_007 |
 
@@ -212,6 +212,9 @@
 **REF_PROMPT_EN_DETAIL (16:9):**
 `Detail shot inside an empty Goguryeo wooden Buddhist temple hall in rain, 612 AD: thick wooden pillars, a dim gilded wooden Buddha statue, bronze incense burner, a bronze bell, scattered offerings, latticed wooden doors half open showing an empty rain-soaked market street with abandoned stalls, overturned clay jars and an abandoned ox cart, grey wet light, smoke drifting, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
 
+**REF_PROMPT_EN_INTERIOR (16:9, bổ sung theo P-21 — nội điện 평양, hội đồng 영양왕·고건무·을지문덕, 4화 P6 / 5화 P12):**
+`Interior of the Goguryeo royal audience hall at Pyongyang at night in monsoon rain, 612 AD: a long timber hall with thick round pillars lacquered deep red, dark wooden floor, a plain black lacquered throne with gold trim on a low two-step dais, a painted silk folding screen behind it, bronze incense burners with rising smoke, clay and bronze oil lamps giving dim warm light, a large black three-legged crow banner on a yellow field hanging behind the throne, latticed wooden doors open onto a rain-soaked stone courtyard and veranda, low tables with a leather map and a rack of composite bows, wet grey-blue light from outside mixing with warm lamplight inside, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
+
 ---
 
 ## LOC_007_SALSU — 살수 (청천강) · bãi cạn
@@ -278,6 +281,40 @@
 
 ---
 
+## LOC_009_SEOKMUN_PASS
+> **[虚] Đèo hư cấu 석문령 (石門嶺, "Cổng Đá")** — đặt phía NAM sông Áp Lục trên đường về Salsu để khớp trình tự outline 3화. (Đổi từ 청석령 — đèo thật nằm phía bắc Áp Lục, tránh sai địa lý với khán giả rành sử. Quyết định 2026-09-16.) — 석문령 (đèo Thanh Thạch) · climax 3화 (DUYỆT decisions.md P-08)
+
+| Trường | Nội dung |
+|---|---|
+| Tập xuất hiện | **3화** (P7: 탁발흠 đoán đường "쇠수레는 산을 못 넘는다" · P8–P9: kế "석문령, 마흔 분" · **P10 「고개의 밤」 trận đêm trên yên đèo** · P11: chôn KIA đầu tiên kiểu Goguryeo trên đèo) · 4화 P1 (ken-burns nhắc lại mộ trên đèo) |
+| Country / era | Đất Goguryeo, dãy núi trên tuyến nam hạ (vị trí theo outline 3화 P7: đoạn **sau khi qua 압록수, trước 살수**); tên mượn đèo 석문령 thật trên 연행로 요동–압록 (xem Phụ lục C). Tháng 6 âm 612 — đầu mùa mưa |
+| Terrain | **Con đường duy nhất xe tăng qua được** trong dãy: đường đất đá rộng 4–5 m bò ngoằn ngoèo lên **yên ngựa hẹp** (rộng ~40 m, dài ~150 m) kẹp giữa **hai vách đá xám-xanh (청석 = đá xanh) cao 30–60 m**; sườn bắc dốc đá vụn (scree), sườn nam thoải hơn có rừng. Bốn "cửa": **cửa đông** (đường xe lên từ phía làng LOC_008 dưới chân đèo, ~3 km) · **cửa nam** (đường xuống phía Salsu — 해모루 chặn tiền quân Tùy) · **đường dê tây-bắc** (lối mòn dốc 1 m bám vách tây-bắc, đổ thẳng xuống yên — hướng tấn công thật của 2.000 kỵ 탁발흠) · **mỏm đá cao ~200 m** trên vách nam-đông của yên, có mặt phẳng 10×10 m đủ đặt drone + 4 người (vị trí 태오 giữ tín hiệu — bị vây và bắt). Sau trận: **đá lở** (4 viên K2) lấp cửa tây-bắc thành đống đá 6 m |
+| Architecture | **Ải đá Goguryeo bỏ hoang** ngang yên đèo (bổ sung theo yêu cầu "đồn/ải nhỏ"): tường đá xếp khan thấp 2–2.5 m chắn ngang yên, có **một khoảng hở 5 m** cho đường (K2 vừa lọt), một vọng gác đá tròn đổ nát 4 m ở đầu bắc, cột gỗ mục, không cờ (bị bỏ từ chiến dịch 598). Không có mái, không cổng gỗ. Phía nam yên: một **nền đất bằng nhỏ** — nơi chôn KIA (mộ đá xếp kiểu Goguryeo: gò đất + vòng đá cuội + một phiến đá dựng) |
+| Layout | [Cửa đông: đường xe lên, đoàn 93 người + 300 kỵ 해모루 + xe bò + K2 sau cùng] → [Yên đèo: ải đá hở, K2 tắt máy + APU, dây sạc chằng ra 12 kính đêm + drone + radio, 80 người ngồi trong tối] → [Vách tây-bắc trái: đường dê đổ xuống — tên, đuốc, kỵ Tiên Ti] → [Mỏm đá 200 m phải: 태오 + drone + 2 kính đêm + 1 xạ thủ K3] → [Cửa nam: 해모루 chặn, sau quay lên phá **cửa đông**] |
+| Wall color | Đá **xám-xanh (청석)** ướt, vân xanh lục sẫm, rêu và địa y vàng; scree xám; ải đá cùng màu vách (khó nhận ra cho tới khi sát) |
+| Doors / windows | Không cửa; khoảng hở 5 m trong ải đá; vọng gác có lỗ nhìn hẹp |
+| Furniture / vật cố định | Đá tảng ven đường, gốc thông chết, dây sạc + hộp drone + bảng số 박기철 trên nắp K2, bao cát hố cối, sau trận: đống đá lở, tên gãy, đuốc tắt, vỏ đạn 120 mm, xác ngựa, **mộ đá + poncho** |
+| Vegetation | Thông đỏ vặn xoắn bám vách, sồi lùn, bụi đỗ quyên tàn hoa, dương xỉ trong khe, rêu ướt; đỉnh yên **trơ đá và cỏ ngắn** (không có chỗ nấp — điểm chết) |
+| Weather identity | **Mưa bắt đầu**: chiều mưa phùn khi bò lên đèo; **đêm tạnh, mây thấp, sương chảy qua yên** (đuốc thấy được, kính đêm hiệu quả); **rạng đông xám mưa lại** khi đại đội qua yên và chôn người |
+| Lighting identity | Hoàng hôn: **hổ phách nhạt qua mây xám** trên vách, yên đèo đã tối · Đêm: **đen — chỉ đuốc cam từng cụm trên vách tây-bắc, ánh xanh lục POV kính đêm, chớp lửa đầu nòng, đám bụi đá lở sáng cam** · Bình minh: xám-xanh lạnh, mưa, khói mỏng |
+| Thời điểm thường dùng | Hoàng hôn (P9 kết — đoàn bò lên yên, không thoại) · **Đêm** (P10 trận) · Rạng đông xám (P10 phase 5–6, P11 chôn) |
+| Góc máy chủ đạo | **Aerial wide hoàng hôn**: yên đèo nhỏ giữa hai vách, cột người + K2 như kiến · **High-angle từ mỏm đá nhìn xuống** K2 và các chấm đèn đỏ (POV 태오/drone) · **Low-angle từ yên ngước lên mỏm** ("너무 높다") · **POV kính đêm xanh lục** (백성민; sau là 탁발흠 P11) · Tracking đuốc đổ xuống đường dê · Static close-up 탁발흠 trên vách xa lúc bình minh, 태오 vắt ngang yên ngựa · Push-in mặt 오태민 nhặt K3 |
+| Contrast bắt buộc trong khung | K2 tắt máy dưới ải đá Goguryeo cổ · dây sạc hiện đại chạy trên đá xếp khan · kỵ binh 개마무사 cõng thương binh Hàn qua yên lúc rạng đông · mộ đá Goguryeo + poncho olive |
+
+**VISUAL_LOCK_EN (≤60 từ):**
+`Narrow mountain pass saddle forty meters wide between two wet blue-grey stone cliffs thirty to sixty meters high, a low ruined dry-stacked Goguryeo stone barrier with a five-meter gap across the saddle, a rocky outcrop two hundred meters above on the right, a steep goat path down the left cliff, twisted red pines and scree, monsoon mist, torchlight at night`
+
+**REF_PROMPT_EN_WIDE (16:9 establishing):**
+`Aerial establishing shot at overcast dusk, early summer 612 AD Korean mountains: a narrow mountain pass saddle about forty meters wide between two wet blue-grey stone cliffs thirty to sixty meters high, a rough dirt-and-stone road winding up from a green valley on the east and dropping away to the south, a low ruined dry-stacked Goguryeo stone barrier with a five-meter gap across the middle of the saddle and a collapsed round stone watch post at its north end, a steep goat path scratched down the north-west cliff face, a high rocky outcrop with a flat top rising two hundred meters above the saddle on the south-east side, twisted red pines clinging to the cliffs, grey scree slopes, low cloud and mist pouring through the gap, faint amber light on the cliff tops with the saddle already in shadow, drizzle, no people, no vehicles, no modern structures, no roads with asphalt, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
+
+**REF_PROMPT_EN_DETAIL (16:9):**
+`Ground-level detail shot at night on a mountain pass saddle, early monsoon mist, 612 AD: a low ruined dry-stacked wall of wet blue-grey stone blocks with a gap for the road, moss and yellow lichen on the stones, a collapsed round stone watch post, rotten wooden posts, wet scree and short grass, torch flames flickering in clusters high on the black cliff face behind, thin mist lit orange by the torches, a twisted red pine trunk in the foreground, no people in frame, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
+
+**REF_PROMPT_EN_AFTERMATH (16:9, bổ sung — rạng đông P10 phase 6 / P11):**
+`Wide shot at grey rainy dawn on a mountain pass saddle after a night battle, 612 AD: a fresh rockslide of blue-grey boulders six meters high blocking a goat path at the base of the north-west cliff, dust and thin smoke still drifting, broken arrows, extinguished torches and a dead steppe horse on the wet stones, a low ruined dry-stacked Goguryeo stone barrier across the saddle, on a small flat of earth at the south end a new Goguryeo-style grave mound ringed with river cobbles and one upright stone slab, twisted red pines, low cloud, cold grey-blue light, no people, no modern objects, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look`
+
+---
+
 ## PHỤ LỤC A — CHECKLIST LẠC THỜI (QC ảnh địa điểm)
 Loại ngay nếu thấy: cột điện / dây điện · đường nhựa hoặc đường bê tông · nhà gạch đỏ hiện đại · ngói xi măng đỏ tươi · cửa kính · cầu sắt/bê tông · biển hiệu · xe cơ giới KHÔNG phải của đại đội · quân phục hiện đại KHÔNG phải ROK · tường thành gạch xám nung kiểu Minh (Goguryeo là đá xếp khan; Tùy là gỗ-vải) · mái cong kiểu Trung Hoa Minh-Thanh trên công trình Goguryeo (Goguryeo mái thẳng, đầu hồi đơn giản) · tuyết · lá phong đỏ mùa thu · hoa anh đào.
 
@@ -292,9 +329,14 @@ Loại ngay nếu thấy: cột điện / dây điện · đường nhựa hoặ
 | LOC_006_PYONGYANG | | | | ● | ○ |
 | LOC_007_SALSU | | | ○ | ● | ● |
 | LOC_008_GOGURYEO_VILLAGE | ○ | | ● | ○ | |
+| LOC_009_SEOKMUN_PASS | | | ● (P7–P11 climax) | ○ (KB mộ) | |
 ● chính · ○ phụ/ken-burns
 
 ## PHỤ LỤC C — ĐIỂM CẦN USER QUYẾT (không tự đổi foundation)
+> Cập nhật sau decisions.md: mục 1 (tháp chùa) ĐÃ DUYỆT · mục 2 (LOC_003 Dạng B) ĐÃ DUYỆT cho điểm vá K2, climax dùng LOC_009 · mục 3 → thêm REF nội điện 평양 (P-21) · mục 4 (mực nước gối → ngực) khớp outline. Còn mở:
+5. **Vị trí địa lý LOC_009**: đèo 석문령 thật nằm trên 연행로 giữa 요동 và 압록강 (bắc sông); outline 3화 đặt trận đèo **sau khi đã qua 압록수** (P4–P5 ở 압록, P7–P10 đèo). Bible ghi theo outline (vị trí kịch) và giữ tên. Nếu user muốn đúng địa lý → (a) đổi tên đèo thành đèo hư cấu phía nam 압록, hoặc (b) story-director dời P7–P10 lên trước cảnh vượt 압록. Ảnh ref không phụ thuộc lựa chọn này.
+6. **Ải đá Goguryeo bỏ hoang trên yên đèo** (tường 2 m có khoảng hở 5 m + vọng gác đổ) là bổ sung theo yêu cầu "đồn/ải nhỏ nếu có" — không có trong outline; script-writer có thể dùng làm chỗ K2 đỗ / mốc "cửa đông". Bỏ được nếu thấy thừa.
+
 1. LOC_002: tôi thêm **tháp chùa gỗ 3 tầng** bên trong thành theo bích họa 요동성총 — có giữ không? (foundation §6 chỉ ghi "nhà gỗ mái ngói, kho lương").
 2. LOC_003 Dạng B (di động 3–4화) tôi khóa thành "khe núi đá có suối + thông" — story-director có muốn đổi theo outline không?
 3. LOC_006: đại đội **không có mặt** ở Bình Nhưỡng 4화 (theo §7); nếu outline cho 한승우 vào yết kiến vua ở 5화 kết → cần thêm REF_PROMPT nội điện vua (tôi có thể bổ sung).

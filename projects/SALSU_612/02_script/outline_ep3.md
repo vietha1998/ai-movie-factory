@@ -2,7 +2,7 @@
 
 > Thời điểm sử: **612 6월 âm** — 9 quân 30만 5천 tập kết bờ tây 압록수; lính chôn lương; 을지문덕 giả hàng do thám; 우중문–우문술 cãi; vượt 압록수; bắt đầu 7 trận giả thua. Runtime **40:00**. Shot **253** (204 clip + 49 KB). Mid-roll: 7:00 · 14:00 · 21:00 · 27:30.
 > Ràng buộc cứng: gom dầu vào K2, đốt xe — **1 K21 (천둥 3) nguyên vẹn rơi vào tay 탁발흠** · drone 2→0 (1 chết pin, 1 bị bắt) · **태오 bị bắt** cùng drone cuối + 2 kính đêm · KIA đầu tiên: **1, không tên** · K2 12→8 · cối 60→50 · PZF 12→9 · 양제: "천둥을 산 채로 잡아라" · kết: 을지문덕 "숨으시오. 30만이 지나가게 두시오."
-> Địa điểm mới (đề xuất world-designer): **LOC_009_CHEONGSEOK_PASS 청석령** — đèo đá trên đường 요동→압록, yên ngựa hẹp, vách đá hai bên, đường dê phía tây-bắc.
+> Địa điểm mới (đề xuất world-designer): **LOC_009_SEOKMUN_PASS 석문령** — đèo đá trên đường 요동→압록, yên ngựa hẹp, vách đá hai bên, đường dê phía tây-bắc.
 
 **Quyết định của nhân vật lịch sử:** 을지문덕 tự vào trại Tùy (sử) · không ngoảnh lại (sử) · ra lệnh "지되 죽지 마시오" · ra lệnh đi Salsu trước, không giải thích · 우중문 đòi truy kích, 우문술 nhượng (sử) · 양제 "산 채로 잡아라" · 탁발흠 gửi K21 + drone về tây, giữ kính đêm + 태오.
 
@@ -70,7 +70,7 @@
 - **Shot:** 16 (13 + 3 KB).
 
 ## [Phần 7] · Kẻ địch thích nghi · 「쇠수레는 산을 못 넘는다」 · **17:30–21:00** · THREAT (turning point)
-- **Nội dung chính:** (a) **ENEMY POV:** 탁발흠 bên 천둥 3: mở nắp, ngửi mùi dầu, sờ giá đỡ drone; kết luận: **"쇠수레는 산을 못 넘소. 길로 가오."** → chỉ có một con đường xe tăng qua được phía nam 압록: **청석령** (LOC_009). Hắn đã thấy ở 압록수: "새는 수레에 앉아 밥을 먹고, 밤눈을 가진 자들은 그때 가만히 있소." → đánh lúc xe **ngủ, chim ăn**. Hắn cho lính **nhét vải vào tai ngựa**, tập với trống. Lệnh 양제 chuyển tiếp: **"천둥을 산 채로 잡아라."** → 2.000 kỵ. (b) **HIỆN ĐẠI — khó khăn thật:** K2 **rò nước làm mát** trên dốc; đồng hồ nhiệt đỏ; 박기철: dừng **2 ngày** để vá — 을보 nung, gò miếng đồng ("쇠는 쇠요" payoff). Trú ở làng LOC_008 dưới chân đèo. Trinh sát 백성민: 천둥 3 và cột Tùy còn cách 2 ngày phía sau; trên **đường dê tây-bắc** có phân ngựa mới — anh cho là trinh sát 해모루 (sai).
+- **Nội dung chính:** (a) **ENEMY POV:** 탁발흠 bên 천둥 3: mở nắp, ngửi mùi dầu, sờ giá đỡ drone; kết luận: **"쇠수레는 산을 못 넘소. 길로 가오."** → chỉ có một con đường xe tăng qua được phía nam 압록: **석문령** (LOC_009). Hắn đã thấy ở 압록수: "새는 수레에 앉아 밥을 먹고, 밤눈을 가진 자들은 그때 가만히 있소." → đánh lúc xe **ngủ, chim ăn**. Hắn cho lính **nhét vải vào tai ngựa**, tập với trống. Lệnh 양제 chuyển tiếp: **"천둥을 산 채로 잡아라."** → 2.000 kỵ. (b) **HIỆN ĐẠI — khó khăn thật:** K2 **rò nước làm mát** trên dốc; đồng hồ nhiệt đỏ; 박기철: dừng **2 ngày** để vá — 을보 nung, gò miếng đồng ("쇠는 쇠요" payoff). Trú ở làng LOC_008 dưới chân đèo. Trinh sát 백성민: 천둥 3 và cột Tùy còn cách 2 ngày phía sau; trên **đường dê tây-bắc** có phân ngựa mới — anh cho là trinh sát 해모루 (sai).
 - **Narration/Thoại:** 50/50.
 - **Conflict:** Xe tăng là lý do đi được và lý do bị bắt kịp.
 - **Turning point:** Địch **đoán được lộ trình** từ giới hạn vật lý của xe.
@@ -90,8 +90,8 @@
 - **Open loop:** "그들은 고개에서 배터리를 충전하기로 했습니다. 탁발흠도 같은 고개를 보고 있었습니다." / "Họ quyết sạc pin trên đèo. 탁발흠 cũng đang nhìn đúng con đèo ấy."
 - **Shot:** 14 (10 + 4 KB).
 
-## [Phần 9] · Kế hoạch lớn · 「청석령, 마흔 분」 · **24:00–27:30** · PLAN
-- **Nội dung chính:** Bàn cát: **청석령** — yên ngựa hẹp, vách hai bên, đường dê tây-bắc (đánh dấu "해모루 척후" — sai). Kế: qua đèo đêm; 12 kính đêm (pin 40%) đi đầu với 백성민; drone cuối **1 lần bay 10 phút** trên yên; **태오 lên mỏm đá 200 m** trên yên để giữ tín hiệu, 2 lính kính đêm + 1 xạ thủ K3 bảo vệ; K2 sau cùng với xe cối; 해모루 chặn **phía nam** (tiền quân Tùy); dừng **40 phút** trên yên để APU sạc drone + radio + kính. 한승우 nhìn mỏm đá: "너무 높다." 태오: "신호는 높아야 잡힙니다." (자원 → rủi ro). 
+## [Phần 9] · Kế hoạch lớn · 「석문령, 마흔 분」 · **24:00–27:30** · PLAN
+- **Nội dung chính:** Bàn cát: **석문령** — yên ngựa hẹp, vách hai bên, đường dê tây-bắc (đánh dấu "해모루 척후" — sai). Kế: qua đèo đêm; 12 kính đêm (pin 40%) đi đầu với 백성민; drone cuối **1 lần bay 10 phút** trên yên; **태오 lên mỏm đá 200 m** trên yên để giữ tín hiệu, 2 lính kính đêm + 1 xạ thủ K3 bảo vệ; K2 sau cùng với xe cối; 해모루 chặn **phía nam** (tiền quân Tùy); dừng **40 phút** trên yên để APU sạc drone + radio + kính. 한승우 nhìn mỏm đá: "너무 높다." 태오: "신호는 높아야 잡힙니다." (자원 → rủi ro). 
 - **Narration/Thoại:** 40/60.
 - **Conflict:** Kế tối ưu tài nguyên = kế tối đa rủi ro cho người trẻ nhất.
 - **Turning point:** Mọi mắt nhìn nam; hiểm họa từ tây-bắc.
@@ -164,9 +164,9 @@ Gom dầu, bỏ xe, đi 400 km tới Salsu với K2 còn chạy · yểm hộ �
 4. 압록수 612: 을지문덕이 홀로 적진에 들어간 날
 5. "저들은 굶고 있소" — 을지문덕이 적진에서 본 것 | 살수 612 – 3화
 6. 612년, 소 마흔 마리에 끌려가는 K21 — 수나라 손에 들어간 대한민국 장갑차
-7. 청석령 612: 드론 조종병이 잡힌 밤, 수나라가 얻은 첫 번째 야시경
+7. 석문령 612: 드론 조종병이 잡힌 밤, 수나라가 얻은 첫 번째 야시경
 8. "지는 것도 병법이오" — 612년, 을지문덕의 하루 일곱 번 후퇴가 시작되다
-9. 94명에서 93명으로 — 612년 청석령 고개의 밤 | 살수 612 – 3화
+9. 94명에서 93명으로 — 612년 석문령 고개의 밤 | 살수 612 – 3화
 10. "천둥을 산 채로 잡아라" — 수 양제의 명령, 612년 남하 400km
 → Thumbnail giữ `30만 VS 전차 1대`.
 

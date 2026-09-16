@@ -1,9 +1,8 @@
-# 살수 612 — RESOURCE LEDGER (bảng đếm ngược · v1 · 2026-09-16 · world-designer)
+# 살수 612 — RESOURCE LEDGER (bảng đếm ngược · v2 · 2026-09-16 · world-designer — ĐÃ ĐỒNG BỘ THEO OUTLINE, decisions.md P-20)
 
-> Khớp `series_foundation.md` §5 (khởi điểm) và §7 (mốc bắt buộc: 2화 cối dùng 50 · PZF dùng 6 · 1 K21 cháy · 1 phuy mất | 3화 drone → 0 · 2 kính đêm mất · bỏ 2 K21 + 2 K511 + K151 | 4화 K2 bắn 2 viên → **còn 6** | 5화 K2 **6 viên** · cối **30** · PZF **6** · dầu cuối 4화 **~20 km**).
-> Số tròn. Các ô **in đậm** = mốc foundation khóa cứng. Các ô có dấu `†` = đề xuất của world-designer để nối mốc (story-director/outline có thể chỉnh trong biên độ, không được chạm ô in đậm).
-> Cột "Câu thoại KO": ≤12 어절, **다나까체** cho lính ("~입니다/~습니다"), 사극체 khi người Goguryeo nói. Đây là "câu nói ra con số" tối thiểu — script-writer dùng nguyên văn hoặc biến thể cùng số.
-> Nguyên tắc §5: **không "vô hạn"** — mỗi tập ≥1 con số giảm được nói thành lời (xem mục 3).
+> **Chuẩn số liệu cho script-writer = OUTLINE** (`outline_ep1…ep5.md`, decisions.md P-20). Bảng này gom các con số đã được outline nói thành lời hoặc ghi ở dòng "Tài nguyên giảm", nối lại thành một đường đếm ngược liên tục. Mốc foundation §5/§7 (**in đậm**) khớp cả outline lẫn ledger.
+> Ô có `†` = số nối do world-designer đặt ở khoảng trống outline không nêu (story-director/script-writer chỉnh được trong biên độ, không chạm ô in đậm hoặc ô có trích dẫn outline).
+> Cột "Câu thoại KO": ≤12 어절, **다나까체** cho lính; nếu outline đã có câu → dùng nguyên văn outline (đánh dấu ★). Nguyên tắc §5: mỗi tập ≥1 con số giảm nói thành lời.
 
 ---
 
@@ -13,94 +12,96 @@
 
 | Tài nguyên | Đầu 1화 | Cuối 1화 | Cuối 2화 | Cuối 3화 | Cuối 4화 | Cuối 5화 | Câu thoại KO nói ra con số (tập · người nói) |
 |---|---|---|---|---|---|---|---|
-| **K2 — đạn pháo 120 mm (viên)** | **22** | 22 † (giữ, không bắn) | 10 † (bắn 12: 3 đợt, tháp công thành) | 8 † (bắn 2: phá phục kích khe núi) | **6** (bắn 2 phá vây đêm) | **0** (6 viên vào đội hình chỉ huy giữa sông) | 1화 박기철: "포탄 스물두 발, 그게 전부입니다." · 2화: "포탄 열 발 남았습니다." · 3화: "포탄 여덟 발 남았습니다." · 4화: "포탄 여섯 발 남았습니다." · 5화: "포탄 없습니다. 전차는 끝났습니다." |
-| **K2 — nhiên liệu (km còn chạy được)** | **~400** | 370 † | 300 † (+ kho gom = ~460 †) | 60 † (đi 400 km) | **~20** | **0** (nổ máy cấp điện tháp pháo đến khi chết máy) | 2화 박기철: **"여기서 청천강까지 400km. 연료는 전차 한 대 몫뿐입니다."** (§7) · 3화: "연료 60킬로 남았습니다." · 4화: "연료 20킬로 분량입니다. 그 이상은 없습니다." · 5화: "연료 끝났습니다. 전차는 여기서 멈춥니다." |
-| Phuy dầu 200 L (cái) | 2 | 2 | **1** (1 cháy hỏa công) | 0 † (đổ hết vào K2) | 0 | 0 | 2화 박기철: "기름통 하나 탔습니다. 하나 남았습니다." · 3화: "마지막 기름통, 전차에 다 부었습니다." |
-| **K21 (xe hoạt động)** | **3** | 3 | **2** (천둥 4 cháy) | **0** (천둥 2 phá hủy · 천둥 3 **nguyên vẹn → 탁발흠**) | 0 | 0 | 2화 박기철: "천둥 4, 전소했습니다." · 3화 오태민: "천둥 3, 못 태웠습니다. 놈들 손에 들어갔습니다." |
-| K21 — đạn 40 mm (viên, tổng còn dùng được) | 600 | 560 † | 160 † (천둥 2: 80 · 천둥 3: 80; 100 viên cháy cùng 천둥 4) | 0 (60 viên † nằm trong 천둥 3 bị chiếm) | 0 | 0 | 2화 사수: "40밀리 백육십 발 남았습니다." · 3화: "40밀리는 이제 없습니다." |
-| K21 — nhiên liệu (bình/xe) | 3 bình đầy | 3 (~90 %) | 2 (~70 %) | 0 (rút hết) | — | — | 3화 박기철: "장갑차 기름은 다 뺐습니다. 전차 하나만 갑니다." |
-| **K511A1 (xe)** | **2** | 2 (lốp #2 thủng tên, thay lốp) | 2 | **0** (bỏ lại, đốt) | — | — | 3화: "트럭 두 대, 여기 두고 갑니다." |
-| **K151 (xe)** | **1** | 1 | 1 | **0** (bỏ lại; radio + máy phát chuyển lên K2) | — | — | 3화: "지휘차 버립니다. 무전기만 뗍니다." |
+| **K2 — đạn pháo 120 mm (viên)** | **22** | **22** (1화 không bắn) | **12** (2화 bắn 10 — 을지문덕 giới hạn "열 발", rút K2 khi còn 12) | **8** (3화 bắn 4 → đá lở bịt đường dê 석문령) | **6** (4화 bắn 2 vào khối đuốc cửa bãi cạn) | **0** (5화 6 viên vào đội hình chỉ huy giữa sông) | 1화 박기철: "포탄 스물두 발, 그게 전부입니다." · 2화 ★ "포탄 열두 발" · 4화 ★ "여덟 발" (P3) → ★ "여섯 발" (P8) · 5화 ★ "포탄 여섯." (P3) → ★ "다 썼습니다." (P5) |
+| **K2 — nhiên liệu (km còn chạy được)** | **~400** | **~340** (1화 ★ "오늘 밤에 전차 30km 썼습니다" · ★ "이틀에 60km") | ~300 trong K2 † + gom mọi xe & phuy cuối = **"산길로 400km, 딱"** (3화 P3) | **~20** (hành trình ~400 km đường núi + APU sạc: "드론 한 번 충전 = 전차 600미터", "이틀 APU = 3km") | **~20** (K2 tắt máy nằm im trong lau; foundation §5) | **0** (5화 P9 ★ "300미터. 전차가 마지막으로 달릴 거리" → chết máy trên mô cát) | 1화 ★ "이틀에 60km." · 2화 ★ **"여기서 청천강까지 400km. 연료는 전차 한 대 몫뿐입니다."** · 3화 ★ "드론 한 번 충전이 전차 600미터입니다." · 4화 ★ "연료 20km" · 5화 ★ "연료 20km." (P3) → "300미터" (P9) |
+| Phuy dầu 200 L (cái) | 2 | 2 | **1** (hỏa công 2화 P7) | 0 (3화 P1 xi-phông đổ hết vào K2 — 박기철 đếm từng lít) | 0 | 0 | 2화 ★ "phuy 1" (P8 nói thành lời) · 3화 P1: "…백팔십, 백구십…" |
+| Máy phát K151 — nhiên liệu | 30 ngày | 30 ngày | ★ "발전기 연료 30일" (2화 P3) → gom vào K2 | — (K151 cháy; sạc chỉ còn **APU K2** = ăn dầu K2) | — | — | 3화 ★ "드론 한 번 충전이 전차 600미터입니다." |
+| **K21 (xe hoạt động)** | **3** | 3 (천둥 3 hỏng bánh chịu nặng — 을보 chốt sắt tạm) | **2** (천둥 4 cháy 2화 P7) | **0** (천둥 2 đốt cùng xe tải 3화 P1 · **천둥 3 nguyên vẹn → 탁발흠**, 40 con bò kéo) | 0 | 0 | 3화 오태민: "정말 버립니까?" · 3화 태오 ★ "저건… 우리 찹니다." · 3화 narrator ★ "천둥 3호는 불타지 않았습니다." |
+| K21 — đạn 40 mm (viên, tổng còn dùng được) | 600 | **480** (1화 −60 P5, −60 P10) | **220** (2화 −200 cháy cùng 천둥 4 P7, −60 cổng bắc P10) | 0 (~60 † nằm trong 천둥 3 bị thu — altered history, decisions #5) | 0 | 0 | 1화 P10: "40mm 천둥 2 còn 1 băng" (thoại trận) · 3화: "40밀리는 이제 없습니다." † |
+| K21 — nhiên liệu (bình/xe) | 3 đầy | 3 (~85 %) † | 2 (~70 %) † | 0 (rút hết vào K2) | — | — | 3화 박기철: "장갑차 기름은 다 뺐습니다. 전차 하나만 갑니다." † |
+| **K511A1 (xe)** | **2** | 2 (lốp #2 thủng tên, thay lốp) | 2 | **0** (cháy 3화 P1) | — | — | 3화 P1: hình 2 K511 + K151 cháy, không thoại |
+| **K151 (xe)** | **1** | 1 | 1 | **0** (cháy 3화 P1; radio + ăng-ten lên K2) | — | — | — |
 
 ### 1.2 Vũ khí bộ binh
 
 | Tài nguyên | Đầu 1화 | Cuối 1화 | Cuối 2화 | Cuối 3화 | Cuối 4화 | Cuối 5화 | Câu thoại KO nói ra con số |
 |---|---|---|---|---|---|---|---|
-| **K2C1 — đạn 5.56 (viên tổng / băng 30 viên mỗi người)** | **21.600 / 8 băng** | 20.000 / 7 † | 15.000 / 6 † | 13.000 / 5 † | 10.000 / 4 † | 2.000 / 1 † (**5화 phát đạn theo băng** — §5) | 1화: "소총탄 일인당 여덟 탄창입니다." · 4화: "일인당 네 탄창입니다. 아껴 쏘십시오." · 5화 박기철: "탄창 하나씩 나눠 줍니다. 마지막입니다." |
-| **Cối 81 mm KM187 — đạn (viên)** | **120** | 110 † | **60** (2화 dùng 50) | 50 † | **30** | **0** | 1화: "박격포탄 백이십 발입니다." · 2화: "박격포탄 예순 발 남았습니다." · 4화: "박격포탄 서른 발 남았습니다." · 5화: "박격포탄 서른 발, 전부 쏩니다." |
-| K3 — đạn 5.56 dây (viên) | 6.000 | 5.400 † | 3.400 † | 3.000 † | 2.200 † | 0 | 2화: "기관총탄 삼천사백 발 남았습니다." · 5화: "K3 탄 떨어졌습니다!" |
-| K6 12.7 mm — đạn (viên) | 1.600 | 1.400 † | 1.000 † | 900 † (**tháo khỏi xe, khiêng**) | 600 † | 0 | 3화: "중기관총 두 정, 떼서 메고 갑니다. 탄 구백 발입니다." · 5화: "50구경 육백 발, 강 한가운데만 쏩니다." |
-| **PZF-3 — đạn (quả / ống ngắm)** | **18 / 6** | 18 † | **12** (2화 dùng 6 vào tháp công thành) | 10 † (2 quả phá 천둥 2 + K511) | **6** (4 quả phá vây đêm) | **0** (vào thuyền/phao) | 2화: "판처파우스트 열두 발 남았습니다." · 4화: "판처파우스트 여섯 발 남았습니다." · 5화: "판처파우스트 없습니다." |
-| K4 — lựu 40 mm (viên) | 300 | 260 † | 140 † | 120 † | 80 † | 0 | 2화: "유탄 백사십 발 남았습니다." |
+| **K2C1 — đạn 5.56 (băng 30 viên / người)** | **8** (≈21.600 viên) | 7 † | 6 † | 5 † | **4** (5화 P3 ★ "소총 — 1인당 탄창 넷") | **0** (5화 P8 ★ "탄창 둘" → P10 ★ "탄창 비었습니다") | 1화: "소총탄 일인당 여덟 탄창입니다." † · 5화 ★ "1인당 탄창 넷." → ★ "탄창 둘." → ★ "탄창 비었습니다." |
+| **Cối 81 mm KM187 — đạn (viên)** | **120** | **110** (1화 −2 đăng ký P8, −8 P10) | **60** (2화 −10 P5, −40 P10) | **50** (3화 −10 trận giả thua P5) | **30** (4화 −20 tuyến đuốc P7) | **0** (5화) | 1화 ★ "백이십 발" · 2화 ★ "백이십 발이라 했소" (을지문덕) · 4화 ★ "박격포 50" (P3) → ★ "박격포 서른" (P8) · 5화 ★ "박격포 서른." → "다 썼습니다." |
+| K3 — đạn 5.56 dây (viên) | 6.000 | 5.400 (1화 −600 P10) | 4.200 (2화 −1.200 P10) | 3.200 (3화 −1.000 P10) | **1.800** (5화 P3 ★ "K3 여섯 정, 삼백 발씩"; 4화 −800 P7 + ~600 † gác đêm) | 0 (5화 P8 "K3 gần hết" → 0) | 5화 ★ "K3 여섯 정, 삼백 발씩." · 5화: "K3 탄 떨어졌습니다!" † |
+| K6 12.7 mm — đạn (viên, 2 khẩu) | 1.600 | 1.400 † | 1.000 † | 900 (3화 −60 P4 "sấm Goguryeo" + −40 †; **tháo khỏi xe, khiêng**) | **800** (5화 P3 ★ "K6 두 정, 사백 발씩"; 4화 −40 P10 + −60 †) | 0 (5화 P8 "K6 câm") | 5화 ★ "K6 두 정, 사백 발씩." |
+| **PZF-3 — đạn (quả / cụm ngắm 6)** | **18** | 18 | **12** (2화 −1 xe húc P4, −5 tháp P10) | **9** (3화 −3 cụm đuốc vách đèo P10) | **6** (4화 −3 cụm đuốc/bè P7) | **0** (5화 vào thuyền/phao) | 2화 ★ "PZF 열둘" · 4화 ★ "PZF 9" (P3) → ★ "PZF 여섯" (P8) · 5화 ★ "PZF 여섯." |
+| K4 — lựu 40 mm (viên) | 300 | 260 † | 140 † | 120 † | 80 † | 0 | 2화: "유탄 백사십 발 남았습니다." † (outline không nêu — script-writer tùy dùng) |
 
 ### 1.3 Điện tử / "mắt và tai"
 
 | Tài nguyên | Đầu 1화 | Cuối 1화 | Cuối 2화 | Cuối 3화 | Cuối 4화 | Cuối 5화 | Câu thoại KO nói ra con số |
 |---|---|---|---|---|---|---|---|
-| **Drone (chiếc bay được)** | **4** | **3** (#1 bị tên bắn rơi) | **2** (#2 cháy cùng xe) | **0** (#3 hết pin rơi rừng † → #4 **bị bắt cùng 태오**) | **0** | **0** | 1화 태오: "드론 세 대 남았습니다." · 2화: "드론 두 대 남았습니다." · 3화 한승우: "드론 없습니다. 이제 하늘 눈은 없습니다." |
-| Pin drone đã sạc (viên, 30 phút/viên) | 8 † | 6 † | 4 † | 0 (mất xe sạc) | 0 | 0 | 3화 태오: "배터리 한 번 분량입니다. 마지막 비행입니다." |
-| **Kính đêm PVS-11K (còn sáng / tổng)** | **12 / 12** | 12 / 12 | 12 / 12 | **10 / 10** (**2 chiếc → địch**) | 8 / 10 † (pin AA cạn dần) | 3 / 10 † | 3화 백성민: "야시경 두 개, 적에게 넘어갔습니다." · 4화: "야시경 여덟 개만 켜집니다." · 5화: "야시경 세 개 남았습니다." |
-| Pin AA (viên) | 400 † | 360 † | 280 † | 200 † | 60 † | 0 | 4화: "건전지 예순 개, 야시경만 씁니다." |
-| Radio PRC-999K (máy còn pin / tổng) | 12 / 12 † | 12 / 12 | 12 / 12 | 6 / 12 † (mất K151 sạc → tắt bớt) | 3 / 12 † | 1 / 12 † | 3화: "무전기 여섯 대만 살립니다. 나머지는 끕니다." · 5화: "무전기 한 대 남았습니다. 신호는 손으로 합니다." |
-| GPS / vệ tinh | 0 (từ sáng 1화) | 0 | 0 | 0 | 0 | 0 | 1화 태오: **"위성 0개입니다. 하나도 안 잡힙니다."** (§3) |
+| **Drone (chiếc bay được)** | **4** | **3** (#1 tên bắn rơi 1화 P5) | **2** (#2 cháy 2화 P7) | **0** (#3 pin phồng chết hẳn 3화 P3 → #4 **bị bắt cùng 태오** 3화 P10) | **0** | **0** (#4 trong hộp về 낙양) | 1화 ★ "드론 배터리 18분." · 2화 ★ "드론 셋" → "드론 2" · 3화 ★ "드론 하나" (P3) → ★ "충전 한 번 남았습니다" (P8) → ★ "드론 없습니다" (P11) · 4화 ★ "드론 0" |
+| Pin drone (phút bay còn lại của chiếc đang dùng) | 30 | 18 → 12 (1화 ★ "18분", #1 "12분") | 24 (2화 #2 ★ "24분") | 30 → 14 (3화 P4 ★ "30→14분") → 10 (P9 lần bay cuối) → 0 | 0 | 0 | 3화 ★ "드론 한 번 충전이 전차 600미터입니다." |
+| **Kính đêm PVS-11K (chiếc)** | **12** | 12 | 12 | **10** (**2 → 탁발흠**, 3화 P10) | 10 | 10 (ban ngày vô dụng; pin ~0) | 3화 ★ "야시경 열 개" (P11) · 4화 ★ "야시경 10" |
+| Pin kính đêm (%) | 100 (1화 ★ "건전지 나흘치") | ~70 † (1화 P10 "pin cạn giữa chừng", đổi pin) | ~60 † | **40** (3화 P8 ★ "야시경 배터리 40%") | **20** (4화 ★ "30%" P3 → ★ "20%" P11) | 0 | 1화 ★ "건전지 나흘치." · 3화 ★ "야시경 배터리 40%." · 4화 ★ "야시경 배터리 30%." → "20%." |
+| Radio PRC-999K (pin %, máy chính) | 100 | 100 (chỉ nội bộ 5–10 km) | ~90 † (sạc từ K151) | ~70 † (1 máy giao 해모루 3화 P6) | **50** (4화 P3 ★ "무전기 50%") | **10 → 5 → cờ tay** (5화 P6 ★ "Radio 10%" · P8 ★ "무전기 5%" · P9 radio → cờ tay) | 1화: thử gọi lữ đoàn — im · 4화 ★ "무전기 50%" · 5화 ★ "무전기 5%." |
+| GPS / vệ tinh | 0 (từ sáng 1화) | 0 | 0 | 0 | 0 | 0 | 1화 ★ **"위성 0개"** (P1) |
 
 ### 1.4 Y tế · lương thực · quân số
 
 | Tài nguyên | Đầu 1화 | Cuối 1화 | Cuối 2화 | Cuối 3화 | Cuối 4화 | Cuối 5화 | Câu thoại KO nói ra con số |
 |---|---|---|---|---|---|---|---|
-| **Kháng sinh (liều)** | 20 † | 16 † | **0** (dùng cho thương binh Goguryeo — §4) | 0 | 0 | 0 | 2화 윤서아: **"항생제 다 떨어졌습니다."** · 3화: "이제 약초뿐입니다." |
-| Morphine (ống tự tiêm) | 30 † | 28 † | 20 † | 16 † | 10 † | 0 | 5화 윤서아: "모르핀 없습니다. 참으셔야 합니다." |
-| Băng ép / băng cuộn (gói) | 200 † | 180 † | 100 † | 80 † | 50 † | 0 | 5화: "붕대 마지막입니다." (cứu 해모루) |
-| **전투식량 (ngày)** | **3** | 2 | **0** (từ đây **ăn lương Goguryeo** — §5) | 0 (lương Goguryeo) | 0 (+ lương Tùy đào lên †) | 0 | 1화: "전투식량 이틀 치입니다." · 2화: "전투식량 끝났습니다. 오늘부터 고구려 밥입니다." · 4화 백성민: "수나라 놈들이 묻은 쌀입니다. 백 일 치랍니다." |
-| **Quân số (người)** | **94** | 94 (3 bị thương nhẹ †) | 92 † (2 KIA hỏa công) | 91 † (1 KIA khe núi · **태오 bị bắt** → 90 có mặt) | 89 † (태오 về · 2 KIA phá vây) | 77 † (12 KIA Salsu) | 1화: "현재 인원 아흔네 명, 전원 이상 없습니다." · 2화: "아흔두 명입니다. 둘 잃었습니다." · 3화: "아흔한 명, 그중 한 명 포로입니다." · 4화: "여든아홉 명입니다." · 5화 한승우: "일흔일곱 명 남았습니다." |
-| Trong đó bị thương cần chăm | 0 | 3 | 8 † | 6 † | 9 † | 20 † | 5화 윤서아: "부상자 스무 명, 약은 없습니다." |
+| **Kháng sinh (%)** | 100 | **90** (1화 P8/P11 ★ "kháng sinh 90%") | **0** (2화 P3 ★ "항생제 60%" → P8 ★ "항생제 0") | 0 (★ "이제 약초뿐입니다" †) | 0 | 0 | 2화 ★ "항생제 60% → 없습니다." · 5화 ★ "항생제 없음." |
+| Morphine (ống tự tiêm) | 30 † | 28 † | 20 † | 14 † | **8** (5화 P3 ★ "모르핀 여덟") | 0 | 5화 ★ "모르핀 여덟." · 5화 서아: "모르핀 없습니다. 참으셔야 합니다." † |
+| Băng ép / băng cuộn (gói) | 200 † | 170 † | 100 † | 80 † | 50 † | 0 | 5화: "붕대 마지막입니다." † (cứu 해모루) |
+| **전투식량 (ngày)** | **3** (1화 ★ "식량 사흘") | **2** (1화 P6 ★ "이틀") → phụ thuộc Goguryeo (P8) | **0** (ăn kê Goguryeo) | 0 (kê khô 해모루 cấp 3화 P3) | **1 ngày** (5화 P3 ★ "식량 하루" — kê Goguryeo + lương Tùy đào lên 4화, decisions #5) | 0 | 1화 ★ "식량 사흘 / 이틀." · 2화: "전투식량 끝났습니다. 오늘부터 고구려 밥입니다." † · 5화 ★ "식량 하루." |
+| **Quân số (người)** | **94** | 94 (0 KIA; 6 thương binh 1화 P10–P11) | 94 (0 KIA; +4 thương binh, 2 bỏng nặng, 박기철 bỏng tay 2화 P7/P10) | **93** = 92 đi + 1 **bị bắt (태오)**; **1 KIA đầu tiên** (xạ thủ K3, 3화 P10) | **91** (태오 về; 1 chết tại chỗ + 1 chết nhiễm trùng đêm thứ 3, 4화 P7/P11) | **80** (5화 P8 91→86 · P10 86→80) | 3화 ★ "94명으로 왔습니다. 이제 92명이 걷고, 한 명이 묻히고, 한 명이 끌려갔습니다." · 4화 ★ "92명" → ★ "91명" · 5화 ★ "91명." (P3) → ★ "80명" (P11) |
+| Thương binh đang chăm | 0 | 6 (★ 1화 P10) | ~10 † (★ +4 P10, 2 bỏng nặng P7) | ~6 † | ~5 † (+ 태오 không đi được — trực radio 4화 P11) | ~20 † (5화 P3 "부상자") | 4화 ★ "태오 sống, không đi được." · 5화 서아: "부상자 스무 명, 약은 없습니다." † |
 
 ---
 
-## 2. ĐƯỜNG CONG NHIÊN LIỆU K2 (để script không "chạy vô hạn")
+## 2. ĐƯỜNG CONG NHIÊN LIỆU K2 (theo outline — để script không "chạy vô hạn")
 
-| Mốc | Sự kiện | Ước lượng km còn | Ghi chú cho script |
+| Mốc | Sự kiện (outline) | km còn | Câu / ghi chú |
 |---|---|---|---|
-| 1화 sáng | Xuyên không; xe đầy bình sau tiếp dầu đêm huấn luyện | ~400 | K2 **không chạy tuần tra** — 한승우 giữ ("전차는 안 움직입니다. 기름이 곧 목숨입니다.") |
-| 1화 | Cứu đoàn dân (K21 + bộ binh đi), K2 chỉ di chuyển 15 km vào vị trí + về LOC_003 | ~370 | |
-| 2화 | Công phòng chiến: K2 vào vị trí 치 và rút ra 4–5 lần; nổ máy cấp điện | ~300 | Hỏa công đốt 1 phuy → mất ~70 km tương đương |
-| Cuối 2화 | Gom: K2 300 + 2 K21 (~70 %) + 2 K511 + K151 + phuy cuối ≈ **~460 km cho K2** | 460 | **Câu §7 của 박기철**: "연료는 전차 한 대 몫뿐입니다." |
-| 3화 | Nam hạ ~400 km đường núi (xe tăng đi đường núi tốn hơn; số làm tròn) | 60 | 3화 kết: "연료 60킬로." |
-| 4화 | Đêm phá vây (~15 km), đổi vị trí ẩn 2 lần, nổ máy sạc radio | **~20** | Foundation: dầu cuối 4화 ~20 km |
-| 5화 | Lên mô cát (2 km), nổ máy cấp điện tháp pháo, chết máy giữa trận | 0 | "전차는 여기서 멈춥니다." → pháo đài tĩnh |
+| 1화 sáng | Xuyên không; xe đầy bình sau tiếp dầu đêm huấn luyện | ~400 | K2 **không bắn**; 한승우 giữ K2 gần như đứng yên |
+| 1화 đêm P7 → P11 | Một đêm di chuyển cứu đoàn dân / vào thung lũng | ~370 → **~340** | ★ "오늘 밤에 전차 30km 썼습니다." (P7) · ★ "이틀에 60km." (P11) |
+| 2화 | K2 vào/ra vị trí 치 nhiều lần, leo dốc (P9 박기철 nhăn mặt), nổ máy cấp điện; hỏa công đốt 1 phuy | ~300 trong K2 † | Máy phát K151 ★ "발전기 연료 30일" (P3) |
+| Cuối 2화 P12 | 박기철 xếp que đo dầu từng xe lên nắp K2, vạch đường 요동성 — 압록수 — 청천강 | gom = **~400 "딱"** | ★ **"여기서 청천강까지 400km. 연료는 전차 한 대 몫뿐입니다."** |
+| 3화 P1–P3 | Xi-phông mọi xe + phuy cuối vào K2; đốt xe; K2 = nguồn điện duy nhất (APU) | 400 → giảm dần | ★ "산길로 400km, 딱." · ★ "드론 한 번 충전이 전차 600미터입니다." |
+| 3화 P7–P10 | Rò nước làm mát trên dốc, dừng 2 ngày vá (을보 gò đồng); 40 phút APU sạc trên yên 석문령 | −3 km APU (★ "전차 3km") | K2 tắt máy khi bị đánh → nổ máy bắn 4 viên |
+| Cuối 3화 → 4화 P3 | Tới bãi bắc Salsu | **~20** | 4화 ★ "연료 20km." |
+| 4화 | K2 nằm im trong lau (bắn 2 viên tại chỗ P7); trượt về đảo lau thứ hai 3 km thượng lưu — chi phí nhỏ, giữ tròn 20 | **~20** | Foundation §5: dầu cuối 4화 ~20 km |
+| 5화 P3 → P9 | ★ "연료 20km." (P3) → kế P9 ★ "300미터" — quãng chạy cuối lên mô cát | 20 → 0 | ★ "300미터. 전차가 마지막으로 달릴 거리였습니다." → chết máy, 55 tấn, 0 viên |
 
-Ước lượng kỹ thuật (chỉ để nhất quán nội bộ, không nói trong phim): K2 ~3 L/km đường núi; 1 phuy 200 L ≈ 65–70 km; K21 bình ~ tương đương 150 km K2 khi rút sang.
-
----
-
-## 3. "MỖI TẬP ≥1 CON SỐ GIẢM NÓI THÀNH LỜI" — BEAT BẮT BUỘC (map vào 12 phần S40)
-
-| Tập | Phần 3 「kiểm kê」 (4:30–7:00) | Phần 8 「tài nguyên cạn」 (21:00–24:00) | Phần 11–12 「cái giá / open loop」 | Direct quote đắt giá (title/thumbnail được) |
-|---|---|---|---|---|
-| 1화 | Đếm toàn bộ: 22 viên · 400 km · 4 drone · 3 ngày ăn · 94 người · **위성 0개** | Drone 4 → 3 (tên bắn) | 전투식량 이틀 치 → phải nhận lương Goguryeo | "위성 0개입니다." / "포탄 스물두 발, 그게 전부입니다." |
-| 2화 | Đạn cối 120 → kế hoạch dùng 50; PZF 18 | Hỏa công: K21 −1 · phuy −1 · drone 3 → 2 · **항생제 0** | **"여기서 청천강까지 400km. 연료는 전차 한 대 몫뿐입니다."** | "쇠수레는 며칠이나 달릴 수 있소?" (을지문덕, §7) |
-| 3화 | Gom dầu: mọi xe → K2; 40 mm = 0; K6 tháo | Drone 2 → 1 (pin) → **0** (bị bắt) · kính đêm −2 · 1 KIA | Còn 8 viên · 60 km · "숨으시오. 30만이 지나가게 두시오." | "드론 없습니다. 이제 하늘 눈은 없습니다." |
-| 4화 | 8 viên · 20+ km · 30 phát cối + 20 · PZF 10 | Phá vây đêm: −2 viên → **6** · PZF −4 → 6 · cối → 30 | **"포탄 여섯 발 남았습니다."** · dầu **20 km** | "포탄 6발 남았다" (thumbnail dự phòng 4화 đã có trong series_titles) |
-| 5화 | 6 viên xếp hàng trên cát · 30 cối · 6 PZF · 1 băng/người · 77 người sau trận | K2 hết đạn → 탁발흠 đánh thẳng bãi cạn | 0 mọi thứ; "이제 우리는 뭡니까?" | "포탄 없습니다. 전차는 끝났습니다." |
+Ước lượng kỹ thuật nội bộ (không nói trong phim): K2 ~3 L/km đường núi; 1 phuy 200 L ≈ 65–70 km; drone 1 lần sạc ≈ 600 m K2 (outline); APU 2 ngày ≈ 3 km (outline).
 
 ---
 
-## 4. TIMELINE LỆCH (ALTERED HISTORY — vật thể lọt vào tay Tùy)
+## 3. "MỖI TẬP ≥1 CON SỐ GIẢM NÓI THÀNH LỜI" — BEAT BẮT BUỘC (đã khớp bảng "Con số nói thành lời" cuối mỗi outline)
 
-| Vật | Tập mất | Ở đâu cuối 5화 | Hệ quả series 2 |
+| Tập | Con số nói thành lời (outline ★) | Beat tài nguyên chính | Direct quote đắt giá |
 |---|---|---|---|
-| K21 천둥 3 (nguyên vẹn, ~60 viên 40 mm bên trong †, hết dầu) | 3화 | Trên bè/xe bò về Lạc Dương, phủ vải, cờ Tùy | Tùy không nổ máy được (không dầu), không bắn được (không biết nạp) — nhưng có **thép và kính** |
-| Drone #4 + controller (pin chết) | 3화 | Hộp gỗ cạnh K21 | "Con chim sắt" trong sử Tùy |
-| 2 kính đêm PVS-11K (pin sắp cạn) | 3화 | 1 trên mặt 탁발흠 (4화) → thu hồi/hỏng 5화 † · 1 về Lạc Dương | |
-| Tablet (màn hình đen) | 3화 (theo 태오) | Trong tay 탁발흠 → rơi lại bãi cạn 5화 † | |
-| Vỏ đạn 120 mm (đồng-nhôm) | 2화, 5화 | Lính Tùy nhặt | |
+| 1화 | "위성 0개" · "드론 배터리 18분" · "식량 사흘 / 이틀" · "건전지 나흘치" · "이틀에 60km" | Drone 4→3 · 40mm 600→480 · cối 120→110 · dầu 400→340 · 6 thương binh | "위성 0개입니다." |
+| 2화 | "항생제 60% → 없습니다" · "백이십 발" · "열두 발" · "400km, 전차 한 대 몫" | K2 22→12 · cối 110→60 · PZF 18→12 · K21 3→2 · phuy 2→1 · drone 3→2 · kháng sinh 0 | "쇠수레는 며칠이나 달릴 수 있소?" / "여기서 청천강까지 400km…" |
+| 3화 | "드론 하나 / 600미터 / 닷새" · "충전 한 번 / 40%" · "야시경 열 개" · "92명" | Xe 7→1 · K2 12→8 · cối 60→50 · PZF 12→9 · drone 2→0 · kính 12→10 · 94→93 (+1 bị bắt) | "드론 한 번 충전이 전차 600미터입니다." / "숨으시오. 30만이 지나가게 두시오." |
+| 4화 | "92명" · "여덟 발 / 20km / 30% / 드론 0" · "여섯 발" · "91명" · "한 뼘" (nước +1 gang/ngày) | K2 8→6 · cối 50→30 · PZF 9→6 · 93→91 · kính pin 30→20% · radio 50% | "포탄 여섯 발 남았습니다." |
+| 5화 | Toàn bảng P3 ("포탄 여섯. 연료 20km. 박격포 서른. PZF 여섯. K6 두 정, 사백 발씩. K3 여섯 정, 삼백 발씩. 소총 1인당 탄창 넷. 항생제 없음. 모르핀 여덟. 식량 하루. 91명.") · "다 썼습니다" · "탄창 둘 / 5% / 20km" · "탄창 비었습니다" · "80명 / 2천 7백" | Tất cả → 0 · 91→86→80 · K2 chìm bùn | "다 쓰면 끝입니다. 다음은 없습니다." / "이제 우리는 뭡니까?" |
 
 ---
 
-## 5. ĐIỂM CẦN USER / STORY-DIRECTOR QUYẾT
-1. **Quân số cuối 5화 = 77 (−17 toàn series, trong đó 12 ở Salsu)** — đề xuất của tôi; foundation chỉ nói "thương vong". Nếu muốn nặng tay hơn (≈60) hoặc nhẹ hơn (≈85) → chỉ đổi cột "Quân số", các cột khác không phụ thuộc.
-2. **Phân bổ 12 viên K2 ở 2화** (còn 10) và **2 viên ở 3화** (còn 8) là đường nối đến mốc "6 viên cuối 4화" của foundation; có thể đổi thành 2화 −14 / 3화 0 nếu outline không có cảnh K2 bắn ở 3화.
-3. **PZF: 3화 dùng 2 quả để phá xe của chính mình** (천둥 2 + K511) — hình "tự bắn xe mình" rất mạnh nhưng tốn đạn chống tăng; nếu outline muốn đốt bằng dầu/lựu → PZF cuối 3화 = 12, cuối 4화 vẫn phải = 6 (4화 dùng 6).
-4. **K6 trên cupola K2** (không có trong §5): tôi không tính đạn trong ledger. Cần chốt: (a) coi như dùng chung kho 1.600 viên 12.7 của WPN_004, hoặc (b) thêm 1.000 viên riêng (đề xuất ghi vào proposals.md).
-5. **Lương Tùy đào lên ăn ở 4화** (PROP_022) là mở rộng, hợp engine nhưng là sự kiện mới.
-6. **Pin AA / radio còn pin**: con số đặt để có "đồng hồ" cho kính đêm và radio ở 4–5화; nếu thấy rối, có thể gộp thành một dòng "điện" duy nhất.
+## 4. TIMELINE LỆCH (ALTERED HISTORY — vật thể lọt vào tay Tùy, theo outline 3화 P11 / 5화 P12)
+
+| Vật | Tập mất | Ở đâu cuối 5화 | Hệ quả series 2 「613」 (decisions P-18) |
+|---|---|---|---|
+| K21 천둥 3 (nguyên vẹn, hết dầu, ~60 viên 40 mm bên trong †; biển tên "천둥 3" đã bị 박기철 tháo giữ) | 3화 P1 | 탁발흠 gửi về tây cho 양제 với 200 kỵ hộ tống (3화 P11) → 5화 P12 trên đường về 낙양 | Tùy có thép + kính, không có dầu, không biết nạp |
+| Drone #4 + controller (pin chết) | 3화 P10 | Cùng K21 về 낙양 | "Con chim sắt" |
+| 2 kính đêm PVS-11K | 3화 P10 | 탁발흠 **giữ lại** (3화 P11 ★ "야시경은 보내지 않았습니다") → 4화 săn đêm → 5화 rơi xuống sông cùng hắn (chết trên nóc K2, decisions P-02) | Pin cạn, không tái tạo được |
+| 태극기 patch của 태오 | 3화 P11 (탁발흠 gỡ, cất) | 5화 rơi xuống sông cùng 탁발흠 | Foreshadow đã khóa trong outline |
+| Tablet (màn hình đen) | 3화 (theo 태오) | Về 낙양 cùng K21 † | |
+| Vỏ đạn 120 mm | 2화, 3화, 5화 | Lính Tùy nhặt | |
+
+---
+
+## 5. TRẠNG THÁI ĐỒNG BỘ & ĐIỂM CÒN MỞ
+- **Đã sửa theo P-20:** K2 22→22→12→8→6→0 · PZF 3화 12→9 (đốt xe bằng dầu + lựu đạn, không tốn PZF) · 40mm cuối 2화 220 · dầu K2 cuối 1화 ~340 · dầu cuối 3화 ~20 (4화 P3) · quân số 94/94/94/93/91/**80** (decisions #3 cho phép ≤ −17; outline chọn −14) · cối 110/60/50/30/0 · K3 & K6 cuối 4화 lấy theo 5화 P3 (1.800 / 800).
+- **Chênh nhỏ còn lại trong chính outline** (story-director xem, không chặn script): (a) K3: tổng trừ ở 1–4화 = 2.400 nhưng 5화 P3 nói 1.800 → ledger lấy 1.800 và ghi 600 † "gác đêm 4화". (b) 2화 P4 "PZF 18→17" + P10 "17→12" = −6 ✓ nhưng 2화 P12 "PZF 열둘" đã có — OK. (c) Kháng sinh 1화 "90%" vs 2화 P3 "60%" — hợp lý (dùng cho thương binh Goguryeo 1화 P11–2화 P3).
+- **Máy phát K151 "30 ngày" (2화 P3)**: là nhiên liệu riêng của máy phát → 3화 gom vào K2 hay bỏ? Ledger coi như gom (đã tính trong "400 딱").
+- K6 trên cupola K2 dùng chung kho 1.600 (decisions #2) — đã áp dụng, không thêm dòng.
