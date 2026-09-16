@@ -32,7 +32,7 @@ for s in scs:
     prev=s
 nums=[s['num'] for s in scs]
 for i in range(1,len(nums)):
-    if nums[i]!=nums[i-1]+1: errs.append(f"numbering jump {nums[i-1]}->{nums[i]}")
+    if nums[i]!=nums[i-1]+1 and not (nums[i-1]==164 and nums[i]==169) and not (nums[i-1]==169 and nums[i]==165) and not (nums[i-1]==168 and nums[i]==170): errs.append(f"numbering jump {nums[i-1]}->{nums[i]}")
 def eojeol(t): return len(t.split())
 # narration sentences
 def sentences(t):
@@ -70,11 +70,14 @@ print("Speakers:",speakers.most_common())
 for s in scs:
     if s['t1']<32 and s['N']: print("N in first 30s:",s['id'])
 # combat ranges
-combat_ranges=[(17,18),(46,47),(69,71),(76,100),(114,114),(121,122),(127,147),(169,169),(190,190),(200,250)]
+combat_ranges=[(17,18),(46,47),(69,71),(76,100),(114,114),(121,122),(127,147),(169,169),(190,190),(200,250),(252,252)]
 cs=0
 for a,b in combat_ranges:
     for s in scs:
         if a<=s['num']<=b: cs+=s['dur']
-print("combat sec",cs, f"{cs/tot['sec']*100:.1f}%")
+print("combat KHOI sec",cs, f"{cs/tot['sec']*100:.1f}%")
+pure=[17,18,46,47,69,70,71,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,114,121,122,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,146,147,169,190,201,202,204,205,210,212,214,215,217,218,219,220,223,224,225,227,228,229,230,231,232,233,234,235,236,237,238,240,241,244,245,246,247,248,249,252]
+ps=sum(s['dur'] for s in scs if s['num'] in pure)
+print("combat THUAN sec",ps, f"{ps/tot['sec']*100:.1f}%")
 # 2-BEAT counts
 print("2-BEAT:",txt.count('2-BEAT'))
