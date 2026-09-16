@@ -30,6 +30,12 @@ LOC_LOCK = {k.split("_")[0] + "_" + k.split("_")[1]: v for k, v in CM["location_
 CM_SUB = CM["sublocks"]          # sublocks v3 (LOC_007_* 5화 đã khóa)
 CM_DER = CM["derived_states"]    # derived_states v3 (prompt_add nguyên văn)
 LOCK_PENDING = {}                # v3 đã có VEH_207 / PROP_024 / PROP_025 → không còn lock tạm cho ID bible
+# Lock biến thể đạo cụ theo prop_bible (nguyên văn VISUAL_LOCK_EN_OPEN / _ON_WRECK) — dùng qua prop_state={"PROP_024": "open"}
+PROP_LOCK_ALT = {
+    "PROP_024:open": "large plain red silk signal banner unfurled and streaming from a four-meter bamboo pole in rain, no emblem, no border, wet silk clinging and snapping",
+    "PROP_023:wreck": "a small scorched olive-drab steel nameplate with a scratched white numeral 3 lying on the mud-caked turret edge of a burned tank beside a faded white numeral 1",
+    "PROP_023:pocket": "small rectangular olive-drab painted steel vehicle nameplate with a scratched white numeral 3, two bolt holes, scorched edge, a loop of paracord through one hole",
+}
 # Đạo cụ KHÔNG có ID bible phù hợp (script tag PROP_001 = "bản đồ lụa 을지문덕" ≠ PROP_001 bản đồ giấy ROK; PROP_012 "cờ hiệu nhỏ") → lock tạm, LOCK_PENDING
 EXTRA_PROPS = {
     "SILK_MAP": "a Goguryeo silk map painted in black ink brush strokes: a curving river, a line of small stake marks across a ford, a long mid-river sandbar, the north bank hatched thick for reed beds, scale-like strokes for hills on both banks, one small red cinnabar dot at a gap on the north bank, no readable writing",
@@ -451,7 +457,8 @@ def build_scene(s, sc):
         seg.append(f"{tag_of(ref_id)}: {LOCKS[c]}" + (f" {st_text}" if st_text else ""))
         add_ref(ref_id)
     for e in extras:
-        seg.append(EXTRAS[e] if EXTRAS[e].endswith(".") else EXTRAS[e] + ".")
+        et = EXTRAS[e][0].upper() + EXTRAS[e][1:]
+        seg.append(et if et.endswith(".") else et + ".")
         r = EXTRA_REF.get(e)
         if r and r in REF_DIR:
             # không đính VEH ref hai lần nếu vehicle đã có
@@ -465,10 +472,12 @@ def build_scene(s, sc):
         if v in LOCK_PENDING: lock_pending.append(v)
     for p in props:
         pref = f"{p}_ref" if f"{p}_ref" in REF_DIR else None
-        seg.append((f"{tag_of(pref)}: " if pref else "") + LOCKS[p])
+        pst = s.get("prop_state", {}).get(p)
+        ptxt = PROP_LOCK_ALT[f"{p}:{pst}"] if pst else LOCKS[p]
+        seg.append((f"{tag_of(pref)}: " if pref else "") + ptxt)
         add_ref(pref)
     for xp in xprops:
-        seg.append(EXTRA_PROPS[xp])
+        seg.append(EXTRA_PROPS[xp][0].upper() + EXTRA_PROPS[xp][1:])
         if xp == "SILK_MAP": add_ref("EXTRA_silk_map_ref"); lock_pending.append("SILK_MAP(PROP_001?)")
         if xp == "SMALL_CROW_PENNANT": lock_pending.append("SMALL_CROW_PENNANT(PROP_012?)")
     seg.append(("Setting " + tag_of(loc_ref) + ": " if loc_ref else "Setting: ") + loc_text)
@@ -590,7 +599,7 @@ PART_TITLES = {
     12: "[Phần 12] 이제 우리는 뭡니까 (37:30–40:00) · 613/614/618 [史] · nội điện 평양 D+8 · Salsu D+10 nước rút: biển 3 lên xác K2 · '이제 우리는 뭡니까?' · 知足願云止 · xe bò về 낙양 · [END CARD] 「613」",
 }
 
-NAMES = ("한승우", "오태민", "Han ", "Tae-min", "Eulji", "Tuoba", "Yang Guang", "Ki-cheol", "Seo-ah", "Tae-oh", "Seong-min",
+NAMES = ("한승우", "오태민", "Han Seung", "Tae-min", "Eulji", "Tuoba", "Yang Guang", "Ki-cheol", "Seo-ah", "Tae-oh", "Seong-min",
          "Hae Mo", "Jeong-su", "Eul-bo", "A-ri", "Lai Huer", "Yu Zhongwen", "Yuwen", "Geon-mu", "Yeongyang", "Seung-woo",
          "Shin Se", "Wang In", "Luoyang", "Mundeok", "Zhongwen")
 

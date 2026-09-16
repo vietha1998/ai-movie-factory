@@ -1,0 +1,198 @@
+[
+ {
+  "id": "LOC_007_island_ep4",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 93,
+  "out_dir": "05_references/locations",
+  "used_by": "đảo lau (đảo 1 & 2): gò đất thấp giữa lau ngập, mái lau bó tạm, K2 = mô bùn cắm lau",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. A low earth mound rising barely a meter above flooded reed beds on the north bank two kilometers from the ford, July monsoon rain: soldiers' shelters of bundled reeds lashed over shallow scrapes, weapons wrapped in cloth, everything grey-brown and wet, and at the center a head-high mound of wet grey mud stuck with cut reeds hiding a tank with only the reed-wrapped gun barrel lying low, tall grey-green reeds walling in every side, no fire, no smoke. Grey overcast daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_south_camp_ep4",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 29,
+  "out_dir": "05_references/locations",
+  "used_by": "trại hậu quân Tùy bờ nam: lều da/nỉ, xe bò chở hòm, ngựa buộc, gốc liễu + cũi tre",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. The Sui rear-guard camp on the south bank of the shallow river, July monsoon: rows of grey felt and dark hide tents, two-wheeled ox carts loaded with chests, oxen and tethered horses, cooking fires smoking under hide awnings, a large willow tree dripping rain, red and yellow banners hanging wet, the sandy shore and the grey river beyond, low green hills behind. Grey overcast daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_008_hills_rain_ep4",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 25,
+  "out_dir": "05_references/locations",
+  "used_by": "đồi xanh mưa bắc 평양, đường lầy trong thung",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. Low green hills north of the Goguryeo capital in July monsoon rain, 612 AD: wet grass and scrub on rolling slopes, a muddy dirt road winding through the valley below churned by countless feet and hooves, low grey cloud on the ridges, mist in the folds, no buildings. Grey overcast daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_fog_ep4",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 22,
+  "out_dir": "05_references/locations",
+  "used_by": "sông 살수 rạng đông D7 sương trắng đặc, chỉ ngọn lau nhô",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. The wide shallow river at dawn buried in dense white fog: only the tops of the tall reeds rising from the whiteness like islands, the water surface a pale mirror fading into white a few meters out, no far bank visible, flat shadowless white light. Dawn in dense white river fog, flat white shadowless light, visibility a few meters, every surface glistening wet, no sun, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_008_sui_tent_ep4",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 15,
+  "out_dir": "05_references/locations",
+  "used_by": "nội thất lều 우중문 dựa núi: vách da, ghế gấp, bàn bản đồ da, đèn dầu, giá kiếm",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Interior reference shot, 16:9. Interior of a Sui general's campaign tent pitched on a mountainside in monsoon rain: dark hide walls beaded with water, rain drumming on the roof, a folding wooden camp chair, a low black lacquered table with a leather map painted in ink, a clay oil lamp giving dim warm light, a sword rack, a red and yellow banner, a bronze brazier, mud tracked over reed mats. Night inside a tent, dim warm oil-lamp light, deep shadows, rain drumming on the roof, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_007_marsh_night_ep4",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 14,
+  "out_dir": "05_references/locations",
+  "used_by": "đầm lau bờ bắc đêm mưa, nước đen tới đùi, không đuốc",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. The flooded reed marsh of the north bank at night in rain: black water thigh-deep, walls of tall grey-green reeds dripping, no torches, no moon, a faint grey sheen on the water surface, rain streaking the darkness. Night in rain, near-black blue darkness, a faint grey sheen on wet reeds and water, no torches, no moon, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "VEH_207_ref",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 11,
+  "out_dir": "05_references/vehicles",
+  "used_by": "**LOCK_PENDING** kỵ binh Tùy (tướng/sĩ quan/전령 trên ngựa Hán, yên cao, giáp 명광개)",
+  "lock_pending": true,
+  "body": {
+   "prompt": "Product-style reference photo of a Sui dynasty cavalry officer of 612 AD mounted on his horse, three-quarter view: Sui dynasty cavalry: tall warhorses with high wooden saddles, red silk saddle cloths and bronze-studded breast straps, riders in mingguang iron lamellar armor with two polished round chest plates, pointed iron helmets with red tassel crests, red cloaks, long spears and straight swords, red and yellow pennants, the rider holding a long spear upright, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "PROP_018_ref",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 9,
+  "out_dir": "05_references/props",
+  "used_by": "tù và sừng trâu đen có **7 vạch khắc** trên cán (SC_016/124/193/225/226)",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Product-style reference photo of a Goguryeo signal horn, three-quarter view: curved black water-buffalo horn trumpet about fifty centimeters long with a bronze mouthpiece and a leather shoulder cord, seven short parallel notches freshly carved into the horn near the mouthpiece, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_006_market_ep4",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 8,
+  "out_dir": "05_references/locations",
+  "used_by": "phố chợ ngoại thành 평양 bỏ trống trong mưa: sạp lụa, vò rượu, xe bò, ngõ hẹp tới cửa chùa",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9. An empty market street in the outer town of the Goguryeo capital in monsoon rain, 612 AD: wooden houses with rain-dark grey tiled and thatched roofs, wooden market stalls left standing with bolts of silk and clay wine jars, doors open, an abandoned ox cart, a stone-paved street running uphill toward a closed inner-wall gate, puddles, grey wet light. Grey overcast daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_village_women_ref",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 8,
+  "out_dir": "05_references/characters",
+  "used_by": "5 bà làng bờ bắc (áo gai, khăn đầu, váy buộc gối, rổ đậy lá, liềm)",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Group reference sheet on pure white background, 16:9, full-body front view of five middle-aged Goguryeo village women in undyed hemp jackets and pleated skirts hitched and tied at the knees, cloth head wraps, bare feet, carrying woven baskets covered with leaves and reed sickles, ages 40 to 65, weathered faces, standing in a row. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_rok_wounded_ref",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 7,
+  "out_dir": "05_references/characters",
+  "used_by": "부상병 trúng tên bụng (mặt tròn, ~22)",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. A young ROK soldier around 22 with a round face, short black hair, small eyes and a wide mouth, soaked mud-smeared granite-pattern digital camo uniform, body armor, no helmet, Korean flag patch on right shoulder, private's rank. Empty hands in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "3:4"
+  }
+ },
+ {
+  "id": "LOC_008_sui_camp_ep4",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 5,
+  "out_dir": "05_references/locations",
+  "used_by": "trại Tùy 30리 dựa núi trong mưa, hàng vạn lều, khói bếp thưa",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Aerial establishing reference shot, 16:9. A vast Sui camp pitched against the foot of a green forested mountain in monsoon rain, 612 AD: countless grey felt and hemp tents in ragged rows across wet trampled grass and mud, only a few thin threads of cooking smoke, red and yellow banners hanging limp, wooden watchtowers, horse lines, low grey cloud on the mountain. Grey overcast daylight in steady monsoon rain, flat cold grey-green light, low cloud, rain streaks, every surface wet, no people in frame, no modern structures, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_sui_courier_ref",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 4,
+  "out_dir": "05_references/characters",
+  "used_by": "전령 Tùy kỵ mã (bùn tới ngực)",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Sui mounted courier around 25, mud to the chest, wet grey-blue padded coat and iron lamellar vest, pointed iron helmet, exhausted gasping face, a bamboo message tube at the belt. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "3:4"
+  }
+ },
+ {
+  "id": "EXTRA_gog_envoy_ref",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 3,
+  "out_dir": "05_references/characters",
+  "used_by": "사자 Goguryeo (áo bào không giáp, cờ trắng cuộn)",
+  "lock_pending": false,
+  "body": {
+   "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Goguryeo envoy around 40, lean build, black topknot under a black silk court cap, dark red-brown silk robe with a black border, no armor, a rolled white cloth flag on a short pole, calm face. Flag pole held in the left hand in the full-body view. Even studio lighting, no cast shadows, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "3:4"
+  }
+ }
+]

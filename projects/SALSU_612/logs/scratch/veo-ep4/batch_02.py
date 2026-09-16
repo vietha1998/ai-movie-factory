@@ -272,13 +272,13 @@ dict(id="SC_070", part=4, day="D2", loc="LOC_007_outpost", chars=["CHAR_205", "C
   cont="Cẳng tay PHẢI bị chém (night_hunt_ep4 ✔ 'fresh cut on the right forearm'). Mũ lông trôi — không vớt.",
   chain="SC_069", cut=True, risk="dao cận + 2 người → rất tối, chớp xanh nhỏ, không máu cận"),
 
-dict(id="SC_071", part=4, day="D2", loc="LOC_007_outpost", chars=["CHAR_205", "CHAR_006"], states={"CHAR_205": "CHAR_205_night_hunt_ep4", "CHAR_006": "CHAR_006_mudface_ep4"}, extras=["ROK_SENTRY_PLAIN"], veh=["EQP_001", "WPN_001"], props=[],
+dict(id="SC_071", part=4, day="D2", loc="LOC_007_outpost", chars=["CHAR_205", "CHAR_006"], states={"CHAR_205": "CHAR_205_capless_night_ep4", "CHAR_006": "CHAR_006_mudface_ep4"}, extras=["ROK_SENTRY_PLAIN"], veh=["EQP_001", "WPN_001"], props=[],
   shot="Medium shot, static",
   action="The bareheaded commander turns and plunges away south through the reeds, water spraying; the sentry rips the cloth off his rifle and raises it — the scout's hand shoots up out of the water and slams the muzzle down into the mud",
   light="night_rain",
   video="Static medium: the commander crashes away through the reeds, the sentry tears the cloth off and raises the rifle, a hand from the water slaps the barrel down into the mud; one whispered line. Sound: wading fading fast, cloth ripping, the barrel hitting mud, one whispered line of Korean dialogue.",
   a0="commander turning to flee, rifle still wrapped", a1="rifle muzzle in the mud under the scout's hand, commander gone",
-  cont="'쏘지 마.' 탁발흠 đầu trần chạy (cap lost — night_hunt state không có mũ trong khung).",
+  cont="'쏘지 마.' 탁발흠 đầu trần chạy (capless_night_ep4).",
   chain=None, cut=True, risk="súng nâng → không cận cò, tay đập nòng"),
 
 dict(id="SC_072", part=4, day="D2", loc="LOC_007_outpost", chars=["CHAR_006"], states={"CHAR_006": "CHAR_006_mudface_ep4"}, extras=["ROK_SENTRY_PLAIN", "ROK_SENTRY_NVG"], veh=[], props=[],

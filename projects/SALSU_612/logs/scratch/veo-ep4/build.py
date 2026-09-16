@@ -128,6 +128,8 @@ DERIVED = {
         "Helmet off showing the white topknot, red cloak removed, armor worn open at the throat, mud on the breast mirrors, face flushed red with anger, lamplight warmth on the beard."),
     "CHAR_203_rain_ep4": ("CHAR_203", "CHAR_203_ref",
         "Cloak soaked with the fur collar wet and matted, mud on the boots, a bundle of bamboo slip records in one hand, tired eyes."),
+    "CHAR_205_capless_night_ep4": ("CHAR_205", "CHAR_205_night_hunt_ep4",
+        "Fox-fur cap lost, braid exposed and dripping, night-vision monocular knocked askew over the right eye, wet dark cloak over the armor, mud on the knees, a fresh cut on the right forearm, turning to flee."),
     "CHAR_205_bareheaded_ep4": ("CHAR_205", "CHAR_205_night_hunt_ep4",
         "Fox-fur cap lost, braid exposed and dripping, wet dark cloak over the armor, mud to the thighs, a fresh cut on the right forearm, the night-vision monocular held in one hand on its strap."),
     "CHAR_205_bandaged_day_ep4": ("CHAR_205", "CHAR_205_nvg_ep3",
@@ -584,7 +586,7 @@ PART_TITLES = {
 
 NAMES = ("한승우", "오태민", "Han ", "Tae-min", "Eulji", "Tuoba", "Yang Guang", "Ki-cheol", "Seo-ah", "Tae-oh", "Seong-min",
          "Hae Mo", "Jeong-su", "Eul-bo", "A-ri", "Lai Huer", "Yu Zhongwen", "Yuwen", "Geon-mu", "Yeongyang", "Seung-woo",
-         "Zhou Fashang", "Pyongyang", "Salsu", "Cheongcheon")
+         "Zhou Fashang")  # địa danh trong lock bible (Pyongyang/Cheongcheon) là nguyên văn location_bible → cho phép
 
 def validate(recs):
     errs = []
@@ -760,9 +762,10 @@ REF_JOBS_META = {
 REF_JOBS_META.pop("EXTRA_rok_wounded_ep4")
 
 def write_sublocks(recs):
-    cnt_sub = collections.Counter(r["subloc"] for r in recs)
+    cnt_sub = collections.Counter(r["subloc"] for r in recs if not r["edit_only"])
     sc_by_sub = collections.defaultdict(list)
-    for r in recs: sc_by_sub[r["subloc"]].append(r["id"][3:])
+    for r in recs:
+        if not r["edit_only"]: sc_by_sub[r["subloc"]].append(r["id"][3:])
     L = ["# 살수 612 — SUB-LOCK ĐỊA ĐIỂM 4화 (veo-prompt-engineer · 2026-09-16 · chờ DUYỆT như 1화)",
          "> Mỗi sub-lock = 1 đoạn VISUAL_LOCK_EN cố định cho một khu vực/buổi của LOC gốc; đã dán NGUYÊN VĂN vào mọi SC tương ứng trong `04_veo/scene_list_ep4.md`. `(bible)` = nguyên văn REF_PROMPT_EN_INTERIOR/VISUAL_LOCK của location_bible; `(bible, cắt pha)` = lock LOC_007 bỏ mệnh đề 3 pha thời tiết (4화 chỉ có mưa/sương). world-designer nhập vào location_bible dưới mục `REF_PROMPT_EN_<subarea>`; 5화 dùng lại đúng id (đảo lau, cọc, bãi bắc, sương). Nguồn máy: `logs/scratch/veo-ep4/build.py` SUBLOC.",
          "> Quy tắc dùng: aerial → `LOC_007_aerial`/`LOC_006`/`LOC_008_hills_rain`; medium/cận → sub-lock khu vực; luôn thêm câu Light (mưa/sương theo bảng ngày/đêm); kết bằng style tag §D. LOC_008 4화 = đồi xanh mưa bắc 평양 (KHÔNG dùng lock làng núi).", "",

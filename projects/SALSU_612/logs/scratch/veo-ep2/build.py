@@ -115,7 +115,6 @@ DERIVED = {
         "Fox-fur cap on, a Goguryeo arrowhead on a leather cord at the neck, soot smudges on the cheek and armor, firelight in the eyes, no torch in hand."),
     "CHAR_205_magazine_ep2": ("CHAR_205", "CHAR_205_ref",
         "Fox-fur cap on, a Goguryeo arrowhead on a leather cord at the neck, an empty black steel rifle magazine hanging from the bronze plaque belt, dust on the leather armor."),
-    "BOY_STATE_FEVER": ("BOY", "", ""),  # placeholder không dùng
 }
 
 # ---------------------------------------------------------------- EXTRAS (không ID trong bible) — lock tạm cố định, dùng NGUYÊN VĂN mọi SC; đề xuất character-designer đưa vào bible
@@ -481,7 +480,8 @@ def build_scene(s, sc):
         add_ref(EXTRA_REF.get(e))
     for v in vehs:
         vref = s.get("veh_ref", {}).get(v, f"{v}_ref")
-        seg.append(f"{tag_of(vref)}: {LOCKS[v]}" + (f" {VEH_STATE[vstate[v]]}" if v in vstate else ""))
+        vlock = LOCKS[v] if LOCKS[v].rstrip().endswith((".", "!", "?")) else LOCKS[v] + "."
+        seg.append(f"{tag_of(vref)}: {vlock}" + (f" {VEH_STATE[vstate[v]]}" if v in vstate else ""))
         add_ref(vref)
     for p in props:
         pref = f"{p}_ref" if f"{p}_ref" in REF_DIR else None
@@ -701,9 +701,12 @@ def write_usage(recs):
     for c, n in sorted(cnt_char.items()):
         sts = ", ".join(f"{k} ({v})" for k, v in sorted(cnt_state.items()) if k.startswith(c))
         L.append(f"| {c} | {n} | {sts or '— (base)'} |")
+    L.append(""); L.append("### Derived state text-only của bible (không ref riêng → đính ref gốc/biến thể gần nhất)")
+    for k in ("CHAR_201_field_dust_ep2", "CHAR_003_helmet_combat"):
+        if k in cnt_state: L.append(f"- `{k}` → ref `{DERIVED[k][1]}` ({cnt_state[k]} SC): {DERIVED[k][2]}")
     L.append(""); L.append("### Derived state 2화 do veo-prompt-engineer đặt thêm (không có trong bible — đề xuất character-designer nhập; đính ref gốc/biến thể gần nhất)")
     for k, (cid, rid, txt) in DERIVED.items():
-        if k in cnt_state and rid != k:
+        if k in cnt_state and rid != k and k not in ("CHAR_201_field_dust_ep2", "CHAR_003_helmet_combat"):
             L.append(f"- `{k}` → ref `{rid}` ({cnt_state[k]} SC): {txt}")
     L.append(""); L.append("### Nhân vật phụ không ID (lock tạm trong build.py EXTRAS)")
     L.append("| Extra | SC | ref đính |"); L.append("|---|---|---|")

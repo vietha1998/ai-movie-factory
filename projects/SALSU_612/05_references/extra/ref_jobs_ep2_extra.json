@@ -1,0 +1,158 @@
+[
+ {
+  "id": "LOC_003_valley_ep2",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 38,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_003_valley_apr",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9, from the valley mouth by day. The hidden company base in a shallow oak-scrub valley three weeks into the siege: a K2 tank under sun-faded green-brown camouflage netting, three K21 infantry fighting vehicles in a row under netting, two 6x6 cargo trucks and a boxy 4x4 command vehicle along the west slope, two olive fuel drums behind a sandbag wall thirty paces from the vehicles, olive-green army tents beside brown hemp Goguryeo tents, ground churned to bare earth, oak scrub in first leaf, no people in frame, no modern structures other than the listed vehicles, no text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_002_south_plain_ep2",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 31,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_002_south_plain",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9, from the Sui side looking toward the fortress. The trampled plain south of the Goguryeo fortress under siege: a moat filled with earth sacks and brushwood into a wide causeway, churned bare earth and yellow dust, lines of Sui eight-wheeled siege towers and ladder carts, red and yellow banners, grey felt tents behind them to the horizon, and the dry-stacked grey granite wall with rectangular bastions and a timber gate tower rising above, no people in frame, no modern structures other than the listed vehicles, no text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_002_southwall_ep2",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 29,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_002_southwall",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9, from on top of the wall looking along the parapet and out over the plain. On top of the south wall of the Goguryeo fortress under siege: dry-stacked grey granite blocks without mortar, a low stone parapet with narrow arrow slits, rectangular protruding bastions, racks of arrows, clay water jars, iron cauldrons, a hide war drum on a wooden stand, black three-legged crow banners, and beyond the parapet a trampled plain with a filled moat, a line of Sui siege towers and an ocean of grey felt tents, no people in frame, no modern structures other than the listed vehicles, no text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_002_bastion_se_ep2",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 29,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_002_bastion_se_k2",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9, three-quarter view from inside the fortress showing the earth ramp rising to the bastion and the square embrasure in the parapet. On the south-east rectangular bastion of the Goguryeo fortress with a modern K2 tank parked on top: dry-stacked grey granite parapet with one arrow slit chiselled into a square embrasure the size of a tank gun, a black three-legged crow banner on a bamboo pole beside the tank, a fresh earth ramp descending behind into the fortress, the trampled plain and Sui siege towers beyond the parapet, no people in frame, no modern structures other than the listed vehicles, no text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "VEH_201_mud_ep2",
+  "type": "image",
+  "priority": 1,
+  "sc_count": 20,
+  "out_dir": "05_references/vehicles",
+  "used_by_vehicle_state": "VEH_201 TOWER_MUD (SC_099+)",
+  "body": {
+   "prompt": "Product-style reference photo of a Sui dynasty eight-wheeled siege tower of 612 AD, three-quarter front view, tall four-story raw timber frame narrowing upward with an internal ladder, the front, sides and top completely covered in straw mats soaked in mud under a thick layer of wet earth so the tower looks earth-brown and lumpy instead of black hide, mud cracking dry in places, a hinged drop-bridge at the top also caked with mud, arrow slits on the upper floors, eight solid wooden wheels about one and a half meters tall, towing ropes and pushing beams at the base, a red Sui banner on top, pure white background, even studio lighting, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_003_valley_burned_ep2",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 13,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_003_wreck_day",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9, from the valley mouth by day. The hidden valley base by day after the fire: the burned-out black hull of a K21 infantry fighting vehicle with its turret dislodged, a scorched cargo truck, a crater with scattered sandbags, ash over bare earth, a K2 tank with its netting pulled back, two intact K21 vehicles, olive tents and brown hemp Goguryeo tents, oak scrub in leaf, no people in frame, no modern structures other than the listed vehicles, no text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_002_breach_ep2",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 11,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_002_breach",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9, from outside the wall at the filled moat. An eighty-meter breach in the south wall of the Goguryeo fortress: the outer face collapsed into a steep slope of tumbled grey granite blocks and earth spilling toward the filled moat, the inner wall still standing behind, dust, intact wall with parapet either side, the fortress yard and timber roofs visible through the gap, no people in frame, no modern structures other than the listed vehicles, no text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "EXTRA_sui_siege_general_ref",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 10,
+  "out_dir": "05_references/characters",
+  "used_by_extra": "SUI_SIEGE_GENERAL",
+  "body": {
+   "prompt": "Character reference sheet, two views on one image against pure white background: left, full-body front view standing straight, arms relaxed at sides; right, close-up of the face at three-quarter angle, neutral expression, looking slightly past camera. Chinese man around 45, lean hard build, long weathered face with high cheekbones, narrow black eyes, short black beard trimmed square, black topknot. Sui mingguang iron lamellar armor with two polished round breast mirrors, dark red silk cloak, iron helmet with a black tassel crest, a riding whip in hand. Clearly younger and leaner than any grey- or white-bearded general. Helmet on, sword sheathed at the hip, cloak thrown back over the shoulders, whip held down at the side, in the full-body view. Must look clearly different from any white-bearded or grey-bearded general: beard short, black, square-trimmed, around 45 years old, lean. Even studio lighting, no cast shadows, no horse, no props other than listed, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, film grain, pure white background, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "3:4"
+  }
+ },
+ {
+  "id": "LOC_002_infirmary_ep2",
+  "type": "image",
+  "priority": 2,
+  "sc_count": 5,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_002_infirmary",
+  "body": {
+   "prompt": "Interior establishing reference shot, 16:9. Interior of a dark timber infirmary house against the inner wall of the Goguryeo fortress: plank floor spread with woven reed mats, rows of straw bedding, clay bowls and water basins, bundles of herbs hanging from the rafters, a shuttered wooden lattice window with narrow gaps, thick wooden posts, thin lines of daylight through the shutters, smoke haze, no people in frame, no modern structures other than the listed vehicles, no text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_004_platform_ep2",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 4,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_004_platform",
+  "body": {
+   "prompt": "Wide establishing reference shot, 16:9, low angle from the plain at dawn. A tall timber observation platform newly raised on the plain south of the Goguryeo fortress: raw log posts and a plank deck with a wooden railing, a golden silk canopy on red poles over the deck, yellow imperial banners with red tassels, torches on poles around the base, ranks kneeling below, and across the plain the dry-stacked grey granite fortress wall with rectangular bastions, no people in frame, no modern structures other than the listed vehicles, no text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_002_eastgate_chisel_ep2",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 3,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_002_eastgate_chisel",
+  "body": {
+   "prompt": "Establishing reference shot, 16:9, from inside the fortress looking through the arch. The small east gate of the Goguryeo fortress being widened: a narrow arched passage of dry-stacked grey granite with a low wooden scaffold inside the arch, both walls of the passage freshly chiselled back showing bright pale stone against dark old blocks, stone chips and dust on the ground, two-leaf iron-sheathed wooden doors folded open, a black three-legged crow banner, no people in frame, no modern structures other than the listed vehicles, no text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ },
+ {
+  "id": "LOC_002_tunnel_ep2",
+  "type": "image",
+  "priority": 3,
+  "sc_count": 2,
+  "out_dir": "05_references/locations",
+  "used_by_sublock": "LOC_002_tunnel",
+  "body": {
+   "prompt": "Interior establishing reference shot, 16:9, low camera looking down the tunnel. Inside a Sui mine tunnel dug under the plain toward the fortress wall: a low earthen passage shored with raw timber posts and beams, clay oil lamps hanging from the posts, damp walls seeping water, woven baskets of loose earth, a cramped ceiling of packed soil, no people in frame, no modern structures other than the listed vehicles, no text, photorealistic, cinematic live-action film still, shot on ARRI Alexa, anamorphic 35mm, shallow depth of field, desaturated teal-orange grade, volumetric light, film grain, no text, no watermark, no cartoon, no CGI look",
+   "model": "nano_banana_pro",
+   "aspect_ratio": "16:9"
+  }
+ }
+]

@@ -282,7 +282,7 @@ dict(id="SC_142", part=7, day="D4", loc="LOC_007_island1_k2", chars=["CHAR_001"]
   cont="'천둥 1, 여기는 천둥 지휘. 여울 어귀 횃불 무리. 두 발.' Narrator im.",
   chain=None, cut=True),
 
-dict(id="SC_143", part=7, day="D4", loc="LOC_007_island1_k2", chars=[], extras=["ROK_GUNNER_TURRET"], veh=["VEH_001"], veh_state={"VEH_001": "VEH_001_mud_turret"}, props=[],
+dict(id="SC_143", part=7, day="D4", loc="LOC_007_island1_k2", chars=[], extras=[], veh=["VEH_001"], veh_state={"VEH_001": "VEH_001_mud_turret"}, props=[],
   shot="Medium shot on the turret, static (keyframe = beat A)",
   insert=dict(seconds=4, prompt="Beat B insert, 4 s, extreme close-up inside the turret at night: the commander's cold blue screen showing a small blank readout box with no readable characters, the gunner's gloved hand resting on the control handle; screen glow on the hand. Sound: cooling fans, the autoloader's heavy clunk, one line of Korean dialogue."),
   action="The tank's turret turns under its layer of mud and reeds — mud cracking and dropping away, reed bundles sliding off the barrel; a thermal-sight view: a dense white-hot mass on the sandbar at the ford mouth",
