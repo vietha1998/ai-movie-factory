@@ -39,8 +39,8 @@ if lp.exists():
         sid = m.group(1); n, d = sc.get(sid, (None, None))
         body = m.group(0)
         if n is None: return body
-        new = re.sub(r"(NARRATION \(KO\):)[^\n]*", lambda x: x.group(1)+" "+n, body)
-        new = re.sub(r"(DIALOGUE \(KO\):)[^\n]*", lambda x: x.group(1)+" "+d.replace("\n"," / "), new)
+        new = re.sub(r"(NARRATION[_ ]\(?KO\)?:)[^\n]*", lambda x: x.group(1)+" "+n, body)
+        new = re.sub(r"(DIALOGUE[_ ]\(?KO\)?:)[^\n]*", lambda x: x.group(1)+" "+d.replace("\n"," / "), new)
         if new != body: c2 += 1
         return new
     txt = re.sub(r"### (SC_\d{3}).*?(?=\n### SC_|\Z)", repl, txt, flags=re.S)

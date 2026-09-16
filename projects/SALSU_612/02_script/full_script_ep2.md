@@ -1,6 +1,7 @@
-# 살수 612 — 2화 「요동성」 대본 v2 (QC-fixed)
+# 살수 612 — 2화 「요동성」 대본 v2.1 (QC-fixed · TTS-trimmed)
 
 > **Runtime mục tiêu:** 40:00 (38–42) · **Tổng shot:** 287 (237 video8s + 50 still_kenburns) — xem bảng thống kê cuối file · **Mid-roll:** 7:00 · 14:00 · 21:00 · 27:30 · **Ngày:** 2026-09-16 · script-writer
+> **v2.1 (TTS-trimmed, 2026-09-16):** cắt gọn narration theo `tools/tts_budget.py` (video8s ≤22 어절 N+thoại, still ≤45/12 s, ≤115 어절/phút) — chỉ narration, không chạm thoại/SC/thời gian/open loop/quotes/vùng im; 33 SC gọt (mệnh đề trùng hình, gộp câu, 1 câu SC_133 dời sang still SC_134). Kết quả: 0 SC vượt, xem phụ lục A.
 > **v2 (QC-fixed, 2026-09-16):** áp dụng logs/qc_ep2_script.md (2 BLOCK + 11 FIX + NOTE ≤1 dòng + hay-hơn #1–#3) theo decisions.md mục "sau QC 2화 → v2". Xem nhật ký thay đổi ở phụ lục G. Không đổi 287 SC / 40:00 / open loop / quotes / mid-roll; 3 cụm đổi thứ tự nội dung (P6 SC_113–118, P8 SC_159–168, P11 SC_257–263 — ID theo vị trí mới).
 > **Nguồn:** outline_ep2.md (khung 12 phần — chuẩn), SCRIPT_BRIEF.md v1, series_foundation.md §7 (2화) + §8/§8b, story_bible.md §1 (612 4–6월 [史]) + quy tắc 시호, character_bible.md (LOCKED — giọng), resource_ledger.md v2 (lệch → outline), location/vehicle/prop bible, logs/decisions.md, full_script_ep1.md v3 (nối giọng/callback).
 > **Quy ước ghi (giống 1화 v3):** `N:` = narration tiếng Hàn (격식체, giọng nam trầm). Trong SC có cả `N:` và thoại, editor quyết thứ tự đọc (mặc định: N dẫn vào → TRƯỚC thoại; N bình luận → SAU thoại). `TÊN:` = thoại tiếng Hàn. `[ACTION-VI]` = hành động nhìn thấy được (tiếng Việt, cho veo-prompt-engineer). `[SOUND]` = âm thanh gợi ý. `[COMBAT]` = SC có giao chiến/hỏa lực/bị tấn công (để đếm tỷ lệ combat — mới ở 2화, theo brief). `2-BEAT` trong [ACTION-VI] = 1 SC 8 s gồm 2 shot (cắt ở edit hoặc 2 clip ngắn) — chỉ dùng ở hook và trận. `[NARRATOR IM LẶNG]` / `[MID-ROLL]` / `[END CARD]` theo outline.
@@ -289,7 +290,7 @@ N: 천둥 3호는 고구려 쇠로 굴렀습니다. 삼 주째였습니다. 을�
 ### SC_042 · LOC_003_CHEONDUNG_BASE (bếp Goguryeo, rìa lều) · CHAR_106, 초병 (lính Hàn), CHAR_004 · — · video8s · 5:28–5:36
 [ACTION-VI] Một lính Hàn ngồi bệt bên bếp đá, mặt tái, ôm bụng; 서아 đưa gói muối bù nước; 을보 đi qua, chỉ cây búa về phía suối rồi về chum đất đang sôi trên bếp, quát nhẹ.
 [SOUND] lửa, nước sôi, tiếng lính rên.
-N: 이 땅의 물은 낯선 배를 몰랐습니다. 삼 주 만에 여덟 명이 앓았습니다. 약은 필요 없었습니다.
+N: 이 땅의 물은 낯선 배를 몰랐습니다. 삼 주 만에 여덟 명이 앓았습니다.
 을보: 물은 끓여서 마시게. 낯선 배는 이 물을 몰라.
 
 ### SC_043 · LOC_002_YODONGSEONG (bệnh xá — nhà gỗ cạnh tường trong) · CHAR_004, CHAR_107, thương binh Goguryeo · PROP_009 · video8s · 5:36–5:44
@@ -989,7 +990,7 @@ N: 박기철은 손으로 쓸 수 없었습니다. 판은 태오가 썼습니다
 ### SC_155 · LOC_003_CHEONDUNG_BASE (lều quân y) · CHAR_004, thương binh · PROP_009 · video8s · 21:20–21:28
 [ACTION-VI] Lều quân y: hai lính Hàn bỏng nằm băng kín cánh tay và cổ; ngoài cửa lều, hàng thương binh Goguryeo chờ; 서아 tay áo máu tới khuỷu, mũ tháo, cầm ba lô quân y dốc ngược — vài gói băng rơi, không một lọ. Cô nhìn 한승우 ở cửa lều.
 [SOUND] ba lô rỗng lắc, rên.
-N: 밤새 서아는 화상 둘과 고구려 열다섯을 묶었습니다. 열두 병은 스무 날 밤마다 줄었고, 마지막은 그 밤에 나갔습니다.
+N: 밤새 서아는 화상 둘과 고구려 열다섯을 묶었습니다. 마지막 병은 그 밤에 나갔습니다.
 윤서아: 항생제, 없습니다. 이제부턴 이 사람들 약초입니다.
 
 ### SC_156 · LOC_003_CHEONDUNG_BASE (lều quân y) · CHAR_106, CHAR_107, CHAR_004 · — · video8s · 21:28–21:36
@@ -1062,7 +1063,7 @@ N: 오태민에게 어젯밤은 답이었습니다. 앉아서 기다리면 다�
 ### SC_167 · LOC_003_CHEONDUNG_BASE (bên K2) · CHAR_003 · VEH_001 · video8s · 22:56–23:04
 [ACTION-VI] 박기철 giơ một bàn tay băng chặn giữa 오태민 và xe — không cao giọng; ông gõ bàn tay băng lên nắp thùng dầu.
 [SOUND] băng trên thép, gió.
-N: 첫날 밤 그는 말했습니다. 드론 한 번 충전에 경유 이 리터. 전차 시동은 그 열 배였습니다.
+N: 첫날 밤 그는 말했습니다. 드론 한 번 충전에 경유 이 리터. 시동은 그 열 배였습니다.
 박기철: 전차 시동 한 번이 드론 열 번입니다.
 
 ### SC_168 · LOC_003_CHEONDUNG_BASE (bên K2 → xác 천둥 4, walk-and-talk) · CHAR_101, CHAR_001, CHAR_002 · VEH_001, VEH_002 · video8s · 23:04–23:12
@@ -1662,7 +1663,7 @@ N: 사흘. 그 수는 지도 위의 수였습니다. 땅 위의 수는 아니었
 ### SC_262 · LOC_004_YUKHAPSEONG (điện vàng) · CHAR_201 · — · video8s · 36:12–36:20
 [ACTION-VI] 양제 nhìn bản đồ, không nhìn hai tướng; quạt gập chỉ xuống 평양 — quyết.
 [SOUND] quạt chạm lụa.
-N: 황제는 오늘 낮의 천둥을 말하지 않았습니다. 넉 달 동안 못 깬 성도 말하지 않았습니다. 역사는 이 결정을 기록했습니다.
+N: 황제는 오늘 낮의 천둥을 말하지 않았습니다. 못 깬 성도 말하지 않았습니다. 역사는 이 결정을 기록했습니다.
 수 양제: 아홉 군. 삼십만 오천. 평양으로 가라.
 
 ### SC_263 · LOC_004_YUKHAPSEONG (điện vàng) · CHAR_201, CHAR_205 · — · video8s · 36:20–36:28
