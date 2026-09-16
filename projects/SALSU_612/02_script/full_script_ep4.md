@@ -1698,24 +1698,24 @@ N: 30만이 살수로 돌아오고 있었습니다. 물은 오르고, 포탄은 
 
 ---
 
-## 부록 — THỐNG KÊ & TỰ KIỂM (ngoài phần kịch bản · script-writer · 2026-09-16 · cập nhật v2 QC-fixed)
+## 부록 — THỐNG KÊ & TỰ KIỂM (ngoài phần kịch bản · script-writer · 2026-09-16 · cập nhật v2.2 TTS-trimmed)
 
 ### A. Thống kê (script đếm tự động `logs/scratch/script-writer-ep4/stats.py`: SC theo header `### SC_`, narration = dòng `N:`, thoại = dòng `TÊN:`; 어절 tách theo khoảng trắng; combat = SC có giao chiến / hỏa lực / dao / bị địch dò-bắn / địch đi qua trên đầu)
 | Phần | Phút (outline) | SC | video8s | still_kenburns | Giây | Dòng N | 어절 N | Câu thoại | 어절 thoại | Combat s |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | 0:00–1:30 | 11 | 9 | 2 | 90 | 7 | 115 | 2 | 8 | 72 |
-| 2 | 1:30–4:30 | 21 | 15 | 6 | 180 | 21 | 366 | 13 | 65 | 24 |
-| 3 | 4:30–7:00 | 18 | 15 | 3 | 150 | 17 | 274 | 10 | 64 | 16 |
-| 4 | 7:00–10:30 | 25 | 21 | 4 | 210 | 23 | 330 | 13 | 44 | 112 |
-| 5 | 10:30–14:00 | 25 | 21 | 4 | 210 | 19 | 244 | 11 | 38 | 140 |
-| 6 | 14:00–17:30 | 25 | 22 | 3 | 210 | 24 | 356 | 16 | 86 | 16 |
-| 7 | 17:30–21:00 | 26 | 24 | 2 | 210 | 21 | 359 | 19 | 84 | 145 |
-| 8 | 21:00–24:00 | 21 | 17 | 4 | 180 | 20 | 304 | 14 | 79 | 8 |
-| 9 | 24:00–27:30 | 25 | 19 | 6 | 210 | 24 | 338 | 18 | 87 | 16 |
-| 10 | 27:30–34:30 | 52 | 50 | 2 | 420 | 38 | 485 | 19 | 57 | 312 |
-| 11 | 34:30–37:30 | 21 | 17 | 4 | 180 | 21 | 337 | 11 | 53 | 16 |
+| 2 | 1:30–4:30 | 21 | 15 | 6 | 180 | 21 | 348 | 13 | 65 | 24 |
+| 3 | 4:30–7:00 | 18 | 15 | 3 | 150 | 17 | 263 | 10 | 64 | 16 |
+| 4 | 7:00–10:30 | 25 | 21 | 4 | 210 | 23 | 318 | 13 | 44 | 112 |
+| 5 | 10:30–14:00 | 25 | 21 | 4 | 210 | 19 | 242 | 11 | 38 | 140 |
+| 6 | 14:00–17:30 | 25 | 22 | 3 | 210 | 24 | 354 | 16 | 86 | 16 |
+| 7 | 17:30–21:00 | 26 | 24 | 2 | 210 | 21 | 329 | 19 | 84 | 145 |
+| 8 | 21:00–24:00 | 21 | 17 | 4 | 180 | 20 | 289 | 14 | 79 | 8 |
+| 9 | 24:00–27:30 | 25 | 19 | 6 | 210 | 24 | 337 | 18 | 87 | 16 |
+| 10 | 27:30–34:30 | 52 | 50 | 2 | 420 | 38 | 482 | 19 | 57 | 312 |
+| 11 | 34:30–37:30 | 21 | 17 | 4 | 180 | 21 | 325 | 11 | 53 | 16 |
 | 12 | 37:30–40:00 | 17 | 9 | 8 | 150 | 16 | 255 | 2 | 4 | 8 |
-| **Tổng** | 0:00–40:00 | **287** | **239** | **48** | **2400** (= 40:00) | **251** | **3763** (868 câu, 0 câu >15 어절) | **148** | **669** (0 câu >12 어절) | **KHỐI 885 s = 36,9 % · THUẦN 384 s = 16,0 %** |
+| **Tổng** | 0:00–40:00 | **287** | **239** | **48** | **2400** (= 40:00) | **251** | **3657** (851 câu, 0 câu >15 어절) | **148** | **669** (0 câu >12 어절) | **KHỐI 885 s = 36,9 % · THUẦN 384 s = 16,0 %** |
 
 - **Combat 2 số (decisions v2):** KHỐI = SC trong tình huống chiến đấu kể cả nằm im dưới địch/bị dò/áp sát (885 s, 36,9 %) · THUẦN = SC có vũ khí sử dụng, cận chiến hoặc truy đuổi trực tiếp (SC_014–015, 053, 068–071, 082–090, 136, 138–141, 143–145, 162, 181, 209, 215, 219–222, 227–231, 234–241, 260–261, 272 = 384 s, 16,0 %). 2-BEAT: 12 SC (SC_001, 003 hook · 139, 140, 143, 144 P7 · 209, 215, 226, 231, 240, 241 P10) → shot thực ≈ 299.
 - Khối action (10): P1 địch đi qua trên đầu (SC_001–009) · P2 [史] 7 trận giả thua (013–015) · P3 lính Tùy lạc hàng vào mép đảo (039–040) · P4 [史] đổ bộ (053) + đánh dao đêm (062–074) · P5 [史] 빈 절 (076–092) · P6 tên dò lau (116–117) · P7 trống-đuốc, cối/K3/PZF/K2 (130–147) · P8 백성민 hạ trinh sát (162) · P9 [史] kỵ 해모루 đánh toán kiếm ăn (181) + cũi (189) · P10 (207–245) · P11/P12 [史] 방진 bị đánh bốn mặt (260–261, 272). Khoảng cách lớn nhất giữa 2 beat retention ≈ 1:38 (22:56 → 24:34).
@@ -1729,7 +1729,7 @@ N: 30만이 살수로 돌아오고 있었습니다. 물은 오르고, 포탄은 
 2. **Thời gian khớp outline:** 12/12 phần đúng mốc (P1 1:30 · P2 4:30 · P3 7:00 · P4 10:30 · P5 14:00 · P6 17:30 · P7 21:00 · P8 24:00 · P9 27:30 · P10 34:30 · P11 37:30 · P12 40:00); tổng 40:00; t1 của mỗi SC = t2 SC trước (0 lỗi); video8s = 8 s; still 8–12 s. Bảng ngày/đêm ở header (D1–D8); mọi "이틀 뒤 / 사흘째 밤 / 넷째 날 / 다섯째 날 / 여섯째 날 / 이레째 / 열이틀 / 열흘째" rà theo bảng.
 3. **5 direct quotes nguyên văn:** (1) "쏘지 마. 숨 쉬는 것도 작게." SC_004 · (2) "태오는 저기 우리에 있고, 우리는 진흙에 누워 있습니다." SC_118 · (3) "이 강은 한 번 화나면 사흘 만에 어른 키를 넘소." SC_044 · (4) "그 뒤에 그대들은 누구의 군대인가?" SC_114 (해모루 đọc chữ vua; vua nói bản hội đồng "전쟁이 끝나면 저들은 누구의 군대인가?" SC_107) · (5) "반이 건널 때까지 아무것도 하지 마시오." SC_195 (해모루 truyền; 을지문덕 VO "돌아올 것이오. 사흘 안에. 여울 북쪽을 지키시오." SC_194) ✓. + "여섯 발. 이게 답니다." SC_154 · "좋소. 서두르게 하시오." SC_151 · bài thơ 4 câu Hán (overlay) + dịch Hàn SC_176–178. 12 open loop cuối phần đúng câu outline (P10 sửa "야시경"→"쇠수레", giữ "열흘째" — xem C) ✓. Các câu outline khác: "우린 이제 장님입니다" SC_038 · "하루 종일 셌습니다. 끝이 없습니다." SC_040 · "야시경입니다. 우리 겁니다." SC_073 · "평양은 비었소. 사만이면 남소." SC_055 · "배까지 쫓아라." SC_090 · "이제 돌아가야 하오." SC_096 · "지금은 그들이 필요합니다. 그다음은 그다음에." SC_109 · "역사가 이미 이겼다" SC_119 · "역사책이 우리 94명을 지켜줍니까? 이제 92명입니다." SC_120 · "이십 킬로. 그게 우리 편입니다." SC_121 · "뒤에서 천둥이 울렸습니다. 뇌군이 우리 뒤에 있습니다." SC_149 · "쏠 순 없어도 보낼 순 있다." SC_166 · "넌 북쪽 여울을 지켜." SC_168 · "군사를 돌리면 왕을 모시고 행재소에 조회하겠소." SC_180 · "이 시가… 나를 비웃는 것이냐?" SC_179 · "태오가 외웠던 시다." SC_188 · "물이 오르면 안개가 오오." SC_190 · "죄송합니다… 드론을…" / "살아 있잖아." SC_247–248 · "천둥은 여울 북쪽에 있습니다. 제가 가져오겠습니다." SC_263 · "천둥을 가져오면 네 죄를 잊겠다." SC_264 · "어제보다 한 뼘." SC_277 ✓.
 4. **0–30 s không narration:** ✓ (SC_001–004 chỉ SFX + 1 câu thoại; narrator vào 0:32).
-5. **≤12 어절/câu thoại:** 0 vi phạm (148 câu, dài nhất 11). Narration ≤15 어절/câu: 0 vi phạm (868 câu). Không dùng "그러나 그들은 몰랐습니다". Thì narrator quá khứ thống nhất; câu mở địa danh "612년 7월. 패수."
+5. **≤12 어절/câu thoại:** 0 vi phạm (148 câu, dài nhất 11). Narration ≤15 어절/câu: 0 vi phạm (851 câu). Không dùng "그러나 그들은 몰랐습니다". Thì narrator quá khứ thống nhất; câu mở địa danh "612년 7월. 패수."
 6. **Ràng buộc nội dung:** đại đội nằm im để 30만 đi qua (P1) · 오태민 suýt bóp cò, 한승우 giữ (SC_004–007) · 탁발흠 kính đêm săn → đêm giao tranh nhỏ không tiếng súng (P4) · K2 bắn đúng 2 (SC_144–145) → "여섯 발" (SC_154), "잔탄 06" (SC_153, 279) · cối 50→30, PZF 9→6 nói thành lời (SC_036, 155) · kính đêm 30→20 (SC_036, 254) · radio 50→40 (SC_037, 156) · 92→91 (SC_034, 254) · morphine 10→9→8 (SC_159 "모르핀 9", SC_251 "모르핀 하나" = 8) · dầu "이십 킬로 · 산길 기준" (SC_034, 156) · 백성민 + 아리 cứu 태오 bằng sương/dao/đường lau, không tiếng súng của đại đội trừ 1 loạt K6 (SC_241 "마흔 발") · K2 không bắn (SC_243) · 태오 mất mũ/giáp, đội mũ trụ Goguryeo (SC_255) · 영양왕–한승우 không gặp mặt (qua 해모루, SC_110–114) · 2 chết không tên, 1 vì nhiễm trùng đêm thứ ba (SC_141, 250–252) · nước tới gối → thắt lưng, "+한 뼘" (SC_010, 043, 221, 276–277) · open loop tập: 30만 quay về Salsu, nước lên, sáu viên (SC_286) · 시호: người đương thời chỉ dùng 대왕/전하/과인/폐하 (0 vi phạm; "영양왕" chỉ là nhãn người nói) · không nhắc Bắc Triều Tiên; "이 땅" (SC_023, 115, 178, 253) · không khẩu hiệu · P-11: 탁발흠 ↔ 태오 qua 통역 (SC_128); 해모루 đọc thư Hán cho 한승우 (SC_114) · radio protocol "[người nghe], 여기는 [người gọi]" (SC_135, 142, 202, 223) · từ đúng thời: 전령/사자/나각 ✓.
 7. **Anti-copy:** không dùng tên/thoại/trình tự kênh tham chiếu; trình tự tập = móng ngựa trên mặt → 7 trận giả thua → "장님"/cũi → kính đêm trong tay địch, đánh dao → tổ tiên thắng 4만 không cần đại đội → thư vua/92명 → trống-đuốc, 2 viên → "여섯 발" → thơ + "반" → cứu người bằng sương-dao-đường lau → chết vì nhiễm trùng, 탁발흠 xin cánh sườn → que nước + một người đứng một mình ở bãi cạn. Không "tướng kinh ngạc", không "xe tăng cứu tinh", không tableau kết "2 chỉ huy trên tường → lều địch → card" (lều địch ở P11; P12 kết bằng cọc nước/오태민/mưa).
 
@@ -1768,6 +1768,7 @@ N: 30만이 살수로 돌아오고 있었습니다. 물은 오르고, 포탄은 
 - **Đề xuất DUYỆT:** #1 2-BEAT ×10 (P7 SC_139/140/143/144 · P10 SC_209/215/226/231/240/241) đánh dấu trong [ACTION-VI], không đổi SC/thời gian · #2 [OVERLAY] bộ đếm "잔탄 08" (SC_143b) → "07" (SC_144b) → "06" nháy (SC_145 kết) cho khâu edit · #3 SC_225 해모루 radio **"한 대장, 여기는 해모루. 나각 부오."** (5 어절) trước tù và + SC_282 N nối "그 돌로 고구려 말객이 나각을 알렸습니다. 이제 그 돌은 태오의 무릎에 있었습니다."
 - **Không làm ở v2** (không thuộc quyết định hoặc là bible/tập khác): QC §3 #4 (탁발흠 bán con số cho 우중문), #5 (dẫm lên tay), #6 (người sắp chết nói 1 câu), #7 (탁발흠 làm động tác cánh quạt), #8 (2 kỵ Tiên Ti trong still SC_023), #9 (thẻ tre "半"), #10 (bút chì trên lụa) — chờ coordinator; NOTE bible-lệch (CHAR_102 wall_night, CHAR_005 no helmet, CHAR_107 lantern) → character-designer; 5화 dòng 282 → script-writer 5화 (P-53).
 - **Sau v2:** 287 SC / 40:00 giữ nguyên · narration 3.763 어절 (868 câu, 0 >15) · thoại 148 câu (0 >12; +1 SC_225) · combat KHỐI 885 s = 36,9 % / THUẦN 384 s = 16,0 %.
+- **v2.2 (TTS-trimmed):** `tools/tts_budget.py` → 25 SC vượt (video8s >22 어절 N+thoại) → cắt gọn narration ở SC_020, 021, 026, 036, 040, 044, 045, 054, 056, 094, 118, 126, 129, 134, 135, 146, 147, 156, 157, 160, 163, 190, 202, 253, 255 (−106 어절; câu lặp/nhìn thấy trên hình bị bỏ, số liệu và ý QC giữ; SC_255 rút còn "빈 철모는 한승우가 석문령에서 가지고 왔습니다. 해모루가 먼저 육백십이 년의 쇠를 씌웠습니다."). Kết quả: **0 SC vượt · 4.323 어절 tổng (N 3.657 + thoại 669) / 40:00 = 108,1 어절/phút** (≤115). Không chạm thoại/SC/thời gian/open loop/quotes/vùng im.
 
 ### D. Tự chấm 18 chỉ số benchmark (docs/benchmark_vs_reference.md) — 4화 script v1
 | # | Chỉ số | Mục tiêu | 4화 | Chấm |
