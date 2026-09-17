@@ -32,11 +32,15 @@ Agent không tự sửa foundation; đề xuất ghi `logs/proposals.md`.
 Thứ tự ưu tiên nguồn khi lệch: series_foundation > outline > resource_ledger > bible.
 Checklist NEW PROJECT: thị trường? ngôn ngữ đầu ra? khán giả? độ dài/tập? — hỏi nếu chưa có.
 
-## Lệnh điều khiển
-- `NEW PROJECT <NAME>` → tạo `projects/<NAME>/` (mục E) + 3 JSON state + `output/<epN>/`.
-- `REFRESH CHANNEL STYLE` → phân tích lại kênh.
-- `TIẾP TỤC` → viết đúng 1 phần kịch bản tiếp theo (template 01 §XVIII).
-- `GLABS RUN <stage> <epN>` → glabs-operator chạy refs / scenes / videos.
+## Lệnh điều khiển (slash commands trong `.claude/commands/`, học từ luongnv89/claude-howto)
+`/status` · `/new-project <TÊN> <concept>` · `/refresh-style` · `/script <N> [dense|trim|fix]` · `/qc <N>` · `/veo <N>` · `/package <N>` · `/glabs health|refs|scenes|videos|resume` · `/lessons <…>`.
+Dạng chữ cũ vẫn hiểu: `NEW PROJECT …`, `REFRESH CHANNEL STYLE`, `TIẾP TỤC`, `GLABS RUN …`.
+
+## Hooks (`.claude/settings.json` + `.claude/hooks/*.py`, chạy cả Mac/Windows)
+- PostToolUse Edit|Write → `tts_check.py`: sửa `full_script_epN.md` là tự chạy `tools/tts_budget.py`.
+- PreToolUse Bash → `secret_guard.py`: chặn lệnh đọc/in `config/glabs.env` (test: `python3 .claude/hooks/test_secret_guard.py`).
+- SessionStart → `session_start.py`: nạp tóm tắt `project_state.json` vào context.
+Memory tầng thư mục: `projects/<P>/CLAUDE.md` (quy tắc cứng + nguồn sự thật của project).
 
 ## Thư mục giao hàng
 `output/epN/{tieu_de,kich_ban,canh,final_video}/` — mirror từ `projects/` sau QC.
